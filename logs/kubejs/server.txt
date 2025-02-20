@@ -1,87 +1,87 @@
-[14:40:18] [INFO ] Loaded script server_scripts:jobin.js in 0.003 s
-[14:40:18] [INFO ] Loaded 1/1 KubeJS server scripts in 0.007 s
-[14:40:18] [INFO ] Scripts loaded
-[14:40:18] [INFO ] Scanning recipes...
-[14:40:19] [WARN ] Failed to parse recipe 'ends_delight:brewing/chorus_fruit_milk_tea[farmersrespite:brewing]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: farmersrespite:brewing
-[14:40:19] [WARN ] Failed to parse recipe ends_delight:brewing/chorus_fruit_milk_tea[farmersrespite:brewing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersrespite:brewing'
-[14:40:19] [WARN ] Failed to parse recipe 'byg:ametrine_chestplate[minecraft:smithing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item ''
-[14:40:19] [WARN ] Failed to parse recipe byg:ametrine_chestplate[minecraft:smithing]: com.google.gson.JsonSyntaxException: Unknown item ''
-[14:40:19] [WARN ] Failed to parse recipe 'ends_delight:brewing/chorus_flower_tea[farmersrespite:brewing]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: farmersrespite:brewing
-[14:40:19] [WARN ] Failed to parse recipe ends_delight:brewing/chorus_flower_tea[farmersrespite:brewing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersrespite:brewing'
-[14:40:19] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/repulsive_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
-[14:40:19] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/repulsive_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
-[14:40:19] [WARN ] Failed to parse recipe 'alexsdelight:barbecue_on_a_stick[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'amfd:singular_cooked_moose_rib'
-[14:40:19] [WARN ] Failed to parse recipe alexsdelight:barbecue_on_a_stick[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'amfd:singular_cooked_moose_rib'
-[14:40:19] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/seeker_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
-[14:40:19] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/seeker_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
-[14:40:19] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/prismarine_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
-[14:40:19] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/prismarine_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
-[14:40:19] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/hookshot_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
-[14:40:19] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/hookshot_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
-[14:40:19] [WARN ] Failed to parse recipe 'stellariscraft:forgedsparcrafting[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'stellariscraft:forgedspar'
-[14:40:19] [WARN ] Failed to parse recipe stellariscraft:forgedsparcrafting[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'stellariscraft:forgedspar'
-[14:40:19] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/ink_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
-[14:40:19] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/ink_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
-[14:40:19] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/soul_torch_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
-[14:40:19] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/soul_torch_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
-[14:40:19] [WARN ] Failed to parse recipe 'stellariscraft:evidencecraft[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'stellariscraft:deleted_mod_element'
-[14:40:19] [WARN ] Failed to parse recipe stellariscraft:evidencecraft[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'stellariscraft:deleted_mod_element'
-[14:40:19] [WARN ] Failed to parse recipe 'bosses_of_mass_destruction:levitation_block[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'stellarisdlc:w_knightingot'
-[14:40:19] [WARN ] Failed to parse recipe bosses_of_mass_destruction:levitation_block[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'stellarisdlc:w_knightingot'
-[14:40:19] [WARN ] Failed to parse recipe 'shieldexex:adamantite_tower_shield[minecraft:smithing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'enlightened_end:adamantite_ingot'
-[14:40:19] [WARN ] Failed to parse recipe shieldexex:adamantite_tower_shield[minecraft:smithing]: com.google.gson.JsonSyntaxException: Unknown item 'enlightened_end:adamantite_ingot'
-[14:40:19] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/torch_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
-[14:40:19] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/torch_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
-[14:40:19] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/echoing_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
-[14:40:19] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/echoing_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
-[14:40:19] [WARN ] Failed to parse recipe 'shieldexex:adamantite_shield[minecraft:smithing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'enlightened_end:adamantite_ingot'
-[14:40:19] [WARN ] Failed to parse recipe shieldexex:adamantite_shield[minecraft:smithing]: com.google.gson.JsonSyntaxException: Unknown item 'enlightened_end:adamantite_ingot'
-[14:40:19] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/split_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
-[14:40:19] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/split_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
-[14:40:19] [WARN ] Failed to parse recipe 'byg:ametrine_leggings[minecraft:smithing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item ''
-[14:40:19] [WARN ] Failed to parse recipe byg:ametrine_leggings[minecraft:smithing]: com.google.gson.JsonSyntaxException: Unknown item ''
-[14:40:19] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/teleportation_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
-[14:40:19] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/teleportation_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
-[14:40:19] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/drill_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
-[14:40:19] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/drill_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
-[14:40:19] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/reinforced_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
-[14:40:19] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/reinforced_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
-[14:40:19] [WARN ] Failed to parse recipe 'shieldexex:electrum_tower_shield[minecraft:smithing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'shieldexex:electrum_tower_shield'
-[14:40:19] [WARN ] Failed to parse recipe shieldexex:electrum_tower_shield[minecraft:smithing]: com.google.gson.JsonSyntaxException: Unknown item 'shieldexex:electrum_tower_shield'
-[14:40:19] [WARN ] Failed to parse recipe 'shieldexex:electrum_shield[minecraft:smithing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'shieldexex:electrum_shield'
-[14:40:19] [WARN ] Failed to parse recipe shieldexex:electrum_shield[minecraft:smithing]: com.google.gson.JsonSyntaxException: Unknown item 'shieldexex:electrum_shield'
-[14:40:19] [WARN ] Failed to parse recipe 'nock_enough_arrows:drill_arrow[nock_enough_arrows:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item ''
-[14:40:19] [WARN ] Failed to parse recipe nock_enough_arrows:drill_arrow[nock_enough_arrows:fletching]: com.google.gson.JsonSyntaxException: Unknown item ''
-[14:40:19] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/explosive_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
-[14:40:19] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/explosive_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
-[14:40:19] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/pufferfish_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
-[14:40:19] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/pufferfish_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
-[14:40:19] [WARN ] Failed to parse recipe 'byg:ametrine_helmet[minecraft:smithing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item ''
-[14:40:19] [WARN ] Failed to parse recipe byg:ametrine_helmet[minecraft:smithing]: com.google.gson.JsonSyntaxException: Unknown item ''
-[14:40:19] [WARN ] Failed to parse recipe 'ends_delight:brewing/bubble_tea[farmersrespite:brewing]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: farmersrespite:brewing
-[14:40:19] [WARN ] Failed to parse recipe ends_delight:brewing/bubble_tea[farmersrespite:brewing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersrespite:brewing'
-[14:40:19] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/blossom_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
-[14:40:19] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/blossom_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
-[14:40:19] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/slime_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
-[14:40:19] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/slime_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
-[14:40:19] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/party_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
-[14:40:19] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/party_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
-[14:40:19] [WARN ] Failed to parse recipe 'nock_enough_arrows:repulsive_arrow[nock_enough_arrows:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item ''
-[14:40:19] [WARN ] Failed to parse recipe nock_enough_arrows:repulsive_arrow[nock_enough_arrows:fletching]: com.google.gson.JsonSyntaxException: Unknown item ''
-[14:40:19] [WARN ] Failed to parse recipe 'byg:ametrine_boots[minecraft:smithing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item ''
-[14:40:19] [WARN ] Failed to parse recipe byg:ametrine_boots[minecraft:smithing]: com.google.gson.JsonSyntaxException: Unknown item ''
-[14:40:19] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/redstone_torch_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
-[14:40:19] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/redstone_torch_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
-[14:40:19] [WARN ] Failed to parse recipe 'nock_enough_arrows:explosive_arrow[nock_enough_arrows:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item ''
-[14:40:19] [WARN ] Failed to parse recipe nock_enough_arrows:explosive_arrow[nock_enough_arrows:fletching]: com.google.gson.JsonSyntaxException: Unknown item ''
-[14:40:19] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/dousing_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
-[14:40:19] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/dousing_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
-[14:40:19] [WARN ] Failed to parse recipe 'shieldexp:griefer_shield[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'savage_and_ravage:blast_proof_plating'
-[14:40:19] [WARN ] Failed to parse recipe shieldexp:griefer_shield[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'savage_and_ravage:blast_proof_plating'
-[14:40:19] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/message_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
-[14:40:19] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/message_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
-[14:40:19] [INFO ] Found 7079 recipes and 0 failed recipes in 146.8 ms
-[14:40:19] [INFO ] Posted recipe events in 1.812 ms
-[14:40:19] [INFO ] Modified & removed recipes in 84.50 ms
-[14:40:19] [INFO ] Added recipes in 1.022 ms
-[14:40:19] [INFO ] Added 14 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes
+[16:07:10] [INFO ] Loaded script server_scripts:jobin.js in 0.003 s
+[16:07:10] [INFO ] Loaded 1/1 KubeJS server scripts in 0.007 s
+[16:07:10] [INFO ] Scripts loaded
+[16:07:10] [INFO ] Scanning recipes...
+[16:07:11] [WARN ] Failed to parse recipe 'ends_delight:brewing/chorus_fruit_milk_tea[farmersrespite:brewing]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: farmersrespite:brewing
+[16:07:11] [WARN ] Failed to parse recipe ends_delight:brewing/chorus_fruit_milk_tea[farmersrespite:brewing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersrespite:brewing'
+[16:07:11] [WARN ] Failed to parse recipe 'byg:ametrine_chestplate[minecraft:smithing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item ''
+[16:07:11] [WARN ] Failed to parse recipe byg:ametrine_chestplate[minecraft:smithing]: com.google.gson.JsonSyntaxException: Unknown item ''
+[16:07:11] [WARN ] Failed to parse recipe 'ends_delight:brewing/chorus_flower_tea[farmersrespite:brewing]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: farmersrespite:brewing
+[16:07:11] [WARN ] Failed to parse recipe ends_delight:brewing/chorus_flower_tea[farmersrespite:brewing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersrespite:brewing'
+[16:07:11] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/repulsive_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
+[16:07:11] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/repulsive_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
+[16:07:11] [WARN ] Failed to parse recipe 'alexsdelight:barbecue_on_a_stick[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'amfd:singular_cooked_moose_rib'
+[16:07:11] [WARN ] Failed to parse recipe alexsdelight:barbecue_on_a_stick[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'amfd:singular_cooked_moose_rib'
+[16:07:11] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/seeker_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
+[16:07:11] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/seeker_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
+[16:07:11] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/prismarine_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
+[16:07:11] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/prismarine_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
+[16:07:11] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/hookshot_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
+[16:07:11] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/hookshot_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
+[16:07:11] [WARN ] Failed to parse recipe 'stellariscraft:forgedsparcrafting[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'stellariscraft:forgedspar'
+[16:07:11] [WARN ] Failed to parse recipe stellariscraft:forgedsparcrafting[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'stellariscraft:forgedspar'
+[16:07:11] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/ink_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
+[16:07:11] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/ink_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
+[16:07:11] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/soul_torch_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
+[16:07:11] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/soul_torch_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
+[16:07:11] [WARN ] Failed to parse recipe 'stellariscraft:evidencecraft[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'stellariscraft:deleted_mod_element'
+[16:07:11] [WARN ] Failed to parse recipe stellariscraft:evidencecraft[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'stellariscraft:deleted_mod_element'
+[16:07:11] [WARN ] Failed to parse recipe 'bosses_of_mass_destruction:levitation_block[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'stellarisdlc:w_knightingot'
+[16:07:11] [WARN ] Failed to parse recipe bosses_of_mass_destruction:levitation_block[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'stellarisdlc:w_knightingot'
+[16:07:11] [WARN ] Failed to parse recipe 'shieldexex:adamantite_tower_shield[minecraft:smithing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'enlightened_end:adamantite_ingot'
+[16:07:11] [WARN ] Failed to parse recipe shieldexex:adamantite_tower_shield[minecraft:smithing]: com.google.gson.JsonSyntaxException: Unknown item 'enlightened_end:adamantite_ingot'
+[16:07:11] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/torch_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
+[16:07:11] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/torch_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
+[16:07:11] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/echoing_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
+[16:07:11] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/echoing_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
+[16:07:11] [WARN ] Failed to parse recipe 'shieldexex:adamantite_shield[minecraft:smithing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'enlightened_end:adamantite_ingot'
+[16:07:11] [WARN ] Failed to parse recipe shieldexex:adamantite_shield[minecraft:smithing]: com.google.gson.JsonSyntaxException: Unknown item 'enlightened_end:adamantite_ingot'
+[16:07:11] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/split_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
+[16:07:11] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/split_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
+[16:07:11] [WARN ] Failed to parse recipe 'byg:ametrine_leggings[minecraft:smithing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item ''
+[16:07:11] [WARN ] Failed to parse recipe byg:ametrine_leggings[minecraft:smithing]: com.google.gson.JsonSyntaxException: Unknown item ''
+[16:07:11] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/teleportation_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
+[16:07:11] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/teleportation_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
+[16:07:11] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/drill_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
+[16:07:11] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/drill_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
+[16:07:11] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/reinforced_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
+[16:07:11] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/reinforced_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
+[16:07:11] [WARN ] Failed to parse recipe 'shieldexex:electrum_tower_shield[minecraft:smithing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'shieldexex:electrum_tower_shield'
+[16:07:11] [WARN ] Failed to parse recipe shieldexex:electrum_tower_shield[minecraft:smithing]: com.google.gson.JsonSyntaxException: Unknown item 'shieldexex:electrum_tower_shield'
+[16:07:11] [WARN ] Failed to parse recipe 'shieldexex:electrum_shield[minecraft:smithing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'shieldexex:electrum_shield'
+[16:07:11] [WARN ] Failed to parse recipe shieldexex:electrum_shield[minecraft:smithing]: com.google.gson.JsonSyntaxException: Unknown item 'shieldexex:electrum_shield'
+[16:07:11] [WARN ] Failed to parse recipe 'nock_enough_arrows:drill_arrow[nock_enough_arrows:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item ''
+[16:07:11] [WARN ] Failed to parse recipe nock_enough_arrows:drill_arrow[nock_enough_arrows:fletching]: com.google.gson.JsonSyntaxException: Unknown item ''
+[16:07:11] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/explosive_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
+[16:07:11] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/explosive_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
+[16:07:11] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/pufferfish_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
+[16:07:11] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/pufferfish_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
+[16:07:11] [WARN ] Failed to parse recipe 'byg:ametrine_helmet[minecraft:smithing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item ''
+[16:07:11] [WARN ] Failed to parse recipe byg:ametrine_helmet[minecraft:smithing]: com.google.gson.JsonSyntaxException: Unknown item ''
+[16:07:11] [WARN ] Failed to parse recipe 'ends_delight:brewing/bubble_tea[farmersrespite:brewing]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: farmersrespite:brewing
+[16:07:11] [WARN ] Failed to parse recipe ends_delight:brewing/bubble_tea[farmersrespite:brewing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersrespite:brewing'
+[16:07:11] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/blossom_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
+[16:07:11] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/blossom_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
+[16:07:11] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/slime_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
+[16:07:11] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/slime_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
+[16:07:11] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/party_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
+[16:07:11] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/party_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
+[16:07:11] [WARN ] Failed to parse recipe 'nock_enough_arrows:repulsive_arrow[nock_enough_arrows:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item ''
+[16:07:11] [WARN ] Failed to parse recipe nock_enough_arrows:repulsive_arrow[nock_enough_arrows:fletching]: com.google.gson.JsonSyntaxException: Unknown item ''
+[16:07:11] [WARN ] Failed to parse recipe 'byg:ametrine_boots[minecraft:smithing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item ''
+[16:07:11] [WARN ] Failed to parse recipe byg:ametrine_boots[minecraft:smithing]: com.google.gson.JsonSyntaxException: Unknown item ''
+[16:07:11] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/redstone_torch_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
+[16:07:11] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/redstone_torch_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
+[16:07:11] [WARN ] Failed to parse recipe 'nock_enough_arrows:explosive_arrow[nock_enough_arrows:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item ''
+[16:07:11] [WARN ] Failed to parse recipe nock_enough_arrows:explosive_arrow[nock_enough_arrows:fletching]: com.google.gson.JsonSyntaxException: Unknown item ''
+[16:07:11] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/dousing_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
+[16:07:11] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/dousing_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
+[16:07:11] [WARN ] Failed to parse recipe 'shieldexp:griefer_shield[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'savage_and_ravage:blast_proof_plating'
+[16:07:11] [WARN ] Failed to parse recipe shieldexp:griefer_shield[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'savage_and_ravage:blast_proof_plating'
+[16:07:11] [WARN ] Failed to parse recipe 'nock_enough_arrows:apotheosis/message_arrow[apotheosis:fletching]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown condition type: apotheosis:module
+[16:07:11] [WARN ] Failed to parse recipe nock_enough_arrows:apotheosis/message_arrow[apotheosis:fletching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'apotheosis:fletching'
+[16:07:11] [INFO ] Found 7079 recipes and 0 failed recipes in 114.8 ms
+[16:07:11] [INFO ] Posted recipe events in 1.924 ms
+[16:07:11] [INFO ] Modified & removed recipes in 116.3 ms
+[16:07:11] [INFO ] Added recipes in 1.093 ms
+[16:07:11] [INFO ] Added 14 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes

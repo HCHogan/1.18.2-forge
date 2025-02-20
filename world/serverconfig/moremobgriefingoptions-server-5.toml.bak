@@ -1,7 +1,9 @@
 
 #MobGriefing settings
 [mobGriefing]
-	"creeperoverhaul:jungle_creeper" = "FALSE"
-	"creeperoverhaul:spruce_creeper" = "FALSE"
-	"creeperoverhaul:swamp_creeper" = "FALSE"
+	"ba_bt:ocean_golem" = "FALSE"
+	"ba_bt:core_golem" = "FALSE"
+	"ba_bt:nether_golem" = "FALSE"
+	"ba_bt:end_golem" = "FALSE"
+	"ba_bt:land_golem" = "FALSE"
 

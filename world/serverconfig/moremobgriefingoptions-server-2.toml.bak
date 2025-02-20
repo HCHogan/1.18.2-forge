@@ -1,9 +1,7 @@
 
 #MobGriefing settings
 [mobGriefing]
-	"ba_bt:ocean_golem" = "FALSE"
-	"ba_bt:core_golem" = "FALSE"
-	"ba_bt:nether_golem" = "FALSE"
-	"ba_bt:end_golem" = "FALSE"
-	"ba_bt:land_golem" = "FALSE"
+	"isleofberk:monstrous_nightmare" = "FALSE"
+	"isleofberk:nadder_spike" = "FALSE"
+	"isleofberk:night_fury" = "FALSE"
 

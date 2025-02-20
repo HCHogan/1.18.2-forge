@@ -1,657 +1,657 @@
-[14:40:09.208][INFO]: Successfully identified and loaded plugin jeitweaker:default
-[14:40:09.213][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
-[14:40:09.214][INFO]: Successfully identified and loaded plugin crafttweaker:builtin_forge
-[14:40:09.742][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
-[14:40:09.743][INFO]: - 'aquaculture' at version '1.18.2-2.3.12'
-[14:40:09.743][INFO]: - 'crafttweaker' at version '9.1.203'
-[14:40:09.743][INFO]: - 'farmersdelight' at version '1.18.2-1.2.3'
-[14:40:09.743][INFO]: - 'gamestages' at version '8.1.3'
-[14:40:09.743][INFO]: - 'itemstages' at version '4.0.5'
-[14:40:09.743][INFO]: - 'jeitweaker' at version '3.0.0.9'
-[14:40:12.452][INFO]: Started loading scripts for loader 'initialize'
-[14:40:12.615][INFO]: Compiling and executing scripts
-[14:40:12.630][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[14:40:12.681][INFO]: Execution for loader 'initialize' completed successfully
-[14:40:16.504][INFO]: Started loading scripts for loader 'tags'
-[14:40:16.517][INFO]: Compiling and executing scripts
-[14:40:16.524][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[14:40:16.529][INFO]: Execution for loader 'tags' completed successfully
-[14:40:17.617][INFO]: Started loading scripts for loader 'crafttweaker'
-[14:40:17.629][INFO]: Compiling and executing scripts
-[14:40:17.817][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[14:40:17.819][INFO]: Loading file 'crafting.zs' with priority 0
-[14:40:17.858][INFO]: Loading file 'gamestage.zs' with priority 0
-[14:40:17.859][INFO]: Loading file 'jei.zs' with priority 0
-[14:40:17.946][INFO]: Removing "minecraft:crafting" recipes with modid: "irons_spellbooks"
-[14:40:17.948][INFO]: Removing "minecraft:smithing" recipes with modid: "irons_spellbooks"
-[14:40:17.950][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@50fa3b3c'
-[14:40:17.956][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:anvil_upgrade' that outputs: '<item:sophisticatedbackpacks:anvil_upgrade>'
-[14:40:17.957][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:mysterious_worm' that outputs: '<item:alexsmobs:mysterious_worm>'
-[14:40:17.958][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:music_disc_daze' that outputs: '<item:alexsmobs:music_disc_daze>'
-[14:40:17.958][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:magic_cloth' that outputs: '<item:irons_spellbooks:magic_cloth>'
-[14:40:17.958][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:arcane_ingot' that outputs: '<item:irons_spellbooks:arcane_ingot>'
-[14:40:17.959][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
-[14:40:17.959][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
-[14:40:17.959][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
-[14:40:17.959][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
-[14:40:17.959][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
-[14:40:17.959][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
-[14:40:17.959][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
-[14:40:17.959][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
-[14:40:17.959][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
-[14:40:17.959][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
-[14:40:17.959][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.959][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.959][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.959][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.959][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.959][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.959][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.959][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.959][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.959][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.959][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.959][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.959][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.959][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.959][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.959][INFO]: Removing 'smithing' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@63204954'
-[14:40:17.962][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.962][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.962][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.962][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.962][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.962][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.962][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.962][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.962][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.962][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.962][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.962][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.962][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.962][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.962][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.962][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.962][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.962][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.962][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:17.963][INFO]: Removing Brewing recipes that have an input of: <potion:minecraft:weakness>, output of: <potion:minecraft:long_weakness> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@f7bcdd5c
-[14:40:17.963][INFO]: [ItemStages] Creating new restriction for stages [unlock_davepotion].
-[14:40:17.963][INFO]: [ItemStages] Creating new restriction for stages [unlock_davepotion].
-[14:40:17.963][INFO]: [ItemStages] Creating new restriction for stages [unlock_davepotion].
-[14:40:17.963][INFO]: [ItemStages] Creating new restriction for stages [unlock_davepotion].
-[14:40:17.963][INFO]: [ItemStages] Creating new restriction for stages [unlock_davepotion].
-[14:40:17.963][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@9023c1bd'
-[14:40:17.965][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@b225c1c2'
-[14:40:17.967][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@bd1dda09'
-[14:40:17.969][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@7a9180e8'
-[14:40:17.970][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@70326218'
-[14:40:17.972][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:staff' that outputs: '<item:wukong:staff>'
-[14:40:17.972][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:jingubang' that outputs: '<item:wukong:jingubang>'
-[14:40:17.972][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:peter' that outputs: '<item:stellarisdlc:peter>'
-[14:40:17.974][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:heartfelt1' that outputs: '<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: "miningmaster:heartfelt" as string}]})'
-[14:40:17.974][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:heartfelt2' that outputs: '<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: "miningmaster:heartfelt" as string}]})'
-[14:40:17.975][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:heartfelt3' that outputs: '<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: "miningmaster:heartfelt" as string}]})'
-[14:40:17.975][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:heartfelt4' that outputs: '<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 4 as short, id: "miningmaster:heartfelt" as string}]})'
-[14:40:17.975][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:phantom_ascent' that outputs: '<item:epicfight:skillbook>.withTag({skill: "epicfight:phantom_ascent" as string})'
-[14:40:17.975][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:double_jump' that outputs: '<item:epicfight:skillbook>.withTag({skill: "star:double_jump" as string})'
-[14:40:17.975][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:forbidden_strength' that outputs: '<item:epicfight:skillbook>.withTag({skill: "epicfight:forbidden_strength" as string})'
-[14:40:17.975][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:see_through' that outputs: '<item:epicfight:skillbook>.withTag({skill: "star:see_through" as string})'
-[14:40:17.976][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:heartseacharge' that outputs: '<item:stellariscraft:heartseacharge>'
-[14:40:17.976][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:infinitysponge' that outputs: '<item:stellariscraft:infinitysponge>'
-[14:40:17.976][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:rebuild_crystal' that outputs: '<item:stellarisdlc:rebuild_crystal>'
-[14:40:17.976][INFO]: Removing 'smithing' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@fa5ccfa9'
-[14:40:17.976][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:soulsickle' that outputs: '<item:stellarisdlc:soulsickle>'
-[14:40:17.976][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sickle' that outputs: '<item:stellarisdlc:sickle>'
-[14:40:17.977][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@4dd14abf'
-[14:40:17.978][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@1b105222'
-[14:40:17.980][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@1a5513a0'
-[14:40:17.982][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@a9d58006'
-[14:40:17.984][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@acc4f36c'
-[14:40:17.985][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:potion_injector' that outputs: '<item:davespotioneering:potion_injector>'
-[14:40:17.986][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compound_brewing_stand' that outputs: '<item:davespotioneering:compound_brewing_stand>'
-[14:40:17.986][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:reinforced_cauldron' that outputs: '<item:davespotioneering:reinforced_cauldron>'
-[14:40:17.986][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:potioneer_to_guard' that outputs: '<item:cataclysm:gauntlet_of_guard>'
-[14:40:17.986][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:netherite_to_potioneer' that outputs: '<item:davespotioneering:potioneer_gauntlet>.withDamage(32)'
-[14:40:17.986][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:glove_to_rudimentary' that outputs: '<item:davespotioneering:rudimentary_gauntlet>'
-[14:40:17.986][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:chipped2perfect' that outputs: '<item:minecraft:anvil>'
-[14:40:17.986][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:damaged2chipped' that outputs: '<item:minecraft:chipped_anvil>'
-[14:40:17.986][INFO]: Removing 'smithing' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@49b3fb21'
-[14:40:17.987][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:netheritess2netherite_scrap' that outputs: '<item:minecraft:netherite_scrap> * 2'
-[14:40:17.987][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tiestone_armor_helmet' that outputs: '<item:stellarisdlc:tiestone_armor_helmet>'
-[14:40:17.987][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tiestone_armor_chestplate' that outputs: '<item:stellarisdlc:tiestone_armor_chestplate>'
-[14:40:17.988][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tiestone_armor_leggings' that outputs: '<item:stellarisdlc:tiestone_armor_leggings>'
-[14:40:17.988][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tiestone_armor_boots' that outputs: '<item:stellarisdlc:tiestone_armor_boots>'
-[14:40:17.988][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:blackstone' that outputs: '<item:minecraft:blackstone> * 8'
-[14:40:17.988][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:diamond_heart2' that outputs: '<item:minecraft:lapis_block> * 4'
-[14:40:17.988][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:blacknetherstar' that outputs: '<item:stellariscraft:blacknetherstar>'
-[14:40:17.988][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:wither_skeleton_skull1' that outputs: '<item:minecraft:wither_skeleton_skull> * 6'
-[14:40:17.988][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:wither_skeleton_skull2' that outputs: '<item:minecraft:wither_skeleton_skull> * 3'
-[14:40:17.989][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@44ee7825'
-[14:40:17.990][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@5160bb36'
-[14:40:17.992][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@62605f44'
-[14:40:17.993][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@2a6eedbb'
-[14:40:17.994][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@71a82ea5'
-[14:40:17.995][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:quiver' that outputs: '<item:supplementaries:quiver>'
-[14:40:17.995][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@34caf336'
-[14:40:17.996][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:pickarang' that outputs: '<item:quark:pickarang>'
-[14:40:17.996][INFO]: Removing 'smithing' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@c02e63ec'
-[14:40:17.996][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:flamerang' that outputs: '<item:quark:flamerang>'
-[14:40:17.997][INFO]: Adding 'minecraft:stonecutting' recipe, with name: 'crafttweaker:armor2diamond' that outputs: '<item:minecraft:diamond>'
-[14:40:17.997][INFO]: Adding 'minecraft:stonecutting' recipe, with name: 'crafttweaker:armor2iron' that outputs: '<item:minecraft:iron_ingot> * 2'
-[14:40:17.997][INFO]: Adding 'minecraft:stonecutting' recipe, with name: 'crafttweaker:armor2gold' that outputs: '<item:minecraft:gold_ingot> * 3'
-[14:40:17.997][INFO]: Adding 'minecraft:stonecutting' recipe, with name: 'crafttweaker:iron_horsearmor' that outputs: '<item:minecraft:iron_ingot> * 2'
-[14:40:17.997][INFO]: Adding 'minecraft:stonecutting' recipe, with name: 'crafttweaker:gold_horsearmor' that outputs: '<item:minecraft:gold_ingot> * 2'
-[14:40:17.997][INFO]: Adding 'minecraft:stonecutting' recipe, with name: 'crafttweaker:diamond_horsearmor' that outputs: '<item:minecraft:diamond> * 2'
-[14:40:17.998][INFO]: Adding 'minecraft:blasting' recipe, with name: 'crafttweaker:iron_block2steelingot' that outputs: '<item:stellariscraft:steelingot>'
-[14:40:17.998][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:fightswordaxe' that outputs: '<item:stellariscraft:fightswordaxe>'
-[14:40:17.998][INFO]: Removing 'blasting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@7ffe8e4b'
-[14:40:17.998][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:ametrine_gems' that outputs: '<item:byg:ametrine_gems> * 15'
-[14:40:17.998][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:enderite_ingot' that outputs: '<item:cataclysm:enderite_ingot> * 2'
-[14:40:17.998][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@cc4dfa9a'
-[14:40:18.000][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:netherrotingot' that outputs: '<item:stellariscraft:netherrotingot>'
-[14:40:18.000][INFO]: Removing 'smithing' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@83b5242'
-[14:40:18.000][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:deadingot' that outputs: '<item:stellariscraft:deadingot>'
-[14:40:18.000][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:witherite_ingot' that outputs: '<item:cataclysm:witherite_ingot>'
-[14:40:18.000][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:witherite_block' that outputs: '<item:cataclysm:witherite_block>'
-[14:40:18.000][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:witherite_block2ingot' that outputs: '<item:cataclysm:witherite_ingot> * 9'
-[14:40:18.001][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:uchigatana' that outputs: '<item:epicfight:uchigatana>'
-[14:40:18.001][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:rotgreatsword' that outputs: '<item:stellarisdlc:rotgreatsword>'
-[14:40:18.001][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@6076e8ee'
-[14:40:18.002][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:the_incinerator' that outputs: '<item:cataclysm:the_incinerator>'
-[14:40:18.002][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:final_fractal' that outputs: '<item:cataclysm:final_fractal>'
-[14:40:18.002][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:alchemy_table' that outputs: '<item:blue_skies:alchemy_table>'
-[14:40:18.002][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:summoning_table' that outputs: '<item:blue_skies:summoning_table>'
-[14:40:18.002][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@96f86166'
-[14:40:18.003][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@64414758'
-[14:40:18.004][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@df258e12'
-[14:40:18.005][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:pkey' that outputs: '<item:stellariscraft:pkey>'
-[14:40:18.005][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mkey' that outputs: '<item:stellariscraft:mkey>'
-[14:40:18.005][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ukey' that outputs: '<item:stellariscraft:ukey>'
-[14:40:18.005][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@d3aa1430'
-[14:40:18.006][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:forgedspar' that outputs: '<item:stellarisdlc:forgedspar> * 2'
-[14:40:18.006][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:adgrain2forgedspar' that outputs: '<item:stellariscraft:adventurespar>'
-[14:40:18.006][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:reinforcedspar' that outputs: '<item:stellarisdlc:reinforcedspar> * 4'
-[14:40:18.007][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@805ff656'
-[14:40:18.007][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:xp_tome' that outputs: '<item:xpbook:xp_tome>'
-[14:40:18.007][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:experience_bottle' that outputs: '<item:minecraft:experience_bottle> * 16'
-[14:40:18.008][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:starpendant' that outputs: '<item:stellarisdlc:starpendant>'
-[14:40:18.008][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@66441c26'
-[14:40:18.008][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@3c06d005'
-[14:40:18.008][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@de511365'
-[14:40:18.009][INFO]: Removing "minecraft:crafting" recipes with modid: "waystones"
-[14:40:18.009][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@923c4260'
-[14:40:18.010][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@f537e545'
-[14:40:18.010][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@feafa60b'
-[14:40:18.011][INFO]: Removing 'smithing' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@2ae1652a'
-[14:40:18.011][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@8510c99c'
-[14:40:18.011][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@8b7d8989'
-[14:40:18.012][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:fish_to_ink' that outputs: '<item:minecraft:ink_sac>'
-[14:40:18.012][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sack' that outputs: '<item:supplementaries:sack>'
-[14:40:18.012][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@979c4fa6'
-[14:40:18.012][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@67a8d12c'
-[14:40:18.013][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@d59004a5'
-[14:40:18.014][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:blood_sprayer' that outputs: '<item:alexsmobs:blood_sprayer>'
-[14:40:18.014][INFO]: Removing "minecraft:crafting" recipe with names that match the regex: ".*umbrella.*"
-[14:40:18.017][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:warp_scroll' that outputs: '<item:waystones:warp_scroll> * 4'
-[14:40:18.017][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@26ea5be5'
-[14:40:18.018][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@36632f4c'
-[14:40:18.019][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:explorerscompass' that outputs: '<item:explorerscompass:explorerscompass>'
-[14:40:18.019][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:naturescompass' that outputs: '<item:naturescompass:naturescompass>'
-[14:40:18.020][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@d8ae34fe'
-[14:40:18.020][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:disenchanter' that outputs: '<item:disenchanting:disenchanter>'
-[14:40:18.020][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@cc7744ad'
-[14:40:18.021][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tool_leveling_table' that outputs: '<item:toolleveling:tool_leveling_table>'
-[14:40:18.021][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:symmetryspear' that outputs: '<item:stellarisdlc:symmetryspear>'
-[14:40:18.021][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:ignitium_ingot' that outputs: '<item:cataclysm:ignitium_ingot> * 2'
-[14:40:18.021][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:diamond' that outputs: '<item:minecraft:diamond> * 3'
-[14:40:18.022][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:voidaxe' that outputs: '<item:stellariscraft:voidaxe>'
-[14:40:18.022][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:flayer' that outputs: '<item:stellarisdlc:flayer>'
-[14:40:18.022][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:deadheart' that outputs: '<item:stellariscraft:deadheart>'
-[14:40:18.022][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@5bd14862'
-[14:40:18.023][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:enchanting_table' that outputs: '<item:minecraft:enchanting_table>'
-[14:40:18.023][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:fried_egg' that outputs: '<item:incubation:fried_egg>'
-[14:40:18.023][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@c6d23b3f'
-[14:40:18.023][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:evidencenether_2' that outputs: '<item:stellarisdlc:evidencenether_2>'
-[14:40:18.024][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:evidencenether_1' that outputs: '<item:stellarisdlc:evidencenether_1>'
-[14:40:18.024][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:evidencestar_2' that outputs: '<item:stellarisdlc:evidencestar_2>'
-[14:40:18.024][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:evidencestar_1' that outputs: '<item:stellarisdlc:evidencestar_1>'
-[14:40:18.024][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:sunstone_block' that outputs: '<item:blue_skies:sunstone_block>'
-[14:40:18.024][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:evidenceskies_1' that outputs: '<item:stellarisdlc:evidenceskies_1>'
-[14:40:18.024][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:evidenceskies_2' that outputs: '<item:stellarisdlc:evidenceskies_2>'
-[14:40:18.024][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:evidenceadventure_2' that outputs: '<item:stellarisdlc:evidenceadventure_2>'
-[14:40:18.024][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:evidenceadventure_1' that outputs: '<item:stellarisdlc:evidenceadventure_1>'
-[14:40:18.025][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:exchangestonecore' that outputs: '<item:stellarisdlc:exchangestonecore>'
-[14:40:18.025][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:superhealth' that outputs: '<item:stellariscraft:superhealth>'
-[14:40:18.025][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@c644cbd1'
-[14:40:18.025][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:relic_apple' that outputs: '<item:bhc:relic_apple>'
-[14:40:18.026][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@c7c4de53'
-[14:40:18.026][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:red_heart_canister' that outputs: '<item:bhc:red_heart_canister>'
-[14:40:18.026][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@d839669e'
-[14:40:18.027][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:yellow_heart_canister' that outputs: '<item:bhc:yellow_heart_canister>'
-[14:40:18.027][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@f2263ee9'
-[14:40:18.027][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:green_heart_canister' that outputs: '<item:bhc:green_heart_canister>'
-[14:40:18.027][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@c37233b0'
-[14:40:18.028][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:blue_heart_canister' that outputs: '<item:bhc:blue_heart_canister>'
-[14:40:18.028][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@5292c88b'
-[14:40:18.028][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:bomb' that outputs: '<item:supplementaries:bomb>'
-[14:40:18.028][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ankh_charm' that outputs: '<item:omnis:ankh_charm>'
-[14:40:18.029][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:dragonfalchion' that outputs: '<item:stellarisdlc:dragonfalchion>'
-[14:40:18.029][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:phoenixspear' that outputs: '<item:stellarisdlc:phoenixspear>'
-[14:40:18.029][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@e04a435b'
-[14:40:18.029][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@d857b08b'
-[14:40:18.030][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:pearl_necklace_2' that outputs: '<item:crittersandcompanions:pearl_necklace_2>'
-[14:40:18.030][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:pearl_necklace_3' that outputs: '<item:crittersandcompanions:pearl_necklace_3>'
-[14:40:18.030][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:saber' that outputs: '<item:stellarisdlc:saber>'
-[14:40:18.030][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:liesnow' that outputs: '<item:stellariscraft:liesnow>'
-[14:40:18.030][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@6000a866'
-[14:40:18.031][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:omelet1' that outputs: '<item:s33r_more_food:omelet> * 4'
-[14:40:18.031][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:omelet2' that outputs: '<item:s33r_more_food:omelet> * 2'
-[14:40:18.031][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:omelet3' that outputs: '<item:s33r_more_food:omelet> * 2'
-[14:40:18.031][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@58153737'
-[14:40:18.032][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:neptunium_chestplate' that outputs: '<item:aquaculture:neptunium_chestplate>'
-[14:40:18.032][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@4118a3c8'
-[14:40:18.032][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:neptunium_helmet' that outputs: '<item:aquaculture:neptunium_helmet>'
-[14:40:18.032][INFO]: Adding 'minecraft:blasting' recipe, with name: 'crafttweaker:neptunes_bounty2neptunium_ingot' that outputs: '<item:aquaculture:neptunium_ingot> * 2'
-[14:40:18.033][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:groundcrackhammer' that outputs: '<item:stellarisdlc:groundcrackhammer>'
-[14:40:18.033][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:dragonspear' that outputs: '<item:stellarisdlc:dragonspear>'
-[14:40:18.033][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@4d22ffe1'
-[14:40:18.034][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:trident' that outputs: '<item:minecraft:trident>'
-[14:40:18.034][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ring_sponge' that outputs: '<item:ringsofascension:ring_sponge>'
-[14:40:18.034][INFO]: Removing 'smelting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@78ba13c1'
-[14:40:18.048][INFO]: Adding 'minecraft:smelting' recipe, with name: 'crafttweaker:wet_sponge2sponge' that outputs: '<item:minecraft:sponge>'
-[14:40:18.048][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@566f80a'
-[14:40:18.050][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:overweight_golden_apple_block' that outputs: '<item:overweight_farming:overweight_golden_apple_block>'
-[14:40:18.050][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@606d29c3'
-[14:40:18.051][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:stack_upgrade_tier_4' that outputs: '<item:sophisticatedbackpacks:stack_upgrade_tier_4>'
-[14:40:18.053][INFO]: Adding a brewing recipe. output: com.blamejared.crafttweaker.api.item.MCItemStackMutable@ec84d423, input: com.blamejared.crafttweaker.api.item.MCItemStack@501d216 and ingredient: com.blamejared.crafttweaker.api.item.MCItemStack@847db57b
-[14:40:18.053][INFO]: Removing Brewing recipes that have an input of: <potion:minecraft:awkward>, output of: <potion:minecraft:turtle_master> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@6dad3e8e
-[14:40:18.053][INFO]: Removing Brewing recipes that have an input of: <potion:minecraft:slowness>, output of: <potion:minecraft:strong_slowness> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@2c8a6b9b
-[14:40:18.053][INFO]: Removing Brewing recipes that have an input of: <potion:minecraft:swiftness>, output of: <potion:minecraft:strong_swiftness> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@2c8a6b9b
-[14:40:18.053][INFO]: Removing Brewing recipes that have an input of: <potion:minecraft:strong_swiftness>, output of: <potion:alexsmobs:speed_iii> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@37fe772b
-[14:40:18.053][INFO]: Removing Brewing recipes that have an input of: <potion:minecraft:weakness>, output of: <potion:minecraft:long_weakness> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@f7bcdd5c
-[14:40:18.053][INFO]: Removing Brewing recipes that have an input of: <potion:alexsmobs:soulsteal>, output of: <potion:alexsmobs:strong_soulsteal> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@2c8a6b9b
-[14:40:18.053][INFO]: Removing Brewing recipes that have an input of: <potion:minecraft:awkward>, output of: <potion:alexsmobs:soulsteal> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@4e88921b
-[14:40:18.053][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:durandal' that outputs: '<item:stellariscraft:durandal>'
-[14:40:18.054][INFO]: Registering event listener for Finish.
-[14:40:18.054][INFO]: Registering event listener for Finish.
-[14:40:18.054][INFO]: Registering event listener for Finish.
-[14:40:18.054][INFO]: Registering event listener for Finish.
-[14:40:18.054][INFO]: Registering event listener for Finish.
-[14:40:18.054][INFO]: Registering event listener for Finish.
-[14:40:18.054][INFO]: Registering event listener for Finish.
-[14:40:18.054][INFO]: Registering event listener for Finish.
-[14:40:18.054][INFO]: Registering event listener for Finish.
-[14:40:18.055][INFO]: Registering event listener for RightClickItem.
-[14:40:18.055][INFO]: Adding a brewing recipe. output: com.blamejared.crafttweaker.api.item.MCItemStackMutable@9f021907, input: com.blamejared.crafttweaker.api.item.MCItemStack@36350e17 and ingredient: com.blamejared.crafttweaker.api.item.MCItemStack@81d6ce6a
-[14:40:18.055][INFO]: Adding a brewing recipe. output: com.blamejared.crafttweaker.api.item.MCItemStackMutable@bcac0201, input: com.blamejared.crafttweaker.api.item.MCItemStack@9f021907 and ingredient: com.blamejared.crafttweaker.api.item.MCItemStack@48a72a5
-[14:40:18.055][INFO]: Removing Brewing recipes that have an input of: <potion:minecraft:regeneration>, output of: <potion:epicfight:blooming> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@6a6a60d2
-[14:40:18.055][INFO]: Adding a brewing recipe. output: com.blamejared.crafttweaker.api.item.MCItemStackMutable@36350e17, input: com.blamejared.crafttweaker.api.item.MCItemStack@8735b6c5 and ingredient: com.blamejared.crafttweaker.api.item.MCItemStack@28e2ea50
-[14:40:18.056][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@6dad3e8e'
-[14:40:18.057][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:xiachenghufu' that outputs: '<item:artifacts:charm_of_sinking>'
-[14:40:18.057][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:zhenchandiaozhui' that outputs: '<item:artifacts:shock_pendant>'
-[14:40:18.057][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:jingjidiaozhui' that outputs: '<item:artifacts:thorn_pendant>'
-[14:40:18.057][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:lieyandiaozhui' that outputs: '<item:artifacts:flame_pendant>'
-[14:40:18.057][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:konghuangxianglian' that outputs: '<item:artifacts:panic_necklace>'
-[14:40:18.057][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:shizixianglian' that outputs: '<item:artifacts:cross_necklace>'
-[14:40:18.057][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@54354d'
-[14:40:18.059][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:bulwark_of_the_flame' that outputs: '<item:cataclysm:bulwark_of_the_flame>'
-[14:40:18.059][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:aviary' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/aviary" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"末地——三只小鸟\"}" as string}})'
-[14:40:18.059][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:burning_arena' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/burning_arena" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"下界——焰魔决斗场\"}" as string}})'
-[14:40:18.060][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:coliseum' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/coliseum" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"主世界——斗兽场（极远）\"}" as string}})'
-[14:40:18.060][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:end_tower' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/end_tower" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"战斗高塔——末地\"}" as string}})'
-[14:40:18.060][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:foundry' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/foundry" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"主世界地下——铸造厂\"}" as string}})'
-[14:40:18.060][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:frostmaw_spawn' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/frostmaw_spawn" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"冰原——霜冻巨兽\"}" as string}})'
-[14:40:18.060][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:gatekeeper_house_mountain' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/gatekeeper_house_mountain" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"蔚蓝守门人——山地\"}" as string}})'
-[14:40:18.061][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:gatekeeper_house_plains' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/gatekeeper_house_plains" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"蔚蓝守门人——平原\"}" as string}})'
-[14:40:18.061][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:gatekeeper_house_snowy' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/gatekeeper_house_snowy" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"蔚蓝守门人——雪地\"}" as string}})'
-[14:40:18.061][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:geocentric_tower' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/core_tower" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"战斗高塔——炉心\"}" as string}})'
-[14:40:18.061][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:heavenly_challenger' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/heavenly_challenger" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"天空——天堂挑战者\"}" as string}})'
-[14:40:18.061][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:keep_kayra' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/keep_kayra" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"沼泽/沙漠/恶地——创世神殿（最远）\"}" as string}})'
-[14:40:18.062][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mushroom' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/mushroom" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"蘑菇岛——蘑孢灵\"}" as string}})'
-[14:40:18.062][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:nether_tower' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/nether_tower" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"战斗高塔——下界\"}" as string}})'
-[14:40:18.062][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:shiraz_palace' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/shiraz_palace" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"沙漠——繁花宫殿（最远）\"}" as string}})'
-[14:40:18.062][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:soul_black_smith' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/soul_black_smith" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"下界合金巨兽\"}" as string}})'
-[14:40:18.062][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:umvuthana_grove' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/umvuthana_grove" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"主世界——太阳神鸟\"}" as string}})'
-[14:40:18.063][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:wrought_chamber' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/wrought_chamber" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"主世界——钢铁守护者\"}" as string}})'
-[14:40:18.063][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:warp_stone' that outputs: '<item:waystones:warp_stone>'
-[14:40:18.063][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:waystone' that outputs: '<item:waystones:waystone>'
-[14:40:18.063][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@e36c7192'
-[14:40:18.064][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ghast_tear' that outputs: '<item:minecraft:ghast_tear>'
-[14:40:18.064][INFO]: Removing "minecraft:crafting" recipes with modid: "epicacg"
-[14:40:18.065][INFO]: Execution for loader 'crafttweaker' completed successfully
-[14:40:18.067][INFO]: This reload was made possible by Peregrinus11 and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[14:40:19.449][INFO]: Started loading scripts for loader 'tags'
-[14:40:19.449][INFO]: Undoing previous actions
-[14:40:19.464][INFO]: Compiling and executing scripts
-[14:40:19.466][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[14:40:19.473][INFO]: Execution for loader 'tags' completed successfully
-[14:40:20.377][INFO]: Started loading scripts for loader 'crafttweaker'
-[14:40:20.377][INFO]: Undoing previous actions
-[14:40:20.377][INFO]: Undoing removal of Brewing recipes that have an input of: <potion:minecraft:weakness>, output of: <potion:minecraft:long_weakness> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@f7bcdd5c
-[14:40:20.377][INFO]: Undoing addition of brewing recipe. output: com.blamejared.crafttweaker.api.item.MCItemStackMutable@ec84d423, input: com.blamejared.crafttweaker.api.item.MCItemStack@501d216 and ingredient: com.blamejared.crafttweaker.api.item.MCItemStack@847db57b
-[14:40:20.377][INFO]: Undoing removal of Brewing recipes that have an input of: <potion:minecraft:awkward>, output of: <potion:minecraft:turtle_master> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@6dad3e8e
-[14:40:20.377][INFO]: Undoing removal of Brewing recipes that have an input of: <potion:minecraft:slowness>, output of: <potion:minecraft:strong_slowness> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@2c8a6b9b
-[14:40:20.377][INFO]: Undoing removal of Brewing recipes that have an input of: <potion:minecraft:swiftness>, output of: <potion:minecraft:strong_swiftness> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@2c8a6b9b
-[14:40:20.377][INFO]: Undoing removal of Brewing recipes that have an input of: <potion:minecraft:strong_swiftness>, output of: <potion:alexsmobs:speed_iii> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@37fe772b
-[14:40:20.377][INFO]: Undoing removal of Brewing recipes that have an input of: <potion:minecraft:weakness>, output of: <potion:minecraft:long_weakness> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@f7bcdd5c
-[14:40:20.377][INFO]: Undoing removal of Brewing recipes that have an input of: <potion:alexsmobs:soulsteal>, output of: <potion:alexsmobs:strong_soulsteal> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@2c8a6b9b
-[14:40:20.377][INFO]: Undoing removal of Brewing recipes that have an input of: <potion:minecraft:awkward>, output of: <potion:alexsmobs:soulsteal> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@4e88921b
-[14:40:20.377][INFO]: Unregistering event listener for Finish.
-[14:40:20.377][INFO]: Unregistering event listener for Finish.
-[14:40:20.377][INFO]: Unregistering event listener for Finish.
-[14:40:20.377][INFO]: Unregistering event listener for Finish.
-[14:40:20.378][INFO]: Unregistering event listener for Finish.
-[14:40:20.378][INFO]: Unregistering event listener for Finish.
-[14:40:20.378][INFO]: Unregistering event listener for Finish.
-[14:40:20.378][INFO]: Unregistering event listener for Finish.
-[14:40:20.378][INFO]: Unregistering event listener for Finish.
-[14:40:20.378][INFO]: Unregistering event listener for RightClickItem.
-[14:40:20.378][INFO]: Undoing addition of brewing recipe. output: com.blamejared.crafttweaker.api.item.MCItemStackMutable@9f021907, input: com.blamejared.crafttweaker.api.item.MCItemStack@36350e17 and ingredient: com.blamejared.crafttweaker.api.item.MCItemStack@81d6ce6a
-[14:40:20.378][INFO]: Undoing addition of brewing recipe. output: com.blamejared.crafttweaker.api.item.MCItemStackMutable@bcac0201, input: com.blamejared.crafttweaker.api.item.MCItemStack@9f021907 and ingredient: com.blamejared.crafttweaker.api.item.MCItemStack@48a72a5
-[14:40:20.378][INFO]: Undoing removal of Brewing recipes that have an input of: <potion:minecraft:regeneration>, output of: <potion:epicfight:blooming> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@6a6a60d2
-[14:40:20.378][INFO]: Undoing addition of brewing recipe. output: com.blamejared.crafttweaker.api.item.MCItemStackMutable@36350e17, input: com.blamejared.crafttweaker.api.item.MCItemStack@8735b6c5 and ingredient: com.blamejared.crafttweaker.api.item.MCItemStack@28e2ea50
-[14:40:20.389][INFO]: Compiling and executing scripts
-[14:40:20.428][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[14:40:20.429][INFO]: Loading file 'crafting.zs' with priority 0
-[14:40:20.436][INFO]: Loading file 'gamestage.zs' with priority 0
-[14:40:20.436][INFO]: Loading file 'jei.zs' with priority 0
-[14:40:20.481][INFO]: Removing "minecraft:crafting" recipes with modid: "irons_spellbooks"
-[14:40:20.482][INFO]: Removing "minecraft:smithing" recipes with modid: "irons_spellbooks"
-[14:40:20.482][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@50fa3b3c'
-[14:40:20.482][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:anvil_upgrade' that outputs: '<item:sophisticatedbackpacks:anvil_upgrade>'
-[14:40:20.482][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:mysterious_worm' that outputs: '<item:alexsmobs:mysterious_worm>'
-[14:40:20.483][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:music_disc_daze' that outputs: '<item:alexsmobs:music_disc_daze>'
-[14:40:20.483][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:magic_cloth' that outputs: '<item:irons_spellbooks:magic_cloth>'
-[14:40:20.483][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:arcane_ingot' that outputs: '<item:irons_spellbooks:arcane_ingot>'
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: Removing 'smithing' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@63204954'
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
-[14:40:20.483][INFO]: Removing Brewing recipes that have an input of: <potion:minecraft:weakness>, output of: <potion:minecraft:long_weakness> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@f7bcdd5c
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_davepotion].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_davepotion].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_davepotion].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_davepotion].
-[14:40:20.483][INFO]: [ItemStages] Creating new restriction for stages [unlock_davepotion].
-[14:40:20.483][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@9023c1bd'
-[14:40:20.484][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@b225c1c2'
-[14:40:20.484][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@bd1dda09'
-[14:40:20.484][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@7a9180e8'
-[14:40:20.485][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@70326218'
-[14:40:20.485][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:staff' that outputs: '<item:wukong:staff>'
-[14:40:20.485][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:jingubang' that outputs: '<item:wukong:jingubang>'
-[14:40:20.485][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:peter' that outputs: '<item:stellarisdlc:peter>'
-[14:40:20.485][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:heartfelt1' that outputs: '<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: "miningmaster:heartfelt" as string}]})'
-[14:40:20.485][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:heartfelt2' that outputs: '<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: "miningmaster:heartfelt" as string}]})'
-[14:40:20.485][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:heartfelt3' that outputs: '<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: "miningmaster:heartfelt" as string}]})'
-[14:40:20.485][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:heartfelt4' that outputs: '<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 4 as short, id: "miningmaster:heartfelt" as string}]})'
-[14:40:20.485][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:phantom_ascent' that outputs: '<item:epicfight:skillbook>.withTag({skill: "epicfight:phantom_ascent" as string})'
-[14:40:20.485][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:double_jump' that outputs: '<item:epicfight:skillbook>.withTag({skill: "star:double_jump" as string})'
-[14:40:20.485][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:forbidden_strength' that outputs: '<item:epicfight:skillbook>.withTag({skill: "epicfight:forbidden_strength" as string})'
-[14:40:20.485][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:see_through' that outputs: '<item:epicfight:skillbook>.withTag({skill: "star:see_through" as string})'
-[14:40:20.485][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:heartseacharge' that outputs: '<item:stellariscraft:heartseacharge>'
-[14:40:20.486][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:infinitysponge' that outputs: '<item:stellariscraft:infinitysponge>'
-[14:40:20.486][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:rebuild_crystal' that outputs: '<item:stellarisdlc:rebuild_crystal>'
-[14:40:20.486][INFO]: Removing 'smithing' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@fa5ccfa9'
-[14:40:20.486][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:soulsickle' that outputs: '<item:stellarisdlc:soulsickle>'
-[14:40:20.486][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sickle' that outputs: '<item:stellarisdlc:sickle>'
-[14:40:20.486][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@4dd14abf'
-[14:40:20.486][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@1b105222'
-[14:40:20.486][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@1a5513a0'
-[14:40:20.487][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@a9d58006'
-[14:40:20.487][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@acc4f36c'
-[14:40:20.487][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:potion_injector' that outputs: '<item:davespotioneering:potion_injector>'
-[14:40:20.487][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compound_brewing_stand' that outputs: '<item:davespotioneering:compound_brewing_stand>'
-[14:40:20.487][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:reinforced_cauldron' that outputs: '<item:davespotioneering:reinforced_cauldron>'
-[14:40:20.487][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:potioneer_to_guard' that outputs: '<item:cataclysm:gauntlet_of_guard>'
-[14:40:20.487][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:netherite_to_potioneer' that outputs: '<item:davespotioneering:potioneer_gauntlet>.withDamage(32)'
-[14:40:20.487][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:glove_to_rudimentary' that outputs: '<item:davespotioneering:rudimentary_gauntlet>'
-[14:40:20.487][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:chipped2perfect' that outputs: '<item:minecraft:anvil>'
-[14:40:20.487][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:damaged2chipped' that outputs: '<item:minecraft:chipped_anvil>'
-[14:40:20.487][INFO]: Removing 'smithing' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@49b3fb21'
-[14:40:20.488][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:netheritess2netherite_scrap' that outputs: '<item:minecraft:netherite_scrap> * 2'
-[14:40:20.488][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tiestone_armor_helmet' that outputs: '<item:stellarisdlc:tiestone_armor_helmet>'
-[14:40:20.488][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tiestone_armor_chestplate' that outputs: '<item:stellarisdlc:tiestone_armor_chestplate>'
-[14:40:20.488][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tiestone_armor_leggings' that outputs: '<item:stellarisdlc:tiestone_armor_leggings>'
-[14:40:20.488][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tiestone_armor_boots' that outputs: '<item:stellarisdlc:tiestone_armor_boots>'
-[14:40:20.488][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:blackstone' that outputs: '<item:minecraft:blackstone> * 8'
-[14:40:20.488][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:diamond_heart2' that outputs: '<item:minecraft:lapis_block> * 4'
-[14:40:20.488][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:blacknetherstar' that outputs: '<item:stellariscraft:blacknetherstar>'
-[14:40:20.488][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:wither_skeleton_skull1' that outputs: '<item:minecraft:wither_skeleton_skull> * 6'
-[14:40:20.488][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:wither_skeleton_skull2' that outputs: '<item:minecraft:wither_skeleton_skull> * 3'
-[14:40:20.488][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@44ee7825'
-[14:40:20.488][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@5160bb36'
-[14:40:20.488][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@62605f44'
-[14:40:20.489][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@2a6eedbb'
-[14:40:20.489][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@71a82ea5'
-[14:40:20.489][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:quiver' that outputs: '<item:supplementaries:quiver>'
-[14:40:20.489][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@34caf336'
-[14:40:20.490][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:pickarang' that outputs: '<item:quark:pickarang>'
-[14:40:20.490][INFO]: Removing 'smithing' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@c02e63ec'
-[14:40:20.490][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:flamerang' that outputs: '<item:quark:flamerang>'
-[14:40:20.490][INFO]: Adding 'minecraft:stonecutting' recipe, with name: 'crafttweaker:armor2diamond' that outputs: '<item:minecraft:diamond>'
-[14:40:20.490][INFO]: Adding 'minecraft:stonecutting' recipe, with name: 'crafttweaker:armor2iron' that outputs: '<item:minecraft:iron_ingot> * 2'
-[14:40:20.490][INFO]: Adding 'minecraft:stonecutting' recipe, with name: 'crafttweaker:armor2gold' that outputs: '<item:minecraft:gold_ingot> * 3'
-[14:40:20.490][INFO]: Adding 'minecraft:stonecutting' recipe, with name: 'crafttweaker:iron_horsearmor' that outputs: '<item:minecraft:iron_ingot> * 2'
-[14:40:20.490][INFO]: Adding 'minecraft:stonecutting' recipe, with name: 'crafttweaker:gold_horsearmor' that outputs: '<item:minecraft:gold_ingot> * 2'
-[14:40:20.490][INFO]: Adding 'minecraft:stonecutting' recipe, with name: 'crafttweaker:diamond_horsearmor' that outputs: '<item:minecraft:diamond> * 2'
-[14:40:20.490][INFO]: Adding 'minecraft:blasting' recipe, with name: 'crafttweaker:iron_block2steelingot' that outputs: '<item:stellariscraft:steelingot>'
-[14:40:20.490][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:fightswordaxe' that outputs: '<item:stellariscraft:fightswordaxe>'
-[14:40:20.490][INFO]: Removing 'blasting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@7ffe8e4b'
-[14:40:20.490][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:ametrine_gems' that outputs: '<item:byg:ametrine_gems> * 15'
-[14:40:20.490][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:enderite_ingot' that outputs: '<item:cataclysm:enderite_ingot> * 2'
-[14:40:20.490][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@cc4dfa9a'
-[14:40:20.491][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:netherrotingot' that outputs: '<item:stellariscraft:netherrotingot>'
-[14:40:20.491][INFO]: Removing 'smithing' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@83b5242'
-[14:40:20.491][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:deadingot' that outputs: '<item:stellariscraft:deadingot>'
-[14:40:20.491][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:witherite_ingot' that outputs: '<item:cataclysm:witherite_ingot>'
-[14:40:20.491][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:witherite_block' that outputs: '<item:cataclysm:witherite_block>'
-[14:40:20.491][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:witherite_block2ingot' that outputs: '<item:cataclysm:witherite_ingot> * 9'
-[14:40:20.491][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:uchigatana' that outputs: '<item:epicfight:uchigatana>'
-[14:40:20.491][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:rotgreatsword' that outputs: '<item:stellarisdlc:rotgreatsword>'
-[14:40:20.491][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@6076e8ee'
-[14:40:20.491][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:the_incinerator' that outputs: '<item:cataclysm:the_incinerator>'
-[14:40:20.491][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:final_fractal' that outputs: '<item:cataclysm:final_fractal>'
-[14:40:20.491][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:alchemy_table' that outputs: '<item:blue_skies:alchemy_table>'
-[14:40:20.491][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:summoning_table' that outputs: '<item:blue_skies:summoning_table>'
-[14:40:20.491][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@96f86166'
-[14:40:20.491][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@64414758'
-[14:40:20.492][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@df258e12'
-[14:40:20.492][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:pkey' that outputs: '<item:stellariscraft:pkey>'
-[14:40:20.492][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mkey' that outputs: '<item:stellariscraft:mkey>'
-[14:40:20.492][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ukey' that outputs: '<item:stellariscraft:ukey>'
-[14:40:20.492][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@d3aa1430'
-[14:40:20.492][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:forgedspar' that outputs: '<item:stellarisdlc:forgedspar> * 2'
-[14:40:20.492][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:adgrain2forgedspar' that outputs: '<item:stellariscraft:adventurespar>'
-[14:40:20.492][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:reinforcedspar' that outputs: '<item:stellarisdlc:reinforcedspar> * 4'
-[14:40:20.492][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@805ff656'
-[14:40:20.493][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:xp_tome' that outputs: '<item:xpbook:xp_tome>'
-[14:40:20.493][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:experience_bottle' that outputs: '<item:minecraft:experience_bottle> * 16'
-[14:40:20.493][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:starpendant' that outputs: '<item:stellarisdlc:starpendant>'
-[14:40:20.493][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@66441c26'
-[14:40:20.493][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@3c06d005'
-[14:40:20.493][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@de511365'
-[14:40:20.494][INFO]: Removing "minecraft:crafting" recipes with modid: "waystones"
-[14:40:20.494][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@923c4260'
-[14:40:20.494][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@f537e545'
-[14:40:20.494][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@feafa60b'
-[14:40:20.495][INFO]: Removing 'smithing' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@2ae1652a'
-[14:40:20.495][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@8510c99c'
-[14:40:20.495][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@8b7d8989'
-[14:40:20.495][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:fish_to_ink' that outputs: '<item:minecraft:ink_sac>'
-[14:40:20.495][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sack' that outputs: '<item:supplementaries:sack>'
-[14:40:20.495][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@979c4fa6'
-[14:40:20.495][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@67a8d12c'
-[14:40:20.496][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@d59004a5'
-[14:40:20.496][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:blood_sprayer' that outputs: '<item:alexsmobs:blood_sprayer>'
-[14:40:20.496][INFO]: Removing "minecraft:crafting" recipe with names that match the regex: ".*umbrella.*"
-[14:40:20.498][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:warp_scroll' that outputs: '<item:waystones:warp_scroll> * 4'
-[14:40:20.498][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@26ea5be5'
-[14:40:20.499][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@36632f4c'
-[14:40:20.499][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:explorerscompass' that outputs: '<item:explorerscompass:explorerscompass>'
-[14:40:20.499][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:naturescompass' that outputs: '<item:naturescompass:naturescompass>'
-[14:40:20.499][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@d8ae34fe'
-[14:40:20.499][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:disenchanter' that outputs: '<item:disenchanting:disenchanter>'
-[14:40:20.499][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@cc7744ad'
-[14:40:20.500][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tool_leveling_table' that outputs: '<item:toolleveling:tool_leveling_table>'
-[14:40:20.500][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:symmetryspear' that outputs: '<item:stellarisdlc:symmetryspear>'
-[14:40:20.500][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:ignitium_ingot' that outputs: '<item:cataclysm:ignitium_ingot> * 2'
-[14:40:20.500][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:diamond' that outputs: '<item:minecraft:diamond> * 3'
-[14:40:20.500][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:voidaxe' that outputs: '<item:stellariscraft:voidaxe>'
-[14:40:20.500][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:flayer' that outputs: '<item:stellarisdlc:flayer>'
-[14:40:20.500][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:deadheart' that outputs: '<item:stellariscraft:deadheart>'
-[14:40:20.500][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@5bd14862'
-[14:40:20.500][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:enchanting_table' that outputs: '<item:minecraft:enchanting_table>'
-[14:40:20.500][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:fried_egg' that outputs: '<item:incubation:fried_egg>'
-[14:40:20.500][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@c6d23b3f'
-[14:40:20.501][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:evidencenether_2' that outputs: '<item:stellarisdlc:evidencenether_2>'
-[14:40:20.501][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:evidencenether_1' that outputs: '<item:stellarisdlc:evidencenether_1>'
-[14:40:20.501][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:evidencestar_2' that outputs: '<item:stellarisdlc:evidencestar_2>'
-[14:40:20.501][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:evidencestar_1' that outputs: '<item:stellarisdlc:evidencestar_1>'
-[14:40:20.501][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:sunstone_block' that outputs: '<item:blue_skies:sunstone_block>'
-[14:40:20.501][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:evidenceskies_1' that outputs: '<item:stellarisdlc:evidenceskies_1>'
-[14:40:20.501][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:evidenceskies_2' that outputs: '<item:stellarisdlc:evidenceskies_2>'
-[14:40:20.501][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:evidenceadventure_2' that outputs: '<item:stellarisdlc:evidenceadventure_2>'
-[14:40:20.501][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:evidenceadventure_1' that outputs: '<item:stellarisdlc:evidenceadventure_1>'
-[14:40:20.501][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:exchangestonecore' that outputs: '<item:stellarisdlc:exchangestonecore>'
-[14:40:20.501][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:superhealth' that outputs: '<item:stellariscraft:superhealth>'
-[14:40:20.501][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@c644cbd1'
-[14:40:20.501][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:relic_apple' that outputs: '<item:bhc:relic_apple>'
-[14:40:20.501][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@c7c4de53'
-[14:40:20.502][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:red_heart_canister' that outputs: '<item:bhc:red_heart_canister>'
-[14:40:20.502][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@d839669e'
-[14:40:20.502][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:yellow_heart_canister' that outputs: '<item:bhc:yellow_heart_canister>'
-[14:40:20.502][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@f2263ee9'
-[14:40:20.502][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:green_heart_canister' that outputs: '<item:bhc:green_heart_canister>'
-[14:40:20.502][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@c37233b0'
-[14:40:20.502][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:blue_heart_canister' that outputs: '<item:bhc:blue_heart_canister>'
-[14:40:20.502][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@5292c88b'
-[14:40:20.503][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:bomb' that outputs: '<item:supplementaries:bomb>'
-[14:40:20.503][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ankh_charm' that outputs: '<item:omnis:ankh_charm>'
-[14:40:20.503][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:dragonfalchion' that outputs: '<item:stellarisdlc:dragonfalchion>'
-[14:40:20.503][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:phoenixspear' that outputs: '<item:stellarisdlc:phoenixspear>'
-[14:40:20.503][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@e04a435b'
-[14:40:20.503][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@d857b08b'
-[14:40:20.503][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:pearl_necklace_2' that outputs: '<item:crittersandcompanions:pearl_necklace_2>'
-[14:40:20.503][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:pearl_necklace_3' that outputs: '<item:crittersandcompanions:pearl_necklace_3>'
-[14:40:20.503][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:saber' that outputs: '<item:stellarisdlc:saber>'
-[14:40:20.504][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:liesnow' that outputs: '<item:stellariscraft:liesnow>'
-[14:40:20.504][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@6000a866'
-[14:40:20.504][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:omelet1' that outputs: '<item:s33r_more_food:omelet> * 4'
-[14:40:20.504][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:omelet2' that outputs: '<item:s33r_more_food:omelet> * 2'
-[14:40:20.504][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:omelet3' that outputs: '<item:s33r_more_food:omelet> * 2'
-[14:40:20.504][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@58153737'
-[14:40:20.504][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:neptunium_chestplate' that outputs: '<item:aquaculture:neptunium_chestplate>'
-[14:40:20.504][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@4118a3c8'
-[14:40:20.504][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:neptunium_helmet' that outputs: '<item:aquaculture:neptunium_helmet>'
-[14:40:20.504][INFO]: Adding 'minecraft:blasting' recipe, with name: 'crafttweaker:neptunes_bounty2neptunium_ingot' that outputs: '<item:aquaculture:neptunium_ingot> * 2'
-[14:40:20.505][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:groundcrackhammer' that outputs: '<item:stellarisdlc:groundcrackhammer>'
-[14:40:20.505][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:dragonspear' that outputs: '<item:stellarisdlc:dragonspear>'
-[14:40:20.505][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@4d22ffe1'
-[14:40:20.505][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:trident' that outputs: '<item:minecraft:trident>'
-[14:40:20.505][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ring_sponge' that outputs: '<item:ringsofascension:ring_sponge>'
-[14:40:20.505][INFO]: Removing 'smelting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@78ba13c1'
-[14:40:20.505][INFO]: Adding 'minecraft:smelting' recipe, with name: 'crafttweaker:wet_sponge2sponge' that outputs: '<item:minecraft:sponge>'
-[14:40:20.505][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@566f80a'
-[14:40:20.505][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:overweight_golden_apple_block' that outputs: '<item:overweight_farming:overweight_golden_apple_block>'
-[14:40:20.505][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@606d29c3'
-[14:40:20.506][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:stack_upgrade_tier_4' that outputs: '<item:sophisticatedbackpacks:stack_upgrade_tier_4>'
-[14:40:20.506][INFO]: Adding a brewing recipe. output: com.blamejared.crafttweaker.api.item.MCItemStackMutable@ec84d423, input: com.blamejared.crafttweaker.api.item.MCItemStack@501d216 and ingredient: com.blamejared.crafttweaker.api.item.MCItemStack@847db57b
-[14:40:20.506][INFO]: Removing Brewing recipes that have an input of: <potion:minecraft:awkward>, output of: <potion:minecraft:turtle_master> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@6dad3e8e
-[14:40:20.506][INFO]: Removing Brewing recipes that have an input of: <potion:minecraft:slowness>, output of: <potion:minecraft:strong_slowness> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@2c8a6b9b
-[14:40:20.506][INFO]: Removing Brewing recipes that have an input of: <potion:minecraft:swiftness>, output of: <potion:minecraft:strong_swiftness> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@2c8a6b9b
-[14:40:20.506][INFO]: Removing Brewing recipes that have an input of: <potion:minecraft:strong_swiftness>, output of: <potion:alexsmobs:speed_iii> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@37fe772b
-[14:40:20.506][INFO]: Removing Brewing recipes that have an input of: <potion:minecraft:weakness>, output of: <potion:minecraft:long_weakness> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@f7bcdd5c
-[14:40:20.506][INFO]: Removing Brewing recipes that have an input of: <potion:alexsmobs:soulsteal>, output of: <potion:alexsmobs:strong_soulsteal> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@2c8a6b9b
-[14:40:20.506][INFO]: Removing Brewing recipes that have an input of: <potion:minecraft:awkward>, output of: <potion:alexsmobs:soulsteal> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@4e88921b
-[14:40:20.506][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:durandal' that outputs: '<item:stellariscraft:durandal>'
-[14:40:20.506][INFO]: Registering event listener for Finish.
-[14:40:20.506][INFO]: Registering event listener for Finish.
-[14:40:20.506][INFO]: Registering event listener for Finish.
-[14:40:20.506][INFO]: Registering event listener for Finish.
-[14:40:20.506][INFO]: Registering event listener for Finish.
-[14:40:20.506][INFO]: Registering event listener for Finish.
-[14:40:20.506][INFO]: Registering event listener for Finish.
-[14:40:20.506][INFO]: Registering event listener for Finish.
-[14:40:20.506][INFO]: Registering event listener for Finish.
-[14:40:20.506][INFO]: Registering event listener for RightClickItem.
-[14:40:20.506][INFO]: Adding a brewing recipe. output: com.blamejared.crafttweaker.api.item.MCItemStackMutable@9f021907, input: com.blamejared.crafttweaker.api.item.MCItemStack@36350e17 and ingredient: com.blamejared.crafttweaker.api.item.MCItemStack@81d6ce6a
-[14:40:20.506][INFO]: Adding a brewing recipe. output: com.blamejared.crafttweaker.api.item.MCItemStackMutable@bcac0201, input: com.blamejared.crafttweaker.api.item.MCItemStack@9f021907 and ingredient: com.blamejared.crafttweaker.api.item.MCItemStack@48a72a5
-[14:40:20.506][INFO]: Removing Brewing recipes that have an input of: <potion:minecraft:regeneration>, output of: <potion:epicfight:blooming> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@6a6a60d2
-[14:40:20.506][INFO]: Adding a brewing recipe. output: com.blamejared.crafttweaker.api.item.MCItemStackMutable@36350e17, input: com.blamejared.crafttweaker.api.item.MCItemStack@8735b6c5 and ingredient: com.blamejared.crafttweaker.api.item.MCItemStack@28e2ea50
-[14:40:20.507][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@6dad3e8e'
-[14:40:20.507][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:xiachenghufu' that outputs: '<item:artifacts:charm_of_sinking>'
-[14:40:20.507][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:zhenchandiaozhui' that outputs: '<item:artifacts:shock_pendant>'
-[14:40:20.507][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:jingjidiaozhui' that outputs: '<item:artifacts:thorn_pendant>'
-[14:40:20.507][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:lieyandiaozhui' that outputs: '<item:artifacts:flame_pendant>'
-[14:40:20.507][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:konghuangxianglian' that outputs: '<item:artifacts:panic_necklace>'
-[14:40:20.507][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:shizixianglian' that outputs: '<item:artifacts:cross_necklace>'
-[14:40:20.507][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@54354d'
-[14:40:20.507][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:bulwark_of_the_flame' that outputs: '<item:cataclysm:bulwark_of_the_flame>'
-[14:40:20.508][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:aviary' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/aviary" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"末地——三只小鸟\"}" as string}})'
-[14:40:20.508][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:burning_arena' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/burning_arena" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"下界——焰魔决斗场\"}" as string}})'
-[14:40:20.508][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:coliseum' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/coliseum" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"主世界——斗兽场（极远）\"}" as string}})'
-[14:40:20.508][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:end_tower' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/end_tower" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"战斗高塔——末地\"}" as string}})'
-[14:40:20.508][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:foundry' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/foundry" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"主世界地下——铸造厂\"}" as string}})'
-[14:40:20.508][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:frostmaw_spawn' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/frostmaw_spawn" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"冰原——霜冻巨兽\"}" as string}})'
-[14:40:20.508][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:gatekeeper_house_mountain' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/gatekeeper_house_mountain" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"蔚蓝守门人——山地\"}" as string}})'
-[14:40:20.508][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:gatekeeper_house_plains' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/gatekeeper_house_plains" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"蔚蓝守门人——平原\"}" as string}})'
-[14:40:20.509][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:gatekeeper_house_snowy' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/gatekeeper_house_snowy" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"蔚蓝守门人——雪地\"}" as string}})'
-[14:40:20.509][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:geocentric_tower' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/core_tower" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"战斗高塔——炉心\"}" as string}})'
-[14:40:20.509][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:heavenly_challenger' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/heavenly_challenger" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"天空——天堂挑战者\"}" as string}})'
-[14:40:20.509][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:keep_kayra' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/keep_kayra" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"沼泽/沙漠/恶地——创世神殿（最远）\"}" as string}})'
-[14:40:20.509][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mushroom' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/mushroom" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"蘑菇岛——蘑孢灵\"}" as string}})'
-[14:40:20.509][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:nether_tower' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/nether_tower" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"战斗高塔——下界\"}" as string}})'
-[14:40:20.509][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:shiraz_palace' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/shiraz_palace" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"沙漠——繁花宫殿（最远）\"}" as string}})'
-[14:40:20.509][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:soul_black_smith' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/soul_black_smith" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"下界合金巨兽\"}" as string}})'
-[14:40:20.509][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:umvuthana_grove' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/umvuthana_grove" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"主世界——太阳神鸟\"}" as string}})'
-[14:40:20.509][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:wrought_chamber' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/wrought_chamber" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"主世界——钢铁守护者\"}" as string}})'
-[14:40:20.510][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:warp_stone' that outputs: '<item:waystones:warp_stone>'
-[14:40:20.510][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:waystone' that outputs: '<item:waystones:waystone>'
-[14:40:20.510][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@e36c7192'
-[14:40:20.510][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ghast_tear' that outputs: '<item:minecraft:ghast_tear>'
-[14:40:20.510][INFO]: Removing "minecraft:crafting" recipes with modid: "epicacg"
-[14:40:20.511][INFO]: Execution for loader 'crafttweaker' completed successfully
-[14:40:20.511][INFO]: This reload was made possible by Phillip Swearingain and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[16:07:00.673][INFO]: Successfully identified and loaded plugin jeitweaker:default
+[16:07:00.679][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
+[16:07:00.679][INFO]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[16:07:01.230][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
+[16:07:01.230][INFO]: - 'aquaculture' at version '1.18.2-2.3.12'
+[16:07:01.230][INFO]: - 'crafttweaker' at version '9.1.203'
+[16:07:01.230][INFO]: - 'farmersdelight' at version '1.18.2-1.2.3'
+[16:07:01.230][INFO]: - 'gamestages' at version '8.1.3'
+[16:07:01.230][INFO]: - 'itemstages' at version '4.0.5'
+[16:07:01.230][INFO]: - 'jeitweaker' at version '3.0.0.9'
+[16:07:04.003][INFO]: Started loading scripts for loader 'initialize'
+[16:07:04.170][INFO]: Compiling and executing scripts
+[16:07:04.182][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[16:07:04.220][INFO]: Execution for loader 'initialize' completed successfully
+[16:07:08.091][INFO]: Started loading scripts for loader 'tags'
+[16:07:08.104][INFO]: Compiling and executing scripts
+[16:07:08.111][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[16:07:08.115][INFO]: Execution for loader 'tags' completed successfully
+[16:07:09.189][INFO]: Started loading scripts for loader 'crafttweaker'
+[16:07:09.201][INFO]: Compiling and executing scripts
+[16:07:09.364][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[16:07:09.366][INFO]: Loading file 'crafting.zs' with priority 0
+[16:07:09.382][INFO]: Loading file 'gamestage.zs' with priority 0
+[16:07:09.382][INFO]: Loading file 'jei.zs' with priority 0
+[16:07:09.480][INFO]: Removing "minecraft:crafting" recipes with modid: "irons_spellbooks"
+[16:07:09.481][INFO]: Removing "minecraft:smithing" recipes with modid: "irons_spellbooks"
+[16:07:09.482][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@e8f5a8a4'
+[16:07:09.487][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:anvil_upgrade' that outputs: '<item:sophisticatedbackpacks:anvil_upgrade>'
+[16:07:09.487][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:mysterious_worm' that outputs: '<item:alexsmobs:mysterious_worm>'
+[16:07:09.488][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:music_disc_daze' that outputs: '<item:alexsmobs:music_disc_daze>'
+[16:07:09.488][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:magic_cloth' that outputs: '<item:irons_spellbooks:magic_cloth>'
+[16:07:09.488][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:arcane_ingot' that outputs: '<item:irons_spellbooks:arcane_ingot>'
+[16:07:09.489][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
+[16:07:09.490][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
+[16:07:09.490][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
+[16:07:09.490][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
+[16:07:09.490][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
+[16:07:09.490][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
+[16:07:09.490][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
+[16:07:09.490][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
+[16:07:09.490][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
+[16:07:09.490][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
+[16:07:09.490][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.490][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.490][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.490][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.490][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.490][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.490][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.490][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.490][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.490][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.490][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.490][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.490][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.490][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.490][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.490][INFO]: Removing 'smithing' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@a8315720'
+[16:07:09.493][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.493][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.493][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.493][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.493][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.493][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.493][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.493][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.493][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.493][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.493][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.493][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.493][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.493][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.493][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.493][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.493][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.493][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.493][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:09.494][INFO]: Removing Brewing recipes that have an input of: <potion:minecraft:weakness>, output of: <potion:minecraft:long_weakness> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@14f372bc
+[16:07:09.494][INFO]: [ItemStages] Creating new restriction for stages [unlock_davepotion].
+[16:07:09.494][INFO]: [ItemStages] Creating new restriction for stages [unlock_davepotion].
+[16:07:09.494][INFO]: [ItemStages] Creating new restriction for stages [unlock_davepotion].
+[16:07:09.494][INFO]: [ItemStages] Creating new restriction for stages [unlock_davepotion].
+[16:07:09.494][INFO]: [ItemStages] Creating new restriction for stages [unlock_davepotion].
+[16:07:09.494][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@bddde1c4'
+[16:07:09.496][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@2c35baf0'
+[16:07:09.498][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@948f4ae2'
+[16:07:09.499][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@eddcfa6a'
+[16:07:09.500][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@577e0116'
+[16:07:09.502][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:staff' that outputs: '<item:wukong:staff>'
+[16:07:09.502][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:jingubang' that outputs: '<item:wukong:jingubang>'
+[16:07:09.502][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:peter' that outputs: '<item:stellarisdlc:peter>'
+[16:07:09.504][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:heartfelt1' that outputs: '<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: "miningmaster:heartfelt" as string}]})'
+[16:07:09.504][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:heartfelt2' that outputs: '<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: "miningmaster:heartfelt" as string}]})'
+[16:07:09.504][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:heartfelt3' that outputs: '<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: "miningmaster:heartfelt" as string}]})'
+[16:07:09.504][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:heartfelt4' that outputs: '<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 4 as short, id: "miningmaster:heartfelt" as string}]})'
+[16:07:09.504][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:phantom_ascent' that outputs: '<item:epicfight:skillbook>.withTag({skill: "epicfight:phantom_ascent" as string})'
+[16:07:09.504][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:double_jump' that outputs: '<item:epicfight:skillbook>.withTag({skill: "star:double_jump" as string})'
+[16:07:09.505][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:forbidden_strength' that outputs: '<item:epicfight:skillbook>.withTag({skill: "epicfight:forbidden_strength" as string})'
+[16:07:09.505][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:see_through' that outputs: '<item:epicfight:skillbook>.withTag({skill: "star:see_through" as string})'
+[16:07:09.505][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:heartseacharge' that outputs: '<item:stellariscraft:heartseacharge>'
+[16:07:09.505][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:infinitysponge' that outputs: '<item:stellariscraft:infinitysponge>'
+[16:07:09.505][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:rebuild_crystal' that outputs: '<item:stellarisdlc:rebuild_crystal>'
+[16:07:09.505][INFO]: Removing 'smithing' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@fa84e94f'
+[16:07:09.505][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:soulsickle' that outputs: '<item:stellarisdlc:soulsickle>'
+[16:07:09.505][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sickle' that outputs: '<item:stellarisdlc:sickle>'
+[16:07:09.505][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@e5e81f91'
+[16:07:09.507][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@f9fd558d'
+[16:07:09.509][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@5fb63395'
+[16:07:09.510][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@1642c7c9'
+[16:07:09.511][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@13ecdc7a'
+[16:07:09.513][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:potion_injector' that outputs: '<item:davespotioneering:potion_injector>'
+[16:07:09.513][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compound_brewing_stand' that outputs: '<item:davespotioneering:compound_brewing_stand>'
+[16:07:09.513][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:reinforced_cauldron' that outputs: '<item:davespotioneering:reinforced_cauldron>'
+[16:07:09.513][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:potioneer_to_guard' that outputs: '<item:cataclysm:gauntlet_of_guard>'
+[16:07:09.513][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:netherite_to_potioneer' that outputs: '<item:davespotioneering:potioneer_gauntlet>.withDamage(32)'
+[16:07:09.513][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:glove_to_rudimentary' that outputs: '<item:davespotioneering:rudimentary_gauntlet>'
+[16:07:09.513][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:chipped2perfect' that outputs: '<item:minecraft:anvil>'
+[16:07:09.513][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:damaged2chipped' that outputs: '<item:minecraft:chipped_anvil>'
+[16:07:09.513][INFO]: Removing 'smithing' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@bed91d8d'
+[16:07:09.514][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:netheritess2netherite_scrap' that outputs: '<item:minecraft:netherite_scrap> * 2'
+[16:07:09.514][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tiestone_armor_helmet' that outputs: '<item:stellarisdlc:tiestone_armor_helmet>'
+[16:07:09.514][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tiestone_armor_chestplate' that outputs: '<item:stellarisdlc:tiestone_armor_chestplate>'
+[16:07:09.514][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tiestone_armor_leggings' that outputs: '<item:stellarisdlc:tiestone_armor_leggings>'
+[16:07:09.514][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tiestone_armor_boots' that outputs: '<item:stellarisdlc:tiestone_armor_boots>'
+[16:07:09.514][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:blackstone' that outputs: '<item:minecraft:blackstone> * 8'
+[16:07:09.514][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:diamond_heart2' that outputs: '<item:minecraft:lapis_block> * 4'
+[16:07:09.514][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:blacknetherstar' that outputs: '<item:stellariscraft:blacknetherstar>'
+[16:07:09.514][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:wither_skeleton_skull1' that outputs: '<item:minecraft:wither_skeleton_skull> * 6'
+[16:07:09.514][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:wither_skeleton_skull2' that outputs: '<item:minecraft:wither_skeleton_skull> * 3'
+[16:07:09.514][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@be2f086b'
+[16:07:09.516][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@cd70033f'
+[16:07:09.517][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@df9267c6'
+[16:07:09.518][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@7c158b13'
+[16:07:09.518][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@48fcc994'
+[16:07:09.519][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:quiver' that outputs: '<item:supplementaries:quiver>'
+[16:07:09.519][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@2b00794f'
+[16:07:09.520][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:pickarang' that outputs: '<item:quark:pickarang>'
+[16:07:09.520][INFO]: Removing 'smithing' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@5a5b94eb'
+[16:07:09.520][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:flamerang' that outputs: '<item:quark:flamerang>'
+[16:07:09.520][INFO]: Adding 'minecraft:stonecutting' recipe, with name: 'crafttweaker:armor2diamond' that outputs: '<item:minecraft:diamond>'
+[16:07:09.520][INFO]: Adding 'minecraft:stonecutting' recipe, with name: 'crafttweaker:armor2iron' that outputs: '<item:minecraft:iron_ingot> * 2'
+[16:07:09.520][INFO]: Adding 'minecraft:stonecutting' recipe, with name: 'crafttweaker:armor2gold' that outputs: '<item:minecraft:gold_ingot> * 3'
+[16:07:09.520][INFO]: Adding 'minecraft:stonecutting' recipe, with name: 'crafttweaker:iron_horsearmor' that outputs: '<item:minecraft:iron_ingot> * 2'
+[16:07:09.520][INFO]: Adding 'minecraft:stonecutting' recipe, with name: 'crafttweaker:gold_horsearmor' that outputs: '<item:minecraft:gold_ingot> * 2'
+[16:07:09.520][INFO]: Adding 'minecraft:stonecutting' recipe, with name: 'crafttweaker:diamond_horsearmor' that outputs: '<item:minecraft:diamond> * 2'
+[16:07:09.521][INFO]: Adding 'minecraft:blasting' recipe, with name: 'crafttweaker:iron_block2steelingot' that outputs: '<item:stellariscraft:steelingot>'
+[16:07:09.521][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:fightswordaxe' that outputs: '<item:stellariscraft:fightswordaxe>'
+[16:07:09.521][INFO]: Removing 'blasting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@359cf85f'
+[16:07:09.521][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:ametrine_gems' that outputs: '<item:byg:ametrine_gems> * 15'
+[16:07:09.521][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:enderite_ingot' that outputs: '<item:cataclysm:enderite_ingot> * 2'
+[16:07:09.521][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@83b5242'
+[16:07:09.522][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:netherrotingot' that outputs: '<item:stellariscraft:netherrotingot>'
+[16:07:09.522][INFO]: Removing 'smithing' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@48a72a5'
+[16:07:09.522][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:deadingot' that outputs: '<item:stellariscraft:deadingot>'
+[16:07:09.522][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:witherite_ingot' that outputs: '<item:cataclysm:witherite_ingot>'
+[16:07:09.522][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:witherite_block' that outputs: '<item:cataclysm:witherite_block>'
+[16:07:09.522][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:witherite_block2ingot' that outputs: '<item:cataclysm:witherite_ingot> * 9'
+[16:07:09.522][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:uchigatana' that outputs: '<item:epicfight:uchigatana>'
+[16:07:09.522][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:rotgreatsword' that outputs: '<item:stellarisdlc:rotgreatsword>'
+[16:07:09.522][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@c017a766'
+[16:07:09.523][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:the_incinerator' that outputs: '<item:cataclysm:the_incinerator>'
+[16:07:09.523][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:final_fractal' that outputs: '<item:cataclysm:final_fractal>'
+[16:07:09.523][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:alchemy_table' that outputs: '<item:blue_skies:alchemy_table>'
+[16:07:09.523][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:summoning_table' that outputs: '<item:blue_skies:summoning_table>'
+[16:07:09.523][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@ff6ab282'
+[16:07:09.524][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@8b1a3617'
+[16:07:09.524][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@8d5a9bfc'
+[16:07:09.525][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:pkey' that outputs: '<item:stellariscraft:pkey>'
+[16:07:09.525][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mkey' that outputs: '<item:stellariscraft:mkey>'
+[16:07:09.525][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ukey' that outputs: '<item:stellariscraft:ukey>'
+[16:07:09.525][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@fa5ccfa9'
+[16:07:09.526][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:forgedspar' that outputs: '<item:stellarisdlc:forgedspar> * 2'
+[16:07:09.526][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:adgrain2forgedspar' that outputs: '<item:stellariscraft:adventurespar>'
+[16:07:09.526][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:reinforcedspar' that outputs: '<item:stellarisdlc:reinforcedspar> * 4'
+[16:07:09.526][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@1a7cc7a4'
+[16:07:09.527][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:xp_tome' that outputs: '<item:xpbook:xp_tome>'
+[16:07:09.527][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:experience_bottle' that outputs: '<item:minecraft:experience_bottle> * 16'
+[16:07:09.528][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:starpendant' that outputs: '<item:stellarisdlc:starpendant>'
+[16:07:09.528][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@9b1970ad'
+[16:07:09.528][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@754cbaef'
+[16:07:09.529][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@4bcb74c'
+[16:07:09.530][INFO]: Removing "minecraft:crafting" recipes with modid: "waystones"
+[16:07:09.530][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@1f91cb1e'
+[16:07:09.531][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@195b6389'
+[16:07:09.531][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@6ced2b29'
+[16:07:09.532][INFO]: Removing 'smithing' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@87bc8838'
+[16:07:09.532][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@e9482e1a'
+[16:07:09.532][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@72fef732'
+[16:07:09.533][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:fish_to_ink' that outputs: '<item:minecraft:ink_sac>'
+[16:07:09.533][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sack' that outputs: '<item:supplementaries:sack>'
+[16:07:09.533][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@f799c040'
+[16:07:09.534][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@c7278a61'
+[16:07:09.534][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@e5cefcae'
+[16:07:09.535][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:blood_sprayer' that outputs: '<item:alexsmobs:blood_sprayer>'
+[16:07:09.535][INFO]: Removing "minecraft:crafting" recipe with names that match the regex: ".*umbrella.*"
+[16:07:09.538][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:warp_scroll' that outputs: '<item:waystones:warp_scroll> * 4'
+[16:07:09.539][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@639fe365'
+[16:07:09.539][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@8b979c58'
+[16:07:09.540][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:explorerscompass' that outputs: '<item:explorerscompass:explorerscompass>'
+[16:07:09.541][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:naturescompass' that outputs: '<item:naturescompass:naturescompass>'
+[16:07:09.541][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@58b2e1dc'
+[16:07:09.541][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:disenchanter' that outputs: '<item:disenchanting:disenchanter>'
+[16:07:09.541][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@82908b6'
+[16:07:09.542][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tool_leveling_table' that outputs: '<item:toolleveling:tool_leveling_table>'
+[16:07:09.542][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:symmetryspear' that outputs: '<item:stellarisdlc:symmetryspear>'
+[16:07:09.542][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:ignitium_ingot' that outputs: '<item:cataclysm:ignitium_ingot> * 2'
+[16:07:09.542][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:diamond' that outputs: '<item:minecraft:diamond> * 3'
+[16:07:09.542][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:voidaxe' that outputs: '<item:stellariscraft:voidaxe>'
+[16:07:09.542][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:flayer' that outputs: '<item:stellarisdlc:flayer>'
+[16:07:09.542][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:deadheart' that outputs: '<item:stellariscraft:deadheart>'
+[16:07:09.542][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@35f8a06e'
+[16:07:09.543][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:enchanting_table' that outputs: '<item:minecraft:enchanting_table>'
+[16:07:09.543][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:fried_egg' that outputs: '<item:incubation:fried_egg>'
+[16:07:09.543][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@19d6cd8e'
+[16:07:09.544][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:evidencenether_2' that outputs: '<item:stellarisdlc:evidencenether_2>'
+[16:07:09.544][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:evidencenether_1' that outputs: '<item:stellarisdlc:evidencenether_1>'
+[16:07:09.544][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:evidencestar_2' that outputs: '<item:stellarisdlc:evidencestar_2>'
+[16:07:09.544][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:evidencestar_1' that outputs: '<item:stellarisdlc:evidencestar_1>'
+[16:07:09.544][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:sunstone_block' that outputs: '<item:blue_skies:sunstone_block>'
+[16:07:09.544][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:evidenceskies_1' that outputs: '<item:stellarisdlc:evidenceskies_1>'
+[16:07:09.544][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:evidenceskies_2' that outputs: '<item:stellarisdlc:evidenceskies_2>'
+[16:07:09.544][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:evidenceadventure_2' that outputs: '<item:stellarisdlc:evidenceadventure_2>'
+[16:07:09.545][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:evidenceadventure_1' that outputs: '<item:stellarisdlc:evidenceadventure_1>'
+[16:07:09.545][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:exchangestonecore' that outputs: '<item:stellarisdlc:exchangestonecore>'
+[16:07:09.545][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:superhealth' that outputs: '<item:stellariscraft:superhealth>'
+[16:07:09.545][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@111bc030'
+[16:07:09.546][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:relic_apple' that outputs: '<item:bhc:relic_apple>'
+[16:07:09.546][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@77ba0f12'
+[16:07:09.546][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:red_heart_canister' that outputs: '<item:bhc:red_heart_canister>'
+[16:07:09.546][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@7224f113'
+[16:07:09.547][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:yellow_heart_canister' that outputs: '<item:bhc:yellow_heart_canister>'
+[16:07:09.547][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@c6ad1f68'
+[16:07:09.547][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:green_heart_canister' that outputs: '<item:bhc:green_heart_canister>'
+[16:07:09.548][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@e9cd0e45'
+[16:07:09.548][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:blue_heart_canister' that outputs: '<item:bhc:blue_heart_canister>'
+[16:07:09.548][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@7043bc9d'
+[16:07:09.549][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:bomb' that outputs: '<item:supplementaries:bomb>'
+[16:07:09.549][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ankh_charm' that outputs: '<item:omnis:ankh_charm>'
+[16:07:09.549][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:dragonfalchion' that outputs: '<item:stellarisdlc:dragonfalchion>'
+[16:07:09.549][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:phoenixspear' that outputs: '<item:stellarisdlc:phoenixspear>'
+[16:07:09.549][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@9d4406f9'
+[16:07:09.549][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@5221b0b1'
+[16:07:09.550][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:pearl_necklace_2' that outputs: '<item:crittersandcompanions:pearl_necklace_2>'
+[16:07:09.550][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:pearl_necklace_3' that outputs: '<item:crittersandcompanions:pearl_necklace_3>'
+[16:07:09.550][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:saber' that outputs: '<item:stellarisdlc:saber>'
+[16:07:09.550][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:liesnow' that outputs: '<item:stellariscraft:liesnow>'
+[16:07:09.550][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@e6f23a40'
+[16:07:09.551][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:omelet1' that outputs: '<item:s33r_more_food:omelet> * 4'
+[16:07:09.551][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:omelet2' that outputs: '<item:s33r_more_food:omelet> * 2'
+[16:07:09.551][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:omelet3' that outputs: '<item:s33r_more_food:omelet> * 2'
+[16:07:09.551][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@eaaad089'
+[16:07:09.551][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:neptunium_chestplate' that outputs: '<item:aquaculture:neptunium_chestplate>'
+[16:07:09.551][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@304737a9'
+[16:07:09.552][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:neptunium_helmet' that outputs: '<item:aquaculture:neptunium_helmet>'
+[16:07:09.552][INFO]: Adding 'minecraft:blasting' recipe, with name: 'crafttweaker:neptunes_bounty2neptunium_ingot' that outputs: '<item:aquaculture:neptunium_ingot> * 2'
+[16:07:09.552][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:groundcrackhammer' that outputs: '<item:stellarisdlc:groundcrackhammer>'
+[16:07:09.552][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:dragonspear' that outputs: '<item:stellarisdlc:dragonspear>'
+[16:07:09.552][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@683df34b'
+[16:07:09.553][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:trident' that outputs: '<item:minecraft:trident>'
+[16:07:09.553][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ring_sponge' that outputs: '<item:ringsofascension:ring_sponge>'
+[16:07:09.553][INFO]: Removing 'smelting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@1f733d01'
+[16:07:09.553][INFO]: Adding 'minecraft:smelting' recipe, with name: 'crafttweaker:wet_sponge2sponge' that outputs: '<item:minecraft:sponge>'
+[16:07:09.553][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@ce9c7ce8'
+[16:07:09.554][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:overweight_golden_apple_block' that outputs: '<item:overweight_farming:overweight_golden_apple_block>'
+[16:07:09.554][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@21288e41'
+[16:07:09.554][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:stack_upgrade_tier_4' that outputs: '<item:sophisticatedbackpacks:stack_upgrade_tier_4>'
+[16:07:09.556][INFO]: Adding a brewing recipe. output: com.blamejared.crafttweaker.api.item.MCItemStackMutable@9ba84a65, input: com.blamejared.crafttweaker.api.item.MCItemStack@b4254858 and ingredient: com.blamejared.crafttweaker.api.item.MCItemStack@a02b51d0
+[16:07:09.556][INFO]: Removing Brewing recipes that have an input of: <potion:minecraft:awkward>, output of: <potion:minecraft:turtle_master> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@55050c44
+[16:07:09.556][INFO]: Removing Brewing recipes that have an input of: <potion:minecraft:slowness>, output of: <potion:minecraft:strong_slowness> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@cc6a9266
+[16:07:09.556][INFO]: Removing Brewing recipes that have an input of: <potion:minecraft:swiftness>, output of: <potion:minecraft:strong_swiftness> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@cc6a9266
+[16:07:09.556][INFO]: Removing Brewing recipes that have an input of: <potion:minecraft:strong_swiftness>, output of: <potion:alexsmobs:speed_iii> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@e7a77dbd
+[16:07:09.556][INFO]: Removing Brewing recipes that have an input of: <potion:minecraft:weakness>, output of: <potion:minecraft:long_weakness> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@14f372bc
+[16:07:09.556][INFO]: Removing Brewing recipes that have an input of: <potion:alexsmobs:soulsteal>, output of: <potion:alexsmobs:strong_soulsteal> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@cc6a9266
+[16:07:09.556][INFO]: Removing Brewing recipes that have an input of: <potion:minecraft:awkward>, output of: <potion:alexsmobs:soulsteal> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@f8108912
+[16:07:09.556][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:durandal' that outputs: '<item:stellariscraft:durandal>'
+[16:07:09.557][INFO]: Registering event listener for Finish.
+[16:07:09.557][INFO]: Registering event listener for Finish.
+[16:07:09.557][INFO]: Registering event listener for Finish.
+[16:07:09.557][INFO]: Registering event listener for Finish.
+[16:07:09.557][INFO]: Registering event listener for Finish.
+[16:07:09.557][INFO]: Registering event listener for Finish.
+[16:07:09.557][INFO]: Registering event listener for Finish.
+[16:07:09.557][INFO]: Registering event listener for Finish.
+[16:07:09.557][INFO]: Registering event listener for Finish.
+[16:07:09.557][INFO]: Registering event listener for RightClickItem.
+[16:07:09.557][INFO]: Adding a brewing recipe. output: com.blamejared.crafttweaker.api.item.MCItemStackMutable@4e258f49, input: com.blamejared.crafttweaker.api.item.MCItemStack@e5588459 and ingredient: com.blamejared.crafttweaker.api.item.MCItemStack@8d581493
+[16:07:09.557][INFO]: Adding a brewing recipe. output: com.blamejared.crafttweaker.api.item.MCItemStackMutable@6bcf7843, input: com.blamejared.crafttweaker.api.item.MCItemStack@4e258f49 and ingredient: com.blamejared.crafttweaker.api.item.MCItemStack@1ea28afe
+[16:07:09.557][INFO]: Removing Brewing recipes that have an input of: <potion:minecraft:regeneration>, output of: <potion:epicfight:blooming> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@a9f4240e
+[16:07:09.557][INFO]: Adding a brewing recipe. output: com.blamejared.crafttweaker.api.item.MCItemStackMutable@e5588459, input: com.blamejared.crafttweaker.api.item.MCItemStack@36592d07 and ingredient: com.blamejared.crafttweaker.api.item.MCItemStack@e1a8a5db
+[16:07:09.558][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@55050c44'
+[16:07:09.559][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:xiachenghufu' that outputs: '<item:artifacts:charm_of_sinking>'
+[16:07:09.559][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:zhenchandiaozhui' that outputs: '<item:artifacts:shock_pendant>'
+[16:07:09.559][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:jingjidiaozhui' that outputs: '<item:artifacts:thorn_pendant>'
+[16:07:09.560][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:lieyandiaozhui' that outputs: '<item:artifacts:flame_pendant>'
+[16:07:09.560][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:konghuangxianglian' that outputs: '<item:artifacts:panic_necklace>'
+[16:07:09.560][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:shizixianglian' that outputs: '<item:artifacts:cross_necklace>'
+[16:07:09.560][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@caffde0a'
+[16:07:09.561][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:bulwark_of_the_flame' that outputs: '<item:cataclysm:bulwark_of_the_flame>'
+[16:07:09.561][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:aviary' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/aviary" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"末地——三只小鸟\"}" as string}})'
+[16:07:09.561][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:burning_arena' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/burning_arena" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"下界——焰魔决斗场\"}" as string}})'
+[16:07:09.562][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:coliseum' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/coliseum" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"主世界——斗兽场（极远）\"}" as string}})'
+[16:07:09.562][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:end_tower' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/end_tower" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"战斗高塔——末地\"}" as string}})'
+[16:07:09.562][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:foundry' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/foundry" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"主世界地下——铸造厂\"}" as string}})'
+[16:07:09.562][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:frostmaw_spawn' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/frostmaw_spawn" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"冰原——霜冻巨兽\"}" as string}})'
+[16:07:09.562][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:gatekeeper_house_mountain' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/gatekeeper_house_mountain" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"蔚蓝守门人——山地\"}" as string}})'
+[16:07:09.562][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:gatekeeper_house_plains' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/gatekeeper_house_plains" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"蔚蓝守门人——平原\"}" as string}})'
+[16:07:09.563][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:gatekeeper_house_snowy' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/gatekeeper_house_snowy" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"蔚蓝守门人——雪地\"}" as string}})'
+[16:07:09.563][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:geocentric_tower' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/core_tower" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"战斗高塔——炉心\"}" as string}})'
+[16:07:09.563][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:heavenly_challenger' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/heavenly_challenger" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"天空——天堂挑战者\"}" as string}})'
+[16:07:09.563][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:keep_kayra' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/keep_kayra" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"沼泽/沙漠/恶地——创世神殿（最远）\"}" as string}})'
+[16:07:09.563][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mushroom' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/mushroom" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"蘑菇岛——蘑孢灵\"}" as string}})'
+[16:07:09.563][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:nether_tower' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/nether_tower" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"战斗高塔——下界\"}" as string}})'
+[16:07:09.564][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:shiraz_palace' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/shiraz_palace" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"沙漠——繁花宫殿（最远）\"}" as string}})'
+[16:07:09.564][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:soul_black_smith' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/soul_black_smith" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"下界合金巨兽\"}" as string}})'
+[16:07:09.564][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:umvuthana_grove' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/umvuthana_grove" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"主世界——太阳神鸟\"}" as string}})'
+[16:07:09.564][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:wrought_chamber' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/wrought_chamber" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"主世界——钢铁守护者\"}" as string}})'
+[16:07:09.564][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:warp_stone' that outputs: '<item:waystones:warp_stone>'
+[16:07:09.564][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:waystone' that outputs: '<item:waystones:waystone>'
+[16:07:09.564][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@64fbe911'
+[16:07:09.565][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ghast_tear' that outputs: '<item:minecraft:ghast_tear>'
+[16:07:09.566][INFO]: Removing "minecraft:crafting" recipes with modid: "epicacg"
+[16:07:09.566][INFO]: Execution for loader 'crafttweaker' completed successfully
+[16:07:09.568][INFO]: This reload was made possible by Jonathan McManus and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[16:07:11.096][INFO]: Started loading scripts for loader 'tags'
+[16:07:11.096][INFO]: Undoing previous actions
+[16:07:11.123][INFO]: Compiling and executing scripts
+[16:07:11.127][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[16:07:11.140][INFO]: Execution for loader 'tags' completed successfully
+[16:07:12.184][INFO]: Started loading scripts for loader 'crafttweaker'
+[16:07:12.184][INFO]: Undoing previous actions
+[16:07:12.184][INFO]: Undoing removal of Brewing recipes that have an input of: <potion:minecraft:weakness>, output of: <potion:minecraft:long_weakness> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@14f372bc
+[16:07:12.184][INFO]: Undoing addition of brewing recipe. output: com.blamejared.crafttweaker.api.item.MCItemStackMutable@9ba84a65, input: com.blamejared.crafttweaker.api.item.MCItemStack@b4254858 and ingredient: com.blamejared.crafttweaker.api.item.MCItemStack@a02b51d0
+[16:07:12.184][INFO]: Undoing removal of Brewing recipes that have an input of: <potion:minecraft:awkward>, output of: <potion:minecraft:turtle_master> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@55050c44
+[16:07:12.184][INFO]: Undoing removal of Brewing recipes that have an input of: <potion:minecraft:slowness>, output of: <potion:minecraft:strong_slowness> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@cc6a9266
+[16:07:12.184][INFO]: Undoing removal of Brewing recipes that have an input of: <potion:minecraft:swiftness>, output of: <potion:minecraft:strong_swiftness> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@cc6a9266
+[16:07:12.184][INFO]: Undoing removal of Brewing recipes that have an input of: <potion:minecraft:strong_swiftness>, output of: <potion:alexsmobs:speed_iii> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@e7a77dbd
+[16:07:12.184][INFO]: Undoing removal of Brewing recipes that have an input of: <potion:minecraft:weakness>, output of: <potion:minecraft:long_weakness> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@14f372bc
+[16:07:12.184][INFO]: Undoing removal of Brewing recipes that have an input of: <potion:alexsmobs:soulsteal>, output of: <potion:alexsmobs:strong_soulsteal> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@cc6a9266
+[16:07:12.184][INFO]: Undoing removal of Brewing recipes that have an input of: <potion:minecraft:awkward>, output of: <potion:alexsmobs:soulsteal> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@f8108912
+[16:07:12.184][INFO]: Unregistering event listener for Finish.
+[16:07:12.185][INFO]: Unregistering event listener for Finish.
+[16:07:12.185][INFO]: Unregistering event listener for Finish.
+[16:07:12.185][INFO]: Unregistering event listener for Finish.
+[16:07:12.185][INFO]: Unregistering event listener for Finish.
+[16:07:12.185][INFO]: Unregistering event listener for Finish.
+[16:07:12.185][INFO]: Unregistering event listener for Finish.
+[16:07:12.185][INFO]: Unregistering event listener for Finish.
+[16:07:12.185][INFO]: Unregistering event listener for Finish.
+[16:07:12.185][INFO]: Unregistering event listener for RightClickItem.
+[16:07:12.185][INFO]: Undoing addition of brewing recipe. output: com.blamejared.crafttweaker.api.item.MCItemStackMutable@4e258f49, input: com.blamejared.crafttweaker.api.item.MCItemStack@e5588459 and ingredient: com.blamejared.crafttweaker.api.item.MCItemStack@8d581493
+[16:07:12.185][INFO]: Undoing addition of brewing recipe. output: com.blamejared.crafttweaker.api.item.MCItemStackMutable@6bcf7843, input: com.blamejared.crafttweaker.api.item.MCItemStack@4e258f49 and ingredient: com.blamejared.crafttweaker.api.item.MCItemStack@1ea28afe
+[16:07:12.185][INFO]: Undoing removal of Brewing recipes that have an input of: <potion:minecraft:regeneration>, output of: <potion:epicfight:blooming> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@a9f4240e
+[16:07:12.185][INFO]: Undoing addition of brewing recipe. output: com.blamejared.crafttweaker.api.item.MCItemStackMutable@e5588459, input: com.blamejared.crafttweaker.api.item.MCItemStack@36592d07 and ingredient: com.blamejared.crafttweaker.api.item.MCItemStack@e1a8a5db
+[16:07:12.194][INFO]: Compiling and executing scripts
+[16:07:12.237][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[16:07:12.237][INFO]: Loading file 'crafting.zs' with priority 0
+[16:07:12.247][INFO]: Loading file 'gamestage.zs' with priority 0
+[16:07:12.247][INFO]: Loading file 'jei.zs' with priority 0
+[16:07:12.296][INFO]: Removing "minecraft:crafting" recipes with modid: "irons_spellbooks"
+[16:07:12.297][INFO]: Removing "minecraft:smithing" recipes with modid: "irons_spellbooks"
+[16:07:12.297][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@e8f5a8a4'
+[16:07:12.298][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:anvil_upgrade' that outputs: '<item:sophisticatedbackpacks:anvil_upgrade>'
+[16:07:12.298][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:mysterious_worm' that outputs: '<item:alexsmobs:mysterious_worm>'
+[16:07:12.298][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:music_disc_daze' that outputs: '<item:alexsmobs:music_disc_daze>'
+[16:07:12.298][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:magic_cloth' that outputs: '<item:irons_spellbooks:magic_cloth>'
+[16:07:12.298][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:arcane_ingot' that outputs: '<item:irons_spellbooks:arcane_ingot>'
+[16:07:12.298][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
+[16:07:12.298][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
+[16:07:12.298][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
+[16:07:12.298][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
+[16:07:12.298][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
+[16:07:12.298][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
+[16:07:12.298][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
+[16:07:12.298][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
+[16:07:12.298][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
+[16:07:12.298][INFO]: [ItemStages] Creating new restriction for stages [unlock_acg].
+[16:07:12.298][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.298][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.298][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.298][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.298][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.298][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.298][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.298][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.298][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.298][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.298][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.298][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.298][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.298][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.298][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.299][INFO]: Removing 'smithing' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@a8315720'
+[16:07:12.299][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.299][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.299][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.299][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.299][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.299][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.299][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.299][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.299][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.299][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.299][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.299][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.299][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.299][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.299][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.299][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.299][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.299][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.299][INFO]: [ItemStages] Creating new restriction for stages [unlock_wom].
+[16:07:12.299][INFO]: Removing Brewing recipes that have an input of: <potion:minecraft:weakness>, output of: <potion:minecraft:long_weakness> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@14f372bc
+[16:07:12.299][INFO]: [ItemStages] Creating new restriction for stages [unlock_davepotion].
+[16:07:12.299][INFO]: [ItemStages] Creating new restriction for stages [unlock_davepotion].
+[16:07:12.299][INFO]: [ItemStages] Creating new restriction for stages [unlock_davepotion].
+[16:07:12.299][INFO]: [ItemStages] Creating new restriction for stages [unlock_davepotion].
+[16:07:12.299][INFO]: [ItemStages] Creating new restriction for stages [unlock_davepotion].
+[16:07:12.299][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@bddde1c4'
+[16:07:12.300][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@2c35baf0'
+[16:07:12.300][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@948f4ae2'
+[16:07:12.301][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@eddcfa6a'
+[16:07:12.301][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@577e0116'
+[16:07:12.302][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:staff' that outputs: '<item:wukong:staff>'
+[16:07:12.302][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:jingubang' that outputs: '<item:wukong:jingubang>'
+[16:07:12.302][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:peter' that outputs: '<item:stellarisdlc:peter>'
+[16:07:12.302][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:heartfelt1' that outputs: '<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: "miningmaster:heartfelt" as string}]})'
+[16:07:12.302][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:heartfelt2' that outputs: '<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: "miningmaster:heartfelt" as string}]})'
+[16:07:12.302][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:heartfelt3' that outputs: '<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: "miningmaster:heartfelt" as string}]})'
+[16:07:12.302][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:heartfelt4' that outputs: '<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 4 as short, id: "miningmaster:heartfelt" as string}]})'
+[16:07:12.302][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:phantom_ascent' that outputs: '<item:epicfight:skillbook>.withTag({skill: "epicfight:phantom_ascent" as string})'
+[16:07:12.303][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:double_jump' that outputs: '<item:epicfight:skillbook>.withTag({skill: "star:double_jump" as string})'
+[16:07:12.303][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:forbidden_strength' that outputs: '<item:epicfight:skillbook>.withTag({skill: "epicfight:forbidden_strength" as string})'
+[16:07:12.303][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:see_through' that outputs: '<item:epicfight:skillbook>.withTag({skill: "star:see_through" as string})'
+[16:07:12.303][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:heartseacharge' that outputs: '<item:stellariscraft:heartseacharge>'
+[16:07:12.303][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:infinitysponge' that outputs: '<item:stellariscraft:infinitysponge>'
+[16:07:12.303][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:rebuild_crystal' that outputs: '<item:stellarisdlc:rebuild_crystal>'
+[16:07:12.303][INFO]: Removing 'smithing' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@fa84e94f'
+[16:07:12.303][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:soulsickle' that outputs: '<item:stellarisdlc:soulsickle>'
+[16:07:12.303][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sickle' that outputs: '<item:stellarisdlc:sickle>'
+[16:07:12.303][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@e5e81f91'
+[16:07:12.304][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@f9fd558d'
+[16:07:12.304][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@5fb63395'
+[16:07:12.305][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@1642c7c9'
+[16:07:12.305][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@13ecdc7a'
+[16:07:12.305][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:potion_injector' that outputs: '<item:davespotioneering:potion_injector>'
+[16:07:12.306][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:compound_brewing_stand' that outputs: '<item:davespotioneering:compound_brewing_stand>'
+[16:07:12.306][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:reinforced_cauldron' that outputs: '<item:davespotioneering:reinforced_cauldron>'
+[16:07:12.306][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:potioneer_to_guard' that outputs: '<item:cataclysm:gauntlet_of_guard>'
+[16:07:12.306][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:netherite_to_potioneer' that outputs: '<item:davespotioneering:potioneer_gauntlet>.withDamage(32)'
+[16:07:12.306][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:glove_to_rudimentary' that outputs: '<item:davespotioneering:rudimentary_gauntlet>'
+[16:07:12.306][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:chipped2perfect' that outputs: '<item:minecraft:anvil>'
+[16:07:12.306][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:damaged2chipped' that outputs: '<item:minecraft:chipped_anvil>'
+[16:07:12.306][INFO]: Removing 'smithing' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@bed91d8d'
+[16:07:12.306][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:netheritess2netherite_scrap' that outputs: '<item:minecraft:netherite_scrap> * 2'
+[16:07:12.306][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tiestone_armor_helmet' that outputs: '<item:stellarisdlc:tiestone_armor_helmet>'
+[16:07:12.306][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tiestone_armor_chestplate' that outputs: '<item:stellarisdlc:tiestone_armor_chestplate>'
+[16:07:12.306][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tiestone_armor_leggings' that outputs: '<item:stellarisdlc:tiestone_armor_leggings>'
+[16:07:12.306][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tiestone_armor_boots' that outputs: '<item:stellarisdlc:tiestone_armor_boots>'
+[16:07:12.306][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:blackstone' that outputs: '<item:minecraft:blackstone> * 8'
+[16:07:12.306][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:diamond_heart2' that outputs: '<item:minecraft:lapis_block> * 4'
+[16:07:12.306][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:blacknetherstar' that outputs: '<item:stellariscraft:blacknetherstar>'
+[16:07:12.306][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:wither_skeleton_skull1' that outputs: '<item:minecraft:wither_skeleton_skull> * 6'
+[16:07:12.306][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:wither_skeleton_skull2' that outputs: '<item:minecraft:wither_skeleton_skull> * 3'
+[16:07:12.306][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@be2f086b'
+[16:07:12.307][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@cd70033f'
+[16:07:12.307][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@df9267c6'
+[16:07:12.308][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@7c158b13'
+[16:07:12.308][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@48fcc994'
+[16:07:12.309][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:quiver' that outputs: '<item:supplementaries:quiver>'
+[16:07:12.309][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@2b00794f'
+[16:07:12.309][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:pickarang' that outputs: '<item:quark:pickarang>'
+[16:07:12.309][INFO]: Removing 'smithing' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@5a5b94eb'
+[16:07:12.309][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:flamerang' that outputs: '<item:quark:flamerang>'
+[16:07:12.309][INFO]: Adding 'minecraft:stonecutting' recipe, with name: 'crafttweaker:armor2diamond' that outputs: '<item:minecraft:diamond>'
+[16:07:12.309][INFO]: Adding 'minecraft:stonecutting' recipe, with name: 'crafttweaker:armor2iron' that outputs: '<item:minecraft:iron_ingot> * 2'
+[16:07:12.310][INFO]: Adding 'minecraft:stonecutting' recipe, with name: 'crafttweaker:armor2gold' that outputs: '<item:minecraft:gold_ingot> * 3'
+[16:07:12.310][INFO]: Adding 'minecraft:stonecutting' recipe, with name: 'crafttweaker:iron_horsearmor' that outputs: '<item:minecraft:iron_ingot> * 2'
+[16:07:12.310][INFO]: Adding 'minecraft:stonecutting' recipe, with name: 'crafttweaker:gold_horsearmor' that outputs: '<item:minecraft:gold_ingot> * 2'
+[16:07:12.310][INFO]: Adding 'minecraft:stonecutting' recipe, with name: 'crafttweaker:diamond_horsearmor' that outputs: '<item:minecraft:diamond> * 2'
+[16:07:12.310][INFO]: Adding 'minecraft:blasting' recipe, with name: 'crafttweaker:iron_block2steelingot' that outputs: '<item:stellariscraft:steelingot>'
+[16:07:12.310][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:fightswordaxe' that outputs: '<item:stellariscraft:fightswordaxe>'
+[16:07:12.310][INFO]: Removing 'blasting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@359cf85f'
+[16:07:12.310][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:ametrine_gems' that outputs: '<item:byg:ametrine_gems> * 15'
+[16:07:12.310][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:enderite_ingot' that outputs: '<item:cataclysm:enderite_ingot> * 2'
+[16:07:12.310][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@83b5242'
+[16:07:12.310][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:netherrotingot' that outputs: '<item:stellariscraft:netherrotingot>'
+[16:07:12.311][INFO]: Removing 'smithing' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@48a72a5'
+[16:07:12.311][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:deadingot' that outputs: '<item:stellariscraft:deadingot>'
+[16:07:12.311][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:witherite_ingot' that outputs: '<item:cataclysm:witherite_ingot>'
+[16:07:12.311][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:witherite_block' that outputs: '<item:cataclysm:witherite_block>'
+[16:07:12.311][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:witherite_block2ingot' that outputs: '<item:cataclysm:witherite_ingot> * 9'
+[16:07:12.311][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:uchigatana' that outputs: '<item:epicfight:uchigatana>'
+[16:07:12.311][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:rotgreatsword' that outputs: '<item:stellarisdlc:rotgreatsword>'
+[16:07:12.311][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@c017a766'
+[16:07:12.311][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:the_incinerator' that outputs: '<item:cataclysm:the_incinerator>'
+[16:07:12.311][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:final_fractal' that outputs: '<item:cataclysm:final_fractal>'
+[16:07:12.311][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:alchemy_table' that outputs: '<item:blue_skies:alchemy_table>'
+[16:07:12.312][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:summoning_table' that outputs: '<item:blue_skies:summoning_table>'
+[16:07:12.312][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@ff6ab282'
+[16:07:12.312][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@8b1a3617'
+[16:07:12.312][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@8d5a9bfc'
+[16:07:12.313][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:pkey' that outputs: '<item:stellariscraft:pkey>'
+[16:07:12.313][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mkey' that outputs: '<item:stellariscraft:mkey>'
+[16:07:12.313][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ukey' that outputs: '<item:stellariscraft:ukey>'
+[16:07:12.313][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@fa5ccfa9'
+[16:07:12.313][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:forgedspar' that outputs: '<item:stellarisdlc:forgedspar> * 2'
+[16:07:12.313][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:adgrain2forgedspar' that outputs: '<item:stellariscraft:adventurespar>'
+[16:07:12.314][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:reinforcedspar' that outputs: '<item:stellarisdlc:reinforcedspar> * 4'
+[16:07:12.314][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@1a7cc7a4'
+[16:07:12.314][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:xp_tome' that outputs: '<item:xpbook:xp_tome>'
+[16:07:12.314][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:experience_bottle' that outputs: '<item:minecraft:experience_bottle> * 16'
+[16:07:12.314][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:starpendant' that outputs: '<item:stellarisdlc:starpendant>'
+[16:07:12.314][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@9b1970ad'
+[16:07:12.315][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@754cbaef'
+[16:07:12.315][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@4bcb74c'
+[16:07:12.315][INFO]: Removing "minecraft:crafting" recipes with modid: "waystones"
+[16:07:12.316][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@1f91cb1e'
+[16:07:12.316][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@195b6389'
+[16:07:12.317][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@6ced2b29'
+[16:07:12.317][INFO]: Removing 'smithing' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@87bc8838'
+[16:07:12.317][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@e9482e1a'
+[16:07:12.318][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@72fef732'
+[16:07:12.318][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:fish_to_ink' that outputs: '<item:minecraft:ink_sac>'
+[16:07:12.318][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:sack' that outputs: '<item:supplementaries:sack>'
+[16:07:12.318][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@f799c040'
+[16:07:12.319][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@c7278a61'
+[16:07:12.319][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@e5cefcae'
+[16:07:12.320][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:blood_sprayer' that outputs: '<item:alexsmobs:blood_sprayer>'
+[16:07:12.320][INFO]: Removing "minecraft:crafting" recipe with names that match the regex: ".*umbrella.*"
+[16:07:12.323][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:warp_scroll' that outputs: '<item:waystones:warp_scroll> * 4'
+[16:07:12.323][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@639fe365'
+[16:07:12.323][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@8b979c58'
+[16:07:12.324][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:explorerscompass' that outputs: '<item:explorerscompass:explorerscompass>'
+[16:07:12.324][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:naturescompass' that outputs: '<item:naturescompass:naturescompass>'
+[16:07:12.324][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@58b2e1dc'
+[16:07:12.325][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:disenchanter' that outputs: '<item:disenchanting:disenchanter>'
+[16:07:12.325][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@82908b6'
+[16:07:12.325][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tool_leveling_table' that outputs: '<item:toolleveling:tool_leveling_table>'
+[16:07:12.325][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:symmetryspear' that outputs: '<item:stellarisdlc:symmetryspear>'
+[16:07:12.325][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:ignitium_ingot' that outputs: '<item:cataclysm:ignitium_ingot> * 2'
+[16:07:12.325][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:diamond' that outputs: '<item:minecraft:diamond> * 3'
+[16:07:12.325][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:voidaxe' that outputs: '<item:stellariscraft:voidaxe>'
+[16:07:12.325][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:flayer' that outputs: '<item:stellarisdlc:flayer>'
+[16:07:12.325][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:deadheart' that outputs: '<item:stellariscraft:deadheart>'
+[16:07:12.325][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@35f8a06e'
+[16:07:12.326][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:enchanting_table' that outputs: '<item:minecraft:enchanting_table>'
+[16:07:12.326][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:fried_egg' that outputs: '<item:incubation:fried_egg>'
+[16:07:12.326][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@19d6cd8e'
+[16:07:12.326][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:evidencenether_2' that outputs: '<item:stellarisdlc:evidencenether_2>'
+[16:07:12.327][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:evidencenether_1' that outputs: '<item:stellarisdlc:evidencenether_1>'
+[16:07:12.327][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:evidencestar_2' that outputs: '<item:stellarisdlc:evidencestar_2>'
+[16:07:12.327][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:evidencestar_1' that outputs: '<item:stellarisdlc:evidencestar_1>'
+[16:07:12.327][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:sunstone_block' that outputs: '<item:blue_skies:sunstone_block>'
+[16:07:12.327][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:evidenceskies_1' that outputs: '<item:stellarisdlc:evidenceskies_1>'
+[16:07:12.327][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:evidenceskies_2' that outputs: '<item:stellarisdlc:evidenceskies_2>'
+[16:07:12.327][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:evidenceadventure_2' that outputs: '<item:stellarisdlc:evidenceadventure_2>'
+[16:07:12.327][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:evidenceadventure_1' that outputs: '<item:stellarisdlc:evidenceadventure_1>'
+[16:07:12.327][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:exchangestonecore' that outputs: '<item:stellarisdlc:exchangestonecore>'
+[16:07:12.327][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:superhealth' that outputs: '<item:stellariscraft:superhealth>'
+[16:07:12.327][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@111bc030'
+[16:07:12.327][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:relic_apple' that outputs: '<item:bhc:relic_apple>'
+[16:07:12.328][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@77ba0f12'
+[16:07:12.328][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:red_heart_canister' that outputs: '<item:bhc:red_heart_canister>'
+[16:07:12.328][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@7224f113'
+[16:07:12.328][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:yellow_heart_canister' that outputs: '<item:bhc:yellow_heart_canister>'
+[16:07:12.329][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@c6ad1f68'
+[16:07:12.329][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:green_heart_canister' that outputs: '<item:bhc:green_heart_canister>'
+[16:07:12.329][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@e9cd0e45'
+[16:07:12.330][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:blue_heart_canister' that outputs: '<item:bhc:blue_heart_canister>'
+[16:07:12.330][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@7043bc9d'
+[16:07:12.330][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:bomb' that outputs: '<item:supplementaries:bomb>'
+[16:07:12.330][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ankh_charm' that outputs: '<item:omnis:ankh_charm>'
+[16:07:12.330][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:dragonfalchion' that outputs: '<item:stellarisdlc:dragonfalchion>'
+[16:07:12.330][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:phoenixspear' that outputs: '<item:stellarisdlc:phoenixspear>'
+[16:07:12.330][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@9d4406f9'
+[16:07:12.331][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@5221b0b1'
+[16:07:12.331][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:pearl_necklace_2' that outputs: '<item:crittersandcompanions:pearl_necklace_2>'
+[16:07:12.331][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:pearl_necklace_3' that outputs: '<item:crittersandcompanions:pearl_necklace_3>'
+[16:07:12.331][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:saber' that outputs: '<item:stellarisdlc:saber>'
+[16:07:12.331][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:liesnow' that outputs: '<item:stellariscraft:liesnow>'
+[16:07:12.331][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@e6f23a40'
+[16:07:12.332][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:omelet1' that outputs: '<item:s33r_more_food:omelet> * 4'
+[16:07:12.332][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:omelet2' that outputs: '<item:s33r_more_food:omelet> * 2'
+[16:07:12.332][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:omelet3' that outputs: '<item:s33r_more_food:omelet> * 2'
+[16:07:12.332][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@eaaad089'
+[16:07:12.332][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:neptunium_chestplate' that outputs: '<item:aquaculture:neptunium_chestplate>'
+[16:07:12.332][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@304737a9'
+[16:07:12.333][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:neptunium_helmet' that outputs: '<item:aquaculture:neptunium_helmet>'
+[16:07:12.333][INFO]: Adding 'minecraft:blasting' recipe, with name: 'crafttweaker:neptunes_bounty2neptunium_ingot' that outputs: '<item:aquaculture:neptunium_ingot> * 2'
+[16:07:12.333][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:groundcrackhammer' that outputs: '<item:stellarisdlc:groundcrackhammer>'
+[16:07:12.333][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:dragonspear' that outputs: '<item:stellarisdlc:dragonspear>'
+[16:07:12.333][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@683df34b'
+[16:07:12.334][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:trident' that outputs: '<item:minecraft:trident>'
+[16:07:12.334][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ring_sponge' that outputs: '<item:ringsofascension:ring_sponge>'
+[16:07:12.334][INFO]: Removing 'smelting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@1f733d01'
+[16:07:12.334][INFO]: Adding 'minecraft:smelting' recipe, with name: 'crafttweaker:wet_sponge2sponge' that outputs: '<item:minecraft:sponge>'
+[16:07:12.334][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@ce9c7ce8'
+[16:07:12.334][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:overweight_golden_apple_block' that outputs: '<item:overweight_farming:overweight_golden_apple_block>'
+[16:07:12.334][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@21288e41'
+[16:07:12.335][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:stack_upgrade_tier_4' that outputs: '<item:sophisticatedbackpacks:stack_upgrade_tier_4>'
+[16:07:12.335][INFO]: Adding a brewing recipe. output: com.blamejared.crafttweaker.api.item.MCItemStackMutable@9ba84a65, input: com.blamejared.crafttweaker.api.item.MCItemStack@b4254858 and ingredient: com.blamejared.crafttweaker.api.item.MCItemStack@a02b51d0
+[16:07:12.335][INFO]: Removing Brewing recipes that have an input of: <potion:minecraft:awkward>, output of: <potion:minecraft:turtle_master> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@55050c44
+[16:07:12.335][INFO]: Removing Brewing recipes that have an input of: <potion:minecraft:slowness>, output of: <potion:minecraft:strong_slowness> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@cc6a9266
+[16:07:12.335][INFO]: Removing Brewing recipes that have an input of: <potion:minecraft:swiftness>, output of: <potion:minecraft:strong_swiftness> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@cc6a9266
+[16:07:12.335][INFO]: Removing Brewing recipes that have an input of: <potion:minecraft:strong_swiftness>, output of: <potion:alexsmobs:speed_iii> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@e7a77dbd
+[16:07:12.335][INFO]: Removing Brewing recipes that have an input of: <potion:minecraft:weakness>, output of: <potion:minecraft:long_weakness> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@14f372bc
+[16:07:12.335][INFO]: Removing Brewing recipes that have an input of: <potion:alexsmobs:soulsteal>, output of: <potion:alexsmobs:strong_soulsteal> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@cc6a9266
+[16:07:12.335][INFO]: Removing Brewing recipes that have an input of: <potion:minecraft:awkward>, output of: <potion:alexsmobs:soulsteal> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@f8108912
+[16:07:12.335][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:durandal' that outputs: '<item:stellariscraft:durandal>'
+[16:07:12.335][INFO]: Registering event listener for Finish.
+[16:07:12.335][INFO]: Registering event listener for Finish.
+[16:07:12.335][INFO]: Registering event listener for Finish.
+[16:07:12.335][INFO]: Registering event listener for Finish.
+[16:07:12.335][INFO]: Registering event listener for Finish.
+[16:07:12.335][INFO]: Registering event listener for Finish.
+[16:07:12.335][INFO]: Registering event listener for Finish.
+[16:07:12.336][INFO]: Registering event listener for Finish.
+[16:07:12.336][INFO]: Registering event listener for Finish.
+[16:07:12.336][INFO]: Registering event listener for RightClickItem.
+[16:07:12.336][INFO]: Adding a brewing recipe. output: com.blamejared.crafttweaker.api.item.MCItemStackMutable@4e258f49, input: com.blamejared.crafttweaker.api.item.MCItemStack@e5588459 and ingredient: com.blamejared.crafttweaker.api.item.MCItemStack@8d581493
+[16:07:12.336][INFO]: Adding a brewing recipe. output: com.blamejared.crafttweaker.api.item.MCItemStackMutable@6bcf7843, input: com.blamejared.crafttweaker.api.item.MCItemStack@4e258f49 and ingredient: com.blamejared.crafttweaker.api.item.MCItemStack@1ea28afe
+[16:07:12.336][INFO]: Removing Brewing recipes that have an input of: <potion:minecraft:regeneration>, output of: <potion:epicfight:blooming> and a reagent of: com.blamejared.crafttweaker.api.item.MCItemStack@a9f4240e
+[16:07:12.336][INFO]: Adding a brewing recipe. output: com.blamejared.crafttweaker.api.item.MCItemStackMutable@e5588459, input: com.blamejared.crafttweaker.api.item.MCItemStack@36592d07 and ingredient: com.blamejared.crafttweaker.api.item.MCItemStack@e1a8a5db
+[16:07:12.336][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@55050c44'
+[16:07:12.337][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:xiachenghufu' that outputs: '<item:artifacts:charm_of_sinking>'
+[16:07:12.337][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:zhenchandiaozhui' that outputs: '<item:artifacts:shock_pendant>'
+[16:07:12.337][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:jingjidiaozhui' that outputs: '<item:artifacts:thorn_pendant>'
+[16:07:12.337][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:lieyandiaozhui' that outputs: '<item:artifacts:flame_pendant>'
+[16:07:12.337][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:konghuangxianglian' that outputs: '<item:artifacts:panic_necklace>'
+[16:07:12.337][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:shizixianglian' that outputs: '<item:artifacts:cross_necklace>'
+[16:07:12.337][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@caffde0a'
+[16:07:12.337][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:bulwark_of_the_flame' that outputs: '<item:cataclysm:bulwark_of_the_flame>'
+[16:07:12.337][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:aviary' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/aviary" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"末地——三只小鸟\"}" as string}})'
+[16:07:12.338][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:burning_arena' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/burning_arena" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"下界——焰魔决斗场\"}" as string}})'
+[16:07:12.338][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:coliseum' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/coliseum" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"主世界——斗兽场（极远）\"}" as string}})'
+[16:07:12.338][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:end_tower' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/end_tower" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"战斗高塔——末地\"}" as string}})'
+[16:07:12.338][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:foundry' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/foundry" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"主世界地下——铸造厂\"}" as string}})'
+[16:07:12.338][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:frostmaw_spawn' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/frostmaw_spawn" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"冰原——霜冻巨兽\"}" as string}})'
+[16:07:12.338][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:gatekeeper_house_mountain' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/gatekeeper_house_mountain" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"蔚蓝守门人——山地\"}" as string}})'
+[16:07:12.338][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:gatekeeper_house_plains' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/gatekeeper_house_plains" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"蔚蓝守门人——平原\"}" as string}})'
+[16:07:12.338][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:gatekeeper_house_snowy' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/gatekeeper_house_snowy" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"蔚蓝守门人——雪地\"}" as string}})'
+[16:07:12.339][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:geocentric_tower' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/core_tower" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"战斗高塔——炉心\"}" as string}})'
+[16:07:12.339][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:heavenly_challenger' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/heavenly_challenger" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"天空——天堂挑战者\"}" as string}})'
+[16:07:12.339][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:keep_kayra' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/keep_kayra" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"沼泽/沙漠/恶地——创世神殿（最远）\"}" as string}})'
+[16:07:12.339][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mushroom' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/mushroom" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"蘑菇岛——蘑孢灵\"}" as string}})'
+[16:07:12.339][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:nether_tower' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/nether_tower" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"战斗高塔——下界\"}" as string}})'
+[16:07:12.339][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:shiraz_palace' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/shiraz_palace" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"沙漠——繁花宫殿（最远）\"}" as string}})'
+[16:07:12.339][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:soul_black_smith' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/soul_black_smith" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"下界合金巨兽\"}" as string}})'
+[16:07:12.339][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:umvuthana_grove' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/umvuthana_grove" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"主世界——太阳神鸟\"}" as string}})'
+[16:07:12.339][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:wrought_chamber' that outputs: '<item:minecraft:barrel>.withTag({BlockEntityTag: {LootTable: "stellariscraft:chests/maps/wrought_chamber" as string, id: "minecraft:barrel" as string}, display: {Name: "{\"text\":\"主世界——钢铁守护者\"}" as string}})'
+[16:07:12.340][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:warp_stone' that outputs: '<item:waystones:warp_stone>'
+[16:07:12.340][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:waystone' that outputs: '<item:waystones:waystone>'
+[16:07:12.340][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@64fbe911'
+[16:07:12.340][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ghast_tear' that outputs: '<item:minecraft:ghast_tear>'
+[16:07:12.340][INFO]: Removing "minecraft:crafting" recipes with modid: "epicacg"
+[16:07:12.341][INFO]: Execution for loader 'crafttweaker' completed successfully
+[16:07:12.342][INFO]: This reload was made possible by Jordan Pineo and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod

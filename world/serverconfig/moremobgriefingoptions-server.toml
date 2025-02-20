@@ -1,18 +1,21 @@
 
 #MobGriefing settings
 [mobGriefing]
-	#creeperoverhaul:spruce_creeper mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"creeperoverhaul:spruce_creeper" = "FALSE"
-	#creeperoverhaul:swamp_creeper mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"creeperoverhaul:swamp_creeper" = "FALSE"
-	#isleofberk:deadly_nadder mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"isleofberk:deadly_nadder" = "FALSE"
 	#isleofberk:fire_bolt mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"isleofberk:fire_bolt" = "FALSE"
+	#isleofberk:fire_proj mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"isleofberk:fire_proj" = "FALSE"
+	#isleofberk:fire_small_proj mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"isleofberk:fire_small_proj" = "FALSE"
+	#isleofberk:fury_bolt mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"isleofberk:fury_bolt" = "FALSE"
+	#isleofberk:gronckle mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"isleofberk:gronckle" = "FALSE"
 	#minecraft:area_effect_cloud mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"minecraft:area_effect_cloud" = "DEFAULT"
@@ -367,9 +370,9 @@
 	#isleofberk:skrill mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"isleofberk:skrill" = "DEFAULT"
-	#isleofberk:gronckle mobGriefing
+	#isleofberk:deadly_nadder mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"isleofberk:gronckle" = "DEFAULT"
+	"isleofberk:deadly_nadder" = "DEFAULT"
 	#isleofberk:monstrous_nightmare mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"isleofberk:monstrous_nightmare" = "DEFAULT"
@@ -388,9 +391,6 @@
 	#isleofberk:terrible_terror mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"isleofberk:terrible_terror" = "DEFAULT"
-	#isleofberk:fury_bolt mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"isleofberk:fury_bolt" = "DEFAULT"
 	#isleofberk:skrill_lightning mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"isleofberk:skrill_lightning" = "DEFAULT"
@@ -403,12 +403,6 @@
 	#isleofberk:zip_cloud mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"isleofberk:zip_cloud" = "DEFAULT"
-	#isleofberk:fire_proj mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"isleofberk:fire_proj" = "DEFAULT"
-	#isleofberk:fire_small_proj mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"isleofberk:fire_small_proj" = "DEFAULT"
 	#isleofberk:speed_stinger_egg mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"isleofberk:speed_stinger_egg" = "DEFAULT"
@@ -1399,54 +1393,54 @@
 	#atmospheric:passionfruit_seed mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"atmospheric:passionfruit_seed" = "DEFAULT"
+	#quark:pickarang mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"quark:pickarang" = "DEFAULT"
+	#quark:crab mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"quark:crab" = "DEFAULT"
+	#quark:glass_frame mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"quark:glass_frame" = "DEFAULT"
+	#quark:chest_passenger mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"quark:chest_passenger" = "DEFAULT"
+	#quark:totem mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"quark:totem" = "DEFAULT"
+	#quark:foxhound mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"quark:foxhound" = "DEFAULT"
+	#quark:stoneling mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"quark:stoneling" = "DEFAULT"
+	#quark:stool mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"quark:stool" = "DEFAULT"
 	#quark:gravisand mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"quark:gravisand" = "DEFAULT"
+	#quark:frog mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"quark:frog" = "DEFAULT"
+	#quark:skull_pike mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"quark:skull_pike" = "DEFAULT"
+	#quark:shiba mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"quark:shiba" = "DEFAULT"
 	#quark:wraith mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"quark:wraith" = "DEFAULT"
 	#quark:soul_bead mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"quark:soul_bead" = "DEFAULT"
-	#quark:pickarang mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"quark:pickarang" = "DEFAULT"
-	#quark:skull_pike mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"quark:skull_pike" = "DEFAULT"
-	#quark:foxhound mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"quark:foxhound" = "DEFAULT"
-	#quark:toretoise mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"quark:toretoise" = "DEFAULT"
 	#quark:forgotten mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"quark:forgotten" = "DEFAULT"
-	#quark:glass_frame mobGriefing
+	#quark:toretoise mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"quark:glass_frame" = "DEFAULT"
-	#quark:totem mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"quark:totem" = "DEFAULT"
-	#quark:stool mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"quark:stool" = "DEFAULT"
-	#quark:shiba mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"quark:shiba" = "DEFAULT"
-	#quark:chest_passenger mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"quark:chest_passenger" = "DEFAULT"
-	#quark:crab mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"quark:crab" = "DEFAULT"
-	#quark:stoneling mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"quark:stoneling" = "DEFAULT"
-	#quark:frog mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"quark:frog" = "DEFAULT"
+	"quark:toretoise" = "DEFAULT"
 	#quark:parrot_egg mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"quark:parrot_egg" = "DEFAULT"
@@ -1654,6 +1648,9 @@
 	#creeperoverhaul:mushroom_creeper mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"creeperoverhaul:mushroom_creeper" = "DEFAULT"
+	#creeperoverhaul:swamp_creeper mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"creeperoverhaul:swamp_creeper" = "DEFAULT"
 	#creeperoverhaul:dripstone_creeper mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"creeperoverhaul:dripstone_creeper" = "DEFAULT"
@@ -1663,6 +1660,9 @@
 	#creeperoverhaul:dark_oak_creeper mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"creeperoverhaul:dark_oak_creeper" = "DEFAULT"
+	#creeperoverhaul:spruce_creeper mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"creeperoverhaul:spruce_creeper" = "DEFAULT"
 	#creeperoverhaul:beach_creeper mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"creeperoverhaul:beach_creeper" = "DEFAULT"
