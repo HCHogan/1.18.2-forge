@@ -1,0 +1,42 @@
+{
+    "name": "火焰红宝石",
+    "category": "patchouli:mining",
+    "icon": "miningmaster:fire_ruby",
+    "pages": [
+       {"type": "spotlight",
+        "title":"火焰红宝石",
+        "item": "miningmaster:fire_ruby",
+        "text": "吸收了火焰力量产生的珍惜矿物，因为火焰力量的纯净，能够回应赤诚之人。$(br2)分布极其稀少，沙漠生物群系的地下会少量增加数量，流浪商人有时也会以2金币的价格售卖。$(br)传言$(#ff0000)炉心傀儡$()是由人类被此物占据肉体而产生",
+        "link_recipe":true
+         },
+        {
+            "type": "patchouli:png_mining",
+            "image": "stellarisdlc:textures/png/fire.png",
+            "text1":"火焰红宝石矿",
+            "text2":"生成层数y:-40~20$(br)沙漠群系:9个/区块$(br)其他群系:0.5个/区块"
+            
+          },
+      {
+        "type": "patchouli:mining_smith",
+        "head":"火焰红宝石的简单使用",
+        "item1": "minecraft:diamond_sword",
+        "item2": "miningmaster:fire_ruby",
+        "item3": "minecraft:diamond_sword{Enchantments:[{id:\"fire_aspect\",lvl:1s}]}",
+        "item4": "minecraft:diamond_pickaxe",
+        "item5": "miningmaster:fire_ruby",
+        "item6": "minecraft:diamond_pickaxe{Enchantments:[{id:\"miningmaster:smelting\",lvl:1s}]}",
+        "item7": "minecraft:diamond_chestplate",
+        "item8": "miningmaster:fire_ruby",
+        "item9": "minecraft:diamond_chestplate{Enchantments:[{id:\"fire_protection\",lvl:1s}]}"
+      },
+      {
+         "type":"patchouli:smith",
+         "head":"火焰红宝石的简单使用",
+        "item1": "minecraft:bow",
+        "item2": "miningmaster:fire_ruby",
+        "item3": "minecraft:bow{Enchantments:[{id:\"minecraft:flame\",lvl:1s}]}",
+        "text":"在$(#ff0000)锻造台$()上可以根据物品的不同分别赋予火属性的力量，再次锻造可反复提升力量;但是由于并非专业的魔力注入，$(#ff0000)无法突破这些附魔原有的极限。$()"
+        
+      }
+    ]
+  }

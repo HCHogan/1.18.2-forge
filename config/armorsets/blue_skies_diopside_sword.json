@@ -1,0 +1,57 @@
+{
+  "armorSetName": "blue_skies_diopside_sword",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "blue_skies:diopside_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "blue_skies:diopside_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "blue_skies:diopside_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "blue_skies:diopside_boots",
+    "mustBeEmpty": false
+  },
+   "mainHand": {
+	"itemKey": "blue_skies:diopside_sword"
+  },
+  "offHand": {
+	"itemKey": "blue_skies:diopside_sword"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:strength",
+      "value": 2.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "description": "blue_skies_diopside_sword",
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": true,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:slowness",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": true,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

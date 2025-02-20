@@ -1,0 +1,152 @@
+{
+  "profession": "minecraft:mason",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:quartz",
+        "amount": 10
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 5
+      },
+      "tradeExp": 5,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:_quartz_for_copper_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 2
+      },
+      "request": {
+        "itemKey": "minecraft:cobblestone",
+        "amount": 32
+      },
+      "tradeExp": 5,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:mason_copper_coin_for_cobblestone_0"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:terracotta",
+        "amount": 10
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 5
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:mason_terracotta_for_copper_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 8
+      },
+      "request": {
+        "itemKey": "minecraft:amethyst_shard",
+        "amount": 64
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:mason_copper_coin_for_amethyst_shard_0"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:quartz_block",
+        "amount": 32
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:mason_iron_coin_for_quartz_block_0"
+    },
+    {
+      "offer": {
+        "itemKey": "epicfight:skillbook",
+        "amount": 1,
+        "advancedNBTData": "{skill:\"epicfight:parrying\"}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 3
+      },
+      "tradeExp": 50,
+      "maxUses": 1,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:stamina_pillager_skillbook_for_gold_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:budding_amethyst",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 1
+      },
+      "tradeExp": 100,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:mason_budding_amethyst_for_gold_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:magma_cream",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 8
+      },
+      "tradeExp": 5,
+      "maxUses": 5,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:mason_budding_amethyst_for_gold_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald_block",
+        "amount": 3
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:mason_iron_coin_for_emerald_block_0"
+    }
+  ]
+}

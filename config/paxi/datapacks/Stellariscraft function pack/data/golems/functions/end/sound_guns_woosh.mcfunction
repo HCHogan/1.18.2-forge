@@ -1,0 +1,1 @@
+execute at @e[type=ba_bt:end_golem,sort=nearest,limit=1] run playsound epicfight:entity.weapon.whoosh block @p ~ ~ ~ 3 1

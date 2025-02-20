@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:leather_chestplate",
+    "minecraft:chainmail_chestplate",
+    "minecraft:iron_chestplate",
+    "minecraft:golden_chestplate",
+    "minecraft:diamond_chestplate",
+    "minecraft:netherite_chestplate",
+    "aquaculture:neptunium_chestplate",
+    "blue_skies:pyrope_chestplate",
+    "blue_skies:aquite_chestplate",
+    "blue_skies:diopside_chestplate",
+    "blue_skies:charoite_chestplate",
+    "blue_skies:horizonite_chestplate",
+    "cataclysm:ignitium_chestplate",
+    "cataclysm:ignitium_elytra_chestplate",
+    "byg:ametrine_chestplate",
+    "miningmaster:paragon_chestplate",
+    "omnis:ravaged_chestplate",
+    "omnis:haunted_chestplate",
+    "ba_bt:platinum_chestplate",
+    "stellarisdlc:diasteel_chestplate",
+    "stellarisdlc:goldendragon_chestplate",
+    "stellarisdlc:tiestone_armor_chestplate",
+    "stellarisdlc:netherrot_armor_chestplate",
+    "stellarisdlc:w_tknight_armor_chestplate",
+    "stellarisdlc:deadknight_chestplate",
+    "amethysttoolsmod:iron_chestplate_amethyst",
+    "amethysttoolsmod:diamond_chestplate_amethyst",
+    "amethysttoolsmod:netherite_chestplate_amethyst"
+  ]
+}

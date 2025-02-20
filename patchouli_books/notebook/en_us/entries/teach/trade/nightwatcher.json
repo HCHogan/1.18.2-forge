@@ -1,0 +1,46 @@
+{
+    "name": "守夜人(赃物带)",
+    "icon": "blue_skies:bag_of_spoils",
+    "category": "patchouli:trade",
+    "sortnum":1,
+    "pages": [
+{"type":"trade1",
+ "head":"村民等级:新手",
+ "item1":"dotcoinmod:copper_coin#3",
+ "item2":"minecraft:air",
+ "item3":"blue_skies:aquite#2",
+ "text1":"20次"
+ 
+},
+{"type":"trade1",
+ "head":"村民等级:学徒",
+ "item1":"dotcoinmod:copper_coin#3",
+ "item2":"minecraft:air",
+ "item3":"blue_skies:pyrope_gem#2",
+ "text1":"20次"
+},
+{"type":"trade1",
+ "head":"村民等级:老手",
+ "item1":"dotcoinmod:copper_coin#2",
+ "item2":"minecraft:air",
+ "item3":"blue_skies:horizonite_ingot#3",
+ "text1":"20次"
+},
+{"type":"trade1",
+ "head":"村民等级:专家",
+ "item1":"dotcoinmod:copper_coin#3",
+ "item2":"minecraft:air",
+ "item3":"blue_skies:falsite_ingot#2",
+ "text1":"20次"
+ 
+},
+{"type":"trade1",
+ "head":"村民等级:大师",
+ "item1":"dotcoinmod:copper_coin#3",
+ "item2":"minecraft:air",
+ "item3":"blue_skies:diopside_gem#2",
+ "text1":"20次"
+}
+
+    ]
+}

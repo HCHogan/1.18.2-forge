@@ -1,0 +1,69 @@
+{
+  "armorSetName": "shield_tower3",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "stellarisdlc:symmetryspear",
+    "mixAndMatch": [
+      "stellarisdlc:phoenixspear",
+      "stellarisdlc:flayer",
+      "stellarisdlc:dragonspear",
+      "mca:scythe",
+      "mowziesmobs:spear",
+      "epicfight:iron_spear",
+      "epicfight:golden_spear",
+      "epicfight:diamond_spear",
+      "epicfight:netherite_spear",
+      "epicfight:iron_longsword",
+      "epicfight:golden_longsword",
+      "epicfight:diamond_longsword",
+      "epicfight:netherite_longsword",
+      "stellariscraft:liesnow",
+      "stellariscraft:durandal",
+      "stellarisdlc:excalibur",
+      "stellarisdlc:loyalheart",
+      "stellarisdlc:saber"
+    ]
+  },
+  "offHand": {
+    "itemKey": "cataclysm:bulwark_of_the_flame"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "cofh_core:shocked",
+      "value": 0.0,
+      "interactionType": "interact",
+      "interactionDuration": 80,
+      "hideBonusDescription": false,
+      "description": "shield_tower3",
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "isleofberk:shock",
+      "value": 0.0,
+      "interactionType": "interact",
+      "interactionDuration": 80,
+      "hideBonusDescription": true,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "omnis:staggered",
+      "value": 1.0,
+      "interactionType": "interact",
+      "interactionDuration": 80,
+      "hideBonusDescription": true,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": -0.12,
+      "attributeOperation": 2,
+      "modifierUUID": "4e49c6bc-cb73-4ab7-a847-311eea1e9fc6",
+      "description": "-12% movement_speed"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

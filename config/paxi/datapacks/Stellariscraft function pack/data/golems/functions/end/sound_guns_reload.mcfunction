@@ -1,0 +1,1 @@
+execute at @e[type=ba_bt:end_golem,sort=nearest,limit=1] run playsound wom:sfx.enderblaster_reload block @p ~ ~ ~ 1 1

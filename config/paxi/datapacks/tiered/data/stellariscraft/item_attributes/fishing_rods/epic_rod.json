@@ -1,0 +1,26 @@
+{
+  "id": "stellariscraft:epic_rod",
+  "weight": 2,
+  "reforge_experience_cost": 2,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:fishing_rods"}
+  ],
+  "style": {
+    "color": "dark_purple"
+  },
+  "attributes": [
+    {
+      "type": "minecraft:generic.luck",
+      "modifier": {
+        "name": "stellariscraft:epic_rod",
+        "operation": "ADDITION",
+        "amount": 1.0
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

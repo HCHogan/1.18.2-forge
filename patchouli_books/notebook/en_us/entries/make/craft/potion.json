@@ -1,0 +1,35 @@
+{
+    "name": "酿造技艺的改进",
+    "category": "patchouli:craft",
+    "icon": "minecraft:potion",
+   "sortnum": 9,
+    "pages": [
+          {
+            "type": "crafting",
+            "recipe": "crafttweaker:compound_brewing_stand",
+            "title":"酿造台的改进",
+            "text":"炼金术士曾今的酿造工具，制作并不困难。这种工具酿造速度更快，容量更大，也可以同时放入多种材料。当无法继续自动酿造时，也会自动跳过该材料。如右图的配方最终产出瞬间伤害药水。"
+        },
+        {
+          "type": "patchouli:png_mining",
+          "image": "stellarisdlc:textures/png/potion_1.png",
+          "text1":"混合酿造台"
+        },
+        {
+          "type": "crafting",
+          "recipe": "crafttweaker:potion_injector",
+          "title":"药水拳套的使用",
+          "text":"炼金术士曾今尝试过制作可以长时间附着药水的武器。如右图将药剂师拳套放置于正中间，周围放置滞留型药水，下方放上烈焰粉即可将药水效果稳定注入进拳套。"
+       },
+       {
+        "type": "patchouli:png_mining",
+        "image": "stellarisdlc:textures/png/potion_2.png",
+        "text1":"药水注射器"
+       },
+       {
+        "type": "crafting",
+        "recipe": "crafttweaker:reinforced_cauldron",
+        "text":"加入龙息之后可以用于武器的药水涂层使用，不过由于时简单工艺，持续性药水的$(t:大约减少10倍)$(5)时间会大量削弱$()，并且也有$(t:25次后失效，单一武器仅能有一个涂层效果)$(5)使用次数限制。$()"
+       }
+    ]
+  }

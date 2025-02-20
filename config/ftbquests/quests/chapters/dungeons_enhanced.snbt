@@ -1,0 +1,569 @@
+{
+	id: "1203F38452F08341"
+	group: "0F5486DFDF7D448B"
+	order_index: 3
+	filename: "dungeons_enhanced"
+	title: "迷失之地"
+	icon: {
+		id: "minecraft:diamond_sword"
+		Count: 1b
+		tag: {
+			RepairCost: 1
+			Damage: 0
+			Enchantments: [{
+				lvl: 3s
+				id: "minecraft:unbreaking"
+			}]
+			Tiered: {
+				Tier: "stellariscraft:rare_sword"
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.0d
+			y: 0.0d
+			width: 10.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "minecraft:textures/block/sunflower_front.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "0B64144888793FD7"
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			width: 15.0d
+			height: 15.0d
+			rotation: 0.0d
+			image: "mowziesmobs:textures/particle/sun.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "0B64144888793FD7"
+		}
+	]
+	quests: [
+		{
+			title: "&fDungeons Enhanced模组"
+			icon: {
+				id: "minecraft:diamond_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "&6该任务只是提供探索方向，不必做完"
+			description: ["&a相对于dungeonsplus，它的战利品相对丰富一些"]
+			hide_dependency_lines: true
+			dependencies: ["0B64144888793FD7"]
+			hide: true
+			size: 2.0d
+			id: "5C56243B02ED34A4"
+			tasks: [{
+				id: "2BFBD4FE357B3610"
+				type: "checkmark"
+				title: "dungeons enhanced"
+			}]
+			rewards: [{
+				id: "30FA5B9DDD754BCE"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2688748745693820522L
+			}]
+		}
+		{
+			title: "地表城堡:castle"
+			icon: "minecraft:mossy_stone_bricks"
+			x: 3.5d
+			y: -4.5d
+			subtitle: "&f宏伟但破败"
+			dependencies: ["5C56243B02ED34A4"]
+			id: "091F73FCCB8F49BE"
+			tasks: [{
+				id: "7FB879A6FD69178F"
+				type: "structure"
+				title: "地表城堡:castle"
+				icon: "minecraft:mossy_stone_bricks"
+				structure: "dungeons_enhanced:castle"
+			}]
+			rewards: [
+				{
+					id: "57BB7BE125452F5B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7B9A8C159794D7CB"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+			]
+		}
+		{
+			title: "沙漠小神殿:desert_temple"
+			icon: "biomesoplenty:rooted_sand"
+			x: 5.0d
+			y: -2.0d
+			subtitle: "&6这可比繁花宫难找多了"
+			dependencies: ["5C56243B02ED34A4"]
+			id: "44E957624F12605D"
+			tasks: [{
+				id: "6534194984857498"
+				type: "structure"
+				title: "沙漠小神殿:desert_temple"
+				icon: "biomesoplenty:rooted_sand"
+				structure: "dungeons_enhanced:desert_temple"
+			}]
+			rewards: [{
+				id: "09DCD0291DB11D20"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			subtitle: "&f差点赶上隔壁墓园模组的规模"
+			dependencies: ["5C56243B02ED34A4"]
+			id: "7D0345BC364D7748"
+			tasks: [{
+				id: "5576DFAA8C7C60B1"
+				type: "structure"
+				title: "地下墓穴:deep_crypt"
+				icon: "minecraft:chiseled_stone_bricks"
+				structure: "dungeons_enhanced:deep_crypt"
+			}]
+			rewards: [{
+				id: "187898BD1E3F45F7"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -5.0d
+			dependencies: ["5C56243B02ED34A4"]
+			id: "2750BC0A2D5B8A2A"
+			tasks: [{
+				id: "48A3026AAA25F24A"
+				type: "structure"
+				title: "沙漠墓穴:desert_tomb"
+				icon: "byg:cracked_red_sand"
+				structure: "dungeons_enhanced:desert_tomb"
+			}]
+			rewards: [{
+				id: "026A574861572F03"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.0d
+			dependencies: ["5C56243B02ED34A4"]
+			id: "28F818DDBB9AF52E"
+			tasks: [{
+				id: "4FDDEDEFE15AFA7E"
+				type: "structure"
+				title: "德鲁伊花环:druid_circle"
+				icon: "atmospheric:rosewood_sapling"
+				structure: "dungeons_enhanced:druid_circle"
+			}]
+			rewards: [{
+				id: "4148F27944A14549"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.5d
+			dependencies: ["5C56243B02ED34A4"]
+			id: "37CF49BA6305F273"
+			tasks: [{
+				id: "7BE57987E2F347DC"
+				type: "structure"
+				title: "地下双子:dungeon_variant"
+				icon: "minecraft:zombie_head"
+				structure: "dungeons_enhanced:dungeon_variant"
+			}]
+			rewards: [{
+				id: "25440F42E8FC6B62"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			subtitle: "&f旗帜还蛮好看"
+			dependencies: ["5C56243B02ED34A4"]
+			id: "137CE6F0BC65341D"
+			tasks: [{
+				id: "5FE6A5CFED05AF80"
+				type: "structure"
+				title: "冰原迷宫:ice_pit"
+				icon: "minecraft:blue_ice"
+				structure: "dungeons_enhanced:ice_pit"
+			}]
+			rewards: [{
+				id: "6C31033F7C9107D6"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.0d
+			subtitle: "&f比原版好上10倍甚至9倍"
+			dependencies: ["5C56243B02ED34A4"]
+			id: "68B2DDC9D2004A3B"
+			tasks: [{
+				id: "76AEDE9B5AC889A8"
+				type: "structure"
+				title: "丛林怪庙:jungle_monument"
+				icon: "quark:jungle_hedge"
+				structure: "dungeons_enhanced:jungle_monument"
+			}]
+			rewards: [
+				{
+					id: "0CFA936A56047C53"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "653A01574B9D7467"
+					type: "item"
+					item: "alexsmobs:banana_peel"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 2.0d
+			dependencies: ["5C56243B02ED34A4"]
+			id: "31753DC86DAB5C18"
+			tasks: [{
+				id: "61D5D79EF99A2D4D"
+				type: "structure"
+				title: "大型墓穴:large_dungeon"
+				icon: "minecraft:skeleton_skull"
+				structure: "dungeons_enhanced:large_dungeon"
+			}]
+			rewards: [{
+				id: "15A41B17C8FC5E9F"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			subtitle: "&a古树残留的蜘蛛网...似乎有秘密深藏地底"
+			dependencies: ["5C56243B02ED34A4"]
+			size: 1.5d
+			id: "3A4B746199C39EF7"
+			tasks: [{
+				id: "2BB9797D29256308"
+				type: "structure"
+				title: "超级地下迷宫:monster_maze"
+				icon: "minecraft:dark_oak_log"
+				structure: "dungeons_enhanced:monster_maze"
+			}]
+			rewards: [{
+				id: "20CB9B97EE24E3C7"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -4.5d
+			dependencies: ["5C56243B02ED34A4"]
+			id: "5E84B2221DD3492A"
+			tasks: [{
+				id: "01B62D28E1E1D8A2"
+				type: "structure"
+				title: "掠夺营地:pillager_camp"
+				icon: {
+					id: "minecraft:iron_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				structure: "dungeons_enhanced:pillager_camp"
+			}]
+			rewards: [{
+				id: "7CB0EDCC9BBAC9FB"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 3.5d
+			subtitle: "&f出售上等骷髅马与僵尸马"
+			dependencies: ["5C56243B02ED34A4"]
+			id: "27E81A732782E5E8"
+			tasks: [{
+				id: "0C3F2A2748C19A11"
+				type: "structure"
+				title: "僵尸马厩:stables"
+				icon: "minecraft:zombie_horse_spawn_egg"
+				structure: "dungeons_enhanced:stables"
+			}]
+			rewards: [{
+				id: "7292FF969EC6628C"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			dependencies: ["5C56243B02ED34A4"]
+			id: "2057AB9520125C53"
+			tasks: [{
+				id: "0B6ACC02855C8523"
+				type: "structure"
+				title: "海底小屋:sunken_shrine"
+				icon: "minecraft:prismarine"
+				structure: "dungeons_enhanced:sunken_shrine"
+			}]
+			rewards: [{
+				id: "21810FBF5B9CB61F"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			dependencies: ["5C56243B02ED34A4"]
+			size: 1.5d
+			id: "7D778C356BD34AAC"
+			tasks: [{
+				id: "1B759BA8F7406220"
+				type: "structure"
+				title: "小型战塔:tower_of_the_undead"
+				icon: "minecraft:grass_block"
+				structure: "dungeons_enhanced:tower_of_the_undead"
+			}]
+			rewards: [{
+				id: "3E044A95B026B10D"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			subtitle: "&f一女巫，一附魔，一酿造，足矣"
+			dependencies: ["5C56243B02ED34A4"]
+			size: 1.5d
+			id: "3A528DDA2C204A0D"
+			tasks: [{
+				id: "6B4B33D6FAB5B961"
+				type: "structure"
+				title: "女巫塔:witch_tower"
+				icon: "minecraft:enchanting_table"
+				structure: "dungeons_enhanced:witch_tower"
+			}]
+			rewards: [{
+				id: "2D806E3BB1E15D37"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.5d
+			dependencies: ["5C56243B02ED34A4"]
+			id: "2506995723E9F45E"
+			tasks: [{
+				id: "501A3FF8E63C968B"
+				type: "structure"
+				title: "巫师塔:watch_tower"
+				icon: "minecraft:jack_o_lantern"
+				structure: "dungeons_enhanced:watch_tower"
+			}]
+			rewards: [{
+				id: "26A77C28CEB3C02A"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.5d
+			subtitle: "飞……飞翔的荷兰人？！"
+			dependencies: ["5C56243B02ED34A4"]
+			id: "75E30BBFE2E6C9E6"
+			tasks: [{
+				id: "64E28536C776C3C6"
+				type: "structure"
+				title: "飞行幽灵船:flying_dutchman"
+				icon: "byg:green_enchanted_boat"
+				structure: "dungeons_enhanced:flying_dutchman"
+			}]
+			rewards: [{
+				id: "5D585602DD7AAD08"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.0d
+			subtitle: "&b嘿休休，这7大遗迹十分滴珍贵"
+			hide_dependency_lines: true
+			dependencies: ["5C56243B02ED34A4"]
+			size: 1.5d
+			invisible: true
+			id: "04BBC0B12A07E88E"
+			tasks: [{
+				id: "6DEA7999E39D639A"
+				type: "advancement"
+				advancement: "dungeons_enhanced:seven_world_wonders"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "41CA4517F106A8C6"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2240263939124024074L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			subtitle: "&6真有人这么有耐心啊（恼）"
+			hide_dependency_lines: true
+			dependencies: ["5C56243B02ED34A4"]
+			size: 1.5d
+			invisible: true
+			id: "682D7F3AE7114CA7"
+			tasks: [{
+				id: "6375250EE807850A"
+				type: "advancement"
+				advancement: "dungeons_enhanced:ambitious_explorer"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1D7D1256A30202A0"
+				type: "item"
+				item: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+						RepairCost: 1
+						Enchantments: [{
+							lvl: 1s
+							id: "minecraft:mending"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			icon: "minecraft:oak_boat"
+			x: 4.5d
+			y: -3.5d
+			subtitle: "&a是时候帮他们搬进大豪斯了"
+			dependencies: ["5C56243B02ED34A4"]
+			id: "033973D9EC587D36"
+			tasks: [{
+				id: "71FD96907FD10CD6"
+				type: "structure"
+				title: "小小渔船:fishing_ship"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "ftbchunks:textures/faces/minecraft/villager.png"
+					}
+				}
+				structure: "dungeons_enhanced:fishing_ship"
+			}]
+			rewards: [{
+				id: "7E3C89DDCD9F8EE6"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			icon: "minecraft:sponge"
+			x: 5.0d
+			y: 0.0d
+			subtitle: "&b海龟蛋会有的，潮涌核心也会有的"
+			dependencies: ["5C56243B02ED34A4"]
+			size: 1.5d
+			id: "777C653D434D661B"
+			tasks: [{
+				id: "4736333503ABEAF0"
+				type: "structure"
+				title: "海洋神殿:elders_temple"
+				icon: "minecraft:prismarine_bricks"
+				structure: "dungeons_enhanced:elders_temple"
+			}]
+			rewards: [{
+				id: "110FD024FB385A1F"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			icon: "byg:witch_hazel_boat"
+			x: 3.5d
+			y: 4.5d
+			subtitle: "&f真正的&a海 &6盗 &f船√"
+			dependencies: ["5C56243B02ED34A4"]
+			id: "629B4E02B170E3C2"
+			tasks: [{
+				id: "430303150AE38655"
+				type: "structure"
+				title: "&6金&a绿&r海盗船:pirate_ship"
+				icon: "boatload:large_birch_boat"
+				structure: "dungeons_enhanced:pirate_ship"
+			}]
+			rewards: [{
+				id: "7DF8F89EE0E92B35"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

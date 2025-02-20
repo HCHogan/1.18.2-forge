@@ -1,0 +1,13 @@
+{
+	"attributes":
+	{
+		"common":
+		{
+			"armor_negation":50.0,
+			"impact":2.8,
+			"max_strikes":4,
+			"speed_bonus":-0.4
+		}
+	},
+	"type":"solar"
+}

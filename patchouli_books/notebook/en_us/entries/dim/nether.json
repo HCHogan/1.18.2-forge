@@ -1,0 +1,39 @@
+{
+    "name": "下界",
+    "icon": "stellarisdlc:evidencenether_1",
+    "category": "patchouli:dim",
+    "sortnum":0,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"下界/地狱",
+            "text": "与主世界完全相反的灼热之地，在这里岩浆像水一样流淌。金焰神王曾统一下界，但猪灵一组并不满意他与人类结盟，神王死后猪灵们用猩红之力封锁了地狱建造了火焰竞技场想要唤回它们曾今的主人，据说只有有源自地狱的物品才可短暂破开封印。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/nether.png",
+            "text1":"",
+            "text2":""
+        },
+         {
+         "type":"patchouli:smith",
+         "item1": "stellarisdlc:evidencenether_1",
+        "item2": "stellarisdlc:evidencenether_2",
+        "item3": "stellarisdlc:evidencenether",
+        "head":"破除维度封印",
+        "text":"凝聚了炉心守卫之眼与合金残片的证明，可以短暂破开地狱的封印。"
+        
+      },
+      {
+            "type": "crafting",
+            "recipe": "crafttweaker:evidencenether_1",
+            "text":"存在于地下的王国时期核心熔炉，由于其的挖掘工程开采出了禁忌之物才导致了整个建筑彻底消失，仅凭人类蛮力妄图打破维度之间的屏障必然会招来毁灭的结局，据说拥有禁忌之物的人最终变成了傀儡并被诅咒永世守护此物。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:evidencenether_2",
+            "text":"合金残片制成的腐金锭的硬度与源自猩红之力的特点可以很好的作为证明的外壳，一方面可以加强破除封印的能力，另一方面可以避免使用者被核心诅咒、反噬。"
+        }
+        
+    ]
+}

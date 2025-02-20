@@ -1,0 +1,48 @@
+{
+  "id": "stellariscraft:talented3_lightweight_spear",
+  "weight": 5,
+  "reforge_experience_cost": 2,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:spear"}
+  ],
+  "style": {
+    "color": "green"
+  },
+  "attributes": [
+    {
+      "type": "toybox:crit_damage",
+      "modifier": {
+        "name": "stellariscraft:talented3_lightweight_spear",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.2
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "toybox:block_rate",
+      "modifier": {
+        "name": "stellariscraft:talented3_lightweight_spear",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.2
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "generic.attack_speed",
+      "modifier": {
+        "name": "stellariscraft:talented3_lightweight_spear",
+        "operation": "ADDITION",
+        "amount": 0.05
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

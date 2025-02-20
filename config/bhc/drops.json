@@ -1,0 +1,16 @@
+{
+  "heartEntries": {
+    "red": {
+      "hostile": 0.2
+    },
+    "green": {
+      "minecraft:wither": 0.0
+    },
+    "blue": {
+      "minecraft:shulker": 0.0
+    },
+    "yellow": {
+      "jobinsmobs:senbaidevil": 0.0
+    }
+  }
+}

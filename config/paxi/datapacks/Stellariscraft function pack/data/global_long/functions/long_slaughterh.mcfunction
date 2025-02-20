@@ -1,0 +1,1 @@
+schedule function global_long:bosses/slaughterh_l1 1t append

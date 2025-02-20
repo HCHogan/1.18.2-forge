@@ -1,0 +1,41 @@
+{
+    "name": "工具品质的改良",
+    "icon": "stellarisdlc:forgedspar",
+    "category": "patchouli:craft",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "spotlight",
+            "title":"工具品质",
+            "item": "minecraft:iron_sword{Damage:0,Tiered:{Tier:'stellariscraft:talented1_swift_sword'}},minecraft:iron_sword{Damage:0,Tiered:{Tier:'stellariscraft:epic_sword'}},minecraft:iron_sword{Damage:0,Tiered:{Tier:'stellariscraft:1_blunt_1'}},minecraft:iron_sword{Damage:0,Tiered:{Tier:'stellariscraft:2_corrupted_2'}},minecraft:iron_sword{Damage:0,Tiered:{Tier:'stellariscraft:common_sword'}},minecraft:iron_sword{Damage:0,Tiered:{Tier:'stellariscraft:rare_sword'}},minecraft:iron_sword{Damage:0,Tiered:{Tier:'stellariscraft:5_weighted_5'}},minecraft:iron_sword{Damage:0,Tiered:{Tier:'stellariscraft:talented3_lightweight_sword'}},minecraft:iron_sword{Damage:0,Tiered:{Tier:'stellariscraft:7_worn_7'}},minecraft:iron_sword{Damage:0,Tiered:{Tier:'stellariscraft:legendary_sword'}},minecraft:iron_sword{Damage:0,Tiered:{Tier:'stellariscraft:8_frozen_8'}}",
+            "link_recipe":false,
+            "text":"武器、工具、护甲在制作完成之后会呈现出不同的品质，品质的好坏会影响到使用的情况，各种武器、工具、护甲也都有着自己所独有的品质。当然在将他做出来之前，是无法提前预知的。"
+        },
+ {
+            "type": "spotlight",
+            "title":"晶石",
+            "item": "stellarisdlc:forgedspar,stellarisdlc:reinforcedspar",
+            "text":"品质本应该是固定的，但是得益于王国时期的古老工艺，有种晶石可以改变品质，当然这种方法只是改变原有的品质无法保证成品是好的。$(br)锻造晶石：这种晶石构造简单，因此只能改变$(5)$(t:红色词条或白色词条)原有品质较差的$()$(br)强化晶石：改良的神奇晶石，有更好的锻造价值但是不兼容次品，因此只能改造$(5)$(t:绿色及以上的词条)原有品质较好的。"
+        },
+        {
+            "type": "smith_link",
+            "item1":"minecraft:lapis_block",
+            "item2":"stellariscraft:adgrain",
+            "item3":"stellarisdlc:forgedspar#2",
+            "text":"这种晶石制作流程比较简单，在简单的手工方法即可制作。由于其的制作简易，$(5)$(t:工作方块：砂轮)武器匠$()也会大量售卖这种晶石。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:reinforcedspar",
+            "text":"这种晶石制作方式复杂，甚至需要利用到经验宝典的能量。尽管如此，$(5)$(t:工作方块：锻造台)工具匠$()也有能力制作，不过只有与他多次交易的大客户才有资格购买。"
+        },
+{
+            "type": "anvil",
+            "item1":"minecraft:iron_sword{Damage:0,Tiered:{Tier:'stellariscraft:epic_sword'}},minecraft:iron_sword{Damage:0,Tiered:{Tier:'stellariscraft:legendary_sword'}},minecraft:iron_sword{Damage:0,Tiered:{Tier:'stellariscraft:rare_sword'}},minecraft:iron_sword{Damage:0,Tiered:{Tier:'stellariscraft:talented1_swift_sword'}}",
+            "item2":"stellarisdlc:reinforcedspar",
+            "item3":"minecraft:iron_sword{Damage:0,Tiered:{Tier:'stellariscraft:rare_sword'}},minecraft:iron_sword{Damage:0,Tiered:{Tier:'stellariscraft:epic_sword'}},minecraft:iron_sword{Damage:0,Tiered:{Tier:'stellariscraft:legendary_sword'}},minecraft:iron_sword{Damage:0,Tiered:{Tier:'stellariscraft:common_sword'}},minecraft:iron_sword{Damage:0,Tiered:{Tier:'stellariscraft:talented3_lightweight_sword'}},minecraft:iron_sword{Damage:0,Tiered:{Tier:'stellariscraft:2_corrupted_2'}}",
+            "text":"将锻造晶石或加强晶石与需要改造的物品在铁砧上加工，即可更改物品的品质，原有的品质会影响加工的难度。原有品质越好对于晶石的损耗就会更大，而晶石的损耗会释放能量，晶石损耗越大会越减少经验的消耗。"
+        }
+
+      ]
+}

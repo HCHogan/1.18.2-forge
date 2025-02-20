@@ -1,0 +1,53 @@
+{
+  "replace": true,
+  "trades": [
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "dotcoinmod:gold_coin",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "miningmaster:air_malachite",
+        "count": 2
+      },
+      "max_trades": 3,
+      "experience": 300
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "stellarisdlc:attribute_scrap",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "dotcoinmod:gold_coin",
+        "count": 3
+      },
+      "price_multiplier": 0.7,
+      "max_trades": 1,
+      "experience": 300
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:potion",
+        "count": 1,
+        "nbt": "{Potion:\"goblintraders:powerful_instant_health\"}"
+      },
+      "payment_item": {
+        "item": "minecraft:potion",
+        "count": 2,
+        "nbt": "{Potion:\"minecraft:strong_healing\"}"
+      },
+      "secondary_payment_item": {
+        "item": "dotcoinmod:gold_coin",
+        "count": 1
+      },
+      "max_trades": 16,
+      "experience": 400
+    }
+
+
+ ]
+}

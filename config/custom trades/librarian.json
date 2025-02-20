@@ -1,0 +1,160 @@
+{
+  "profession": "minecraft:librarian",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "epicfight:skillbook",
+        "amount": 1,
+        "advancedNBTData": "{skill:\"epicfight:roll\"}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 5
+      },
+      "tradeExp": 20,
+      "maxUses": 1,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:librarian_skillbook_for_gold_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 8
+      },
+      "request": {
+        "itemKey": "minecraft:book",
+        "amount": 16
+      },
+      "tradeExp": 10,
+      "maxUses": 20,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:librarian_copper_coin_for_book_0"
+    },
+
+
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanting_table",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 1
+      },
+      "tradeExp": 30,
+      "maxUses": 1,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:librarian_enchanting_table_for_gold_coin_0"
+    },
+
+
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:writable_book",
+        "amount": 6
+      },
+      "tradeExp": 30,
+      "maxUses": 8,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:librarian_writable_book_for_iron_coin_0"
+    },
+
+
+    {
+      "offer": {
+        "itemKey": "minecraft:experience_bottle",
+        "amount": 2
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 6
+      },
+      "tradeExp": 15,
+      "maxUses": 8,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:librarian_experience_bottle_for_iron_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "enchantments": [
+          {
+            "enchantmentKey": "minecraft:sharpness",
+            "enchantmentLevel": 4
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 4
+      },
+      "tradeExp": 15,
+      "maxUses": 3,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:librarian_sharpness4_for_iron_coin_0"
+    },
+
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "enchantments": [
+          {
+            "enchantmentKey": "random",
+            "enchantmentLevel": -1,
+            "maxEnchantmentLevel": 3
+          }
+        ],
+        "blacklistedEnchantments": [
+        "minecraft:unbreaking",
+        "majruszsenchantments:telekinesis",
+        "majruszsenchantments:immortality",
+        "majruszsenchantments:dodge",
+        "cursery:curse_explosive",
+        "miningmaster:leeching",
+        "minecraft:thorns",
+        "majruszsenchantments:fuse_cutter",
+        "miningmaster:freezing",
+        "miningmaster:smelting",
+        "miningmaster:runner",
+        "miningmaster:heartfelt",
+        "miningmaster:floatation",
+        "miningmaster:knight_jump",
+        "veinmining:vein_mining",
+        "ba_bt:depth_dropper",
+        "cofh_core:holding",
+        "wom:invigoration"
+      ]
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 2
+      },
+      "tradeExp": 32,
+      "maxUses": 2,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:librarian_enchanted_book_for_gold_coin_0"
+    }
+  ]
+}

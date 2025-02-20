@@ -1,0 +1,3980 @@
+{
+    "model": "epicfight:entity/biped_slim_arm",
+	"armature": "epicfight:entity/biped",
+    "renderer": "player",
+    "isHumanoid": true,
+    "faction": "undead",
+	"boss_bar": true,
+	"custom_texture": "indestructible:textures/gui/boss_bar.png",
+    "attributes": {
+        "impact": 0.5,
+        "armor_negation": 45.0,
+        "max_strikes": 3,
+        "chasing_speed": 0.85,
+        "scale":1.0,
+		"max_stamina": 200,
+		"stamina_regan_multiply": 0.0,
+		"stamina_regan_delay": 50,
+		"has_stun_reduction": true,
+		"stamina_lose_multiply": 0,
+		"attack_radius": 1.5,
+		"max_stun_shield": 0, 		 
+		"stun_shield_regan_multiply": 1.0, 
+		"stun_shield_regan_delay": 0	  	
+    },
+	"default_livingmotions": {
+        "idle": "epicfight:biped/living/idle",
+        "walk": "epicfight:biped/living/walk",
+        "chase": "epicfight:biped/living/walk",
+        "mount": "epicfight:biped/living/mount",
+        "fall": "epicfight:biped/living/fall",
+        "death": "epicfight:biped/living/death"
+	},
+    "stun_animations": {
+        "short": "epicfight:biped/combat/hit_short",
+        "long": "epicfight:biped/combat/hit_long",
+        "knockdown": "epicfight:biped/combat/knockdown",
+        "fall": "epicfight:biped/living/landing",
+		"neutralize": "epicfight:biped/combat/hit_long"
+    },
+    "humanoid_weapon_motions": [
+        {
+            "weapon_categories": ["axe", "pickaxe", "shovel", "sword", "fist"],
+            "style":"common",
+            "livingmotions": {
+				"chase": "epicfight:biped/living/walk",
+                "walk": "epicfight:biped/living/walk"
+            }
+        },
+        {
+            "weapon_categories": ["hoe"],
+            "style":"common",
+            "livingmotions": {
+				"chase": "epicfight:biped/living/walk",
+                "walk": "epicfight:biped/living/run"
+            }
+        },
+        { 
+            "weapon_categories": ["spear", "trident", "tachi"],
+            "style":"common", 
+            "livingmotions": {
+                "chase": "epicfight:biped/living/walk_spear",
+                "walk": "epicfight:biped/living/walk_spear"
+            }
+        },
+        { 
+            "weapon_categories": ["greatsword"],
+            "style":"common", 
+            "livingmotions": {
+                "chase": "epicfight:biped/living/walk_greatsword",
+                "walk": "epicfight:biped/living/run_greatsword"
+            }
+        },
+        { 
+            "weapon_categories": ["longsword"],
+            "style":"common", 
+            "livingmotions": {
+                "chase": "epicfight:biped/living/walk_longsword",
+                "walk": "epicfight:biped/living/run_longsword"
+            }
+        },
+        { 
+            "weapon_categories": ["uchigatana", "yamato"],
+            "style":"common", 
+            "livingmotions": {
+                "chase": "star:biped/new/yamato/yamato_run",
+                "walk": "star:biped/new/yamato/yamato_walk"
+            }
+        },
+        { 
+            "weapon_categories": ["sword"],
+            "style":"two_hand", 
+            "livingmotions": {
+                "chase": "epicfight:biped/living/walk",
+                "walk": "epicfight:biped/living/walk"
+            }
+        }
+
+    ],
+    "custom_guard_motion": [
+	    {
+             "weapon_categories": ["pickaxe", "shovel"],
+			 "style": "common",
+             "guard": "indestructible:guard/guard_sword",
+             "stamina_cost_multiply": 0.4,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.4,
+			 "parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1", "epicfight:biped/skill/guard_sword_hit_active2"]
+        },
+        {
+            "weapon_categories": ["hoe"],
+            "style": "common",
+            "guard": "indestructible:guard/guard_sword",
+            "stamina_cost_multiply": 0.2,
+            "can_block_projectile" : true,
+			"parry_cost_multiply": 0.2,
+			"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1", "epicfight:biped/skill/guard_sword_hit_active2"]
+        },
+        {
+            "weapon_categories": ["axe"],
+            "style": "common",
+            "guard": "indestructible:guard/guard_sword",
+            "stamina_cost_multiply": 0.3,
+            "can_block_projectile" : true,
+			"parry_cost_multiply": 0.3,
+			"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1", "epicfight:biped/skill/guard_sword_hit_active2"]
+        },
+        {
+            "weapon_categories": ["fist"],
+            "style": "common",
+            "guard": "indestructible:guard/guard_dualsword",
+            "stamina_cost_multiply": 0.1,
+            "can_block_projectile" : true,
+			"parry_cost_multiply": 0.1,
+			"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1", "epicfight:biped/skill/guard_sword_hit_active2"]
+        },
+        {
+            "weapon_categories": ["sword"],
+            "style": "two_hand",
+            "guard": "indestructible:guard/guard_dualsword",
+            "stamina_cost_multiply": 0.18,
+            "can_block_projectile" : true,
+			"parry_cost_multiply": 0.18,
+			"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1", "epicfight:biped/skill/guard_sword_hit_active2"]
+        },
+		{
+             "weapon_categories": ["sword"],
+			 "style": "common",
+             "guard": "indestructible:guard/guard_sword",
+             "stamina_cost_multiply": 0.35,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.35,
+			 "parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1", "epicfight:biped/skill/guard_sword_hit_active2"]
+        },
+		{
+             "weapon_categories": ["spear"],
+			 "style": "common",
+             "guard": "indestructible:guard/guard_spear",
+             "stamina_cost_multiply": 0.22,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.22,
+			 "parry_animation": ["epicfight:biped/skill/guard_longsword_hit_active1", "epicfight:biped/skill/guard_longsword_hit_active2"]
+        },
+		{
+             "weapon_categories": ["trident"],
+			 "style": "common",
+             "guard": "indestructible:guard/guard_spear",
+             "stamina_cost_multiply": 0.22,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.22,
+			 "parry_animation": ["epicfight:biped/skill/guard_longsword_hit_active1", "epicfight:biped/skill/guard_longsword_hit_active2"]
+        },
+        {
+             "weapon_categories": ["greatsword"],
+             "style": "common",
+             "guard": "indestructible:guard/guard_greatsword",
+             "stamina_cost_multiply": 0.25,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.25,
+			 "parry_animation": ["epicfight:biped/skill/guard_longsword_hit_active1", "epicfight:biped/skill/guard_longsword_hit_active2"]
+        },
+		{
+             "weapon_categories": ["uchigatana", "yamato"],
+             "style": "common",
+             "guard": "indestructible:guard/guard_shield",
+             "stamina_cost_multiply": 0.25,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.05,
+			 "parry_animation": ["star:biped/new/yamato/yamato_guard_parry"]
+        },
+        {
+             "weapon_categories": ["longsword"],
+             "style": "common",
+             "guard": "indestructible:guard/guard_longsword",
+             "stamina_cost_multiply": 0.2,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.2,
+			 "parry_animation": ["epicfight:biped/skill/guard_longsword_hit_active1", "epicfight:biped/skill/guard_longsword_hit_active2"]
+        },
+        {
+            "weapon_categories": ["tachi"],
+            "style": "common",
+            "guard": "indestructible:guard/guard_longsword",
+            "stamina_cost_multiply": 0.2,
+            "can_block_projectile" : true,
+			"parry_cost_multiply": 0.2,
+			"parry_animation": ["epicfight:biped/skill/guard_longsword_hit_active1", "epicfight:biped/skill/guard_longsword_hit_active2"]
+       }
+    ],
+	"stun_command_list":[
+        {"command":"effect give @s minecraft:glowing 4", "stun_type": "neutralize"},
+        {"command":"effect give @s stellarisdlc:fragile 4 1", "stun_type": "neutralize"},
+		{"command":"effect give @s cataclysm:stun 4", "stun_type": "neutralize"},
+		{"command":"effect give @s cofh_core:sundered 4 4", "stun_type": "neutralize"},
+		{"command":"effect give @s star:really_stun_immunity 4", "stun_type": "neutralize"},
+		{"command":"effect give @s epicfight:stun_immunity 4", "stun_type": "neutralize"},
+
+		{"command":"indestructible @s set_phase 1", "stun_type": "neutralize"},
+		{"command":"function global_guard_break:guard_break_gazeabysser", "stun_type": "neutralize"},
+		
+		{"command":"function global_knockdown:knockdown_gazeabysser", "stun_type": "knockdown"},
+		{"command":"effect give @s epicfight:stun_immunity 6", "stun_type": "knockdown"},
+		{"command":"effect give @s star:really_stun_immunity 3", "stun_type": "knockdown"},
+		
+		{"command":"tag @e[tag=modao,limit=1,distance=..5] remove modao", "stun_type": "short"},
+		{"command":"tag @e[tag=modao,limit=1,distance=..5] remove modao", "stun_type": "long"},
+		{"command":"tag @e[tag=modao,limit=1,distance=..5] remove modao", "stun_type": "knockdown"},
+		{"command":"tag @e[tag=modao,limit=1,distance=..5] remove modao", "stun_type": "neutralize"},
+		
+		{"command":"effect clear @s minecraft:regeneration", "stun_type": "short"},
+		{"command":"effect clear @s minecraft:regeneration", "stun_type": "long"},
+		{"command":"effect clear @s minecraft:regeneration", "stun_type": "knockdown"},
+		{"command":"effect clear @s minecraft:regeneration", "stun_type": "neutralize"},
+		
+		{"command":"effect clear @s cataclysm:stun", "stun_type": "short"},
+		{"command":"effect clear @s cataclysm:stun", "stun_type": "long"},
+		{"command":"effect clear @s cataclysm:stun", "stun_type": "knockdown"},
+		
+		{"command":"effect clear @s mowziesmobs:frozen", "stun_type": "short"},
+		{"command":"effect clear @s mowziesmobs:frozen", "stun_type": "long"},
+		{"command":"effect clear @s mowziesmobs:frozen", "stun_type": "knockdown"},
+		
+		{"command":"effect clear @s minecraft:resistance", "stun_type": "short"},
+		{"command":"effect clear @s minecraft:resistance", "stun_type": "long"},
+		
+		{"command":"effect clear @s minecraft:slow_falling", "stun_type": "short"},
+		{"command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "stun_type": "short"},
+		{"command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "stun_type": "long"},
+		{"command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "stun_type": "knockdown"},
+		{"command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "stun_type": "fall"},
+		{"command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "stun_type": "neutralize"}
+	],
+
+    "combat_behavior": [
+        {
+            "weapon_categories": ["uchigatana", "yamato"],
+            "style": "common",
+            "behavior_series": [
+				{
+					"weight": 9999999,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 999999,
+					"behaviors": [
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"play_speed": 0.7,
+							"command_list":[
+								{"time":0.01, "command":"stopsound @e[type=minecraft:player,distance=..20] music", "execute_at_target":false},
+								{"time":0.02, "command":"stopsound @e[type=minecraft:player,distance=..20] record", "execute_at_target":false},
+
+								{"time":0.05, "command":"execute as @e[type=player,distance=..20] at @s run playsound minecraft:gazeabysser record @p ~ ~ ~ 0.2", "execute_at_target":false},
+
+								{"time":0.01, "command":"stopsound @a", "execute_at_target":true},
+                                {"time":0.1, "command":"effect give @s instant_health 1 10", "execute_at_target":false},
+								
+								{"time":0.05, "command":"scordboard objectives remove gazeabysser", "execute_at_target":false},
+								{"time":0.1, "command":"scoreboard objectives add gazeabysser dummy", "execute_at_target":false},
+								{"time":0.15, "command":"scoreboard players set @p gazeabysser 1", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s archers_paradox:challenge_complete", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s archers_paradox:challenge_streak", "execute_at_target":false},
+								
+								{"time":0.01, "command":"data merge entity @s {Attributes:[{Base:0.65d,Name:\"minecraft:generic.knockback_resistance\"}]}", "execute_at_target":false},
+								{"time":0.01, "command":"data merge entity @s {Attributes:[{Base:20d,Name:\"minecraft:generic.armor\"}]}", "execute_at_target":false},
+								{"time":0.01, "command":"data merge entity @s {Invulnerable:0}", "execute_at_target":false},
+								{"time":0.01, "command":"data merge entity @s {Attributes:[{Base:90d,Name:\"epicfight:weight\"}]}", "execute_at_target":false},
+								{"time":0.01, "command":"effect clear @s minecraft:regeneration", "execute_at_target":false},
+								{"time":0.01, "command":"item replace entity @s weapon.offhand with jobinsmobs:jobinsmobs", "execute_at_target":false},
+								{"time":0.1, "command":"data merge entity @s {HandDropChances:[0f,0f]}", "execute_at_target":false},
+								
+								{"time":0.15, "command":"effect give @s stellarisdlc:stamina_regen_enhanced 1000 39 true", "execute_at_target":false},
+								
+								{"time":0.15, "command":"effect give @s cataclysm:stun 10", "execute_at_target":false},
+								{"time":0.15, "command":"effect clear @s neapolitan:berserking", "execute_at_target":false}
+							],
+							"set_phase": 16,
+							"stamina": -200
+						}
+					]
+				},
+                {
+					"weight": 1,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 80,
+					"behaviors": [
+						{
+							"conditions": [
+                                {"predicate":"phase", "min": 0, "max": 0}
+							],
+							"animation": "epicfight:biped/skill/step_forward",
+							"command_list":[
+								{"time":0.15, "command":"effect give @s stellarisdlc:stamina_regen_enhanced 1000 39 true", "execute_at_target":false}
+							],
+							"set_phase": 1
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 1}, {"predicate":"guard_break", "invert": true}, 
+								{"predicate":"knock_down","invert":true}
+							],
+							"wander": 20,
+                            "inaction_time": 10,
+                            "x_axis": 0.0,
+                            "z_axis": -0.3,
+							"set_phase": 1
+						}
+					]
+				},
+				
+				{
+					"weight": 0.05,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 120, 
+					"behaviors": [
+					    {
+							"conditions": [
+								{"predicate": "health", "health": 0.99, "comparator": "less_ratio"}, {"predicate": "stamina", "stamina": 0.99, "comparator": "greater_ratio"}, {"predicate":"within_distance", "min": 5.0, "max": 48.0}
+							],
+							"wander": 15,             
+							"inaction_time": 0,	  
+							"x_axis": 0.0,		   
+							"z_axis": -1.0
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/guard_sword_hit_active2",
+							"convert_time": 0.1,
+							"play_speed": 1.0,
+							"command_list": [						
+								{"time":0.05, "command":"indestructible @s play 'epicfight:biped/skill/guard_sword_hit_active2' -0.8 1", "execute_at_target":false},
+								{"time":0.0, "command":"playsound minecraft:entity.wandering_trader.drink_potion voice @s", "execute_at_target":true}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/drink",
+							"convert_time": -0.1,
+							"play_speed": 4.0,
+							"end_by_hurt_level": 1
+						},
+						{
+							"conditions": [
+							],
+							"wander": 16,             
+							"inaction_time": 16,	  
+							"x_axis": 0.0,		   
+							"z_axis": -1.0,
+							"end_by_hurt_level": 1
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/guard_sword_hit_active2",
+							"convert_time": 0.4,
+							"play_speed": 1.0,
+							"command_list": [								
+								{"time":0.0, "command":"effect give @s minecraft:instant_health 1 4 true", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s minecraft:regeneration 7 5 true", "execute_at_target":false},
+								{"time":0.0, "command":"playsound minecraft:entity.wandering_trader.drink_potion voice @s", "execute_at_target":true},
+								{"time":0.0, "command":"playsound minecraft:entity.item.pickup voice @s", "execute_at_target":true},
+								{"time":0.0, "command":"indestructible @s play 'epicfight:biped/skill/guard_sword_hit_active2' -0.8 1", "execute_at_target":false}
+							],
+							"end_by_hurt_level": 1
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						}
+                               ]                 
+				},
+				
+				{
+					"weight": 0.05,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 10, 
+					"behaviors": [
+					    {
+							"conditions": [
+								{"predicate": "health", "health": 0.99, "comparator": "less_ratio"}, {"predicate": "stamina", "stamina": 0.99, "comparator": "greater_ratio"}, {"predicate":"within_distance", "min": 10.0, "max": 48.0}
+							],
+							"wander": 15,             
+							"inaction_time": 0,	  
+							"x_axis": 0.0,		   
+							"z_axis": -1.0
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/guard_sword_hit_active2",
+							"convert_time": 0.1,
+							"play_speed": 1.0,
+							"command_list": [						
+								{"time":0.05, "command":"indestructible @s play 'epicfight:biped/skill/guard_sword_hit_active2' -0.8 1", "execute_at_target":false},
+								{"time":0.0, "command":"playsound minecraft:entity.wandering_trader.drink_potion voice @s", "execute_at_target":true}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/drink",
+							"convert_time": -0.1,
+							"play_speed": 4.0,
+							"end_by_hurt_level": 1
+						},
+						{
+							"conditions": [
+							],
+							"wander": 16,             
+							"inaction_time": 16,	  
+							"x_axis": 0.0,		   
+							"z_axis": -1.0,
+							"end_by_hurt_level": 1
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/guard_sword_hit_active2",
+							"convert_time": 0.4,
+							"play_speed": 1.0,
+							"command_list": [								
+								{"time":0.0, "command":"effect give @s minecraft:instant_health 1 4 true", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s minecraft:regeneration 7 5 true", "execute_at_target":false},
+								{"time":0.0, "command":"playsound minecraft:entity.wandering_trader.drink_potion voice @s", "execute_at_target":true},
+								{"time":0.0, "command":"playsound minecraft:entity.item.pickup voice @s", "execute_at_target":true},
+								{"time":0.0, "command":"indestructible @s play 'epicfight:biped/skill/guard_sword_hit_active2' -0.8 1", "execute_at_target":false}
+							],
+							"end_by_hurt_level": 1
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						}
+                               ]                 
+				},
+				
+				
+				{
+					"weight": 0.001,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 120,
+					"behaviors": [
+						{
+							"conditions": [
+                                {"predicate":"within_distance", "min": 5.0, "max": 32.0}, {"predicate":"phase", "min": 0, "max": 20}, {"predicate": "stamina", "stamina": 0.99, "comparator": "less_ratio"}
+							],
+							"animation": "star:biped/yamato_step_backward",
+							"command_list":[
+								{"time":0.0, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+								{"time":0.1, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s epicfight:stun_immunity 1", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 1", "execute_at_target":false}
+							],
+							"set_phase": 1
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"convert_time": 0.0,
+							"command_list": [
+								{"time":0.0, "command":"effect give @s stellarisdlc:stamina_regen_enhanced 1000 39 true", "execute_at_target":false},
+								{"time":0.0, "command":"indestructible @s play 'star:biped/new/yamato/yamato_walk' 0.0 1", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 1}, {"predicate":"guard_break", "invert": true}, 
+								{"predicate":"knock_down","invert":true}
+							],
+							"wander": 20,
+                            "inaction_time": 10,
+                            "x_axis": 0.0,
+                            "z_axis": -0.3,
+							"set_phase": 1
+						}
+					]
+				},
+
+				
+				{
+					"weight": 150,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 80,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_distance", "min": 0.0, "max": 3.0},
+								{"predicate":"stamina", "stamina": 0.1, "comparator": "greater_ratio"}, {"predicate":"phase", "min": 17, "max": 20}, {"predicate":"random_chance", "chance": 0.25}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power0_1",
+							"convert_time": 0.1,
+							"command_list": [
+							    {"time":0.0, "command":"tag @s add modao", "execute_at_target":false},
+								{"time":0.0, "command":"function gazeabysser:modao2", "execute_at_target":false},
+								{"time":0.0, "command":"function gazeabysser:minus1_full", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.0, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"wander": 10,
+                            "inaction_time": 0,
+                            "x_axis": 0.0,
+                            "z_axis": 0.0
+						},
+						{
+							"conditions": [
+							],
+							"guard": 2,
+                            "counter": "star:biped/new/yamato/yamato_guard",
+                            "counter_cost": 0,
+                            "counter_chance": 1.0,
+                            "counter_speed": 12.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 4.0}, 
+								{"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_angle", "min": 0.0, "max": 25.0}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power0_2",
+							"command_list": [
+								{"time":0.0, "command":"tag @e[tag=modao] remove modao", "execute_at_target":false},
+                                {"time":0.0, "command":"function gazeabysser:add1_full", "execute_at_target":false},
+								{"time":0.25, "command":"function gazeabysser:add1_full", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 3.5, "max": 8.0}, {"predicate":"phase", "min": 17, "max": 20}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_strike2",
+							"convert_time": -0.2,
+							"play_speed": 1.5,
+							"command_list": [
+							    {"time":0.0, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.5, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/new/yamato/yamato_auto2",
+							"convert_time": 0.25,
+							"play_speed": 0.98,
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.85, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+							{"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power2",
+							"convert_time": 0.25,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+                                {"time":0.0, "command":"function gazeabysser:minus1_full", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":1.95, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false},
+								{"command":"effect give @s stellarisdlc:stamina_regen_enhanced 1 49 true", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"stamina": 5,
+							"convert_time": 0.1,
+							"command_list": [
+							]
+						}
+					]
+				},
+				
+				{
+					"weight": 150,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 50,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_distance", "min": 2.0, "max": 5.0},
+								{"predicate":"stamina", "stamina": 0.75, "comparator": "greater_ratio"}, {"predicate":"phase", "min": 16, "max": 20}, {"predicate":"random_chance", "chance": 0.25}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power0_1",
+							"convert_time": 0.1,
+							"command_list": [
+							    {"time":0.0, "command":"tag @s add modao", "execute_at_target":false},
+								{"time":0.0, "command":"function gazeabysser:modao1", "execute_at_target":false},
+								{"time":0.0, "command":"function gazeabysser:minus1_full", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.0, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"wander": 10,
+                            "inaction_time": 0,
+                            "x_axis": 0.0,
+                            "z_axis": 0.0
+						},
+						{
+							"conditions": [
+							],
+							"guard": 2,
+                            "counter": "star:biped/new/yamato/yamato_guard",
+                            "counter_cost": 0,
+                            "counter_chance": 1.0,
+                            "counter_speed": 12.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 4.0}, 
+								{"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_angle", "min": 0.0, "max": 25.0}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power0_2",
+							"command_list": [
+								{"time":0.0, "command":"tag @e[tag=modao] remove modao", "execute_at_target":false},
+                                {"time":0.0, "command":"function gazeabysser:add1_full", "execute_at_target":false},
+								{"time":0.25, "command":"function gazeabysser:add1_full", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 3.5, "max": 8.0}, {"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"phase", "min": 17, "max": 20}, {"predicate":"random_chance", "chance": 0.7}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_strike2",
+							"convert_time": -0.2,
+							"play_speed": 1.5,
+							"command_list": [
+							    {"time":0.0, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.5, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/new/yamato/yamato_auto2",
+							"convert_time": 0.25,
+							"play_speed": 0.98,
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.85, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+							{"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power2",
+							"convert_time": 0.25,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+                                {"time":0.0, "command":"function gazeabysser:minus1_full", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":1.95, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false},
+								{"command":"effect give @s stellarisdlc:stamina_regen_enhanced 1 49 true", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"stamina": 5,
+							"convert_time": 0.1,
+							"command_list": [
+							]
+						}
+					]
+				},
+				
+				{
+					"weight": 1000,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 30,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"attack_level", "min": 1, "max": 2}, {"predicate":"within_distance", "min": 0.0, "max": 5.0},
+								{"predicate":"stamina", "stamina": 0.1, "comparator": "greater_ratio"}, {"predicate":"phase", "min": 16, "max": 20}, {"predicate":"random_chance", "chance": 0.8}
+							],
+							"animation": "star:biped/new/dodge/step_backward",
+							"convert_time": 0.1,
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"random_chance", "chance": 0.9}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power0_1",
+							"stamina": 10,
+							"convert_time": 0.1,
+							"command_list": [
+							    {"time":0.0, "command":"tag @s add modao", "execute_at_target":false},
+								{"time":0.0, "command":"function gazeabysser:modao1", "execute_at_target":false},
+								{"time":0.0, "command":"function gazeabysser:minus1_full", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.0, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"wander": 10,
+                            "inaction_time": 0,
+                            "x_axis": 0.0,
+                            "z_axis": 0.0
+						},
+						{
+							"conditions": [
+							],
+							"guard": 2,
+                            "counter": "star:biped/new/yamato/yamato_guard",
+                            "counter_cost": 0,
+                            "counter_chance": 1.0,
+                            "counter_speed": 12.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 4.0}, 
+								{"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_angle", "min": 0.0, "max": 25.0}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power0_2",
+							"command_list": [
+								{"time":0.0, "command":"tag @e[tag=modao] remove modao", "execute_at_target":false},
+                                {"time":0.0, "command":"function gazeabysser:add1_full", "execute_at_target":false},
+								{"time":0.25, "command":"function gazeabysser:add1_full", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 3.5, "max": 8.0}, {"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"phase", "min": 16, "max": 20}, {"predicate":"random_chance", "chance": 0.7}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_strike2",
+							"convert_time": -0.2,
+							"play_speed": 1.5,
+							"command_list": [
+							    {"time":0.0, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.5, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/new/yamato/yamato_auto2",
+							"convert_time": 0.25,
+							"play_speed": 0.98,
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.85, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+							{"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power2",
+							"convert_time": 0.25,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+                                {"time":0.0, "command":"function gazeabysser:minus1_full", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":1.95, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false},
+								{"command":"effect give @s stellarisdlc:stamina_regen_enhanced 1 49 true", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"stamina": 5,
+							"convert_time": 0.1,
+							"command_list": [
+							]
+						}
+					]
+				},
+				
+				{
+					"weight": 1000,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 60,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"attack_level", "min": 1, "max": 2}, {"predicate":"within_distance", "min": 0.0, "max": 5.0},
+								{"predicate":"stamina", "stamina": 0.1, "comparator": "greater_ratio"}, {"predicate":"phase", "min": 16, "max": 20}, {"predicate":"random_chance", "chance": 0.9}
+							],
+							"animation": "star:biped/new/dodge/step_backward",
+							"convert_time": 0.1,
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"random_chance", "chance": 1.0}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power0_1",
+							"stamina": 10,
+							"convert_time": 0.1,
+							"command_list": [
+							    {"time":0.0, "command":"tag @s add modao", "execute_at_target":false},
+								{"time":0.0, "command":"function gazeabysser:modao1", "execute_at_target":false},
+								{"time":0.0, "command":"function gazeabysser:minus1_full", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.0, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"wander": 10,
+                            "inaction_time": 0,
+                            "x_axis": 0.0,
+                            "z_axis": 0.0
+						},
+						{
+							"conditions": [
+							],
+							"guard": 2,
+                            "counter": "star:biped/new/yamato/yamato_guard",
+                            "counter_cost": 0,
+                            "counter_chance": 1.0,
+                            "counter_speed": 12.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 4.0}, 
+								{"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_angle", "min": 0.0, "max": 25.0}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power0_2",
+							"command_list": [
+								{"time":0.0, "command":"tag @e[tag=modao] remove modao", "execute_at_target":false},
+                                {"time":0.0, "command":"function gazeabysser:add1_full", "execute_at_target":false},
+								{"time":0.25, "command":"function gazeabysser:add1_full", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"random_chance", "chance": 0.8}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_strike2",
+							"convert_time": -0.2,
+							"play_speed": 1.5,
+							"command_list": [
+							    {"time":0.0, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.5, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/new/yamato/yamato_auto2",
+							"convert_time": 0.25,
+							"play_speed": 0.98,
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.85, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+							{"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power2",
+							"convert_time": 0.25,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+                                {"time":0.0, "command":"function gazeabysser:minus1_full", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":1.95, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false},
+								{"command":"effect give @s stellarisdlc:stamina_regen_enhanced 1 49 true", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"stamina": 5,
+							"convert_time": 0.1,
+							"command_list": [
+							]
+						}
+					]
+				},
+				
+				{
+					"weight": 1000,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 30,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"attack_level", "min": 1, "max": 2}, {"predicate":"within_distance", "min": 0.0, "max": 4.0},
+								{"predicate":"stamina", "stamina": 0.1, "comparator": "greater_ratio"}, {"predicate":"phase", "min": 16, "max": 17}, {"predicate":"random_chance", "chance": 0.8}
+							],
+							"animation": "star:biped/new/yamato/yamato_guard_hit",
+							"convert_time": -0.48,
+							"command_list": [
+								{"time":0.48, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"guard": 2,
+							"parry": true,
+							"parry_times": 1,
+							"counter_chance": 0,
+							"stun_immunity_time": 0,
+							"specific_guard_motion": {
+							    "parry_cost_multiply": 0.0,
+								"parry_animation": ["star:biped/new/yamato/yamato_guard"]
+							}
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"random_chance", "chance": 0.9}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power0_1",
+							"stamina": 0,
+							"convert_time": 0.1,
+							"command_list": [
+							    {"time":0.0, "command":"tag @s add modao", "execute_at_target":false},
+								{"time":0.0, "command":"function gazeabysser:modao2", "execute_at_target":false},
+								{"time":0.0, "command":"function gazeabysser:minus1_full", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.0, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"wander": 10,
+                            "inaction_time": 0,
+                            "x_axis": 0.0,
+                            "z_axis": 0.0
+						},
+						{
+							"conditions": [
+							],
+							"guard": 2,
+                            "counter": "star:biped/new/yamato/yamato_guard",
+                            "counter_cost": 0,
+                            "counter_chance": 1.0,
+                            "counter_speed": 12.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 4.0}, 
+								{"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_angle", "min": 0.0, "max": 25.0}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power0_2",
+							"command_list": [
+								{"time":0.0, "command":"tag @e[tag=modao] remove modao", "execute_at_target":false},
+                                {"time":0.0, "command":"function gazeabysser:add1_full", "execute_at_target":false},
+								{"time":0.25, "command":"function gazeabysser:add1_full", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 4.0, "max": 8.0}, {"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"phase", "min": 16, "max": 20}, {"predicate":"random_chance", "chance": 0.7}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_strike2",
+							"convert_time": -0.2,
+							"play_speed": 1.5,
+							"command_list": [
+							    {"time":0.0, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.5, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/new/yamato/yamato_auto2",
+							"convert_time": 0.25,
+							"play_speed": 0.98,
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.85, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+							{"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power2",
+							"convert_time": 0.25,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+                                {"time":0.0, "command":"function gazeabysser:minus1_full", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":1.95, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false},
+								{"command":"effect give @s stellarisdlc:stamina_regen_enhanced 1 49 true", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"stamina": 5,
+							"convert_time": 0.1,
+							"command_list": [
+							]
+						}
+					]
+				},
+				
+								
+				
+				{
+					"weight": 120.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 90, 
+					"behaviors": [
+					    {
+							"conditions": [
+								{"predicate": "health", "health": 0.5, "comparator": "less_ratio"}, {"predicate":"within_eye_height"}, {"predicate":"attack_level", "min": 1, "max": 2}, {"predicate":"within_distance", "min": 0.0, "max": 4.0}, {"predicate": "stamina", "stamina": 0.2, "comparator": "greater_ratio"}
+							],
+							"animation": "star:biped/new/dodge/step_left", 
+							"stamina":-0,
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s neapolitan:berserking 10000 10 true", "execute_at_target":false}
+							]
+						}
+                        ]                 
+				},
+				
+				{
+					"weight": 120.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 90, 
+					"behaviors": [
+					    {
+							"conditions": [
+								{"predicate": "health", "health": 0.5, "comparator": "less_ratio"}, {"predicate":"within_eye_height"}, {"predicate":"attack_level", "min": 1, "max": 2}, {"predicate":"within_distance", "min": 0.0, "max": 4.0}, {"predicate": "stamina", "stamina": 0.2, "comparator": "greater_ratio"}
+							],
+							"animation": "star:biped/new/dodge/step_right", 
+							"stamina":-0,
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s neapolitan:berserking 10000 10 true", "execute_at_target":false}
+							]
+						}
+                        ]                 
+				},
+				
+				{
+					"weight": 120.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 90, 
+					"behaviors": [
+					    {
+							"conditions": [
+								{"predicate": "health", "health": 0.5, "comparator": "less_ratio"}, {"predicate":"within_eye_height"}, {"predicate":"attack_level", "min": 1, "max": 2}, {"predicate":"within_distance", "min": 0.0, "max": 4.0}, {"predicate": "stamina", "stamina": 0.2, "comparator": "greater_ratio"}
+							],
+							"animation": "star:biped/new/dodge/step_backward", 
+							"stamina":-0,
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s neapolitan:berserking 10000 10 true", "execute_at_target":false}
+							]
+						}
+                        ]                 
+				},
+				
+				
+				
+				
+				
+				{
+					"weight": 120.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 90, 
+					"behaviors": [
+					    {
+							"conditions": [
+								{"predicate": "health", "health": 0.5, "comparator": "greater_ratio"}, {"predicate":"within_eye_height"}, {"predicate":"attack_level", "min": 1, "max": 2}, {"predicate":"within_distance", "min": 0.0, "max": 4.0}, {"predicate": "stamina", "stamina": 0.2, "comparator": "greater_ratio"}
+							],
+							"animation": "star:biped/new/dodge/step_left", 
+							"stamina":-0,
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s neapolitan:berserking", "execute_at_target":false}
+							]
+						}
+                        ]                 
+				},
+				
+				{
+					"weight": 120.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 90, 
+					"behaviors": [
+					    {
+							"conditions": [
+								{"predicate": "health", "health": 0.5, "comparator": "greater_ratio"}, {"predicate":"within_eye_height"}, {"predicate":"attack_level", "min": 1, "max": 2}, {"predicate":"within_distance", "min": 0.0, "max": 4.0}, {"predicate": "stamina", "stamina": 0.2, "comparator": "greater_ratio"}
+							],
+							"animation": "star:biped/new/dodge/step_right", 
+							"stamina":-0,
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s neapolitan:berserking", "execute_at_target":false}
+							]
+						}
+                        ]                 
+				},
+				
+				{
+					"weight": 120.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 90, 
+					"behaviors": [
+					    {
+							"conditions": [
+								{"predicate": "health", "health": 0.5, "comparator": "greater_ratio"}, {"predicate":"within_eye_height"}, {"predicate":"attack_level", "min": 1, "max": 2}, {"predicate":"within_distance", "min": 0.0, "max": 4.0}, {"predicate": "stamina", "stamina": 0.2, "comparator": "greater_ratio"}
+							],
+							"animation": "star:biped/new/dodge/step_backward", 
+							"stamina":-0,
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s neapolitan:berserking", "execute_at_target":false}
+							]
+						}
+                        ]                 
+				},
+				
+				{
+					"weight": 45.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 5, 
+					"behaviors": [
+					    {
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"attack_level", "min": 1, "max": 2}, {"predicate":"within_distance", "min": 0.0, "max": 4.0}, {"predicate": "stamina", "stamina": 0.1, "comparator": "greater_ratio"}
+							],
+							"animation": "epicfight:biped/skill/step_left", 
+							"stamina":4,
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							]
+						}
+                        ]                 
+				},
+				
+				{
+					"weight": 45.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 5, 
+					"behaviors": [
+					    {
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"attack_level", "min": 1, "max": 2}, {"predicate":"within_distance", "min": 0.0, "max": 4.0}, {"predicate": "stamina", "stamina": 0.1, "comparator": "greater_ratio"}
+							],
+							"animation": "epicfight:biped/skill/step_right", 
+							"stamina":4,
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							]
+						}
+                        ]                 
+				},
+				
+				{
+					"weight": 45.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 5, 
+					"behaviors": [
+					    {
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"attack_level", "min": 1, "max": 2}, {"predicate":"within_distance", "min": 0.0, "max": 4.0}, {"predicate": "stamina", "stamina": 0.1, "comparator": "greater_ratio"}
+							],
+							"animation": "epicfight:biped/skill/step_backward", 
+							"stamina":4,
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							]
+						}
+                        ]                 
+				},
+				
+				
+				{
+					"weight": 7500,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 160,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, 
+                                {"predicate":"attack_level", "min": 1, "max": 2}, {"predicate":"within_distance", "min": 0.0, "max": 5.0},
+								{"predicate":"phase", "min": 19, "max": 20}, {"predicate": "stamina", "stamina": 0.5, "comparator": "greater_ratio"}
+							],
+							"guard": 5,
+							"parry": true,
+							"parry_times": 1,
+							"counter_chance": 0,
+							"stun_immunity_time": 70,
+							"specific_guard_motion": {
+							    "parry_cost_multiply": 0.1,
+								"parry_animation": ["star:biped/new/yamato/yamato_guard_parry"]
+							}
+						},
+						{
+							"conditions": [
+							{"predicate":"within_distance", "min": 0.0, "max": 5.0}, {"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_counter_1",
+							"convert_time": 0.15,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+                                {"time":0.0, "command":"function gazeabysser:minus2_full", "execute_at_target":false},
+								
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":1.0, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_strike2",
+							"convert_time": -0.2,
+							"play_speed": 1.5,
+							"command_list": [
+							    {"time":0.0, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.5, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/new/yamato/yamato_auto2",
+							"convert_time": 0.25,
+							"play_speed": 0.98,
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false},
+								{"time":0.85, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_strike2",
+							"convert_time": -0.2,
+							"play_speed": 1.5,
+							"command_list": [
+							    {"time":0.0, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.5, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/new/yamato/yamato_auto3",
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 5.0},
+								{"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power3",
+							"play_speed": 0.98,
+							"command_list": [
+							    {"time":0.0, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false},
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+                                {"time":0.0, "command":"function gazeabysser:minus1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.5},
+								{"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power3_repeat",
+							"play_speed": 0.98,
+							"convert_time": 0.15,
+							"stamina": 20,
+							"command_list": [
+							    {"time":0.0, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false},
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								{"time":0.6, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							],
+                            "hit_command_list":[
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 0.4 1", "execute_at_target":true},
+								{"command":"function gazeabysser:add1_full", "execute_at_target":false},
+								{"command":"effect give @s champions:paralysis 1", "execute_at_target":true}
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.5},
+								{"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power3_repeat",
+							"play_speed": 0.98,
+							"convert_time": 0.15,
+							"stamina": 20,
+							"command_list": [
+							    {"time":0.0, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false},
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								{"time":0.6, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							],
+                            "hit_command_list":[
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 0.4 1", "execute_at_target":true},
+								{"command":"function gazeabysser:add1_full", "execute_at_target":false},
+								{"command":"effect give @s champions:paralysis 1", "execute_at_target":true}
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.5},
+								{"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power3_repeat",
+							"play_speed": 0.98,
+							"convert_time": 0.15,
+							"stamina": 20,
+							"command_list": [
+							    {"time":0.0, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false},
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								{"time":0.6, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							],
+                            "hit_command_list":[
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 0.4 1", "execute_at_target":true},
+								{"command":"function gazeabysser:add1_full", "execute_at_target":false},
+								{"command":"effect give @s champions:paralysis 1", "execute_at_target":true}
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.5},
+								{"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power3_repeat",
+							"play_speed": 0.98,
+							"convert_time": 0.15,
+							"stamina": 20,
+							"command_list": [
+							    {"time":0.0, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false},
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								{"time":0.6, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							],
+                            "hit_command_list":[
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 0.4 1", "execute_at_target":true},
+								{"command":"function gazeabysser:add1_full", "execute_at_target":false},
+								{"command":"effect give @s champions:paralysis 1", "execute_at_target":true}
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 12.0},
+								{"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power3_finish",
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true}
+							],
+                            "damage_modifier":{
+								"damage": 3.0,
+                                "impact": 2.0,
+                                "armor_negation": 4.0
+							}
+						}
+					]
+				},
+				
+				{
+					"weight": 1250,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 240,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, 
+                                {"predicate":"attack_level", "min": 1, "max": 2}, {"predicate":"within_distance", "min": 0.0, "max": 5.0},
+								{"predicate":"phase", "min": 18, "max": 20}
+							],
+							"guard": 5,
+							"parry": true,
+							"parry_times": 1,
+							"counter_chance": 0,
+							"stun_immunity_time": 70,
+							"specific_guard_motion": {
+							    "parry_cost_multiply": 0.1,
+								"parry_animation": ["star:biped/new/yamato/yamato_guard_parry"]
+							}
+						},
+						{
+							"conditions": [
+							{"predicate":"within_distance", "min": 0.0, "max": 5.0}, {"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_counter_1",
+							"convert_time": 0.15,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+                                {"time":0.0, "command":"function gazeabysser:minus2_full", "execute_at_target":false},
+								
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":1.0, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_strike2",
+							"convert_time": -0.2,
+							"play_speed": 1.5,
+							"command_list": [
+							    {"time":0.0, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.5, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/new/yamato/yamato_auto2",
+							"convert_time": 0.25,
+							"play_speed": 0.98,
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.85, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power2",
+							"convert_time": 0.25,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+                                {"time":0.0, "command":"function gazeabysser:minus1_full", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":1.95, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false},
+								{"command":"effect give @s stellarisdlc:stamina_regen_enhanced 1 49 true", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"stamina": 5,
+							"convert_time": 0.1,
+							"command_list": [
+							]
+						}
+					]
+				},
+				
+				
+				{
+					"weight": 75.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 90,
+					"behaviors": [
+					    {
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, 
+                                {"predicate":"attack_level", "min": 1, "max": 2}, {"predicate":"within_distance", "min": 0.0, "max": 3.0},
+								{"predicate":"phase", "min": 16, "max": 20}, {"predicate":"stamina", "stamina": 0.6, "comparator": "less_ratio"}, {"predicate":"random_chance", "chance": 0.8}
+							],
+							"guard": 6,
+							"parry": true,
+							"parry_times": 3,
+							"counter_chance": 0,
+							"stun_immunity_time": 30,
+							"specific_guard_motion": {
+							    "parry_cost_multiply": 0.05,
+								"parry_animation": ["star:biped/new/yamato/yamato_guard_parry"]
+							}
+						},
+						{
+							"conditions": [
+							{"predicate":"within_distance", "min": 0.0, "max": 6.0}, {"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto1",
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							],
+							"play_speed": 1.0,
+							"convert_time": 0.3
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 2.5}, {"predicate":"within_angle", "min": -90.0, "max": 90.0},
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"random_chance", "chance": 0.9}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power1",
+							"play_speed": 1.0,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+                                {"time":0.0, "command":"function gazeabysser:minus1_full", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false},
+								{"command":"effect give @s stellarisdlc:stamina_regen_enhanced 1 124 true", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						}
+                   ]                 
+				},
+
+                {
+					"weight": 50,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 50,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, 
+                                {"predicate":"attack_level", "min": 1, "max": 2}, {"predicate":"within_distance", "min": 0.0, "max": 3.0},
+								{"predicate":"phase", "min": 1, "max": 20}
+							],
+							"animation": "star:biped/new/dodge/step_right",
+							"convert_time": 0.0,
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"guard": 8,
+                            "counter": "star:biped/new/yamato/yamato_guard",
+                            "counter_cost": 3,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.8
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, 
+                                {"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"guard": 6,
+							"parry": true,
+							"parry_times": 1,
+							"counter_chance": 0,
+							"stun_immunity_time": 50,
+							"specific_guard_motion": {
+							    "parry_cost_multiply": 0.05,
+								"parry_animation": ["star:biped/new/yamato/yamato_guard_parry"]
+							}
+						},
+						{
+							"conditions": [
+							{"predicate":"within_distance", "min": 0.0, "max": 6.0}, {"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"convert_time": -0.1,
+							"play_speed": 1.0,
+							"command_list": [																											
+                                {"time":0.11, "command":"tp ~0 ~0.6 ~0", "execute_at_target":false},
+								{"time":0.15, "command":"tp ~0 ~0.4 ~0", "execute_at_target":false},
+								{"time":0.17, "command":"tp ~0 ~0.3 ~0", "execute_at_target":false},
+								{"time":0.1, "command":"effect give @s minecraft:slow_falling 1 1 true", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/new/yamato/yamato_airslash",
+							"stamina": 5,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s minecraft:slow_falling", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							],
+							"convert_time": 0.25
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/new/yamato/yamato_dash",
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							],
+							"convert_time": 0.3
+						},
+						{
+							"conditions": [
+								{"predicate":"knock_down", "invert": true}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto1",
+							"command_list": [
+								{"time":0.0, "command":"scoreboard players set @p gazeabysser 0", "execute_at_target":false},
+
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							],
+							"play_speed": 1.0,
+							"convert_time": 0.25
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}, {"predicate":"within_angle", "min": -60.0, "max": 60.0}, {"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_angle_horizontal", "min": 0, "max": 24}, {"predicate":"random_chance", "chance": 0.8}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto2",
+							"play_speed": 0.98,
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.85, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}, {"predicate":"within_angle", "min": -90.0, "max": 90.0}, {"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_angle_horizontal", "min": 0, "max": 24}, {"predicate":"random_chance", "chance": 0.6}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto3",
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}, {"predicate":"within_angle", "min": -60.0, "max": 60.0},
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"stamina", "stamina": 0.4, "comparator": "less_ratio"}, {"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_angle_horizontal", "min": 0, "max": 24}, {"predicate":"random_chance", "chance": 0.5}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto4",
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"stamina": -10,
+							"convert_time": 0.0
+						}
+
+					]
+				},
+				
+				
+				
+				{
+					"weight": 50,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 50,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, 
+                                {"predicate":"attack_level", "min": 1, "max": 2}, {"predicate":"within_distance", "min": 0.0, "max": 3.0},
+								{"predicate":"phase", "min": 0, "max": 14}
+							],
+							"animation": "star:biped/new/dodge/step_backward",
+							"convert_time": 0.0,
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"guard": 8,
+                            "counter": "star:biped/new/yamato/yamato_guard",
+                            "counter_cost": 3,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.8
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, 
+                                {"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"guard": 6,
+							"parry": true,
+							"parry_times": 1,
+							"counter_chance": 0,
+							"stun_immunity_time": 50,
+							"specific_guard_motion": {
+							    "parry_cost_multiply": 0.05,
+								"parry_animation": ["star:biped/new/yamato/yamato_guard_parry"]
+							}
+						},
+						{
+							"conditions": [
+							{"predicate":"within_distance", "min": 0.0, "max": 6.0}, {"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"animation": "epicfight:biped/skill/step_left",
+							"convert_time": -0.1,
+							"play_speed": 1.0,
+							"command_list": [																											
+                                {"time":0.11, "command":"tp ~0 ~0.6 ~0", "execute_at_target":false},
+								{"time":0.15, "command":"tp ~0 ~0.4 ~0", "execute_at_target":false},
+								{"time":0.17, "command":"tp ~0 ~0.3 ~0", "execute_at_target":false},
+								{"time":0.1, "command":"effect give @s minecraft:slow_falling 1 1 true", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/new/yamato/yamato_airslash",
+							"stamina": 5,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s minecraft:slow_falling", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							],
+							"convert_time": 0.25
+						},
+						{
+							"conditions": [
+								{"predicate":"knock_down", "invert": true}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto1",
+							"command_list": [
+								{"time":0.0, "command":"scoreboard players set @p gazeabysser 0", "execute_at_target":false},
+								{"time":0.0, "command":"indestructible @s set_phase 15", "execute_at_target":false},
+
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							],
+							"play_speed": 1.0,
+							"convert_time": 0.25
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}, {"predicate":"within_angle", "min": -60.0, "max": 60.0}, {"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_angle_horizontal", "min": 0, "max": 24}, {"predicate":"random_chance", "chance": 0.8}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto2",
+							"play_speed": 0.98,
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.85, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						}
+					]
+				},
+				
+				{
+					"weight": 50,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 50,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, 
+                                {"predicate":"attack_level", "min": 1, "max": 2}, {"predicate":"within_distance", "min": 0.0, "max": 3.0},
+								{"predicate":"phase", "min": 17, "max": 20}
+							],
+							"animation": "star:biped/new/dodge/step_left",
+							"convert_time": 0.0,
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"guard": 8,
+                            "counter": "star:biped/new/yamato/yamato_guard",
+                            "counter_cost": 2,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.8
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, 
+                                {"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"guard": 6,
+							"parry": true,
+							"parry_times": 1,
+							"counter_chance": 0,
+							"stun_immunity_time": 50,
+							"specific_guard_motion": {
+					      		"parry_cost_multiply": 0.05,
+								"parry_animation": ["star:biped/new/yamato/yamato_guard_parry"]
+							}
+						},
+						{
+							"conditions": [
+							{"predicate":"within_distance", "min": 0.0, "max": 6.0}, {"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"animation": "epicfight:biped/skill/step_right",
+							"convert_time": -0.1,
+							"play_speed": 1.0,
+							"command_list": [																											
+                                {"time":0.11, "command":"tp ~0 ~0.6 ~0", "execute_at_target":false},
+								{"time":0.15, "command":"tp ~0 ~0.4 ~0", "execute_at_target":false},
+								{"time":0.17, "command":"tp ~0 ~0.3 ~0", "execute_at_target":false},
+								{"time":0.1, "command":"effect give @s minecraft:slow_falling 1 1 true", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/new/yamato/yamato_airslash",
+							"stamina": 5,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s minecraft:slow_falling", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							],
+							"convert_time": 0.25
+						},
+						{
+							"conditions": [
+								{"predicate":"knock_down", "invert": true}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto1",
+							"command_list": [
+								{"time":0.0, "command":"scoreboard players set @p gazeabysser 0", "execute_at_target":false},
+
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							],
+							"play_speed": 1.0,
+							"convert_time": 0.25
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}, {"predicate":"within_angle", "min": -60.0, "max": 60.0}, {"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_angle_horizontal", "min": 0, "max": 24}, {"predicate":"random_chance", "chance": 0.8}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto2",
+							"play_speed": 0.98,
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.85, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power2",
+							"convert_time": 0.25,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+                                {"time":0.0, "command":"function gazeabysser:minus1_full", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":1.95, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false},
+								{"command":"effect give @s stellarisdlc:stamina_regen_enhanced 1 49 true", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"stamina": 5,
+							"convert_time": 0.1,
+							"command_list": [
+							]
+						}
+					]
+				},
+				
+				
+				
+				{
+					"weight": 1.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 50,
+					"behaviors": [
+					    {
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 2.5}, 
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"phase", "min": 0, "max": 17},
+								{"predicate":"stamina", "stamina": 0.5, "comparator": "greater_ratio"}, {"predicate":"within_angle_horizontal", "min": 0, "max": 24}, {"predicate":"random_chance", "chance": 0.75}
+							],
+							"wander": 5,             
+							"inaction_time": 0,	  
+							"x_axis": 0.0,		   
+							"z_axis": 1.0
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/step_left",
+							"convert_time": -0.1,
+							"play_speed": 1.0,
+							"command_list": [																											
+                                {"time":0.11, "command":"tp ~0 ~0.6 ~0", "execute_at_target":false},
+								{"time":0.15, "command":"tp ~0 ~0.4 ~0", "execute_at_target":false},
+								{"time":0.17, "command":"tp ~0 ~0.3 ~0", "execute_at_target":false},
+								{"time":0.1, "command":"effect give @s minecraft:slow_falling 1 1 true", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/new/yamato/yamato_airslash",
+							"stamina": 5,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s minecraft:slow_falling", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							],
+							"convert_time": 0.25
+						},
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto1",
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							],
+							"play_speed": 1.0,
+							"convert_time": 0.3
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 2.5}, {"predicate":"within_angle", "min": -90.0, "max": 90.0},
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_angle_horizontal", "min": 0, "max": 24}, {"predicate":"random_chance", "chance": 0.8}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto2",
+							"play_speed": 0.98,
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.85, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 2.0}, {"predicate":"within_angle", "min": -90.0, "max": 90.0},
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_angle_horizontal", "min": 0, "max": 24}, {"predicate":"random_chance", "chance": 0.6}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto3",
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"command_list": [
+
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}, {"predicate":"within_angle", "min": -60.0, "max": 60.0},
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"stamina", "stamina": 0.4, "comparator": "less_ratio"}, {"predicate":"within_angle_horizontal", "min": 0, "max": 24}, {"predicate":"random_chance", "chance": 0.5}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto4",
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"stamina": -10,
+							"convert_time": 0.0
+						}
+                   ]                 
+				},
+				
+				{
+					"weight": 1.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 50,
+					"behaviors": [
+					    {
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 2.5}, 
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"phase", "min": 18, "max": 20},
+								{"predicate":"stamina", "stamina": 0.5, "comparator": "greater_ratio"}, {"predicate":"within_angle_horizontal", "min": 0, "max": 24}, {"predicate":"random_chance", "chance": 0.75}
+							],
+							"wander": 5,             
+							"inaction_time": 0,	  
+							"x_axis": 0.0,		   
+							"z_axis": 1.0
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/step_right",
+							"convert_time": -0.1,
+							"play_speed": 1.0,
+							"command_list": [																											
+                                {"time":0.11, "command":"tp ~0 ~0.6 ~0", "execute_at_target":false},
+								{"time":0.15, "command":"tp ~0 ~0.4 ~0", "execute_at_target":false},
+								{"time":0.17, "command":"tp ~0 ~0.3 ~0", "execute_at_target":false},
+								{"time":0.1, "command":"effect give @s minecraft:slow_falling 1 1 true", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/new/yamato/yamato_airslash",
+							"stamina": 5,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s minecraft:slow_falling", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							],
+							"convert_time": 0.25
+						},
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto1",
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							],
+							"play_speed": 1.0,
+							"convert_time": 0.3
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 2.5}, {"predicate":"within_angle", "min": -90.0, "max": 90.0},
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_angle_horizontal", "min": 0, "max": 24}, {"predicate":"random_chance", "chance": 0.8}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto2",
+							"play_speed": 0.98,
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.85, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power2",
+							"convert_time": 0.25,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+                                {"time":0.0, "command":"function gazeabysser:minus1_full", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":1.95, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false},
+								{"command":"effect give @s stellarisdlc:stamina_regen_enhanced 1 49 true", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"stamina": 5,
+							"convert_time": 0.1,
+							"command_list": [
+							]
+						}
+                   ]                 
+				},
+				
+				
+				{
+					"weight": 8,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 40,
+					"behaviors": [
+				        {
+							"conditions": [
+								{"predicate":"within_distance", "min": 1.75, "max": 4.0}, {"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"random_chance", "chance": 0.35}
+							],
+							"wander": 5,             
+							"inaction_time": 0,	  
+							"x_axis": 0.0,		   
+							"z_axis": 1.0
+						},
+						{
+							"conditions": [
+							{"predicate":"random_chance", "chance": 0.75}, {"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"stamina", "stamina": 0.25, "comparator": "greater_ratio"}
+							],
+							"animation": "star:biped/new/yamato/yamato_dash",
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							],
+							"convert_time": 0.3
+						},
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_distance", "min": 0.5, "max": 4.0}, {"predicate":"within_angle", "min": -75.0, "max": 75.0}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto1",
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							],
+							"play_speed": 1.0,
+							"convert_time": 0.3
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 2.5}, {"predicate":"within_angle", "min": -90.0, "max": 90.0},
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_angle_horizontal", "min": 0, "max": 24}, {"predicate":"random_chance", "chance": 0.8}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto2",
+							"play_speed": 0.98,
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.85, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 2.0}, {"predicate":"within_angle", "min": -90.0, "max": 90.0},
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_angle_horizontal", "min": 0, "max": 24}, {"predicate":"random_chance", "chance": 0.6}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto3",
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"command_list": [
+
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}, {"predicate":"within_angle", "min": -60.0, "max": 60.0},
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"stamina", "stamina": 0.4, "comparator": "less_ratio"}, {"predicate":"within_angle_horizontal", "min": 0, "max": 24}, {"predicate":"random_chance", "chance": 0.5}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto4",
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"stamina": -10,
+							"convert_time": 0.0
+						}
+                   ]                 
+				},
+				
+				{
+					"weight": 8,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 40,
+					"behaviors": [
+				        {
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 1.25}, {"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"random_chance", "chance": 0.35}
+							],
+							"wander": 5,             
+							"inaction_time": 0,	  
+							"x_axis": 0.0,		   
+							"z_axis": 1.0
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"convert_time": 0.0,
+							"play_speed": 1.0
+						},
+						{
+							"conditions": [
+							{"predicate":"random_chance", "chance": 0.75}, {"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"stamina", "stamina": 0.25, "comparator": "greater_ratio"}
+							],
+							"animation": "star:biped/new/yamato/yamato_dash",
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							],
+							"convert_time": 0.3
+						},
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_distance", "min": 0.5, "max": 4.0}, {"predicate":"within_angle", "min": -75.0, "max": 75.0}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto1",
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							],
+							"play_speed": 1.0,
+							"convert_time": 0.3
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 2.5}, {"predicate":"within_angle", "min": -90.0, "max": 90.0},
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_angle_horizontal", "min": 0, "max": 24}, {"predicate":"random_chance", "chance": 0.8}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto2",
+							"play_speed": 0.98,
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.85, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 2.0}, {"predicate":"within_angle", "min": -90.0, "max": 90.0},
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_angle_horizontal", "min": 0, "max": 24}, {"predicate":"random_chance", "chance": 0.6}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto3",
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"command_list": [
+
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}, {"predicate":"within_angle", "min": -60.0, "max": 60.0},
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"stamina", "stamina": 0.4, "comparator": "less_ratio"}, {"predicate":"within_angle_horizontal", "min": 0, "max": 24}, {"predicate":"random_chance", "chance": 0.5}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto4",
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"stamina": -10,
+							"convert_time": 0.0
+						}
+                   ]                 
+				},
+				
+				
+				
+				{
+					"weight": 8,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 40,
+					"behaviors": [
+				        {
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 1.25}, {"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"random_chance", "chance": 0.35}
+							],
+							"wander": 5,             
+							"inaction_time": 0,	  
+							"x_axis": 0.0,		   
+							"z_axis": 1.0
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"convert_time": -0.1,
+							"play_speed": 1.0,
+							"command_list": [																											
+                                {"time":0.11, "command":"tp ~0 ~0.6 ~0", "execute_at_target":false},
+								{"time":0.15, "command":"tp ~0 ~0.4 ~0", "execute_at_target":false},
+								{"time":0.17, "command":"tp ~0 ~0.3 ~0", "execute_at_target":false},
+								{"time":0.1, "command":"effect give @s minecraft:slow_falling 1 1 true", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"stamina", "stamina": 0.5, "comparator": "greater_ratio"}
+							],
+							"animation": "star:biped/new/yamato/yamato_airslash",
+							"stamina": 5,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s minecraft:slow_falling", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							],
+							"convert_time": 0.25
+						},
+						{
+							"conditions": [
+							{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"stamina", "stamina": 0.25, "comparator": "greater_ratio"}
+							],
+							"animation": "star:biped/new/yamato/yamato_dash",
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							],
+							"convert_time": 0.3
+						},
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_distance", "min": 0.5, "max": 4.0}, {"predicate":"within_angle", "min": -75.0, "max": 75.0}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto1",
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							],
+							"play_speed": 1.0,
+							"convert_time": 0.3
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 2.5}, {"predicate":"within_angle", "min": -90.0, "max": 90.0},
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_angle_horizontal", "min": 0, "max": 24}, {"predicate":"random_chance", "chance": 0.8}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto2",
+							"play_speed": 0.98,
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.85, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 2.0}, {"predicate":"within_angle", "min": -90.0, "max": 90.0},
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_angle_horizontal", "min": 0, "max": 24}, {"predicate":"random_chance", "chance": 0.6}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto3",
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"command_list": [
+
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}, {"predicate":"within_angle", "min": -60.0, "max": 60.0},
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"stamina", "stamina": 0.4, "comparator": "less_ratio"}, {"predicate":"within_angle_horizontal", "min": 0, "max": 24}, {"predicate":"random_chance", "chance": 0.5}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto4",
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"stamina": -10,
+							"convert_time": 0.0
+						}
+                   ]                 
+				},
+				
+				{
+					"weight": 1,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 40,
+					"behaviors": [
+				        {
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.5}, {"predicate":"stamina", "stamina": 0.15, "comparator": "greater_ratio"}, {"predicate":"random_chance", "chance": 0.15}
+							],
+							"wander": 5,             
+							"inaction_time": 0,	  
+							"x_axis": 0.0,		   
+							"z_axis": 1.0
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/step_left",
+							"convert_time": -0.1,
+							"play_speed": 1.0,
+							"command_list": [																											
+                                {"time":0.11, "command":"tp ~0 ~0.6 ~0", "execute_at_target":false},
+								{"time":0.15, "command":"tp ~0 ~0.4 ~0", "execute_at_target":false},
+								{"time":0.17, "command":"tp ~0 ~0.3 ~0", "execute_at_target":false},
+								{"time":0.1, "command":"effect give @s minecraft:slow_falling 1 1 true", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"wander": 5,             
+							"inaction_time": 3,	  
+							"x_axis": 0.0,		   
+							"z_axis": 0.1
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/step_forward",
+							"convert_time": -0.1,
+							"play_speed": 1.0,
+							"command_list": [																
+							    {"time":0.1, "command":"playsound minecraft:entity.ender_dragon.flap voice @a", "execute_at_target":true},
+								{"time":0.1, "command":"particle minecraft:cloud ~ ~0.5 ~ 0.5 0 0.5 0.1 24 force", "execute_at_target":false},
+								{"time":0.11, "command":"tp ~0 ~0.6 ~0", "execute_at_target":false},
+								{"time":0.15, "command":"tp ~0 ~0.4 ~0", "execute_at_target":false},
+								{"time":0.17, "command":"tp ~0 ~0.3 ~0", "execute_at_target":false},
+								{"time":0.1, "command":"effect give @s minecraft:slow_falling 1 1 true", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/new/yamato/yamato_airslash",
+							"stamina": 5,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s minecraft:slow_falling", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							],
+							"convert_time": 0.25
+						},
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto1",
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							],
+							"play_speed": 1.0,
+							"convert_time": 0.3
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 2.5}, {"predicate":"within_angle", "min": -90.0, "max": 90.0},
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_angle_horizontal", "min": 0, "max": 24}, {"predicate":"random_chance", "chance": 0.8}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto2",
+							"play_speed": 0.98,
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.85, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 2.0}, {"predicate":"within_angle", "min": -90.0, "max": 90.0},
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_angle_horizontal", "min": 0, "max": 24}, {"predicate":"random_chance", "chance": 0.6}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto3",
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"command_list": [
+
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}, {"predicate":"within_angle", "min": -60.0, "max": 60.0},
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"stamina", "stamina": 0.4, "comparator": "less_ratio"}, {"predicate":"within_angle_horizontal", "min": 0, "max": 24}, {"predicate":"random_chance", "chance": 0.5}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto4",
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"stamina": -10,
+							"convert_time": 0.0
+						}
+                   ]                 
+				},
+				
+				{
+					"weight": 1,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 40,
+					"behaviors": [
+				        {
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.5}, {"predicate":"stamina", "stamina": 0.15, "comparator": "greater_ratio"}, {"predicate":"random_chance", "chance": 0.15}
+							],
+							"wander": 5,             
+							"inaction_time": 0,	  
+							"x_axis": 0.0,		   
+							"z_axis": 1.0
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/step_right",
+							"convert_time": -0.1,
+							"play_speed": 1.0,
+							"command_list": [																											
+                                {"time":0.11, "command":"tp ~0 ~0.6 ~0", "execute_at_target":false},
+								{"time":0.15, "command":"tp ~0 ~0.4 ~0", "execute_at_target":false},
+								{"time":0.17, "command":"tp ~0 ~0.3 ~0", "execute_at_target":false},
+								{"time":0.1, "command":"effect give @s minecraft:slow_falling 1 1 true", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"wander": 5,             
+							"inaction_time": 3,	  
+							"x_axis": 0.0,		   
+							"z_axis": 0.1
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/step_forward",
+							"convert_time": -0.1,
+							"play_speed": 1.0,
+							"command_list": [																
+							    {"time":0.1, "command":"playsound minecraft:entity.ender_dragon.flap voice @a", "execute_at_target":true},
+								{"time":0.1, "command":"particle minecraft:cloud ~ ~0.5 ~ 0.5 0 0.5 0.1 24 force", "execute_at_target":false},
+								{"time":0.11, "command":"tp ~0 ~0.6 ~0", "execute_at_target":false},
+								{"time":0.15, "command":"tp ~0 ~0.4 ~0", "execute_at_target":false},
+								{"time":0.17, "command":"tp ~0 ~0.3 ~0", "execute_at_target":false},
+								{"time":0.1, "command":"effect give @s minecraft:slow_falling 1 1 true", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/new/yamato/yamato_airslash",
+							"stamina": 5,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s minecraft:slow_falling", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							],
+							"convert_time": 0.25
+						},
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto1",
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							],
+							"play_speed": 1.0,
+							"convert_time": 0.3
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 2.5}, {"predicate":"within_angle", "min": -90.0, "max": 90.0},
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_angle_horizontal", "min": 0, "max": 24}, {"predicate":"random_chance", "chance": 0.8}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto2",
+							"play_speed": 0.98,
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.85, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 2.0}, {"predicate":"within_angle", "min": -90.0, "max": 90.0},
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_angle_horizontal", "min": 0, "max": 24}, {"predicate":"random_chance", "chance": 0.6}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto3",
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"command_list": [
+
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}, {"predicate":"within_angle", "min": -60.0, "max": 60.0},
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"stamina", "stamina": 0.4, "comparator": "less_ratio"}, {"predicate":"within_angle_horizontal", "min": 0, "max": 24}, {"predicate":"random_chance", "chance": 0.5}
+							],
+							"animation": "star:biped/new/yamato/yamato_auto4",
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"stamina": -10,
+							"convert_time": 0.0
+						}
+                   ]                 
+				},
+				
+				{
+					"weight": 1,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 40,
+					"behaviors": [
+				        {
+							"conditions": [
+								{"predicate":"within_distance", "min": 3.0, "max": 6.0}, {"predicate":"stamina", "stamina": 0.15, "comparator": "greater_ratio"}, {"predicate":"random_chance", "chance": 0.25}
+							],
+							"wander": 5,             
+							"inaction_time": 0,	  
+							"x_axis": 0.0,		   
+							"z_axis": 1.0
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/step_forward",
+							"convert_time": -0.1,
+							"play_speed": 1.0,
+							"command_list": [																											
+                                {"time":0.11, "command":"tp ~0 ~0.6 ~0", "execute_at_target":false},
+								{"time":0.15, "command":"tp ~0 ~0.4 ~0", "execute_at_target":false},
+								{"time":0.17, "command":"tp ~0 ~0.3 ~0", "execute_at_target":false},
+								{"time":0.1, "command":"effect give @s minecraft:slow_falling 1 1 true", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"wander": 5,             
+							"inaction_time": 3,	  
+							"x_axis": 0.0,		   
+							"z_axis": 0.1
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/step_forward",
+							"convert_time": -0.1,
+							"play_speed": 1.0,
+							"command_list": [																
+							    {"time":0.1, "command":"playsound minecraft:entity.ender_dragon.flap voice @a", "execute_at_target":true},
+								{"time":0.1, "command":"particle minecraft:cloud ~ ~0.5 ~ 0.5 0 0.5 0.1 24 force", "execute_at_target":false},
+								{"time":0.11, "command":"tp ~0 ~0.6 ~0", "execute_at_target":false},
+								{"time":0.15, "command":"tp ~0 ~0.4 ~0", "execute_at_target":false},
+								{"time":0.17, "command":"tp ~0 ~0.3 ~0", "execute_at_target":false},
+								{"time":0.1, "command":"effect give @s minecraft:slow_falling 1 1 true", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/new/yamato/yamato_airslash",
+							"stamina": 5,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s minecraft:slow_falling", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							],
+							"convert_time": 0.25
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						}
+					]
+				},
+				
+				{
+					"weight": 0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 30,
+					"behaviors": [
+					
+					
+					    {
+							"conditions": [
+							{"predicate":"within_angle_horizontal", "min": 24, "max": 180}, {"predicate":"within_angle", "min": 0.0, "max": 24.0}, {"predicate":"within_distance", "min": 0.0, "max": 4.0}, {"predicate":"stamina", "stamina": 0.15, "comparator": "greater_ratio"}
+							],
+							"wander": 5,             
+							"inaction_time": 0,	  
+							"x_axis": 0.0,		   
+							"z_axis": 1.0
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/step_forward",
+							"convert_time": -0.1,
+							"play_speed": 1.0,
+							"command_list": [
+                                {"time":0.1, "command":"effect give @s minecraft:slowness 1 2 true", "execute_at_target":false}, 							
+								{"time":0.1, "command":"playsound minecraft:entity.ender_dragon.flap voice @a", "execute_at_target":true},
+								{"time":0.1, "command":"particle minecraft:cloud ~ ~0.5 ~ 0.5 0 0.5 0.1 24 force", "execute_at_target":false},
+								{"time":0.11, "command":"tp ~0 ~1.2 ~0", "execute_at_target":false},
+								{"time":0.14, "command":"tp ~0 ~1.0 ~0", "execute_at_target":false},
+								{"time":0.17, "command":"tp ~0 ~0.6 ~0", "execute_at_target":false},
+								{"time":0.1, "command":"effect give @s minecraft:slow_falling 1 0 true", "execute_at_target":false}
+								
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.1
+						},
+						{
+							"conditions": [
+							{"predicate":"within_distance", "min": 0.0, "max": 3.5}, {"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"stamina", "stamina": 0.6, "comparator": "greater_ratio"}
+							],
+							"animation": "star:biped/new/yamato/yamato_airslash",
+							"stamina": 5,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s minecraft:slow_falling", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							],
+							"convert_time": 0.25
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						}
+					]
+				},
+				
+				
+				{
+					"weight": 1,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 120,
+					"behaviors": [
+				        {
+							"conditions": [
+								{"predicate":"within_distance", "min": 1.75, "max": 5.0}
+							],
+							"wander": 5,             
+							"inaction_time": 0,	  
+							"x_axis": 0.0,		   
+							"z_axis": 1.0
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/new/yamato/yamato_dash",
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							],
+							"convert_time": 0.3
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						}
+					]
+				},
+				
+				{
+					"weight": 1,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 160,
+					"behaviors": [
+				        {
+							"conditions": [
+								{"predicate":"within_distance", "min": 1.75, "max": 5.0}
+							],
+							"wander": 5,             
+							"inaction_time": 0,	  
+							"x_axis": 0.0,		   
+							"z_axis": 1.0
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/new/yamato/yamato_dash",
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							],
+							"convert_time": 0.3
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						}
+					]
+				},
+				
+				{
+					"weight": 1,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 30,
+					"behaviors": [
+				        {
+							"conditions": [
+								{"predicate":"within_distance", "min": 1.75, "max": 5.0}, {"predicate":"within_angle", "min": 30.0, "max": 120.0}, {"predicate":"random_chance", "chance": 0.5}
+							],
+							"wander": 5,             
+							"inaction_time": 0,	  
+							"x_axis": 0.0,		   
+							"z_axis": 1.0
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/new/yamato/yamato_dash",
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false}
+							],
+							"hit_command_list": [
+                                {"command":"function gazeabysser:add1_full", "execute_at_target":false}
+							],
+							"convert_time": 0.3
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						}
+					]
+				},
+				
+				
+				{
+					"weight": 0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 120,
+					"behaviors": [
+					
+					
+					    {
+							"conditions": [
+							{"predicate":"stamina", "stamina": 0.5, "comparator": "greater_ratio"}, {"predicate":"within_angle_horizontal", "min": 24, "max": 180}, {"predicate":"within_angle", "min": 0.0, "max": 20.0}, {"predicate":"within_distance", "min": 4.0, "max": 11.0}, {"predicate":"stamina", "stamina": 0.99, "comparator": "less_ratio"}
+							],
+							"wander": 5,             
+							"inaction_time": 0,	  
+							"x_axis": 0.0,		   
+							"z_axis": 1.0
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/step_forward",
+							"convert_time": -0.1,
+							"play_speed": 1.0,
+							"command_list": [
+                                {"time":0.1, "command":"effect give @s minecraft:slowness 1 2 true", "execute_at_target":false}, 							
+								{"time":0.1, "command":"playsound minecraft:entity.ender_dragon.flap voice @a", "execute_at_target":true},
+								{"time":0.1, "command":"particle minecraft:cloud ~ ~0.5 ~ 0.5 0 0.5 0.1 24 force", "execute_at_target":false},
+								{"time":0.11, "command":"tp ~0 ~1.2 ~0", "execute_at_target":false},
+								{"time":0.14, "command":"tp ~0 ~1.0 ~0", "execute_at_target":false},
+								{"time":0.17, "command":"tp ~0 ~0.6 ~0", "execute_at_target":false},
+								{"time":0.1, "command":"effect give @s minecraft:slow_falling 1 0 true", "execute_at_target":false}
+								
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.1
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 3.0, "max": 11.0}, {"predicate":"random_chance", "chance": 0.75} 
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power_dash",
+							"convert_time": 0.2,
+							"stamina": 15,
+							"command_list": [
+								{"time":0.0, "command":"function gazeabysser:minus1_full", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true},
+								{"time":0.0, "command":"effect clear @s minecraft:slow_falling", "execute_at_target":false}
+							],
+                            "hit_command_list":[
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_long\" 0.1 1", "execute_at_target":true}
+                            ]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						}
+					]
+				},
+				
+				
+				
+				
+
+				
+				{
+					"weight": 0.0003,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 160,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 3.0, "max": 11.0}, {"predicate":"attack_level", "min": 0, "max": 0},
+								{"predicate":"stamina", "stamina": 0.15, "comparator": "greater_ratio"}, {"predicate":"phase", "min": 18, "max": 20}, {"predicate":"random_chance", "chance": 0.3}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power_dash",
+							"convert_time": 0.3,
+							"stamina": 20,
+							"command_list": [
+								{"time":0.0, "command":"function gazeabysser:minus1_full", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true}
+							],
+                            "hit_command_list":[
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_long\" 0.1 1", "execute_at_target":true}
+                            ]
+						}
+                   ]                 
+				},
+				
+				{
+					"weight": 0.0006,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 160,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 3.0, "max": 11.0}, {"predicate":"attack_level", "min": 0, "max": 0},
+								{"predicate":"stamina", "stamina": 0.25, "comparator": "greater_ratio"}, {"predicate":"phase", "min": 17, "max": 20}, {"predicate":"random_chance", "chance": 0.4}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power_dash",
+							"convert_time": 0.3,
+							"stamina": 20,
+							"command_list": [
+								{"time":0.0, "command":"function gazeabysser:minus1_full", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true}
+							],
+                            "hit_command_list":[
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_long\" 0.1 1", "execute_at_target":true}
+                            ]
+						}
+                   ]                 
+				},
+				
+				{
+					"weight": 0.001,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 240,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 3.0, "max": 11.0}, {"predicate":"attack_level", "min": 0, "max": 0},
+								{"predicate":"stamina", "stamina": 0.35, "comparator": "greater_ratio"}, {"predicate":"phase", "min": 16, "max": 20}, {"predicate":"random_chance", "chance": 0.5}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power_dash",
+							"convert_time": 0.3,
+							"stamina": 20,
+							"command_list": [
+								{"time":0.0, "command":"function gazeabysser:minus1_full", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true}
+							],
+                            "hit_command_list":[
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_long\" 0.1 1", "execute_at_target":true}
+                            ]
+						}
+                   ]                 
+				},
+				
+				{
+					"weight": 0.1,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 60,
+					"behaviors": [
+					    {
+							"conditions": [
+								{"predicate":"attack_level", "min": 1, "max": 2}, {"predicate":"within_distance", "min": 4.0, "max": 9.0}
+							],
+							"wander": 8,             
+							"inaction_time": 0,	  
+							"x_axis": 0.0,		   
+							"z_axis": 0.01
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/yamato_step_backward",
+							"convert_time": 0.1,
+							"stamina": 3,
+							"command_list": [																
+							    {"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s minecraft:speed 1 0 true", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 2.5, "max": 11.0},  {"predicate":"phase", "min": 17, "max": 20}, {"predicate":"stamina", "stamina": 0.25, "comparator": "greater_ratio"}, {"predicate":"random_chance", "chance": 0.6}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power_dash",
+							"stamina": 20,
+							"convert_time": 0.1,
+							"command_list": [
+								{"time":0.0, "command":"function gazeabysser:minus1_full", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true}
+							],
+                            "hit_command_list":[
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_long\" 0.1 1", "execute_at_target":true}
+                            ]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						}
+                        ]                 
+				},
+				
+				{
+					"weight": 0.001,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 60,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate": "health", "health": 0.5, "comparator": "greater_ratio"}, {"predicate":"within_distance", "min": 0.0, "max": 12.5}, {"predicate":"attack_level", "min": 0, "max": 0},
+								{"predicate":"stamina", "stamina": 0.95, "comparator": "less_ratio"}
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"convert_time": 0.0,
+							"command_list": [
+								{"time":0.0, "command":"effect give @s stellarisdlc:stamina_regen_enhanced 1000 39 true", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s neapolitan:berserking", "execute_at_target":false},
+								{"time":0.0, "command":"indestructible @s play 'star:biped/new/yamato/yamato_walk' 0.0 1", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 12.5}, {"predicate":"attack_level", "min": 0, "max": 0},
+								{"predicate":"stamina", "stamina": 0.25, "comparator": "less_ratio"}
+							],
+							"wander": 40,
+							"inaction_time": 0,
+							"x_axis": 0.0,
+							"z_axis": -1.0
+						}
+                   ]                 
+				},
+				
+				{
+					"weight": 0.001,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 60,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate": "health", "health": 0.5, "comparator": "less_ratio"}, {"predicate":"within_distance", "min": 0.0, "max": 12.5}, {"predicate":"attack_level", "min": 0, "max": 0},
+								{"predicate":"stamina", "stamina": 0.95, "comparator": "less_ratio"}
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"convert_time": 0.0,
+							"command_list": [
+								{"time":0.0, "command":"effect give @s stellarisdlc:stamina_regen_enhanced 1000 39 true", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s neapolitan:berserking 10000 10 true", "execute_at_target":false},
+								{"time":0.0, "command":"indestructible @s play 'star:biped/new/yamato/yamato_walk' 0.0 1", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 12.5}, {"predicate":"attack_level", "min": 0, "max": 0},
+								{"predicate":"stamina", "stamina": 0.25, "comparator": "less_ratio"}
+							],
+							"wander": 40,
+							"inaction_time": 0,
+							"x_axis": 0.0,
+							"z_axis": -1.0
+						}
+                   ]                 
+				},
+				
+				{
+					"weight": 150,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 400,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 5.0, "max": 8.0}, 
+								{"predicate":"attack_level", "min": 0, "max": 3}, {"predicate":"phase", "min": 0, "max": 15},
+								{"predicate":"stamina", "stamina": 0.6, "comparator": "less_ratio"}
+							],
+							"animation": "star:biped/yamato_step_backward",
+							"stamina": 30
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"convert_time": 0.0,
+							"command_list": [
+								{"time":0.0, "command":"effect give @s stellarisdlc:stamina_regen_enhanced 1000 39 true", "execute_at_target":false},
+								{"time":0.0, "command":"indestructible @s play 'star:biped/new/yamato/yamato_walk' 0.0 1", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"wander": 40,
+							"inaction_time": 10,
+							"x_axis": -0.4,
+							"z_axis": -0.7
+						}
+                   ]                 
+				},
+				
+				{
+					"weight": 150,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 400,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}, 
+								{"predicate":"attack_level", "min": 0, "max": 3}, {"predicate":"phase", "min": 0, "max": 15},
+								{"predicate":"stamina", "stamina": 0.4, "comparator": "less_ratio"}
+							],
+							"animation": "star:biped/yamato_step_forward",
+							"stamina": 30
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"convert_time": 0.0,
+							"command_list": [
+								{"time":0.0, "command":"effect give @s stellarisdlc:stamina_regen_enhanced 1000 39 true", "execute_at_target":false},
+								{"time":0.0, "command":"indestructible @s play 'star:biped/new/yamato/yamato_walk' 0.0 1", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"wander": 40,
+							"inaction_time": 16,
+							"x_axis": 0.4,
+							"z_axis": -0.7
+						}
+                   ]                 
+				},
+				
+				
+				
+				
+				
+				
+				{
+					"weight": 1000,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 120,
+					"behaviors": [
+                        {
+							"conditions": [
+								{"predicate":"within_angle_horizontal", "min": 16, "max": 180}, {"predicate":"within_angle", "min": 0.0, "max": 15.0}, {"predicate":"within_distance", "min": 12.5, "max": 64.0}
+							],
+							"animation": "wom:biped/skill/agony_plunge_forward",
+							"convert_time": 0.25,
+							"play_speed": 0.75,
+							"command_list": [																
+								{"time":0.25, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s minecraft:weakness 1 99 true", "execute_at_target":false},
+								{"time":0.25, "command":"effect clear @s minecraft:weakness", "execute_at_target":false},
+                                {"time":0.0, "command":"playsound mowziesmobs:frostmaw.frozencrash ambient @a", "execute_at_target":true}, 
+								{"time":0.0, "command":"effect give @s minecraft:slow_falling 2 125 true", "execute_at_target":false}								
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power_dash",
+							"convert_time": 0.2,
+							"command_list": [
+								{"time":0.4, "command":"impactful @s shake 50 5 4", "execute_at_target":true},
+								{"time":0.4, "command":"effect give @s alexsmobs:sunbird_curse 6", "execute_at_target":true},
+								{"time":0.4, "command":"effect give @s champions:paralysis 3", "execute_at_target":true},
+								{"time":0.4, "command":"particle epicacg:dmc_jc_blade_trail ~0 ~0.0 ~0 0.0 1.0 0.0 0.02 1 force @s", "execute_at_target":false},
+								{"time":0.4, "command":"particle epicacg:dmc_jc_blade_trail ~0 ~0.0 ~0 0.0 1.0 0.0 0.02 1 force @s", "execute_at_target":true}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/yamato_step_backward",
+							"convert_time": 0.1,
+							"command_list": [																
+							    {"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+							    {"time":0.489, "command":"tag @s add gtp", "execute_at_target":true},
+							    {"time":0.48999, "command":"tp @e[tag=gtp,sort=nearest,limit=1,distance=..48]", "execute_at_target":false},
+							    {"time":0.491, "command":"tag @s remove gtp", "execute_at_target":true},
+								{"time":0.48999, "command":"playsound yamatomoveset:sfx.step voice @s", "execute_at_target":true}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power3_finish",
+							"convert_time": 0.45,
+							"command_list": [
+								{"time":0.0, "command":"effect clear @s stellarisdlc:stamina_regen_enhanced", "execute_at_target":false},
+
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":true}
+							],
+                            "damage_modifier":{
+								"damage": 2.0,
+                                "impact": 16.0,
+                                "armor_negation": 4.0
+							}
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						}
+					]
+				},
+
+
+
+
+
+
+
+
+
+
+
+                {
+					"weight": 99999,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 12000,
+					"behaviors": [
+                        {
+							"conditions": [
+								{"predicate": "health", "health": 0.5, "comparator": "less_ratio"}
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+                            "command_list": [
+                                {"time":0.0, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 3", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s minecraft:resistance 5 3", "execute_at_target":false}
+                            ]	    
+						},
+                        {
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/roll_backward",
+                            "command_list": [
+                                {"time":0.0, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 3", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s minecraft:resistance 5 3", "execute_at_target":false}
+                            ]	    
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/guard_sword_hit_active2",
+							"convert_time": 0.1,
+							"play_speed": 1.0,
+							"command_list": [						
+								{"time":0.05, "command":"indestructible @s play 'epicfight:biped/skill/guard_sword_hit_active2' -0.8 1", "execute_at_target":false},
+								{"time":0.0, "command":"playsound minecraft:entity.wandering_trader.drink_potion voice @s", "execute_at_target":true},
+								{"time":0.0, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 3", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/drink",
+							"convert_time": 0.0,
+							"play_speed": 4.0,
+							"end_by_hurt_level": 1
+						},
+						{
+							"conditions": [
+							],
+							"wander": 12,             
+							"inaction_time": 12,	  
+							"x_axis": 0.0,		   
+							"z_axis": -0.5,
+							"end_by_hurt_level": 1
+						},
+                        {
+							"conditions": [
+							],
+							"animation": "epicfight:enderman/convert_rage",
+                            "play_speed": 1.2,
+							"set_phase": 20,
+							"stamina": 100,
+                            "command_list": [
+                                {"time":0.0, "command":"execute as @s at @s run particle irons_spellbooks:electricity ~ ~1.0 ~ 0.1 0.3 0.1 0.25 40", "execute_at_target":false},
+							    {"time":0.0, "command":"execute as @p at @s run playsound minecraft:item.trident.thunder block @s ~ ~ ~ 1.5 1.0", "execute_at_target":true},
+                                {"time":0.1, "command":"effect give @s minecraft:resistance 5 3", "execute_at_target":false},
+								{"time":0.1, "command":"effect give @s neapolitan:berserking 10000 10 true", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 3", "execute_at_target":false}
+                            ]	    
+						},
+                        {
+							"conditions": [
+							],
+							"animation": "epicfight:enderman/death",
+							"convert_time": 0.3,
+							"stamina": -20,
+							"command_list": [
+								{"time":0.0, "command":"execute as @s at @s run particle irons_spellbooks:electricity ~ ~1.0 ~ 0.1 0.3 0.1 1.0 160", "execute_at_target":false},
+							    {"time":0.0, "command":"execute as @p at @s run playsound minecraft:item.trident.thunder block @s ~ ~ ~ 1.5 1.0", "execute_at_target":true},
+								{"time":0.0, "command":"playsound minecraft:item.totem.use voice @s ~ ~ ~ 10", "execute_at_target":true},
+                                {"time":0.0, "command":"effect give @s alexsmobs:earthquake 1", "execute_at_target":true},
+								{"time":0.5, "command":"execute as @s at @s run particle irons_spellbooks:electricity ~ ~1.0 ~ 0.1 0.3 0.1 0.25 40", "execute_at_target":false},
+								{"time":0.5, "command":"execute as @p at @s run playsound minecraft:item.trident.thunder block @s ~ ~ ~ 1.5 1.5", "execute_at_target":true},
+								{"time":0.0, "command":"effect give @s minecraft:glowing 3 0", "execute_at_target":false},
+                                {"time":0.5, "command":"effect clear @s epicfight:stun_immunity", "execute_at_target":false},
+								{"time":0.5, "command":"effect clear @s star:really_stun_immunity", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s minecraft:resistance 5 3", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s stellarisdlc:stamina_regen_enhanced 6 39 true", "execute_at_target":false},
+								{"time":1.5, "command":"effect give @s stellarisdlc:stamina_regen_enhanced 3 124 true", "execute_at_target":false},
+								{"time":1.5, "command":"execute as @s at @s run particle irons_spellbooks:electricity ~ ~1.0 ~ 0.1 0.3 0.1 2.0 320", "execute_at_target":false},
+							    {"time":1.5, "command":"execute as @p at @s run playsound minecraft:item.trident.thunder block @s ~ ~ ~ 3.0 1.0", "execute_at_target":true},
+								{"time":1.5, "command":"playsound minecraft:item.totem.use voice @s ~ ~ ~ 10", "execute_at_target":true},
+								{"time":1.5, "command":"effect give @s neapolitan:berserking 60 15 true", "execute_at_target":false},
+                                {"time":1.5, "command":"effect give @s alexsmobs:earthquake 2 1", "execute_at_target":true},
+								{"time":1.5, "command":"indestructible @s play 'guhao:biped/guhao_biu' -0.4 0.3", "execute_at_target":false}
+                            ]	    
+						}
+					]
+				},
+				
+				
+				
+
+
+
+
+				{
+					"weight": 100.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 500,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0},
+								{"predicate":"guard_break","invert":false}
+							],
+							"animation": "star:biped/new/yamato/skill/yamato_power0_1",
+                            "play_speed": 1.0
+						}
+                    ]
+                },
+				
+                {
+					"weight": 5.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"behaviors": [
+					    {
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"guard_break", "invert": false}, {"predicate":"knock_down", "invert": true}, {"predicate":"within_distance", "min": 0.0, "max": 2.5}
+							],
+							"wander": 5,             
+							"inaction_time": 1,	  
+							"x_axis": 0.0,		   
+							"z_axis": 1.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}
+							],
+							"animation": "star:biped/sekiro",
+							"convert_time": 0.2,
+							"play_speed": 1.0,
+							"command_list": [																
+								{"time":0.0, "command":"indestructible @s play 'star:biped/sekiro_executed' 0.2 1", "execute_at_target":true},
+								{"time":0.0, "command":"playsound star:sekiro voice @s", "execute_at_target":true}
+							],
+							"hit_command_list":[
+								{"command":"particle epicfight:blood ^-0.2 ^0.5 ^1.5 0.1 0.0 0.1 0.2 320 force", "execute_at_target":true},
+								{"command":"impactful @s shake 150 8 10", "execute_at_target":true},
+								{"command":"effect give @s champions:wound 30", "execute_at_target":true}
+							],
+							"damage_modifier": {	    								
+								"damage": 0.8, 	    								
+								"impact": 1.0	   											
+							}
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						}
+                        ]                 
+				}
+
+
+
+
+
+			]
+		}
+
+
+
+    ]
+}

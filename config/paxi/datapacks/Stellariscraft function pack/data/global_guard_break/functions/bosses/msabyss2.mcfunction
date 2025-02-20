@@ -1,0 +1,1 @@
+execute as @e[type=jobinsmobs:msabyss,sort=nearest,limit=1] at @s run indestructible @s play "epicfight:biped/skill/guard_break2" 0.4 1

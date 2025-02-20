@@ -1,0 +1,24 @@
+{
+  "armorSetName": "netherite_sword_off",
+  "performanceMode": true,
+   "offHand": {
+    "itemKey": "minecraft:netherite_sword"
+    },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 1.0,
+      "attributeOperation": 0,
+      "modifierUUID": "2163e2a6-4f60-48e9-9f31-8903e109b157"
+    },
+    {
+      "type": "attribute",
+      "name": "epicfight:offhand_armor_negation",
+      "value": 6,
+      "attributeOperation": 0,
+      "modifierUUID": "2163e2a6-4f60-48e9-9f31-8903e109b157"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,38 @@
+{
+    "name": "唤雷龙",
+    "icon": "isleofberk:skrill_spawn_egg",
+    "category": "patchouli:beast_dragon",
+    "advancement":"minecraft:husbandry/root",
+    "sortnum":2,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"唤雷龙",
+            "text": "唤雷龙有着较大的翅膀和长满尖刺的背部及尾巴，其颈部似乎有四道腮孔。雷龙头部有一个长满尖刺的头冠，雷龙可以通过改变头冠上尖刺的长度来传递信息。雷龙的下巴上有三个短刺。雷龙的飞行速度很快，只比夜煞略慢了一些。当暴风雨来临时，它可以利用身上的尖刺吸收电荷，并将闪电从口腔中喷射出来。"
+        },
+        {
+            "type": "png_dragon",
+            "image":"stellarisdlc:textures/png/skrill.png",
+            "text1":"奇袭纲:唤雷龙",
+            "text2":"虽然在龙族反抗人类之时，唤雷龙数目稀少但是其造成的破坏力不容小视。狂躁的雷龙闯入了王国的资料室，那里人类投降时还在疯狂释放雷电之息，这既造成了人族衰败的开始，也让人类与龙族之间再无复合的可能。"
+        },
+         {"type":"TT",
+           "head":"栖息群系",
+           "text":"积雪的山坡、尖峭山峰、冰封山峰、裸岩山峰"
+},
+        {"type": "spotlight",
+        "title":"驯服",
+        "item": "minecraft:cod,minecraft:salmon,minecraft:tropical_fish",
+        "text": "为了驯服雷龙，驯龙师需要证明自己并获取雷龙的信任，例如冒着生命危险去拯救雷龙。$(t:血量掉至10后)$(5)将它击败$()让它尊重你，唤雷龙会趴下再喂食生鳕鱼/生鲑鱼/热带鱼，它会忠诚于你。$(br2)上鞍后可以被玩家骑乘,无鞍具可以短暂的骑乘$(br)使用木棍，右键命令该龙:坐下、跟随、游荡。$(br)可以携带箱子。"
+         },
+         {"type": "spotlight",
+        "title":"繁殖",
+        "item": "minecraft:suspicious_stew,isleofberk:skrill_egg",
+        "text": "喂食谜之炖菜可让唤雷龙繁殖，2只唤雷龙配对后会产生唤雷龙蛋。$(br2)蛋的孵化时间为40分钟，需要附近有$(#ff0000)热源(光源)$()"
+         },
+         {"type":"TT",
+           "head":"技能列表",
+           "text":"吐息技能:雷电吐息$(br)按$(k:isleofberk.keyAbility)消耗雷电值进行吐息，停止吐息时雷电值会回复。$(br2)特殊技能:按$(k:isleofberk.keySpecialAbility)可以让小范围内的所有实体受到持续雷电伤害$(br2)被动技能:无"
+           }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+	id: "7656CFF8447D8748"
+	order_index: 12
+	title: "技能书"
+	icon: {
+		id: "epicfight:skillbook"
+		Count: 1b
+		tag: {
+			skill: "star:see_through"
+		}
+	}
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:parrying"
+				}
+			}
+		}
+		{
+			item: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:roll"
+				}
+			}
+		}
+	]
+}

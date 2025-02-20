@@ -1,0 +1,29 @@
+{
+    "name": "往生精华",
+    "icon": "stellariscraft:imessence",
+    "anchor":"imessence",
+    "category": "patchouli:boss_summon",
+
+    "sortnum":5,
+    "pages": [
+        {
+            "type": "crafting",
+            "name": "往生精华",
+            "recipe": "stellariscraft:immseeence",
+            "text":"通常作为召唤祭坛的启动物品消耗。$(br2)在$(#ff0000)锻造台$()上似乎可以将部分材料进行催化分解$(br2)作为祭坛召唤英雄残魂的关键材料，既然可以召唤，那么也$(t:在决斗场内Shift+右键可清除未击败的BOSS)$(5)可以消除$()。"
+        },
+        {
+            "type": "patchouli:mining_smith",
+            "item1": "quark:diamond_heart",
+            "head" : "分解配方",
+            "item2": "stellariscraft:imessence",
+            "item3": "minecraft:diamond#3",
+            "item4": "stellariscraft:netherrotingot",
+            "item5": "stellariscraft:imessence",
+            "item6": "minecraft:wither_skeleton_skull#3",
+            "item7": "cataclysm:witherite_ingot",
+            "item8": "stellariscraft:imessence",
+            "item9": "minecraft:wither_skeleton_skull#6"
+          }
+    ]
+}

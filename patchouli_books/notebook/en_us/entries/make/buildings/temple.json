@@ -1,0 +1,19 @@
+{
+    "name": "蚀败寺庙",
+    "icon": "biomesoplenty:hanging_cobweb",
+    "category": "patchouli:buildings",
+    "sortnum":0,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"蚀败寺庙/infested_temple",
+            "text": "最早的遗迹之一，在第一次终焉进攻时成为废墟的建筑。有人说是魔法师的失误导致了寺庙人员的失踪，有人传言是人与蜘蛛的实验招来了神罚，还有人说是终焉力量导致了混乱的结合体。不可否认的是魔法师确实来过不然不会有附魔力量的痕迹，但是其中的类似人的蜘蛛生物无人知道其的来历。或许就是因为这混乱的生物里面时常传出令人毛骨悚然的“脚步”。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/infested_temple.png",
+            "text1":"毛骨悚然的爬行声",
+            "text2":""
+        }
+    ]
+}

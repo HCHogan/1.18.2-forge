@@ -1,0 +1,1 @@
+data modify entity @e[type=cataclysm:ignis_fireball,limit=1,tag=summon] power set from entity @e[type=minecraft:armor_stand,limit=1,tag=summon_boo] Pos

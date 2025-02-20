@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "GHI",
+    "CBC"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "C": {
+      "item": "minecraft:obsidian"
+    },
+    "A": {
+      "item": "bosses_of_mass_destruction:ancient_anima"
+    },
+    "H": {
+      "item": "bosses_of_mass_destruction:obsidian_heart"
+    },
+    "G": {
+      "item": "stellarisdlc:dragonsteelingot"
+    },
+    "I": {
+      "item": "stellarisdlc:w_knightingot"
+    }
+  },
+  "result": {
+    "item": "bosses_of_mass_destruction:levitation_block"
+  }
+}

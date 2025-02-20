@@ -1,0 +1,22 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = true
+  backgroundimage = config/drippyloadingscreen/YMs4K.png
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  x = 0
+  action = editprogressbar
+  y = -56
+}
+

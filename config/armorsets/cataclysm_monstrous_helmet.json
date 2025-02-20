@@ -1,0 +1,20 @@
+{
+  "armorSetName": "cataclysm_monstrous_helmet",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "cataclysm:monstrous_helm",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "cataclysm:monstrous",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 120,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

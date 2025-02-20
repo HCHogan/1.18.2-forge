@@ -1,0 +1,28 @@
+{
+  "type": "sophisticatedbackpacks:basic_backpack",
+  "conditions": [
+    {
+      "itemRegistryName": "sophisticatedbackpacks:backpack",
+      "type": "sophisticatedcore:item_enabled"
+    }
+  ],
+  "pattern": [
+    "SSS",
+    "SCS",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "tag": "forge:leather"
+    },
+    "C": {
+      "item": "supplementaries:sack"
+    },
+    "S": {
+      "tag": "forge:string"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:backpack"
+  }
+}

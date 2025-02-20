@@ -1,0 +1,50 @@
+{
+    "name": "屠夫(烟熏炉)",
+    "icon": "minecraft:smoker",
+    "category": "patchouli:trade",
+    "sortnum":0,
+    "pages": [
+{"type":"trade1",
+ "head":"村民等级:新手",
+ "item1":"dotcoinmod:copper_coin#2",
+ "item2":"minecraft:air",
+ "item3":"alexsdelight:bison_patty#3",
+ "text1":"5次"
+ 
+},
+{"type":"trade1",
+ "head":"村民等级:学徒",
+ "item1":"skewers:skewer_beef_raw#3",
+ "item2":"minecraft:air",
+ "item3":"dotcoinmod:copper_coin#3",
+ "text1":"7次"
+},
+{"type":"trade2",
+ "head":"村民等级:老手",
+ "item1":"dotcoinmod:copper_coin#6",
+ "item2":"minecraft:air",
+ "item3":"alexsmobs:kangaroo_meat",
+ "text1":"7次",
+ "item4":"dotcoinmod:copper_coin#6",
+ "item5":"minecraft:air",
+ "item6":"skewers:skewer_rabbit_cooked",
+ "text2":"7次"
+},
+{"type":"trade1",
+ "head":"村民等级:专家",
+ "item1":"dotcoinmod:iron_coin",
+ "item2":"minecraft:air",
+ "item3":"mowziesmobs:foliaath_seed",
+ "text1":"7次"
+ 
+},
+{"type":"trade1",
+ "head":"村民等级:大师",
+ "item1":"dotcoinmod:gold_coin",
+ "item2":"minecraft:air",
+ "item3":"epicfight:skillbook{skill:\"epicfight:berserker\"}",
+ "text1":"1次"
+}
+
+    ]
+}

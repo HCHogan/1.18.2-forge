@@ -1,0 +1,61 @@
+{
+    "size": "large",
+    "color": "#00FF00",
+    "leash_range": 64,
+    "waves": [{
+        "entities": [{
+                "entity": "jobinsmobs:thecow"
+            }
+],
+        "max_wave_time": 3600,
+        "setup_time": 200
+    },
+    {
+        "entities": [{
+                "entity": "jobinsmobs:thebancheng"
+            }
+        ],
+        "max_wave_time": 3600,
+        "setup_time": 200
+    },
+    {
+        "entities": [{
+                "entity": "jobinsmobs:thezhaozilong"
+            }
+        ],
+        "max_wave_time": 3600,
+        "setup_time": 200
+    },
+    {
+        "entities": [{
+                "entity": "jobinsmobs:thesixgoogle"
+            }
+        ],
+        "max_wave_time": 3600,
+        "setup_time": 200
+    },
+    {
+        "entities": [{
+                "entity": "jobinsmobs:thesunwukong"
+            }
+        ],
+        "max_wave_time": 3600,
+        "setup_time": 200
+    },
+    {
+        "entities": [{
+                "entity": "jobinsmobs:thehotsummer"
+            }
+        ],
+        "max_wave_time": 3600,
+        "setup_time": 200
+    }
+],
+"rewards": [
+    {
+        "type": "stack",
+        "stack": {"item": "bhc:relic_apple"}
+    }],
+"completion_xp": 1000,
+"spawn_range": 6
+}

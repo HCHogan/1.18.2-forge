@@ -1,0 +1,1 @@
+indestructible @e[type=ba_bt:core_golem,sort=nearest,limit=1] rotate_to_target

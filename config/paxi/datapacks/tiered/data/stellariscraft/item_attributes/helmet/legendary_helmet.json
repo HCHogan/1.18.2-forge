@@ -1,0 +1,38 @@
+{
+  "id": "stellariscraft:legendary_helmet",
+  "weight": 4,
+  "reforge_experience_cost": 4,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:helmets"}
+  ],
+  "style": {
+    "color": "gold"
+  },
+  "attributes": [
+
+   {
+      "type": "lodestone:magic_resistance",
+      "modifier": {
+        "name": "stellariscraft:legendary_helmet",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.3
+      },
+      "optional_equipment_slots": [
+        "HEAD"
+      ]
+    },
+{
+      "type": "toybox:burden",
+      "modifier": {
+        "name": "stellariscraft:legendary_helmet",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.2
+      },
+      "optional_equipment_slots": [
+        "HEAD"
+      ]
+    }
+  ]
+}

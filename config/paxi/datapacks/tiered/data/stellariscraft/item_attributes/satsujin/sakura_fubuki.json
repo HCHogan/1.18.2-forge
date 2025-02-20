@@ -1,0 +1,37 @@
+{
+  "id": "stellariscraft:sakura_fubuki",
+  "weight": 1.1,
+  "reforge_experience_cost": 4,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:satsujin"}
+  ],
+  "style": {
+    "color": "#ffcff4"
+  },
+  "attributes": [
+    {
+      "type": "toybox:crit_damage",
+      "modifier": {
+        "name": "stellariscraft:sakura_fubuki",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.3
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "toybox:burden",
+      "modifier": {
+        "name": "stellariscraft:sakura_fubuki",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 1.5
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

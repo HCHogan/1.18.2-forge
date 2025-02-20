@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:village",
+  "biomes": "#stellariscraft:has_structure/nether_tower",
+  "adapt_noise": false,
+  "spawn_overrides": {},
+  "config": {
+  "start_pool": "stellariscraft:nether_tower/start_pool",
+  "size": 7
+  }
+}

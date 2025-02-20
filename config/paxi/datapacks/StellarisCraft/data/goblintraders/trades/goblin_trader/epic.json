@@ -1,0 +1,185 @@
+{
+    "replace": true,
+    "trades": [
+        {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "minecraft:glowstone",
+              "count": 2
+            },
+            "payment_item": {
+              "item": "minecraft:stone",
+              "count": 4
+            },
+            "secondary_payment_item": {
+              "item": "minecraft:glow_ink_sac",
+              "count": 1
+            },
+            "price_multiplier": 0.0,
+            "max_trades": 6,
+            "experience": 5
+        },
+        {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "minecraft:nether_wart",
+              "count": 1
+            },
+            "payment_item": {
+              "item": "dotcoinmod:copper_coin",
+              "count": 8
+            },
+            "price_multiplier": 0.0,
+            "max_trades": 6,
+            "experience": 5
+        },
+
+        {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "minecraft:diamond_pickaxe",
+              "count": 1
+            },
+            "payment_item": {
+              "item": "minecraft:diamond_pickaxe",
+              "count": 1
+            },
+            "secondary_payment_item": {
+              "item": "miningmaster:haste_peridot",
+              "count": 2
+            },
+            "max_trades": 1,
+            "experience": 100,
+            "enchantments": [
+              {
+                "id": "minecraft:efficiency",
+                "level": 6
+              }
+            ]
+          },
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "minecraft:diamond_pickaxe",
+              "count": 1
+            },
+            "payment_item": {
+              "item": "minecraft:diamond_pickaxe",
+              "count": 1
+            },
+            "secondary_payment_item": {
+              "item": "miningmaster:unbreaking_iolite",
+              "count": 1
+            },
+            "price_multiplier": 0.0,
+            "max_trades": 1,
+            "experience": 100,
+            "enchantments": [
+              {
+                "id": "minecraft:unbreaking",
+                "level": 4
+              }
+            ]
+          },
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "minecraft:diamond_pickaxe",
+              "count": 1
+            },
+            "payment_item": {
+              "item": "minecraft:diamond_pickaxe",
+              "count": 1
+            },
+            "secondary_payment_item": {
+              "item": "miningmaster:lucky_citrine",
+              "count": 2
+            },
+            "max_trades": 1,
+            "experience": 100,
+            "enchantments": [
+              {
+                "id": "minecraft:fortune",
+                "level": 4
+              }
+            ]
+          },
+
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "minecraft:diamond_sword",
+              "count": 1
+            },
+            "payment_item": {
+              "item": "minecraft:diamond_sword",
+              "count": 1
+            },
+            "secondary_payment_item": {
+              "item": "miningmaster:power_pyrite",
+              "count": 1
+            },
+            "max_trades": 1,
+            "experience": 100,
+            "enchantments": [
+              {
+                "id": "minecraft:sharpness",
+                "level": 6
+              }
+            ]
+          },
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "minecraft:diamond_sword",
+              "count": 1
+            },
+            "payment_item": {
+              "item": "minecraft:diamond_sword",
+              "count": 1
+            },
+            "secondary_payment_item": {
+              "item": "miningmaster:lucky_citrine",
+              "count": 1
+            },
+            "max_trades": 1,
+            "experience": 100,
+            "enchantments": [
+              {
+                "id": "minecraft:looting",
+                "level": 4
+              }
+            ]
+          },
+
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "minecraft:potion",
+              "count": 1,
+              "nbt": "{Potion:\"goblintraders:extended_slow_falling\"}"
+            },
+            "payment_item": {
+              "item": "dotcoinmod:iron_coin",
+              "count": 4
+            },
+            "max_trades": 6,
+            "experience": 100
+          },
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "minecraft:potion",
+              "count": 1,
+              "nbt": "{Potion:\"goblintraders:extended_water_breathing\"}"
+            },
+            "payment_item": {
+              "item": "dotcoinmod:iron_coin",
+              "count": 6
+            },
+            "max_trades": 4,
+            "experience": 100
+          }
+    
+        ]
+      }

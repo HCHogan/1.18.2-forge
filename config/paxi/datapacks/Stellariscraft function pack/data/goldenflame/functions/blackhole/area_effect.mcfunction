@@ -1,0 +1,1 @@
+execute at @e[type=minecraft:armor_stand,tag=blackhole] run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:100,ReapplicationDelay:2,Radius:3,RadiusPerTick:0.06,WaitTime:10,Effects:[{Id: 20,Amplifier: 5,Duration: 120},{Id: 7,Amplifier: 1,Duration: 120}],Color:16777215}

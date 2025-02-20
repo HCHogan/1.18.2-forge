@@ -1,0 +1,48 @@
+{
+  "id": "stellariscraft:legendary_spear",
+  "weight": 1.6,
+  "reforge_experience_cost": 4,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:spear"}
+  ],
+  "style": {
+    "color": "gold"
+  },
+  "attributes": [
+    {
+      "type": "toybox:crit_damage",
+      "modifier": {
+        "name": "stellariscraft:legendary_spear",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.4
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "toybox:block_rate",
+      "modifier": {
+        "name": "stellariscraft:legendary_spear",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.6
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "minecraft:generic.attack_speed",
+      "modifier": {
+        "name": "stellariscraft:legendary_spear",
+        "operation": "ADDITION",
+        "amount": 0.1
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[
+{"item":"miningmaster:spirit_garnet"},
+{"item":"miningmaster:heart_rhodonite"},
+{"item":"stellariscraft:superhealth"},
+{"item":"miningmaster:heart_rhodonite"},
+{"item":"miningmaster:spirit_garnet"}],
+"catalyst":{"item":"stellarisdlc:exchangestonecore"},
+"result":{"item":"artifacts:vampiric_glove"},
+"enchantments":[]
+}

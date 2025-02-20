@@ -1,0 +1,38 @@
+{
+    "name": "蝎子龙",
+    "icon": "isleofberk:triple_stryke_spawn_egg",
+    "category": "patchouli:beast_dragon",
+    "advancement":"minecraft:husbandry/root",
+    "sortnum":2,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"蝎子龙",
+            "text": "同样与夜煞相似的，其头部有着两个类似耳朵的附属器官。而蝎子龙最引人注目的特征则是它的可以分裂成三瓣的粗壮辫状尾巴，每一瓣尾巴上都有着像蝎子一样的毒刺，蝎子龙的前肢就像蝎子的两个钳子。$(br)那三根蝎子般的尾刺，第一根是针对对手使用，第二根是致幻剂，第三根则会使对手感受到血液燃烧般的痛苦。"
+        },
+        {
+            "type": "png_dragon",
+            "image":"stellarisdlc:textures/png/triple.png",
+            "text1":"奇袭纲:蝎子龙",
+            "text2":"好斗暴躁的蝎子龙族群与极度烦躁的雷龙一族策划了聚集所有龙族的反抗，光煞一族的逃脱也加速了龙族的不满。虽是反抗，但是人类也认清了事实，终焉的不断骚扰加上内部的腐败，人类已经无力管理强大的龙族。龙怒也加速了史料的流失，钢铁守护者的资料也逐渐失传。"
+        },
+         {"type":"TT",
+           "head":"栖息群系",
+           "text":"恶地、繁茂的恶地、针叶林、积雪的针叶林、原始松木针叶林、原始云杉针叶林"
+},
+        {"type": "spotlight",
+        "title":"驯服",
+        "item": "minecraft:beef",
+        "text": "强大的实力让蝎子龙自信好斗无情，但它们懂得报恩，$(t:血量掉至10后)$(5)将它击败$()让它尊重你，蝎子龙会趴下再喂食牛肉，它会忠诚于你。$(br2)上鞍后可以被玩家骑乘,无鞍具可以短暂的骑乘$(br)使用木棍可右键命令该龙:坐下、跟随、游荡。$(br)可以携带箱子。"
+         },
+         {"type": "spotlight",
+        "title":"繁殖",
+        "item": "minecraft:suspicious_stew,isleofberk:triple_stryke_egg",
+        "text": "喂食谜之炖菜可让蝎子龙繁殖，2只蝎子龙配对后会产生蝎子龙蛋。$(br2)蛋的孵化时间为40分钟，需要附近有$(#ff0000)热源(光源)$()"
+         },
+         {"type":"TT",
+           "head":"技能列表",
+           "text":"吐息技能:等离子炮$(br)可长按$(k:isleofberk.keyAbility)键蓄力，蓄力值越高伤害越高，同时对地形的破坏能力也越强。如果蓄力不够久会哑火$(br2)特殊技能:按$(k:isleofberk.keySpecialAbility)用三根尾刺攻击造成高额的伤害附加中毒$(br2)被动技能:无"
+           }
+    ]
+}

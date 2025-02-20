@@ -1,0 +1,32 @@
+{
+    "name": "睡莲精灵",
+    "icon": "byg:tiny_lilypads",
+    "category": "patchouli:beast_tool",
+    "sortnum":2,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"走路莲",
+            "text": "本是沼泽中的睡莲，终焉的进攻不仅带来了摧毁也带来了魔力，而睡莲精灵则是诞生于终焉的残存魔力。走路莲是较大的睡莲变化而来，它们喜欢水会主动走进1格深的水中。"
+        },
+        {
+            "type": "png_mining",
+            "text1":"走路莲",
+             "image":"stellarisdlc:textures/png/flower_2.png"
+        },
+         {"type":"TT",
+           "head":"迷你莲",
+           "text":"本是沼泽中的睡莲，终焉的进攻不仅带来了摧毁也带来了魔力，而睡莲精灵则是诞生于终焉的残存魔力。走路莲是较小的睡莲变化而来，它们相比于水中静止不动而言，跟喜欢到处逛逛，你可以很轻松地在沼泽的陆地上找到它们。"
+},
+{
+            "type": "png_mining",
+            "text1":"迷你莲",
+             "image":"stellarisdlc:textures/png/flower_1.png"
+        },
+        {"type": "spotlight",
+        "title":"产物",
+        "item": "minecraft:shears,tag:cnb:waterlily,tag:cnb:minipad_flower,tag:cnb:glowing_minipad_flowers",
+        "text": "走路莲的花可以用$(#ff0000)剪刀$()剪下，并且有着较好的食用价值；迷你莲的花同样可以剪下但是不可食用，只能做成装饰用的花环，另外，如果夜晚时期剪下的话，花则是发光的荧光迷你睡莲。"
+         }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+  "armorSetName": "evidence_adventure1",
+  "performanceMode": true,
+
+  "additionalSetPieces":[
+    {
+    "itemKey": "stellarisdlc:evidenceadventure_1",
+    "mustBeEmpty": false
+  }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "stellarisdlc:steelized",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 80,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

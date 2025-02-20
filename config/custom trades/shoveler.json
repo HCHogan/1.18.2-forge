@@ -1,0 +1,91 @@
+{
+  "profession": "blue_skies:shoveler",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "blue_skies:blinding_key",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 1
+      },
+      "tradeExp": 20,
+      "maxUses": 4,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "blue_skies:shoveler_blinding_key_for_iron_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:poison_key",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 1
+      },
+      "tradeExp": 50,
+      "maxUses": 4,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "blue_skies:shoveler_poison_key_for_gold_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:nature_key",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 1
+      },
+      "tradeExp": 50,
+      "maxUses": 4,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "blue_skies:shoveler_nature_key_for_gold_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 3
+      },
+      "request": {
+        "itemKey": "blue_skies:pink_brewberry",
+        "amount": 32
+      },
+      "tradeExp": 10,
+      "maxUses": 20,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "blue_skies:shoveler_copper_coin_for_pink_brewberry"
+    },
+    {
+      "offer": {
+        "itemKey": "cnb:yeti_hide",
+        "amount": 16
+      },
+      "request": {
+        "itemKey": "blue_skies:star_flare",
+        "amount": 8
+      },
+      "additionalRequest": {
+        "itemKey": "miningmaster:ice_sapphire_block",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 2,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "blue_skies:shoveler_yeti_hide_for_iron_coin_and_the_hornof_frost"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "armorSetName": "evidence_skies",
+  "performanceMode": true,
+
+  "additionalSetPieces":[
+    {
+    "itemKey": "stellarisdlc:evidenceskies",
+    "mustBeEmpty": false
+  }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "epicfight:staminar",
+      "value": 4,
+      "attributeOperation": 0,
+      "modifierUUID": "79c1dbe0-67ef-4d79-af87-c8e1a2ae1e1e",
+      "description": "+4 stamina (Epic Fight)"    
+    },
+    {
+      "type": "attribute",
+      "name": "lodestone:magic_proficiency",
+      "value": 8,
+      "attributeOperation": 0,
+      "modifierUUID": "79c1dbe0-67ef-4d79-af87-c8e1a2ae1e1e",
+      "description": "evidence_skies"    
+    },
+    {
+      "type": "attribute",
+      "name": "lodestone:magic_resistance",
+      "value": 4,
+      "attributeOperation": 0,
+      "hideBonusDescription": true,
+      "modifierUUID": "79c1dbe0-67ef-4d79-af87-c8e1a2ae1e1e",
+      "description": "+4 magic_resistance"    
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

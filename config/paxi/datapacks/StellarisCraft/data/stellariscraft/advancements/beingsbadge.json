@@ -1,0 +1,31 @@
+{
+  "parent":"stellariscraft:heavensplinter",
+    "display": {
+      "icon": {
+        "item": "stellariscraft:beingsbadge"
+      },
+      "title":{
+        "text": "众生之巅"
+    },
+    "description": {
+        "text": "战歌缭绕，英灵不朽"
+    },
+      "frame": "goal",
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "pkey": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items":[
+            {
+              "items":[
+                "stellariscraft:beingsbadge"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }

@@ -1,0 +1,175 @@
+{
+  "profession": "minecraft:cleric",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 2
+      },
+      "request": {
+        "itemKey": "minecraft:spider_eye",
+        "amount": 8
+      },
+      "tradeExp": 5,
+      "maxUses": 8,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:cleric_copper_coin_for_spider_eye_0"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 2
+      },
+      "request": {
+        "itemKey": "minecraft:gunpowder",
+        "amount": 10
+      },
+      "tradeExp": 5,
+      "maxUses": 8,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:cleric_copper_coin_for_gunpowder_0"
+    },
+
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 3
+      },
+      "request": {
+        "itemKey": "minecraft:rotten_flesh",
+        "amount": 16
+      },
+      "tradeExp": 5,
+      "maxUses": 8,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:cleric_copper_coin_for_rotten_flesh_0"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 2
+      },
+      "request": {
+        "itemKey": "minecraft:bone",
+        "amount": 8
+      },
+      "tradeExp": 5,
+      "maxUses": 8,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:cleric_copper_coin_for_bone_0"
+    },
+
+    {
+      "offer": {
+        "itemKey": "minecraft:ender_pearl",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 16
+      },
+      "tradeExp": 5,
+      "maxUses": 4,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:cleric_ender_pearl_for_copper_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "alexsmobs:guster_eye",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 3
+      },
+      "tradeExp": 10,
+      "maxUses": 2,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:cleric_guster_eye_for_iron_coin_0"
+    },
+
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:enchanted_golden_apple",
+        "amount": 3
+      },
+      "tradeExp": 20,
+      "maxUses": 5,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:cleric_iron_coin_for_enchanted_golden_apple_0"
+    },
+
+    {
+      "offer": {
+        "itemKey": "minecraft:dragon_breath",
+        "amount": 2
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 8
+      },
+      "additionalRequest": {
+        "itemKey": "miningmaster:divine_beryl",
+        "amount": 2
+      },
+      "tradeExp": 30,
+      "maxUses": 4,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:cleric_dragon_breath_for_iron_coin_and_divine_beryl_0"
+    },
+    {
+      "offer": {
+        "itemKey": "davespotioneering:compound_brewing_stand",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 1
+      },
+      "tradeExp": 25,
+      "maxUses": 1,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:cleric_compound_brewing_stand_for_gold_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "davespotioneering:reinforced_cauldron",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 3
+      },
+      "tradeExp": 10,
+      "maxUses": 1,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:cleric_reinforced_cauldron_for_gold_coin_0"
+    }
+  ]
+}

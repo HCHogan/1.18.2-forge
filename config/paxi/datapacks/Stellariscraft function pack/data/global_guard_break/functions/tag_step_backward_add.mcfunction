@@ -1,0 +1,24 @@
+execute if entity @s[type=cave_spider] unless entity @s[tag=guard_break_central] run indestructible @s play "epicfight:biped/skill/step_backward" 0.25 1
+execute if entity @s[type=creeper] unless entity @s[tag=guard_break_central] run indestructible @s play "epicfight:biped/skill/step_backward" 0.25 1
+execute if entity @s[type=drowned] unless entity @s[tag=guard_break_central] run indestructible @s play "epicfight:biped/skill/step_backward" 0.25 1
+execute if entity @s[type=enderman] unless entity @s[tag=guard_break_central] run indestructible @s play "epicfight:biped/skill/step_backward" 0.25 1
+execute if entity @s[type=evoker] unless entity @s[tag=guard_break_central] run indestructible @s play "epicfight:biped/skill/step_backward" 0.25 1
+execute if entity @s[type=husk] unless entity @s[tag=guard_break_central] run indestructible @s play "epicfight:biped/skill/step_backward" 0.25 1
+execute if entity @s[type=illusioner] unless entity @s[tag=guard_break_central] run indestructible @s play "epicfight:biped/skill/step_backward" 0.25 1
+execute if entity @s[type=piglin] unless entity @s[tag=guard_break_central] run indestructible @s play "epicfight:biped/skill/step_backward" 0.25 1
+execute if entity @s[type=piglin_brute] unless entity @s[tag=guard_break_central] run indestructible @s play "epicfight:biped/skill/step_backward" 0.25 1
+execute if entity @s[type=pillager] unless entity @s[tag=guard_break_central] run indestructible @s play "epicfight:biped/skill/step_backward" 0.25 1
+execute if entity @s[type=ravager] unless entity @s[tag=guard_break_central] run indestructible @s play "epicfight:biped/skill/step_backward" 0.25 1
+execute if entity @s[type=skeleton] unless entity @s[tag=guard_break_central] run indestructible @s play "epicfight:biped/skill/step_backward" 0.25 1
+execute if entity @s[type=spider] unless entity @s[tag=guard_break_central] run indestructible @s play "epicfight:biped/skill/step_backward" 0.25 1
+execute if entity @s[type=vindicator] unless entity @s[tag=guard_break_central] run indestructible @s play "epicfight:biped/skill/step_backward" 0.25 1
+execute if entity @s[type=witch] unless entity @s[tag=guard_break_central] run indestructible @s play "epicfight:biped/skill/step_backward" 0.25 1
+execute if entity @s[type=wither_skeleton] unless entity @s[tag=guard_break_central] run indestructible @s play "epicfight:biped/skill/step_backward" 0.25 1
+execute if entity @s[type=zombie] unless entity @s[tag=guard_break_central] run indestructible @s play "epicfight:biped/skill/step_backward" 0.25 1
+
+execute if entity @s[type=bygonenether:corpor] unless entity @s[tag=guard_break_central] run indestructible @s play "epicfight:biped/skill/step_backward" 0.25 1
+execute if entity @s[type=bygonenether:wraither] unless entity @s[tag=guard_break_central] run indestructible @s play "epicfight:biped/skill/step_backward" 0.25 1
+execute if entity @s[type=bygonenether:wither_skeleton_knight] unless entity @s[tag=guard_break_central] run indestructible @s play "epicfight:biped/skill/step_backward" 0.25 1
+execute if entity @s[type=bygonenether:piglin_hunter] unless entity @s[tag=guard_break_central] run indestructible @s play "epicfight:biped/skill/step_backward" 0.25 1
+
+execute if entity @s[type=blue_skies:armored_frost_spirit] unless entity @s[tag=guard_break_central] run indestructible @s play "epicfight:biped/skill/step_backward" 0.25 1

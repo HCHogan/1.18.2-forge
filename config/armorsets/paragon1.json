@@ -1,0 +1,31 @@
+{
+  "armorSetName": "miningmaster_paragon",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "miningmaster:paragon_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "miningmaster:paragon_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "miningmaster:paragon_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "miningmaster:paragon_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "epicfight:stamina_regen",
+      "value": 0.2,
+      "attributeOperation": 0,
+      "modifierUUID": "e78947d3-9369-43b7-af8a-d848bd1ff4ea",
+      "description": "paragon1"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

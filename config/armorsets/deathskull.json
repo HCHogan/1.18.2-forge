@@ -1,0 +1,21 @@
+{
+  "armorSetName": "deathskull",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+    "itemKey": "stellarisdlc:deathskull"
+  }
+],
+
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "toybox:burden",
+      "value": 10,
+      "attributeOperation": 0,
+      "modifierUUID": "72aeba1d-dbd8-4e1f-8e24-bf3714a14117",
+      "description": "-10% weight punishment (EpicFight)" 
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

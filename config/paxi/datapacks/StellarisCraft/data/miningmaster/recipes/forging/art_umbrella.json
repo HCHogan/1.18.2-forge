@@ -1,0 +1,11 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[{"item":"minecraft:red_wool"},
+{"item":"minecraft:white_wool"},
+{"item":"minecraft:shield"},
+{"item":"minecraft:white_wool"},
+{"item":"minecraft:red_wool"}],
+"catalyst":{"item":"stellariscraft:exchangestone"},
+"result":{"item":"artifacts:umbrella"},
+"enchantments":[]
+}

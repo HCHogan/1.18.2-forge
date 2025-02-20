@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"stellarisdlc:evidencenether"},"title":"Nether Unlocked!","description":"Obtain a item.stellarisdlc.evidencenether"},"parent":"restrictedportals:root","criteria":{"nether":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["stellarisdlc:evidencenether"]}]}}},"requirements":[["nether"]]}

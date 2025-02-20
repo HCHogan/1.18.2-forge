@@ -1,0 +1,10 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[
+{"item":"s33r_more_food:golden_carrot_juice"},
+{"item":"miningmaster:dive_aquamarine"},
+{"item":"s33r_more_food:golden_carrot_juice"}],
+"catalyst":{"item":"stellariscraft:exchangestone"},
+"result":{"item":"artifacts:night_vision_goggles"},
+"enchantments":[]
+}

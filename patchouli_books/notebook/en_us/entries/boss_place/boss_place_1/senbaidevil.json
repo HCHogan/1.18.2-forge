@@ -1,0 +1,34 @@
+{
+    "name": "森白影魔",
+    "icon": "minecraft:skeleton_skull",
+    "category": "patchouli:boss_place_1",
+    "sortnum":3,
+    "pages": [
+        {
+           "type": "T1",
+            "title":"森白影魔",
+            "text": "逍遥的剑客，身法了得善用武士刀，$(#ff0000)合金残片$()是他的珍宝也是力量的证明。他本应是群星的一员，随意的性格让其败于杀戮的利刃。"
+        },
+        {"type": "png_teach",
+        "image":"stellarisdlc:textures/png/senbaidevil.png",
+        "text1":"森白影魔",
+        "text2":""
+    },
+        {"type": "spotlight",
+        "title":"召唤材料",
+        "item": "minecraft:bone#3,miningmaster:spider_kunzite#1,minecraft:netherite_scrap,minecraft:amethyst_shard#4",
+        "text": "骨头x3$(br)蜘蛛紫锂辉石x1$(br)下界合金碎片x1$(br)紫水晶碎片x4$(br)最后加入$(1)$(l:boss_place/boss_summon/imessence)往生精华$()$()"
+         },
+         {"type": "spotlight",
+        "title":"特殊掉落物：合金残片",
+        "item": "stellariscraft:netheritess",
+        "link_recipe":true,
+        "text": "在地狱游历之时从合金巨兽身上斩下的碎片，除了坚硬之外还有着些许魔力，另外据说这是进入地狱的钥匙。$(br2)森白影魔掉落1个$(br2)可以通过配置$(t:等级越高提高量越多,书中为无抢夺掉落量)$(5)抢夺$()附魔提高掉落量。"
+         },
+         {"type": "spotlight",
+         "title":"其他掉落物",
+         "item": "miningmaster:ice_sapphire,miningmaster:divine_beryl",
+         "text": "击杀掉落$(br)寒冰蓝宝石、神圣绿柱石1个$(br2)可以通过配置$(t:等级越高提高量越多,书中为无抢夺掉落量)$(5)抢夺$()附魔提高掉落量。"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "name": "末地",
+    "icon": "minecraft:textures/block/end_portal_frame_top.png",
+    "category": "patchouli:dim",
+    "sortnum":3,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"末地",
+            "text": "终末之力的根源之地，上古时期便存在的虚无。终末的封印应该早已被打破那么为何仍有着封印在保护这里，诡异的是终末的封印力量有一部分好像来自一位已故的群星?还有一部分很像群星中的......$(br2)这不可能，为什么?"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/end.png",
+            "text1":"",
+            "text2":""
+        },
+        {
+         "type":"patchouli:smith",
+         "item1": "stellarisdlc:evidenceskies_1",
+        "item2": "stellarisdlc:evidenceskies_2",
+        "item3": "stellarisdlc:evidenceskies",
+        "head":"破除维度封印",
+        "text":"凝聚了精灵魔法矿物与星辰核心的证明，可以短暂破开末地的封印，值得注意的是破除的方式与其说是破坏不如说是友善的让步。"
+        
+      },
+      {
+            "type": "crafting",
+            "recipe": "crafttweaker:evidenceskies_1",
+            "text":"蔚蓝的众多矿物在幽咽蛛王与星荧粉碎者死亡后获得了精灵魔法，以适当的比例熔合后可以削弱末地的封印。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:evidenceskies_2",
+            "text":"星辰核心哪怕是赝品仍然继承了晨星之渊本人的部分能力特征，但是为什么它可以让终末之门的封印出现缺口。"
+        }
+        
+    ]
+}

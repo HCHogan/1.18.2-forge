@@ -1,0 +1,60 @@
+{
+    "name": "制图师(制图台)",
+    "icon": "minecraft:cartography_table",
+    "category": "patchouli:trade",
+    "sortnum":0,
+    "pages": [
+{"type":"trade2",
+ "head":"村民等级:新手",
+ "item1":"dotcoinmod:iron_coin#4",
+ "item2":"minecraft:air",
+ "item3":"naturescompass:naturescompass",
+ "text1":"2次",
+ "item4":"minecraft:paper#16",
+ "item5":"minecraft:air",
+ "item6":"dotcoinmod:copper_coin#3",
+ "text2":"12次"
+},
+{"type":"trade1",
+ "head":"村民等级:学徒",
+ "item1":"dotcoinmod:iron_coin#9",
+ "item2":"minecraft:air",
+ "item3":"explorerscompass:explorerscompass",
+ "text1":"2次"
+},
+{"type":"trade2",
+ "head":"村民等级:老手",
+ "item1":"dotcoinmod:iron_coin",
+ "item2":"minecraft:air",
+ "item3":"waystones:warp_scroll#4",
+ "text1":"3次",
+ "item4":"dotcoinmod:iron_coin#4",
+ "item5":"minecraft:air",
+ "item6":"waystones:waystone",
+ "text2":"4次"
+},
+{"type":"trade2",
+ "head":"村民等级:专家",
+ "item1":"dotcoinmod:iron_coin#6",
+ "item2":"minecraft:air",
+ "item3":"stellarisdlc:adventure_scroll",
+ "text1":"3次",
+ "item4":"dotcoinmod:gold_coin#2",
+ "item5":"minecraft:air",
+ "item6":"waystones:warp_stone",
+ "text2":"1次"
+},
+{"type":"trade2",
+ "head":"村民等级:大师",
+ "item1":"dotcoinmod:gold_coin#2",
+ "item2":"minecraft:air",
+ "item3":"waystones:portstone#2",
+ "text1":"2次",
+ "item4":"dotcoinmod:gold_coin#2",
+ "item5":"minecraft:air",
+ "item6":"epicfight:skillbook{skill:\"star:yamato_step\"}",
+ "text2":"1次"
+}
+
+    ]
+}

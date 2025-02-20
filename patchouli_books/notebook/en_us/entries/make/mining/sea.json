@@ -1,0 +1,21 @@
+{
+    "name": "海王锭",
+    "category": "patchouli:mining",
+    "icon": "aquaculture:neptunium_ingot",
+    "sortnum": 2,
+    "pages": [
+       {"type": "spotlight",
+        "title":"海王锭/海王粒",
+        "item": "aquaculture:neptunium_ingot,aquaculture:neptunium_nugget",
+        "text": "据说是来自海王力量的海洋瑰宝，这是从海洋生命之力提取而出的纯净金属。这种金属不会自然产生，传说钓者收杆之时可能会接收到海王的馈赠，馈赠中就有这种金属。另外一些$(5)$(t:守卫者)上古的海洋物种$()死亡时其的海洋力量也会幻化成此金属，不过由于力量稀少，只能幻化为少量的粒状金属。",
+        "link_recipe":true
+         },
+        {
+            "type": "smelt",
+            "item2":"minecraft:blast_furnace",
+            "item1":"aquaculture:neptunes_bounty,aquaculture:neptunium_bow,aquaculture:neptunium_sword,aquaculture:neptunium_fishing_rod,aquaculture:neptunium_axe,aquaculture:neptunium_pickaxe,aquaculture:neptunium_shovel,aquaculture:neptunium_hoe,aquaculture:neptunium_fillet_knife,aquaculture:neptunium_helmet,aquaculture:neptunium_chestplate,aquaculture:neptunium_leggings,aquaculture:neptunium_boots",
+            "item3":"aquaculture:neptunium_ingot#2,aquaculture:neptunium_ingot,aquaculture:neptunium_ingot,aquaculture:neptunium_ingot,aquaculture:neptunium_ingot,aquaculture:neptunium_ingot,aquaculture:neptunium_ingot,aquaculture:neptunium_ingot,aquaculture:neptunium_ingot,aquaculture:neptunium_ingot,aquaculture:neptunium_ingot,aquaculture:neptunium_ingot,aquaculture:neptunium_ingot",
+            "text":"简单的冶炼技术可以从这些馈赠中提取金属，进行再制作，不过由于操作工艺简单会流失大部分的原料。大部分的盔甲与工具可以提取出1个金属锭，而海王的恩惠则可以提取出2个"
+        }
+    ]
+  }

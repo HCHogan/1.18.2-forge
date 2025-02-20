@@ -1,0 +1,51 @@
+{
+  "armorSetName": "blue_skies_charoite_sword",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "blue_skies:charoite_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "blue_skies:charoite_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "blue_skies:charoite_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "blue_skies:charoite_boots",
+    "mustBeEmpty": false
+  },
+ "mainHand": {
+	"itemKey": "blue_skies:charoite_sword",
+  "mixAndMatch": [
+    "blue_skies:charoite_axe"
+  ]
+  },
+  "offHand": {
+    "itemKey": "blue_skies:summoning_tome"
+    },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "omnis:magic_proficiency",
+      "value": 3.0,
+      "interactionType": "self",
+      "interactionDuration": 80,
+      "hideBonusDescription": false,
+      "description": "blue_skies_charoite_sword",
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:speed",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 150,
+      "hideBonusDescription": true,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

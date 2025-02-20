@@ -1,0 +1,14 @@
+{
+	"attributes":
+	{
+		"common":
+		{
+			"armor_negation":20.0,
+			"impact":1.0,
+			"max_strikes":2,
+			"damage_bonus": 6,
+			"speed_bonus": -1.0
+		}
+	},
+	"type":"satsujin"
+}

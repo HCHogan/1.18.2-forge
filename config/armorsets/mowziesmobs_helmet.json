@@ -1,0 +1,20 @@
+{
+  "armorSetName": "mowziesmobs_helmet",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "mowziesmobs:wrought_helmet",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "atmospheric:relief",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 80,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

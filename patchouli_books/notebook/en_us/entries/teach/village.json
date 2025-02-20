@@ -1,0 +1,32 @@
+{
+    "name": "村民机制更改",
+    "icon": "artifacts:villager_hat",
+    "category": "patchouli:teach",
+    "sortnum":1,
+    "pages": [
+       {
+            "type": "png_teach",
+            "image":"stellarisdlc:textures/png/village1.png",
+            "text1":"村民机制更改",
+            "text2":""
+        },
+        {
+           "type": "T1",
+           "title":"村民机制更改",
+            "text": "整合包增加了凡家物语模组对于原村民的机制有些许变化。$(br2)右键村民后左侧信息栏为名字、$(5)$(t:此处职业为工具匠，无职业会显示无业)职业$()、心情、$(5)$(t:鼠标移动至该栏会显示特点)性格$()$(br2)左下方对应为$(5)$(t:鼠标移动至各图标会显示具体情况)好感值、婚姻情况、身体数据、父母信息$()。$(br2)右侧为玩家可进行的操作包含$(5)$(t:影响好感值)交谈$()、互动、$(5)$(t:无职业时无此选项)交易$()与族谱查询。"
+        },
+{
+            "type": "png_teach",
+            "image":"stellarisdlc:textures/png/village2.png",
+            "text1":"互动选项",
+            "text2":"互动选项的$(#ff0000)位置$()选择中包含了$(#ff0000)工作区域$()选项，可以用于村民的职业直接更换。"
+        },
+         {"type": "spotlight",
+         "title":"其他讯息",
+         "item": "tag:mca:books",
+         "text": "该章节仅介绍部分信息，其余信息可以制作模组中的介绍书会有详细介绍，包括好感度、婚姻、建立村庄、生子、复活村民、治愈村民疾病等功能。"        
+        }
+        
+
+    ]
+}

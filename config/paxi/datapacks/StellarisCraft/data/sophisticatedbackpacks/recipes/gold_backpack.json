@@ -1,0 +1,31 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "conditions": [
+    {
+      "itemRegistryName": "sophisticatedbackpacks:gold_backpack",
+      "type": "sophisticatedcore:item_enabled"
+    }
+  ],
+  "pattern": [
+    "GHG",
+    "GBG",
+    "GJG"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:ingots/gold"
+    },
+    "B": {
+      "item": "sophisticatedbackpacks:iron_backpack"
+    },
+    "H": {
+      "item": "miningmaster:haste_peridot"
+    },
+    "J": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:gold_backpack"
+  }
+}

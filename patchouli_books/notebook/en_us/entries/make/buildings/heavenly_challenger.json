@@ -1,0 +1,19 @@
+{
+    "name": "天堂挑战者",
+    "icon": "alexsmobs:tarantula_hawk_elytra",
+    "category": "patchouli:buildings",
+    "sortnum":0,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"天堂挑战者/heavenly challenger",
+            "text": "如果有巡视与驱逐，那么也必然需要炫耀。天堂挑战者正是为了这些而诞生，这是三种终焉飞船中最大的一艘，也是配置最为豪华的一艘。多数的战士都使用精良的武器和装备。他们将斩杀的敌人砍下头颅，戴在自己的头上威慑敌人。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/heavenly_challenger.png",
+            "text1":"帝国的行军曲",
+            "text2":""
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+  "replace": true,
+  "trades": [
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "ends_delight:raw_ender_mite_meat",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "cataclysm:void_stone",
+        "count": 1
+      },
+      "max_trades": 10,
+      "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "minecraft:chorus_fruit",
+        "count": 32
+      },
+      "max_trades": 6,
+      "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:poisonous_potato",
+        "count": 16
+      },
+      "max_trades": 8,
+      "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "irons_spellbooks:dragonskin",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 6
+      },
+      "max_trades": 10,
+      "experience": 20
+    }
+
+  ]
+}

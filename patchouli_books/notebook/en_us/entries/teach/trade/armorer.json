@@ -1,0 +1,60 @@
+{
+    "name": "盔甲匠(高炉)",
+    "icon": "minecraft:blast_furnace",
+    "category": "patchouli:trade",
+    "sortnum":0,
+    "pages": [
+{"type":"trade1",
+ "head":"村民等级:新手",
+ "item1":"dotcoinmod:gold_coin",
+ "item2":"minecraft:air",
+ "item3":"epicfight:skillbook{skill:\"epicfight:emergency_escape\"}",
+ "text1":"1次"
+},
+{"type":"trade2",
+ "head":"村民等级:学徒",
+ "item1":"dotcoinmod:copper_coin#8",
+ "item2":"minecraft:iron_ingot#4",
+ "item3":"minecraft:iron_helmet{Enchantments:[{id:'minecraft:protection',lvl:2s}]},minecraft:iron_helmet{Enchantments:[{id:'minecraft:fire_protection',lvl:4s}]},minecraft:iron_helmet{Enchantments:[{id:'minecraft:projectile_protection',lvl:3s}]},minecraft:iron_helmet{Enchantments:[{id:'minecraft:protection',lvl:4s}]},minecraft:iron_helmet{Enchantments:[{id:'minecraft:blast_protection',lvl:3s}]},minecraft:iron_helmet{Enchantments:[{id:'minecraft:projectile_protection',lvl:2s}]},minecraft:iron_helmet{Enchantments:[{id:'minecraft:fire_protection',lvl:3s}]},minecraft:iron_helmet{Enchantments:[{id:'minecraft:protection',lvl:3s}]},minecraft:iron_helmet{Enchantments:[{id:'minecraft:blast_protection',lvl:2s}]}",
+ "text1":"3次",
+ "item4":"minecraft:copper_ingot#64",
+ "item5":"minecraft:air",
+ "item6":"dotcoinmod:copper_coin#12",
+ "text2":"5次"
+},
+{"type":"trade2",
+ "head":"村民等级:老手",
+ "item1":"minecraft:raw_gold_block",
+ "item2":"minecraft:air",
+ "item3":"minecraft:gold_ingot#15",
+ "text1":"5次",
+ "item4":"minecraft:raw_iron_block",
+ "item5":"minecraft:air",
+ "item6":"minecraft:iron_ingot#15",
+ "text2":"5次"
+},
+{"type":"trade2",
+ "head":"村民等级:专家",
+ "item1":"minecraft:diamond#7",
+ "item2":"dotcoinmod:iron_coin#2",
+ "item3":"minecraft:diamond_chestplate{Enchantments:[{id:'minecraft:protection',lvl:2s}]},minecraft:diamond_chestplate{Enchantments:[{id:'minecraft:fire_protection',lvl:3s}]},minecraft:diamond_chestplate{Enchantments:[{id:'minecraft:blast_protection',lvl:3s}]},minecraft:diamond_chestplate{Enchantments:[{id:'minecraft:protection',lvl:4s}]},minecraft:diamond_chestplate{Enchantments:[{id:'minecraft:projectile_protection',lvl:3s}]},minecraft:diamond_chestplate{Enchantments:[{id:'minecraft:protection',lvl:3s}]}",
+ "text1":"2次",
+ "item4":"dotcoinmod:iron_coin",
+ "item5":"minecraft:air",
+ "item6":"quark:forgotten_hat",
+ "text2":"2次"
+},
+{"type":"trade2",
+ "head":"村民等级:大师",
+ "item1":"minecraft:diamond_helmet",
+ "item2":"dotcoinmod:gold_coin#5",
+ "item3":"minecraft:diamond_helmet{Tiered:{Tier:\"stellariscraft:legendary_helmet\"}}",
+ "text1":"1次",
+"item4":"bygonenether:withered_debris#64",
+ "item5":"miningmaster:fire_ruby#2",
+ "item6":"minecraft:ancient_debris#2",
+ "text2":"5次"
+}
+
+    ]
+}

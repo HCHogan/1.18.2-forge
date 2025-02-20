@@ -1,0 +1,33 @@
+{
+    "name": "维度地牢",
+    "icon": "dimdungeons:block_portal_keyhole",
+    "category": "patchouli:dim",
+    "sortnum":6,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"维度地牢",
+            "text": "还在探索中"
+        },
+         {
+         "type":"patchouli:smith",
+         "item1": "stellarisdlc:evidenceadventure_1",
+        "item2": "stellarisdlc:evidenceadventure_2",
+        "item3": "stellarisdlc:evidenceadventure",
+        "head":"破除维度封印",
+        "text":""
+        
+      },
+      {
+            "type": "crafting",
+            "recipe": "crafttweaker:evidenceadventure_1",
+            "text":""
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:evidencenether_2",
+            "text":""
+        }
+        
+    ]
+}

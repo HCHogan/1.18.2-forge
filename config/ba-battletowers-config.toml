@@ -1,0 +1,124 @@
+
+["General Settings -- Negative values are ignored"]
+	#The minimum possible distance between Land Towers measured in chunks. (due to structure changes in 1.18.2 there is now a self imposed 9 chunk minimum. Default: 20 Chunks
+	"Land minimum separation" = 50
+	#The minimum possible distance between Ocean Towers measured in chunks. (due to structure changes in 1.18.2 there is now a self imposed 6 chunk minimum. Default: 16 Chunks
+	"Ocean minimum separation" = 50
+	#Minimum distance from spawn a Tower can be measured in chunks (Applies to X and Z). Default: 25 chunks 
+	"First Tower Distance" = 1
+	#Whether to include acceptable Terralith biomes during the tower's Biome check.
+	"Terralith Biomes" = true
+	#Whether to include acceptable Biomes of Plenty biomes during the tower's Biome check.
+	"Biomes of Plenty Biomes" = true
+	#Whether to include acceptable Oh The Biomes You'll Go biomes during the tower's Biome check.
+	"Oh The Biomes You'll Go Biomes" = true
+
+["Advanced Settings -- take note of the range for each value, values outside the ranges will be discarded"]
+	#The total health of the Land Golem, divide by two per heart. I.E a value of 300 is 150 hearts
+	#Range: 200.0 ~ 1800.0
+	"Total health of the Land Golem" = 250.0
+	#This value is added to the Land Tower minimum separation above to get the average separation between Land Towers for spawning measured in chunks.
+	#I.E. if you leave the minimum separation at 20, and change this value to 8 then Land Towers would spawn at:  minimum = 20 chunks | average = 28 chunks (20 + 8) | maximum = 36 chunks (20 + 16)
+	#Range: 1 ~ 100
+	"Land average separation modifier" = 20
+	#Length of time in seconds after Golem is defeated before the Land Tower collapses
+	#Range: 30 ~ 60
+	"Land Collapse Timer" = 60
+	#How much of the tower is destroyed after defeating the Golem. Default: 83% of tower.
+	#Range: 0.0 ~ 1.0
+	"Percent of Land Tower to destroy" = 0.0
+	#Distance below Monolith the obelisk spawns, Only to be used in tandem with floor height for creation of own 'Towers'
+	#Range: 32 ~ 200
+	"Land Obelisk Spawn Distance" = 90
+	#Distance between Land tower floors, only to be used in tandem with Land Obelisk Spawn Distance
+	#Range: 4 ~ 24
+	"Land Tower Floor Height" = 11
+	#Whether to use the new spawner amounts for each floor, or old 2 spawners per floor
+	"Old Spawner Amounts" = false
+	#The total health of the Ocean Golem, divide by two per heart. I.E a value of 300 is 150 hearts
+	#Range: 250.0 ~ 2000.0
+	"Total health of the Ocean Golem" = 350.0
+	#This value is added to the Ocean Tower minimum separation above to get the average separation between Ocean Towers for spawning measured in chunks.
+	#See Land Tower Average Separation for explanation of use.
+	#Range: 1 ~ 100
+	"Ocean average separation modifier" = 10
+	#Length of time in seconds after Golem is defeated before the Ocean Tower crumbles
+	#Range: 30 ~ 60
+	"Ocean Collapse Timer" = 40
+	#How much of the tower is destroyed after defeating the Golem. Default: 100% of tower.
+	#Range: 0.5 ~ 1.0
+	"Percent of Ocean Tower to destroy" = 0.5
+	#Makes the Ocean trench around the Ocean tower much smaller, reducing the lag on load
+	"Small Ocean Trench T/F" = true
+
+["Crash-able settings -- If you edit these, and the game crashes, its on you"]
+	#A list of mob ids of possible mobs to spawn in spawners inside the Land tower. Must contain at least one value
+	"Land Tower Mobs" = ["minecraft:zombie", "minecraft:zombie", "minecraft:skeleton", "minecraft:spider"]
+	#A list of mob ids of possible mobs to spawn in spawners inside the Ocean tower. Must contain at least one value
+	"Ocean Tower Mobs" = ["minecraft:drowned", "minecraft:guardian", "minecraft:drowned", "minecraft:drowned", "minecraft:drowned", "minecraft:pufferfish"]
+
+["Tower loot -- Loot rolls for tower chests are generated from these tables: EACH TABLE MUST CONTAIN AT LEAST ONE ITEM "]
+	#The number of xp levels books and tools are enchanted with in loot, Ie a 20 here means that books and tools that appear in loot will contain enchants as if enchanted with 20 levels of xp  up to 41 (3 extra per tower floor)
+	#Range: 0 ~ 40
+	"Book XP Levels" = 15
+	#Whether or not armor in loot should be enchanted
+	"Enchanted Armor" = true
+	#Whether or not tools/weapons in loot should be enchanted
+	"Enchanted Tools" = true
+	#A list of item ids of possible bad items.
+	"General Bad Loot" = ["minecraft:bone", "minecraft:gunpowder", "minecraft:sugar_cane", "minecraft:clay_ball", "minecraft:string", "minecraft:rotten_flesh"]
+	#A list of combined minimum and maximum counts of each item in the loot list above, if the number is 25 that item will generate in groups of 2-5 a single integer like 3 is treated as a range of 0-3
+	"General Bad Loot Counts" = [46, 35, 69, 49, 58, 58]
+	#A list of item ids of possible filler items.
+	"General Filler Loot" = ["minecraft:ender_pearl", "minecraft:golden_carrot", "minecraft:golden_apple", "minecraft:iron_ingot", "minecraft:honey_bottle", "minecraft:gold_ingot", "dotcoinmod:copper_coin"]
+	#A list of combined minimum and maximum counts of each item in the loot list above
+	"General Filler Loot Counts" = [24, 24, 24, 46, 24, 12, 13]
+	#A list of item ids of possible decent items.
+	"General Decent Loot" = ["miningmaster:haste_peridot", "minecraft:diamond", "minecraft:emerald", "minecraft:diamond_axe", "minecraft:experience_bottle", "stellariscraft:adgrain", "dotcoinmod:copper_coin"]
+	#A list of combined minimum and maximum counts of each item in the loot list above
+	"General Decent Loot Counts" = [1, 12, 46, 1, 14, 26, 25]
+	#A list of item ids of possible good items.
+	"General Good Loot" = ["bhc:relic_apple", "delightful:prickly_pear_juice", "stellariscraft:adgrain", "dotcoinmod:iron_coin", "minecraft:enchanted_golden_apple", "minecraft:blaze_powder", "omnis:ravaged_metal"]
+	#A list of combined minimum and maximum counts of each item in the loot list above
+	"General Good Loot Counts" = [1, 13, 24, 2, 2, 14, 2]
+	#A list of item ids of possible bad items to spawn inside the Land tower. Each tower chest has a defined number of rolls per category (bad/filler/decent/good).
+	"Land Tower Bad Loot" = ["minecraft:gunpowder", "minecraft:cake", "minecraft:apple", "minecraft:sugar", "minecraft:flint", "minecraft:torch"]
+	#A list of combined minimum and maximum counts of each item in the land bad loot list above
+	"Land Tower Bad Loot Counts" = [35, 11, 48, 48, 36, 47]
+	#A list of item ids of possible filler items to spawn inside the Land tower.
+	"Land Tower Filler Loot" = ["minecraft:rabbit", "minecraft:iron_ingot", "miners_delight:gossypium", "minecraft:beetroot_soup", "minecraft:mushroom_stew", "minecraft:cooked_rabbit", "minecraft:emerald_block"]
+	#A list of combined minimum and maximum counts of each item in the land filler loot list above
+	"Land Tower Filler Loot Counts" = [13, 1, 24, 11, 11, 13, 1]
+	#A list of item ids of possible decent items to spawn inside the Land tower.
+	"Land Tower Decent Loot" = ["minecraft:rabbit", "miners_delight:gossypium", "skewers:skewer_rabbit_raw", "skewers:skewer_rabbit_cooked", "alexsmobs:banana", "alexsdelight:raw_bison", "minecraft:emerald_block"]
+	#A list of combined minimum and maximum counts of each item in the land decent loot list above
+	"Land Tower Decent Loot Counts" = [46, 46, 24, 24, 14, 36, 1]
+	#A list of item ids of possible good items to spawn inside the Land tower.
+	"Land Tower Good Loot" = ["farmersdelight:red_mushroom_colony", "alexsdelight:raw_bison", "largemeals:mushroom_pot_pie_slice", "alexsdelight:raw_bunfungus", "alexsmobs:banana_peel", "alexsmobs:acacia_blossom", "minecraft:emerald_block"]
+	#A list of combined minimum and maximum counts of each item in the land good loot list above
+	"Land Tower Good Loot Counts" = [35, 46, 24, 46, 12, 24, 2]
+	#A list of item ids of possible items to add to the land Golem chest item pool. A single value of air means no items are added
+	"Land Tower Golem Loot" = ["omnis:haunted_steel_ingot", "omnis:vexwart", "minecraft:emerald"]
+	#A list of combined minimum and maximum counts of each item in the loot list above
+	"Land Golem Loot Counts" = [12, 26, 14]
+	#A list of item ids of possible bad items to spawn inside the Ocean tower.
+	"Ocean Tower Bad Loot" = ["cnb:yellow_waterlily", "minecraft:prismarine_shard", "minecraft:seagrass", "minecraft:kelp", "minecraft:glow_ink_sac", "minecraft:lily_pad", "dotcoinmod:copper_coin"]
+	#A list of combined minimum and maximum counts of each item in the ocean bad loot list above
+	"Ocean Tower Bad Loot Counts" = [12, 25, 36, 49, 29, 24, 12]
+	#A list of item ids of possible filler items to spawn inside the Ocean tower.
+	"Ocean Tower Filler Loot" = ["cnb:light_pink_waterlily", "minecraft:copper_ingot", "minecraft:iron_ingot", "minecraft:gold_ingot", "minecraft:magma_block", "minecraft:diamond", "dotcoinmod:copper_coin"]
+	#A list of combined minimum and maximum counts of each item in the ocean filler loot list above
+	"Ocean Tower Filler Loot Counts " = [12, 79, 25, 25, 24, 12, 24]
+	#A list of item ids of possible decent items to spawn inside the Ocean tower.
+	"Ocean Tower Decent Loot" = ["cnb:pink_waterlily", "minecraft:glowstone", "minecraft:gold_ingot", "minecraft:diamond", "miners_delight:glow_squid", "miners_delight:squid", "alexsmobs:blobfish", "alexsmobs:lobster_tail", "dotcoinmod:iron_coin"]
+	#A list of combined minimum and maximum counts of each item in the ocean decent loot list above
+	"Ocean Tower Decent Loot Counts" = [12, 14, 36, 24, 14, 14, 46, 35, 12]
+	#A list of item ids of possible good items to spawn inside the Ocean tower.
+	"Ocean Tower Good Loot" = ["minecraft:trident", "minecraft:axolotl_bucket", "minecraft:sponge", "minecraft:brewing_stand", "minecraft:gold_block", "minecraft:diamond", "skewers:skewer_algae", "skewers:skewer_frog_legs_raw", "aquaculture:frog_legs_raw"]
+	#A list of combined minimum and maximum counts of each item in the ocean filler loot list above
+	"Ocean Tower Good Loot Counts" = [11, 35, 12, 11, 13, 46, 23, 24, 24]
+	#A list of item ids of possible items to add to the land Golem chest item pool, A single value of air means no items are added
+	"Ocean Tower Golem Loot" = ["aquaculture:neptunium_ingot", "dotcoinmod:iron_coin", "crittersandcompanions:pearl", "minecraft:diamond_block", "minecraft:heart_of_the_sea", "minecraft:diamond_pickaxe"]
+	#A list of combined minimum and maximum counts of each item in the ocean golem loot list above
+	"Ocean Golem Loot Counts" = [12, 25, 14, 12, 2, 2]
+

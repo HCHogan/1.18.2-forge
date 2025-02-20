@@ -1,0 +1,12 @@
+{
+	id: "636B1420578F62AE"
+	order_index: 9
+	title: "商人"
+	icon: "dotcoinmod:diamond_coin"
+	loot_size: 1
+	rewards: [
+		{ item: "goblintraders:goblin_trader_spawn_egg" }
+		{ item: "goblintraders:vein_goblin_trader_spawn_egg" }
+		{ item: "minecraft:wandering_trader_spawn_egg" }
+	]
+}

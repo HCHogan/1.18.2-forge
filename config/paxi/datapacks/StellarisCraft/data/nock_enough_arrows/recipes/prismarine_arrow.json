@@ -1,0 +1,16 @@
+{
+  "type": "nock_enough_arrows:fletching",
+  "fletching": {
+    "item": "minecraft:feather"
+  },
+  "shaft": {
+    "item": "minecraft:arrow"
+  },
+  "arrowhead": {
+    "item": "minecraft:prismarine_crystals"
+  },
+  "result": {
+    "item": "nock_enough_arrows:prismarine_arrow",
+    "count": 3
+  }
+}

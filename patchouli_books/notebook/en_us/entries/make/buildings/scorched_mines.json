@@ -1,0 +1,19 @@
+{
+    "name": "焦黑矿井",
+    "icon": "minecraft:netherite_pickaxe",
+    "category": "patchouli:buildings",
+    "sortnum":0,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"焦黑矿井/scorched_mines",
+            "text": "焦黑矿井的设立目的就是为了掩盖炉心高塔的行动，毕竟当时有相当多的人都认为如果尝试用物理法则打破维度的壁垒会找来灾祸。焦黑矿井在炉心高塔莫名消失之时也受到了巨大的影响，来自地狱的战士撕碎了所有的矿井内的生灵。但是维度之间的壁垒必然被打破了，因为几个生还者说他们看到了，未曾存在过的被熔岩环绕的下界宝藏。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/scorched_mines.png",
+            "text1":"冥界行，莫回首",
+            "text2":""
+        }
+    ]
+}

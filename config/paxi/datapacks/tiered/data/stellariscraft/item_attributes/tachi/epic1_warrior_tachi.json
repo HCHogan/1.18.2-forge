@@ -1,0 +1,48 @@
+{
+  "id": "stellariscraft:epic1_warrior_tachi",
+  "weight": 2.5,
+  "reforge_experience_cost": 2,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:tachi"}
+  ],
+  "style": {
+    "color": "dark_purple"
+  },
+  "attributes": [
+    {
+      "type": "minecraft:generic.max_health",
+      "modifier": {
+        "name": "stellariscraft:epic1_warrior_tachi",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.12
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "generic.attack_damage",
+      "modifier": {
+        "name": "stellariscraft:epic1_warrior_tachi",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.04
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "generic.attack_speed",
+      "modifier": {
+        "name": "stellariscraft:epic1_warrior_tachi",
+        "operation": "ADDITION",
+        "amount": 0.04
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+      "incendium:ash_barrens",
+      "incendium:infernal_dunes",
+      "basalt_deltas",
+      "incendium:toxic_heap",
+      "incendium:volcanic_deltas",
+      "minecraft:basalt_deltas",
+      "incendium:toxic_heap",
+      "incendium:quartz_flats"
+    ]
+  }
+  

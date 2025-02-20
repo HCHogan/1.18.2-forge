@@ -1,0 +1,29 @@
+{
+  "armorSetName": "dual_dagger",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "minecraft:wooden_sword",
+    "mixAndMatch": [
+      "epicfight:iron_dagger",
+      "epicfight:golden_dagger",
+      "epicfight:diamond_dagger",
+      "epicfight:netherite_dagger",
+      "stellariscraft:hunterdagger",
+      "stellarisdlc:dieddagger",
+      "mowziesmobs:naga_fang_dagger",
+  
+      "farmersdelight:skillet"
+]
+    },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "epicfight:offhand_attack_speed",
+      "value": 0.4,
+      "attributeOperation": 2,
+      "modifierUUID": "b63a8af5-da72-4530-88a6-8a1a902ee9ab",
+      "description": "0.4 offhand_attack_speed (EpicFight)" 
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

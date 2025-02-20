@@ -1,0 +1,37 @@
+{
+  "id": "stellariscraft:legendary_tachi",
+  "weight": 1.6,
+  "reforge_experience_cost": 4,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:tachi"}
+  ],
+  "style": {
+    "color": "gold"
+  },
+  "attributes": [
+    {
+      "type": "minecraft:generic.max_health",
+      "modifier": {
+        "name": "stellariscraft:legendary_tachi",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.17
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "generic.attack_speed",
+      "modifier": {
+        "name": "stellariscraft:legendary_tachi",
+        "operation": "ADDITION",
+        "amount": 0.06
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

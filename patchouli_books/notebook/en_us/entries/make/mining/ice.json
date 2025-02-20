@@ -1,0 +1,41 @@
+{
+    "name": "寒冰蓝宝石",
+    "category": "patchouli:mining",
+    "icon": "miningmaster:ice_sapphire",
+    "pages": [
+       {"type": "spotlight",
+        "title":"寒冰蓝宝石",
+        "item": "miningmaster:ice_sapphire",
+        "text": "吸收了寒冰力量产生的珍惜矿物，此物尤为适合作为天魔失坠的核心$(br2)分布极其稀少，寒冷生物群系的地下会少量增加数量，流浪商人有时也会以2金币的价格售卖。$(br)$(#ff0000)森白影魔$()尤为喜爱此物，为获得此宝石甚至曾踏入极寒之地。",
+        "link_recipe":true
+         },
+        {
+          "type": "patchouli:png_mining",
+          "image": "stellarisdlc:textures/png/ice.png",
+          "text1":"寒冰蓝宝石矿",
+          "text2":"生成层数y:-40~20$(br)寒冷群系:9个/区块$(br)其他群系:0.5个/区块"
+          },
+      {
+        "type": "patchouli:mining_smith",
+        "head":"寒冰蓝宝石的简单使用",
+        "item1": "minecraft:diamond_sword",
+        "item2": "miningmaster:ice_sapphire",
+        "item3": "minecraft:diamond_sword{Enchantments:[{id:'miningmaster:freezing',lvl:1s}]}",
+        "item4": "minecraft:diamond_leggings",
+        "item5": "miningmaster:ice_sapphire",
+        "item6": "minecraft:diamond_leggings{Enchantments:[{id:'miningmaster:snowpiercer',lvl:1s}]}",
+        "item7": "minecraft:diamond_boots",
+        "item8": "miningmaster:ice_sapphire",
+        "item9": "minecraft:diamond_boots{Enchantments:[{id:'minecraft:frost_walker',lvl:1s}]}"
+      },
+      {
+         "type":"patchouli:smith",
+         "head":"寒冰蓝宝石的简单使用",
+         "item1": "minecraft:diamond_sword{Enchantments:[{id:'miningmaster:freezing',lvl:1s}]}",
+        "item2": "miningmaster:ice_sapphire",
+        "item3": "minecraft:diamond_sword{Enchantments:[{id:'miningmaster:freezing',lvl:2s}]}",
+        "text":"在$(#ff0000)锻造台$()上可以根据物品的不同分别赋予冰属性的力量，可以通过再次锻造反复提升力量但是由于并非专业的魔力注入，$(#ff0000)无法突破这些附魔原有的极限。$()"
+        
+      }
+    ]
+  }

@@ -1,0 +1,154 @@
+{
+  "profession": "minecraft:cartographer",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 3
+      },
+      "request": {
+        "itemKey": "minecraft:paper",
+        "amount": 16
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:cartographer_copper_coin_for_paper_1"
+    },
+    {
+      "offer": {
+        "itemKey": "naturescompass:naturescompass",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 4
+      },
+      "tradeExp": 50,
+      "maxUses": 2,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:cartographer_naturescompass_for_iron_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "explorerscompass:explorerscompass",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 9
+      },
+      "tradeExp": 60,
+      "maxUses": 2,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:cartographer_explorerscompass_for_iron_coin"
+    },
+
+    {
+      "offer": {
+        "itemKey": "waystones:portstone",
+        "amount": 4
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 3,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:cleric_warp_scroll_for_iron_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "waystones:waystone",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 4
+      },
+      "tradeExp": 30,
+      "maxUses": 4,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:cleric_warp_scroll_for_iron_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "stellarisdlc:adventure_scroll",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 6
+      },
+      "tradeExp": 15,
+      "maxUses": 3,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:cleric_warp_scroll_for_iron_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "waystones:warp_stone",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 1
+      },
+      "tradeExp": 30,
+      "maxUses": 1,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:librarian_warp_stone_for_gold_coin_0"
+    },
+
+    {
+      "offer": {
+        "itemKey": "waystones:warp_plate",
+        "amount": 2
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 2
+      },
+      "tradeExp": 50,
+      "maxUses": 2,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:librarian_warp_plate_for_gold_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "epicfight:skillbook",
+        "amount": 1,
+        "advancedNBTData": "{skill:\"star:yamato_step\"}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 2
+      },
+      "tradeExp": 100,
+      "maxUses": 1,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:cartographer_gold_coin_for_skill_book"
+    }
+  ]
+}

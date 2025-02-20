@@ -1,0 +1,15 @@
+{
+  "name": "stellariscraft:nether_tower/boss_room",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "stellariscraft:nether_tower/boss_room",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+    "name": "灵魂石榴石",
+    "category": "patchouli:mining",
+    "icon": "miningmaster:spirit_garnet",
+    "pages": [
+       {"type": "spotlight",
+        "title":"灵魂石榴石",
+        "item": "miningmaster:spirit_garnet",
+        "text": "吸收了灵魂力量产生的珍惜矿物，魂金太刀和卫道士惯用的缠魂掠夺斧适合用此物制作。$(br2)分布极其稀少，花海与繁茂洞穴生物群系的地下会少量增加数量，流浪商人有时也会以2金币的价格售卖。$(br)据说$(#ff0000)狂沙之枪$()和$(#ff0000)金焰神王$()都曾今携带此物。",
+        "link_recipe":true
+         },
+        {
+            "type": "patchouli:png_mining",
+            "image": "stellarisdlc:textures/png/spirit.png",
+            "text1":"灵魂石榴石矿",
+            "text2":"生成层数y:-40~20$(br)对应群系:9个/区块$(br)其他群系:0.5个/区块"
+            
+          },
+      {
+        "type": "patchouli:mining_smith",
+        "head":"灵魂石榴石的简单使用",
+        "item1": "minecraft:crossbow",
+        "item2": "miningmaster:spirit_garnet",
+        "item3": "minecraft:crossbow{Enchantments:[{id:'minecraft:multishot',lvl:1s}]}",
+        "item4": "minecraft:trident",
+        "item5": "miningmaster:spirit_garnet",
+        "item6": "minecraft:trident{Enchantments:[{id:'minecraft:loyalty',lvl:1s}]}",
+        "item7": "minecraft:diamond_chestplate",
+        "item8": "miningmaster:spirit_garnet",
+        "item9": "minecraft:diamond_chestplate{Enchantments:[{id:'thorns',lvl:1s}]}"
+      },
+      {
+         "type":"patchouli:T1",
+         "head":"灵魂石榴石的简单使用",
+        "text":"在$(#ff0000)锻造台$()上可以根据物品的不同分别赋予灵魂属性的力量，可以通过再次锻造反复提升力量但是由于并非专业的魔力注入，$(#ff0000)无法突破这些附魔原有的极限。$()$(br2)$(#ff0000)生命汲取在大部分武器中已无法发挥作用。"
+        
+      }
+    ]
+  }

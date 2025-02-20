@@ -1,0 +1,402 @@
+
+#List of entity configurations
+[[entities]]
+	entity = "blue_skies:armored_frost_spirit"
+	minTier = 3
+	maxTier = 3
+	presetAffixes = ["infested", "reality"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "alexsmobs:guster"
+	minTier = 2
+	maxTier = 2
+	presetAffixes = ["hasty"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "bygonenether:corpor"
+	minTier = 3
+	maxTier = 3
+	presetAffixes = ["plagued", "wounding"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "bygonenether:wither_skeleton_knight"
+	minTier = 3
+	maxTier = 3
+	presetAffixes = ["plagued", "enkindling", "reality"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "jobinsmobs:reaper"
+	minTier = 3
+	maxTier = 3
+	presetAffixes = ["fireeater", "adaptable", "dampening"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "minecraft:skeleton"
+	minTier = 1
+	maxTier = 1
+	presetAffixes = ["dampening"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "minecraft:spider"
+	minTier = 1
+	maxTier = 1
+	presetAffixes = ["assassin"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "minecraft:evoker"
+	minTier = 2
+	maxTier = 2
+	presetAffixes = ["necromancer"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "minecraft:phantom"
+	minTier = 1
+	maxTier = 1
+	presetAffixes = ["wounding"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "minecraft:husk"
+	minTier = 1
+	maxTier = 1
+	presetAffixes = ["fireeater"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "minecraft:wither_skeleton"
+	minTier = 3
+	maxTier = 3
+	presetAffixes = ["wounding"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "minecraft:zombified_piglin"
+	minTier = 1
+	maxTier = 1
+	presetAffixes = []
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "minecraft:witch"
+	minTier = 2
+	maxTier = 2
+	presetAffixes = ["shadow"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "minecraft:shulker"
+	minTier = 5
+	maxTier = 5
+	presetAffixes = ["dampening"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "minecraft:piglin_brute"
+	minTier = 3
+	maxTier = 3
+	presetAffixes = ["fireeater"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "minecraft:enderman"
+	minTier = 4
+	maxTier = 4
+	presetAffixes = ["adaptable"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "minecraft:wither"
+	minTier = 5
+	maxTier = 5
+	presetAffixes = ["adaptable", "reality", "wounding", "fireeater"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "mowziesmobs:ferrous_wroughtnaut"
+	minTier = 4
+	maxTier = 4
+	presetAffixes = ["wounding", "hasty", "dampening", "acupuncture"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "mowziesmobs:frostmaw"
+	minTier = 7
+	maxTier = 7
+	presetAffixes = ["lively", "wounding", "reality", "dampening", "adaptable"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "mowziesmobs:umvuthi"
+	minTier = 4
+	maxTier = 4
+	presetAffixes = ["reality", "fireeater"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "minecraft:elder_guardian"
+	minTier = 4
+	maxTier = 4
+	presetAffixes = ["adaptable", "wounding", "dampening", "enkindling"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "cataclysm:ender_guardian"
+	minTier = 8
+	maxTier = 8
+	presetAffixes = ["adaptable", "enkindling", "dampening", "wounding", "lively"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "cataclysm:ender_golem"
+	minTier = 4
+	maxTier = 4
+	presetAffixes = ["dampening", "enkindling", "arctic", "wounding"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "cataclysm:ignited_revenant"
+	minTier = 3
+	maxTier = 3
+	presetAffixes = ["enkindling", "fireeater"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "cataclysm:ignis"
+	minTier = 6
+	maxTier = 6
+	presetAffixes = ["adaptable", "dampening", "enkindling", "wounding", "reality"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "cataclysm:netherite_monstrosity"
+	minTier = 4
+	maxTier = 4
+	presetAffixes = ["lively", "adaptable", "enkindling", "knocking", "paralyzing", "wounding", "desecrating"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "blue_skies:summoner"
+	minTier = 3
+	maxTier = 3
+	presetAffixes = ["adaptable", "wounding", "desecrating", "arctic"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "blue_skies:alchemist"
+	minTier = 3
+	maxTier = 3
+	presetAffixes = ["adaptable", "wounding", "desecrating", "arctic"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "blue_skies:starlit_crusher"
+	minTier = 7
+	maxTier = 7
+	presetAffixes = ["arctic"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "blue_skies:arachnarch"
+	minTier = 7
+	maxTier = 7
+	presetAffixes = ["desecrating"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "mowziesmobs:naga"
+	minTier = 3
+	maxTier = 3
+	presetAffixes = ["reality"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "quark:forgotten"
+	minTier = 4
+	maxTier = 4
+	presetAffixes = ["adaptable", "arctic", "dampening", "fireeater"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "jobinsmobs:darkadvance"
+	minTier = 1
+	maxTier = 1
+	presetAffixes = ["fireeater"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "jobinsmobs:sandcaptain"
+	minTier = 2
+	maxTier = 2
+	presetAffixes = ["fireeater", "adaptable", "wounding"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "jobinsmobs:senbaidevil"
+	minTier = 4
+	maxTier = 4
+	presetAffixes = ["wounding", "adaptable", "dampening", "fireeater"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "jobinsmobs:slaughtergeneral"
+	minTier = 5
+	maxTier = 5
+	presetAffixes = ["wounding", "adaptable", "dampening", "fireeater"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "jobinsmobs:goldenflame"
+	minTier = 6
+	maxTier = 6
+	presetAffixes = ["adaptable", "dampening", "wounding", "fireeater", "reality"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "jobinsmobs:msabyss"
+	minTier = 6
+	maxTier = 6
+	presetAffixes = ["adaptable", "dampening", "wounding"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "jobinsmobs:sage"
+	minTier = 9
+	maxTier = 9
+	presetAffixes = ["adaptable", "wounding", "fireeater"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "jobinsmobs:senbaidevilh"
+	minTier = 9
+	maxTier = 9
+	presetAffixes = ["adaptable", "wounding", "fireeater"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "jobinsmobs:shaoqing"
+	minTier = 9
+	maxTier = 9
+	presetAffixes = ["adaptable", "wounding", "fireeater"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "jobinsmobs:fairydaughter"
+	minTier = 8
+	maxTier = 8
+	presetAffixes = ["adaptable", "wounding", "fireeater"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "jobinsmobs:gazeabysser"
+	minTier = 9
+	maxTier = 9
+	presetAffixes = ["wounding", "adaptable", "fireeater", "jinx"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "jobinsmobs:sincerwarrior"
+	minTier = 9
+	maxTier = 9
+	presetAffixes = ["wounding", "fireeater"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "jobinsmobs:fallenjudge"
+	minTier = 5
+	maxTier = 5
+	presetAffixes = ["wounding", "fireeater"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "ba_bt:land_golem"
+	minTier = 3
+	maxTier = 3
+	presetAffixes = ["reality", "adaptable", "fireeater", "dampening"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "ba_bt:ocean_golem"
+	minTier = 3
+	maxTier = 3
+	presetAffixes = ["reality", "hasty", "adaptable", "dampening"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "ba_bt:core_golem"
+	minTier = 4
+	maxTier = 4
+	presetAffixes = ["adaptable", "dampening", "fireeater"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "ba_bt:nether_golem"
+	minTier = 5
+	maxTier = 5
+	presetAffixes = ["adaptable", "dampening", "wounding", "fireeater"]
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "ba_bt:end_golem"
+	minTier = 6
+	maxTier = 6
+	presetAffixes = ["adaptable", "dampening", "fireeater", "wounding", "reality"]
+	affixList = []
+	affixPermission = "WHITELIST"
+

@@ -1,0 +1,379 @@
+{
+	id: "5E86E821B3D46B3A"
+	group: "0F5486DFDF7D448B"
+	order_index: 2
+	filename: "dungeons_plus"
+	title: "旧日神迹"
+	icon: {
+		id: "dungeons_plus:warped_axe"
+		Count: 1b
+		tag: {
+			RepairCost: 1
+			"quark:RuneAttached": 1b
+			Damage: 0
+			Enchantments: [{
+				lvl: 3s
+				id: "minecraft:unbreaking"
+			}]
+			"quark:RuneColor": {
+				id: "quark:gray_rune"
+				Count: 2b
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -0.25d
+		y: 0.25d
+		width: 10.0d
+		height: 10.0d
+		rotation: 0.0d
+		image: "cofh_core:textures/mob_effect/chilled.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+		dependency: "0B64144888793FD7"
+	}]
+	quests: [
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["4BA40889D4FD819B"]
+			id: "790E1B165E2D383F"
+			tasks: [{
+				id: "1F84D991D968054F"
+				type: "structure"
+				title: "&5利维坦化石:leviathan"
+				icon: "minecraft:bone_block"
+				structure: "dungeons_plus:leviathan"
+			}]
+			rewards: [{
+				id: "0EC7F2736DA3BD37"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			dependencies: ["4BA40889D4FD819B"]
+			id: "422841279507636D"
+			tasks: [{
+				id: "3DBDD1AAC88A609A"
+				type: "structure"
+				title: "&5冰雪神庙:snowy_temple"
+				icon: "minecraft:snow_block"
+				structure: "dungeons_plus:snowy_temple"
+			}]
+			rewards: [{
+				id: "3B1AE9F26245A35D"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			dependencies: ["4BA40889D4FD819B"]
+			id: "78738B0D9EC65246"
+			tasks: [{
+				id: "2B84C28A11B15200"
+				type: "structure"
+				title: "&5废弃塔楼:tower"
+				icon: "waystones:waystone"
+				structure: "dungeons_plus:tower"
+			}]
+			rewards: [
+				{
+					id: "1DAA4B2CB53D41F1"
+					type: "item"
+					item: "waystones:sandy_waystone"
+				}
+				{
+					id: "43D01FEDDAF549E7"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			subtitle: "&a养了一窝的溺尸（惊恐）"
+			dependencies: ["4BA40889D4FD819B"]
+			id: "448134788D3DB392"
+			tasks: [{
+				id: "74831BE4ACE75F41"
+				type: "structure"
+				title: "&5溺尸深海球:warped_garden"
+				icon: {
+					id: "minecraft:trident"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				structure: "dungeons_plus:warped_garden"
+			}]
+			rewards: [
+				{
+					id: "1D30C1C502E0C917"
+					type: "item"
+					item: "minecraft:heart_of_the_sea"
+				}
+				{
+					id: "1C4D9F0BAFB51872"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+			]
+		}
+		{
+			title: "&5矿洞变体1:reanimated_ruins_frozen"
+			icon: "minecraft:cobblestone"
+			x: -2.5d
+			y: 2.5d
+			dependencies: ["4BA40889D4FD819B"]
+			id: "7C02F6AC39748A05"
+			tasks: [{
+				id: "51189CC0026B2A8F"
+				type: "structure"
+				title: "&5reanimated_ruins_frozen"
+				icon: "minecraft:ice"
+				structure: "dungeons_plus:reanimated_ruins_frozen"
+			}]
+			rewards: [
+				{
+					id: "4DB05915857FAF4D"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 18
+				}
+				{
+					id: "681AF971334F03C5"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+			]
+		}
+		{
+			title: "&5矿洞变体2:reanimated_ruins_mesa"
+			icon: "minecraft:gravel"
+			x: 2.5d
+			y: 2.5d
+			dependencies: ["4BA40889D4FD819B"]
+			id: "257129EBE9210D1B"
+			tasks: [{
+				id: "53C00104EF5492F5"
+				type: "structure"
+				title: "&5reanimated_ruins_mesa"
+				icon: "minecraft:dirt"
+				structure: "dungeons_plus:reanimated_ruins_mesa"
+			}]
+			rewards: [{
+				id: "2D1610D7CE757104"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "&5矿洞变体3:reanimated_ruins_mossy"
+			icon: "minecraft:diorite"
+			x: 2.5d
+			y: -2.5d
+			subtitle: "盛产史莱姆之地"
+			dependencies: ["4BA40889D4FD819B"]
+			id: "736E98229FF66619"
+			tasks: [{
+				id: "371E32358F1DBEC1"
+				type: "structure"
+				title: "&5reanimated_ruins_mossy"
+				icon: "minecraft:moss_block"
+				structure: "dungeons_plus:reanimated_ruins_mossy"
+			}]
+			rewards: [
+				{
+					id: "7785CB0217A593EA"
+					type: "item"
+					item: "stellariscraft:adventurespar"
+				}
+				{
+					id: "324FF18BD1D55D9A"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "7F359F51BD1D30B9"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							CustomPotionEffects: [{
+								"forge:id": "cofh_core:slimed"
+								CurativeItems: [{
+									id: "minecraft:milk_bucket"
+									Count: 1b
+								}]
+								Ambient: 0b
+								ShowIcon: 1b
+								ShowParticles: 1b
+								Duration: 600
+								Id: 51b
+								Amplifier: 0b
+							}]
+						}
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			title: "&eDungeons Plus模组"
+			icon: "waystones:waystone"
+			x: 0.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "&6该任务只是提供探索方向，不必做完"
+			description: ["&a这个模组提供了很多偏向于原版的遗迹探索，也包括他的战利品。"]
+			hide_dependency_lines: true
+			dependencies: ["0B64144888793FD7"]
+			hide: true
+			size: 2.0d
+			id: "4BA40889D4FD819B"
+			tasks: [{
+				id: "68C3EDA0C049C497"
+				type: "checkmark"
+				title: "&5dungeons plus"
+			}]
+			rewards: [{
+				id: "48050B931D542C15"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2688748745693820522L
+			}]
+		}
+		{
+			title: "&5龙蛋塔:end_ruins"
+			x: 0.0d
+			y: 6.0d
+			subtitle: "&2昂，真香~"
+			dependencies: ["4BA40889D4FD819B"]
+			size: 1.5d
+			id: "0DDAC5637A299EAA"
+			tasks: [{
+				id: "2172EAACFBA5F09D"
+				type: "structure"
+				title: "&5龙蛋塔:end_ruins"
+				icon: "ends_delight:non_hatchable_dragon_egg"
+				structure: "dungeons_plus:end_ruins"
+			}]
+			rewards: [
+				{
+					id: "3D5DB6AE80F8946D"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "5BCE81E98650ED50"
+					type: "item"
+					item: "endersdelight:twisted_cereal_wood"
+				}
+			]
+		}
+		{
+			title: "&bFrosted Cowl"
+			x: -6.0d
+			y: 0.0d
+			subtitle: "&f消耗耐久清除减速debuff，免疫冰冻"
+			dependencies: ["422841279507636D"]
+			id: "2B2A3CA5DFB005BD"
+			tasks: [{
+				id: "51E7B1E653DEB600"
+				type: "item"
+				item: {
+					id: "dungeons_plus:frosted_cowl"
+					Count: 1b
+					tag: {
+						Damage: 0
+						RepairCost: 1
+					}
+				}
+			}]
+			rewards: [{
+				id: "407C8A5032F78ABE"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 4s
+							id: "minecraft:unbreaking"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			subtitle: "&m斧+三叉戟"
+			description: ["甚至能附魔忠诚；可惜史诗战斗右键格挡与之冲突"]
+			dependencies: ["448134788D3DB392"]
+			id: "60A0803EB6B969F1"
+			tasks: [{
+				id: "1F25E4607023BAFF"
+				type: "item"
+				item: {
+					id: "dungeons_plus:warped_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5EDE2BB2074480EF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2688748745693820522L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			subtitle: "哟哟，这不虚弱剑嘛，几个版本没见，这么拉了"
+			dependencies: ["790E1B165E2D383F"]
+			id: "320DACF4BDCC68E4"
+			tasks: [{
+				id: "6A1ED0040A902287"
+				type: "item"
+				item: {
+					id: "dungeons_plus:leviathan_blade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "459A29D591ED5EEB"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2688748745693820522L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

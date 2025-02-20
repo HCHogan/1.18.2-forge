@@ -1,0 +1,1 @@
+title @p[tag=kill_nether] title [{"text":"何尝不是一件幸事……","color":"light_purple"}]

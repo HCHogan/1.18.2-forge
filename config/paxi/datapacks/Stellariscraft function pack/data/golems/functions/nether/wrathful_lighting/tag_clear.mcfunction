@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:player,tag=lighting_hit] run tag @s remove lighting_hit

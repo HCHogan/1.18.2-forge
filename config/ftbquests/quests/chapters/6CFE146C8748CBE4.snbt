@@ -1,0 +1,1276 @@
+{
+	id: "6CFE146C8748CBE4"
+	group: "3AE5966EA782F1F6"
+	order_index: 1
+	filename: "6CFE146C8748CBE4"
+	title: "猩红地狱"
+	icon: {
+		id: "cataclysm:burning_ashes"
+		Count: 1b
+		tag: {
+			RepairCost: 1
+			"quark:RuneAttached": 1b
+			Enchantments: [{
+				lvl: 3s
+				id: "minecraft:unbreaking"
+			}]
+			"quark:RuneColor": {
+				id: "quark:gray_rune"
+				Count: 1b
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -24.0d
+			y: 3.5d
+			width: 8.0d
+			height: 4.0d
+			rotation: 0.0d
+			image: "blackaures_paintings:textures/p18.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "39BD604E24BAA419"
+		}
+		{
+			x: -16.0d
+			y: -7.0d
+			width: 4.5d
+			height: 4.5d
+			rotation: 0.0d
+			image: "cataclysm:textures/mob_effect/blazing_brand.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "293C2AABAABB28B8"
+		}
+		{
+			x: -16.0d
+			y: 9.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "atmospheric:textures/item/gilded_travertine.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "49758ABF593A6E8B"
+		}
+		{
+			x: -9.0d
+			y: -0.5d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "nethersdelight:textures/item/stuffed_hoglin.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "39BD604E24BAA419"
+		}
+	]
+	quests: [
+		{
+			title: "&4进入下界"
+			icon: "minecraft:crimson_nylium"
+			x: -16.0d
+			y: -7.0d
+			shape: "rsquare"
+			subtitle: "&c&4好热好热........"
+			description: ["&6注：由于未知bug，猪灵与猪灵蛮兵不会主动格挡，只会无脑攻击，请小心；暂时只发现这两种怪物，有别的请补充"]
+			hide_dependency_lines: true
+			dependencies: ["1D03D9427ED4456A"]
+			hide: true
+			size: 2.5d
+			id: "39BD604E24BAA419"
+			tasks: [{
+				id: "2F135DFF75589EBF"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [
+				{
+					id: "0E0D39F019A7DBEC"
+					type: "item"
+					item: "minecraft:totem_of_undying"
+				}
+				{
+					id: "6D6A5F7BF49C7BD3"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&4&l下界合金巨兽：Soul Black Smith"
+			x: -19.5d
+			y: -4.0d
+			shape: "hexagon"
+			subtitle: "&4在锻造厂中制造的战争兵器，诞生目的只为投入战争"
+			dependencies: ["39BD604E24BAA419"]
+			size: 1.5d
+			id: "293C2AABAABB28B8"
+			tasks: [{
+				id: "6DBFF45D668989D1"
+				type: "advancement"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "cataclysm:textures/mob_effect/monstrous.png"
+					}
+				}
+				advancement: "cataclysm:kill_monstrosity"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2C629C777346A7A8"
+				type: "item"
+				item: "stellariscraft:adventurespar"
+			}]
+		}
+		{
+			title: "&4&l焰魔：Burning Arena"
+			icon: "cataclysm:altar_of_fire"
+			x: -22.5d
+			y: -7.0d
+			shape: "rsquare"
+			subtitle: "&4&l愿魂焰 &k，&r&4&l 燃尽世间"
+			description: [
+				"&c注：&6焰魔用剑震飞方块的招式都是多段伤害，&r新版史诗战斗下&c灵活格挡也会被破防；&r由于不是同一模组无法加危险提示，&c请背板并提前闪避。"
+				""
+				"超链接：点任务栏上方链接符号🔗查看另一处任务"
+				""
+				"&b(PS：打焰魔可以开史诗战斗的锁定，侧着身子格挡可能挡不住)"
+			]
+			dependencies: [
+				"17AD4288AABA540A"
+				"1D03D9427ED4456A"
+			]
+			size: 1.5d
+			id: "72431516A526DDE5"
+			tasks: [{
+				id: "27181313AB519792"
+				type: "advancement"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "cataclysm:textures/mob_effect/blazing_brand.png"
+					}
+				}
+				advancement: "cataclysm:kill_ignis"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "6DB22EC1B285DAAF"
+					type: "item"
+					item: "stellariscraft:adventurespar"
+					count: 3
+				}
+				{
+					id: "67A93B5D401B5C6B"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 7421896030659922250L
+				}
+				{
+					id: "11313B3ABC9DAA20"
+					type: "item"
+					item: "miningmaster:air_malachite"
+				}
+				{
+					id: "08E605D6DF508BF5"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 2240263939124024074L
+				}
+				{
+					id: "5983E83C69B7843A"
+					type: "item"
+					item: "stellarisdlc:attribute_scrap"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: -1.0d
+			description: [
+				"&a玄武岩三角洲的跨座兽掉落晶石"
+				"&a使用这两个可以骑乘岩浆生物：炽岩"
+				"&a在水中拥有黑曜石形态！"
+			]
+			dependencies: ["4E8DD2971251BF43"]
+			id: "00DB257509EFC301"
+			tasks: [
+				{
+					id: "165679AE68A39C59"
+					type: "item"
+					item: "alexsmobs:straddle_saddle"
+				}
+				{
+					id: "4C814BD56E127F45"
+					type: "item"
+					item: "alexsmobs:straddle_helmet"
+				}
+			]
+			rewards: [{
+				id: "5F69E559C3F7121C"
+				type: "item"
+				item: "alexsmobs:spawn_egg_laviathan"
+			}]
+		}
+		{
+			x: -12.5d
+			y: -4.0d
+			dependencies: ["39BD604E24BAA419"]
+			size: 1.5d
+			id: "4E8DD2971251BF43"
+			tasks: [{
+				id: "2854098C405C4425"
+				type: "item"
+				item: "alexsmobs:straddlite"
+			}]
+			rewards: [{
+				id: "222EE7D62D7B98D6"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -9.5d
+			y: -4.0d
+			subtitle: "&a下界出行的好帮手！"
+			dependencies: ["4E8DD2971251BF43"]
+			id: "6DC8FF73D79D3C1D"
+			tasks: [{
+				id: "5F141F2260F24B7E"
+				type: "item"
+				item: {
+					id: "alexsmobs:straddleboard"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "19F8527C4215A037"
+				type: "item"
+				item: "minecraft:enchanted_golden_apple"
+			}]
+		}
+		{
+			x: -19.5d
+			y: -10.5d
+			subtitle: "&m焰魔头盔同款功效"
+			dependencies: ["39BD604E24BAA419"]
+			id: "75BDCF6AE3FCC2B9"
+			tasks: [{
+				id: "43B82896B28C94DA"
+				type: "kill"
+				icon: "alexsmobs:bone_serpent_tooth"
+				entity: "alexsmobs:bone_serpent"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "0D44EB6FC09BEEEE"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "alexsmobs:long_lava_vision"
+						}
+					}
+				}
+				{
+					id: "6EEAB41D8D1FD22F"
+					type: "item"
+					item: "stellariscraft:adventurespar"
+				}
+				{
+					id: "5FB1FFB7F2FA6435"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2240263939124024074L
+				}
+			]
+		}
+		{
+			title: "&8&l凋灵"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/mob_effect/wither.png"
+				}
+			}
+			x: -7.5d
+			y: -7.0d
+			shape: "rsquare"
+			subtitle: "&3吾主现世，万物凋零"
+			description: [
+				"当你拥有足够的体力时，格挡住它的冲撞你将获得大量的输出时间"
+				""
+				"超链接：点任务栏上方链接符号🔗查看另一处任务"
+			]
+			dependencies: [
+				"1D03D9427ED4456A"
+				"39BD604E24BAA419"
+			]
+			size: 1.5d
+			id: "0E76DB62CFF2359D"
+			tasks: [{
+				id: "5328D7D2767C48B6"
+				type: "kill"
+				icon: "minecraft:wither_rose"
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "1449C55852ADEA67"
+					type: "item"
+					item: "minecraft:totem_of_undying"
+				}
+				{
+					id: "7670E6C23B763317"
+					type: "item"
+					item: "stellariscraft:adventurespar"
+				}
+				{
+					id: "4BF22495CD4BA20A"
+					type: "item"
+					item: "miningmaster:air_malachite"
+				}
+				{
+					id: "42E2DA3651F00AE4"
+					type: "item"
+					item: "stellarisdlc:attribute_scrap"
+					count: 3
+				}
+				{
+					id: "5204AAFC09E78D69"
+					type: "item"
+					item: "stellarisdlc:strangedirt"
+				}
+				{
+					id: "3A43C5F3E40D4226"
+					type: "item"
+					item: {
+						id: "epicfight:skillbook"
+						Count: 1b
+						tag: {
+							skill: "epicfight:death_harvest"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -5.0d
+			shape: "diamond"
+			dependencies: ["6BAB9E98ED3D0CB6"]
+			id: "21C355B40CD3DD9D"
+			tasks: [{
+				id: "64D0F275BA3FEEB2"
+				type: "item"
+				item: {
+					id: "stellarisdlc:withereye"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Tiered: {
+							Tier: "stellariscraft:common_tachi"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3871CDB68B7275C3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2688748745693820522L
+			}]
+		}
+		{
+			x: -22.5d
+			y: -4.0d
+			dependencies: ["293C2AABAABB28B8"]
+			id: "093CD54D4862B50E"
+			tasks: [{
+				id: "63B8513546FADD07"
+				type: "item"
+				item: {
+					id: "cataclysm:monstrous_helm"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5E73B30FF9EB582C"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2688748745693820522L
+			}]
+		}
+		{
+			x: -25.5d
+			y: -7.0d
+			shape: "diamond"
+			subtitle: "&a绿色的伤害才是魔改后的伤害"
+			description: [
+				"        &c知晓焰魔身上的秘密，释放这把武器真正的力量！"
+				"       &c本身不可附魔 能且只能继承“腐金大剑”的附魔"
+				"       &c（务必提前将“腐金大剑”附魔好在锻造升级）"
+			]
+			dependencies: ["72431516A526DDE5"]
+			size: 1.5d
+			id: "7B7333D50AD6DF97"
+			tasks: [{
+				id: "7FCA2684A2FD78EC"
+				type: "item"
+				item: "cataclysm:the_incinerator"
+			}]
+			rewards: [{
+				id: "746D9E2F32071A54"
+				type: "item"
+				item: "cataclysm:ignitium_ingot"
+			}]
+		}
+		{
+			title: "&2&l燃魂"
+			icon: "cataclysm:burning_ashes"
+			x: -19.5d
+			y: -7.0d
+			shape: "hexagon"
+			subtitle: "&a烈焰竞技场:burning_arena"
+			description: ["             &6直面&c&n“黑暗”&r&6，&c&n劈开&r&6这包裹着本质的“面纱”"]
+			dependencies: ["39BD604E24BAA419"]
+			size: 1.5d
+			id: "17AD4288AABA540A"
+			tasks: [{
+				id: "203891BE92487234"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "cataclysm:textures/items/blazing_bone.png"
+					}
+				}
+				entity: "cataclysm:ignited_revenant"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "2D2BCF6E2F93CB72"
+					type: "item"
+					item: "stellariscraft:adventurespar"
+				}
+				{
+					id: "22DDB660950AA94C"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+			]
+		}
+		{
+			title: "灵魂监牢：soul prison"
+			x: -16.0d
+			y: -10.5d
+			subtitle: "&3封存着恶魂的火球之力"
+			dependencies: ["39BD604E24BAA419"]
+			id: "55D229D580E5990D"
+			tasks: [{
+				id: "3A1E867FF188BF15"
+				type: "structure"
+				title: "灵魂监牢"
+				icon: "minecraft:soul_campfire"
+				structure: "dungeons_plus:soul_prison"
+			}]
+			rewards: [
+				{
+					id: "52B1015A9E2C5838"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 7421896030659922250L
+				}
+				{
+					id: "10CBE503AF20F467"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+			]
+		}
+		{
+			x: -19.5d
+			y: -1.0d
+			subtitle: "&6无限耐久的审镐！  记得配合冶炼厂和连锁采集附魔哦"
+			dependencies: ["293C2AABAABB28B8"]
+			id: "03D0F4C3D0F07FD2"
+			tasks: [{
+				id: "0A5C90595F39AF58"
+				type: "item"
+				item: {
+					id: "cataclysm:infernal_forge"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "25BB6B03A6FA431B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 7421896030659922250L
+			}]
+		}
+		{
+			x: -16.0d
+			y: -3.5d
+			subtitle: "&6“真正的”矿工乐事"
+			description: [
+				"&a锻炉可以通过特殊的宝石组合进行装备的加工"
+				"&a你也可以尝试使用&c&n原版锻造台&r&a对装备和宝石进行融合"
+			]
+			dependencies: ["39BD604E24BAA419"]
+			id: "54A81730756B4D9B"
+			tasks: [{
+				id: "2DA04E636AFCF954"
+				type: "advancement"
+				advancement: "miningmaster:miningmaster/cast_it_into_the_fire"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "76C84D8B856E2FDA"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 2688748745693820522L
+				}
+				{
+					id: "6AF630A8BE1A8491"
+					type: "item"
+					item: {
+						id: "minecraft:written_book"
+						Count: 1b
+						tag: {
+							filtered_title: "剧情：宝石锻造炉"
+							pages: ["{\"text\":\"\\\"成功制造出下界合金以后，我开始将目光投到那些我在冒险过程中发现的奇特宝石身上。我能感受到这些宝石蕴藏着的奇特能量，只可惜主世界的材料不足以支撑那么高的熔炼温度，以我现有的设备想要将它们用作武器装备的强化上显然是不太现实的。\\n对啊，下界的环境肯定能找到合适的石料作为熔炉的基底，我可以去收集一些测试它们的耐热度。\\\"\"}"]
+							title: "剧情：宝石锻造炉"
+							author: "_"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: 0.5d
+			description: ["&a采矿大师系列能提供不错的帮助，特殊的附魔也能对战斗提供更好的帮助"]
+			dependencies: ["54A81730756B4D9B"]
+			id: "24AA996342EC2EBF"
+			tasks: [{
+				id: "6CD1754A847F43C6"
+				type: "item"
+				item: {
+					id: "miningmaster:ultima_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 3s
+								id: "minecraft:fire_aspect"
+							}
+							{
+								lvl: 3s
+								id: "miningmaster:freezing"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:looting"
+							}
+							{
+								lvl: 1s
+								id: "miningmaster:leeching"
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "055843EA40ED4446"
+					type: "item"
+					item: "minecraft:experience_bottle"
+					count: 3
+				}
+				{
+					id: "23646B0064A1A33C"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 7421896030659922250L
+				}
+			]
+		}
+		{
+			x: -16.0d
+			y: 1.5d
+			dependencies: ["37DA1709A095FADC"]
+			id: "3D54BAAB3505E615"
+			tasks: [{
+				id: "0737AD882B9C58A1"
+				type: "item"
+				item: {
+					id: "miningmaster:ultima_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 5s
+								id: "minecraft:sharpness"
+							}
+							{
+								lvl: 5s
+								id: "minecraft:efficiency"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:knockback"
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "3B1F2AA326AFCA8A"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: -18.0d
+			y: 0.5d
+			subtitle: "&6我的审镐！"
+			dependencies: ["54A81730756B4D9B"]
+			id: "55D63DC49C51B15E"
+			tasks: [{
+				id: "3E5006C7D0DE66B8"
+				type: "item"
+				item: {
+					id: "miningmaster:ultima_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 6s
+								id: "minecraft:efficiency"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:fortune"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:unbreaking"
+							}
+							{
+								lvl: 1s
+								id: "miningmaster:smelting"
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7AD07114D846B8E1"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:silk_touch"
+							}]
+						}
+					}
+				}
+				{
+					id: "57CCC5FCFFB56D60"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 7421896030659922250L
+				}
+				{
+					id: "3D528E46FF7BA79F"
+					type: "item"
+				}
+			]
+		}
+		{
+			title: "&6宝石锻造大师"
+			x: -17.5d
+			y: 7.5d
+			subtitle: "&e装备表面流淌着奇妙的光芒，隐隐散发着微光……你闻到了赐福的味道"
+			description: ["为什么不问问神奇的图书管理员呢？"]
+			dependencies: ["49758ABF593A6E8B"]
+			id: "450A394B13E53512"
+			tasks: [{
+				id: "56E24D4544ED75D5"
+				type: "item"
+				item: {
+					id: "miningmaster:paragon_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 3s
+								id: "miningmaster:grace"
+							}
+							{
+								lvl: 1s
+								id: "miningmaster:heartfelt"
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3265F54F54AAD317"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "172E933FE5F49444"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 7421896030659922250L
+				}
+			]
+		}
+		{
+			title: "&6生命玫瑰石"
+			x: -17.5d
+			y: 3.5d
+			subtitle: "&b粉色矿石在蓝色雾气当中显露出来……握在手中有种莫名的充实感"
+			dependencies: ["37DA1709A095FADC"]
+			id: "15E4C8F5711167AE"
+			tasks: [{
+				id: "7511CF41034A6B78"
+				type: "item"
+				item: "miningmaster:heart_rhodonite"
+			}]
+			rewards: [{
+				id: "4E87F97E128EC5BC"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "&6动能蛋白石"
+			x: -16.0d
+			y: 3.5d
+			subtitle: "&b橙中透红的宝石……拥有与其大小不相称的斥力"
+			dependencies: ["37DA1709A095FADC"]
+			id: "5C50C9526CAAA579"
+			tasks: [{
+				id: "38DD67AFB83AC0FF"
+				type: "item"
+				item: "miningmaster:kinetic_opal"
+			}]
+			rewards: [{
+				id: "769C18BF1491FC89"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "&6力量黄铁矿"
+			x: -16.0d
+			y: -0.5d
+			subtitle: "&b质感像是更光滑的铁矿石，拿在手里似乎有力量在涌出"
+			dependencies: ["54A81730756B4D9B"]
+			id: "37DA1709A095FADC"
+			tasks: [{
+				id: "7FFE10613AEB518B"
+				type: "item"
+				item: "miningmaster:power_pyrite"
+			}]
+			rewards: [{
+				id: "5FD3557EAFF57C5A"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "&6超级生命石"
+			x: -16.0d
+			y: 5.5d
+			subtitle: "&b似乎融合了两种宝石的特性……"
+			dependencies: [
+				"5C50C9526CAAA579"
+				"15E4C8F5711167AE"
+				"7E368ACBB6380999"
+			]
+			id: "49758ABF593A6E8B"
+			tasks: [{
+				id: "1972913CE4C5AADA"
+				type: "item"
+				item: "stellariscraft:superhealth"
+			}]
+			rewards: [
+				{
+					id: "6A54CC1554BA8B9A"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "miningmaster:heartfelt"
+							}]
+						}
+					}
+				}
+				{
+					id: "2613B4B8D8C657AD"
+					type: "item"
+					item: "miningmaster:haste_peridot"
+				}
+			]
+		}
+		{
+			title: "&6浮空孔雀石"
+			x: -14.5d
+			y: 3.5d
+			subtitle: "&b像是异世界的来物，握持时感到身体变得轻盈……"
+			description: [
+				"&a可以赋予弓未知的力量……但代价似乎有些大"
+				"&a……固执的人总是拦不住的"
+			]
+			dependencies: ["37DA1709A095FADC"]
+			id: "7E368ACBB6380999"
+			tasks: [{
+				id: "2CFE5C60DA18C8F8"
+				type: "item"
+				item: "miningmaster:air_malachite"
+			}]
+			rewards: [{
+				id: "25068EF5807420E5"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "&3灵魂加农炮"
+			x: -16.0d
+			y: -14.5d
+			shape: "diamond"
+			subtitle: "&6Fire three holes！"
+			dependencies: ["55D229D580E5990D"]
+			id: "048E0DDCBA1FB1A9"
+			tasks: [{
+				id: "517A4010FEED3112"
+				type: "item"
+				item: {
+					id: "dungeons_plus:soul_cannon"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4DE060B4B85D6A52"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:multishot"
+							}]
+						}
+					}
+				}
+				{
+					id: "10FB9D9AD11834F6"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:flame"
+							}]
+						}
+					}
+				}
+				{
+					id: "185AFF58255159CE"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "minecraft:knockback"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: -10.5d
+			subtitle: "&6跑图佬狂喜"
+			dependencies: ["39BD604E24BAA419"]
+			id: "0C07633722640C71"
+			tasks: [{
+				id: "4B5E9A152F13CB10"
+				type: "advancement"
+				icon: {
+					id: "minecraft:netherite_boots"
+					Count: 1b
+					tag: {
+						RepairCost: 1
+						"quark:RuneAttached": 1b
+						Damage: 0
+						Enchantments: [{
+							lvl: 3s
+							id: "minecraft:unbreaking"
+						}]
+						"quark:RuneColor": {
+							id: "quark:purple_rune"
+							Count: 1b
+						}
+					}
+				}
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "2AB11452A29D9263"
+					type: "item"
+					item: "stellariscraft:adventurespar"
+					count: 3
+				}
+				{
+					id: "0D938D492D0A0B78"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -25.5d
+			y: -10.0d
+			shape: "diamond"
+			subtitle: "&6似乎与盾反机制有着不错的相性"
+			description: ["                         焰魔盾+深澜盾与史诗战斗兼容"]
+			dependencies: ["72431516A526DDE5"]
+			id: "71BF848AD569EB89"
+			tasks: [{
+				id: "1075953E5C8E1957"
+				type: "item"
+				item: "cataclysm:bulwark_of_the_flame"
+			}]
+			rewards: [{
+				id: "0D003427F9EBD6C3"
+				type: "item"
+				item: "cataclysm:burning_ashes"
+				count: 3
+			}]
+		}
+		{
+			title: "&6圣尊盾牌"
+			x: -14.5d
+			y: 7.5d
+			subtitle: "&b玩招架玩的"
+			dependencies: ["49758ABF593A6E8B"]
+			id: "2C334637C04249C7"
+			tasks: [{
+				id: "45D4762ECD7BC69D"
+				type: "item"
+				item: {
+					id: "shieldexp:paragon_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 3s
+							id: "minecraft:unbreaking"
+						}]
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "4A601E1EA0CBC92C"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			title: "&3&l击杀：4x凋灵"
+			icon: "minecraft:nether_star"
+			x: -4.0d
+			y: -7.0d
+			shape: "hexagon"
+			dependencies: ["0E76DB62CFF2359D"]
+			id: "6BAB9E98ED3D0CB6"
+			tasks: [{
+				id: "05AE215138371B4C"
+				type: "kill"
+				icon: "minecraft:wither_rose"
+				entity: "minecraft:wither"
+				value: 4L
+			}]
+			rewards: [
+				{
+					id: "37F3B322627EFD75"
+					type: "item"
+					item: "minecraft:totem_of_undying"
+					count: 4
+				}
+				{
+					id: "6144E2F8FB5E627A"
+					type: "item"
+					item: "stellariscraft:adventurespar"
+					count: 4
+				}
+				{
+					id: "2FFF83B7D6A9D8DB"
+					type: "item"
+					item: "bygonenether:wither_waltz_music_disc"
+				}
+				{
+					id: "2FB7B6A83682B652"
+					type: "item"
+					item: "miningmaster:air_malachite"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -9.0d
+			subtitle: "&e禁止套娃.jpg"
+			dependencies: ["6BAB9E98ED3D0CB6"]
+			id: "1D0E0634204AE553"
+			tasks: [{
+				id: "6F4E87BC4F521BF7"
+				type: "item"
+				item: "sophisticatedbackpacks:inception_upgrade"
+			}]
+			rewards: [{
+				id: "6C3B2083DBEC8CBE"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
+		}
+		{
+			x: -30.5d
+			y: -7.0d
+			shape: "diamond"
+			subtitle: "&e焰魔真正的力量！！！"
+			dependencies: ["3C04C8DF24F747D3"]
+			id: "73B3163A8A97D50C"
+			tasks: [{
+				id: "548D9DBDFEB8AC6C"
+				type: "item"
+				item: "stellarisdlc:ignisheart"
+			}]
+			rewards: [{
+				id: "64F3163C9633FA31"
+				type: "item"
+				item: "cataclysm:ignitium_ingot"
+				count: 3
+			}]
+		}
+		{
+			title: "焰魔套装"
+			x: -28.0d
+			y: -7.0d
+			shape: "diamond"
+			dependencies: ["7B7333D50AD6DF97"]
+			size: 1.5d
+			id: "3C04C8DF24F747D3"
+			tasks: [
+				{
+					id: "35DD1D7174073F6B"
+					type: "item"
+					item: {
+						id: "cataclysm:ignitium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "44BA8FA34BB92609"
+					type: "item"
+					item: {
+						id: "cataclysm:ignitium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "55117B4F827360A6"
+					type: "item"
+					item: {
+						id: "cataclysm:ignitium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "132093CB02993C12"
+					type: "item"
+					item: {
+						id: "cataclysm:ignitium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5EB636361C796DAA"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 2240263939124024074L
+				}
+				{
+					id: "4125D415D7022A1C"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 7421896030659922250L
+				}
+				{
+					id: "06DB1E4364EE563E"
+					type: "item"
+					item: "cataclysm:ignitium_ingot"
+				}
+			]
+		}
+		{
+			x: -22.5d
+			y: -1.0d
+			dependencies: ["03D0F4C3D0F07FD2"]
+			id: "5FAA29339DAAA5CB"
+			tasks: [{
+				id: "55B96C81A4BFB27E"
+				type: "item"
+				item: {
+					id: "stellarisdlc:groundcrackhammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Tiered: {
+							Tier: "stellariscraft:rare_axe"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -25.5d
+			y: -4.0d
+			dependencies: ["72431516A526DDE5"]
+			id: "6D5CD122E1A0DEF9"
+			tasks: [{
+				id: "4E21D3CF52E5FD75"
+				type: "item"
+				item: {
+					id: "stellarisdlc:phoenixspear"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				only_from_crafting: true
+			}]
+		}
+		{
+			icon: "bosses_of_mass_destruction:blazing_eye"
+			x: -11.375d
+			y: -7.0d
+			subtitle: "猜你在搜：&eGauntlet Arena"
+			description: ["&a史诗战斗能无视这家伙的机制！"]
+			dependencies: ["39BD604E24BAA419"]
+			size: 1.75d
+			id: "20758895B38195EA"
+			tasks: [{
+				id: "13DB63FE94FD7A88"
+				type: "kill"
+				icon: "bosses_of_mass_destruction:blazing_eye"
+				entity: "bosses_of_mass_destruction:gauntlet"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "4847C6637CAE5ABA"
+					type: "item"
+					item: "stellarisdlc:attribute_scrap"
+					count: 2
+				}
+				{
+					id: "773A709B5DB9E520"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

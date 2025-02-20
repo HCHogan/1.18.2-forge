@@ -1,0 +1,25 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:badlands",
+        "minecraft:eroded_badlands",
+        "minecraft:wooded_badlands",
+        "minecraft:desert",
+        "biomesoplenty:volcano",
+        "biomesoplenty:volcanic_plains",
+        "atmospheric:rocky_dunes",
+        "atmospheric:dunes",
+        "atmospheric:flourishing_dunes",
+        "atmospheric:petrified_dunes",
+        "#minecraft:is_jungle",
+    "#minecraft:is_forest",
+    "#minecraft:is_taiga",
+    "minecraft:desert",
+    "minecraft:windswept_hills",
+    "minecraft:snowy_plains",
+    "minecraft:sunflower_plains",
+    "minecraft:savanna",
+    "minecraft:savanna_plateau",
+    "minecraft:windswept_savanna"
+    ]
+}

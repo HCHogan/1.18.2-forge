@@ -1,0 +1,9 @@
+
+#MobGriefing settings
+[mobGriefing]
+	"ba_bt:ocean_golem" = "FALSE"
+	"ba_bt:core_golem" = "FALSE"
+	"ba_bt:nether_golem" = "FALSE"
+	"ba_bt:end_golem" = "FALSE"
+	"ba_bt:land_golem" = "FALSE"
+

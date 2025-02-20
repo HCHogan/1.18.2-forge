@@ -1,0 +1,25 @@
+{
+    "name": "虚空之花",
+    "icon": "bosses_of_mass_destruction:crystal_fruit",
+    "category": "patchouli:beast_strong",
+    "sortnum":11,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"虚空之花/void blossom",
+            "text": "据说在末地的终焉力量不断入侵主世界之时，原本平静的世界也被终焉力量不断侵染。诞生自地下深处的花朵意外接触到了末地终焉力量的感染，就这样植物变得极具侵略性，疯狂地生长体型变得巨大，根部诞生了坚硬的刺拒绝着一切的靠近，花瓣变得锋利可以切碎任何妄图靠近的生物。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/void_flower.png",
+            "text1":"源自终焉的怪诞之花",
+            "text2":""
+        },
+        {"type": "spotlight",
+        "title":"掉落物",
+        "item": "bosses_of_mass_destruction:void_thorn,bosses_of_mass_destruction:crystal_fruit,stellariscraft:adventurespar,bhc:red_heart,dotcoinmod:iron_coin,bhc:yellow_heart",
+        "text": "击杀后掉落$(br)虚空荆棘2个$(br)水晶果实2~3个$(br2)以下掉落物通过$(t:等级越高提高数量越多,下列为无附魔掉落数量)$(5)抢夺$()可增加数量$(br)冒险晶石、红心、银币1~2个$(br)黄心0个。"
+         }
+        
+    ]
+}

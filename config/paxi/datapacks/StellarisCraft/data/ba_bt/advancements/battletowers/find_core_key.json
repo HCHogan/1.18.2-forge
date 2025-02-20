@@ -1,0 +1,51 @@
+{
+  "parent": "ba_bt:battletowers/core_tower_found",
+  "display": {
+    "icon": {
+      "item": "ba_bt:monolith_key_core"
+    },
+    "title": {
+      "text": "这些不存在于主世界的力量...",
+      "color": "white",
+      "italic": true
+    },
+    "description": {
+      "text": "—找到一把炉心石碑之键",
+      "color": "green",
+      "italic": true
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "Acquire Key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "player": {
+            "advancements": {
+              "ba_bt:battletowers/core_tower_found": true
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "ba_bt:monolith_key_core"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "Acquire Key"
+    ]
+  ],
+  "rewards": {
+    "experience": 56
+  }
+}

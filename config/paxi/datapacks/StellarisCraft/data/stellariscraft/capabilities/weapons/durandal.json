@@ -1,0 +1,26 @@
+{"type": "longsword", "attributes": {
+	"two_hand":
+	{
+		"armor_negation":25.0,
+		"impact":2.5,
+		"speed_bonus": 0.13,
+		"damage_bonus": -4,
+		"max_strikes":2
+	},
+	"common": 
+		{
+			"armor_negation": 25.0, "max_strikes": 2, "impact":2.5, "speed_bonus": 0.13
+		},	
+		"ochs":
+		{
+			"armor_negation":30.0,
+			"impact":2.8,
+			"max_strikes":2,"speed_bonus": 0.13
+		}},
+		"collider":
+		{
+			"number": 3,
+			"center": [0.0, 0.0, -1.02],
+			"size": [0.4, 0.4, 1.0]
+		}
+}

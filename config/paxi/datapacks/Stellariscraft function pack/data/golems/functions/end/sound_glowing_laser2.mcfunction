@@ -1,0 +1,2 @@
+execute as @e[type=ba_bt:end_golem,sort=nearest,limit=1] at @s run execute as @e[type=minecraft:player,distance=..32] run playsound epicfight:sfx.buzz block @p ~ ~ ~ 2 1.5
+execute as @e[type=ba_bt:end_golem,sort=nearest,limit=1] at @s run effect give @s minecraft:glowing 2

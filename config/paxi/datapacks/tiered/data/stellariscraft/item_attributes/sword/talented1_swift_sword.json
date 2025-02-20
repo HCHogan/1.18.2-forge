@@ -1,0 +1,52 @@
+{
+  "id": "stellariscraft:talented1_swift_sword",
+  "weight": 5,
+  "reforge_experience_cost": 2,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:sword_minecraft"},
+    {"tag": "forge:sword_other_mods"},
+    {"tag": "forge:gauntlet"},
+    {"id":  "minecraft:trident"},
+    {"id":  "amethysttoolsmod:amethyst_trident"}
+  ],
+  "style": {
+    "color": "green"
+  },
+  "attributes": [
+    {
+      "type": "epicfight:staminar",
+      "modifier": {
+        "name": "stellariscraft:talented1_swift_sword",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.08
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "generic.movement_speed",
+      "modifier": {
+        "name": "stellariscraft:talented1_swift_sword",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.04
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "generic.attack_speed",
+      "modifier": {
+        "name": "stellariscraft:talented1_swift_sword",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.07
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+    "name": "遗迹",
+    "description": "三次的终焉战争之下无论是主世界、下界亦或者是终末都受到了巨大的摧残，昔日繁华的景象大多只剩下了混乱的废墟。在战争面前没有胜者与败者，只有幸存者罢了。",
+    "icon": "minecraft:cracked_stone_bricks",
+   "parent":"patchouli:make"
+}

@@ -1,0 +1,10 @@
+
+#MobGriefing settings
+[mobGriefing]
+	"isleofberk:triple_stryke" = "FALSE"
+	"isleofberk:zip_cloud" = "FALSE"
+	"isleofberk:zip_poison" = "FALSE"
+	"isleofberk:zippleback" = "FALSE"
+	"creeperoverhaul:beach_creeper" = "FALSE"
+	"creeperoverhaul:mushroom_creeper" = "FALSE"
+

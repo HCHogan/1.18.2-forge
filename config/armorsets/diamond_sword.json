@@ -1,0 +1,27 @@
+{
+  "armorSetName": "diamond_sword",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "minecraft:diamond_sword"
+    },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 1.0,
+      "attributeOperation": 0,
+      "modifierUUID": "1bbe9868-23f2-400e-a017-c71e5e7f0fd2",
+      "hideBonusDescription": true,
+      "description": "+1 attack damage" 
+    },
+    {
+      "type": "attribute",
+      "name": "epicfight:armor_negation",
+      "value": 8,
+      "attributeOperation": 0,
+      "modifierUUID": "1bbe9868-23f2-400e-a017-c71e5e7f0fd2",
+      "description": "+8% armor_negation (EpicFight)" 
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

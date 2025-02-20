@@ -1,0 +1,17 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[
+{"item":"quark:diamond_heart"},
+{"item":"miningmaster:fire_ruby_block"},
+{"item":"cataclysm:ignitium_ingot"},
+{"item":"artifacts:fire_gauntlet"},
+{"item":"artifacts:golden_hook"},
+{"item":"artifacts:power_glove"},
+{"item":"cataclysm:enderite_ingot"},
+{"item":"byg:ametrine_block"},
+{"item":"quark:diamond_heart"}
+],
+"catalyst":{"item":"stellarisdlc:exchangestonecore"},
+"result":{"item":"stellarisdlc:goldendragonclaw"},
+"enchantments":[]
+}

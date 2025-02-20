@@ -1,0 +1,99 @@
+{
+  "armorSetName": "evidence_star",
+  "performanceMode": true,
+
+  "additionalSetPieces":[
+    {
+    "itemKey": "stellarisdlc:evidencestar",
+    "mustBeEmpty": false
+  }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "epicfight:armor_negation",
+      "value": 100,
+      "attributeOperation": 0,
+      "modifierUUID": "f565f966-1df2-4907-851b-ede6eeab87e0",
+      "description": "evidence_star_dimension",
+      "conditions": [
+        {
+          "type": "inDimension",
+          "extra": "blue_skies:everbright"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "epicfight:offhand_armor_negation",
+      "value": 100,
+      "attributeOperation": 0,
+      "hideBonusDescription": true,
+      "modifierUUID": "f565f966-1df2-4907-851b-ede6eeab87e0",
+      "description": "+100% offhand_armor_negation",
+      "conditions": [
+        {
+          "type": "inDimension",
+          "extra": "blue_skies:everbright"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "epicfight:armor_negation",
+      "value": 100,
+      "attributeOperation": 0,
+      "hideBonusDescription": true,
+      "modifierUUID": "58eb17d3-33d9-441d-bffc-a501d6dd3f8e",
+      "description": "evidence_star_everdawn",
+      "conditions": [
+        {
+          "type": "inDimension",
+          "extra": "blue_skies:everdawn"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "epicfight:offhand_armor_negation",
+      "value": 100,
+      "attributeOperation": 0,
+      "hideBonusDescription": true,
+      "modifierUUID": "58eb17d3-33d9-441d-bffc-a501d6dd3f8e",
+      "description": "+100% offhand_armor_negation",
+      "conditions": [
+        {
+          "type": "inDimension",
+          "extra": "blue_skies:everdawn"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "epicfight:offhand_impact",
+      "value": 0.35,
+      "attributeOperation": 0,
+      "modifierUUID": "58eb17d3-33d9-441d-bffc-a501d6dd3f8e",
+      "description": "evidence_star_attribute" 
+    },
+    {
+      "type": "attribute",
+      "name": "epicfight:impact",
+      "value": 0.35,
+      "attributeOperation": 0,
+      "hideBonusDescription": true,
+      "modifierUUID": "58eb17d3-33d9-441d-bffc-a501d6dd3f8e"
+    },
+    {
+      "type": "attribute",
+      "name": "epicfight:staminar",
+      "value": 2,
+      "attributeOperation": 0,
+      "hideBonusDescription": true,
+      "modifierUUID": "58eb17d3-33d9-441d-bffc-a501d6dd3f8e"
+    }
+
+  ],
+
+  "hideGeneratedTooltip": false
+}

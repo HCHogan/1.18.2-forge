@@ -1,0 +1,19 @@
+{
+    "name": "海盗船",
+    "icon": "byg:witch_hazel_boat",
+    "category": "patchouli:buildings",
+    "sortnum":0,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"海盗船/pirate_ship",
+            "text": "灾厄势力也尝试过在海上发展，他们会打劫路过的船只，抢夺钱财。不过由于灾厄势力的独特权力构成，他们很少靠岸上交钱财给部落，更多的是化为己用，因此每个船上都有着不少的之前玩意。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/pirate_ship.png",
+            "text1":"危机四伏",
+            "text2":""
+        }
+    ]
+}

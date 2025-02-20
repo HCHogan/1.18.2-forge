@@ -1,0 +1,11 @@
+{
+	"attributes":
+	{
+		"two_hand":
+		{
+			"impact":0.5,
+			"max_strikes":4
+		}
+	},
+	"type":"wukong:wk_staff"
+}

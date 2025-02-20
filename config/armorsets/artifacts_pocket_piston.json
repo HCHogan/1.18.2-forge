@@ -1,0 +1,29 @@
+{  "armorSetName": "pocket_piston",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+    "itemKey": "artifacts:pocket_piston"
+    }
+],
+
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "epicfight:impact",
+      "value": 0.35,
+      "attributeOperation": 0,
+      "modifierUUID": "1a872567-f9e1-4d06-b636-1029b8986dad",
+      "description": "+0.35 impact (EpicFight)"
+    },
+    {
+      "type": "attribute",
+      "name": "epicfight:offhand_impact",
+      "value": 0.35,
+      "attributeOperation": 0,
+      "modifierUUID": "1a872567-f9e1-4d06-b636-1029b8986dad",
+      "hideBonusDescription": true,
+      "description": "+0.35 offhand_impact (EpicFight)"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

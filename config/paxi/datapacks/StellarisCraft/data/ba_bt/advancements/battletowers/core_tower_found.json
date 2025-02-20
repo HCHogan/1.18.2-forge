@@ -1,0 +1,44 @@
+{
+  "parent": "ba_bt:battletowers/battle_tower",
+  "display": {
+    "icon": {
+      "item": "minecraft:chiseled_deepslate"
+    },
+    "title": {
+      "text": "直达地心",
+      "color": "white"
+    },
+    "description": {
+      "text": "—主世界与地狱的连接口",
+      "color": "green",
+      "italic": true
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "Find core Tower": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "advancements": {
+            "ba_bt:battletowers/ocean_tower_found": true
+          }
+        },
+        "location": {
+          "feature": "stellariscraft:core_tower"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "Find core Tower"
+    ]
+  ],
+  "rewards": {
+    "experience": 56
+  }
+}

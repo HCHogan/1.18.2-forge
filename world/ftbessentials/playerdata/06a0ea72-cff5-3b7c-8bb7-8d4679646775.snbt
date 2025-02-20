@@ -1,0 +1,24 @@
+{
+	muted: false
+	fly: false
+	god: false
+	nick: ""
+	name: "HankCH"
+	last_seen: { dim: "minecraft:overworld", x: 632, y: 108, z: 2587, time: 1739952617975L, xRot: 20.3406f, yRot: -116.7251f }
+	recording: 0
+	teleport_history: [
+		{ dim: "stellariscraft:parena", x: -13, y: 97, z: 32, time: 1739949573882L, xRot: 23.666176f, yRot: -153.43835f }
+		{ dim: "minecraft:overworld", x: -8, y: 106, z: 3, time: 1739949579147L, xRot: 0.0f, yRot: 0.0f }
+		{ dim: "minecraft:overworld", x: -1, y: 125, z: -5, time: 1739949614088L, xRot: 15.590628f, yRot: 111.223175f }
+		{ dim: "minecraft:overworld", x: 639, y: 108, z: 2585, time: 1739950053708L, xRot: 22.208908f, yRot: 139.81787f }
+		{ dim: "minecraft:overworld", x: 917, y: 150, z: 2629, time: 1739950612153L, xRot: 64.28775f, yRot: -30.197632f }
+		{ dim: "minecraft:overworld", x: 9, y: 123, z: -10, time: 1739950616052L, xRot: 0.0f, yRot: 0.0f }
+		{ dim: "minecraft:overworld", x: 911, y: 149, z: 2633, time: 1739950686478L, xRot: 14.173332f, yRot: -15.487701f }
+		{ dim: "minecraft:overworld", x: 10, y: 97, z: 9, time: 1739950690991L, xRot: 0.17120956f, yRot: 0.32101792f }
+		{ dim: "minecraft:overworld", x: 891, y: 157, z: 2612, time: 1739950774533L, xRot: 3.3477404f, yRot: -84.6626f }
+		{ dim: "minecraft:overworld", x: 632, y: 108, z: 2586, time: 1739952576378L, xRot: 20.3406f, yRot: -116.7251f }
+	]
+	homes: {
+		home: { dim: "minecraft:overworld", x: 651, y: 111, z: 2591, time: 1739945477911L, xRot: 21.502645f, yRot: 110.779884f }
+	}
+}

@@ -1,0 +1,43 @@
+{
+    "name": "农业革新",
+    "icon": "minecraft:farmland",
+    "category": "patchouli:craft",
+"sortnum": 8,
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "sereneseasons:calendar",
+            "recipe2": "sereneseasons:season_sensor"
+        },
+        {
+            "type": "spotlight",
+            "item": "minecraft:glass",
+            "text":"植物的种植需要对应的季节否则生长极其缓慢，当然也可以通过制作温室让其反季节生长。终焉的入侵之后由于魔力的渗透几乎所有的玻璃都有着制作温室的能力。一块玻璃下方$(t:16格范围)$(5)一定范围内都有着温室$()的效果，同时温室也可以阻止杂草的生长。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "farmingforblockheads:red_fertilizer",
+            "recipe2": "farmingforblockheads:green_fertilizer"
+        },
+        {
+            "type": "crafting",
+            "recipe": "farmingforblockheads:yellow_fertilizer",
+            "text":"三次的终焉大战人类的数量锐减，仅有的农民设计了这种优质肥料来提高生产效率。$(br2)一块耕地只能使用两次堆肥，也可以同一种堆肥使用两次，除了黄色堆肥，其中红色与绿色堆肥无法同时施在一块耕地。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "farmingforblockheads:feeding_trough",
+            "text":"饲料槽的出现可以有效减少养殖所需的人员，$(t:8格范围内)$(5)一定范围内$()的生物可以自行食用期内的食物自行繁殖至$(t:目前同种生物最多8只)$(5)固定的最大数目$()"
+        },
+        {
+            "type": "crafting",
+            "recipe": "farmingforblockheads:chicken_nest",
+            "text":"良好的鸡窝可以吸引鸡自行在这里进行产卵。不过鸡窝由于其构造原因只能供给$(t:目前设计为8格半径内)$(5)可接受的范围内$()的鸡蛋"
+        },
+        {
+            "type": "crafting",
+            "recipe": "farmingforblockheads:market",
+            "text":"小市场是大部分农民之间的贸易站点，这里可以买到多种树苗、种子、种植养殖用的杂货、也可以有着独特的农家美食。"
+        }
+      ]
+}

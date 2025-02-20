@@ -1,0 +1,26 @@
+{
+    "name": "末影守卫",
+    "icon": "cataclysm:void_core",
+    "category": "patchouli:beast_strong",
+    "sortnum":10,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"末影守卫/ruined citadel",
+            "text": "末地中早已失踪的古老文明创造的守卫者，最初是为了保护文明不受伤害而制作。如今，所需要守护之种族已经灭绝，而守护者能做的只有保卫文明最后的能源核心。时间的无限冲刷下，实力已经远不如当初，可是为了文明存在过的证据，它仍然会击退所有妄图接近的物种。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/ender_guardian.png",
+            "text1":"消逝的文明",
+            "text2":""
+        },
+    
+        {"type": "spotlight",
+        "title":"掉落物",
+        "item": "cataclysm:void_core",
+        "text": "击杀后掉落$(br)虚空核心1个$(br2)可以通过配置$(t:等级越高提高量越多,书中为无抢夺掉落量)$(5)抢夺$()附魔提高掉落量。"
+         }
+        
+    ]
+}

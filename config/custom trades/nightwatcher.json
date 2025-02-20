@@ -1,0 +1,87 @@
+{
+  "profession": "blue_skies:nightwatcher",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "blue_skies:aquite",
+        "amount": 2
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 3
+      },
+      "tradeExp": 10,
+      "maxUses": 20,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "blue_skies:nightwatcher_aquite_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:pyrope_gem",
+        "amount": 2
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 3
+      },
+      "tradeExp": 10,
+      "maxUses": 20,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "blue_skies:nightwatcher_pyrope_gem_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:horizonite_ingot",
+        "amount": 2
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 3
+      },
+      "tradeExp": 10,
+      "maxUses": 20,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "blue_skies:nightwatcher_horizonite_ingot_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:falsite_ingot",
+        "amount": 2
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 3
+      },
+      "tradeExp": 10,
+      "maxUses": 20,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "blue_skies:nightwatcher_falsite_ingot_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:diopside_gem",
+        "amount": 2
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 3
+      },
+      "tradeExp": 10,
+      "maxUses": 20,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "blue_skies:nightwatcher_diopside_gem_for_copper_coin"
+    }
+  ]
+}

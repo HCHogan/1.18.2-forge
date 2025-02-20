@@ -1,0 +1,16 @@
+{
+  "type": "nock_enough_arrows:fletching",
+  "fletching": {
+    "item": "minecraft:arrow"
+  },
+  "shaft": {
+    "item": "amethysttoolsmod:amethyst_dust"
+  },
+  "arrowhead": {
+    "item": "minecraft:arrow"
+  },
+  "result": {
+    "item": "amethysttoolsmod:amethyst_arrow",
+    "count": 2
+  }
+}

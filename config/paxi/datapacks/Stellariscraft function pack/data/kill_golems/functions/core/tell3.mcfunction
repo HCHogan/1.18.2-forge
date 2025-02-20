@@ -1,0 +1,1 @@
+title @p[tag=kill_core] title [{"text":"无知   无畏   无惧","color":"gold"}]

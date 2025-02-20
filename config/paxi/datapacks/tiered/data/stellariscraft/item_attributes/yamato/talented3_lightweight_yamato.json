@@ -1,0 +1,37 @@
+{
+  "id": "stellariscraft:talented3_lightweight_yamato",
+  "weight": 5,
+  "reforge_experience_cost": 2,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:yamato"}
+  ],
+  "style": {
+    "color": "green"
+  },
+  "attributes": [
+    {
+      "type": "toybox:crit_damage",
+      "modifier": {
+        "name": "stellariscraft:talented3_lightweight_yamato",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.1
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "toybox:burden",
+      "modifier": {
+        "name": "stellariscraft:talented3_lightweight_yamato",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.44
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

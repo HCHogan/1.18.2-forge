@@ -1,0 +1,7 @@
+
+#MobGriefing settings
+[mobGriefing]
+	"creeperoverhaul:jungle_creeper" = "FALSE"
+	"creeperoverhaul:spruce_creeper" = "FALSE"
+	"creeperoverhaul:swamp_creeper" = "FALSE"
+

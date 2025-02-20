@@ -1,0 +1,15 @@
+{
+  "armorSetName": "ring_wither",
+  "performanceMode": false,
+  "offHand": {
+    "itemKey": "ringsofascension:ring_wither"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:wither",
+      "interactionType": "immunity"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

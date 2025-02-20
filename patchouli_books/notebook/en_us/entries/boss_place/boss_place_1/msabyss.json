@@ -1,0 +1,29 @@
+{
+    "name": "晨星之渊",
+    "icon": "stellarisdlc:evidenceskies_2",
+    "category": "patchouli:boss_place_1",
+    "sortnum":6,
+    "pages": [
+        {
+           "type": "T1",
+            "title":"晨星之渊",
+            "text": "星云之间的剑士，探索团的创立者之一，在一场与毁灭星的战役胜利后失踪，据说喵纸与他的关系相当不错，但是喵纸本人已经隐居故无人得知他的出生与派系，也无从得知正确的召唤祭品，拙劣的召唤术只能唤其幻影，而其幻影持有的$(#ff0000)星辰核心$()也不过只是赝品。"
+        },
+        {"type": "png_teach",
+        "image":"stellarisdlc:textures/png/msabyss.png",
+        "text1":"晨星之渊",
+        "text2":""
+    },
+        {"type": "spotlight",
+        "title":"召唤材料",
+        "item": "blue_skies:horizonite_ingot,blue_skies:diopside_gem,blue_skies:ventium_ingot",
+        "text": "镰鼬铁锭x1$(br)炙铁x1$(br)透辉石x1$(br)最后加入$(1)$(l:boss_place/boss_summon/imessence)往生精华$()$()"
+         },
+         {"type": "spotlight",
+        "title":"特殊掉落物：星辰核心",
+        "item": "stellariscraft:starcore",
+        "link_recipe":true,
+        "text": "哪怕是仿制品扔残存着星云的少许力量，终末的虚无之门也承认这赝品的价值。当然，就算仅仅是赝品也足够去制作源自终末的末影核心。$(br2)晨星之渊掉落1个$(br2)可以通过配置$(t:等级越高提高量越多,书中为无抢夺掉落量)$(5)抢夺$()附魔提高掉落量。"
+         }
+    ]
+}

@@ -1,0 +1,1 @@
+execute as @e[type=jobinsmobs:slaughtergeneralh,sort=nearest,limit=1] at @s run indestructible @s play "epicfight:biped/combat/hit_long" 0 1

@@ -1,0 +1,21 @@
+{
+	id: "3005C1407F88A060"
+	order_index: 13
+	title: "凋零破坏自选指令"
+	icon: "minecraft:wither_skeleton_skull"
+	loot_size: 1
+	rewards: [
+		{
+			title: "开启凋零破坏"
+			command: "/gamerule mobGriefingWither true"
+			player_command: false
+			type: "command"
+		}
+		{
+			title: "关闭凋零破坏"
+			command: "/gamerule mobGriefingWither false"
+			player_command: false
+			type: "command"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[
+{"item":"minecraft:leather_boots"},
+{"item":"minecraft:rabbit_foot"},
+{"item":"miningmaster:kinetic_opal"},
+{"item":"minecraft:rabbit_foot"},
+{"item":"minecraft:leather_boots"}],
+"catalyst":{"item":"stellariscraft:exchangestone"},
+"result":{"item":"artifacts:bunny_hoppers"},
+"enchantments":[]
+}

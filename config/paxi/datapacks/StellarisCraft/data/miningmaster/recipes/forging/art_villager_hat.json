@@ -1,0 +1,15 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[{"item":"minecraft:emerald_block"},
+{"item":"minecraft:emerald_block"},
+{"item":"minecraft:emerald_block"},
+{"item":"minecraft:emerald_block"},
+{"item":"quark:forgotten_hat"},
+{"item":"minecraft:emerald_block"},
+{"item":"minecraft:emerald_block"},
+{"item":"minecraft:emerald_block"},
+{"item":"minecraft:emerald_block"}],
+"catalyst":{"item":"stellariscraft:exchangestone"},
+"result":{"item":"artifacts:villager_hat"},
+"enchantments":[]
+}

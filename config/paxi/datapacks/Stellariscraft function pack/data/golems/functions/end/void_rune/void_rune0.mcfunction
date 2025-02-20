@@ -1,0 +1,1 @@
+execute as @p at @s run summon cataclysm:void_rune ~ ~ ~

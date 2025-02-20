@@ -1,0 +1,40 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:cow",
+    "minecraft:sheep",
+    "minecraft:pig",
+    "minecraft:goat",
+    {"id":"alexsmobs:crocodile","required":false},
+    {"id":"alexsmobs:endergrade","required":false},
+    {"id":"alexsmobs:gazelle","required":false},
+    {"id":"alexsmobs:gorilla","required":false},
+    {"id":"alexsmobs:komodo_dragon","required":false},
+    {"id":"alexsmobs:raccoon","required":false},
+    {"id":"alexsmobs:seal","required":false},
+    {"id":"alexsmobs:warped_toad","required":false},
+    {"id":"eanimod:enhanced_sheep","required":false},
+    {"id":"eanimod:enhanced_cow","required":false},
+    {"id":"eanimod:enhanced_llama","required":false},
+    {"id":"eanimod:enhanced_pig","required":false},
+    {"id":"eanimod:enhanced_mooshroom","required":false},
+
+    {"id":"cnb:sporeling","required":false},
+
+    {"id":"isleofberk:deadly_nadder","required":false},
+    {"id":"isleofberk:gronckle","required":false},
+    {"id":"isleofberk:light_fury","required":false},
+    {"id":"isleofberk:monstrous_nightmare","required":false},
+    {"id":"isleofberk:night_fury","required":false},
+    {"id":"isleofberk:night_light","required":false},
+    {"id":"isleofberk:skrill","required":false},
+    {"id":"isleofberk:speed_stinger_leader","required":false},
+    {"id":"isleofberk:speed_stinger","required":false},
+    {"id":"isleofberk:stinger","required":false},
+    {"id":"isleofberk:terrible_terror","required":false},
+    {"id":"isleofberk:triple_stryke","required":false},
+    {"id":"isleofberk:zippleback","required":false},
+    {"id":"ragnagoblin:ragna_goblin","required":false}
+  ]
+}
+

@@ -1,0 +1,15 @@
+{
+    "structures": [
+        {
+            "structure":"stellariscraft:core_tower",
+            "weight":1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        " frequency_reduction_method":"legacy_type_3",
+        "spacing": 135,
+        "separation": 100,
+        "salt": 994918022
+    }
+}

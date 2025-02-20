@@ -1,0 +1,87 @@
+{
+    "replace": true,
+    "trades": [
+      {
+        "type": "goblintraders:basic",
+        "offer_item": {
+          "item": "dotcoinmod:copper_coin",
+          "count": 3
+        },
+        "payment_item": {
+          "item": "minecraft:magma_block",
+          "count": 32
+        },
+        "max_trades": 16,
+        "experience": 3
+      },
+      {
+        "type": "goblintraders:basic",
+        "offer_item": {
+          "item": "dotcoinmod:iron_coin",
+          "count": 2
+        },
+        "payment_item": {
+          "item": "byg:pendorite_ingot",
+          "count": 8
+        },
+        "max_trades": 3,
+        "experience": 20
+      },
+
+      {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "minecraft:crying_obsidian",
+              "count": 4
+            },
+            "payment_item": {
+              "item": "minecraft:obsidian",
+              "count": 4
+            },
+            "secondary_payment_item": {
+              "item": "biomesoplenty:blackstone_bulb",
+              "count": 1
+            },
+            "max_trades": 16,
+            "experience": 10
+          },
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "bygonenether:soul_stone",
+              "count": 4
+            },
+            "payment_item": {
+              "item": "minecraft:soul_sand",
+              "count": 4
+            },
+            "secondary_payment_item": {
+              "item": "minecraft:soul_campfire",
+              "count": 1
+            },
+            "price_multiplier": 0.0,
+            "max_trades": 32,
+            "experience": 10
+          },
+
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "miningmaster:spirit_garnet",
+              "count": 2
+            },
+            "payment_item": {
+              "item": "biomesoplenty:rose_quartz_shard",
+              "count": 64
+            },
+            "secondary_payment_item": {
+              "item": "bygonenether:soul_stone",
+              "count": 1
+            },
+            "price_multiplier": 0.0,
+            "max_trades": 8,
+            "experience": 30
+          }
+
+        ]
+      }

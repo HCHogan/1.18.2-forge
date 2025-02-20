@@ -1,0 +1,1 @@
+title @p[tag=kill_end] title [{"text":"人类......从不会吸取教训","color":"light_purple"}]

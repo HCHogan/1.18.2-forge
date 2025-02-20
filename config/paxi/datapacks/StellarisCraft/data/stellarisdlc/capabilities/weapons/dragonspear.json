@@ -1,0 +1,20 @@
+{"type": "spear", "attributes": {
+		"one_hand":
+		{
+			"armor_negation":40.0,
+			"impact":2.8,
+			"max_strikes":1,
+			"damage_bonus": 0,
+			"speed_bonus":0.1
+		},
+		"two_hand":
+		{
+			"armor_negation":54.0,
+			"impact":2.9,
+			"max_strikes":3,
+			"damage_bonus": 0,
+			"speed_bonus":0.15
+		}
+	}
+}
+

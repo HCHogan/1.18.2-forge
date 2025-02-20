@@ -1,0 +1,1 @@
+execute at @e[type=ba_bt:nether_golem,sort=nearest,limit=1] run playsound cataclysm:flame_burst block @p ~ ~ ~ 2

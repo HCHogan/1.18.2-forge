@@ -1,0 +1,26 @@
+{
+  "id": "stellariscraft:common_tachi",
+  "weight": 7,
+  "reforge_experience_cost": 1,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:forgedspar",
+  "verifiers": [
+    {"tag": "forge:tachi"}
+  ],
+  "style": {
+    "color": "grey"
+  },
+  "attributes": [
+    {
+      "type": "minecraft:generic.max_health",
+      "modifier": {
+        "name": "stellariscraft:common_tachi",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.04
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

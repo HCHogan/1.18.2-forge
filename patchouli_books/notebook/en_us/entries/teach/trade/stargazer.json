@@ -1,0 +1,46 @@
+{
+    "name": "观星者(星辰放射台)",
+    "icon": "blue_skies:star_emitter",
+    "category": "patchouli:trade",
+    "sortnum":1,
+    "pages": [
+{"type":"trade1",
+ "head":"村民等级:新手",
+ "item1":"dotcoinmod:copper_coin#15",
+ "item2":"minecraft:air",
+ "item3":"blue_skies:moonstone_lantern#5",
+ "text1":"10次"
+ 
+},
+{"type":"trade1",
+ "head":"村民等级:学徒",
+ "item1":"blue_skies:moonstone_lantern#10",
+ "item2":"dotcoinmod:iron_coin#4",
+ "item3":"isleofberk:skrill_egg",
+ "text1":"1次"
+},
+{"type":"trade1",
+ "head":"村民等级:老手",
+ "item1":"blue_skies:moonstone_lantern#10",
+ "item2":"dotcoinmod:gold_coin#3",
+ "item3":"cnb:sporeling_overworld_egg",
+ "text1":"1次"
+},
+{"type":"trade1",
+ "head":"村民等级:专家",
+ "item1":"blue_skies:moonstone_lantern#10",
+ "item2":"dotcoinmod:gold_coin",
+ "item3":"cnb:end_whale_spawn_egg",
+ "text1":"1次"
+ 
+},
+{"type":"trade1",
+ "head":"村民等级:大师",
+ "item1":"dotcoinmod:gold_coin",
+ "item2":"minecraft:air",
+ "item3":"blue_skies:astrolabe",
+ "text1":"1次"
+}
+
+    ]
+}

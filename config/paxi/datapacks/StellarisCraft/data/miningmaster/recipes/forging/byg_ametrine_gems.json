@@ -1,0 +1,17 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[
+{"item":"stellariscraft:steelingot"},
+{"item":"stellariscraft:steelingot"},
+{"item":"stellariscraft:steelingot"},
+{"item":"mowziesmobs:sol_visage"},
+{"item":"mowziesmobs:wrought_helmet"},
+{"item":"mowziesmobs:ice_crystal"},
+{"item":"stellariscraft:steelingot"},
+{"item":"stellariscraft:steelingot"},
+{"item":"stellariscraft:steelingot"}
+],
+"catalyst":{"item":"ba_bt:guardian_eye_core"},
+"result":{"item":"byg:ametrine_block"},
+"enchantments":[]
+}

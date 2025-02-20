@@ -1,0 +1,23 @@
+{
+  "armorSetName": "evidence_skies2",
+  "performanceMode": true,
+
+  "additionalSetPieces":[
+    {
+    "itemKey": "stellarisdlc:evidenceskies_2",
+    "mustBeEmpty": false
+  }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "epicfight:staminar",
+      "value": 4,
+      "attributeOperation": 0,
+      "modifierUUID": "822fedd4-6893-40d8-b0b6-ce81e8517619",
+      "description": "+4 stamina (Epic Fight)"    
+    }
+
+  ],
+  "hideGeneratedTooltip": false
+}

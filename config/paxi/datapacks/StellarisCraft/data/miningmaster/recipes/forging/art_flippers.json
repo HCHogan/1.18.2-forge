@@ -1,0 +1,15 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[{"item":"minecraft:lapis_lazuli"},
+{"item":"aquaculture:neptunium_ingot"},
+{"item":"minecraft:lapis_lazuli"},
+{"item":"aquaculture:neptunium_nugget"},
+{"item":"minecraft:heart_of_the_sea"},
+{"item":"aquaculture:neptunium_nugget"},
+{"item":"minecraft:lapis_lazuli"},
+{"item":"aquaculture:neptunium_ingot"},
+{"item":"minecraft:lapis_lazuli"}],
+"catalyst":{"item":"stellariscraft:exchangestone"},
+"result":{"item":"artifacts:flippers"},
+"enchantments":[]
+}

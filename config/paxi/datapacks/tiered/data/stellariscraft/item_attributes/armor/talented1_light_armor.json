@@ -1,0 +1,40 @@
+{
+  "id": "stellariscraft:talented1_light_armor",
+  "weight": 3,
+  "reforge_experience_cost": 2,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:chestplates"},
+    {"tag": "forge:leggings"}
+  ],
+  "style": {
+    "color": "green"
+  },
+  "attributes": [
+    {
+      "type": "generic.movement_speed",
+      "modifier": {
+        "name": "stellariscraft:talented1_light_armor",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.02
+      },
+      "optional_equipment_slots": [
+        "LEGS",
+        "CHEST"
+      ]
+    },
+   {
+      "type": "epicfight:weight",
+      "modifier": {
+        "name": "stellariscraft:talented1_light_armor",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": -0.04
+      },
+      "optional_equipment_slots": [
+        "LEGS",
+        "CHEST"
+      ]
+    }
+  ]
+}

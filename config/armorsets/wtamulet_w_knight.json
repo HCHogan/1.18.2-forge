@@ -1,0 +1,46 @@
+{
+  "armorSetName": "wtamulet_w_knight",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "stellarisdlc:w_tknight_armor_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "stellarisdlc:w_tknight_armor_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "stellarisdlc:w_tknight_armor_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "stellarisdlc:w_tknight_armor_boots",
+    "mustBeEmpty": false
+  },
+  "additionalSetPieces":[
+    {
+    "itemKey": "stellarisdlc:wtamulet",
+    "mustBeEmpty": false
+  }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:absorption",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 160,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "epicfight:staminar",
+      "value": 3,
+      "attributeOperation": 0,
+      "modifierUUID": "ef0d00ca-11ec-4360-a67f-a145fe19c787",
+      "description": "+3 staminar (Epic Fight)"    
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

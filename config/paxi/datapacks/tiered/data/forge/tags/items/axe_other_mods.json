@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "blue_skies:turquoise_stone_axe",
+    "blue_skies:lunar_stone_axe",
+    "blue_skies:pyrope_axe",
+    "blue_skies:aquite_axe",
+    "blue_skies:diopside_axe",
+    "blue_skies:charoite_axe",
+    "blue_skies:horizonite_axe",
+    "aquaculture:neptunium_axe",
+    "byg:pendorite_axe",
+    "byg:pendorite_battleaxe",
+    "miningmaster:power_pyrite_axe",
+    "miningmaster:ultima_axe",
+    "omnis:ravaged_battle_axe",
+    "omnis:vindicator_axe",
+    "omnis:haunted_battle_axe",
+    "omnis:haunted_vindicator_axe",
+    
+    "amethysttoolsmod:iron_axe_amethyst",
+    "amethysttoolsmod:diamond_axe_amethyst",
+    "amethysttoolsmod:netherite_axe_amethyst",
+
+    "stellariscraft:bonemallet",
+    "stellariscraft:voidaxe",
+    "dungeons_plus:warped_axe"
+  ]
+}

@@ -1,0 +1,17 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[
+{"item":"byg:ametrine_block"},
+{"item":"cataclysm:ignitium_ingot"},
+{"item":"cataclysm:void_core"},
+{"item":"quark:dragon_scale"},
+{"item":"minecraft:dragon_head"},
+{"item":"quark:dragon_scale"},
+{"item":"cataclysm:void_core"},
+{"item":"cataclysm:ignitium_ingot"},
+{"item":"byg:ametrine_block"}
+],
+"catalyst":{"item":"ba_bt:guardian_eye_end"},
+"result":{"item":"cataclysm:enderite_ingot"},
+"enchantments":[]
+}

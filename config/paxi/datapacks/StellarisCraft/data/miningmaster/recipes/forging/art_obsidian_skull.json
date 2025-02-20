@@ -1,0 +1,11 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[{"item":"minecraft:obsidian"},
+{"item":"minecraft:crying_obsidian"},
+{"item":"miningmaster:fire_ruby"},
+{"item":"minecraft:crying_obsidian"},
+{"item":"minecraft:obsidian"}],
+"catalyst":{"item":"stellariscraft:exchangestone"},
+"result":{"item":"artifacts:obsidian_skull"},
+"enchantments":[]
+}

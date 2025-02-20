@@ -1,0 +1,161 @@
+{
+  "profession": "minecraft:fisherman",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "alexsmobs:flying_fish",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 1
+      },
+      "tradeExp": 3,
+      "maxUses": 15,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fisherman_flying_fish_for_copper_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 6
+      },
+      "request": {
+        "itemKey": "minecraft:pufferfish",
+        "amount": 1
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fisherman_copper_coin_for_pufferfish_0"
+    },
+    {
+      "offer": {
+        "itemKey": "crittersandcompanions:pearl_necklace_1",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 8
+      },
+      "tradeExp": 20,
+      "maxUses": 1,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fisherman_pearl_necklace_1_for_iron_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "crittersandcompanions:koi_fish",
+        "amount": 1
+      },
+      "tradeExp": 20,
+      "maxUses": 2,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fisherman_iron_coin_for_koi_fish_0"
+    },
+    {
+      "offer": {
+        "itemKey": "crittersandcompanions:pearl",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 4
+      },
+      "tradeExp": 20,
+      "maxUses": 3,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fisherman_pearl_for_iron_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "epicfight:skillbook",
+        "amount": 1,
+        "advancedNBTData": "{skill:\"epicfight:stamina_pillager\"}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 1
+      },
+      "tradeExp": 30,
+      "maxUses": 1,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fisherman_skillbook_for_gold_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "aquaculture:neptunium_ingot",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 6
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:copper_block",
+        "amount": 2
+      },
+      "tradeExp": 30,
+      "maxUses": 1,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fisherman_neptunium_ingot_for_gold_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "aquaculture:nether_star_hook",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 2
+      },
+      "tradeExp": 20,
+      "maxUses": 1,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:fisherman_nether_star_hook_for_gold_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:aquatic_arc",
+        "amount": 1,
+        "advancedNBTData": "{ArcLevel:3}"
+      },
+      "request": {
+        "itemKey": "blue_skies:aquatic_arc",
+        "amount": 1
+      },
+      "additionalRequest": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 8
+      },
+      "tradeExp": 50,
+      "maxUses": 1,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:fisherman_aquatic_arc_for_aquatic_arc_and_iron_coin"
+    }
+  ]
+}

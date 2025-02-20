@@ -1,0 +1,36 @@
+{
+    "name": "妖精之女(未完成)",
+    "icon": "stellarisdlc:bb",
+    "category": "patchouli:boss_place_3",
+    "sortnum":5,
+    "pages": [
+        {
+           "type": "T1",
+            "title":"妖精之女(未完成)",
+            "text": "王国探索队之中唯一的精灵种族，对这一种族我们知之甚少，它们或许在上古时期就已经存在。虽然是群星的一员但是几乎无人见过她，唯一的一次露面是在终焉第三次进攻后她便匆匆离去，可能是为了其故乡。据说精灵一族有两派一派在蔚蓝的永昼之地，一派在终末的虚无，这或许解释了为何终末之物可以召唤其幻影。"
+        },
+        {
+            "type": "patchouli:entity",
+            "name":"妖精之女",
+            "entity": "jobinsmobs:fairydaughter",
+            "scale": 0.9,
+            "offset": 0.2
+        },
+        {"type": "spotlight",
+        "title":"召唤材料",
+        "item": "minecraft:end_rod,cataclysm:void_lantern_block",
+        "text": "虚空灯x1$(br)末地烛x1$(br)最后加入$(1)$(l:boss_place/boss_summon/imessence)往生精华$()$()"
+         },
+         {"type": "spotlight",
+        "title":"特殊掉落物：.",
+        "item": "minecraft:air",
+        "text": ""
+         },
+         {"type": "spotlight",
+         "title":"其他掉落物",
+         "item": "stellariscraft:deadingot,stellariscraft:netherrotingot",
+         "text":"$(br)死亡锭2~4个$(br)腐金锭2~4个"        
+        }
+       
+    ]
+}

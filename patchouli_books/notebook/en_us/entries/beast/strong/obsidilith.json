@@ -1,0 +1,30 @@
+{
+    "name": "黑曜巨石柱",
+    "icon": "bosses_of_mass_destruction:obsidian_heart",
+    "category": "patchouli:beast_strong",
+    "sortnum":13,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"黑曜巨石柱/obsidilith arena",
+            "text": "血祭并不只是下界的专利，在末地诞生之初便存在的古老文明曾一度发展到了能够观测高纬度存在的程度，然而对于这种存在它们非但不敬畏反而妄图召唤并利用最终招致了毁灭。或许在那些存在看来，文明只是蝼蚁，而蝼蚁摆出的奇异之举引起了他们的注意，给予了一粒米却撑死了整个蚁群。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/bosses1.png",
+            "text1":"失落文明的未知技术",
+            "text2":""
+        },
+       {"type": "spotlight",
+        "title":"召唤方法",
+        "item": "bosses_of_mass_destruction:obsidilith_end_frame",
+        "text": "据说召唤的仪式最初是为了扩大终末与其他维度之间的连接通道，然而仪式之后终末的文明彻底不复存在，这种说法也无从得知真伪。$(br2)$(#ff0000)将末影之眼$()塞入$(#ff0000)黑曜石祭坛$()就可以启动古老文明的献祭仪式，而召唤者就是祭品......"
+         },
+        {"type": "spotlight",
+        "title":"掉落物",
+        "item": "bosses_of_mass_destruction:obsidian_heart,minecraft:obsidian,minecraft:purpur_block,stellariscraft:adventurespar,bhc:blue_heart",
+        "text": "击杀后掉落$(br)黑曜石之心1个$(br)黑曜石、紫珀块64个$(br2)以下掉落物通过$(t:等级越高提高数量越多,下列为无附魔掉落数量)$(5)抢夺$()可增加数量$(br)冒险晶石2个$(br)蓝心0个。"
+         }
+        
+    ]
+}

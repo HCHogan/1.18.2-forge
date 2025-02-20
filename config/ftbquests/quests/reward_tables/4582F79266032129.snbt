@@ -1,0 +1,19 @@
+{
+	id: "4582F79266032129"
+	order_index: 2
+	title: "建筑加油包"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:warped_stem", count: 32 }
+		{ item: "minecraft:sponge" }
+		{ item: "minecraft:glass", count: 64 }
+		{ item: "minecraft:crimson_stem", count: 32 }
+		{ item: "minecraft:gilded_blackstone", count: 64 }
+		{ item: "minecraft:scaffolding", count: 64 }
+		{ item: "minecraft:bamboo", count: 64 }
+		{ item: "torchmaster:megatorch", count: 2 }
+		{ item: "minecraft:black_glazed_terracotta", count: 16 }
+		{ item: "supplementaries:globe" }
+		{ item: "supplementaries:globe_sepia" }
+	]
+}

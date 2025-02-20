@@ -1,0 +1,111 @@
+{
+  "profession": "blue_skies:wrangler",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:lead",
+        "amount": 5
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 5
+      },
+      "tradeExp": 5,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "blue_skies:wrangler_lead_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:cooked_charscale_moki",
+        "amount": 5
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 10
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "blue_skies:wrangler_cooked_charscale_moki_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 3
+      },
+      "request": {
+        "itemKey": "blue_skies:fox_pelt",
+        "amount": 4
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "blue_skies:wrangler_copper_coin_for_fox_pelt"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:cherry_pie",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 6
+      },
+      "tradeExp": 20,
+      "maxUses": 5,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "blue_skies:wrangler_cherry_pie_for_copper_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "naturalist:bear_spawn_egg",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "blue_skies:moonstone_lantern",
+        "amount": 5
+      },
+      "additionalRequest": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 2
+      },
+      "tradeExp": 30,
+      "maxUses": 2,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "blue_skies:wrangler_bear_spawn_egg_for_moonstone_lantern_and_iron_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "alexsmobs:spawn_egg_moose",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "blue_skies:moonstone_lantern",
+        "amount": 10
+      },
+      "additionalRequest": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 2
+      },
+      "tradeExp": 30,
+      "maxUses": 2,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "blue_skies:wrangler_spawn_egg_moose_for_moonstone_lantern_and_iron_coin"
+    }
+  ]
+}

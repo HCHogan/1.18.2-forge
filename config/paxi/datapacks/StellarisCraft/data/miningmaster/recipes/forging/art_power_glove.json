@@ -1,0 +1,9 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[{"item":"miningmaster:power_pyrite"},
+{"item":"amethysttoolsmod:amethyst_cluster_lv2"},
+{"item":"miningmaster:power_pyrite"}],
+"catalyst":{"item":"stellarisdlc:exchangestonecore"},
+"result":{"item":"artifacts:power_glove"},
+"enchantments":[]
+}

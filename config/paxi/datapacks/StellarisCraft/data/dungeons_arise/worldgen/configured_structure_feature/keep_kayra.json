@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:village",
+  "biomes": "#dungeons_arise:has_structure/keep_kayra_biomes",
+  "adapt_noise": false,
+  "spawn_overrides": {},
+  "config": {
+  "start_pool": "dungeons_arise:fortified/keep_kayra/keep_kayra_start",
+  "size": 7
+  }
+}

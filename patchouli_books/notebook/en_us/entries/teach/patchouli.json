@@ -1,0 +1,37 @@
+{
+    "name": "指导书使用指南",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:teach",
+    "sortnum":0,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"文本说明",
+            "text": "指导书内会有大量附带颜色的文字包含不同的功能。$(br)$(#ff0000)红色文字$()通常表示为重要信息。需要重点注意$(br2)$(1)蓝色文字$()为跳转链接，鼠标点击后会跳转至指导书内对应内容。$(br2)$(t:隐藏文本)$(5)粉色文字$()有特殊信息，鼠标移动到字体上后会显示隐藏信息，通常用于解释粉色文字具体意思。"
+        },
+        {
+            "type": "png_teach",
+            "image":"stellarisdlc:textures/png/patchouli1.png",
+            "text1":"指导书放置位置",
+            "text2":"建议将指导书放置于物品栏最下方一行中，可以更好地使用指导书的功能。"
+        },
+         {
+            "type": "png_teach",
+            "image":"stellarisdlc:textures/png/patchouli3.png",
+            "text1":"书签的使用",
+            "text2":"指导书右上角有该标签，添加后可以在指导书右上角快速打开添加的指导书页面。"
+        },
+       {
+            "type": "png_teach",
+            "image":"stellarisdlc:textures/png/patchouli4.png",
+            "text1":"返回键的使用",
+            "text2":"指导书下方有该标签，$(t:建议自己试试，不好描述)$(5)用于返回上一次的打开界面$()，建议配合书签与蓝色文字的跳转使用。"
+        },
+        {
+            "type": "png_teach",
+            "image":"stellarisdlc:textures/png/patchouli2.png",
+            "text1":"物品快捷跳转",
+            "text2":"指导书放置于物品栏最下方一行中后，鼠标移动至部分物品时会含有此图标，长按Ctrl可打开该物品的对应介绍或合成等内容。"
+        }
+    ]
+}

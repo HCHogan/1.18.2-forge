@@ -1,0 +1,38 @@
+{
+  "id": "stellariscraft:common_spear1",
+  "weight": 6.5,
+  "reforge_experience_cost": 1,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:forgedspar",
+  "verifiers": [
+    {"tag": "forge:spear"}
+  ],
+  "style": {
+    "color": "grey"
+  },
+  "attributes": [
+    {
+      "type": "toybox:crit_damage",
+      "modifier": {
+        "name": "stellariscraft:common_spear1",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.1
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "toybox:block_rate",
+      "modifier": {
+        "name": "stellariscraft:common_spear1",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.1
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+
+  ]
+}

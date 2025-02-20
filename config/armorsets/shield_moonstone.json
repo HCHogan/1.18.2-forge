@@ -1,0 +1,27 @@
+{  "armorSetName": "moonstone_shield",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "blue_skies:moonstone_shield"
+  },
+
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:speed",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 100,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "epicfight:weight",
+      "value": -0.1,
+      "attributeOperation": 2,
+      "modifierUUID": "f13aeaca-3e43-4e99-9527-4a6eff5095bd",
+      "description": "moonstone_shield" 
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

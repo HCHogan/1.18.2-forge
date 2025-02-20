@@ -1,0 +1,42 @@
+{
+  "armorSetName": "zhenyaojian",
+  "performanceMode": false,
+ "mainHand": {
+    "itemKey": "stellarisdlc:loyalheart"
+  },
+  "fullSetBonuses": [
+   {
+      "type": "effect",
+      "name": "minecraft:slowness",
+      "interactionType": "immunity",
+      "description": "slowness immunity"
+    },
+   {
+      "type": "effect",
+      "name": "cofh_core:lightning_resistance",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 120,
+      "hideBonusDescription": true,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:fire_resistance",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 120,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "description": "infinity_effect1"
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:weakness",
+      "interactionType": "immunity",
+      "hideBonusDescription": true,
+      "description": "weakness immunity"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

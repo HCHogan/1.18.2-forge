@@ -1,0 +1,11 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[{"item":"bhc:green_heart"},
+{"item":"miningmaster:haste_peridot"},
+{"item":"artifacts:plastic_drinking_hat"},
+{"item":"miningmaster:haste_peridot"},
+{"item":"bhc:green_heart"}],
+"catalyst":{"item":"stellarisdlc:exchangestonecore"},
+"result":{"item":"artifacts:novelty_drinking_hat"},
+"enchantments":[]
+}

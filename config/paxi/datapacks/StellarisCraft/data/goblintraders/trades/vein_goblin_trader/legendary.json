@@ -1,0 +1,80 @@
+{
+    "replace": true,
+    "trades": [
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "minecraft:diamond_helmet",
+              "count": 1
+            },
+            "payment_item": {
+              "item": "minecraft:diamond_helmet",
+              "count": 1,
+              "nbt": "{Enchantments:[{id:\"majruszsenchantments:enlightenment\",lvl:3s}]}"
+            },
+            "secondary_payment_item": {
+              "item": "ringsofascension:ring_experience",
+              "count": 1
+            },
+            "max_trades": 1,
+            "experience": 300,
+            "enchantments": [
+              {
+                "id": "majruszsenchantments:enlightenment",
+                "level": 4
+              }
+            ]
+          },
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "minecraft:potion",
+              "count": 1,
+              "nbt": "{Potion:\"goblintraders:powerful_regeneration\"}"
+            },
+            "payment_item": {
+              "item": "dotcoinmod:iron_coin",
+              "count": 6
+            },
+            "max_trades": 3,
+            "experience": 100
+          },
+
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "blue_skies:life_arc",
+              "count": 1,
+              "nbt": "{ArcLevel:3}"
+            },
+            "payment_item": {
+              "item": "miningmaster:fire_ruby_block",
+              "count": 1
+            },
+            "secondary_payment_item": {
+              "item": "dotcoinmod:diamond_coin",
+              "count": 1
+            },
+            "max_trades": 1,
+            "experience": 1000
+          },
+
+
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "epicfight:skillbook",
+              "nbt":"{skill: \"epicfight:meteor_slam\"}",
+              "count": 1
+            },
+            "payment_item": {
+              "item": "dotcoinmod:gold_coin",
+              "count": 3
+            },
+            "price_multiplier": 0.0,
+            "max_trades": 1,
+            "experience": 40
+          }
+
+   ]
+}

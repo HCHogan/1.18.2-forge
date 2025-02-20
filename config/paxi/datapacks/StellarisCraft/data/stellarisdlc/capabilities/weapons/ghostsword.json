@@ -1,0 +1,11 @@
+{
+	"attributes":
+	{
+		"common":
+		{
+			"speed_bonus":-0.29,
+			"damage_bonus": -8
+		}
+	},
+	"type":"sword"
+}

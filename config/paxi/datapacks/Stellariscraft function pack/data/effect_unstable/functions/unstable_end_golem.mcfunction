@@ -1,0 +1,2 @@
+schedule function effect_unstable:sheath_dash/end_golem 1t append
+schedule function effect_unstable:sheath_dash/end_golem_unstable_clear 36t append

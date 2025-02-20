@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"stellarisdlc:evidenceskies"},"title":"End Unlocked!","description":"Obtain a item.stellarisdlc.evidenceskies"},"parent":"restrictedportals:root","criteria":{"end":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["stellarisdlc:evidenceskies"]}]}}},"requirements":[["end"]]}

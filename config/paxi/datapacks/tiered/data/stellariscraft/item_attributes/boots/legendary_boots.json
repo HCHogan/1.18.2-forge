@@ -1,0 +1,70 @@
+{
+  "id": "stellariscraft:legendary_boots",
+  "weight": 4,
+  "reforge_experience_cost": 4,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:boots"}
+  ],
+  "style": {
+    "color": "gold"
+  },
+  "attributes": [
+    {
+      "type": "generic.movement_speed",
+      "modifier": {
+        "name": "stellariscraft:legendary_boots",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.05
+      },
+      "optional_equipment_slots": [
+        "FEET"
+      ]
+    },
+   {
+      "type": "generic.knockback_resistance",
+      "modifier": {
+        "name": "stellariscraft:legendary_boots",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.5
+      },
+      "optional_equipment_slots": [
+        "FEET"
+      ]
+    },
+{
+      "type": "forge:swim_speed",
+      "modifier": {
+        "name": "stellariscraft:legendary_boots",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.15
+      },
+      "optional_equipment_slots": [
+        "FEET"
+      ]
+    },
+{
+      "type": "generic.flying_speed",
+      "modifier": {
+        "name": "stellariscraft:legendary_boots",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.15
+      },
+      "optional_equipment_slots": [
+        "FEET"
+      ]
+    },
+{
+      "type": "forge:step_height_addition",
+      "modifier": {
+        "name": "stellariscraft:legendary_boots",
+        "operation": "ADDITION",
+        "amount": 1
+      },
+      "optional_equipment_slots": [
+        "FEET"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+    "name": "制造业的探索",
+    "description": "工匠、炼金师、附魔研究者们的工艺有的缺失，有的代代传承。不可否认的是，没有他们在制造业的不断探索，人类不可能有曾今的辉煌，也不可能在终焉的多次进攻下仍然存活至今。",
+    "icon": "tiered:toolsmiths_hammer",
+       "parent":"patchouli:make"
+}

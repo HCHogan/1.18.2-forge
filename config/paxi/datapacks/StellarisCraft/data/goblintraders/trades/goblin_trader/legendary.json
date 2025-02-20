@@ -1,0 +1,184 @@
+{
+    "replace": true,
+    "trades": [
+        {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "isleofberk:light_fury_egg",
+              "count": 1
+            },
+            "payment_item": {
+              "item": "dotcoinmod:gold_coin",
+              "count": 2
+            },
+            "secondary_payment_item": {
+              "item": "minecraft:apple",
+              "count": 3
+            },
+            "max_trades": 1,
+            "experience": 500
+          },
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "isleofberk:night_fury_egg",
+              "count": 1
+            },
+            "payment_item": {
+              "item": "dotcoinmod:gold_coin",
+              "count": 2
+            },
+            "secondary_payment_item": {
+              "item": "minecraft:apple",
+              "count": 3
+            },
+            "max_trades": 1,
+            "experience": 500
+          },
+
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "minecraft:diamond_pickaxe",
+              "count": 1
+            },
+            "payment_item": {
+              "item": "minecraft:diamond_pickaxe",
+              "count": 1,
+              "nbt": "{Enchantments:[{id:\"minecraft:fortune\",lvl:4s}]}"
+            },
+            "secondary_payment_item": {
+              "item": "ba_bt:guardian_eye_core",
+              "count": 1
+            },
+            "max_trades": 1,
+            "experience": 100,
+            "enchantments": [
+              {
+                "id": "minecraft:fortune",
+                "level": 5
+              }
+            ]
+          },
+
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "minecraft:diamond_sword",
+              "count": 1
+            },
+            "payment_item": {
+              "item": "minecraft:diamond_sword",
+              "count": 1,
+              "nbt": "{Enchantments:[{id:\"minecraft:looting\",lvl:4s}]}"
+            },
+            "secondary_payment_item": {
+              "item": "ba_bt:guardian_eye_core",
+              "count": 1
+            },
+            "max_trades": 1,
+            "experience": 100,
+            "enchantments": [
+              {
+                "id": "minecraft:looting",
+                "level": 5
+              }
+            ]
+          },
+
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "minecraft:diamond_helmet",
+              "count": 1
+            },
+            "payment_item": {
+              "item": "minecraft:diamond_helmet",
+              "count": 1
+            },
+            "secondary_payment_item": {
+              "item": "miningmaster:lucky_citrine",
+              "count": 1
+            },
+            "max_trades": 2,
+            "experience": 100,
+            "enchantments": [
+              {
+                "id": "majruszsenchantments:enlightenment",
+                "level": 3
+              }
+            ]
+          },
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "minecraft:diamond_boots",
+              "count": 1
+            },
+            "payment_item": {
+              "item": "minecraft:diamond_boots",
+              "count": 1
+            },
+            "secondary_payment_item": {
+              "item": "stellariscraft:sandheart",
+              "count": 1
+            },
+            "max_trades": 2,
+            "experience": 100,
+            "enchantments": [
+              {
+                "id": "minecraft:protection",
+                "level": 6
+              }
+            ]
+          },
+
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "minecraft:potion",
+              "count": 1,
+              "nbt": "{Potion:\"goblintraders:extended_night_vision\"}"
+            },
+            "payment_item": {
+              "item": "dotcoinmod:iron_coin",
+              "count": 6
+            },
+            "max_trades": 4,
+            "experience": 100
+          },
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "minecraft:potion",
+              "count": 1,
+              "nbt": "{Potion:\"goblintraders:extended_fire_resistance\"}"
+            },
+            "payment_item": {
+              "item": "dotcoinmod:iron_coin",
+              "count": 2
+            },
+            "max_trades": 8,
+            "experience": 100
+          },
+
+
+
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "epicfight:skillbook",
+              "nbt":"{skill: \"epicfight:demolition_leap\"}",
+              "count": 1
+            },
+            "payment_item": {
+              "item": "dotcoinmod:gold_coin",
+              "count": 3
+            },
+            "price_multiplier": 0.0,
+            "max_trades": 1,
+            "experience": 800
+          }
+
+   ]
+}

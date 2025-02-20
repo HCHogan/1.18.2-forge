@@ -1,0 +1,41 @@
+{
+  "armorSetName": "cataclysm_incinerator_ignitium",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "cataclysm:the_incinerator"
+  },
+  "additionalSetPieces": [
+    {
+    "itemKey": "stellarisdlc:ignisheart"
+    }
+],
+
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": -0.2,
+      "attributeOperation": 2,
+      "modifierUUID": "5dde5eb4-12e2-4030-ba0d-e1593fa03bdf",
+      "description": "-20% movement speed (Main Hand)"    
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": -0.1,
+      "attributeOperation": 2,
+      "modifierUUID": "5dde5eb4-12e2-4030-ba0d-e1593fa03bdf",
+      "description": "-10% attack speed (Main Hand)"    
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 5,
+      "attributeOperation": 0,
+      "hideBonusDescription": true,
+      "modifierUUID": "5dde5eb4-12e2-4030-ba0d-e1593fa03bdf",
+      "description": "+5 attack damage (Main Hand)"    
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

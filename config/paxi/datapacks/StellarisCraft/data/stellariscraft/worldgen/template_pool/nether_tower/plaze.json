@@ -1,0 +1,15 @@
+{
+    "name":"stellariscraft:nether_tower/plaze",
+    "fallback":"minecraft:empty",
+    "elements":[
+        {
+            "weight":1,
+            "element":{
+                "projection":"rigid",
+                "element_type":"minecraft:single_pool_element",
+                "location":"stellariscraft:nether_tower/plaze",
+                "processors":"minecraft:empty"
+            }
+        }
+    ]
+}

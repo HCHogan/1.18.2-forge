@@ -1,0 +1,36 @@
+{
+  "armorSetName": "omnis_ravaged",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "omnis:ravaged_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "omnis:ravaged_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "omnis:ravaged_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "omnis:ravaged_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:bad_omen",
+      "interactionType": "immunity",
+      "description": "bad_omen immunity"
+    },
+    {
+      "type": "effect",
+      "name": "omnis:stunned",
+      "interactionType": "immunity",
+      "hideBonusDescription": true,
+      "description": "stunned immunity"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

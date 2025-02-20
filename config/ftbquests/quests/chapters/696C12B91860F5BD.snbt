@@ -1,0 +1,490 @@
+{
+	id: "696C12B91860F5BD"
+	group: "48B78DC948D03E7E"
+	order_index: 2
+	filename: "696C12B91860F5BD"
+	title: "属性加点"
+	icon: "stellarisdlc:attribute_scrap"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 5.0d
+			y: 0.0d
+			width: 20.0d
+			height: 15.0d
+			rotation: 0.0d
+			image: "sc:textures/bs.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -9.5d
+			y: 0.0d
+			width: 20.0d
+			height: 15.0d
+			rotation: 180.0d
+			image: "sc:textures/bs.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			width: 11.7d
+			height: 11.7d
+			rotation: 0.0d
+			image: "incendium:textures/item/charm.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "61F6CAF66E5A8350"
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			width: 11.7d
+			height: 11.7d
+			rotation: 0.0d
+			image: "incendium:textures/item/charm.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "61F6CAF66E5A8350"
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			width: 11.7d
+			height: 11.7d
+			rotation: 0.0d
+			image: "incendium:textures/item/charm.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "61F6CAF66E5A8350"
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			width: 11.7d
+			height: 11.7d
+			rotation: 0.0d
+			image: "incendium:textures/item/charm.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "61F6CAF66E5A8350"
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			width: 11.7d
+			height: 11.7d
+			rotation: 0.0d
+			image: "incendium:textures/item/charm.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "61F6CAF66E5A8350"
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			width: 11.7d
+			height: 11.7d
+			rotation: 0.0d
+			image: "incendium:textures/item/charm.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "61F6CAF66E5A8350"
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			width: 11.7d
+			height: 11.7d
+			rotation: 0.0d
+			image: "incendium:textures/item/charm.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "61F6CAF66E5A8350"
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			width: 11.7d
+			height: 11.7d
+			rotation: 0.0d
+			image: "incendium:textures/item/charm.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "61F6CAF66E5A8350"
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			width: 11.7d
+			height: 11.7d
+			rotation: 0.0d
+			image: "incendium:textures/item/charm.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "61F6CAF66E5A8350"
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			width: 11.7d
+			height: 11.7d
+			rotation: 0.0d
+			image: "incendium:textures/item/charm.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "61F6CAF66E5A8350"
+		}
+	]
+	quests: [
+		{
+			title: "&4关于加点升级"
+			icon: "stellarisdlc:attribute_scrap"
+			x: -2.5d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "注：属性碎片用于提升加点点数，仅关键任务和boss获取；下界前共40个，蔚蓝前60，打完末地共80个，对应2种属性点满；除此之外给夜巫妖模组的boss级任务预留了8个，总共88个"
+			description: [
+				"&a关于加点：打开背包后点击左侧&b“书本”&a按钮 "
+				"&a点击第一行&b“+”&a号消耗&b“属性碎片”&a提高等级"
+				"&a在提高等级后会获取相应&b“自由属性点”"
+				"&a可以消耗&b“自由属性点”&a提升&b“力量”“体质”“敏捷”&a......等等属性"
+				"&a将鼠标至于对应属性名称上面，会显示该属性详细每级加点的具体收益"
+				""
+				"&d关于加点属性与武器：相同的加点对不同武器的的加成是不同的，比如：一个主玩大剑的玩家显然比一个主玩匕首的玩家更需要将&b“自由属性点”&d使用在&b“力量属性”&d上面；事实上在同样的力量属性等级下，大剑得到的增伤收益会比匕首要高。所以根据自己主玩的武器流派去合理的加点是很有必要。详细武器加点偏向可以点击左上&b超链接（左上角图标）符号🔗&d查看"
+				""
+				"&a重置水晶：用于将&b升级的属性点&c全额返还给&6自由属性点。（洗点）"
+				""
+				"&e切记：请结合武器自带的词条，选择最佳路线加点，拒绝水桶加点法，从你我做起"
+			]
+			dependencies: ["786B2E5F1B962DC8"]
+			hide: true
+			size: 2.5d
+			id: "6C7C5B647867DB7C"
+			tasks: [{
+				id: "6421687B4C44179F"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "3D122DD1C05559A6"
+					type: "item"
+					item: "stellarisdlc:attribute_scrap"
+					count: 6
+				}
+				{
+					id: "2104BEAC85B986A8"
+					type: "item"
+					item: "stellarisdlc:rebuild_crystal"
+				}
+			]
+		}
+		{
+			title: "长剑类"
+			icon: {
+				id: "epicfight:diamond_longsword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 8.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "实际适配武器请自行根据武器攻击模组分类"
+			description: [
+				"                                           &b+6%攻击伤害"
+				"                                           &b+40%格挡率"
+				"&6PS：上方蓝字属性仅以武器&a【普通品质】&6提供属性的属性加成为参考，用于玩家对于该类型武器进行专门针对适配类型加点，实际不同品质武器的收益数值有所不同，鼠标放在武器上&a长按shift&6即可查看武器对属性的偏向加成"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6C7C5B647867DB7C"]
+			hide: true
+			size: 2.5d
+			id: "44D332C6F351B460"
+			tasks: [{
+				id: "21C4B2387D442099"
+				type: "checkmark"
+				title: "我已了解"
+			}]
+			rewards: [{
+				id: "1DD6C56752B7E8D6"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "太刀类"
+			icon: {
+				id: "epicfight:diamond_tachi"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -10.5d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "实际适配武器请自行根据武器攻击模组分类"
+			description: [
+				"                                       &b+4%最大生命值"
+				"&6PS：上方蓝字属性仅以武器&a【普通品质】&6提供属性的属性加成为参考，用于玩家对于该类型武器进行专门针对适配类型加点，实际不同品质武器的收益数值有所不同，鼠标放在武器上&a长按shift&6即可查看武器对属性的偏向加成"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6C7C5B647867DB7C"]
+			hide: true
+			size: 2.5d
+			id: "7EDDC2111D77A8D5"
+			tasks: [{
+				id: "5D2908E54AFD600E"
+				type: "checkmark"
+				title: "我已了解"
+			}]
+			rewards: [{
+				id: "2BBD4C54C66C47B4"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "打刀类"
+			icon: {
+				id: "epicfight:uchigatana"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -8.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "实际适配武器请自行根据武器攻击模组分类"
+			description: [
+				"                                           &b+5%暴击伤害"
+				"                                           &b+20%负重（减重）"
+				"&6PS：上方蓝字属性仅以武器&a【普通品质】&6提供属性的属性加成为参考，用于玩家对于该类型武器进行专门针对适配类型加点，实际不同品质武器的收益数值有所不同，鼠标放在武器上&a长按shift&6即可查看武器对属性的偏向加成"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6C7C5B647867DB7C"]
+			hide: true
+			size: 2.5d
+			id: "22C9F8F0247E0C3F"
+			tasks: [{
+				id: "58B658614C70B08E"
+				type: "checkmark"
+				title: "我已了解"
+			}]
+			rewards: [{
+				id: "38ECE77458648553"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "剑类"
+			icon: {
+				id: "minecraft:diamond_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -13.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "实际适配武器请自行根据武器攻击模组分类"
+			description: [
+				"                                           &b+5%攻击速度"
+				"                                           &b+5%耐力"
+				"&6PS：上方蓝字属性仅以武器&a【普通品质】&6提供属性的属性加成为参考，用于玩家对于该类型武器进行专门针对适配类型加点，实际不同品质武器的收益数值有所不同，鼠标放在武器上&a长按shift&6即可查看武器对属性的偏向加成"
+				"注：剑斧属于单手剑类，词条同理；拳套、三叉戟词条暂时套用单手剑类。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6C7C5B647867DB7C"]
+			hide: true
+			size: 2.5d
+			id: "711B78557C4F3505"
+			tasks: [{
+				id: "13E0DB6386497ABF"
+				type: "checkmark"
+				title: "我已了解"
+			}]
+			rewards: [{
+				id: "745D4D95CDA31E45"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "长矛类"
+			icon: {
+				id: "epicfight:diamond_spear"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 5.5d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "实际适配武器请自行根据武器攻击模组分类"
+			description: [
+				"                                           &b+10%暴击伤害"
+				"                                           &b+10%格挡率"
+				"                    &d&n（PS：关刀的加点塑形同为长矛类）"
+				"&6PS：上方蓝字属性仅以武器&a【普通品质】&6提供属性的属性加成为参考，用于玩家对于该类型武器进行专门针对适配类型加点，实际不同品质武器的收益数值有所不同，鼠标放在武器上&a长按shift&6即可查看武器对属性的偏向加成"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6C7C5B647867DB7C"]
+			hide: true
+			size: 2.5d
+			id: "4BF00D473C845F90"
+			tasks: [{
+				id: "2F2811D8FED7789B"
+				type: "checkmark"
+				title: "我已了解"
+			}]
+			rewards: [{
+				id: "3DF7EAB753513BA8"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "匕首类"
+			icon: {
+				id: "epicfight:diamond_dagger"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -15.5d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "实际适配武器请自行根据武器攻击模组分类"
+			description: [
+				"                                           &b+10%暴击几率"
+				"                                           &b+20%负重（减重）"
+				"&6PS：上方蓝字属性仅以武器&a【普通品质】&6提供属性的属性加成为参考，用于玩家对于该类型武器进行专门针对适配类型加点，实际不同品质武器的收益数值有所不同，鼠标放在武器上&a长按shift&6即可查看武器对属性的偏向加成"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6C7C5B647867DB7C"]
+			hide: true
+			size: 2.5d
+			id: "03E82060E609203E"
+			tasks: [{
+				id: "3DCACA93DB538210"
+				type: "checkmark"
+				title: "我已了解"
+			}]
+			rewards: [{
+				id: "02D8251DA2701DB7"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "大剑类"
+			icon: {
+				id: "epicfight:diamond_greatsword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 10.5d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "实际适配武器请自行根据武器攻击模组分类"
+			description: [
+				"                                           &b+5%攻击伤害"
+				"                                           &b+5%击晕抗性"
+				"                                &c+3重量，-50%暴击率"
+				"&6PS：上方蓝字属性仅以武器&a【普通品质】&6提供属性的属性加成为参考，用于玩家对于该类型武器进行专门针对适配类型加点，实际不同品质武器的收益数值有所不同，鼠标放在武器上&a长按shift&6即可查看武器对属性的偏向加成"
+				"&c红色词条为不可避免的负面属性。"
+				""
+				"注：黑猴的两种棍子，加点塑形同大剑类。"
+				"棍子崩溃问题详情见：王志宝库——尖兵利刃——三叉戟右边。"
+				"                    &d&n（PS：镰刀的加点塑形同为大剑类）"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6C7C5B647867DB7C"]
+			hide: true
+			size: 2.5d
+			id: "6238809F89C25130"
+			tasks: [{
+				id: "60260AB7E215141C"
+				type: "checkmark"
+				title: "我已了解"
+			}]
+			rewards: [{
+				id: "633C62B4AB630F56"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "斧类"
+			icon: {
+				id: "minecraft:iron_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "实际适配武器请自行根据武器攻击模组分类"
+			description: [
+				"                                           &b+5%击晕抗性"
+				"                                           &b+5%耐力"
+				"&6PS：上方蓝字属性仅以武器&a【普通品质】&6提供属性的属性加成为参考，用于玩家对于该类型武器进行专门针对适配类型加点，实际不同品质武器的收益数值有所不同，鼠标放在武器上&a长按shift&6即可查看武器对属性的偏向加成"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6C7C5B647867DB7C"]
+			hide: true
+			size: 2.5d
+			id: "2FF67DF2E5B96ADC"
+			tasks: [{
+				id: "48028AD484C80D6A"
+				type: "checkmark"
+				title: "我已了解"
+			}]
+			rewards: [{
+				id: "62E611E679442C07"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

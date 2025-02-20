@@ -1,0 +1,38 @@
+{
+    "name": "毒刺龙",
+    "icon": "isleofberk:stinger_spawn_egg",
+    "category": "patchouli:beast_dragon",
+    "advancement":"minecraft:husbandry/root",
+    "sortnum":2,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"毒刺龙",
+            "text": "这种龙与疾刺龙相似，有着难以置信的奔跑速度。早期龙族建立文明时，就是靠其运送建材。发达的腿部肌肉也让他有着超乎想象的跳跃能力。可惜的是毒刺龙的翅膀较小，无法飞行。"
+        },
+        {
+            "type": "png_dragon",
+            "image":"stellarisdlc:textures/png/stiner.png",
+            "text1":"利刺纲:毒刺龙",
+            "text2":"据说在从人类手中重获自由的不久后，金沙之城的领主狂沙之枪用优越的条件招揽了大量毒刺龙，在建造金沙之城发挥了巨大的作用。"
+        },
+         {"type":"TT",
+           "head":"栖息群系",
+           "text":"向日葵平原、热带草原、热带高原、恶地、被风蚀的恶地、繁茂的恶地"
+},
+        {"type": "spotlight",
+        "title":"驯服",
+        "item": "minecraft:mutton",
+        "text": "不携带护甲和武器喂食一定量的生羊肉可以驯服$(br2)上鞍后可以被玩家骑乘,无鞍具可以短暂的骑乘$(br)使用木棍，右键命令该龙:坐下、跟随、游荡。$(br)可以携带箱子。"
+         },
+         {"type": "spotlight",
+        "title":"繁殖",
+        "item": "minecraft:suspicious_stew,isleofberk:stinger_egg",
+        "text": "喂食谜之炖菜可让毒刺龙繁殖，2只毒刺龙配对后会产生毒刺龙蛋。$(br2)蛋的孵化时间为40分钟，需要附近有$(#ff0000)热源(光源)$()"
+         },
+         {"type":"TT",
+           "head":"技能列表",
+           "text":"主动技能:撕咬按$(k:isleofberk.keyAbility)"
+           }
+    ]
+}

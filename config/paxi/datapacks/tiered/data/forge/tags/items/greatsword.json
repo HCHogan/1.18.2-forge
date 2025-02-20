@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "epicfight:stone_greatsword",
+    "epicfight:iron_greatsword",
+    "epicfight:golden_greatsword",
+    "epicfight:diamond_greatsword",
+    "epicfight:netherite_greatsword",
+    "stellarisdlc:balmung",
+    "mowziesmobs:wrought_axe",
+    "cataclysm:the_incinerator",
+    "cataclysm:final_fractal",
+    "stellarisdlc:rotgreatsword",
+    "stellarisdlc:ironbrokentooth",
+    "wukong:staff",
+    "stellarisdlc:sickle",
+    "stellarisdlc:soulsickle",
+    "stellarisdlc:ruoshui"
+  ]
+}

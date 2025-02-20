@@ -1,0 +1,122 @@
+{
+    "name": "全新战斗机制",
+    "icon": "minecraft:golden_sword",
+    "category": "patchouli:teach",
+    "sortnum":9,
+    "pages": [
+{
+            "type": "png_teach",
+            "image":"stellarisdlc:textures/png/fight3.png",
+            "text1":"战斗机制介绍",
+            "text2":""
+        },
+        {
+           "type": "T1",
+           "title":"战斗机制介绍",
+            "text": "整合包采用了史诗战斗模组改进原本的战斗系统并且禁用了原版的攻击伤害，$(#ff0000)战斗时需要开启战斗模式才能造成伤害$()，进入战斗模式后不能破坏方块，破坏方块等操作需要转换为挖掘模式，模式的转换按键为$(k:epicfight.switch_mode)。史诗战斗的机制与原版区别较大，该章节会主要会对战斗机制做起步性质介绍。"
+        },
+{
+            "type": "png_teach",
+            "image":"stellarisdlc:textures/png/fight1.png",
+            "text1":"体力条",
+            "text2":""
+        },
+        
+{
+           "type": "T1",
+           "title":"体力条",
+            "text": "体力条在开启战斗模式时使用后会出现在第三人称视角下人物下方。格挡敌方攻击、跳跃攻击、部分技能、闪避等操作都需要$(5)$(t:平砍、跳跃、跑步不消耗体力)消耗体力$()。$(br)体力剩余值不足时，会无法进行闪避、跳跃攻击等操作。如果在体力条用尽后没有完美格挡敌方攻击，只是普通格挡，那么会破防倒地。$(br)体力值会在非攻击、非技能、非防御状态下$(5)$(t:跑步、跳跃不会影响)快速回复$()。$(br)体力值可以通过武器词条、属性加点进行提升。"
+        },
+{
+            "type": "png_teach",
+            "image":"stellarisdlc:textures/png/fight2.png",
+            "text1":"武器充能条",
+            "text2":""
+        },
+        
+{
+           "type": "T1",
+           "title":"武器充能条",
+            "text": "武器充能条在开启战斗模式后会出现在屏幕右下角，当武器攻击敌人可以充能，充能速度与武器伤害呈正相关。图标正中心数字为充能速度，达到100时战技充能完成。图标右下角为$(5)$(t:非所有武器都有)战技充能累计数目$()，释放战技会消耗战技充能累计数目。当图标整体为蓝色且充能完成时，按$(k:epicfight.weapon_innate_skill)可以释放武器战技。"
+        },
+{
+            "type": "png_teach",
+            "image":"stellarisdlc:textures/png/fight4.png",
+            "text1":"技能机制",
+            "text2":""
+        },
+        
+{
+           "type": "T1",
+           "title":"技能机制",
+            "text": "史诗战斗提供了多种技能系统，技能之间的使用也需要进行取舍，按$(k:epicfight.skill_gui)可以打开技能界面管理学习过的技能，同种技能通常只能选择一种，更换需要消耗经验等级。下面列举各技能种类。$(br)闪避：$(k:epicfight.dodge) 跨步/翻滚$(br)$(5)$(t:可选择3种)被动$()：技巧大师/超强活力/耐力/狂战士/体力掠夺者/剑圣/禁忌之力/死亡收割/紧急逃生$(br)防御：右键 $(5)$(t:需要当前防御技能为防守才可学习)招架/冲击防御$()/防守$(br)行动：毁坏跳跃/$(5)$(t:Phantom Ascent)二段跳$()$(br)属性：流星猛击。"
+        },
+        {
+            "type": "png_teach",
+            "image":"stellarisdlc:textures/png/danger_orange.png",
+            "text1":"危招-橙危",
+            "text2":""
+        },
+        
+{
+           "type": "T1",
+           "title":"特殊技能提示",
+            "text": "$(#ff0000)橙色危招$()表示下一次的攻击会无视$(t:普通格挡+冲击防御)$(5)防御和强力防守$(),必须$(5)$(t:灵活格挡)招架$()才可以防御住。并且在学习了$(#ff0000)识破技能书$()后，成功招架按特殊按键（可在按键设置里调整）还可以免费释放一次强力斩击。"
+        },
+        {
+            "type": "png_teach",
+            "image":"stellarisdlc:textures/png/danger_red.png",
+            "text1":"危招-红危",
+            "text2":""
+        },
+        
+{
+           "type": "T1",
+           "title":"特殊技能提示",
+            "text": "$(#ff0000)红色危招$()表示下一次的攻击会无视$(t:普通格挡+冲击防御)$(5)防御$()和$(5)$(t:灵活格挡)招架$()，只能在正确的时机$(t:跨步/翻滚)$(5)闪避$()才可以躲开。"
+        },
+        {
+            "type": "png_teach",
+            "image":"stellarisdlc:textures/png/danger_purple.png",
+            "text1":"危招-紫危",
+            "text2":""
+        },
+        
+{
+           "type": "T1",
+           "title":"特殊技能提示",
+            "text": "$(#ff0000)紫色危招$()表示下一次的攻击会无视$(t:普通格挡+冲击防御)$(5)防御$()、$(5)$(t:灵活格挡)招架$()和$(t:跨步/翻滚)$(5)闪避$()，只能在正确的时机跳跃才可以躲开；若学习了$(#ff0000)二段跳-踩踏技能书$()，正确时机释放二段跳可以削减敌人5+5%最大耐力值。"
+        },
+        {
+            "type": "png_teach",
+            "image":"stellarisdlc:textures/png/break1.png",
+            "text1":"怪物耐力条",
+            "text2":""
+        },
+        
+{
+           "type": "T1",
+           "title":"怪物耐力条",
+            "text": "血条的下方为怪物的耐力条，怪物空耐时会进入破防状态，一段时间后会回复。$(#ff0000)破防状态轻按鼠标右键（注意对准敌人）可以对其进行处决造成高额伤害$()。$(t:仅与自身冲击属性有关)$(5)攻击到敌人$()、$(t:与自身攻击力、冲击属性有关)$(5)敌人格挡我方攻击$()、我方$(t:灵活格挡)$(5)招架$()敌方攻击，都可以削减敌人的耐力。"
+        },
+
+        {
+            "type": "png_teach",
+            "image":"stellarisdlc:textures/png/break2.png",
+            "text1":"怪物破防",
+            "text2":""
+        },
+        {
+            "type": "png_teach",
+            "image":"stellarisdlc:textures/png/break3.png",
+            "text1":"处决",
+            "text2":""
+        },
+       {"type": "spotlight",
+         "title":"技能书",
+         "item": "epicfight:skillbook{skill:'epicfight:step'}",
+         "text": "技能书的学习仅消耗技能书本身，技能书打开后可以看到对技能的描述。$(br)技能书的获取途径在整合包内通常为任务获取与村民交易。"        
+        }
+        
+    ]
+}

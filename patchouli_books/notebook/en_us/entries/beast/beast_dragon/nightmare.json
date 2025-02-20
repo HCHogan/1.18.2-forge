@@ -1,0 +1,38 @@
+{
+    "name": "烈焰狂魔",
+    "icon": "isleofberk:monstrous_nightmare_spawn_egg",
+    "category": "patchouli:beast_dragon",
+    "advancement":"minecraft:husbandry/root",
+    "sortnum":2,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"烈焰狂魔",
+            "text": "作为火龙纲的一员，这些龙十分炎热，喷火的能力特别强。烈焰狂魔以点燃他们的全身而闻名。这些龙十分的可怕，他们也可以高速飞行。这些龙通常是紫色或猩红色，具有蛇形特征。它们狡猾、鬼鬼祟祟，烈焰狂魔也用他们翅膀尖的爪子沿着地面爬行。他们吓人的发光眼睛使那些靠近的人感到害怕。虽然一开始这些龙可能看起来很吓人，但重要的是记住它们是可以被训练的。"
+        },
+        {
+            "type": "png_dragon",
+            "image":"stellarisdlc:textures/png/nightmare.png",
+            "text1":"火龙纲:烈焰狂魔",
+            "text2":"反抗人族的战斗结束，龙族获得了自由，烈焰狂魔一族曾主张重建古龙建筑，但昔日的荣耀已经无法复刻，龙族便散落于世界的各处。人类的历史已经过去2个时代，龙却还未重铸辉煌。"
+        },
+         {"type":"TT",
+           "head":"栖息群系",
+           "text":"恶地、被风蚀的恶地、繁茂的恶地、风袭丘陵、风袭砂砾丘陵、风袭森林"
+},
+        {"type": "spotlight",
+        "title":"驯服",
+        "item": "minecraft:porkchop,minecraft:mutton,minecraft:potion{Potion:fire_resistance}",
+        "text": "烈焰狂魔全身附着火焰，需要先保证自身处于防火状态不携带护甲和武器才能喂食生猪肉/生羊肉$(br2)上鞍后可以被玩家骑乘,无鞍具可以短暂的骑乘$(br)使用木棍，右键命令该龙:坐下、跟随、游荡。$(br)可以携带箱子。"
+         },
+         {"type": "spotlight",
+        "title":"繁殖",
+        "item": "minecraft:suspicious_stew,isleofberk:monstrous_nightmare_egg",
+        "text": "喂食谜之炖菜可让烈焰狂魔繁殖，2只烈焰狂魔配对后会产生烈焰狂魔蛋。$(br2)蛋的孵化时间为40分钟，需要附近有$(#ff0000)热源(光源)$()"
+         },
+         {"type":"TT",
+           "head":"技能列表",
+           "text":"吐息技能:火焰吐息$(br)按$(k:isleofberk.keyAbility)消耗火焰值进行吐息，停止吐息时火焰值会回复。$(br2)特殊技能:按$(k:isleofberk.keySpecialAbility)让火焰覆盖全身让包括骑手在内的靠近的所有生物燃烧$(br2)被动技能:无"
+           }
+    ]
+}

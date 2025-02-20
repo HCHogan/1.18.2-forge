@@ -1,0 +1,1 @@
+title @p[tag=kill_end] title [{"text":"过去如此","color":"light_purple"}]

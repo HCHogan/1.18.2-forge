@@ -1,0 +1,13 @@
+{
+	"attributes":
+	{
+		"common":
+		{
+			"armor_negation":30,
+			"speed_bonus":0.8,
+			"damage_bonus":3,
+			"impact":1.7
+		}
+	},
+	"type":"fist"
+}

@@ -1,0 +1,43 @@
+[2024-10-22 11:03:52] [Render thread INFO] CustomSkinLoader 14.15-SNAPSHOT-348
+[2024-10-22 11:03:52] [Render thread INFO] DataDir: E:\google\Release 2.7.4\.minecraft\versions\Duel Of The End\CustomSkinLoader
+[2024-10-22 11:03:52] [Render thread INFO] Operating System: Windows 10 (amd64) version 10.0
+[2024-10-22 11:03:52] [Render thread INFO] Java Version: 17.0.11, Amazon.com Inc.
+[2024-10-22 11:03:52] [Render thread INFO] Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Amazon.com Inc.
+[2024-10-22 11:03:52] [Render thread INFO] Minecraft: unknown
+[2024-10-22 11:03:52] [Render thread INFO] Config File: E:\google\Release 2.7.4\.minecraft\versions\Duel Of The End\CustomSkinLoader\CustomSkinLoader.json
+[2024-10-22 11:03:52] [Render thread INFO] Try to load config.
+[2024-10-22 11:03:52] [Render thread INFO] Successfully load config.
+[2024-10-22 11:03:52] [Render thread INFO] Add a profile loader: MojangAPI
+[2024-10-22 11:03:52] [Render thread INFO] Add a profile loader: Legacy
+[2024-10-22 11:03:52] [Render thread INFO] Add a profile loader: CustomSkinAPI
+[2024-10-22 11:03:52] [Render thread INFO] Add a profile loader: CustomSKinAPIPlus
+[2024-10-22 11:03:52] [Render thread INFO] Add a profile loader: UniSkinAPI
+[2024-10-22 11:03:52] [Render thread INFO] Add a profile loader: ElyByAPI
+[2024-10-22 11:03:52] [Render thread INFO] Add a profile loader: GlitchlessAPI
+[2024-10-22 11:03:52] [Render thread INFO] Add a profile loader: MinecraftCapesAPI
+[2024-10-22 11:03:52] [Render thread INFO] Successfully update config.
+[2024-10-22 11:03:52] [Render thread INFO] version : 14.15
+[2024-10-22 11:03:52] [Render thread INFO] buildNumber : 348
+[2024-10-22 11:03:52] [Render thread INFO] loadlist : [{ "name": "Mojang", "type": "MojangAPI", "apiRoot": "https://api.mojang.com/", "sessionRoot": "https://sessionserver.mojang.com/" }, { "name": "LittleSkin", "type": "CustomSkinAPI", "root": "https://littleskin.cn/csl/" }, { "name": "BlessingSkin", "type": "CustomSkinAPI", "root": "https://skin.prinzeugen.net/" }, { "name": "ElyBy", "type": "ElyByAPI", "root": "http://skinsystem.ely.by/textures/" }, { "name": "SkinMe", "type": "UniSkinAPI", "root": "http://www.skinme.cc/uniskin/" }, { "name": "TLauncher", "type": "ElyByAPI", "root": "https://auth.tlauncher.org/skin/profile/texture/login/" }, { "name": "LocalSkin", "type": "Legacy", "checkPNG": "false", "skin": "LocalSkin/skins/{USERNAME}.png", "model": "auto", "cape": "LocalSkin/capes/{USERNAME}.png", "elytra": "LocalSkin/elytras/{USERNAME}.png" }, { "name": "GlitchlessGames", "type": "GlitchlessAPI", "root": "https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=" }, { "name": "MinecraftCapes", "type": "MinecraftCapesAPI", "root": "https://minecraftcapes.net/profile/" }]
+[2024-10-22 11:03:52] [Render thread INFO] enableDynamicSkull : true
+[2024-10-22 11:03:52] [Render thread INFO] enableTransparentSkin : true
+[2024-10-22 11:03:52] [Render thread INFO] forceIgnoreHttpsCertificate : false
+[2024-10-22 11:03:52] [Render thread INFO] forceLoadAllTextures : false
+[2024-10-22 11:03:52] [Render thread INFO] enableCape : true
+[2024-10-22 11:03:52] [Render thread INFO] threadPoolSize : 3
+[2024-10-22 11:03:52] [Render thread INFO] retryTime : 1
+[2024-10-22 11:03:52] [Render thread INFO] enableLogStdOut : false
+[2024-10-22 11:03:52] [Render thread INFO] cacheExpiry : 30
+[2024-10-22 11:03:52] [Render thread INFO] forceUpdateSkull : false
+[2024-10-22 11:03:52] [Render thread INFO] enableLocalProfileCache : false
+[2024-10-22 11:03:52] [Render thread INFO] enableCacheAutoClean : false
+[2024-10-22 11:03:52] [Render thread INFO] forceDisableCache : false
+[2024-10-22 11:03:52] [HANZon INFO] Loading HANZon's profile.
+[2024-10-22 11:03:52] [HANZon INFO] 1/9 Try to load profile from 'Mojang'.
+[2024-10-22 11:03:52] [HANZon INFO] Default profile will be used.
+[2024-10-22 11:03:52] [HANZon INFO] HANZon's profile loaded.
+[2024-10-22 11:03:52] [HANZon INFO] (SkinUrl: http://textures.minecraft.net/texture/3806f34c15ae8dc23b8e82fc5d504a2b8266d5aa55b75654e4fbdb4e4b026497 , Model: slim , CapeUrl: null  , Expiry: 1729566262)
+[2024-10-22 11:03:52] [HANZon DEBUG] Try to request 'http://textures.minecraft.net/texture/3806f34c15ae8dc23b8e82fc5d504a2b8266d5aa55b75654e4fbdb4e4b026497'.
+[2024-10-22 11:03:52] [HANZon DEBUG] Cache file found (Length: 1447 , Path: 'E:\google\Release 2.7.4\.minecraft\assets\skins\38\3806f34c15ae8dc23b8e82fc5d504a2b8266d5aa55b75654e4fbdb4e4b026497' , Expire: 0)
+[2024-10-22 11:03:53] [Render thread DEBUG] Loading type: SKIN
+[2024-10-22 11:03:53] [Render thread INFO] ThreadDownloadImageData Class: net.minecraft.client.renderer.texture.HttpTexture

@@ -1,0 +1,17 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[
+{"item":"quark:diamond_heart"},
+{"item":"stellariscraft:w_knightingot"},
+{"item":"miningmaster:ice_sapphire_block"},
+{"item":"artifacts:thorn_pendant"},
+{"item":"artifacts:cross_necklace"},
+{"item":"artifacts:shock_pendant"},
+{"item":"miningmaster:dive_aquamarine_block"},
+{"item":"stellariscraft:w_knightingot"},
+{"item":"quark:diamond_heart"}
+],
+"catalyst":{"item":"stellarisdlc:exchangestonecore"},
+"result":{"item":"stellarisdlc:wtamulet"},
+"enchantments":[]
+}

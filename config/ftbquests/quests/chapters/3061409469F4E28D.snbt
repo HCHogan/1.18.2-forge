@@ -1,0 +1,2140 @@
+{
+	id: "3061409469F4E28D"
+	group: "0AB6945465C0105E"
+	order_index: 1
+	filename: "3061409469F4E28D"
+	title: "盔甲饰品"
+	icon: {
+		id: "cataclysm:monstrous_helm"
+		Count: 1b
+		tag: {
+			RepairCost: 1
+			"quark:RuneAttached": 1b
+			Damage: 0
+			Enchantments: [{
+				lvl: 3s
+				id: "minecraft:unbreaking"
+			}]
+			"quark:RuneColor": {
+				id: "quark:gray_rune"
+				Count: 1b
+			}
+			Tiered: {
+				Tier: "stellariscraft:legendary_helmet"
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -3.0d
+			y: -4.5d
+			width: 7.0d
+			height: 7.0d
+			rotation: -133.0d
+			image: "biomesoplenty:textures/block/dead_branch.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "60CB75FEDE2FA227"
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			width: 7.0d
+			height: 7.0d
+			rotation: 133.0d
+			image: "sc:textures/dead_branch.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "60CB75FEDE2FA227"
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			width: 6.0d
+			height: 6.0d
+			rotation: 45.0d
+			image: "biomesoplenty:textures/block/bush.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "60CB75FEDE2FA227"
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			width: 14.0d
+			height: 8.0d
+			rotation: 0.0d
+			image: "supplementaries:textures/entity/flags/fire_head.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "60CB75FEDE2FA227"
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "alexsmobs:textures/item/moose_headgear.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "60CB75FEDE2FA227"
+		}
+	]
+	quests: [
+		{
+			title: "绑石套装"
+			x: 0.0d
+			y: -2.5d
+			subtitle: "&3脑海中浮现出了“石套”………那是什么？"
+			description: ["&a绑石套装将会提供抗性提升1"]
+			dependencies: ["60CB75FEDE2FA227"]
+			hide: true
+			id: "598073173493EB5C"
+			tasks: [
+				{
+					id: "7AC90A7B479CD9D0"
+					type: "item"
+					item: {
+						id: "stellarisdlc:tiestone_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Tiered: {
+								Tier: "stellariscraft:common_helmet"
+							}
+						}
+					}
+				}
+				{
+					id: "3363E98CA9922047"
+					type: "item"
+					item: {
+						id: "stellarisdlc:tiestone_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Tiered: {
+								Tier: "stellariscraft:common_armor"
+							}
+						}
+					}
+				}
+				{
+					id: "5C5290D08C7AA067"
+					type: "item"
+					item: {
+						id: "stellarisdlc:tiestone_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Tiered: {
+								Tier: "stellariscraft:common_armor"
+							}
+						}
+					}
+				}
+				{
+					id: "55EA218376366CF4"
+					type: "item"
+					item: {
+						id: "stellarisdlc:tiestone_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Tiered: {
+								Tier: "stellariscraft:common_boots"
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "58C4DEFB1B2972FE"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+				}
+				{
+					id: "62897B5810F32914"
+					type: "xp"
+					xp: 306
+				}
+			]
+		}
+		{
+			title: "铁套装"
+			x: -2.5d
+			y: 0.0d
+			subtitle: "&a铁套装将会提供力量1"
+			dependencies: ["1F3E53B1EBEED899"]
+			id: "0C208E6A76FC0F2E"
+			tasks: [
+				{
+					id: "551ECD80D09248A1"
+					type: "item"
+					item: {
+						id: "minecraft:iron_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "261DD81C67019CCF"
+					type: "item"
+					item: {
+						id: "minecraft:iron_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6B763492726EB36C"
+					type: "item"
+					item: {
+						id: "minecraft:iron_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4E04C5FF24FE3090"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+				}
+				{
+					id: "6546F286D1D44D6C"
+					type: "xp"
+					xp: 306
+				}
+			]
+		}
+		{
+			title: "锁链套装"
+			x: 2.5d
+			y: 0.0d
+			subtitle: "&a锁链套装将会提供力量1"
+			dependencies: ["1F3E53B1EBEED899"]
+			id: "6490DF5EB153BB10"
+			tasks: [
+				{
+					id: "6B82D266926875BE"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "11D94FAF588BE2C1"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "791C3EC168996D78"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "60EA8BD6A93BB65B"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+				}
+				{
+					id: "68551814C1EAFBF9"
+					type: "xp"
+					xp: 306
+				}
+			]
+		}
+		{
+			title: "金套装"
+			x: 5.0d
+			y: 0.0d
+			subtitle: "&a金套装将会提供幸运1"
+			dependencies: ["1F3E53B1EBEED899"]
+			id: "53B91A1C666C469E"
+			tasks: [
+				{
+					id: "3AFB519095A2B511"
+					type: "item"
+					item: {
+						id: "minecraft:golden_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3C2B9AB6C7147F95"
+					type: "item"
+					item: {
+						id: "minecraft:golden_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1169D3795BA166D8"
+					type: "item"
+					item: {
+						id: "minecraft:golden_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0B329D86B00659BA"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+				}
+				{
+					id: "092CBF4207ACC9AA"
+					type: "xp"
+					xp: 306
+				}
+			]
+		}
+		{
+			title: "钻石套装"
+			x: 0.0d
+			y: -4.5d
+			subtitle: "&a钻石套装将会提供急迫1"
+			description: ["所有分化盔甲套装的起点..."]
+			dependencies: ["1F3E53B1EBEED899"]
+			id: "5E02679F6CB7B53E"
+			tasks: [
+				{
+					id: "5ED4C215849BF688"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "03DAD40217EB03BB"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5BD0C2BD7D64D325"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4BEC1394420C868B"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+				}
+				{
+					id: "2B14D9BF1439937A"
+					type: "xp"
+					xp: 306
+				}
+			]
+		}
+		{
+			title: "下界合金套装"
+			x: -3.0d
+			y: -6.0d
+			subtitle: "&a下界合金套装将提供生命恢复1和急迫1"
+			dependencies: ["5E02679F6CB7B53E"]
+			hide: true
+			id: "117E7C01375B5E8E"
+			tasks: [
+				{
+					id: "06173A046CD23147"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "33C87D4F8AFB5AE0"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "088A05993A0E980E"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "63E80765AAC6BEA6"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7EC2F526A7371D23"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+				}
+				{
+					id: "02F518C2082879E3"
+					type: "xp"
+					xp: 306
+				}
+			]
+		}
+		{
+			title: "&6套装效果！"
+			icon: "minecraft:amethyst_cluster"
+			x: 0.0d
+			y: 0.0d
+			shape: "pentagon"
+			subtitle: "&a为部分原版套装也添加了套装效果"
+			description: [
+				"部分套装&a任意两件&r即可获得&a半套对应增益&r；为兼容头盔，部分套装&c任意三件&r即可获得&c全套增益&r，详情请见&6&n完成任务&r所需的&b盔甲&c&n数量"
+				""
+				"按住shift和ctrl可查看套装效果"
+			]
+			hide_dependency_lines: true
+			dependencies: ["60CB75FEDE2FA227"]
+			hide: true
+			size: 2.0d
+			id: "1F3E53B1EBEED899"
+			tasks: [{
+				id: "34295060DE055F20"
+				type: "checkmark"
+				title: "套装效果！"
+			}]
+			rewards: [{
+				id: "5D7CCF862B0E5FC3"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "&6焰魔套"
+			x: -6.0d
+			y: -12.75d
+			shape: "hexagon"
+			subtitle: "&4&n&l继承——烈焰主宰的力量"
+			description: [
+				"&3“什么，你怎么知道焰魔套无限耐久”——酒馆里总是能听到这样的声音"
+				""
+				"&6全套焰魔套将提供防火，手持炎葬将额外获得&c灵魂汲取2&6以及霸体效果"
+				"&6此外，焰魔护腿受到攻击时，最多可减少敌人40%护甲，（2级炽焰射线）但会使敌人着火"
+				"（PS：焰魔胸甲与焰魔鞘翅胸甲等效）"
+			]
+			dependencies: ["3F2EE776099CFE7A"]
+			hide: true
+			size: 1.5d
+			id: "62CCB08AE957F2C4"
+			tasks: [
+				{
+					id: "48F2C2615287F748"
+					type: "item"
+					item: {
+						id: "cataclysm:ignitium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7DF02A9676AE4CBE"
+					type: "item"
+					title: "焰魔胸甲"
+					icon: {
+						id: "cataclysm:ignitium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							saa1: { }
+						}
+					}
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "cataclysm:ignitium_elytra_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+										saa1: {
+											MOVE_SPEED: {
+												moveSpeed: 6.0f
+											}
+										}
+									}
+								}
+								{
+									id: "cataclysm:ignitium_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+										saa1: { }
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "561F1C9E4A5AF2F8"
+					type: "item"
+					item: {
+						id: "cataclysm:ignitium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "24ED0A3646E8515C"
+					type: "item"
+					item: {
+						id: "cataclysm:ignitium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1E4EBE619AFA775D"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+				{
+					id: "14CA77E7220E92F7"
+					type: "xp"
+					xp: 306
+				}
+			]
+		}
+		{
+			title: "&6腐金套"
+			x: -3.0d
+			y: -9.0d
+			subtitle: "&a腐金套提供生命恢复2和抗火，在下界额外提供急迫2"
+			dependencies: [
+				"117E7C01375B5E8E"
+				"3FC1E7223EF482EA"
+				"634BF6222CF103CB"
+			]
+			hide: true
+			id: "65C76C415A3A1B4E"
+			tasks: [
+				{
+					id: "62687E60C7BB0DD0"
+					type: "item"
+					item: {
+						id: "stellarisdlc:netherrot_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Tiered: {
+								Tier: "stellariscraft:common_helmet"
+							}
+						}
+					}
+				}
+				{
+					id: "61A7BA01443E9636"
+					type: "item"
+					item: {
+						id: "stellarisdlc:netherrot_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Tiered: {
+								Tier: "stellariscraft:common_armor"
+							}
+						}
+					}
+				}
+				{
+					id: "7B0DE2E22B92D967"
+					type: "item"
+					item: {
+						id: "stellarisdlc:netherrot_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Tiered: {
+								Tier: "stellariscraft:common_armor"
+							}
+						}
+					}
+				}
+				{
+					id: "5D7090C5AF86342B"
+					type: "item"
+					item: {
+						id: "stellarisdlc:netherrot_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Tiered: {
+								Tier: "stellariscraft:common_boots"
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5452F813BF911087"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+				}
+				{
+					id: "65517B86D7857801"
+					type: "xp"
+					xp: 306
+				}
+				{
+					id: "5C1A3560D2C65B5A"
+					type: "item"
+					item: "stellariscraft:netherrotingot"
+				}
+			]
+		}
+		{
+			title: "&e白泣套"
+			x: -3.0d
+			y: -12.0d
+			shape: "hexagon"
+			subtitle: "&b&n&l圣光，必将照亮这世间"
+			description: [
+				"&6当你血量低于50%时，白泣套装会为你提供额外的庇护"
+				""
+			]
+			dependencies: [
+				"65C76C415A3A1B4E"
+				"10CACCAB1428EA4E"
+			]
+			hide: true
+			size: 2.0d
+			id: "0E063AB996FABFBE"
+			tasks: [
+				{
+					id: "3062F9A136B774F4"
+					type: "item"
+					item: {
+						id: "stellarisdlc:w_tknight_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Tiered: {
+								Tier: "stellariscraft:common_helmet"
+							}
+						}
+					}
+				}
+				{
+					id: "6E7BCEC0BB0D2D29"
+					type: "item"
+					item: {
+						id: "stellarisdlc:w_tknight_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Tiered: {
+								Tier: "stellariscraft:common_armor"
+							}
+						}
+					}
+				}
+				{
+					id: "1A57724B5F4289AA"
+					type: "item"
+					item: {
+						id: "stellarisdlc:w_tknight_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Tiered: {
+								Tier: "stellariscraft:common_armor"
+							}
+						}
+					}
+				}
+				{
+					id: "7BA3CF1D92F8D7FE"
+					type: "item"
+					item: {
+						id: "stellarisdlc:w_tknight_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Tiered: {
+								Tier: "stellariscraft:common_boots"
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4ACB65FD834400B8"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+				{
+					id: "20836E22229DA814"
+					type: "xp"
+					xp: 306
+				}
+			]
+		}
+		{
+			title: "&c死亡骑士套"
+			x: 0.0d
+			y: -11.375d
+			shape: "hexagon"
+			subtitle: "&4回望着满地的尸骸，恍惚间你看到的是……"
+			description: ["放中间只是为了任务好看，不代表实际强度，请根据获取难度和阶段自行判断"]
+			dependencies: ["1F3E53B1EBEED899"]
+			hide: true
+			size: 1.75d
+			id: "1360B22B7F477A60"
+			tasks: [
+				{
+					id: "75BBACD1E85375B3"
+					type: "item"
+					item: {
+						id: "stellarisdlc:deadknight_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Tiered: {
+								Tier: "stellariscraft:common_helmet"
+							}
+						}
+					}
+				}
+				{
+					id: "37FBB7AF4B10BC5F"
+					type: "item"
+					item: {
+						id: "stellarisdlc:deadknight_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Tiered: {
+								Tier: "stellariscraft:common_armor"
+							}
+						}
+					}
+				}
+				{
+					id: "72B60B1EB4A441D1"
+					type: "item"
+					item: {
+						id: "stellarisdlc:deadknight_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Tiered: {
+								Tier: "stellariscraft:common_armor"
+							}
+						}
+					}
+				}
+				{
+					id: "04662EC7355843AA"
+					type: "item"
+					item: {
+						id: "stellarisdlc:deadknight_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Tiered: {
+								Tier: "stellariscraft:common_boots"
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6BF025A33CC83D45"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+				}
+				{
+					id: "56C5BC41646DA9AC"
+					type: "xp"
+					xp: 306
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -10.0d
+			subtitle: "&a恶兽头盔将提供骇人之恶2"
+			description: ["可与其他三件套装备兼容"]
+			dependencies: ["63E80765AAC6BEA6"]
+			hide: true
+			dependency_requirement: "one_started"
+			id: "501F3CCE661B4803"
+			tasks: [{
+				id: "56C7491EC2DEE7CC"
+				type: "item"
+				item: {
+					id: "cataclysm:monstrous_helm"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0737BA471745268A"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+				}
+				{
+					id: "3E2429C80541CF46"
+					type: "xp"
+					xp: 306
+				}
+			]
+		}
+		{
+			title: "&b圣尊套"
+			x: 6.0d
+			y: -12.75d
+			shape: "hexagon"
+			subtitle: "&d&n&l无上修行成圣，万千buff为尊"
+			description: [
+				"                        &6配合圣尊王冠免疫&n所有负面buff"
+				""
+				"                                   +20%耐力回复速度"
+			]
+			dependencies: ["063DC1BF988F40CF"]
+			size: 1.5d
+			id: "6047253A500E61B6"
+			tasks: [
+				{
+					id: "5446AE6DF29A624E"
+					type: "item"
+					item: {
+						id: "miningmaster:paragon_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							saa1: { }
+							Enchantments: [
+								{
+									lvl: 1s
+									id: "minecraft:thorns"
+								}
+								{
+									lvl: 3s
+									id: "minecraft:fire_protection"
+								}
+								{
+									lvl: 4s
+									id: "minecraft:blast_protection"
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "14781CF492D99C8B"
+					type: "item"
+					item: {
+						id: "miningmaster:paragon_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							saa1: {
+								DMG_REDUCTION: {
+									dmgReduc: 1.2261276f
+								}
+								MOVE_SPEED: {
+									moveSpeed: 1.7650068f
+								}
+							}
+							Enchantments: [
+								{
+									lvl: 3s
+									id: "miningmaster:grace"
+								}
+								{
+									lvl: 1s
+									id: "miningmaster:heartfelt"
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "55BB5FD0223E7C70"
+					type: "item"
+					item: {
+						id: "miningmaster:paragon_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							saa1: {
+								MAX_HEALTH: {
+									bonusMaxHP: 3.124019f
+								}
+								MOVE_SPEED: {
+									moveSpeed: 1.114157f
+								}
+							}
+							Enchantments: [
+								{
+									lvl: 1s
+									id: "miningmaster:knight_jump"
+								}
+								{
+									lvl: 1s
+									id: "miningmaster:snowpiercer"
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "31ED2BE405D104A3"
+					type: "item"
+					item: {
+						id: "miningmaster:paragon_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							saa1: {
+								MAX_HEALTH: {
+									bonusMaxHP: 3.4418557f
+								}
+								MOVE_SPEED: {
+									moveSpeed: 2.3749795f
+								}
+							}
+							Enchantments: [
+								{
+									lvl: 1s
+									id: "miningmaster:runner"
+								}
+								{
+									lvl: 5s
+									id: "minecraft:feather_falling"
+								}
+								{
+									lvl: 1s
+									id: "minecraft:frost_walker"
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2692FD2ECC9DCD0E"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+				{
+					id: "018C3EB5031103CF"
+					type: "xp"
+					xp: 306
+				}
+			]
+		}
+		{
+			title: "皮革套装"
+			x: 0.0d
+			y: 2.5d
+			subtitle: "&a皮革套装将会提供速度1"
+			dependencies: ["1F3E53B1EBEED899"]
+			id: "3935B9F556B0CFF0"
+			tasks: [
+				{
+					id: "73C4D5B32970E5A0"
+					type: "item"
+					item: {
+						id: "minecraft:leather_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5CD5389EBF98CCD2"
+					type: "item"
+					item: {
+						id: "minecraft:leather_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "311FEA3F772094BB"
+					type: "item"
+					item: {
+						id: "minecraft:leather_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3785A31AE6266F3F"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+				}
+				{
+					id: "0502A0B6A2C86092"
+					type: "xp"
+					xp: 306
+				}
+			]
+		}
+		{
+			title: "&a海王套"
+			x: 0.0d
+			y: 5.0d
+			shape: "hexagon"
+			subtitle: "&6&n&l聚四海之潮，掀君王之涌"
+			description: [
+				"注：海王头盔的水下夜视会导致屏幕一直闪，解决：先带上夜视戒指再下水。"
+				""
+				"珍珠可通过渔夫交易获得，或查询mc百科Critters and Companions模组，养殖水獭；&6&n项链需要放副手，二级三级项链均可"
+				""
+				"&a副手放珍珠项链给潮涌、饱和、免疫挖掘疲劳；&b副手放海洋守卫之眼给潮涌、饱和、免疫坠渊"
+			]
+			dependencies: ["1F3E53B1EBEED899"]
+			size: 2.0d
+			id: "601C48646620F440"
+			tasks: [
+				{
+					id: "31FE6CB86108F546"
+					type: "item"
+					item: {
+						id: "aquaculture:neptunium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5A48876F903CFC3C"
+					type: "item"
+					item: {
+						id: "aquaculture:neptunium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "288B51A4B5B832F4"
+					type: "item"
+					item: {
+						id: "aquaculture:neptunium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3CCAB696267812D0"
+					type: "item"
+					item: {
+						id: "aquaculture:neptunium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "48712CDD7D49951B"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "crittersandcompanions:pearl_necklace_2"
+									Count: 1b
+								}
+								{
+									id: "crittersandcompanions:pearl_necklace_3"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "7921BAC5572A7AE4"
+					type: "item"
+					item: "ba_bt:guardian_eye_ocean"
+				}
+			]
+			rewards: [
+				{
+					id: "2EA45B4D14EF7041"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 2
+				}
+				{
+					id: "0B0FF8BF14B700A2"
+					type: "xp"
+					xp: 306
+				}
+			]
+		}
+		{
+			title: "缠魂套装"
+			x: 3.0d
+			y: 3.0d
+			subtitle: "&a缠魂套装可以免疫震颤和击晕，并提供魔法精通1"
+			dependencies: ["1F3E53B1EBEED899"]
+			id: "7E7E87F47E0A0389"
+			tasks: [
+				{
+					id: "34EE4EAC4B41C89F"
+					type: "item"
+					item: {
+						id: "omnis:haunted_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "154AB323E27FCF31"
+					type: "item"
+					item: {
+						id: "omnis:haunted_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6371BE25B534BDA1"
+					type: "item"
+					item: {
+						id: "omnis:haunted_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "23FBF1B77A63C4B1"
+					type: "item"
+					item: {
+						id: "omnis:haunted_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4DCCEA9423EEE56B"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+				}
+				{
+					id: "73CD5BB48111ABBC"
+					type: "xp"
+					xp: 306
+				}
+			]
+		}
+		{
+			title: "掠夺套装"
+			x: -3.0d
+			y: 3.0d
+			subtitle: "&a掠夺套装可以免疫震颤和不详征兆"
+			dependencies: ["1F3E53B1EBEED899"]
+			id: "4FDA154D8B931632"
+			tasks: [
+				{
+					id: "5674D1B0A8424719"
+					type: "item"
+					item: {
+						id: "omnis:ravaged_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1909D88059FACCE1"
+					type: "item"
+					item: {
+						id: "omnis:ravaged_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "56F3A4E341A6825E"
+					type: "item"
+					item: {
+						id: "omnis:ravaged_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0A66AF2E22B704A1"
+					type: "item"
+					item: {
+						id: "omnis:ravaged_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6C2BCC761156768D"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+				}
+				{
+					id: "77597026BB6AE308"
+					type: "xp"
+					xp: 306
+				}
+			]
+		}
+		{
+			title: "绛紫晶套"
+			x: -4.5d
+			y: -14.5d
+			subtitle: "&a绛紫晶套将提供速度1，配合&c绛紫晶剑或者绛紫晶斧与召唤之书&a会有奇效！"
+			description: [
+				"全套绛紫晶+主手绛紫晶斧/剑+副手召唤之书 给 速度2+魔法精通8（魔法精通：增加&2单次魔法伤害&c4点/每级&r）"
+				""
+				"看起来，蔚蓝浩空两个维度充满了魔力。&d&n古代智慧&r：要用魔法打败魔法（指&b&n高频低伤&r&a克制&e&n单次伤害限制&r）"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"12778C631A6323B0"
+				"5E48EE0086C85EEE"
+			]
+			dependency_requirement: "one_completed"
+			id: "30E8D300E3A3173D"
+			tasks: [
+				{
+					id: "2A53207AC9432E11"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "04548FF0FC6CB6DF"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "436994DDB3AD94CF"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1AC91442EA536FE0"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2B7B3A737676613A"
+					type: "item"
+					item: {
+						id: "blue_skies:summoning_tome"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0A16307C0D349B86"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5A762EDF2153F907"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 2
+				}
+				{
+					id: "1C000672DF6817DC"
+					type: "xp"
+					xp: 306
+				}
+			]
+		}
+		{
+			title: "透辉套装"
+			x: 4.5d
+			y: -14.5d
+			subtitle: "&a提供抗性1和力量3，配合2把透辉石剑会有奇效！"
+			description: ["任意两件获得力量2"]
+			hide_dependency_lines: true
+			dependencies: [
+				"12778C631A6323B0"
+				"5E48EE0086C85EEE"
+			]
+			dependency_requirement: "one_completed"
+			id: "646C68FF013B1B56"
+			tasks: [
+				{
+					id: "585371F3956E55FF"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2DF0E74F45AF7639"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "665AADCBDD035B39"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "388BFCDA96439693"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "22EFACA1A7528308"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 2
+				}
+				{
+					id: "3D43AC37E83C4034"
+					type: "xp"
+					xp: 306
+				}
+			]
+		}
+		{
+			title: "精炼头盔"
+			x: -3.0d
+			y: -3.0d
+			subtitle: "&a精炼头盔将提供抗性1和缓解3，配合千段巨斧有奇效！"
+			description: [
+				"可与其他三件套装备兼容"
+				""
+				"关于缓解:比如缓解6，你受到7滴血的伤害就会7-6=1，但是你受到5滴血就会吃满5滴血的伤害"
+			]
+			dependencies: ["1F3E53B1EBEED899"]
+			id: "44D59813716D2EC7"
+			tasks: [{
+				id: "43321303D987B59C"
+				type: "item"
+				item: "mowziesmobs:wrought_helmet"
+			}]
+			rewards: [
+				{
+					id: "3B27460A1C64FE61"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+				}
+				{
+					id: "0C26FDF1535E1BC9"
+					type: "xp"
+					xp: 306
+				}
+			]
+		}
+		{
+			title: "太阳面具"
+			x: 3.0d
+			y: -3.0d
+			subtitle: "&6我，就是太阳！"
+			description: [
+				"&a太阳面具将提供太阳祝福"
+				"可与其他三件套装备兼容"
+			]
+			dependencies: ["1F3E53B1EBEED899"]
+			id: "5896316554C10F6D"
+			tasks: [{
+				id: "33C54097175E9DF1"
+				type: "item"
+				item: {
+					id: "mowziesmobs:sol_visage"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "3A925F7C0491F9B6"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+				}
+				{
+					id: "66832B4F40ABA1BF"
+					type: "xp"
+					xp: 306
+				}
+			]
+		}
+		{
+			title: "紫水晶铁套"
+			x: -5.0d
+			y: 0.0d
+			subtitle: "&a提供力量1，急迫1，免疫饥饿debuff"
+			description: ["任意两件获得力量1并且免疫饥饿效果"]
+			dependencies: ["0C208E6A76FC0F2E"]
+			id: "3FAA31F80FFA6EF0"
+			tasks: [
+				{
+					id: "4E7C32E4A01A7582"
+					type: "item"
+					item: {
+						id: "amethysttoolsmod:iron_helmet_amethyst"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1E5C9AD9FCB4436D"
+					type: "item"
+					item: {
+						id: "amethysttoolsmod:iron_chestplate_amethyst"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "529B0BF22A2D9249"
+					type: "item"
+					item: {
+						id: "amethysttoolsmod:iron_leggings_amethyst"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2F33CEFBBA232676"
+					type: "item"
+					item: {
+						id: "amethysttoolsmod:iron_boots_amethyst"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3519D8B06638835F"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+				}
+				{
+					id: "542DEC8A83DE7ABD"
+					type: "xp"
+					xp: 306
+				}
+			]
+		}
+		{
+			title: "紫水晶钻套"
+			x: 6.0d
+			y: -7.5d
+			subtitle: "&a提供急迫，且免疫饥饿效果，配合双钻石剑有奇效"
+			description: ["任意两件获得急迫1且免疫饥饿效果"]
+			dependencies: ["5E02679F6CB7B53E"]
+			hide: true
+			id: "1E4685106D9FD838"
+			tasks: [
+				{
+					id: "7D681D42FF30880B"
+					type: "item"
+					item: {
+						id: "amethysttoolsmod:diamond_helmet_amethyst"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "53FC4F789256C6D1"
+					type: "item"
+					item: {
+						id: "amethysttoolsmod:diamond_chestplate_amethyst"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "47B1E3CE8BC6916F"
+					type: "item"
+					item: {
+						id: "amethysttoolsmod:diamond_leggings_amethyst"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3B29C358BFE13A36"
+					type: "item"
+					item: {
+						id: "amethysttoolsmod:diamond_boots_amethyst"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "415E46850057154A"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+				}
+				{
+					id: "71944AEEA4D2AC9C"
+					type: "xp"
+					xp: 306
+				}
+			]
+		}
+		{
+			title: "紫水晶合金套"
+			x: 6.0d
+			y: -10.0d
+			subtitle: "&a提供生命恢复1和急迫1，且免疫饥饿效果"
+			description: ["任意两件获得生命回复1且免疫饥饿效果"]
+			dependencies: ["1E4685106D9FD838"]
+			hide: true
+			dependency_requirement: "one_completed"
+			id: "063DC1BF988F40CF"
+			tasks: [
+				{
+					id: "2E298E209CC9B141"
+					type: "item"
+					item: {
+						id: "amethysttoolsmod:netherite_helmet_amethyst"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "49D8854CBAA28E92"
+					type: "item"
+					item: {
+						id: "amethysttoolsmod:netherite_chestplate_amethyst"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "142B8D4C2461E564"
+					type: "item"
+					item: {
+						id: "amethysttoolsmod:netherite_leggings_amethyst"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4381259CA2F384C3"
+					type: "item"
+					item: {
+						id: "amethysttoolsmod:netherite_boots_amethyst"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1E6DBF55F47E4621"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+				}
+				{
+					id: "119681C152FB5A13"
+					type: "xp"
+					xp: 306
+				}
+			]
+		}
+		{
+			title: "钻钢套装"
+			x: 3.0d
+			y: -6.0d
+			subtitle: "&a钻石钢套装提供力量1和急迫1"
+			dependencies: ["5E02679F6CB7B53E"]
+			hide: true
+			id: "50DCB34465516F44"
+			tasks: [
+				{
+					id: "0392A1EFD8EF721C"
+					type: "item"
+					item: {
+						id: "stellarisdlc:diasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Tiered: {
+								Tier: "stellariscraft:common_helmet"
+							}
+						}
+					}
+				}
+				{
+					id: "4E82E47B19C0E8A8"
+					type: "item"
+					item: {
+						id: "stellarisdlc:diasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Tiered: {
+								Tier: "stellariscraft:common_armor"
+							}
+						}
+					}
+				}
+				{
+					id: "0310665ECF10933D"
+					type: "item"
+					item: {
+						id: "stellarisdlc:diasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Tiered: {
+								Tier: "stellariscraft:common_armor"
+							}
+						}
+					}
+				}
+				{
+					id: "3D7978B68AAFB312"
+					type: "item"
+					item: {
+						id: "stellarisdlc:diasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Tiered: {
+								Tier: "stellariscraft:common_boots"
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "41DAF0BD02B9334C"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+				}
+				{
+					id: "69381C80297AD496"
+					type: "xp"
+					xp: 306
+				}
+			]
+		}
+		{
+			title: "&6金龙套"
+			x: 3.0d
+			y: -12.0d
+			shape: "hexagon"
+			subtitle: "&6&n2024年专属套装！！！\\n祝玩家们：龙舞迎新岁，家和万事兴。"
+			description: [
+				"&6当生命值低于40%时，获得大量增益，同时对附近生物造成熔焰伤害（不会触发着火）"
+				""
+			]
+			dependencies: ["5F7D47DEFE618653"]
+			hide: true
+			dependency_requirement: "one_completed"
+			size: 2.0d
+			id: "5583AD7F872AE1FB"
+			tasks: [
+				{
+					id: "2F0EB1051FBDCE8E"
+					type: "item"
+					item: {
+						id: "stellarisdlc:goldendragon_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Tiered: {
+								Tier: "stellariscraft:common_helmet"
+							}
+						}
+					}
+				}
+				{
+					id: "71B0F813BC4B2FBC"
+					type: "item"
+					item: {
+						id: "stellarisdlc:goldendragon_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Tiered: {
+								Tier: "stellariscraft:common_armor"
+							}
+						}
+					}
+				}
+				{
+					id: "34BBD925ACF1F152"
+					type: "item"
+					item: {
+						id: "stellarisdlc:goldendragon_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Tiered: {
+								Tier: "stellariscraft:common_armor"
+							}
+						}
+					}
+				}
+				{
+					id: "6D8AD8E6956BC1FE"
+					type: "item"
+					item: {
+						id: "stellarisdlc:goldendragon_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Tiered: {
+								Tier: "stellariscraft:common_boots"
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1A5B74E71861B5D0"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+				}
+				{
+					id: "4B252BF9D8CCE022"
+					type: "xp"
+					xp: 306
+				}
+			]
+		}
+		{
+			title: "&e盔甲套装说明（必看）"
+			x: 0.0d
+			y: -8.0d
+			shape: "hexagon"
+			subtitle: "&b&n&l同时按住shift+ctrl查看套装所需装备与全套的增益"
+			description: [
+				"{image:sc:textures/zs1.png width:170 height:100 align:1}"
+				"{image:sc:textures/zs2.png width:170 height:100 align:1}"
+			]
+			dependencies: ["1F3E53B1EBEED899"]
+			size: 2.0d
+			id: "6F344037D70BBDE4"
+			tasks: [{
+				id: "333E7E997C578DE3"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "7189F40AA35FD3AF"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: -15.0d
+			shape: "octagon"
+			min_required_dependencies: 1
+			dependencies: ["1360B22B7F477A60"]
+			hide: true
+			size: 1.5d
+			id: "5F4C32FD30057CDE"
+			tasks: [{
+				id: "4B7132EDBEFDE261"
+				type: "item"
+				item: "stellarisdlc:deathskull"
+			}]
+			rewards: [{
+				id: "030F258642BD1DED"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			x: -3.0d
+			y: -16.5d
+			shape: "octagon"
+			dependencies: ["0E063AB996FABFBE"]
+			hide: true
+			size: 2.0d
+			id: "2BEAF8DA473D0A18"
+			tasks: [{
+				id: "307D76DBEC122350"
+				type: "item"
+				item: "stellarisdlc:wtamulet"
+			}]
+			rewards: [{
+				id: "3DA7E4C190AA2998"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			x: -6.0d
+			y: -15.75d
+			shape: "octagon"
+			dependencies: ["62CCB08AE957F2C4"]
+			size: 1.5d
+			id: "677880A2CAB59C3E"
+			tasks: [{
+				id: "4C4F1D0070193666"
+				type: "item"
+				item: "stellarisdlc:ignisheart"
+			}]
+			rewards: [{
+				id: "3F859020F61D9D69"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			x: 3.0d
+			y: -16.5d
+			shape: "octagon"
+			dependencies: ["5583AD7F872AE1FB"]
+			hide: true
+			size: 2.0d
+			id: "7E1BBB6C61D9C258"
+			tasks: [{
+				id: "17DED420907F1347"
+				type: "item"
+				item: "stellarisdlc:goldendragonclaw"
+			}]
+			rewards: [{
+				id: "41050EDFEF32E9C8"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			x: 6.0d
+			y: -15.75d
+			shape: "octagon"
+			dependencies: ["6047253A500E61B6"]
+			size: 1.5d
+			id: "124733BC1E034266"
+			tasks: [{
+				id: "49C75680A5E8F26F"
+				type: "item"
+				item: "stellarisdlc:paragoncrown"
+			}]
+			rewards: [{
+				id: "588B0EDAD08174EC"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			title: "紫黄晶套装"
+			x: 3.0d
+			y: -9.0d
+			subtitle: "&a紫黄晶套装提供龙威1、冻僵免疫以及抗火、抗性1"
+			dependencies: ["50DCB34465516F44"]
+			hide: true
+			id: "5F7D47DEFE618653"
+			tasks: [
+				{
+					id: "5CEFEC8C924DF49F"
+					type: "item"
+					item: {
+						id: "byg:ametrine_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7066288FC50DE2FA"
+					type: "item"
+					item: {
+						id: "byg:ametrine_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0A821018429E8505"
+					type: "item"
+					item: {
+						id: "byg:ametrine_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3ED90AC7F14F368F"
+					type: "item"
+					item: {
+						id: "byg:ametrine_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "08C444520F49D6C2"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+				}
+				{
+					id: "49FD3BBFBCCD463B"
+					type: "xp"
+					xp: 306
+				}
+			]
+		}
+		{
+			title: "&6炎葬"
+			x: -6.0d
+			y: -7.5d
+			subtitle: "&a炎葬需要与焰魔套配合才能发挥真正的力量"
+			description: [
+				"       &c本身不可附魔 能且只能继承“腐金大剑”的附魔"
+				"       &c（务必提前将“腐金大剑”附魔好在锻造升级）"
+			]
+			dependencies: [
+				"117E7C01375B5E8E"
+				"72431516A526DDE5"
+			]
+			hide: true
+			dependency_requirement: "one_completed"
+			id: "3F2EE776099CFE7A"
+			tasks: [{
+				id: "6405BC3438C0AC1C"
+				type: "item"
+				item: "cataclysm:the_incinerator"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

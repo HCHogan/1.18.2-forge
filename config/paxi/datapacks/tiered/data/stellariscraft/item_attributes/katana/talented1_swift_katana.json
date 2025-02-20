@@ -1,0 +1,37 @@
+{
+  "id": "stellariscraft:talented1_swift_katana",
+  "weight": 5,
+  "reforge_experience_cost": 2,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:katana"}
+  ],
+  "style": {
+    "color": "green"
+  },
+  "attributes": [
+    {
+      "type": "toybox:crit_damage",
+      "modifier": {
+        "name": "stellariscraft:talented1_swift_katana",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.1
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "toybox:burden",
+      "modifier": {
+        "name": "stellariscraft:talented1_swift_katana",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.3
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

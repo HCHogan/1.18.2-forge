@@ -1,0 +1,15 @@
+{
+  "name": "stellariscraft:boss_fly/sgl",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "stellariscraft:boss_fly/1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

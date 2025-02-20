@@ -1,0 +1,2 @@
+schedule function effect_unstable:sheath_dash/slaughter_general 20t append
+schedule function effect_unstable:sheath_dash/slaughter_set_phase1 45t append

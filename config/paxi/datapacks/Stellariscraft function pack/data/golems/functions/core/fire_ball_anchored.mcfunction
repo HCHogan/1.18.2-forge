@@ -1,0 +1,1 @@
+execute as @e[type=ba_bt:core_golem,sort=nearest,limit=1] at @s run execute anchored eyes run summon cataclysm:ignis_fireball ^ ^ ^0.5 {Tags:[summon]}

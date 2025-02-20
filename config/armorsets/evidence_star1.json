@@ -1,0 +1,23 @@
+{
+  "armorSetName": "evidence_star1",
+  "performanceMode": true,
+
+  "additionalSetPieces":[
+    {
+    "itemKey": "stellarisdlc:evidencestar_1",
+    "mustBeEmpty": false
+  }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "epicfight:staminar",
+      "value": 2,
+      "attributeOperation": 0,
+      "description": "evidence_star1",
+      "modifierUUID": "227c1b22-cfcf-49e8-916e-b80a924d9454"
+    }
+
+  ],
+  "hideGeneratedTooltip": false
+}

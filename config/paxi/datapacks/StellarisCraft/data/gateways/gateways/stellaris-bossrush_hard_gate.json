@@ -1,0 +1,137 @@
+{
+    "size": "large",
+    "color": "#CB3D07",
+    "leash_range": 64,
+    "waves": [{
+        "entities": [{
+                "entity": "jobinsmobs:msabyss"
+            }
+        ],
+        "modifiers": [
+        {
+            "attribute": "generic.max_health",
+            "operation": "MULTIPLY_TOTAL",
+            "value": 0.1
+        },
+        {
+            "attribute": "generic.attack_damage",
+            "operation": "MULTIPLY_TOTAL",
+            "value": 0.1
+        }
+    ],
+    "rewards": [{
+        "type": "stack",
+        "stack": {"item": "overweight_farming:melon_juice"}
+    },
+    {
+        "type": "stack",
+        "stack": {"item": "minecraft:enchanted_golden_apple"}
+    } ,
+    {
+        "type": "stack",
+        "stack": {"item": "stellariscraft:starcore"}
+    } 
+],
+        "max_wave_time": 4800,
+        "setup_time": 60
+    },
+    {
+        "entities": [{
+                "entity": "jobinsmobs:gazeabysser"
+            }
+        ],
+        "modifiers": [
+        {
+            "attribute": "generic.max_health",
+            "operation": "MULTIPLY_TOTAL",
+            "value": 0.1
+        },
+        {
+            "attribute": "generic.attack_damage",
+            "operation": "MULTIPLY_TOTAL",
+            "value": 0.1
+        }
+    ],
+    "rewards": [{
+        "type": "stack",
+        "stack": {"item": "overweight_farming:melon_juice"}
+    },
+    {
+        "type": "stack",
+        "stack": {"item": "minecraft:enchanted_golden_apple"}
+    } 
+    ,
+    {
+        "type": "stack",
+        "stack": {"item": "stellariscraft:lightfulcore"}
+    } 
+],
+        "max_wave_time": 6000,
+        "setup_time": 60
+    },
+    {
+        "entities": [{
+                "entity": "ba_bt:end_golem"
+            }
+        ],
+        "modifiers": [
+        {
+            "attribute": "generic.max_health",
+            "operation": "MULTIPLY_TOTAL",
+            "value": 0.1
+        },
+        {
+            "attribute": "generic.attack_damage",
+            "operation": "MULTIPLY_TOTAL",
+            "value": 0.1
+        }
+    ],
+    "rewards": [{
+        "type": "stack",
+        "stack": {"item": "overweight_farming:melon_juice"}
+    },
+    {
+        "type": "stack",
+        "stack": {"item": "minecraft:enchanted_golden_apple"}
+    } 
+    ,
+    {
+        "type": "stack",
+        "stack": {"item": "byg:ametrine_gems"}
+    } 
+    ,
+    {
+        "type": "stack",
+        "stack": {"item": "miningmaster:air_malachite"}
+    } 
+    ,
+    {
+        "type": "stack",
+        "stack": {"item": "ba_bt:guardian_eye_end"}
+    } 
+    ,
+    {
+        "type": "stack",
+        "stack": {"item": "bhc:blue_heart"}
+    } 
+],
+        "max_wave_time": 7200,
+        "setup_time": 60
+    }
+],
+"rewards": [
+    {
+        "type": "stack",
+        "stack": {"item": "s33r_more_food:omelet"}
+    },
+    {
+        "type": "stack",
+        "stack": {"item": "stellariscraft:immortalbadge"}
+    },
+    {
+        "type": "stack",
+        "stack": {"item": "stellariscraft:exchangestone"}
+    } ],
+"completion_xp": 1000,
+"spawn_range": 5
+}

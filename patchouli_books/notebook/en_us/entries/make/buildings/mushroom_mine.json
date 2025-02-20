@@ -1,0 +1,19 @@
+{
+    "name": "蘑菇矿架",
+    "icon": "minecraft:brown_mushroom",
+    "category": "patchouli:buildings",
+    "sortnum":0,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"蘑菇矿架/mushroom_mines",
+            "text": "帝国时期的古老矿井，在第三次的终焉进攻之中彻底停止了使用，长年的弃置让菌类占据了矿井的主体。值得注意的时，由于运作时间相当的长，在帝国时期这里的管理者为了保障安全，学习了附魔的技巧，制作了一批保护性相当强的保护铠甲。如今已经化作亡灵的他们身上的铠甲仍然坚硬无比。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/mushroom_mine.png",
+            "text1":"共克时艰",
+            "text2":""
+        }
+    ]
+}

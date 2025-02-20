@@ -1,0 +1,733 @@
+{
+	id: "6EC1BE44285279F3"
+	group: "6878AB6C16119261"
+	order_index: 3
+	filename: "6EC1BE44285279F3"
+	title: "星际商人"
+	icon: {
+		id: "blue_skies:alchemist_trophy"
+		Count: 1b
+		tag: {
+			RepairCost: 1
+			"quark:RuneAttached": 1b
+			BlockStateTag: {
+				tier: "gold"
+			}
+			Enchantments: [{
+				lvl: 3s
+				id: "minecraft:unbreaking"
+			}]
+			"quark:RuneColor": {
+				id: "quark:yellow_rune"
+				Count: 1b
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -16.0d
+		y: -5.0d
+		width: 11.0d
+		height: 8.0d
+		rotation: 11.0d
+		image: "blackaures_paintings:textures/p11.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+		dependency: "4F8E10047A8C868C"
+	}]
+	quests: [
+		{
+			title: "宝石回收"
+			x: -2.5d
+			y: 2.0d
+			description: ["&a注意：兑换自动消耗物品栏宝石，请注意保管重要宝石"]
+			dependencies: ["228E462D74AB0ABE"]
+			hide: true
+			size: 1.5d
+			can_repeat: true
+			id: "107A5F8AC5EB0CEC"
+			tasks: [{
+				id: "4CB23AD8244CFB2F"
+				type: "item"
+				title: "Any #miningmaster:gems"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "miningmaster:gems"
+					}
+				}
+				count: 6L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5B5BC07449EC70A0"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 7421896030659922250L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			subtitle: "&a不敢相信，你真的把那些宝石都丢进去啦？！"
+			description: ["&a“算了，这顿我请客吧.”"]
+			dependencies: ["1494E457AD8A8335"]
+			secret: true
+			id: "63D22DC8A3B0C772"
+			tasks: [{
+				id: "0A9A925E1C88FF97"
+				type: "advancement"
+				advancement: "miningmaster:miningmaster/its_no_use"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "59CFA6FDAFC13FC2"
+					type: "item"
+					item: "delightful:deluxe_cheeseburger"
+				}
+				{
+					id: "7E45EDD651A84888"
+					type: "item"
+					item: "farmersdelight:cooked_chicken_cuts"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -11.5d
+			subtitle: "&a这是真正属于你的宝物……"
+			dependencies: ["76F590A4FD6E28A6"]
+			secret: true
+			id: "4CD32EAE1E36FCE9"
+			tasks: [{
+				id: "28C4EE38B822A802"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_axe"
+					Count: 1b
+					tag: {
+						RepairCost: 1
+						Damage: 0
+						Enchantments: [{
+							lvl: 15s
+							id: "minecraft:efficiency"
+						}]
+						display: {
+							Name: "{\"text\":\"*破破烂烂的木斧*\"}"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "21BA955AC61791F1"
+				type: "item"
+				item: "delightful:chunk_nugget"
+			}]
+		}
+		{
+			title: "&a还在打电动哦，休息一下好不好"
+			x: 2.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["1494E457AD8A8335"]
+			secret: true
+			id: "45E66A0F0A742C64"
+			tasks: [{
+				id: "1E89C92DAB614E34"
+				type: "questsadditions:time"
+				elapsedTime: 72000L
+				gameTime: "game"
+			}]
+			rewards: [
+				{
+					id: "1997EEC0A0AD01C0"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 2688748745693820522L
+				}
+				{
+					id: "0BE4D76A4C707597"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 2240263939124024074L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -4.0d
+			subtitle: "&a跟太阳肩并肩~"
+			description: [
+				"&b感谢你看到了我的提示"
+				"&6在此给予你一小时的太阳祝福，空手右击以召唤太阳打击，空手潜行右键发射太阳光束（会消耗buff时长）"
+			]
+			dependencies: ["1494E457AD8A8335"]
+			secret: true
+			id: "4CBA116C2B290B62"
+			tasks: [{
+				id: "789951D43C74747E"
+				type: "advancement"
+				advancement: "minecraft:adventure/fall_from_world_height"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "41FFC994CDF6A2B0"
+					type: "item"
+					item: "quark:diamond_heart"
+				}
+				{
+					id: "5CDF6C4DD73C6DAF"
+					type: "command"
+					auto: "invisible"
+					command: "/effect give @p mowziesmobs:suns_blessing 3600 1"
+					player_command: false
+				}
+				{
+					id: "76D1A8EC4917C103"
+					type: "item"
+					item: "quark:bottled_cloud"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "&6Do you like van♂游戏?"
+			x: -7.0d
+			y: -2.0d
+			subtitle: "&b我已成仙，感觉良好"
+			dependencies: ["1494E457AD8A8335"]
+			secret: true
+			id: "4761BF3F610A61FB"
+			tasks: [{
+				id: "492407FBD7CFA290"
+				type: "questsadditions:time"
+				elapsedTime: 360000L
+				gameTime: "game"
+			}]
+			rewards: [
+				{
+					id: "12BD21CAD1D9B693"
+					type: "choice"
+					icon: "dotcoinmod:diamond_coin"
+					exclude_from_claim_all: true
+					table_id: 7163841761403429550L
+				}
+				{
+					id: "7AF161D858DE9B7B"
+					type: "choice"
+					icon: "dotcoinmod:diamond_coin"
+					exclude_from_claim_all: true
+					table_id: 7163841761403429550L
+				}
+				{
+					id: "391C969356C50666"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							CustomPotionEffects: [{
+								"forge:id": "cofh_core:panacea"
+								CurativeItems: [{
+									id: "minecraft:milk_bucket"
+									Count: 1b
+								}]
+								Ambient: 0b
+								ShowIcon: 1b
+								ShowParticles: 1b
+								Duration: 600
+								Id: 49b
+								Amplifier: 0b
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&6音乐党的夏天"
+			icon: "minecraft:jukebox"
+			x: 2.0d
+			y: -6.0d
+			subtitle: "&b什么？今晚全部消费由公子您买单？！"
+			dependencies: ["228E462D74AB0ABE"]
+			hide: true
+			can_repeat: true
+			id: "2E988910B465B26C"
+			tasks: [{
+				id: "02AEBE070AAB65A8"
+				type: "item"
+				icon: "dotcoinmod:iron_coin"
+				item: "dotcoinmod:iron_coin"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0342ECD821CE3588"
+				type: "choice"
+				icon: "cataclysm:music_disc_ignis"
+				exclude_from_claim_all: true
+				table_id: 8720903740879346470L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			subtitle: "&3掌握这世界运转的本源力量"
+			dependencies: ["3F8334639906C763"]
+			hide: true
+			id: "0006B94C12F121E0"
+			tasks: [{
+				id: "683CD8152BF97F48"
+				type: "stat"
+				icon: "quark:rainbow_rune"
+				stat: "minecraft:enchant_item"
+				value: 100
+			}]
+			rewards: [{
+				id: "7392054A231EE30D"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: -7.0d
+			y: -6.0d
+			shape: "circle"
+			subtitle: "&c注：禁用亡灵戒指，因为会触发假死bug"
+			description: ["&a注：背包中不要一次性放过多戒指，会全部回收。"]
+			dependencies: ["228E462D74AB0ABE"]
+			hide: true
+			can_repeat: true
+			id: "7A98310434188334"
+			tasks: [{
+				id: "4E0693917458D349"
+				type: "item"
+				title: "戒指回收"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "curios:ring"
+					}
+				}
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6770B1E272BFA2E5"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2568569975172117097L
+			}]
+		}
+		{
+			title: "&6伐伐伐伐伐木工！"
+			icon: {
+				id: "mowziesmobs:wrought_axe"
+				Count: 1b
+				tag: {
+					RepairCost: 1
+					Enchantments: [{
+						lvl: 5s
+						id: "minecraft:sharpness"
+					}]
+				}
+			}
+			x: -2.5d
+			y: -9.0d
+			shape: "rsquare"
+			subtitle: "&a日复一日，必有精进！"
+			description: ["&a诚实的少年，哪吧斧子是你掉的呢……"]
+			dependencies: ["42D974843C2D2986"]
+			size: 1.5d
+			id: "76F590A4FD6E28A6"
+			tasks: [{
+				id: "56F3F77C1A04F588"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 1145L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5F447DD800920AEF"
+				type: "choice"
+				icon: {
+					id: "minecraft:wooden_axe"
+					Count: 1b
+					tag: {
+						RepairCost: 1
+						Damage: 0
+						Enchantments: [{
+							lvl: 15s
+							id: "minecraft:efficiency"
+						}]
+						display: {
+							Name: "{\"text\":\"*破破烂烂的木斧*\"}"
+						}
+					}
+				}
+				exclude_from_claim_all: true
+				table_id: 6475162714356979063L
+			}]
+		}
+		{
+			title: "伐木工"
+			x: -2.5d
+			y: -6.0d
+			subtitle: "&a嘿！他为什么只收橡木，这不公平！"
+			dependencies: ["7A5DCEBBA33C25FA"]
+			hide: true
+			id: "42D974843C2D2986"
+			tasks: [{
+				id: "7FC57D9242D5971E"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 648L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0605432D867F52F7"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						RepairCost: 1
+						Enchantments: [{
+							lvl: 1s
+							id: "veinmining:vein_mining"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -6.0d
+			subtitle: "&a繁衍两代子嗣"
+			dependencies: ["60CB75FEDE2FA227"]
+			hide: true
+			id: "3155B11C5BEA95DC"
+			tasks: [{
+				id: "7BB87319154971B2"
+				type: "advancement"
+				advancement: "mca:grandparent"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "1235F31432C6EE8C"
+					type: "item"
+					item: "dotcoinmod:gold_coin"
+				}
+				{
+					id: "0C4AC59EC77BB5AF"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 2688748745693820522L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -9.0d
+			shape: "rsquare"
+			subtitle: "&a在你的小镇中成为国君"
+			dependencies: ["3155B11C5BEA95DC"]
+			hide: true
+			size: 1.5d
+			id: "4D8B56E74B68C79E"
+			tasks: [{
+				id: "356883E9EF210A20"
+				type: "advancement"
+				advancement: "mca:monarch"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "330A55F37348F916"
+				type: "item"
+				title: "&5皇帝的新帽"
+				item: {
+					id: "alexsmobs:spiked_turtle_shell"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "摆大烂，睡大觉次数"
+			x: -5.0d
+			y: -4.0d
+			subtitle: "&a安详.jpg"
+			dependencies: ["4F8E10047A8C868C"]
+			hide: true
+			id: "24732E29F243BCC1"
+			tasks: [{
+				id: "73976034FAF3BB5B"
+				type: "stat"
+				icon: "comforts:hammock_pink"
+				stat: "minecraft:sleep_in_bed"
+				value: 100
+			}]
+			rewards: [{
+				id: "2E817C8036CC687D"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			subtitle: "&6陈列   陈列 陈列柜的 陈列柜   的陈列柜"
+			description: ["望远镜终于发挥了它的用处"]
+			invisible: true
+			id: "4A686E6F647C090F"
+			tasks: [{
+				id: "0DEE50814B37EB17"
+				type: "advancement"
+				advancement: "display_case:infinity_case"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "16E1C34A2FBA2CF0"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2240263939124024074L
+			}]
+		}
+		{
+			title: "&3渐入佳境"
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["613EFA633560151B"]
+			hide: true
+			id: "02829D5785296B1D"
+			tasks: [{
+				id: "7A8AA611A0367F6E"
+				type: "stat"
+				icon: "minecraft:emerald_block"
+				stat: "minecraft:traded_with_villager"
+				value: 50
+			}]
+			rewards: [{
+				id: "6BF552A0A303B336"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				random_bonus: 2
+			}]
+		}
+		{
+			title: "&6富甲一方"
+			x: 0.0d
+			y: 0.5d
+			dependencies: ["02829D5785296B1D"]
+			hide: true
+			id: "6C86304DCA07490B"
+			tasks: [{
+				id: "742940797D589F2C"
+				type: "stat"
+				icon: "minecraft:netherite_block"
+				stat: "minecraft:traded_with_villager"
+				value: 150
+			}]
+			rewards: [
+				{
+					id: "111EA206AEF74EDF"
+					type: "item"
+					item: "ringsofascension:ring_regeneration"
+				}
+				{
+					id: "32FFEF7E2590C4BD"
+					type: "item"
+					item: "dotcoinmod:gold_coin"
+					count: 3
+					random_bonus: 5
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -2.0d
+			subtitle: "&a在建筑限制高度进行一次交易"
+			dependencies: ["613EFA633560151B"]
+			hide: true
+			id: "1D73722DADF24934"
+			tasks: [{
+				id: "7AAB72937428E22B"
+				type: "advancement"
+				advancement: "minecraft:adventure/trade_at_world_height"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "02332340EBE2CE29"
+				type: "item"
+				item: "dotcoinmod:iron_coin"
+				count: 2
+				random_bonus: 3
+			}]
+		}
+		{
+			title: "&6富商巨贾"
+			x: -2.5d
+			y: 3.75d
+			dependencies: [
+				"6C86304DCA07490B"
+				"2EA72D3B937F21D4"
+			]
+			hide: true
+			size: 1.5d
+			id: "054507F1FD22FBAE"
+			tasks: [{
+				id: "5F8D4BCEB3DD0668"
+				type: "stat"
+				icon: "cataclysm:ignitium_block"
+				stat: "minecraft:traded_with_villager"
+				value: 300
+			}]
+			rewards: [{
+				id: "330BF72986FFC669"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 10s
+							id: "nock_enough_arrows:recovery"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "&6地精商人"
+			x: -5.0d
+			y: 0.5d
+			dependencies: ["1D73722DADF24934"]
+			hide: true
+			id: "2EA72D3B937F21D4"
+			tasks: [{
+				id: "135BD37326DC50CD"
+				type: "stat"
+				icon: "dotcoinmod:gold_coin"
+				stat: "goblintraders:trade_with_goblin"
+				value: 50
+			}]
+			rewards: [{
+				id: "3E925451AEA69046"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: -9.0d
+			shape: "rsquare"
+			subtitle: "&f掠夺掠夺者"
+			dependencies: ["06025F8FC7C71AA5"]
+			hide: true
+			size: 1.5d
+			id: "10492B8946BAAD51"
+			tasks: [{
+				id: "688A56FFCEE83202"
+				type: "advancement"
+				advancement: "minecraft:adventure/whos_the_pillager_now"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "34552CF952595237"
+				type: "item"
+				item: "dotcoinmod:iron_coin"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			subtitle: "“特殊箭矢不享受无限附魔”"
+			description: ["&a特殊箭矢的伤害都大幅度加强，你需要选择你的箭而不是你的弓"]
+			dependencies: ["228E462D74AB0ABE"]
+			hide: true
+			id: "06025F8FC7C71AA5"
+			tasks: [{
+				id: "2EA6F9441363EDD2"
+				type: "advancement"
+				advancement: "minecraft:adventure/shoot_arrow"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "683A16FABC34FAA8"
+				type: "item"
+				item: "dotcoinmod:iron_coin"
+			}]
+		}
+		{
+			title: "&5村庄英雄"
+			x: -2.5d
+			y: -4.0d
+			shape: "diamond"
+			subtitle: "&b劫掠的一小步，村庄的一大步"
+			dependencies: ["4F8E10047A8C868C"]
+			hide: true
+			size: 2.0d
+			id: "20388F37701F7996"
+			tasks: [{
+				id: "52A54F2F4D986ECB"
+				type: "advancement"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/mob_effect/hero_of_the_village.png"
+					}
+				}
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "528AE7778041A547"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2240263939124024074L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			subtitle: "&a杀死恒晓维度所有昆虫"
+			dependencies: ["3AF9F254A6B82782"]
+			hide: true
+			id: "50A4C2A39DD7E453"
+			tasks: [{
+				id: "66410136DB0AA45E"
+				type: "advancement"
+				advancement: "blue_skies:everdawn/kill_bug"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "16CD0F8FBB0AEA42"
+					type: "xp"
+					xp: 199
+				}
+				{
+					id: "314AFBE883D3E22C"
+					type: "item"
+					item: "alexsdelight:maggot_salad"
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

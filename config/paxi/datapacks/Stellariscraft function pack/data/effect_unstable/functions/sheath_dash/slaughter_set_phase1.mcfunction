@@ -1,0 +1,2 @@
+execute as @e[type=jobinsmobs:slaughtergeneral,tag=sheath_dash_slaughter] at @s run indestructible @s set_phase 1
+execute as @e[type=jobinsmobs:slaughtergeneral,tag=sheath_dash_slaughter,sort=nearest] at @s run tag @s remove sheath_dash_slaughter

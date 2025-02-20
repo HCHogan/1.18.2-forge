@@ -1,0 +1,30 @@
+{
+    "name": "暗夜巫妖",
+    "icon": "bosses_of_mass_destruction:ancient_anima",
+    "category": "patchouli:beast_strong",
+    "sortnum":11,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"暗夜巫妖/lich tower",
+            "text": "亘古的亡灵，存在于时空之外的荒诞生物。正是由于它的存在，亡灵才得以在人间行走，各种的记载也只敢闪烁其词地提及他的存在。本体存在于更高的维度，一切的召唤仪式所能唤出的仅仅只是在低纬度世界的虚像，即便只是虚像，力量也足以让人瞠目结舌......"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/lich.png",
+            "text1":"黑夜的亡灵之主",
+            "text2":""
+        },
+     {"type": "spotlight",
+        "title":"召唤方法",
+        "item": "bosses_of_mass_destruction:soul_star,bosses_of_mass_destruction:chiseled_stone_altar",
+        "text": "在击杀一定数量的亡灵生物后它们的怨念会化为灵魂之星，释放它会带着你踏入巫妖塔。在巫妖塔的内部，将四个灵魂之星分别嵌入石头祭坛，天色会堕入无边的黑暗，暗夜巫妖的虚像会代表亡灵收取将死之人的灵魂。"
+         },
+        {"type": "spotlight",
+        "title":"掉落物",
+        "item": "bosses_of_mass_destruction:ancient_anima,minecraft:enchanted_book,minecraft:bone,minecraft:diamond,stellariscraft:adventurespar,bhc:red_heart,dotcoinmod:iron_coin,bhc:yellow_heart",
+        "text": "击杀后掉落$(br)古代灵魂2个$(br)随机附魔书5个$(br)骨头4~6个$(br)钻石6~7个$(br2)以下掉落物通过$(t:等级越高提高数量越多,下列为无附魔掉落数量)$(5)抢夺$()可增加数量$(br)冒险晶石、红心、银币1~2个$(br)黄心0个。"
+         }
+        
+    ]
+}

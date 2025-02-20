@@ -1,0 +1,26 @@
+{
+  "id": "stellariscraft:legendary_rod",
+  "weight": 1,
+  "reforge_experience_cost": 4,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:fishing_rods"}
+  ],
+  "style": {
+    "color": "gold"
+  },
+  "attributes": [
+    {
+      "type": "minecraft:generic.luck",
+      "modifier": {
+        "name": "stellariscraft:legendary_rod",
+        "operation": "ADDITION",
+        "amount": 1.5
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

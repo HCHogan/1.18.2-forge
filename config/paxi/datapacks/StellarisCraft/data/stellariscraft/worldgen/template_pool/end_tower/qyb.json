@@ -1,0 +1,15 @@
+{
+    "name":"stellariscraft:end_tower/qyb",
+    "fallback":"minecraft:empty",
+    "elements":[
+        {
+            "weight":1,
+            "element":{
+                "projection":"rigid",
+                "element_type":"minecraft:single_pool_element",
+                "location":"stellariscraft:end_tower/qyb",
+                "processors":"minecraft:empty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "stellariscraft:3_heavy_3",
+  "weight": 1,
+  "reforge_experience_cost": 1,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:forgedspar",
+  "verifiers": [
+    {"tag": "forge:axe_minecraft"},
+    {"tag": "forge:axe_other_mods"},
+    {"tag": "forge:dagger"},
+    {"tag": "forge:katana"},
+    {"tag": "forge:longsword"},
+    {"tag": "forge:spear"},
+    {"tag": "forge:sword_minecraft"},
+    {"tag": "forge:sword_other_mods"},
+    {"tag": "forge:tachi"}
+  ],
+    "style": {
+    "color": "dark_red"
+  },
+  "attributes": [
+    {
+      "type": "generic.movement_speed",
+      "modifier": {
+        "name": "stellariscraft:3_heavy_3",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": -0.1
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

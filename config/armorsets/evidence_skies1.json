@@ -1,0 +1,32 @@
+{
+  "armorSetName": "evidence_skies1",
+  "performanceMode": true,
+
+  "additionalSetPieces":[
+    {
+    "itemKey": "stellarisdlc:evidenceskies_1",
+    "mustBeEmpty": false
+  }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "lodestone:magic_proficiency",
+      "value": 6,
+      "attributeOperation": 0,
+      "modifierUUID": "b905aed8-d895-4337-af79-6232098e3e28",
+      "description": "evidence_skies1"    
+    },
+    {
+      "type": "attribute",
+      "name": "lodestone:magic_resistance",
+      "value": 2,
+      "attributeOperation": 0,
+      "hideBonusDescription": true,
+      "modifierUUID": "b905aed8-d895-4337-af79-6232098e3e28",
+      "description": "+2 magic_resistance"    
+    }
+
+  ],
+  "hideGeneratedTooltip": false
+}

@@ -1,0 +1,1836 @@
+  [
+    //仿生泪滴
+      {
+        "mob": "star:mimic_tears",
+        "potion": "cofh_core:lightning_resistance,10,0",
+
+        "onjoin": true,
+        "result": "default"
+      },
+      //禁用灵魂鹫、抹香鲸
+      {
+        "mob": "alexsmobs:soul_vulture",
+        "result": "deny"
+      },
+      {
+        "mob": "alexsmobs:cachalot_whale",
+        "result": "deny"
+      },
+
+
+  
+    
+    //限制2个诡异末影人
+      {
+        "mob": "bygonenether:warped_enderman",
+        "mincount": {
+          "amount": 2,
+          "perplayer": true
+        },
+        "result": "deny"
+      },
+    //限制1个娜迦
+    {
+      "mob": "mowziesmobs:naga",
+      "mincount": {
+        "amount": 1,
+        "perplayer": true
+      },
+      "result": "deny"
+    },
+
+
+    //骷髅剑鱼
+    {
+      "mob": "alexsmobs:skelewag",
+      "speedmultiply": 0.5,
+      
+      "onjoin": true,
+      "result": "default"
+
+    },  
+    
+      //蔚蓝 霜冻精灵
+      {
+        "mob": "blue_skies:armored_frost_spirit",
+        "helditem":["1=irons_spellbooks:magehunter","3=amethysttoolsmod:amethyst_trident","2=dungeons_plus:warped_axe"],
+        "gamestage":"fight_c",
+        "healthmultiply": 2.5,
+        "damagemultiply": 1,
+
+        "onjoin": true,
+        "result": "default"
+      },
+      {
+        "mob": "blue_skies:armored_frost_spirit",
+        "helditem":["3=irons_spellbooks:magehunter","1=amethysttoolsmod:amethyst_trident","2=dungeons_plus:warped_axe"],
+        "gamestage":"fight_b",
+        "healthmultiply": 2.25,
+        "damagemultiply": 0.9,
+
+        "onjoin": true,
+        "result": "default"
+      },
+
+      {
+        "mob": "blue_skies:armored_frost_spirit",
+        "helditem":["irons_spellbooks:magehunter","amethysttoolsmod:amethyst_trident","dungeons_plus:warped_axe"],
+
+        "onjoin": true
+      },
+      //蔚蓝 4大boss
+      {
+        "mob": "blue_skies:summoner",
+        "healthmultiply":0.4,
+        "armorhelmet":"minecraft:iron_helmet",
+
+        "onjoin": true,
+        "result": "allow"
+      },
+      {
+        "mob": "blue_skies:alchemist",
+        "healthmultiply":0.4,
+        "armorhelmet":"minecraft:iron_helmet",
+
+        "onjoin": true,
+        "result": "allow"
+      },
+      {
+        "mob": "blue_skies:starlit_crusher",
+        "healthmultiply":0.2,
+        "damagemultiply":0.4,
+
+        "onjoin": true,
+        "result": "allow"
+      },
+      {
+        "mob": "blue_skies:arachnarch",
+        "healthmultiply":0.1,
+        "damagemultiply":0.4,
+
+        "onjoin": true,
+        "result": "allow"
+      },
+      {
+        "mob": "blue_skies:ent_wall",
+        "healthmultiply":0.25,
+
+        "onjoin": true,
+        "result": "allow"
+      },
+      {
+        "mob": "blue_skies:spewter",
+        "healthmultiply":0.25,
+
+        "onjoin": true,
+        "result": "allow"
+      },
+      {
+        "mob": "blue_skies:artificial_golem",
+        "healthmultiply":0.5,
+
+        "onjoin": true,
+        "result": "allow"
+      },
+
+
+    //哥布林商人
+    {
+      "mob": "goblintraders:goblin_trader",
+      "gamestage":"fight_c",
+      "healthmultiply": 2,
+      "potion": "minecraft:fire_resistance,1200,1",
+      
+      "onjoin": true,
+      "result": "default"
+    },
+    {
+      "mob": "goblintraders:goblin_trader",
+      "gamestage":"fight_b",
+      "healthmultiply": 2,
+      "potion": "minecraft:fire_resistance,1200,1",
+      
+      "onjoin": true,
+      "result": "default"
+    },
+    {
+      "mob": "goblintraders:goblin_trader",
+      "gamestage":"fight_a",
+      "healthmultiply": 2,
+      "potion": "minecraft:fire_resistance,1200,1",
+      
+      "onjoin": true,
+      "result": "default"
+    },
+    {
+      "mob": "goblintraders:goblin_trader",
+      "healthmultiply": 2,
+      "potion": "minecraft:fire_resistance,1200,1",
+      
+      "onjoin": true,
+      "result": "default"
+    },
+    {
+      "mob": "goblintraders:vein_goblin_trader",
+      "gamestage":"fight_c",
+      "healthmultiply": 3,
+      "potion": "minecraft:fire_resistance,999998,1",
+      
+      "onjoin": true,
+      "result": "default"
+    },
+    {
+      "mob": "goblintraders:vein_goblin_trader",
+      "gamestage":"fight_b",
+      "healthmultiply": 3,
+      "potion": "minecraft:fire_resistance,999998,1",
+      
+      "onjoin": true,
+      "result": "default"
+    },
+    {
+      "mob": "goblintraders:vein_goblin_trader",
+      "gamestage":"fight_a",
+      "healthmultiply": 3,
+      "potion": "minecraft:fire_resistance,999998,1",
+      
+      "onjoin": true,
+      "result": "default"
+    },
+    {
+      "mob": "goblintraders:vein_goblin_trader",
+      "healthmultiply": 3,
+      "potion": "minecraft:fire_resistance,999998,1",
+      
+      "onjoin": true,
+      "result": "default"
+    },
+    {
+      "mob": "ragnagoblin:ragna_goblin",
+      "gamestage":"fight_c",
+      "healthmultiply": 4,
+      "potion": "minecraft:fire_resistance,999998,1",
+      "helditem":"minecraft:totem_of_undying",
+
+      "onjoin": true,
+      "result": "default"
+    },
+    {
+      "mob": "ragnagoblin:ragna_goblin",
+      "gamestage":"fight_b",
+      "healthmultiply": 4,
+      "potion": "minecraft:fire_resistance,999998,1",
+      "helditem":"minecraft:totem_of_undying",
+
+      "onjoin": true,
+      "result": "default"
+    },
+    {
+      "mob": "ragnagoblin:ragna_goblin",
+      "gamestage":"fight_a",
+      "healthmultiply": 4,
+      "potion": "minecraft:fire_resistance,999998,1",
+      "helditem":"minecraft:totem_of_undying",
+
+      "onjoin": true,
+      "result": "default"
+    },
+    {
+      "mob": "ragnagoblin:ragna_goblin",
+      "healthmultiply": 4,
+      "potion": "minecraft:fire_resistance,999998,1",
+      "helditem":"minecraft:totem_of_undying",
+
+      "onjoin": true,
+      "result": "default"
+    },
+
+
+
+
+
+
+
+    //决斗场禁用末影人
+      {
+        "mob": "minecraft:enderman",
+        "dimension": "stellariscraft:parena",
+        "onjoin": true,
+        "result": "deny"
+      },
+      {
+        "mob": "minecraft:enderman",
+        "dimension": "stellariscraft:marena",
+        "onjoin": true,
+        "result": "deny"
+      },
+      {
+        "mob": "minecraft:enderman",
+        "dimension": "stellariscraft:uarena",
+        "onjoin": true,
+        "result": "deny"
+      },
+        
+      //鱿鱼、洞穴蜈蚣、蝙蝠、獠牙兽、复刻怪、禁用
+      {
+        "mob": "minecraft:squid",
+        "result": "deny"
+      },
+      {
+        "mob":"alexsmobs:centipede_head",
+        "result":"deny"
+      },
+      {
+        "mob": "minecraft:bat",
+        "result": "deny"
+      },
+      {
+        "mob": "alexsmobs:tusklin",
+        "result": "deny"
+      },
+      {
+        "mob": "alexsmobs:mimicube",
+        "result": "deny"
+      },
+
+      //凡家物语村民
+       {
+          "mob": "mca:female_villager",
+          "potion":"minecraft:resistance,999999,2",
+          "onjoin": true,
+          "result": "default"
+       },
+
+     //凡家物语-僵尸村民禁用
+     {
+      "mob": "mca:female_zombie_villager",
+      "onjoin": true,
+      "result": "deny"
+     },
+     {
+      "mob": "mca:male_zombie_villager",
+      "onjoin": true,
+      "result": "deny"
+     },
+       //原版村民
+       {
+          "mob": "minecraft:villager",
+          "gamestage":"fight_c",
+          "healthmultiply": 4,
+          
+          "onjoin": true,
+          "result": "default"
+       },
+       {
+          "mob": "minecraft:villager",
+          "gamestage":"fight_b",
+          "healthmultiply": 4,
+          
+          "onjoin": true,
+          "result": "default"
+       },
+       {
+        "mob": "minecraft:villager",
+        "gamestage":"fight_a",
+        "healthmultiply": 4,
+        
+        "onjoin": true,
+        "result": "default"
+       },
+       {
+          "mob": "minecraft:villager",
+          "healthmultiply": 4,
+          
+          "onjoin": true,
+          "result": "default"
+       },
+       //僵尸村民
+       {
+        "mob": "minecraft:zombie_villager",
+        "gamestage":"fight_c",
+        "helditem":["3=minecraft:iron_sword", "2=minecraft:golden_sword", "1=minecraft:diamond_sword"],
+        "healthmultiply": 2,
+        "damageadd": 3,
+        
+        "onjoin": true,
+        "result": "default"
+      },
+      {
+        "mob": "minecraft:zombie_villager",
+        "gamestage":"fight_b",
+        "helditem":["1=minecraft:iron_sword","2=minecraft:golden_sword"],
+        "healthmultiply": 1.6,
+        "damageadd": 1,
+        
+        "onjoin": true,
+        "result": "default"
+      },
+  
+      {
+        "mob": "minecraft:zombie_villager",
+        "gamestage":"fight_a",
+        "helditem":["1=minecraft:iron_sword","3=minecraft:stone_sword","2=minecraft:golden_sword"],
+        "healthmultiply": 0.9,
+        "damageadd": -1.6,
+  
+        "onjoin": true,
+        "result": "default"
+      },
+      {
+        "mob": "minecraft:zombie_villager",
+        "helditem":["1=minecraft:wooden_sword", "2=minecraft:stone_sword", "1=minecraft:iron_sword"],
+        "healthmultiply": 0.75,
+        "damageadd": -2,
+        
+        "onjoin": true,
+        "result": "default"
+      },
+  
+
+
+
+
+      //铁傀儡增强
+    {
+      "mob": "minecraft:iron_golem",
+      "gamestage":"fight_c",
+      "damageadd": 25,
+      "speedmultiply": 1.2,
+      
+      "onjoin": true,
+      "result": "default"
+    },
+    {
+      "mob": "minecraft:iron_golem",
+      "gamestage":"fight_b",
+      "damageadd": 15,
+      "speedmultiply": 1.1,
+      
+      "onjoin": true,
+      "result": "default"
+    },
+    {
+      "mob": "minecraft:iron_golem",
+      "gamestage":"fight_a",
+      "damageadd": 5,
+      "speedmultiply": 1.0,
+      
+      "onjoin": true,
+      "result": "default"
+    },
+    {
+      "mob": "minecraft:iron_golem",
+      "damageadd": 3,
+      "speedmultiply": 1.0,
+      
+      "onjoin": true,
+      "result": "default"
+    },
+
+    //末影龙强化
+    {
+      "mob": "minecraft:ender_dragon",
+      "gamestage":"fight_c",
+      "healthmultiply": 2.5,
+      "damageadd": 50,
+      "speedmultiply": 1.2,
+      
+      "onjoin": true,
+      "result": "default"
+    },
+
+    //溺尸三叉戟
+    {
+      "mob": "minecraft:drowned",
+      "onjoin": true,
+      "result": "deny"
+    },
+
+
+    //远古守护者
+    {
+      "mob": "minecraft:elder_guardian",
+      "healthmultiply": 1.25,
+      "gamestage":"fight_c",
+      "damageadd": 0,
+
+      "onjoin": true,
+      "result": "default"
+    },
+    {
+      "mob": "minecraft:elder_guardian",
+      "healthmultiply": 1,
+      "gamestage":"fight_b",
+      "damageadd": -2,
+
+      "onjoin": true,
+      "result": "default"
+    },
+
+    {
+      "mob": "minecraft:elder_guardian",
+      "healthmultiply": 0.75,
+      "gamestage":"fight_a",
+      "damageadd": -3,
+
+      "onjoin": true,
+      "result": "default"
+    },
+
+    //僵尸剑
+    {
+      "mob": "minecraft:zombie",
+      "gamestage":"fight_c",
+      "helditem":["3=minecraft:iron_sword", "2=minecraft:golden_sword", "1=minecraft:diamond_sword"],
+      "healthmultiply": 2,
+      "damageadd": 7,
+      
+      "onjoin": true,
+      "result": "default"
+    },
+    {
+      "mob": "minecraft:zombie",
+      "gamestage":"fight_b",
+      "helditem":["1=minecraft:iron_sword","2=minecraft:golden_sword"],
+      "healthmultiply": 1.6,
+      "damageadd": 6,
+      
+      "onjoin": true,
+      "result": "default"
+    },
+
+    {
+      "mob": "minecraft:zombie",
+      "gamestage":"fight_a",
+      "helditem":["1=minecraft:iron_sword","3=minecraft:stone_sword","2=minecraft:golden_sword"],
+      "healthmultiply": 1.1,
+      "damageadd": -1,
+
+      "onjoin": true,
+      "result": "default"
+    },
+    {
+      "mob": "minecraft:zombie",
+      "helditem":["1=minecraft:wooden_sword", "2=minecraft:stone_sword", "1=minecraft:iron_sword"],
+      "healthmultiply": 0.85,
+      "damageadd": -2,
+      
+      "onjoin": true,
+      "result": "default"
+    },
+
+    //凋零骷髅+变体（蛮兵、骑士）
+    {
+      "mob": "minecraft:wither_skeleton",
+      "gamestage":"fight_c",
+      "healthmultiply": 1.5,
+      "damagemultiply": 0.5,
+      "helditem":["12=minecraft:diamond_sword", "3=minecraft:diamond_pickaxe", "1=minecraft:diamond_axe", "2=minecraft:golden_axe"],
+
+      "onjoin": true,
+      "result": "default"
+    },
+    {
+      "mob": "minecraft:wither_skeleton",
+      "gamestage":"fight_b",
+      "healthmultiply": 1.25,
+      "damagemultiply": 0.45,
+      "helditem":["18=minecraft:diamond_sword", "3=minecraft:diamond_pickaxe", "2=minecraft:iron_axe", "1=minecraft:golden_axe"],
+
+      "onjoin": true,
+      "result": "default"
+    },
+
+    {
+      "mob": "minecraft:wither_skeleton",
+      "gamestage":"fight_a",
+      "healthmultiply": 0.8,
+      "damagemultiply": 0.25,
+      "helditem":["minecraft:iron_sword", "minecraft:golden_pickaxe"],
+
+      "onjoin": true,
+      "result": "default"
+    },
+    {
+      "mob": "minecraft:wither_skeleton",
+      "healthmultiply": 0.75,
+      "damagemultiply": 0.2,
+      "helditem":["minecraft:iron_sword", "minecraft:iron_pickaxe"],
+
+      "onjoin": true,
+      "result": "default"
+    },
+
+
+    //凋零蛮兵
+    {
+      "mob": "bygonenether:corpor",
+      "gamestage":"fight_c",
+      "healthmultiply": 0.5,
+      "damagemultiply": 0.5,
+      "onjoin": true,
+      "helditem":["1=minecraft:diamond_pickaxe", "3=minecraft:diamond_axe", "2=minecraft:golden_axe"],
+      "result": "default"
+    },
+    {
+      "mob": "bygonenether:corpor",
+      "gamestage":"fight_b",
+      "healthmultiply": 0.45,
+      "damagemultiply": 0.45,
+      "onjoin": true,
+      "helditem":["1=minecraft:diamond_pickaxe", "2=minecraft:diamond_axe", "2=minecraft:golden_axe"],
+      "result": "default"
+    },
+
+    {
+      "mob": "bygonenether:corpor",
+      "gamestage":"fight_a",
+      "healthmultiply": 0.25,
+      "damagemultiply": 0.25,
+      "onjoin": true,
+      "helditem":["3=minecraft:diamond_pickaxe", "1=minecraft:diamond_axe", "2=minecraft:golden_axe"],
+      "result": "default"
+    },
+    {
+      "mob": "bygonenether:corpor",
+      "healthmultiply": 0.2,
+      "damagemultiply": 0.2,
+      "onjoin": true,
+      "helditem":["3=minecraft:diamond_pickaxe", "1=minecraft:diamond_axe", "2=minecraft:golden_axe"],
+      "result": "default"
+    },
+
+    //凋零骑士
+    {
+      "mob": "bygonenether:wither_skeleton_knight",
+      "gamestage":"fight_c",
+      "healthmultiply": 0.8,
+      "damagemultiply": 0.5,
+      "onjoin": true,
+      "result": "default"
+    },
+    {
+      "mob": "bygonenether:wither_skeleton_knight",
+      "gamestage":"fight_b",
+      "healthmultiply": 0.75,
+      "damagemultiply": 0.45,
+      "onjoin": true,
+      "result": "default"
+    },
+
+    {
+      "mob": "bygonenether:wither_skeleton_knight",
+      "gamestage":"fight_a",
+      "healthmultiply": 0.5,
+      "damagemultiply": 0.25,
+      "onjoin": true,
+      "result": "default"
+    },
+    {
+      "mob": "bygonenether:wither_skeleton_knight",
+      "healthmultiply": 0.4,
+      "damagemultiply": 0.2,
+      "onjoin": true,
+      "result": "default"
+    },
+//凋零死士
+    {
+      "mob": "bygonenether:wraither",
+      "gamestage":"fight_c",
+      "healthmultiply": 0.4,
+      "damagemultiply": 0.5,
+      "onjoin": true,
+      "result": "default",
+      "helditem":"epicfight:glove"
+
+    },
+    {
+      "mob": "bygonenether:wraither",
+      "gamestage":"fight_b",
+      "healthmultiply": 0.35,
+      "damagemultiply": 0.45,
+      "onjoin": true,
+      "result": "default",
+      "helditem":"epicfight:glove"
+    },
+
+    {
+      "mob": "bygonenether:wraither",
+      "gamestage":"fight_a",
+      "healthmultiply": 0.22,
+      "damagemultiply": 0.25,
+      "onjoin": true,
+      "result": "default",
+      "helditem":"epicfight:glove"
+    },
+    {
+      "mob": "bygonenether:wraither",
+      "healthmultiply": 0.15,
+      "damagemultiply": 0.2,
+      "onjoin": true,
+      "result": "default",
+      "helditem":"epicfight:glove"
+    },
+
+
+//主世界死神
+    {
+      "mob": "jobinsmobs:reaper",
+      "dimension":"minecraft:overworld",
+      "gamestage":"fight_c",
+      "healthmultiply": 3.2,
+      "damagemultiply": 0.6,
+
+      "onjoin": true
+    },
+    {
+      "mob": "jobinsmobs:reaper",
+      "dimension":"minecraft:overworld",
+      "gamestage":"fight_b",
+      "healthmultiply": 3,
+      "damagemultiply": 0.6,
+
+      "onjoin": true
+    },
+
+    {
+      "mob": "jobinsmobs:reaper",
+      "dimension":"minecraft:overworld",
+      "gamestage":"fight_a",
+      "healthmultiply": 2.2,
+      "damagemultiply": 0.6,
+
+      "onjoin": true
+    },
+    {
+      "mob": "jobinsmobs:reaper",
+      "dimension":"minecraft:overworld",
+      "healthmultiply": 2.2,
+      "damagemultiply": 0.06,
+
+      "onjoin": true
+    },
+
+    //下界死神
+    {
+      "mob": "jobinsmobs:reaper",
+      "dimension":"minecraft:the_nether",
+      "gamestage":"fight_c",
+      "healthmultiply": 3.2,
+      "damagemultiply": 0.7,
+
+      "onjoin": true
+    },
+    {
+      "mob": "jobinsmobs:reaper",
+      "dimension":"minecraft:the_nether",
+      "gamestage":"fight_b",
+      "healthmultiply": 3,
+      "damagemultiply": 0.7,
+
+      "onjoin": true
+    },
+
+    {
+      "mob": "jobinsmobs:reaper",
+      "dimension":"minecraft:the_nether",
+      "gamestage":"fight_a",
+      "healthmultiply": 2.2,
+      "damagemultiply": 0.7,
+
+      "onjoin": true
+    },
+    {
+      "mob": "jobinsmobs:reaper",
+      "dimension":"minecraft:the_nether",
+      "healthmultiply": 2,
+      "damagemultiply": 0.06,
+
+      "onjoin": true
+    },
+    //末地死神
+    {
+      "mob": "jobinsmobs:reaper",
+      "dimension":"minecraft:the_end",
+      "gamestage":"fight_c",
+      "healthmultiply": 3.2,
+      "damagemultiply": 0.8,
+
+      "onjoin": true
+    },
+    {
+      "mob": "jobinsmobs:reaper",
+      "dimension":"minecraft:the_end",
+      "gamestage":"fight_b",
+      "healthmultiply": 3,
+      "damagemultiply": 0.8,
+
+      "onjoin": true
+    },
+
+    {
+      "mob": "jobinsmobs:reaper",
+      "dimension":"minecraft:the_end",
+      "gamestage":"fight_a",
+      "healthmultiply": 2.2,
+      "damagemultiply": 0.8,
+
+      "onjoin": true
+    },
+    {
+      "mob": "jobinsmobs:reaper",
+      "dimension":"minecraft:the_end",
+      "healthmultiply": 2,
+      "damagemultiply": 0.06,
+
+      "onjoin": true
+    },
+    //末影人
+    {
+      "mob": "minecraft:enderman",
+      "gamestage":"fight_c",
+      "healthmultiply": 0.75,
+      "damagemultiply": 0.6,
+      
+      "onjoin": true,
+      "result": "default"
+    },
+    {
+      "mob": "minecraft:enderman",
+      "gamestage":"fight_b",
+      "healthmultiply": 0.6,
+      "damagemultiply": 0.5,
+      
+      "onjoin": true,
+      "result": "default"
+    },
+
+    {
+      "mob": "minecraft:enderman",
+      "gamestage":"fight_a",
+      "healthmultiply": 0.4,
+      "damagemultiply": 0.25,
+      
+      "onjoin": true,
+      "result": "default"
+    },
+    {
+      "mob": "minecraft:enderman",
+      "healthmultiply": 0.3,
+      "damagemultiply": 0.2,
+      
+      "onjoin": true,
+      "result": "default"
+    },
+
+    //骷髅
+    {
+      "mob": "minecraft:skeleton",
+      "helditem":["2=minecraft:iron_sword", "2=minecraft:iron_shovel", "1=minecraft:iron_pickaxe", "1=minecraft:iron_axe","1=epicfight:glove","3=minecraft:bow"],
+      "gamestage":"fight_c",
+      "healthmultiply": 1.75,
+
+      "onjoin": true,
+      "result": "allow"
+    },
+    {
+      "mob": "minecraft:skeleton",
+      "helditem":["2=minecraft:iron_sword", "2=minecraft:iron_shovel", "1=minecraft:iron_pickaxe", "1=minecraft:iron_axe","1=epicfight:glove","3=minecraft:bow"],
+      "gamestage":"fight_b",
+      "healthmultiply": 1.5,
+
+      "onjoin": true,
+      "result": "allow"
+    },
+
+    {
+      "mob": "minecraft:skeleton",
+      "helditem":["2=minecraft:iron_sword", "2=minecraft:iron_shovel", "1=minecraft:iron_pickaxe", "1=minecraft:iron_axe","1=epicfight:glove","3=minecraft:bow"],
+      "gamestage":"fight_a",
+      "healthmultiply": 0.8,
+
+      "onjoin": true,
+      "result": "allow"
+    },
+    {
+      "mob": "minecraft:skeleton",
+      "helditem":["2=minecraft:iron_sword", "2=minecraft:iron_shovel", "1=minecraft:iron_pickaxe", "1=minecraft:iron_axe","1=epicfight:glove","3=minecraft:bow"],
+      "healthmultiply": 0.75,
+      
+      "onjoin": true,
+      "result": "allow"
+    },
+
+    //苦力怕
+    {
+      "mob": "minecraft:creeper",
+      "gamestage":"fight_c",
+      "healthmultiply": 1.6,
+      
+      "onjoin": true,
+      "result": "default"
+    },
+    {
+      "mob": "minecraft:creeper",
+      "gamestage":"fight_b",
+      "healthmultiply": 1.25,
+      
+      "onjoin": true,
+      "result": "default"
+    },
+
+    {
+      "mob": "minecraft:creeper",
+      "gamestage":"fight_a",
+      "healthmultiply": 0.9,
+      
+      "onjoin": true,
+      "result": "default"
+    },
+    {
+      "mob": "minecraft:creeper",
+      "healthmultiply": 0.7,
+      
+      "onjoin": true,
+      "result": "default"
+    },
+
+    //尸壳
+    {
+      "mob": "minecraft:husk",
+      "gamestage":"fight_c",
+      "healthmultiply": 2,
+      "damageadd": 3,
+      
+      "onjoin": true,
+      "result": "default"
+    },
+
+    {
+      "mob": "minecraft:husk",
+      "gamestage":"fight_b",
+      "healthmultiply": 1.6,
+      "damageadd": 2,
+
+      "onjoin": true,
+      "result": "default"
+    },
+
+    {
+      "mob": "minecraft:husk",
+      "gamestage":"fight_a",
+      "healthmultiply": 0.9,
+      "damageadd": 1,
+
+      "onjoin": true,
+      "result": "default"
+    },
+    {
+      "mob": "minecraft:husk",
+      "healthmultiply": 0.75,
+      
+      "onjoin": true,
+      "result": "default"
+    },
+
+    //蜘蛛
+    {
+      "mob": "minecraft:spider",
+      "gamestage":"fight_c",
+      "healthmultiply": 1.75,
+      "damageadd": 4,
+      
+      "onjoin": true,
+      "result": "default"
+    },
+
+    {
+      "mob": "minecraft:spider",
+      "gamestage":"fight_b",
+      "healthmultiply": 1.25,
+      "damageadd": 2,
+      
+      "onjoin": true,
+      "result": "default"
+    },
+
+    {
+      "mob": "minecraft:spider",
+      "gamestage":"fight_a",
+      "healthmultiply": 1,
+      
+      "onjoin": true,
+      "result": "default"
+    },
+    {
+      "mob": "minecraft:spider",
+      "healthmultiply": 1,
+      
+      "onjoin": true,
+      "result": "default"
+    },
+
+    //猪灵蛮兵
+    {
+      "mob": "minecraft:piglin_brute",
+      "dimension":"minecraft:overworld",
+      "healthmultiply": 0.3,
+      "damageadd": -3,
+      
+      "onjoin": true,
+      "result": "default"
+    },
+    {
+      "mob": "minecraft:piglin_brute",
+      "healthmultiply": 0.6,
+      "damageadd": -3,
+      
+      "onjoin": true,
+      "result": "default"
+    },
+
+    //猪灵
+    {
+      "mob": "minecraft:piglin",
+      "dimension":"minecraft:overworld",
+      "healthmultiply": 1,
+      
+      "onjoin": true,
+      "result": "default"
+    },
+
+    {
+      "mob": "minecraft:piglin",
+      "healthmultiply": 5,
+      
+      "onjoin": true,
+      "result": "default"
+    },
+
+    //卫道士
+    {
+      "mob": "minecraft:vindicator",
+      "healthmultiply": 1.75,
+      "damageadd": -1,
+      "gamestage":"fight_c",
+      "helditem":["2=omnis:ravaged_battle_axe","1=omnis:haunted_vindicator_axe", "1=omnis:haunted_battle_axe"],
+      
+      "onjoin": true,
+      "result": "default"
+    },
+    {
+      "mob": "minecraft:vindicator",
+      "healthmultiply": 1.5,
+      "damageadd": -1,
+      "gamestage":"fight_b",
+      "helditem":["1=minecraft:iron_axe","3=omnis:ravaged_battle_axe","1=omnis:haunted_vindicator_axe","1=omnis:vindicator_axe", "1=omnis:haunted_battle_axe"],
+      
+      "onjoin": true,
+      "result": "default"
+    },
+
+    {
+      "mob": "minecraft:vindicator",
+      "healthmultiply": 1.0,
+      "gamestage":"fight_a",
+      "helditem":["1=minecraft:iron_axe","2=omnis:ravaged_battle_axe","2=omnis:vindicator_axe"],
+      "damageadd": -3.6,
+
+      "onjoin": true,
+      "result": "default"
+    },
+    {
+      "mob": "minecraft:vindicator",
+      "healthmultiply": 0.75,
+      "helditem":["2=minecraft:iron_axe","2=omnis:ravaged_battle_axe", "1=omnis:vindicator_axe"],
+      "damageadd": -4,
+
+      "onjoin": true,
+      "result": "default"
+    },
+    //掠夺者
+    {
+      "mob": "minecraft:pillager",
+      "healthmultiply": 2,
+      "gamestage":"fight_c",
+
+      "onjoin": true,
+      "result": "default"
+    },
+    {
+      "mob": "minecraft:pillager",
+      "healthmultiply": 1.6,
+      "gamestage":"fight_b",
+
+      "onjoin": true,
+      "result": "default"
+    },
+
+    {
+      "mob": "minecraft:pillager",
+      "healthmultiply": 1,
+      "gamestage":"fight_a",
+
+      "onjoin": true,
+      "result": "default"
+    },    
+    {
+      "mob": "minecraft:pillager",
+      "healthmultiply": 0.75,
+      
+      "onjoin": true,
+      "result": "default"
+    },
+    //唤魔者
+    {
+      "mob": "minecraft:evoker",
+      "healthmultiply": 2,
+      "gamestage":"fight_c",
+      "speedmultiply": 0.9,
+
+      "onjoin": true,
+      "result": "default"
+    },
+    {
+      "mob": "minecraft:evoker",
+      "healthmultiply": 1.75,
+      "gamestage":"fight_b",
+      "speedmultiply": 0.9,
+
+      "onjoin": true,
+      "result": "default"
+    },
+
+    {
+      "mob": "minecraft:evoker",
+      "healthmultiply": 1.25,
+      "gamestage":"fight_a",
+      "speedmultiply": 0.9,
+
+      "onjoin": true,
+      "result": "default"
+    },    
+    {
+      "mob": "minecraft:evoker",
+      "healthmultiply": 1,
+      "speedmultiply": 0.9,
+
+      "onjoin": true,
+      "result": "default"
+    },
+
+      //遗忘者
+      {
+        "mob": "quark:forgotten",
+        "helditem":"minecraft:bow",
+        "gamestage":"fight_c",
+        "healthmultiply":3.0,
+        "damagemultiply":1.2,
+
+        "onjoin": true,
+      "result": "allow"
+      },
+      {
+        "mob": "quark:forgotten",
+        "helditem":"minecraft:bow",
+        "gamestage":"fight_b",
+        "healthmultiply":2.5,
+        "damagemultiply":1.0,
+
+        "onjoin": true,
+      "result": "allow"
+      },
+
+      {
+        "mob": "quark:forgotten",
+        "helditem":"minecraft:bow",
+        "gamestage":"fight_a",
+        "healthmultiply":1.75,
+        "damagemultiply":0.8,
+
+        "onjoin": true,
+      "result": "allow"
+      },
+      {
+        "mob": "quark:forgotten",
+        "helditem":"minecraft:bow",
+        "healthmultiply":1.5,
+        "damagemultiply":0.7,
+
+        "onjoin": true,
+      "result": "allow"
+      },
+
+    
+    //凋零
+    {
+      "mob": "minecraft:wither",
+      "gamestage":"fight_c",
+      "healthmultiply":0.72,
+
+      "onjoin": true,
+      "result": "allow"
+    },
+    {
+      "mob": "minecraft:wither",
+      "gamestage":"fight_b",
+      "healthmultiply":0.71,
+
+      "onjoin": true,
+      "result": "allow"
+    },
+
+    {
+      "mob": "minecraft:wither",
+      "gamestage":"fight_a",
+      "healthmultiply":0.7,
+
+      "onjoin": true,
+      "result": "allow"
+    },
+
+    //恼鬼
+    {
+      "mob": "minecraft:vex",
+      "helditem":["mca:scythe"],
+      "healthmultiply": 0.7,
+      "damagemultiply": 0.1,
+      "potion": "minecraft:weakness,999999,0",
+      
+      "onjoin": true,
+      "result": "default"
+    },
+    
+      
+      //太阳神鸟
+      {
+        "mob": "mowziesmobs:umvuthi",
+        "healthmultiply":0.7,
+
+        "onjoin": true,
+        "result": "allow"
+      },
+
+
+      //末影守卫
+      {
+        "mob": "cataclysm:ender_guardian",
+        "healthmultiply":1.0,
+        "speedmultiply":1.25,
+        "helditem":"jobinsmobs:jobinsmobs",
+
+        "onjoin": true,
+        "result": "allow"
+      },
+
+      //焰魔
+      {
+        "mob": "cataclysm:ignis",
+        "healthmultiply":0.4,
+        "speedmultiply":1.1,
+        "damageadd":-6,
+
+        "onjoin": true,
+        "result": "allow"
+      },
+      //下界合金巨兽
+      {
+        "mob": "cataclysm:netherite_monstrosity",
+        "healthmultiply":0.5,
+        "damageadd": 6,
+
+        "onjoin": true,
+        "result": "allow"
+      },
+
+      //燃魂
+      {
+        "mob": "cataclysm:ignited_revenant",
+        "dimension":"minecraft:the_nether",
+        "healthmultiply":1,
+        "speedmultiply":1.1,
+        "damageadd":2,
+
+        "onjoin": true,
+        "result": "allow"
+      },
+
+
+
+//bosses of mass destruction
+    //下界手掌
+    {
+      "mob":"bosses_of_mass_destruction:gauntlet",
+      "healthmultiply":2.5,
+      "damageadd":20,
+      
+      "onjoin": true,
+      "result": "allow"
+    },
+
+
+    //暗夜巫妖
+    {
+      "mob":"bosses_of_mass_destruction:lich",
+      "healthmultiply":1.5,
+
+      "onjoin": true,
+      "result": "allow"
+    },
+
+    //黑曜石巨柱
+    {
+      "mob":"bosses_of_mass_destruction:obsidilith",
+      "healthmultiply":2.5,
+      "damageadd":20,
+      
+      "onjoin": true,
+      "result": "allow"
+    },
+
+     //虚空之花
+     {
+      "mob":"bosses_of_mass_destruction:void_blossom",
+      "healthmultiply":2.5,
+      "damageadd":25,
+      
+      "onjoin": true,
+      "result": "allow"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //第一决斗场:stellariscraft:parena
+
+  //蒂蒂
+  {
+    "mob": "jobinsmobs:didi",
+    "customname":"§d超级无敌卡哇伊——蒂蒂",
+    "dimension":"stellariscraft:parena",
+    "healthmultiply":5,
+    "damageadd":-10,
+
+    "onjoin": true,
+    "result": "allow"
+
+  },
+
+
+  //烈焰人
+    {
+      "mob": "minecraft:blaze",
+      "customname":"§5赤焰魔使",
+      "dimension":"stellariscraft:parena",
+      "healthmultiply":2.3,
+      "speedmultiply":1.2,
+      "damagemultiply":0.6,
+
+      "onjoin": true,
+      "result": "allow"
+    },
+    {
+      "mob": "minecraft:blaze",
+      "customname":"§5赤焰魔使",
+      "dimension":"stellariscraft:marena",
+      "healthmultiply":5.5,
+      "speedmultiply":1.2,
+
+      "onjoin": true,
+      "result": "allow"
+    },
+    {
+      "mob": "jobinsmobs:reaper",
+      "customname":"§5赤焰魔者",
+      "dimension":"stellariscraft:parena",
+      "healthmultiply": 3.2,
+      "damagemultiply": 0.6,
+      "helditem":"blue_skies:horizonite_sword",
+      "armorhelmet":"blue_skies:horizonite_forge",
+      "armorchest":"blue_skies:horizonite_chestplate",
+      "armorlegs":"blue_skies:horizonite_leggings",
+      "armorboots":"blue_skies:horizonite_boots",
+
+      "onjoin": true,
+      "result": "allow"
+    },
+
+  //黑暗先遣
+    {
+      "mob": "jobinsmobs:darkadvance",
+      "dimension":"stellariscraft:parena",
+      "healthmultiply":7.5,
+      "speedmultiply":1.2,
+      "damageadd":-7,
+      "helditem":"epicfight:iron_longsword",
+      
+      "onjoin": true,
+      "result": "allow"
+    },
+
+
+  //狂沙之枪
+    {
+      "mob": "jobinsmobs:sandcaptain",
+      "dimension":"stellariscraft:parena",
+      "healthmultiply":7.5,
+      "speedmultiply":1.1,
+      "damageadd": -8,
+      "helditem":"epicfight:netherite_spear",
+
+      "onjoin": true,
+      "result": "allow"
+    },
+
+
+
+  //森白影魔
+  {
+    "mob": "jobinsmobs:senbaidevil",
+    "dimension":["stellariscraft:parena"],
+    "healthmultiply": 6.5,
+    "speedmultiply":1.4,
+    "damagemultiply":0.56,
+    "helditem":"epicfight:uchigatana",
+
+    "onjoin": true,
+    "result": "allow"
+  },
+//困难-森白影魔
+  {
+    "mob": "jobinsmobs:senbaidevilh",
+    "dimension":["stellariscraft:uarena"],
+    "healthmultiply": 4.0,
+    "speedmultiply":1.4,
+    "damagemultiply":1.2,
+    "helditem":"epicfight:uchigatana",
+
+    "onjoin": true,
+    "result": "allow"
+  },
+
+
+  //杀戮将军
+    {
+      "mob": "jobinsmobs:slaughtergeneral",
+      "dimension":["stellariscraft:parena"],
+      "healthmultiply":10.0,
+      "speedmultiply":1.1,
+      "damagemultiply": 0.71,
+      "helditem":"stellarisdlc:helleyes",
+      "potion": ["cofh_core:lightning_resistance,10,0","epicfight:stun_immunity,10,0","star:really_stun_immunity,10,0","stellarisdlc:stamina_regen_enhanced,10,100"],
+
+      "onjoin": true,
+      "result": "allow"
+    },
+
+
+
+  //金焰神王
+  {
+    "mob": "jobinsmobs:goldenflame",
+    "dimension":"stellariscraft:parena",
+    "healthmultiply":14,
+    "speedmultiply":1.0,
+    "damagemultiply": 0.79,
+    "helditem":"epicfight:golden_longsword",
+    "armorhelmet":"cataclysm:ignitium_helmet",
+    "armorchest":"cataclysm:ignitium_elytra_chestplate",
+    "armorlegs":"cataclysm:ignitium_leggings",
+    "armorboots":"cataclysm:ignitium_boots",
+    "potion": ["cofh_core:lightning_resistance,10,0","epicfight:stun_immunity,10,0","star:really_stun_immunity,10,0","stellarisdlc:stamina_regen_enhanced,10,100"],
+
+    "onjoin": true,
+    "result": "allow"
+  },
+
+
+
+
+  //晨星之渊
+    {
+    "mob": "jobinsmobs:msabyss",
+    "armorhelmet":"mowziesmobs:wrought_helmet",
+    "armorchest":"minecraft:elytra",
+    "armorlegs":"stellarisdlc:diasteel_leggings",
+    "armorboots":"stellarisdlc:diasteel_boots",
+    "customname":"§6晨星之渊",
+    "dimension":["stellariscraft:parena"],
+    "healthmultiply":4.0,
+    "speedmultiply":1.2,
+    "damagemultiply": 1.25,
+    "helditem":"stellarisdlc:excalibur",
+    "potion": ["cofh_core:lightning_resistance,10,0","epicfight:stun_immunity,10,0","star:really_stun_immunity,10,0","stellarisdlc:stamina_regen_enhanced,10,100"],
+
+    "onjoin": true,
+    "result": "allow"
+    },
+
+  
+  //星云·晨星之渊
+  {
+    "mob": "jobinsmobs:msabyssh",
+    "customname":"§o§d星云 · §k体§r§o§d · 晨星之渊",
+    "dimension":["stellariscraft:parena"],
+    "healthmultiply":6,
+    "speedmultiply":1.2,
+    "damagemultiply": 0.05,
+    "helditem":"stellarisdlc:loyalheart",
+    "potion": "minecraft:instant_health,1,10",
+
+    "onjoin": true,
+    "result": "allow"
+    },
+
+
+
+
+
+
+    //三级决斗场
+
+
+  //流光
+    {
+      "mob": "jobinsmobs:gazeabysser",
+      "customname":"§6凝视深渊的不屈命运之英魂",
+      "dimension":["stellariscraft:parena","stellariscraft:uarena"],
+      "healthmultiply":4.324325,
+      "speedmultiply":1.1,
+      "damagemultiply":0.6,
+      "helditem":"stellarisdlc:yamato",
+      "potion": "minecraft:instant_health,1,10",
+
+      "onjoin": true,
+      "result": "allow"
+    },
+
+
+
+
+  //赤心武士
+    {
+      "mob": "jobinsmobs:sincerwarrior",
+      "customname":"§4赤心S————武士之魂",
+      "dimension":"stellariscraft:uarena",
+      "healthmultiply":4.324325,
+      "speedmultiply":1.3,
+      "damagemultiply":0.3,
+      "helditem":"epicfight:uchigatana",
+      "potion": "minecraft:instant_health,1,10",
+
+      "onjoin": true,
+      "result": "allow"
+    },
+
+  //贤者H
+  {
+    "mob": "jobinsmobs:sage",
+    "customname":"§e贤者H————长枪之魂",
+    "dimension":"stellariscraft:marena",
+    "healthmultiply":4.6,
+    "speedmultiply":1.0,
+    "damagemultiply": 0.45,
+    "helditem":"stellarisdlc:symmetryspear",
+    "potion": "minecraft:instant_health,1,10",
+
+    "onjoin": true,
+    "result": "allow"
+    },
+  
+  //少卿X
+  {
+    "mob": "jobinsmobs:shaoqing",
+    "customname":"§c少卿X————太刀之魂",
+    "dimension":"stellariscraft:uarena",
+    "healthmultiply":6.48648648,
+    "speedmultiply":1.4,
+    "damagemultiply":0.54,
+    "helditem":"stellarisdlc:withereye",
+    "potion": "minecraft:instant_health,1,10",
+
+    "onjoin": true,
+    "result": "allow"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+  //精英怪物
+
+//堕落审判者
+  {
+    "mob": "jobinsmobs:fallenjudge",
+    "customname":"§6堕落审判者",
+    "dimension":"stellariscraft:parena",
+    "healthmultiply": 2.4,
+    "speedmultiply":1.44,
+    "damageadd":-18,
+    "helditem":"stellarisdlc:bb",
+
+    "onjoin": true,
+    "result": "allow"
+  },
+
+
+  //高塔傀儡5个
+  {
+    "mob": "ba_bt:land_golem",
+    "healthmultiply": 0.64,
+    "damagemultiply": 0.2,
+    "helditem":"epicfight:glove",
+
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": "ba_bt:ocean_golem",
+    "healthmultiply": 0.5,
+    "damagemultiply":0.2,
+    "helditem":"epicfight:glove",
+
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": "ba_bt:sky_golem",
+    "helditem":"epicfight:iron_longsword",
+    "healthmultiply": 0.8,
+    "damagemultiply": 0.1,
+
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": "ba_bt:core_golem",
+    "healthmultiply": 0.45,
+    "damagemultiply":1.0,
+    "helditem":"epicfight:glove",
+    "potion":"minecraft:strength,999999,0",
+
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": "ba_bt:nether_golem",
+    "healthmultiply": 0.5,
+    "damagemultiply": 0.3,
+    "helditem":"stellarisdlc:dragonfalchion",
+
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": "ba_bt:end_golem",
+    "healthmultiply": 0.55,
+    "damagemultiply": 0.25,
+    "helditem":"cataclysm:gauntlet_of_guard",
+
+    "onjoin": true,
+    "result": "allow"
+  },
+
+
+
+
+  
+  //连战配置
+  
+  //晨星之渊
+  {
+    "mob": "jobinsmobs:msabyss",
+    "customname":"§6晨星之渊",
+    "dimension":["stellariscraft:uarena"],
+    "healthmultiply":5.0,
+    "speedmultiply":1.4,
+    "damageadd":-25,
+    "helditem":"stellarisdlc:loyalheart",
+    "potion": "minecraft:instant_health,1,10",
+
+    "onjoin": true,
+    "result": "allow"
+    },
+
+
+  //星陨·晨星之渊
+  {
+    "mob": "jobinsmobs:msabyssh",
+    "customname":"§o§d星陨 · §k体§r§o§d · 晨星之渊",
+    "dimension":["stellariscraft:uarena"],
+    "healthmultiply":5.35715625,
+    "speedmultiply":1.4,
+    "damageadd": -24,
+    "helditem":"stellarisdlc:loyalheart",
+    "potion": "minecraft:instant_health,1,10",
+
+    "onjoin": true,
+    "result": "allow"
+    },
+
+  //堕落审判者
+  {
+    "mob": "jobinsmobs:fallenjudge",
+    "customname":"§6决心 · 堕落审判",
+    "dimension":"stellariscraft:uarena",
+    "healthmultiply": 2.4,
+    "speedmultiply":1.44,
+    "damageadd":-12,
+    "helditem":"stellarisdlc:bb",
+    "potion": "minecraft:instant_health,1,10",
+
+    "onjoin": true,
+    "result": "allow"
+  },
+
+  //妖精之女
+  {
+    "mob": "jobinsmobs:fairydaughter",
+    "customname":"§6凌舞 · 妖精之女",
+    "dimension":"stellariscraft:uarena",
+    "healthmultiply":6.060606,
+    "speedmultiply":1.4,
+    "damagemultiply":0.6,
+    "helditem":"stellarisdlc:bb",
+    "potion": "minecraft:instant_health,1,10",
+
+    "onjoin": true,
+    "result": "allow"
+    },
+  
+  //夏天连战
+  {
+    "mob": "jobinsmobs:thehotsummer",
+    "healthmultiply":8.25,
+    "speedmultiply":1.4,
+    "damagemultiply":0.6,
+    "helditem":"stellarisdlc:alloytachi",
+
+    "onjoin": true,
+    "result": "allow"
+    },
+
+  {
+    "mob": "jobinsmobs:thecow",
+    "healthmultiply":8.25,
+    "speedmultiply":1.4,
+    "damagemultiply":0.6,
+    "helditem":"epicfight:netherite_greatsword",
+  
+    "onjoin": true,
+    "result": "allow"
+    },
+
+  {
+    "mob": "jobinsmobs:thesunwukong",
+    "healthmultiply":8.25,
+    "speedmultiply":1.4,
+    "damagemultiply":0.6,
+    "helditem":"stellarisdlc:symmetryspear",
+    
+    "onjoin": true,
+    "result": "allow"
+    },
+
+  {
+    "mob": "jobinsmobs:thebancheng",
+    "healthmultiply":8.25,
+    "speedmultiply":1.4,
+    "damagemultiply":0.6,
+    "helditem":"stellarisdlc:bb",
+  
+    "onjoin": true,
+    "result": "allow"
+    },
+
+  {
+    "mob": "jobinsmobs:thezhaozilong",
+    "healthmultiply":8.25,
+    "speedmultiply":1.4,
+    "damagemultiply":0.6,
+    "helditem":"stellarisdlc:flayer",
+  
+    "onjoin": true,
+    "result": "allow"
+    },
+
+  {
+    "mob": "jobinsmobs:thesixgoogle",
+    "healthmultiply":8.25,
+    "speedmultiply":1.4,
+    "damagemultiply":0.6,
+    "helditem":"epicfight:netherite_longsword",
+  
+    "onjoin": true,
+    "result": "allow"
+    },
+
+
+
+
+
+  //白金骑士
+  {
+  "mob": "ba_bt:platinum_skeleton",
+  "healthmultiply": 1.3,
+  "damageadd":-3,
+    
+  "onjoin": true,
+  "result": "allow"
+  },
+  //邪教徒
+  {
+  "mob": "ba_bt:bt_cultist",
+  "dimension": "minecraft:overworld",
+  "healthmultiply": 0.8,
+    
+  "onjoin": true,
+  "result": "deny"
+},
+{
+  "mob": "ba_bt:bt_cultist",
+  "dimension": "minecraft:the_nether",
+  "healthmultiply": 2.4,
+    
+  "onjoin": true,
+  "result": "allow"
+},
+{
+  "mob": "ba_bt:bt_cultist",
+  "dimension": "minecraft:the_end",
+  "healthmultiply": 3,
+    
+  "onjoin": true,
+  "result": "allow"
+},
+    //禁止虎鲸生成
+    {
+      "mob": "alexsmobs:orca",
+      "onjoin": true,
+      "result": "deny"
+    }
+
+
+
+  ]

@@ -1,0 +1,45 @@
+{
+  "armorSetName": "golden_dragonclaw_goldendragon",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+    "itemKey": "stellarisdlc:goldendragonclaw"
+  }
+],
+  "head": {
+    "itemKey": "stellarisdlc:goldendragon_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "stellarisdlc:goldendragon_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "stellarisdlc:goldendragon_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "stellarisdlc:goldendragon_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "epicfight:armor_negation",
+      "value": 12,
+      "attributeOperation": 0,
+      "modifierUUID": "6849df62-c065-4359-959f-0f9a0542f33f",
+      "description": "golden_dragonclaw_goldendragon"  
+    },
+    {
+      "type": "attribute",
+      "name": "epicfight:offhand_armor_negation",
+      "value": 12,
+      "attributeOperation": 0,
+      "hideBonusDescription": true,
+      "modifierUUID": "6849df62-c065-4359-959f-0f9a0542f33f",
+      "description": "golden_dragonclaw_goldendragon"  
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

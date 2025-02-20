@@ -1,0 +1,51 @@
+{
+  "id": "stellariscraft:talented1_swift_axe",
+  "weight": 5.5,
+  "reforge_experience_cost": 2,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:axe_minecraft"},
+    {"tag": "forge:axe_other_mods"},
+    {"tag": "forge:hammer"}
+  ],
+  "style": {
+    "color": "green"
+  },
+  "attributes": [
+    {
+      "type": "epicfight:stun_armor",
+      "modifier": {
+        "name": "stellariscraft:talented1_swift_axe",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.02
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "epicfight:staminar",
+      "modifier": {
+        "name": "stellariscraft:talented1_swift_axe",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.08
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "generic.movement_speed",
+      "modifier": {
+        "name": "stellariscraft:talented1_swift_axe",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.08
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+
+  ]
+}

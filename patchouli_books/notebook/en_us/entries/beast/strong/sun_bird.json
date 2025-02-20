@@ -1,0 +1,26 @@
+{
+    "name": "太阳神鸟",
+    "icon": "mowziesmobs:grant_suns_blessing",
+    "category": "patchouli:beast_strong",
+    "sortnum":7,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"太阳神鸟/umvuthana grove",
+            "text": "信奉太阳会带来幸运的古老鸟类，能够利用太阳的力量，周围常常也有其他的鸟类群聚于此。古老的文明不会接受人类的无情掠夺，任何时候都不会，当然如果你愿意带上它们的面具，它们或许会选择让你加入它们，甚至可以以一个金块为代价与神鸟换取太阳的神力。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/sun.png",
+            "text1":"太阳神的祝福",
+            "text2":""
+        },
+     
+        {"type": "spotlight",
+        "title":"掉落物",
+        "item": "miningmaster:lucky_citrine,stellariscraft:adventurespar,bhc:red_heart,dotcoinmod:iron_coin,mowziesmobs:sol_visage,bhc:yellow_heart",
+        "text": "击杀后掉落$(br)太阳神鸟面具1个$(br2)以下掉落物通过$(t:等级越高提高数量越多,下列为无附魔掉落数量)$(5)抢夺$()可增加数量$(br)幸运黄水晶1~2个$(br)冒险晶石、红心、银币1个$(br)黄心0~1个。"
+         }
+        
+    ]
+}

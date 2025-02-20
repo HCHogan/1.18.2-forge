@@ -1,0 +1,44 @@
+{
+  "parent": "ragnagoblin:end/interact_with_goblin",
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_sign",
+      "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\", lvl:1}], 'quark:RuneAttached':1, 'quark:RuneColor':{Count:1, id:\"quark:purple_rune\"}}"
+    },
+    "title": {
+      "translate": "advancements.ragnagoblin.hurt_goblin.title"
+    },
+    "description": {
+      "translate": "advancements.ragnagoblin.hurt_goblin.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hurt_goblin": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "ragnagoblin:ragna_goblin",
+          "distance": {
+            "absolute": {
+              "max": 5
+            }
+          }
+        },
+        "damage": {
+          "taken": {
+            "max": 19.9
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hurt_goblin"
+    ]
+  ]
+}

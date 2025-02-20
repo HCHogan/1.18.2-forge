@@ -1,0 +1,68 @@
+{
+    "name": "工匠的智慧",
+    "icon": "omnis:ravaged_metal",
+    "category": "patchouli:craft",
+"sortnum": 3,
+    "pages": [
+        {
+            "type": "T1",
+           "title":"工匠的智慧",
+            "text": "炼金术士在终焉第二次进攻的前期离开了王国，一夜之间炼金术士们的大量器材和人员一起消失了王国的贵族极端愤怒：说到底只是一群贪生怕死的乌合之众毫无荣耀可言。而王国的工匠们为了人类种族的延续需要填补炼金术士们的位置，但是工匠们也知道它们赶不上炼金术士们的研究。"
+        },
+        {
+            "type": "smelt",
+
+            "item1":"minecraft:iron_block",
+            "item2":"minecraft:blast_furnace",
+            "item3":"stellariscraft:steelingot",
+            "head":"钢的制造",
+            "text":"钢铁守卫者已经无法制作，除了葛伦科龙之外，工匠们还希望能复刻钢。炼金术士带走了原有的精细加工使用少原料生产钢的方式，工匠们只能使用现有的装置通过高炉高温锻造铁块从而获取钢。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "stellariscraft:ccrafting",
+            "text":"第二次终焉进攻敌方的飞行特种兵曾引起过工匠的注意，为此，工匠们将飞行兵俘虏身上的飞行装置拆卸下来进行研究仿制，花费10余年最终成功用已有材料仿制出了飞行用具。"
+        },
+        {"type": "patchouli:smith_link",
+           "item1": "stellariscraft:steelingot",
+        "item2": "stellariscraft:the_hornof_frost",
+        "item3": "stellariscraft:w_knightingot",
+        "head": "白泣骑士锭的制作",
+            "text":"霜冻之角是王国时期的遗物，炼金术士曾尝试用其经行炼金术的研究但结果都已失败告终，工匠们决定将其用在盔甲方面。出乎意料的是其与钢有着较好的相性可以在$(#ff0000)锻造台$()上制作杰出的材料。"
+        },
+        {"type": "crafting",
+        "recipe": "stellariscraft:rotcraft",
+        "title":"腐化之石的制作",
+            "text":"为了生存，哪怕是敌人的力量也是值得研究的。利用亡灵的材料作为基础，蜘蛛眼为媒介，加入部分矿石材料作为框架可以融合出这种源于死者的材料。值得注意的是，如果在$(#ff0000)锻造台$()上与盔甲相融会获得$(5)$(t:吸血鬼诅咒附魔)部分亡灵的力量$()。"
+        },
+        
+        {"type": "patchouli:smith_link",
+           "item1": "stellariscraft:rotstone",
+        "item2": "stellariscraft:steelingot",
+        "item3": "stellariscraft:rotsteelingot",
+        "head":"腐钢锭的制作",
+            "text":"高硬度的金属载体加上亡灵的力量，所锻造的武器必然有想不到的作用。但是由于其并没有对于亡灵力量的诅咒副作用做出质上的改变，因此我们并没有打算将其制作成盔甲。毕竟阳光是亡灵的重要弱点，我们应该利用而不是惧怕。"
+        },
+        {"type": "crafting",
+        "recipe": "craftweaker:netherrotingot",
+        "title":"腐金锭的制作",
+            "text":"在腐钢锭的基础上加入了足够多的下界材料，融合了火焰力量的同时也消除了亡灵惧怕火焰的问题，不仅适合武器，更适合制作盔甲。"
+        },
+        {"type": "patchouli:smith_link",
+           "item1": "stellariscraft:rotsteelingot",
+        "item2": "stellariscraft:diedscrap",
+        "item3": "stellariscraft:deadingot",
+        "head":"死亡锭的制作",
+            "text":"后王国时期内乱不断，在监狱中调查显示嗜杀的人其盔甲上常常产生死亡碎片，其蕴含的杀戮之力很难较好地驾驭，早期的炼金术士曾有过这种物品的记录，采用特殊装置可以大量生产这种特殊金属，然而这种方式已经失传并且也并不人道，工匠们尝试过在$(#ff0000)锻造台$()上用简单工艺手法加工，这种方法也可以产出但由于利用方式底下产量极少。"
+        },
+       {"type": "patchouli:smith_link",
+           "item1": "stellariscraft:rotsteelingot",
+        "item2": "stellariscraft:witherc",
+        "item3": "cataclysm:witherite_ingot",
+         "head":"凋零合金锭的制作",
+            "text":"为了帝国与人类的延续，哪怕是最不稳定的力量也需要利用。工匠为了打造更具威胁的武器，尝试过利用下界的矿物与下界的上古侵蚀力量融合。最终两种力量达到了平衡，现在的冒险者常常用其制作一种神奇的可以抵抗外界元素之力威胁的护符。"
+        }
+        
+        
+      ]
+}

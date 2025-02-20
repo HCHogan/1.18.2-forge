@@ -1,0 +1,63 @@
+{
+  "armorSetName": "amethysttoolsmod_netherite_armors",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "amethysttoolsmod:netherite_helmet_amethyst",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "amethysttoolsmod:netherite_chestplate_amethyst",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "amethysttoolsmod:netherite_leggings_amethyst",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "amethysttoolsmod:netherite_boots_amethyst",
+    "mustBeEmpty": false
+  },
+"partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:hunger",
+      "interactionType": "immunity"
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:haste",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "toybox:burden",
+      "value": 12,
+      "attributeOperation": 0,
+      "modifierUUID": "57b12611-a271-4443-b5f4-32640daafb9e",
+      "description": "-12% weight punishment (EpicFight)" 
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:hunger",
+      "interactionType": "immunity"
+    },
+    {
+      "type": "attribute",
+      "name": "epicfight:stamina_regen",
+      "value": 0.12,
+      "attributeOperation": 0,
+      "modifierUUID": "57b12611-a271-4443-b5f4-32640daafb9e",
+      "hideBonusDescription": true,
+      "description": "+12% stamina regeneration speed (EpicFight)" 
+    }
+
+  ],
+  "hideGeneratedTooltip": false
+}

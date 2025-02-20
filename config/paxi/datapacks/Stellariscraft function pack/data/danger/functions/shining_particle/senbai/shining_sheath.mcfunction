@@ -1,0 +1,1 @@
+execute as @p at @s run particle star:dangers ~ ~3 ~ 0 0 0 1 1

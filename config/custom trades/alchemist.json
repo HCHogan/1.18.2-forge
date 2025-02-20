@@ -1,0 +1,163 @@
+{
+  "profession": "blue_skies:alchemist",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "blue_skies:star_flare",
+        "amount": 8
+      },
+      "tradeExp": 20,
+      "maxUses": 20,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "blue_skies:alchemist_copper_coin_for_star_flare"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 8
+      },
+      "request": {
+        "itemKey": "blue_skies:soul_fragment",
+        "amount": 8
+      },
+      "tradeExp": 20,
+      "maxUses": 20,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "blue_skies:alchemist_copper_coin_for_soul_fragment"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:dusk_arc",
+        "amount": 1,
+        "advancedNBTData": "{ArcLevel:2}"
+      },
+      "request": {
+        "itemKey": "blue_skies:dusk_arc",
+        "amount": 1
+      },
+      "additionalRequest": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 1
+      },
+      "tradeExp": 50,
+      "maxUses": 1,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "blue_skies:alchemist_dusk_arc_for_dusk_arc_and_gold_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:poison_arc",
+        "amount": 1,
+        "advancedNBTData": "{ArcLevel:2}"
+      },
+      "request": {
+        "itemKey": "blue_skies:poison_arc",
+        "amount": 1
+      },
+      "additionalRequest": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 1
+      },
+      "tradeExp": 50,
+      "maxUses": 1,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "blue_skies:alchemist_poison_arc_for_poison_arc_and_gold_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:ethereal_arc",
+        "amount": 1,
+        "advancedNBTData": "{ArcLevel:2}"
+      },
+      "request": {
+        "itemKey": "blue_skies:ethereal_arc",
+        "amount": 1
+      },
+      "additionalRequest": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 3
+      },
+      "tradeExp": 50,
+      "maxUses": 1,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "blue_skies:alchemist_ethereal_arc_for_ethereal_arc_and_gold_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:nature_arc",
+        "amount": 1,
+        "advancedNBTData": "{ArcLevel:2}"
+      },
+      "request": {
+        "itemKey": "blue_skies:nature_arc",
+        "amount": 1
+      },
+      "additionalRequest": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 3
+      },
+      "tradeExp": 50,
+      "maxUses": 1,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "blue_skies:alchemist_nature_arc_for_nature_arc_and_gold_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:everbright_portal",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 6
+      },
+      "additionalRequest": {
+        "itemKey": "blue_skies:turquoise_stonebrick",
+        "amount": 2
+      },
+      "tradeExp": 50,
+      "maxUses": 1,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "blue_skies:alchemist_everbright_portal_for_iron_coin_and_turquoise_stonebrick"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:everdawn_portal",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 6
+      },
+      "additionalRequest": {
+        "itemKey": "blue_skies:lunar_stonebrick",
+        "amount": 2
+      },
+      "tradeExp": 50,
+      "maxUses": 1,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "blue_skies:alchemist_everdawn_portal_for_iron_coin_and_lunar_stonebrick"
+    }
+  ]
+}

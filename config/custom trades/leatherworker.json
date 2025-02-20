@@ -1,0 +1,124 @@
+{
+  "profession": "minecraft:leatherworker",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:leather",
+        "amount": 2
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 3
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:leatherworker_leather_for_copper_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:slime_ball",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 2
+      },
+      "tradeExp": 3,
+      "maxUses": 100,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:leatherworker_slime_ball_for_copper_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "alexsmobs:kangaroo_hide",
+        "amount": 6
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:leatherworker_iron_coin_for_kangaroo_hide_0"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "alexsmobs:bison_fur",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 30,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:leatherworker_copper_coin_for_bear_fur_0"
+    },
+    {
+      "offer": {
+        "itemKey": "epicfight:skillbook",
+        "amount": 1,
+        "advancedNBTData": "{skill:\"epicfight:technician\"}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 5
+      },
+      "tradeExp": 40,
+      "maxUses": 1,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:leatherworker_skillbook_for_gold_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 4
+      },
+      "request": {
+        "itemKey": "alexsmobs:moose_antler",
+        "amount": 2
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:leatherworker_copper_coin_for_moose_antler_0"
+    },
+    {
+      "offer": {
+        "itemKey": "cnb:yeti_hide",
+        "amount": 4
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 4
+      },
+      "additionalRequest": {
+        "itemKey": "miningmaster:ice_sapphire",
+        "amount": 4
+      },
+      "tradeExp": 10,
+      "maxUses": 3,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:leatherworker_yeti_hide_for_iron_coin_and_ice_sapphire_0"
+    }
+  ]
+}

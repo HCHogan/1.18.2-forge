@@ -1,0 +1,10 @@
+{
+	"attributes": {
+		"one_hand": {
+			"armor_negation": 54.0,
+  			"impact": 2.4,
+			"max_strikes": 0
+		}
+	},
+	"type":"axe"
+}

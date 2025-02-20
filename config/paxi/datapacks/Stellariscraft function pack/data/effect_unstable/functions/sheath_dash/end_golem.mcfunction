@@ -1,0 +1,1 @@
+execute as @e[type=ba_bt:end_golem,tag=unstable_end_golem] at @s run effect give @s star:unstable 1

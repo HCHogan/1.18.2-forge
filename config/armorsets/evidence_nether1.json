@@ -1,0 +1,23 @@
+{
+  "armorSetName": "evidence_nether1",
+  "performanceMode": true,
+
+  "additionalSetPieces":[
+    {
+    "itemKey": "stellarisdlc:evidencenether_1",
+    "mustBeEmpty": false
+  }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "epicfight:staminar",
+      "value": 2,
+      "attributeOperation": 0,
+      "modifierUUID": "f07ae445-daf4-4dde-8e19-98e0073342b4",
+      "description": "evidence_nether1"    
+    }
+
+  ],
+  "hideGeneratedTooltip": false
+}

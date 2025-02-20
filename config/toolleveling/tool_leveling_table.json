@@ -1,0 +1,64 @@
+{
+  "general_options": {
+    "minimum_upgrade_cost": 1200,
+    "allow_leveling_of_useless_enchantments": false,
+    "allow_leveling_of_breaking_enchantments": false,
+    "free_upgrades_for_creative_players": true
+  },
+  "enchantment_options": {
+    "enchantment_whitelist": [],
+    "enchantment_blacklist": [
+      "miningmaster:knight_jump",
+      "miningmaster:runner",
+      "majruszsenchantments:horse_frost_walker",
+      "miningmaster:freezing",
+      "miningmaster:floatation",
+      "minecraft:fortune",
+      "minecraft:looting",
+      "minecraft:punch",
+      "minecraft:mending",
+      "minecraft:aqua_affinity",
+      "minecraft:channeling",
+      "minecraft:binding_curse",
+      "minecraft:vanishing_curse",
+      "minecraft:flame",
+      "minecraft:infinity",
+      "minecraft:multishot",
+      "minecraft:silk_touch"
+    ],
+    "global_enchantment_cap": 12,
+    "enchantment_caps": {
+      "wom:invigoration": 5,
+      "miningmaster:heartfelt": 2,
+      "majruszsenchantments:misanthropy": 8,
+      "majruszsenchantments:hunter": 5,
+      "majruszsenchantments:enlightenment": 3,
+      "majruszsenchantments:dodge": 1,
+      "minecraft:luck_of_the_sea": 4,
+      "minecraft:power": 8,
+      "minecraft:unbreaking": 5,
+      "minecraft:fortune": 4,
+      "minecraft:sweeping": 4,
+      "minecraft:quick_charge": 4,
+      "minecraft:sharpness": 9,
+      "minecraft:smite": 6,
+      "minecraft:bane_of_arthropods": 6,
+      "minecraft:knockback": 3,
+      "minecraft:fire_aspect": 3,
+      "veinmining:vein_mining": 3
+    },
+    "global_upgrade_cost_multiplier": 1.5,
+    "enchantment_upgrade_cost_modifier": {
+      "miningmaster:heartfelt": 6.0,
+      "majruszsenchantments:hunter": 2.5,
+      "majruszsenchantments:enlightenment": 3.0,
+      "majruszsenchantments:dodge": 3000.0,
+      "minecraft:looting": 2.5,
+      "minecraft:smite": 3.0,
+      "minecraft:bane_of_arthropods": 5.0,
+      "minecraft:sweeping": 3.5
+    },
+    "global_minimum_enchantment_level": 0,
+    "minimum_enchantment_levels": {}
+  }
+}

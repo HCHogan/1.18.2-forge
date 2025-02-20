@@ -1,0 +1,38 @@
+{
+  "id": "stellariscraft:common_yamato",
+  "weight":7,
+  "reforge_experience_cost": 1,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:forgedspar",
+  "verifiers": [
+    {"tag": "forge:yamato"}
+  ],
+  "style": {
+    "color": "grey"
+  },
+  "attributes": [
+    {
+      "type": "toybox:crit_damage",
+      "modifier": {
+        "name": "stellariscraft:common_yamato",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.05
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "toybox:burden",
+      "modifier": {
+        "name": "stellariscraft:common_yamato",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.2
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+
+  ]
+}

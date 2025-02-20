@@ -1,0 +1,991 @@
+{
+	id: "3CE12BB6B5C65E61"
+	group: "0F5486DFDF7D448B"
+	order_index: 1
+	filename: "wda"
+	title: "地牢浮现"
+	icon: {
+		id: "minecraft:netherite_ingot"
+		Count: 1b
+		tag: {
+			RepairCost: 1
+			"quark:RuneAttached": 1b
+			Enchantments: [{
+				lvl: 3s
+				id: "minecraft:unbreaking"
+			}]
+			"quark:RuneColor": {
+				id: "quark:brown_rune"
+				Count: 1b
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "&6When Dungeons Arise模组"
+			icon: "minecraft:amethyst_block"
+			x: 0.0d
+			y: -0.25d
+			shape: "rsquare"
+			subtitle: "&6该任务只是提供探索方向，不必做完"
+			description: [
+				"&a超巨型遗迹模组，同样拥有海量的遗迹战利品"
+				""
+				"后期：wda的任务&6连线只为装饰，&r&c&n不用考虑先后顺序"
+				""
+				"&6关于怪物招式：主世界精英怪将会使用橙危招式（无法被防御与强力防守，但是能被招架）"
+				""
+				"&6关于危招机制&b“怪异的笔记本”&6中有详细图文描述"
+				""
+				"&b关于遗迹精英怪：若看见怪物自带几千血，请不用在意，砍他一刀将自动跨步后撤并重置血量等属性。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0B64144888793FD7"]
+			hide: true
+			size: 2.0d
+			id: "0363FF1E96703249"
+			tasks: [{
+				id: "53252418DB4A36B3"
+				type: "checkmark"
+				title: "&3WDA-地牢浮现之时"
+			}]
+			rewards: [{
+				id: "17C3EC8654E7B1A4"
+				type: "random"
+				table_id: 2688748745693820522L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.25d
+			subtitle: "&8冷不丁地给你的屁屁来上一箭"
+			hide_dependency_lines: true
+			dependencies: ["0363FF1E96703249"]
+			id: "1698B404B73794CF"
+			tasks: [{
+				id: "534B29A79898B7FA"
+				type: "structure"
+				title: "&3废弃寺庙:abandoned_temple"
+				icon: "minecraft:skeleton_skull"
+				structure: "dungeons_arise:abandoned_temple"
+			}]
+			rewards: [{
+				id: "5C597E75FBB64803"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: -7.0d
+			y: -1.75d
+			subtitle: "&6当心保镖……"
+			dependencies: [
+				"0363FF1E96703249"
+				"2E909867FCAE962F"
+			]
+			dependency_requirement: "one_completed"
+			id: "4149D1D248FA8B9D"
+			tasks: [{
+				id: "1721F02D7C0C5C17"
+				type: "structure"
+				title: "&39.拉斯维加斯:bandit_towers"
+				icon: "minecraft:magenta_glazed_terracotta"
+				structure: "dungeons_arise:bandit_towers"
+			}]
+			rewards: [{
+				id: "086FFD5DCC4F46F4"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.25d
+			subtitle: "&a\"要想从此过，留下买路财\""
+			dependencies: [
+				"0363FF1E96703249"
+				"2E909867FCAE962F"
+			]
+			dependency_requirement: "one_completed"
+			id: "7CF68AC2F0568E8D"
+			tasks: [{
+				id: "7BEE8A1F9AEB2078"
+				type: "structure"
+				title: "&3疆盗村落:bandit_village"
+				icon: "minecraft:red_sand"
+				structure: "dungeons_arise:bandit_village"
+			}]
+			rewards: [{
+				id: "54D3BCB5177F142A"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.25d
+			subtitle: "\"光秃秃的大家伙……\""
+			hide_dependency_lines: true
+			dependencies: ["0363FF1E96703249"]
+			dependency_requirement: "one_completed"
+			id: "6ADC548D73E03C70"
+			tasks: [{
+				id: "7755824D5853FDCE"
+				type: "structure"
+				title: "&3海兽化石:ceryneian_hind"
+				icon: "minecraft:smooth_quartz"
+				structure: "dungeons_arise:ceryneian_hind"
+			}]
+			rewards: [{
+				id: "361F9776D701E9D1"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.2500000000000004d
+			subtitle: "&6\"耐心才会有收获，孩子。不好奇那家伙穿的盔甲吗？\""
+			hide_dependency_lines: true
+			dependencies: ["0363FF1E96703249"]
+			size: 1.3d
+			id: "1E40D04D1CF53E1B"
+			tasks: [{
+				id: "2D3F13DD46DA3EB7"
+				type: "structure"
+				title: "&38.幻翼竞技场:coliseum"
+				icon: {
+					id: "minecraft:leather_boots"
+					Count: 1b
+					tag: {
+						RepairCost: 1
+						saa1: {
+							DMG_REDUCTION: {
+								dmgReduc: 1.0f
+							}
+							MAX_HEALTH: {
+								bonusMaxHP: 1.1833054f
+							}
+							KNOCKBACK_RESIST: {
+								knockResist: 0.01f
+							}
+						}
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 10s
+								id: "minecraft:protection"
+							}
+							{
+								lvl: 10s
+								id: "minecraft:feather_falling"
+							}
+							{
+								lvl: 1s
+								id: "minecraft:mending"
+							}
+						]
+						display: {
+							color: 16736809
+						}
+					}
+				}
+				structure: "dungeons_arise:coliseum"
+			}]
+			rewards: [{
+				id: "30293AD28DD288A0"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 7.75d
+			subtitle: "&e僵尸也是钓鱼佬（暴论）"
+			dependencies: ["0363FF1E96703249"]
+			dependency_requirement: "one_completed"
+			id: "2FDCD5168A86907D"
+			tasks: [{
+				id: "355BC00FC6FB58AA"
+				type: "structure"
+				title: "&3渔夫小屋:fishing_hut"
+				icon: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				structure: "dungeons_arise:fishing_hut"
+			}]
+			rewards: [{
+				id: "4C4A7648F09D6F8A"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.2d
+			subtitle: "&6\"这种温度下都不会融化的合金吗……\""
+			hide_dependency_lines: true
+			dependencies: ["0363FF1E96703249"]
+			size: 1.3d
+			id: "0E52BFD6164AF935"
+			tasks: [{
+				id: "5AFD5A97A6D7910A"
+				type: "structure"
+				title: "&37.铸造厂/铁处女:foundry"
+				icon: {
+					id: "minecraft:netherite_ingot"
+					Count: 1b
+					tag: {
+						RepairCost: 1
+						Enchantments: [{
+							lvl: 3s
+							id: "minecraft:unbreaking"
+						}]
+					}
+				}
+				structure: "dungeons_arise:foundry"
+			}]
+			rewards: [{
+				id: "38B8FA9E7176AC11"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: -8.0d
+			y: -0.25d
+			hide_dependency_lines: true
+			dependencies: ["0363FF1E96703249"]
+			id: "2E909867FCAE962F"
+			tasks: [{
+				id: "62C12B6696F48D3A"
+				type: "structure"
+				title: "&3巨型蘑菇:giant_mushroom"
+				icon: "minecraft:red_mushroom_block"
+				structure: "dungeons_arise:giant_mushroom"
+			}]
+			rewards: [{
+				id: "742D2FD5518E77E1"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.75d
+			subtitle: "大"
+			dependencies: [
+				"0363FF1E96703249"
+				"61A64DA6BC4EAF82"
+				"1B5A027AFE9CC343"
+			]
+			dependency_requirement: "one_completed"
+			id: "523A83E8F2D0E65C"
+			tasks: [{
+				id: "5AACD96421386AE7"
+				type: "structure"
+				title: "&311.天堂挑战者:heavenly_challenger"
+				icon: "minecraft:gold_block"
+				structure: "dungeons_arise:heavenly_challenger"
+			}]
+			rewards: [{
+				id: "1F62808067BC42BD"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -6.75d
+			subtitle: "中"
+			hide_dependency_lines: true
+			dependencies: ["0363FF1E96703249"]
+			dependency_requirement: "one_completed"
+			id: "61A64DA6BC4EAF82"
+			tasks: [{
+				id: "7BD54720581A2CD2"
+				type: "structure"
+				title: "&3天堂六翅:heavenly_conqueror"
+				icon: "minecraft:sea_lantern"
+				structure: "dungeons_arise:heavenly_conqueror"
+			}]
+			rewards: [{
+				id: "3D4DF357F4298411"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -6.75d
+			subtitle: "小"
+			hide_dependency_lines: true
+			dependencies: ["0363FF1E96703249"]
+			dependency_requirement: "one_completed"
+			id: "1B5A027AFE9CC343"
+			tasks: [{
+				id: "245F71DCED276F3E"
+				type: "structure"
+				title: "&3天堂骑行者:heavenly_rider"
+				icon: "minecraft:shroomlight"
+				structure: "dungeons_arise:heavenly_rider"
+			}]
+			rewards: [{
+				id: "7440842448445E08"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.25d
+			subtitle: "看起来很好惹"
+			dependencies: [
+				"0363FF1E96703249"
+				"27EFE155915F44E4"
+			]
+			dependency_requirement: "one_completed"
+			id: "7BE37FFE8A4CC295"
+			tasks: [{
+				id: "645073CECABA2BAC"
+				type: "structure"
+				title: "&3灾厄营地:illager_campsite"
+				icon: "minecraft:purple_wool"
+				structure: "dungeons_arise:illager_campsite"
+			}]
+			rewards: [{
+				id: "601E26BE2F8611AF"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 8.5d
+			hide_dependency_lines: true
+			dependencies: ["0363FF1E96703249"]
+			id: "714B1FE346597630"
+			tasks: [{
+				id: "25425F724E04D7CF"
+				type: "structure"
+				title: "&3灾厄海盗船:illager_corsair"
+				icon: {
+					id: "minecraft:crossbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				structure: "dungeons_arise:illager_corsair"
+			}]
+			rewards: [{
+				id: "3C660FD819EC1ED8"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.25d
+			subtitle: "&6你惊动了一个师的兵力!"
+			hide_dependency_lines: true
+			dependencies: ["0363FF1E96703249"]
+			id: "05D7A0EB1B5A728C"
+			tasks: [{
+				id: "4827ED3532E26435"
+				type: "structure"
+				title: "&34.灾厄城堡:illager_fort"
+				icon: {
+					id: "amethysttoolsmod:netherite_axe_amethyst"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				structure: "dungeons_arise:illager_fort"
+			}]
+			rewards: [{
+				id: "0A277697BB6F6D9B"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 8.5d
+			hide_dependency_lines: true
+			dependencies: ["0363FF1E96703249"]
+			id: "5FAC58A3E87BF384"
+			tasks: [{
+				id: "480A6798DE2EB9F6"
+				type: "structure"
+				title: "&3灾厄桨帆船:illager_galley"
+				icon: {
+					id: "omnis:ravaged_battle_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				structure: "dungeons_arise:illager_galley"
+			}]
+			rewards: [{
+				id: "25B1123BF34D615A"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.75d
+			subtitle: "\"要食物有面包，要宝藏也有面包\""
+			dependencies: [
+				"0363FF1E96703249"
+				"27EFE155915F44E4"
+			]
+			dependency_requirement: "one_completed"
+			id: "516B9E78B4C5566E"
+			tasks: [{
+				id: "0AC263D0EEA9C8E7"
+				type: "structure"
+				title: "&3灾厄风车:illager_windmill"
+				icon: "minecraft:wheat"
+				structure: "dungeons_arise:illager_windmill"
+			}]
+			rewards: [{
+				id: "5CD22528D2428F7A"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.25d
+			subtitle: "\"诡异的建筑，从中透露出些许魔咒的气息……\""
+			dependencies: [
+				"0363FF1E96703249"
+				"4A54C909E2DFA4FD"
+			]
+			dependency_requirement: "one_completed"
+			size: 1.3d
+			id: "71C23C774D25F6EC"
+			tasks: [{
+				id: "246783EB94362043"
+				type: "structure"
+				title: "&33.蚀败寺庙:infested_temple"
+				icon: {
+					id: "minecraft:cobweb"
+					Count: 1b
+					tag: {
+						RepairCost: 1
+						"quark:RuneAttached": 1b
+						Enchantments: [{
+							lvl: 1s
+							id: "minecraft:unbreaking"
+						}]
+						"quark:RuneColor": {
+							id: "quark:light_gray_rune"
+							Count: 1b
+						}
+					}
+				}
+				structure: "dungeons_arise:infested_temple"
+			}]
+			rewards: [
+				{
+					id: "13AF01528EF08255"
+					type: "item"
+					item: "minecraft:cobweb"
+					count: 8
+				}
+				{
+					id: "4355872BB0050C4E"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -1.75d
+			subtitle: "没准有先人遗留的高级镐子"
+			dependencies: ["0363FF1E96703249"]
+			id: "1183E5660CBC05EA"
+			tasks: [{
+				id: "079706EBA7D302FB"
+				type: "structure"
+				title: "&3采矿系统:mining_system"
+				icon: "minecraft:iron_ore"
+				structure: "dungeons_arise:mining_system"
+			}]
+			rewards: [{
+				id: "1DF0D2BD257D79C2"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 5.25d
+			subtitle: "失传已久的大型遗迹的藏宝图"
+			hide_dependency_lines: true
+			dependencies: ["0363FF1E96703249"]
+			dependency_requirement: "one_completed"
+			id: "4A54C909E2DFA4FD"
+			tasks: [{
+				id: "1CCC3DA968D9DB59"
+				type: "structure"
+				title: "&3修道院:monastery"
+				icon: "artifacts:villager_hat"
+				structure: "dungeons_arise:monastery"
+			}]
+			rewards: [{
+				id: "1150EADE162B5CA4"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -0.25d
+			hide_dependency_lines: true
+			dependencies: ["0363FF1E96703249"]
+			id: "38AD2CD214E7BF2C"
+			tasks: [{
+				id: "27E0B13F55067B4F"
+				type: "structure"
+				title: "&3猪灵蘑菇房:mushroom_house"
+				icon: "minecraft:mushroom_stem"
+				structure: "dungeons_arise:mushroom_house"
+			}]
+			rewards: [{
+				id: "34F7CD3B3638F8B6"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -0.25d
+			subtitle: "&6\"异常坚韧的皮革……到底是怎么做成衣服的呢…\""
+			hide_dependency_lines: true
+			dependencies: ["0363FF1E96703249"]
+			id: "27EFE155915F44E4"
+			tasks: [{
+				id: "733677D91467961E"
+				type: "structure"
+				title: "&310.蘑菇矿井:mushroom_mines"
+				icon: {
+					id: "minecraft:leather_helmet"
+					Count: 1b
+					tag: {
+						Unbreakable: 1b
+						saa1: {
+							MOVE_SPEED: {
+								moveSpeed: 1.3535181f
+							}
+						}
+						Damage: 0
+						Enchantments: [{
+							lvl: 8s
+							id: "minecraft:protection"
+						}]
+						display: {
+							color: 16252672
+						}
+					}
+				}
+				structure: "dungeons_arise:mushroom_mines"
+			}]
+			rewards: [{
+				id: "448ED825980CF464"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.25d
+			hide_dependency_lines: true
+			dependencies: ["0363FF1E96703249"]
+			id: "148A588BDB3D218A"
+			tasks: [{
+				id: "700B5C589EFB956D"
+				type: "structure"
+				title: "&3蘑菇村落:mushroom_village"
+				icon: "nethersdelight:hoglin_mount"
+				structure: "dungeons_arise:mushroom_village"
+			}]
+			rewards: [{
+				id: "25C68B5AE11DC1DD"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "&32.瘟疫庇护所:plague_asylum"
+			x: -3.0d
+			y: 5.25d
+			subtitle: "&4是毁灭，还是拯救？"
+			description: ["为躲避瘟疫而酿造的药水，或许能派上用场"]
+			dependencies: [
+				"0363FF1E96703249"
+				"4A54C909E2DFA4FD"
+			]
+			dependency_requirement: "one_completed"
+			size: 1.3d
+			id: "59AD8CB915F460F9"
+			tasks: [{
+				id: "39DC019EEABE4BBE"
+				type: "structure"
+				title: "&3地下通道:plague_asylum"
+				icon: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						CustomPotionEffects: [
+							{
+								Amplifier: 2b
+								Duration: 1
+								Id: 7b
+							}
+							{
+								Amplifier: 2b
+								Duration: 2400
+								Id: 21b
+							}
+						]
+						CustomPotionColor: 7872158
+					}
+				}
+				structure: "dungeons_arise:plague_asylum"
+			}]
+			rewards: [{
+				id: "7B00BB57DE56537B"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.25d
+			subtitle: "&6千金魔源值万钱，琪花瑶草坠梦间"
+			description: ["注：此结构位于恶地——摘自mc百科，但沙漠应该也有"]
+			dependencies: [
+				"0363FF1E96703249"
+				"1698B404B73794CF"
+			]
+			dependency_requirement: "one_completed"
+			size: 1.3d
+			id: "2486CC48253D3249"
+			tasks: [{
+				id: "56BB5F170B9E4682"
+				type: "structure"
+				title: "&36.繁花之宫/希拉兹宫殿:shiraz_palace"
+				icon: {
+					id: "ecologics:sandcastle"
+					Count: 1b
+					tag: {
+						RepairCost: 1
+						Enchantments: [{
+							lvl: 3s
+							id: "minecraft:unbreaking"
+						}]
+					}
+				}
+				structure: "dungeons_arise:shiraz_palace"
+			}]
+			rewards: [{
+				id: "788A520EC0690659"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.75d
+			subtitle: "&c红石党狂喜"
+			dependencies: [
+				"0363FF1E96703249"
+				"61A64DA6BC4EAF82"
+				"1B5A027AFE9CC343"
+			]
+			dependency_requirement: "one_completed"
+			id: "74539D34D85BEFEF"
+			tasks: [{
+				id: "00F38F81CA20762D"
+				type: "structure"
+				title: "&3红石小汽艇:small_blimp"
+				icon: "minecraft:comparator"
+				structure: "dungeons_arise:small_blimp"
+			}]
+			rewards: [{
+				id: "12405954DDF30E5C"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -0.25d
+			hide_dependency_lines: true
+			dependencies: ["0363FF1E96703249"]
+			id: "67BD7C89B4DC806A"
+			tasks: [{
+				id: "5FE19C8BB9A07E3B"
+				type: "structure"
+				title: "&3荆棘塔楼:thornborn_towers"
+				icon: "minecraft:polished_granite"
+				structure: "dungeons_arise:thornborn_towers"
+			}]
+			rewards: [{
+				id: "36992F6031CAFED1"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.0d
+			subtitle: "&2虚假的海盗船 x"
+			hide_dependency_lines: true
+			dependencies: ["0363FF1E96703249"]
+			id: "1BC5DF7AD4320E37"
+			tasks: [{
+				id: "78B45A2229C5279D"
+				type: "structure"
+				title: "&31.幽灵骷髅海盗船:undead_pirate_ship"
+				icon: {
+					id: "alexsmobs:skelewag_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				structure: "dungeons_arise:undead_pirate_ship"
+			}]
+			rewards: [{
+				id: "7320E07CDB731B41"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.75d
+			dependencies: ["0363FF1E96703249"]
+			id: "5AB3DB0762F6D865"
+			tasks: [{
+				id: "38063FD4B318F604"
+				type: "structure"
+				title: "&3许愿井:wishing_well"
+				icon: "minecraft:bedrock"
+				structure: "dungeons_arise:wishing_well"
+			}]
+			rewards: [{
+				id: "4AB85A24E8D870CE"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 7.75d
+			dependencies: ["0363FF1E96703249"]
+			dependency_requirement: "one_completed"
+			id: "299CBE08ED950BD9"
+			tasks: [{
+				id: "1DF041113821C995"
+				type: "structure"
+				title: "&3蛇道:typhon"
+				icon: "biomesoplenty:stringy_cobweb"
+				structure: "dungeons_arise:typhon"
+			}]
+			rewards: [{
+				id: "5ACD0F03A626161A"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.25d
+			subtitle: "说是数一数二的强度也不为过"
+			dependencies: [
+				"0363FF1E96703249"
+				"1698B404B73794CF"
+			]
+			dependency_requirement: "one_completed"
+			size: 1.3d
+			id: "0BCBC79E453C4D0C"
+			tasks: [{
+				id: "2E135AE6E644E042"
+				type: "structure"
+				title: "&35.焦黑矿井:scorched_mines"
+				icon: "minecraft:wither_skeleton_skull"
+				structure: "dungeons_arise:scorched_mines"
+			}]
+			rewards: [{
+				id: "2128583078064447"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -9.75d
+			shape: "hexagon"
+			subtitle: "&d\"给玩家们来点小小的数值震撼\""
+			dependencies: ["0363FF1E96703249"]
+			size: 1.5d
+			id: "16648D69BDF6B4B7"
+			tasks: [{
+				id: "11538C15B9EA36FE"
+				type: "structure"
+				title: "&612.末地——幻梦塔楼:aviary"
+				icon: "minecraft:phantom_membrane"
+				structure: "dungeons_arise:aviary"
+			}]
+			rewards: [
+				{
+					id: "722EBD8212456249"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "02FAB7FD1DAF5F11"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 2688748745693820522L
+				}
+			]
+		}
+		{
+			icon: "minecraft:jungle_leaves"
+			x: 1.5d
+			y: -3.0d
+			shape: "circle"
+			subtitle: "打包带走当肥料"
+			dependencies: ["0363FF1E96703249"]
+			dependency_requirement: "one_completed"
+			id: "7DE06B4C21ED21B0"
+			tasks: [{
+				id: "7CFD0F1EAC0FD71C"
+				type: "structure"
+				title: "&3丛林树屋:jungle_tree_house"
+				icon: "minecraft:bone_block"
+				structure: "dungeons_arise:jungle_tree_house"
+			}]
+			rewards: [{
+				id: "7127AD6760B3ED75"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			icon: "minecraft:light_blue_wool"
+			x: -1.5d
+			y: -3.0d
+			subtitle: "免费的村民，打包带走"
+			dependencies: ["0363FF1E96703249"]
+			dependency_requirement: "one_completed"
+			id: "3A2D98DD650767E5"
+			tasks: [{
+				id: "4E85228011B63A88"
+				type: "structure"
+				title: "&3商人营地：merchant_campsite"
+				icon: "minecraft:light_gray_wool"
+				structure: "dungeons_arise:merchant_campsite"
+			}]
+			rewards: [{
+				id: "214E2B582D4EBF28"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.75d
+			subtitle: "&e转起来了！"
+			hide_dependency_lines: true
+			dependencies: ["0363FF1E96703249"]
+			dependency_requirement: "one_completed"
+			id: "1B7570005542CF57"
+			tasks: [{
+				id: "390C030EB96BE2DB"
+				type: "structure"
+				title: "&3灯塔:lighthouse"
+				icon: "minecraft:redstone_lamp"
+				structure: "dungeons_arise:lighthouse"
+			}]
+			rewards: [{
+				id: "011EF99E13926105"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.0d
+			subtitle: "&6\"生成于沼泽和红树林沼泽的大型结构\""
+			hide_dependency_lines: true
+			dependencies: ["0363FF1E96703249"]
+			size: 1.3d
+			id: "06F861EC13773447"
+			tasks: [{
+				id: "0E36FEA42168F74F"
+				type: "structure"
+				title: "&3创世神殿:keep_kayra"
+				icon: "minecraft:sand"
+				structure: "dungeons_arise:keep_kayra"
+			}]
+			rewards: [{
+				id: "1E033EB1F5C8767D"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

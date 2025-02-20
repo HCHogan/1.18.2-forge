@@ -1,0 +1,3036 @@
+{
+	id: "7074902D721B9745"
+	group: "0AB6945465C0105E"
+	order_index: 0
+	filename: "7074902D721B9745"
+	title: "尖兵利刃"
+	icon: {
+		id: "cataclysm:final_fractal"
+		Count: 1b
+		tag: {
+			Damage: 0
+			Enchantments: [
+				{
+					lvl: 2s
+					id: "majruszsenchantments:leech"
+				}
+				{
+					lvl: 3s
+					id: "miningmaster:freezing"
+				}
+				{
+					lvl: 4s
+					id: "minecraft:looting"
+				}
+				{
+					lvl: 9s
+					id: "minecraft:sharpness"
+				}
+				{
+					lvl: 4s
+					id: "minecraft:sweeping"
+				}
+				{
+					lvl: 4s
+					id: "minecraft:knockback"
+				}
+				{
+					lvl: 1s
+					id: "majruszsenchantments:death_wish"
+				}
+			]
+			Tiered: {
+				Tier: "stellariscraft:epic2_heroic_greatsword"
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -1.0d
+			y: 1.0d
+			width: 7.5d
+			height: 7.5d
+			rotation: 180.0d
+			image: "cnb:textures/items/cinder_sword_4.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			width: 7.5d
+			height: 7.5d
+			rotation: 90.0d
+			image: "cnb:textures/items/cinder_sword_4.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			width: 7.5d
+			height: 7.5d
+			rotation: 180.0d
+			image: "cnb:textures/items/cinder_sword_4.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			width: 7.5d
+			height: 7.5d
+			rotation: 90.0d
+			image: "cnb:textures/items/cinder_sword_4.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			width: 8.0d
+			height: 8.0d
+			rotation: 0.0d
+			image: "ftblibrary:textures/icons/shield.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			width: 13.0d
+			height: 13.0d
+			rotation: 45.0d
+			image: "mowziesmobs:textures/particle/sun_nova.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/ender_eye.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 20.5d
+			y: 8.5d
+			width: 20.0d
+			height: 15.0d
+			rotation: 0.0d
+			image: "sc:textures/wsd.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 8.5d
+			width: 20.0d
+			height: 15.0d
+			rotation: 0.0d
+			image: "sc:textures/td.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 16.5d
+			width: 20.0d
+			height: 15.0d
+			rotation: 0.0d
+			image: "sc:textures/cq.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -20.5d
+			y: 8.5d
+			width: 20.0d
+			height: 15.0d
+			rotation: 0.0d
+			image: "sc:textures/cj.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -20.5d
+			y: 25.5d
+			width: 20.0d
+			height: 15.0d
+			rotation: 0.0d
+			image: "sc:textures/jf.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 20.5d
+			y: 16.5d
+			width: 20.0d
+			height: 15.0d
+			rotation: 0.0d
+			image: "sc:textures/gd.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 33.5d
+			width: 20.0d
+			height: 15.0d
+			rotation: 0.0d
+			image: "sc:textures/qt.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 20.5d
+			y: 25.5d
+			width: 20.0d
+			height: 15.0d
+			rotation: 0.0d
+			image: "sc:textures/dj.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -20.5d
+			y: 16.5d
+			width: 20.0d
+			height: 15.0d
+			rotation: 0.0d
+			image: "sc:textures/dsj.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 25.5d
+			width: 20.0d
+			height: 15.0d
+			rotation: 0.0d
+			image: "sc:textures/bs.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: -2.0d
+			y: 25.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["7FC2031B6AD9DD39"]
+			size: 1.5d
+			id: "55718EAD7D488CE4"
+			tasks: [{
+				id: "35C6E7EBC31192CF"
+				type: "item"
+				item: {
+					id: "stellariscraft:hunterdagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3D3CB0886A05BBF7"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			x: -0.5d
+			y: 25.5d
+			shape: "square"
+			subtitle: "&f尝试着让匕首等边缘武器能上桌吃饭..."
+			hide_dependency_lines: true
+			dependencies: [
+				"7FC2031B6AD9DD39"
+				"5484F1714B668B69"
+			]
+			size: 1.5d
+			id: "5A27AF7E55F898E0"
+			tasks: [{
+				id: "0F0642738E7B7D99"
+				type: "item"
+				item: {
+					id: "stellarisdlc:dieddagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "08A958395B23AE43"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			x: -24.0d
+			y: 25.5d
+			shape: "square"
+			subtitle: "依稀记得40血腐金套主世界横着走"
+			hide_dependency_lines: true
+			dependencies: [
+				"17B8EFEA43E413EE"
+				"37375F46CDC4CE34"
+			]
+			size: 1.5d
+			id: "12904AD76CCFA49C"
+			tasks: [{
+				id: "58F43C0029AD418F"
+				type: "item"
+				item: {
+					id: "stellariscraft:rotswordaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "378180B4313D1339"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			title: "&b&l白露·青云"
+			x: 20.0d
+			y: 8.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["216E984FC04B5782"]
+			size: 1.5d
+			id: "3194351310B56BBA"
+			tasks: [{
+				id: "7208084D62A49CAD"
+				type: "item"
+				item: {
+					id: "stellarisdlc:bailu"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Tiered: {
+							Tier: "stellariscraft:common_katana"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6C4880AF45E5D78C"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			title: "&5&l魔刀千刃"
+			x: 18.5d
+			y: 8.5d
+			shape: "square"
+			subtitle: "&d理论整合包单次伤害之上限，在此..."
+			description: ["&c&n注：有较多武器的工作台合成配方需要用到下位武器，需要使用满耐久的武器才能合成！！"]
+			hide_dependency_lines: true
+			dependencies: ["216E984FC04B5782"]
+			size: 1.5d
+			id: "7E5701311DA14BB7"
+			tasks: [{
+				id: "5877DB6C7F064427"
+				type: "item"
+				item: {
+					id: "stellarisdlc:bb"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Tiered: {
+							Tier: "stellariscraft:common_katana"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1272BE0C180C6FA2"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			title: "妖刀血瞳"
+			x: -2.0d
+			y: 8.5d
+			shape: "square"
+			subtitle: "&4把它和狂战士还有死神祝福放在一起"
+			description: ["失去了肘击，换来了更加丝滑的连招"]
+			hide_dependency_lines: true
+			dependencies: [
+				"1FCF8F5D1D9326DD"
+				"5484F1714B668B69"
+			]
+			size: 1.5d
+			id: "21C6A2F0251E5FAA"
+			tasks: [{
+				id: "79BCFD7DA15D54C4"
+				type: "item"
+				item: {
+					id: "stellarisdlc:helleyes"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Tiered: {
+							Tier: "stellariscraft:common_tachi"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2F58D0A0D75BC864"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			x: -19.5d
+			y: 25.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["17B8EFEA43E413EE"]
+			size: 1.5d
+			id: "21F962A4CAF65004"
+			tasks: [{
+				id: "51DAE6E9218D766E"
+				type: "item"
+				item: {
+					id: "stellariscraft:voidaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "78543FC61C1DF509"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			title: "对称长枪"
+			x: -3.5d
+			y: 16.5d
+			shape: "square"
+			subtitle: "&f前期第二高性价比武器"
+			hide_dependency_lines: true
+			dependencies: ["7F0245C68A750FD5"]
+			size: 1.5d
+			id: "4FC8902C60EBE9F8"
+			tasks: [{
+				id: "0EDD8AFAEA016EC8"
+				type: "item"
+				item: {
+					id: "stellarisdlc:symmetryspear"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Tiered: {
+							Tier: "stellariscraft:common_spear"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "19B2B04EDDD921B7"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			x: -2.0d
+			y: 16.5d
+			shape: "square"
+			subtitle: "&a过渡武器，却几乎比肩银龙"
+			hide_dependency_lines: true
+			dependencies: ["7F0245C68A750FD5"]
+			size: 1.5d
+			id: "4355C8DA0FB45D42"
+			tasks: [{
+				id: "6CF650875E2E736F"
+				type: "item"
+				item: {
+					id: "stellarisdlc:phoenixspear"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Tiered: {
+							Tier: "stellariscraft:common_spear"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7E14E64E9EE0308D"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			x: 17.0d
+			y: 8.5d
+			shape: "square"
+			subtitle: "打刀系列进阶的基础"
+			hide_dependency_lines: true
+			dependencies: [
+				"216E984FC04B5782"
+				"37375F46CDC4CE34"
+			]
+			size: 1.5d
+			id: "3BAA8C6873B3E1FE"
+			tasks: [{
+				id: "46538853D844A313"
+				type: "item"
+				item: {
+					id: "stellarisdlc:steelkatana"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Tiered: {
+							Tier: "stellariscraft:common_katana"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1BEDA70575034C78"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			title: "&6&l誓约胜利之剑"
+			icon: {
+				id: "stellarisdlc:excalibur"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Tiered: {
+						Tier: "stellariscraft:common_longsword"
+					}
+				}
+			}
+			x: -19.5d
+			y: 8.5d
+			shape: "square"
+			subtitle: "&e整合包的&c前&e公认轮椅武器"
+			hide_dependency_lines: true
+			dependencies: [
+				"7FA265C9F12A61B6"
+				"3E685F4D07EDAC80"
+			]
+			size: 1.5d
+			id: "61C620FD901543B3"
+			tasks: [{
+				id: "173960D72617093E"
+				type: "item"
+				item: {
+					id: "stellarisdlc:excalibur"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Tiered: {
+							Tier: "stellariscraft:common_longsword"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0BD9DC7C0917546F"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			title: "血瞳·凋零浸染"
+			x: -0.5d
+			y: 8.5d
+			shape: "square"
+			description: ["饰品栏一个饱腹戒指，可以关闭自然回血，自带滋养效果，防止跑步消耗饥饿值，真正做到维持膳食的功能。"]
+			hide_dependency_lines: true
+			dependencies: ["21C6A2F0251E5FAA"]
+			size: 1.5d
+			id: "7E5781E8061EC13A"
+			tasks: [{
+				id: "0ED550F7708D7FF3"
+				type: "item"
+				item: {
+					id: "stellarisdlc:withereye"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Tiered: {
+							Tier: "stellariscraft:common_tachi"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0A5C9D3FB39B296E"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			x: -19.5d
+			y: 16.5d
+			shape: "square"
+			subtitle: "&2我这把剑，可是有毒的（舔）"
+			description: ["加强了，但跟终极武器比也还是差点"]
+			hide_dependency_lines: true
+			dependencies: ["70BA4A7905C64C5F"]
+			hide: false
+			size: 1.5d
+			id: "3A497D9DAE352A3A"
+			tasks: [{
+				id: "16B8C230BA0491CA"
+				type: "item"
+				item: {
+					id: "stellariscraft:diopsidesword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "70F0F3C1ED966A1A"
+					type: "item"
+					item: "ringsofascension:ring_poison_resistance"
+				}
+				{
+					id: "2B3180F32D249A48"
+					type: "xp"
+					xp: 306
+				}
+			]
+		}
+		{
+			title: "&b&l银龙戟"
+			x: -0.5d
+			y: 16.5d
+			shape: "square"
+			subtitle: "&c加强！"
+			hide_dependency_lines: true
+			dependencies: ["7F0245C68A750FD5"]
+			size: 1.5d
+			id: "4EA4063420A9F9A6"
+			tasks: [{
+				id: "21D08745EA298FC8"
+				type: "item"
+				item: {
+					id: "stellarisdlc:flayer"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Tiered: {
+							Tier: "stellariscraft:common_spear"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "61B9EB2744A257A8"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			title: "血瞳·魔龙深渊"
+			x: 1.0d
+			y: 8.5d
+			shape: "square"
+			subtitle: "&c肘击已经是过去式了"
+			hide_dependency_lines: true
+			dependencies: ["7E5781E8061EC13A"]
+			size: 1.5d
+			id: "50ED4F33EF302D97"
+			tasks: [{
+				id: "0EDEE161C9D89590"
+				type: "item"
+				item: {
+					id: "stellarisdlc:mononchasm"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Tiered: {
+							Tier: "stellariscraft:common_tachi"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3EA5D1DB1AAF3801"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			title: "对剑"
+			x: -25.5d
+			y: 16.5d
+			shape: "square"
+			subtitle: "&3破极流心 斩钢"
+			description: ["                    使用对剑时副手武器攻速会减少0.4"]
+			hide_dependency_lines: true
+			dependencies: ["6432FE1071C20818"]
+			size: 1.5d
+			id: "70BA4A7905C64C5F"
+			tasks: [{
+				id: "4A79040059D4E471"
+				type: "item"
+				title: "单手剑"
+				icon: {
+					id: "minecraft:diamond_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:wooden_sword"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_sword"
+									}
+								}
+							}
+							{
+								id: "minecraft:stone_sword"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_sword"
+									}
+								}
+							}
+							{
+								id: "minecraft:golden_sword"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_sword"
+									}
+								}
+							}
+							{
+								id: "minecraft:iron_sword"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_sword"
+									}
+								}
+							}
+							{
+								id: "minecraft:diamond_sword"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_sword"
+									}
+								}
+							}
+							{
+								id: "minecraft:netherite_sword"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_sword"
+									}
+								}
+							}
+							{
+								id: "stellariscraft:ravagedsword"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_sword"
+									}
+								}
+							}
+							{
+								id: "stellariscraft:diopsidesword"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_sword"
+									}
+								}
+							}
+							{
+								id: "miningmaster:ultima_sword"
+								Count: 1b
+								tag: {
+									Damage: 0
+									RepairCost: 0
+									Tiered: {
+										Tier: "stellariscraft:common_sword"
+									}
+								}
+							}
+							{
+								id: "stellarisdlc:whitewolf"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_sword"
+									}
+								}
+							}
+							{
+								id: "stellarisdlc:lionsword"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_sword"
+									}
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "2BEB3A29FF31B0DD"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			title: "太刀"
+			x: -5.0d
+			y: 8.5d
+			shape: "square"
+			subtitle: "&3游身自如 行云"
+			description: ["&d整合包魔改&r：太刀系列，&6跑攻、跳劈可无缝衔接技能。"]
+			hide_dependency_lines: true
+			dependencies: ["6432FE1071C20818"]
+			size: 1.5d
+			id: "1FCF8F5D1D9326DD"
+			tasks: [{
+				id: "099E1C9CFE04A8CF"
+				type: "item"
+				title: "太刀"
+				icon: {
+					id: "epicfight:diamond_tachi"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "epicfight:iron_tachi"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_tachi"
+									}
+								}
+							}
+							{
+								id: "epicfight:golden_tachi"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_tachi"
+									}
+								}
+							}
+							{
+								id: "epicfight:diamond_tachi"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_tachi"
+									}
+								}
+							}
+							{
+								id: "epicfight:netherite_tachi"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_tachi"
+									}
+								}
+							}
+							{
+								id: "stellarisdlc:alloytachi"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_tachi"
+									}
+								}
+							}
+							{
+								id: "stellarisdlc:helleyes"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_tachi"
+									}
+								}
+							}
+							{
+								id: "stellarisdlc:withereye"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_tachi"
+									}
+								}
+							}
+							{
+								id: "stellarisdlc:mononchasm"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_tachi"
+									}
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "652CBC339E9A51A7"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			title: "斧"
+			x: -25.5d
+			y: 25.5d
+			shape: "square"
+			subtitle: "&3破障凛神 错玉"
+			description: [
+				"注：现在的剑斧系列，非战斗状态是斧头能砍树，战斗状态是剑的模板且可双持。"
+				""
+				"整合包魔改：&6斧头可招架&r(灵活格挡)，且斧头&6技能击中敌人附带击倒。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6432FE1071C20818"]
+			size: 1.5d
+			id: "17B8EFEA43E413EE"
+			tasks: [{
+				id: "263BFE6A86457548"
+				type: "item"
+				title: "斧"
+				icon: {
+					id: "stellariscraft:fightswordaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:wooden_axe"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_axe"
+									}
+								}
+							}
+							{
+								id: "minecraft:stone_axe"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_axe"
+									}
+								}
+							}
+							{
+								id: "minecraft:golden_axe"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_axe"
+									}
+								}
+							}
+							{
+								id: "minecraft:iron_axe"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_axe"
+									}
+								}
+							}
+							{
+								id: "minecraft:diamond_axe"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_axe"
+									}
+								}
+							}
+							{
+								id: "minecraft:netherite_axe"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_axe"
+									}
+								}
+							}
+							{
+								id: "stellariscraft:fightswordaxe"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_sword"
+									}
+								}
+							}
+							{
+								id: "stellariscraft:rotswordaxe"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_sword"
+									}
+								}
+							}
+							{
+								id: "stellariscraft:voidaxe"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_axe"
+									}
+								}
+							}
+							{
+								id: "stellariscraft:killsowrdaxe"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_sword"
+									}
+								}
+							}
+							{
+								id: "mowziesmobs:wrought_axe"
+								Count: 1b
+								tag: {
+									Tiered: {
+										Tier: "stellariscraft:common_greatsword"
+									}
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "13F6434B36C72E62"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			x: -22.5d
+			y: 25.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["12904AD76CCFA49C"]
+			size: 1.5d
+			id: "4C91415D608F61F4"
+			tasks: [{
+				id: "4251E339C633C1F1"
+				type: "item"
+				item: {
+					id: "stellariscraft:killsowrdaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "47D731631A352FF5"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			title: "打刀（武士刀）"
+			x: 15.5d
+			y: 8.5d
+			shape: "square"
+			subtitle: "&3虚一而静 止水"
+			description: [
+				"&d整合包魔改&r：打刀系列，&b收鞘时间由5秒→4秒，&a收鞘后三种强化普攻&c必定暴击，&6大招&c必定暴击&r，但降低冲击作为平衡，使打刀系列更难处决敌人。"
+				""
+				"且：&d跨步不打断收鞘状态&r（动作看似会打断请忽略，此乃特性）"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6432FE1071C20818"]
+			size: 1.5d
+			id: "216E984FC04B5782"
+			tasks: [{
+				id: "3BEFC64673317543"
+				type: "item"
+				item: {
+					id: "epicfight:uchigatana"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Tiered: {
+							Tier: "stellariscraft:common_katana"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4290C200C0988FFF"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			title: "守卫者护手"
+			icon: "cataclysm:gauntlet_of_guard"
+			x: 1.0d
+			y: 33.5d
+			shape: "square"
+			subtitle: "&f锻造炉有更高级的附魔"
+			hide_dependency_lines: true
+			dependencies: ["15406A4D7BE4AD8F"]
+			size: 1.5d
+			id: "45342B1A7C718258"
+			tasks: [{
+				id: "3C02B1D1B73CE101"
+				type: "item"
+				item: "cataclysm:gauntlet_of_guard"
+			}]
+			rewards: [{
+				id: "65B07E7301E32221"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			title: "&4&l炎葬"
+			x: 21.5d
+			y: 25.5d
+			shape: "square"
+			subtitle: "&c技术力最高的一级"
+			description: [
+				"平a为奇迹武器隐藏动作：solar系列，开技能进入奇迹巨斧狂暴状态，且此时炎葬技能可正常释放。"
+				"       &c本身不可附魔 能且只能继承“腐金大剑”的附魔"
+				"       &c（务必提前将“腐金大剑”附魔好在锻造升级）"
+				"            &6如果锻造合成配方无法锻造，重进游戏即可"
+			]
+			hide_dependency_lines: true
+			dependencies: ["7320E1BE2157EB96"]
+			size: 1.5d
+			id: "6F1167E320FA0FFF"
+			tasks: [{
+				id: "6B213AA7CF13D578"
+				type: "item"
+				item: "cataclysm:the_incinerator"
+			}]
+			rewards: [{
+				id: "1C64E34CF941F38A"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "&3约等于冒险的伊始"
+			description: [
+				"注：史诗战斗模组特性，死后重生武器可能打出伤害不会充能。"
+				""
+				"这时需要带把斧头(或别的切换动作系统的武器)，换成斧头再换回来即可。"
+				""
+				"&c&n注：有较多武器的工作台合成配方需要用到下位武器，需要使用满耐久的武器才能合成！！"
+				"            &6如果锻造合成配方无法锻造，重进游戏即可"
+			]
+			hide_dependency_lines: true
+			dependencies: ["228E462D74AB0ABE"]
+			hide: true
+			size: 1.5d
+			id: "6432FE1071C20818"
+			tasks: [{
+				id: "04FA6A21F2AD9EED"
+				type: "item"
+				item: {
+					id: "minecraft:iron_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "432A6CF379E137F8"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -24.0d
+			y: 16.5d
+			shape: "square"
+			subtitle: "&b终极剑变成了中级剑"
+			description: ["可用不毁堇青石修复"]
+			hide_dependency_lines: true
+			dependencies: ["70BA4A7905C64C5F"]
+			size: 1.5d
+			id: "23BCC1D2AB407689"
+			tasks: [{
+				id: "24B8D3C9CC01140D"
+				type: "item"
+				item: {
+					id: "miningmaster:ultima_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 3s
+								id: "minecraft:fire_aspect"
+							}
+							{
+								lvl: 3s
+								id: "miningmaster:freezing"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:looting"
+							}
+							{
+								lvl: 1s
+								id: "miningmaster:leeching"
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "608348A1CDDE7B6D"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			icon: {
+				id: "davespotioneering:rudimentary_gauntlet"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Tiered: {
+						Tier: "stellariscraft:talented3_lightweight_sword"
+					}
+				}
+			}
+			x: -3.5d
+			y: 33.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["6402136B8AE57945"]
+			size: 1.5d
+			id: "15406A4D7BE4AD8F"
+			tasks: [{
+				id: "1CAFEC0756F862F9"
+				type: "item"
+				item: {
+					id: "davespotioneering:rudimentary_gauntlet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "39C4BFBA24BF7526"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			x: -0.5d
+			y: 33.5d
+			shape: "square"
+			subtitle: "&6拳套系列回归了他应有的强度，就是难上手"
+			hide_dependency_lines: true
+			dependencies: ["15406A4D7BE4AD8F"]
+			size: 1.5d
+			id: "72CD04D1FF903479"
+			tasks: [{
+				id: "3D258E4919F0842B"
+				type: "item"
+				item: {
+					id: "davespotioneering:potioneer_gauntlet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0BCB812954B60134"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			title: "三叉戟"
+			x: 15.5d
+			y: 16.5d
+			shape: "square"
+			subtitle: "&3奇珍异宝 名刃"
+			hide_dependency_lines: true
+			dependencies: ["6432FE1071C20818"]
+			size: 1.5d
+			id: "29B990BCF1FEFA85"
+			tasks: [{
+				id: "5FD993D99E83D2B9"
+				type: "item"
+				icon: {
+					id: "minecraft:trident"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Tiered: {
+							Tier: "stellariscraft:common_sword"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:trident"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_sword"
+									}
+								}
+							}
+							{
+								id: "stellariscraft:bonemallet"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_axe"
+									}
+								}
+							}
+							{
+								id: "stellarisdlc:dragonfalchion"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_spear"
+									}
+								}
+							}
+							{
+								id: "stellariscraft:infinityblade"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "22BFC0E25FE944E2"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			title: "&8&l千锻巨斧"
+			x: -18.0d
+			y: 25.5d
+			shape: "square"
+			subtitle: "&f其实套的大剑模板"
+			hide_dependency_lines: true
+			dependencies: ["17B8EFEA43E413EE"]
+			size: 1.5d
+			id: "2EC89B184C3DF089"
+			tasks: [{
+				id: "68F3973E86176619"
+				type: "item"
+				item: "mowziesmobs:wrought_axe"
+			}]
+			rewards: [{
+				id: "14D799F9DDDA36B3"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			title: "长枪"
+			x: -5.0d
+			y: 16.5d
+			shape: "square"
+			subtitle: "&3万军难敌 龙胆"
+			description: ["整合包魔改：&6长枪可招架&r(灵活格挡)，且长枪&6技能第二段必定暴击。"]
+			hide_dependency_lines: true
+			dependencies: ["6432FE1071C20818"]
+			size: 1.5d
+			id: "7F0245C68A750FD5"
+			tasks: [{
+				id: "566C2DB19F656EDE"
+				type: "item"
+				icon: {
+					id: "epicfight:diamond_spear"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "epicfight:stone_spear"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_spear"
+									}
+								}
+							}
+							{
+								id: "epicfight:iron_spear"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_spear"
+									}
+								}
+							}
+							{
+								id: "epicfight:golden_spear"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_spear"
+									}
+								}
+							}
+							{
+								id: "epicfight:diamond_spear"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_spear"
+									}
+								}
+							}
+							{
+								id: "epicfight:netherite_spear"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_spear"
+									}
+								}
+							}
+							{
+								id: "stellarisdlc:symmetryspear"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_spear"
+									}
+								}
+							}
+							{
+								id: "stellarisdlc:phoenixspear"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_spear"
+									}
+								}
+							}
+							{
+								id: "stellarisdlc:flayer"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_spear"
+									}
+								}
+							}
+							{
+								id: "stellarisdlc:dragonspear"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_spear"
+									}
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "79835FD54B2BAB6D"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			title: "长剑"
+			x: -25.5d
+			y: 8.5d
+			shape: "square"
+			subtitle: "&3岿然千山 不动"
+			hide_dependency_lines: true
+			dependencies: ["6432FE1071C20818"]
+			size: 1.5d
+			id: "7FA265C9F12A61B6"
+			tasks: [{
+				id: "6D7C0B917CB6C4B2"
+				type: "item"
+				icon: {
+					id: "epicfight:diamond_longsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "epicfight:iron_longsword"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_longsword"
+									}
+								}
+							}
+							{
+								id: "epicfight:golden_longsword"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_longsword"
+									}
+								}
+							}
+							{
+								id: "epicfight:diamond_longsword"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_longsword"
+									}
+								}
+							}
+							{
+								id: "epicfight:netherite_longsword"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_longsword"
+									}
+								}
+							}
+							{
+								id: "stellarisdlc:saber"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_longsword"
+									}
+								}
+							}
+							{
+								id: "stellariscraft:durandal"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_longsword"
+									}
+								}
+							}
+							{
+								id: "stellariscraft:liesnow"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_longsword"
+									}
+								}
+							}
+							{
+								id: "stellarisdlc:loyalheart"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_longsword"
+									}
+								}
+							}
+							{
+								id: "stellarisdlc:excalibur"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_longsword"
+									}
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "03E2F76825EB5C98"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			title: "双匕"
+			x: -5.0d
+			y: 25.5d
+			shape: "square"
+			subtitle: "&3疾风迅雷 不息"
+			description: ["                    使用匕首时副手武器攻速会增加0.4"]
+			hide_dependency_lines: true
+			dependencies: ["6432FE1071C20818"]
+			size: 1.5d
+			id: "7FC2031B6AD9DD39"
+			tasks: [{
+				id: "2B619727B49D4945"
+				type: "item"
+				icon: {
+					id: "epicfight:diamond_dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "epicfight:iron_dagger"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_dagger"
+									}
+								}
+							}
+							{
+								id: "epicfight:golden_dagger"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_dagger"
+									}
+								}
+							}
+							{
+								id: "epicfight:diamond_dagger"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_dagger"
+									}
+								}
+							}
+							{
+								id: "epicfight:netherite_dagger"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_dagger"
+									}
+								}
+							}
+							{
+								id: "stellariscraft:hunterdagger"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_dagger"
+									}
+								}
+							}
+							{
+								id: "stellarisdlc:dieddagger"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_dagger"
+									}
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "7BA48A864A060568"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			title: "青龙偃月刀"
+			x: 18.5d
+			y: 16.5d
+			shape: "square"
+			subtitle: "&a唯三能让玩家击倒敌人的常规武器"
+			description: [
+				"尔等鼠辈，竟敢与某相抗衡！"
+				""
+				"由于代码底层将关刀归为长枪类，故青龙也可灵活格挡"
+			]
+			hide_dependency_lines: true
+			dependencies: ["29B990BCF1FEFA85"]
+			size: 1.5d
+			id: "279889DF92B1F291"
+			tasks: [{
+				id: "69782F7A362DE6EB"
+				type: "item"
+				item: {
+					id: "stellarisdlc:dragonfalchion"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1BF428357DBF1CE3"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			title: "大剑"
+			x: 15.5d
+			y: 25.5d
+			shape: "square"
+			subtitle: "&3力拨千斤 锋芒"
+			description: ["&d整合包魔改&r：大剑系列，&6释放技能期间获得普通硬直免疫buff。"]
+			hide_dependency_lines: true
+			dependencies: ["6432FE1071C20818"]
+			size: 1.5d
+			id: "7320E1BE2157EB96"
+			tasks: [{
+				id: "3876E517FDC908D0"
+				type: "item"
+				title: "大剑"
+				icon: {
+					id: "epicfight:diamond_greatsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "epicfight:stone_greatsword"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:talented3_lightweight_greatsword"
+									}
+								}
+							}
+							{
+								id: "epicfight:golden_greatsword"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:talented3_lightweight_greatsword"
+									}
+								}
+							}
+							{
+								id: "epicfight:iron_greatsword"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:rare1_light_greatsword"
+									}
+								}
+							}
+							{
+								id: "cataclysm:final_fractal"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_greatsword"
+									}
+								}
+							}
+							{
+								id: "cataclysm:the_incinerator"
+								Count: 1b
+								tag: {
+									Tiered: {
+										Tier: "stellariscraft:talented1_swift_greatsword"
+									}
+								}
+							}
+							{
+								id: "stellarisdlc:miaodao"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "stellarisdlc:rotgreatsword"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_greatsword"
+									}
+								}
+							}
+							{
+								id: "stellarisdlc:balmung"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_greatsword"
+									}
+								}
+							}
+							{
+								id: "epicfight:netherite_greatsword"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:rare1_light_greatsword"
+									}
+								}
+							}
+							{
+								id: "epicfight:diamond_greatsword"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:rare2_strong_greatsword"
+									}
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "25D07CD09B74FFBE"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			icon: {
+				id: "cataclysm:final_fractal"
+				Count: 1b
+				tag: {
+					Damage: 0
+					RepairCost: 0
+				}
+			}
+			x: 23.0d
+			y: 25.5d
+			shape: "square"
+			subtitle: "&f（PS：实际已实现了3%的最大生命值额外伤害）"
+			description: [
+				"       &c本身不可附魔 能且只能继承“腐金大剑”的附魔"
+				"       &c（务必提前将“腐金大剑”附魔好在锻造升级）"
+				"            &6如果锻造合成配方无法锻造，重进游戏即可"
+			]
+			hide_dependency_lines: true
+			dependencies: ["7320E1BE2157EB96"]
+			size: 1.5d
+			id: "0B3E54DB75D91D61"
+			tasks: [{
+				id: "6C3F6C0D61A3610D"
+				type: "item"
+				item: {
+					id: "cataclysm:final_fractal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3C50EB6C8ADC0C35"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			x: 17.0d
+			y: 25.5d
+			shape: "square"
+			description: ["            &6如果锻造合成配方无法锻造，重进游戏即可"]
+			hide_dependency_lines: true
+			dependencies: ["7320E1BE2157EB96"]
+			size: 1.5d
+			id: "19C2F004DE73F87A"
+			tasks: [{
+				id: "1D7E4A38436C60DD"
+				type: "item"
+				item: {
+					id: "stellarisdlc:balmung"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4D43D10292AA13DF"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			x: 17.0d
+			y: 16.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["29B990BCF1FEFA85"]
+			size: 1.5d
+			id: "11E7B95F670F6708"
+			tasks: [{
+				id: "41EA63B4A09A2D8C"
+				type: "item"
+				item: {
+					id: "stellariscraft:bonemallet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3A2716F6CA820E69"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			title: "杜兰达尔"
+			icon: {
+				id: "stellariscraft:durandal"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -24.0d
+			y: 8.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["7FA265C9F12A61B6"]
+			size: 1.5d
+			id: "33D1E483BBB5FC32"
+			tasks: [{
+				id: "141D1AADDD9F9169"
+				type: "item"
+				icon: {
+					id: "stellariscraft:durandal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				item: {
+					id: "stellariscraft:durandal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5D5FF4A29E4101CF"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			x: -22.5d
+			y: 8.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["7FA265C9F12A61B6"]
+			size: 1.5d
+			id: "2213F0BC6A395F42"
+			tasks: [{
+				id: "51D17E09B4A00A0A"
+				type: "item"
+				icon: {
+					id: "stellariscraft:liesnow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				item: {
+					id: "stellariscraft:liesnow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7F48FEBA1661C0D6"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			title: "必胜黄金之剑"
+			x: -21.0d
+			y: 8.5d
+			shape: "square"
+			subtitle: "&a你长的好眼熟"
+			hide_dependency_lines: true
+			dependencies: ["7FA265C9F12A61B6"]
+			size: 1.5d
+			id: "3E685F4D07EDAC80"
+			tasks: [{
+				id: "4154B3DD0320D165"
+				type: "item"
+				item: {
+					id: "stellarisdlc:saber"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Tiered: {
+							Tier: "stellariscraft:common_longsword"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0A8D84DA540F87EB"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			title: "金龙战枪"
+			x: 1.0d
+			y: 16.5d
+			shape: "square"
+			subtitle: "&6黄金龙枪，启动！"
+			hide_dependency_lines: true
+			dependencies: ["7F0245C68A750FD5"]
+			size: 1.5d
+			id: "3EDC228264E9AEC4"
+			tasks: [{
+				id: "4D3D60D5F05D5308"
+				type: "item"
+				item: {
+					id: "stellarisdlc:dragonspear"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Tiered: {
+							Tier: "stellariscraft:common_spear"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "22AC3EFC0287D212"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			title: "白狼河北"
+			x: -18.0d
+			y: 16.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["70BA4A7905C64C5F"]
+			size: 1.5d
+			id: "6A0D4051E49DEBC7"
+			tasks: [{
+				id: "77C66E64187C6BFC"
+				type: "item"
+				item: {
+					id: "stellarisdlc:whitewolf"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Tiered: {
+							Tier: "stellariscraft:common_sword"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "46170E21636A020D"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			title: "死神镰刀"
+			x: 2.5d
+			y: 16.5d
+			shape: "square"
+			description: ["&c&n注：有较多武器的工作台合成配方需要用到下位武器，需要使用满耐久的武器才能合成！！"]
+			hide_dependency_lines: true
+			dependencies: ["7F0245C68A750FD5"]
+			size: 1.5d
+			id: "42C4FF3F429EFFBA"
+			tasks: [{
+				id: "45CF0335B2998A6E"
+				type: "item"
+				item: {
+					id: "mca:scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						active: 1b
+					}
+				}
+			}]
+			rewards: [{
+				id: "4B1B24C4910B8688"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			x: 20.0d
+			y: 25.5d
+			shape: "square"
+			subtitle: "&6关于炎葬和分型者附魔（必看）！"
+			description: [
+				"炎葬和分型者属于物品，因此需给腐金大剑提前打上想要的附魔，随后用附魔升级台提升等级，用锻造台升级保留附魔"
+				"            &6如果锻造合成配方无法锻造，重进游戏即可"
+			]
+			hide_dependency_lines: true
+			dependencies: ["7320E1BE2157EB96"]
+			size: 1.5d
+			id: "718CA0890D549816"
+			tasks: [{
+				id: "2659C8DE58D33529"
+				type: "item"
+				item: {
+					id: "stellarisdlc:rotgreatsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "493EFA858D755D6E"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			x: -22.5d
+			y: 16.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["70BA4A7905C64C5F"]
+			size: 1.5d
+			id: "7DBC70584A4591E2"
+			tasks: [{
+				id: "53E4A09CC0295ED2"
+				type: "item"
+				item: {
+					id: "stellariscraft:ravagedsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Tiered: {
+							Tier: "stellariscraft:common_sword"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6E25A20EA66D8BE3"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			x: -21.0d
+			y: 25.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["17B8EFEA43E413EE"]
+			size: 1.5d
+			id: "6DFD1DF773E34B5F"
+			tasks: [{
+				id: "32399FAB711B3D2D"
+				type: "item"
+				item: {
+					id: "miningmaster:ultima_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 5s
+								id: "minecraft:sharpness"
+							}
+							{
+								lvl: 5s
+								id: "minecraft:efficiency"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:knockback"
+							}
+						]
+					}
+				}
+				match_nbt: false
+			}]
+			rewards: [{
+				id: "5CB19F846C605012"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			x: 21.5d
+			y: 8.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["216E984FC04B5782"]
+			hide: false
+			size: 1.5d
+			id: "19B499DAE369CE44"
+			tasks: [{
+				id: "0E76F507D96B7D15"
+				type: "item"
+				item: {
+					id: "stellarisdlc:concealedge"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "749163FF676360E3"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			x: 5.5d
+			y: 16.5d
+			shape: "square"
+			subtitle: "&f套用了acg的镰刀模板"
+			hide_dependency_lines: true
+			dependencies: ["7F0245C68A750FD5"]
+			hide: false
+			size: 1.5d
+			id: "366B00B5AAB21BD1"
+			tasks: [{
+				id: "2170B54C66EAFE26"
+				type: "item"
+				item: {
+					id: "stellarisdlc:soulsickle"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5D7987B8110BFEAD"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			x: 23.0d
+			y: 8.5d
+			shape: "square"
+			description: [
+				"多人游戏不建议使用！！！存在一定BUG！！！"
+				"多人游戏不建议使用！！！存在一定BUG！！！"
+				"多人游戏不建议使用！！！存在一定BUG！！！"
+			]
+			hide_dependency_lines: true
+			dependencies: ["216E984FC04B5782"]
+			size: 1.5d
+			id: "709E80C5657CD55D"
+			tasks: [{
+				id: "3F8154C75C6D8C34"
+				type: "item"
+				item: {
+					id: "guhao:guhao"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2B0D1923065E02AE"
+				type: "xp"
+				xp: 6666
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.25d
+			dependencies: ["6432FE1071C20818"]
+			hide: true
+			size: 1.5d
+			id: "0A2327A434135447"
+			tasks: [{
+				id: "71825747A4BBB660"
+				type: "item"
+				item: "stellarisdlc:wolfshield"
+			}]
+			rewards: [{
+				id: "009F02DCBA586D9B"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			x: 18.5d
+			y: 25.5d
+			shape: "square"
+			subtitle: "&f有特殊技能"
+			description: ["&c&n注：有较多武器的工作台合成配方需要用到下位武器，需要使用满耐久的武器才能合成！！"]
+			hide_dependency_lines: true
+			dependencies: ["7320E1BE2157EB96"]
+			size: 1.5d
+			id: "1D72736BEF17F04F"
+			tasks: [{
+				id: "2B2417B2B1DD5D01"
+				type: "item"
+				item: {
+					id: "stellarisdlc:ruoshui"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "679F461ADA1F2F28"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			x: 20.0d
+			y: 16.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["29B990BCF1FEFA85"]
+			size: 1.5d
+			id: "7606A2D189D372F0"
+			tasks: [{
+				id: "4C87148F66669753"
+				type: "item"
+				item: {
+					id: "stellarisdlc:groundcrackhammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "71552E56E4C65841"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			x: -16.5d
+			y: 16.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["70BA4A7905C64C5F"]
+			hide: false
+			size: 1.5d
+			id: "0ABC8F539899F4DD"
+			tasks: [{
+				id: "62E2B2445A824BB4"
+				type: "item"
+				item: {
+					id: "stellarisdlc:xiuchundao"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -15.0d
+			y: 16.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["70BA4A7905C64C5F"]
+			hide: false
+			size: 1.5d
+			id: "16A297559BE8D0FE"
+			tasks: [{
+				id: "46CDE2F951B6F930"
+				type: "item"
+				item: {
+					id: "stellarisdlc:xiuchundaogolden"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -21.0d
+			y: 16.5d
+			shape: "square"
+			subtitle: "&c大抵是2.0版本唯一能拿出手的双剑了"
+			hide_dependency_lines: true
+			dependencies: [
+				"70BA4A7905C64C5F"
+				"5484F1714B668B69"
+			]
+			size: 1.5d
+			id: "747DE28E129F3925"
+			tasks: [{
+				id: "5465B3F5F8538B31"
+				type: "item"
+				item: {
+					id: "stellarisdlc:diedsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2A1CDB82A84CA7DF"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			x: -3.5d
+			y: 25.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["7FC2031B6AD9DD39"]
+			size: 1.5d
+			id: "2AC2D362C56FC66A"
+			tasks: [{
+				id: "1BEA938A50841E1D"
+				type: "item"
+				item: {
+					id: "mowziesmobs:naga_fang_dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5F64FC94EB116DA5"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			icon: {
+				id: "stellarisdlc:alloytachi"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Tiered: {
+						Tier: "stellariscraft:common_tachi"
+					}
+				}
+			}
+			x: -3.5d
+			y: 8.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["1FCF8F5D1D9326DD"]
+			size: 1.5d
+			id: "08EFCC2F13FC4A2D"
+			tasks: [{
+				id: "208638724DCC4C18"
+				type: "item"
+				item: {
+					id: "stellarisdlc:alloytachi"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Tiered: {
+							Tier: "stellariscraft:common_tachi"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6E9909AED189A8E7"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			title: "护手"
+			icon: {
+				id: "epicfight:glove"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Tiered: {
+						Tier: "stellariscraft:talented2_sharp_sword"
+					}
+				}
+			}
+			x: -5.0d
+			y: 33.5d
+			shape: "square"
+			subtitle: "&3疾风骤雨 伏虎"
+			hide_dependency_lines: true
+			dependencies: ["6432FE1071C20818"]
+			size: 1.5d
+			id: "6402136B8AE57945"
+			tasks: [{
+				id: "1F8DFCABF98238F4"
+				type: "item"
+				icon: {
+					id: "epicfight:glove"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Tiered: {
+							Tier: "stellariscraft:common_sword"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "epicfight:glove"
+								Count: 1b
+								tag: {
+									Damage: 0
+									Tiered: {
+										Tier: "stellariscraft:common_sword"
+									}
+								}
+							}
+							{
+								id: "davespotioneering:rudimentary_gauntlet"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "davespotioneering:netherite_gauntlet"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "davespotioneering:potioneer_gauntlet"
+								Count: 1b
+								tag: {
+									Tiered: {
+										Tier: "stellariscraft:common_sword"
+									}
+								}
+							}
+							{
+								id: "cataclysm:gauntlet_of_guard"
+								Count: 1b
+								tag: {
+									Tiered: {
+										Tier: "stellariscraft:common_sword"
+									}
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "63EFD762FF819F94"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			icon: {
+				id: "davespotioneering:netherite_gauntlet"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Tiered: {
+						Tier: "stellariscraft:epic_sword"
+					}
+				}
+			}
+			x: -2.0d
+			y: 33.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["6402136B8AE57945"]
+			size: 1.5d
+			id: "4221FA494574949B"
+			tasks: [{
+				id: "1897EB991E066F8E"
+				type: "item"
+				item: {
+					id: "davespotioneering:netherite_gauntlet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7CC307D370B0FE4E"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			title: "死神镰刀"
+			x: 4.0d
+			y: 16.5d
+			shape: "square"
+			subtitle: "&f套用了acg的镰刀模板"
+			description: ["&c&n注：有较多武器的工作台合成配方需要用到下位武器，需要使用满耐久的武器才能合成！！"]
+			hide_dependency_lines: true
+			dependencies: ["7F0245C68A750FD5"]
+			size: 1.5d
+			id: "2CF636CE20A7801F"
+			tasks: [{
+				id: "388835A69D2F1FE5"
+				type: "item"
+				item: {
+					id: "stellarisdlc:sickle"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "02E2957152F0897E"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			title: "旧世界"
+			x: 2.5d
+			y: 8.5d
+			shape: "square"
+			subtitle: "&4献祭血肉锻铸而成"
+			description: ["关于鲜血精华获取方法请查看任务-大千世界-奥术遗迹"]
+			hide_dependency_lines: true
+			dependencies: ["21C6A2F0251E5FAA"]
+			size: 1.5d
+			id: "6930388951D2FE0B"
+			tasks: [{
+				id: "02CBAB9F0A4C6244"
+				type: "item"
+				title: "旧世界"
+				item: {
+					id: "stellarisdlc:oldworld"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5F1D863F71F62E74"
+				type: "xp"
+				xp: 306
+			}]
+		}
+		{
+			x: 21.5d
+			y: 16.5d
+			shape: "square"
+			subtitle: "&a你也是天命人吗"
+			description: [
+				"注-1：黑猴的三种棍子，加点塑形同大剑类。"
+				""
+				"注-2：棍子可能有bug会导致崩溃，使用前请提前备份存档。已知黑猴的翻滚技能书可能会崩溃。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["29B990BCF1FEFA85"]
+			size: 1.5d
+			id: "1FFA6D562EDAB63C"
+			tasks: [{
+				id: "55D0EAA7130208D1"
+				type: "item"
+				item: {
+					id: "wukong:staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+						wukong_has_effect_timer: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "33B32309B666C7BC"
+					type: "xp"
+					xp: 306
+				}
+				{
+					id: "764F27E8A24E7DA9"
+					type: "item"
+					item: {
+						id: "minecraft:written_book"
+						Count: 1b
+						tag: {
+							generation: 3
+							pages: [
+								"{\"text\":\"如果你是黑猴高手请跳过此傻瓜式教程，记得改技能键键位，玩得愉快，感谢下载！否则请认真查看此教程！由于作者偷懒，于是采用最朴素的方式简述玩法（且此书硬编码，没有翻译）。此书仅出现一次，如有需要可在模组配置文件里再次启用。\"}"
+								"{\"text\":\"§4首先请按下ESC，点击选项，再点击控制，再点击按键绑定，向下拉，找到史诗战斗，将“武器进阶技能”键（以下简称技能键）更改为与攻击键不同的按键，以免无法蓄力！§r\"}"
+								"{\"text\":\"棍花：原地按V（默认）可使用单手棍花，同时按W可变为双手棍花。棍花可抵挡射击伤害，可在配置文件添加可被格挡的物品。成功格挡可增加棍势。\"}"
+								"{\"text\":\"跳跃攻击：跳跃时按下攻击键可进行跳跃攻击，即原版跳劈。攻击击中实体时将往回跳，跳跃时按技能键可使用跳跃重击，有棍势则消耗所有棍势并造成更大伤害。\"}"
+								"{\"text\":\"完美闪避：黑猴闪避为单独技能书，学习后可往四个方向进行三连翻滚，若触发完美闪避则可增加棍势。§4（未实现：若在蓄力过程中触发完美闪避则可保留棍势。）§r\"}"
+								"{\"text\":\"劈棍式：棍子武器默认为劈棍式，长按技能键以蓄力（可在配置项调整蓄力速度），蓄力最多蓄到三层棍势。造成伤害也可增长棍势，有棍势时按技能键释放重击。第四层需靠造成伤害或完美闪避积攒。第四层棍势15s后将逐渐减少。\"}"
+								"{\"text\":\"劈棍式：轻攻击后短时间内（可在配置项调整判定时长）若有棍势则可按技能键消耗1层棍势使用破棍式，若造成伤害则再次按下技能键可使用斩棍式，若成功识破敌人出招则轻攻击可从第三段继续。\"}"
+								"{\"text\":\"立棍式和戳棍式和大圣模式：什么？尽力了尽力了，很快会和大家见面！\"}"
+							]
+							title: "史诗战斗：悟空附属游玩指南"
+							author: "P1nero"
+							resolved: 1b
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&6如意金箍棒"
+			x: 24.5d
+			y: 16.5d
+			shape: "square"
+			subtitle: "&6金猴奋起千钧棒，玉宇澄清万里埃"
+			hide_dependency_lines: true
+			dependencies: ["29B990BCF1FEFA85"]
+			size: 1.5d
+			id: "34CBD5C32F0AD842"
+			tasks: [{
+				id: "44D302FDBEFE6C58"
+				type: "item"
+				item: {
+					id: "wukong:jingubang"
+					Count: 1b
+					tag: {
+						Damage: 0
+						wukong_has_effect_timer: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "79B101F671860B07"
+					type: "xp"
+					xp: 888
+				}
+				{
+					id: "72D5F92327BD4266"
+					type: "item"
+					item: {
+						id: "minecraft:written_book"
+						Count: 1b
+						tag: {
+							generation: 3
+							pages: [
+								"{\"text\":\"如果你是黑猴高手请跳过此傻瓜式教程，记得改技能键键位，玩得愉快，感谢下载！否则请认真查看此教程！由于作者偷懒，于是采用最朴素的方式简述玩法（且此书硬编码，没有翻译）。此书仅出现一次，如有需要可在模组配置文件里再次启用。\"}"
+								"{\"text\":\"§4首先请按下ESC，点击选项，再点击控制，再点击按键绑定，向下拉，找到史诗战斗，将“武器进阶技能”键（以下简称技能键）更改为与攻击键不同的按键，以免无法蓄力！§r\"}"
+								"{\"text\":\"棍花：原地按V（默认）可使用单手棍花，同时按W可变为双手棍花。棍花可抵挡射击伤害，可在配置文件添加可被格挡的物品。成功格挡可增加棍势。\"}"
+								"{\"text\":\"跳跃攻击：跳跃时按下攻击键可进行跳跃攻击，即原版跳劈。攻击击中实体时将往回跳，跳跃时按技能键可使用跳跃重击，有棍势则消耗所有棍势并造成更大伤害。\"}"
+								"{\"text\":\"完美闪避：黑猴闪避为单独技能书，学习后可往四个方向进行三连翻滚，若触发完美闪避则可增加棍势。§4（未实现：若在蓄力过程中触发完美闪避则可保留棍势。）§r\"}"
+								"{\"text\":\"劈棍式：棍子武器默认为劈棍式，长按技能键以蓄力（可在配置项调整蓄力速度），蓄力最多蓄到三层棍势。造成伤害也可增长棍势，有棍势时按技能键释放重击。第四层需靠造成伤害或完美闪避积攒。第四层棍势15s后将逐渐减少。\"}"
+								"{\"text\":\"劈棍式：轻攻击后短时间内（可在配置项调整判定时长）若有棍势则可按技能键消耗1层棍势使用破棍式，若造成伤害则再次按下技能键可使用斩棍式，若成功识破敌人出招则轻攻击可从第三段继续。\"}"
+								"{\"text\":\"立棍式和戳棍式和大圣模式：什么？尽力了尽力了，很快会和大家见面！\"}"
+							]
+							title: "史诗战斗：悟空附属游玩指南"
+							author: "P1nero"
+							resolved: 1b
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 23.0d
+			y: 16.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["29B990BCF1FEFA85"]
+			size: 1.5d
+			id: "4D76A5E1925B9417"
+			tasks: [{
+				id: "53C8577CD503D4BB"
+				type: "item"
+				item: {
+					id: "wukong:kang_jin"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "00A7E4D35317DCCB"
+				type: "xp"
+				xp: 333
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			shape: "circle"
+			subtitle: "&b本整合包解封的第一把奇迹武器"
+			dependencies: ["6432FE1071C20818"]
+			size: 1.5d
+			id: "3A4A999515E753A6"
+			tasks: [{
+				id: "5FBF49D383B7FE07"
+				type: "item"
+				item: {
+					id: "wom:satsujin"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0427627F33005F83"
+				type: "xp"
+				xp: 666
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			subtitle: "&bI am the ......."
+			description: ["模型及贴图参考:来自建模大佬&a@02Bunny（b站）&fTACZ附属：鬼泣五武器包"]
+			dependencies: ["6432FE1071C20818"]
+			size: 1.5d
+			id: "59A6DD7A52FD7282"
+			tasks: [{
+				id: "282B23355018D6EB"
+				type: "item"
+				item: {
+					id: "stellarisdlc:yamato"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "46C1B5D093F24A2C"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					id: "21AB0743D262F204"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6B4798919F7A8411"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

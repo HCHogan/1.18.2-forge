@@ -1,0 +1,60 @@
+{
+  "id": "stellariscraft:mountained",
+  "weight": 1,
+  "reforge_experience_cost": 4,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:greatsword"}
+  ],
+  "style": {
+    "color": "dark_gray"
+  },
+  "attributes": [
+    {
+      "type": "toybox:crit_chance",
+      "modifier": {
+        "name": "stellariscraft:mountained",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": -0.5
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "minecraft:generic.attack_damage",
+      "modifier": {
+        "name": "stellariscraft:mountained",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.18
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "epicfight:stun_armor",
+      "modifier": {
+        "name": "stellariscraft:mountained",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.2
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "epicfight:weight",
+      "modifier": {
+        "name": "stellariscraft:mountained",
+        "operation": "ADDITION",
+        "amount": 10
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+
+  ]
+}

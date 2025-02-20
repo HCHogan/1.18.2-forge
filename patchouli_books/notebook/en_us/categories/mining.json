@@ -1,0 +1,6 @@
+{
+    "name": "矿产资源",
+    "description": "矿物是制作的基础材料，终焉的入侵还导致了世界魔力的迸发，吸收了各种不同来源的魔力的珍贵矿物也是由此产生，根据史料推测最早的矿物大约在终焉第一次入侵后产生。",
+    "icon": "isleofberk:belzium_pickaxe",
+   "parent":"patchouli:make"
+}

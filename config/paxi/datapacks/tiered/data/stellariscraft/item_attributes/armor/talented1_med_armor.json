@@ -1,0 +1,28 @@
+{
+  "id": "stellariscraft:talented1_med_armor",
+  "weight": 3,
+  "reforge_experience_cost": 2,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:chestplates"},
+    {"tag": "forge:leggings"}
+  ],
+  "style": {
+    "color": "green"
+  },
+  "attributes": [
+    {
+      "type": "epicfight:stun_armor",
+      "modifier": {
+        "name": "stellariscraft:talented1_med_armor",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.02
+      },
+      "optional_equipment_slots": [
+        "LEGS",
+        "CHEST"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[
+{"item":"minecraft:redstone_block"},
+{"item":"minecraft:iron_ingot"},
+{"item":"minecraft:lapis_block"},
+{"item":"minecraft:iron_ingot"},
+{"item":"minecraft:redstone_block"}],
+"catalyst":{"item":"stellariscraft:exchangestone"},
+"result":{"item":"artifacts:universal_attractor"},
+"enchantments":[]
+}

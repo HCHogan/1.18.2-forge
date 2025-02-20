@@ -1,0 +1,32 @@
+{
+	id: "7906DFBF3B7D1B26"
+	order_index: 10
+	title: "唱片包"
+	icon: "sophisticatedbackpacks:jukebox_upgrade"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:music_disc_13" }
+		{ item: "minecraft:music_disc_cat" }
+		{ item: "minecraft:music_disc_blocks" }
+		{ item: "minecraft:music_disc_chirp" }
+		{ item: "minecraft:music_disc_far" }
+		{ item: "minecraft:music_disc_mall" }
+		{ item: "minecraft:music_disc_mellohi" }
+		{ item: "minecraft:music_disc_stal" }
+		{ item: "minecraft:music_disc_strad" }
+		{ item: "minecraft:music_disc_ward" }
+		{ item: "minecraft:music_disc_wait" }
+		{ item: "minecraft:music_disc_11" }
+		{ item: "minecraft:music_disc_otherside" }
+		{ item: "neapolitan:music_disc_hullabaloo" }
+		{ item: "berry_good:music_disc_fox" }
+		{ item: "minecraft:music_disc_pigstep" }
+		{ item: "biomesoplenty:music_disc_wanderer" }
+		{ item: "ecologics:music_disc_coconut" }
+		{ item: "blue_skies:population" }
+		{ item: "quark:music_disc_endermosh" }
+		{ item: "alexsmobs:music_disc_thime" }
+		{ item: "alexsmobs:music_disc_daze" }
+		{ item: "mowziesmobs:music_disc_petiole" }
+	]
+}

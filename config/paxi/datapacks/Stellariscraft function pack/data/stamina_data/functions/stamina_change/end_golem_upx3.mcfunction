@@ -1,0 +1,1 @@
+execute as @e[type=ba_bt:end_golem,sort=nearest] run data merge entity @s {ForgeData:{stamina:8.1d}}

@@ -1,0 +1,60 @@
+{
+  "id": "stellariscraft:rare_dagger",
+  "weight": 9.4,
+  "reforge_experience_cost": 2,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:dagger"}
+  ],
+  "style": {
+    "color": "blue"
+  },
+  "attributes": [
+    {
+      "type": "toybox:crit_chance",
+      "modifier": {
+        "name": "stellariscraft:rare_dagger",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.3
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "toybox:burden",
+      "modifier": {
+        "name": "stellariscraft:rare_dagger",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.6
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "generic.movement_speed",
+      "modifier": {
+        "name": "stellariscraft:rare_dagger",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.05
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "generic.attack_speed",
+      "modifier": {
+        "name": "stellariscraft:rare_dagger",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.05
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+
+  ]
+}

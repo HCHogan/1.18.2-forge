@@ -1,0 +1,58 @@
+{
+    "name": "炼金师(转换桌)",
+    "icon": "blue_skies:alchemy_table",
+    "category": "patchouli:trade",
+    "sortnum":1,
+    "pages": [
+{"type":"trade1",
+ "head":"村民等级:新手",
+ "item1":"blue_skies:star_flare#8",
+ "item2":"minecraft:air",
+ "item3":"dotcoinmod:iron_coin",
+ "text1":"12次"
+ 
+},
+{"type":"trade2",
+ "head":"村民等级:学徒",
+ "item1":"dotcoinmod:copper_coin#8",
+ "item2":"minecraft:air",
+ "item3":"blue_skies:soul_fragment#8",
+ "text1":"20次",
+ "item4":"blue_skies:dusk_arc",
+ "item5":"dotcoinmod:gold_coin",
+ "item6":"blue_skies:dusk_arc{ArcLevel:2}",
+ "text2":"1次"
+},
+{"type":"trade1",
+ "head":"村民等级:老手",
+ "item1":"blue_skies:poison_arc",
+ "item2":"dotcoinmod:gold_coin",
+ "item3":"blue_skies:poison_arc{ArcLevel:2}",
+ "text1":"1次"
+},
+
+{"type":"trade2",
+ "head":"村民等级:专家",
+ "item1":"blue_skies:ethereal_arc",
+ "item2":"dotcoinmod:gold_coin#3",
+ "item3":"blue_skies:ethereal_arc{ArcLevel:2}",
+ "text1":"1次",
+ "item4":"blue_skies:nature_arc",
+ "item5":"dotcoinmod:gold_coin#3",
+ "item6":"blue_skies:nature_arc{ArcLevel:2}",
+ "text2":"1次"
+},
+{"type":"trade2",
+ "head":"村民等级:大师",
+ "item1":"dotcoinmod:iron_coin#6",
+ "item2":"blue_skies:turquoise_stonebrick#2",
+ "item3":"blue_skies:everbright_portal",
+ "text1":"1次",
+"item4":"dotcoinmod:iron_coin#6",
+ "item5":"blue_skies:lunar_stonebrick#2",
+ "item6":"blue_skies:everdawn_portal",
+ "text2":"1次"
+}
+
+    ]
+}

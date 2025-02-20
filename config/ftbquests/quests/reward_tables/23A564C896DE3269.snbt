@@ -1,0 +1,27 @@
+{
+	id: "23A564C896DE3269"
+	order_index: 11
+	title: "戒指自选"
+	loot_size: 1
+	rewards: [
+		{ item: "ringsofascension:ring_jump_boost" }
+		{ item: "ringsofascension:ring_night_vision" }
+		{ item: "ringsofascension:ring_speed" }
+		{ item: "ringsofascension:ring_water_breathing" }
+		{ item: "ringsofascension:ring_strength" }
+		{ item: "ringsofascension:ring_slow_falling" }
+		{ item: "ringsofascension:ring_dolphin" }
+		{ item: "ringsofascension:ring_fire_resistance" }
+		{ item: "ringsofascension:ring_magnetism" }
+		{ item: "ringsofascension:ring_water_walking" }
+		{ item: "ringsofascension:ring_mining" }
+		{ item: "ringsofascension:ring_experience" }
+		{ item: "ringsofascension:ring_sponge" }
+		{ item: "ringsofascension:ring_hungerless" }
+		{ item: "ringsofascension:ring_slow_resistance" }
+		{ item: "ringsofascension:ring_luck" }
+		{ item: "ringsofascension:ring_knockback_resistance" }
+		{ item: "ringsofascension:ring_poison_resistance" }
+		{ item: "ringsofascension:ring_growth" }
+	]
+}

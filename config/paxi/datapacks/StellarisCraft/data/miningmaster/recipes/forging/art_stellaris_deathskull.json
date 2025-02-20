@@ -1,0 +1,17 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[
+{"item":"stellariscraft:deadingot"},
+{"item":"stellariscraft:deadingot"},
+{"item":"miningmaster:spirit_garnet_block"},
+{"item":"artifacts:fire_gauntlet"},
+{"item":"artifacts:obsidian_skull"},
+{"item":"artifacts:power_glove"},
+{"item":"miningmaster:power_pyrite_block"},
+{"item":"stellariscraft:deadingot"},
+{"item":"stellariscraft:deadingot"}
+],
+"catalyst":{"item":"stellarisdlc:exchangestonecore"},
+"result":{"item":"stellarisdlc:deathskull"},
+"enchantments":[]
+}

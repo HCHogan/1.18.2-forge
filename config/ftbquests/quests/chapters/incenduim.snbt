@@ -1,0 +1,2851 @@
+{
+	id: "622A0432E631C9FA"
+	group: "0F5486DFDF7D448B"
+	order_index: 4
+	filename: "incenduim"
+	title: "炽热光辉"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "incendium:textures/item/infernal_feather.png"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 7.5d
+			y: 2.0d
+			width: 2.3d
+			height: 2.3d
+			rotation: -90.0d
+			image: "incendium:textures/item/voltaic.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "61F6CAF66E5A8350"
+		}
+		{
+			x: -6.5d
+			y: 2.0d
+			width: 2.5d
+			height: 2.5d
+			rotation: 0.0d
+			image: "cataclysm:textures/items/golden_cutlass.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "61F6CAF66E5A8350"
+		}
+		{
+			x: 0.5d
+			y: 8.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "incendium:textures/item/restless.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "58AADD19ABE623E6"
+		}
+		{
+			x: 0.5d
+			y: -7.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "incendium:textures/item/charm.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "61F6CAF66E5A8350"
+		}
+		{
+			x: 0.5d
+			y: 11.0d
+			width: 2.5d
+			height: 2.5d
+			rotation: 0.0d
+			image: "bygonenether:textures/item/warped_ender_pearl.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "58AADD19ABE623E6"
+		}
+	]
+	quests: [
+		{
+			x: 0.5d
+			y: 8.0d
+			subtitle: "&a一个庞大且惊险的冒险结构模组，探索特殊道具并获得奖励！"
+			description: [
+				"官网（生肉）https://stardustlabs.miraheze.org/wiki/Incendium"
+				"&a特殊武器&b&n没有合成配方&r，&a只能用指令调取，&c&nincendium模组上方任务非主线"
+				"&6Darkseeker资源包与incendium材质包会发生&n材质冲突"
+			]
+			hide_dependency_lines: true
+			dependencies: ["39BD604E24BAA419"]
+			id: "58AADD19ABE623E6"
+			tasks: [{
+				id: "398ECCA5E64D32F5"
+				type: "advancement"
+				advancement: "incendium:root"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "24D803E58F85D3A6"
+				type: "item"
+				item: "minecraft:totem_of_undying"
+			}]
+		}
+		{
+			title: "森白塔楼：abandoned tower"
+			x: -5.0d
+			y: 8.0d
+			subtitle: "欣赏风景的瞭望塔"
+			description: ["等模组作者更新吧~"]
+			dependencies: ["58AADD19ABE623E6"]
+			hide: true
+			id: "03EE8CCCCD730A53"
+			tasks: [{
+				id: "557416480F200EB0"
+				type: "structure"
+				title: "森白塔楼"
+				icon: "minecraft:bone_block"
+				structure: "incendium:abandoned_tower"
+			}]
+			rewards: [
+				{
+					id: "0B22C877E0016CF7"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "61C7967F11621879"
+					type: "xp"
+					xp: 180
+				}
+			]
+		}
+		{
+			title: "&6至尊猪灵堡垒：Forbidden Castle"
+			x: 0.5d
+			y: 3.0d
+			subtitle: "&6似乎在特定的房间会有特定的宝物……"
+			description: ["除三叉戟，锻造台上升级均可保留特效"]
+			dependencies: ["58AADD19ABE623E6"]
+			hide: true
+			id: "61F6CAF66E5A8350"
+			tasks: [{
+				id: "30482C9D41CE15EB"
+				type: "structure"
+				title: "至尊猪灵堡垒"
+				icon: "minecraft:gilded_blackstone"
+				structure: "incendium:forbidden_castle"
+			}]
+			rewards: [
+				{
+					id: "20FF9B820643F8F7"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "5759B69E4F9C0CD3"
+					type: "xp"
+					xp: 180
+				}
+			]
+		}
+		{
+			title: "&6烈焰金沙：Inferno Altar"
+			x: 2.5d
+			y: 3.5d
+			subtitle: "&6在此，以下界之星的能量——重生！永恒的&k&nInferno"
+			description: ["（PS：不要用额外伤害武器或弓弩补刀，且中途不要死亡，否则没有二阶段和经验）"]
+			dependencies: ["58AADD19ABE623E6"]
+			hide: true
+			id: "2B4FC854E3161211"
+			tasks: [{
+				id: "1E44E7C1B9121136"
+				type: "structure"
+				title: "烈焰沙金"
+				icon: {
+					id: "minecraft:soul_torch"
+					Count: 1b
+					tag: {
+						CustomModelData: 1450400
+						incendium: {
+							item: "torch_of_lunacy"
+						}
+						display: {
+							Lore: [
+								"{\"italic\":true,\"color\":\"#AAFFCC\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Emits a strange light which\",{\"translate\":\"incendium.item.lunacy_torch.desc1\"}]}"
+								"{\"italic\":true,\"color\":\"#AAFFCC\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"blinds nearby desert blazes\",{\"translate\":\"incendium.item.lunacy_torch.desc2\"}]}"
+								"{\"italic\":true,\"color\":\"#AAFFCC\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"if kept in your inventory\",{\"translate\":\"incendium.item.lunacy_torch.desc3\"}]}"
+								"{\"text\":\"\"}"
+								"{\"italic\":true,\"color\":\"#FF8000\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Incendium\",{\"translate\":\"incendium\"}]}"
+							]
+							Name: "{\"italic\":false,\"color\":\"#AACCFF\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Torch of Lunacy\",{\"translate\":\"incendium.item.lunacy_torch.name\"}]}"
+						}
+						Enchantments: [ ]
+					}
+				}
+				structure: "incendium:infernal_altar"
+			}]
+			rewards: [
+				{
+					id: "2DC627BA9206B1BB"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "6E3F5392604AF9A9"
+					type: "xp"
+					xp: 180
+				}
+			]
+		}
+		{
+			title: "下界熔炉：nether reactor"
+			x: 5.5d
+			y: 6.5d
+			subtitle: "&6矗立于熔岩之海上，耳边传来阵阵下界的回响"
+			dependencies: ["58AADD19ABE623E6"]
+			hide: true
+			id: "5AB8F959AD5B199E"
+			tasks: [{
+				id: "007B5A8AE0F00FAC"
+				type: "structure"
+				title: "下界熔炉"
+				icon: "minecraft:ghast_tear"
+				structure: "incendium:nether_reactor"
+			}]
+			rewards: [
+				{
+					id: "5A42C60F414148F1"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "54828B71CBE205DF"
+					type: "xp"
+					xp: 180
+				}
+			]
+		}
+		{
+			title: "猪灵小镇：piglin village"
+			x: 6.0d
+			y: 8.0d
+			subtitle: "新手村——猪灵站 已到达"
+			dependencies: ["58AADD19ABE623E6"]
+			hide: true
+			id: "40E646F8D27EB6ED"
+			tasks: [{
+				id: "2F89C933CB284AA9"
+				type: "structure"
+				title: "猪灵小镇"
+				icon: "minecraft:crimson_planks"
+				structure: "incendium:piglin_village"
+			}]
+			rewards: [
+				{
+					id: "226FAD8B94545C91"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "3376A0D729DBFC57"
+					type: "xp"
+					xp: 180
+				}
+			]
+		}
+		{
+			title: "阴暗管道：pipeline"
+			x: 4.5d
+			y: 5.0d
+			subtitle: "&6额……自带5个不死图腾的烈焰人?!"
+			dependencies: ["58AADD19ABE623E6"]
+			hide: true
+			id: "7B09A7ADB082A227"
+			tasks: [{
+				id: "21455965C154F818"
+				type: "structure"
+				title: "阴暗管道"
+				icon: "nethersdelight:propelpearl"
+				structure: "incendium:pipeline"
+			}]
+			rewards: [
+				{
+					id: "22B8ED30BC491D63"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "1727AAB2B1982578"
+					type: "xp"
+					xp: 180
+				}
+			]
+		}
+		{
+			title: "石英厨房：quartz kitchen"
+			x: -4.5d
+			y: 6.5d
+			subtitle: "&d来开生日派对吧！（蛋糕砸脸）"
+			dependencies: ["58AADD19ABE623E6"]
+			hide: true
+			id: "3F890F7F914D8151"
+			tasks: [{
+				id: "382F301E580A88AA"
+				type: "structure"
+				title: "石英厨房"
+				icon: "minecraft:cake"
+				structure: "incendium:quartz_kitchen"
+			}]
+			rewards: [
+				{
+					id: "6B9A30C4F6E5576B"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "171B7C2E82223383"
+					type: "xp"
+					xp: 180
+				}
+				{
+					id: "54EAC464F2D98827"
+					type: "item"
+					item: {
+						id: "minecraft:cake"
+						Count: 1b
+						tag: {
+							CustomModelData: 1450402
+							incendium: {
+								item: "cake_batter"
+							}
+							AttributeModifiers: [{
+								Slot: "mainhand"
+								AttributeName: "minecraft:generic.attack_damage"
+								Operation: 0
+								UUID: [I;
+									-1150581890
+									894322009
+									-1848021472
+									-2002465089
+								]
+								Amount: 3.0d
+								Name: "cake_power"
+							}]
+							display: {
+								Lore: [
+									"{\"italic\":true,\"color\":\"#FF69B4\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Torte's infamous deadly cake!\",{\"translate\":\"incendium.item.cake.desc1\"}]}"
+									"{\"text\":\"\"}"
+									"{\"italic\":true,\"color\":\"#FF8000\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Incendium\",{\"translate\":\"incendium\"}]}"
+								]
+								Name: "{\"italic\":false,\"color\":\"#FFDDF4\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Cake Batter\",{\"translate\":\"incendium.item.cake.name\"}]}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "破碎实验室：ruined lab"
+			x: -3.5d
+			y: 5.0d
+			subtitle: "&6残忍表象背后是更残忍的真相……"
+			dependencies: ["58AADD19ABE623E6"]
+			hide: true
+			dependency_requirement: "all_started"
+			id: "7E4A8ACB14CA4D5E"
+			tasks: [{
+				id: "323B130FD4C22B7D"
+				type: "structure"
+				title: "破碎实验室"
+				icon: "minecraft:redstone_torch"
+				structure: "incendium:ruined_lab"
+			}]
+			rewards: [
+				{
+					id: "7A0532BDDF5EAD16"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "17346F01F9F0369A"
+					type: "xp"
+					xp: 180
+				}
+			]
+		}
+		{
+			title: "&6恐怖教堂：Sanctum"
+			x: -1.5d
+			y: 3.5d
+			subtitle: "&6猪灵堡垒脱胎孕育出的教堂，诉说着惨无猪道的实验"
+			description: ["失明与挖掘疲劳，哪两种灾厄村民会使用魔法呢？"]
+			dependencies: ["58AADD19ABE623E6"]
+			hide: true
+			id: "7468AE0C9D8EEC4C"
+			tasks: [{
+				id: "33440368CE012CB5"
+				type: "structure"
+				title: "恐怖教堂"
+				icon: "minecraft:lectern"
+				structure: "incendium:sanctum"
+			}]
+			rewards: [
+				{
+					id: "30BE2B611E8F4B1E"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "54866F4E2099857C"
+					type: "xp"
+					xp: 180
+				}
+			]
+		}
+		{
+			title: "&bChilling Blade"
+			x: -7.5d
+			y: -0.5d
+			shape: "hexagon"
+			subtitle: "&b“这么多的鲜肉，真是上好的冷藏技术”"
+			description: ["或许有一天，群星的定制双剑武器能用下界合金剑升级，像是1.0的腐金剑那样"]
+			hide_dependency_lines: true
+			dependencies: ["61F6CAF66E5A8350"]
+			id: "4F129A58A456C3FC"
+			tasks: [{
+				id: "2F1D63B22BF635B9"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_sword"
+					Count: 1b
+					tag: {
+						CustomModelData: 1450003
+						Damage: 0
+						incendium: {
+							item: "chilling_blade"
+						}
+						display: {
+							Lore: [
+								"{\"italic\":true,\"color\":\"#0055AA\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Freezes souls to the core\",{\"translate\":\"incendium.item.chilling_blade.desc1\"}]}"
+								"{\"text\":\"\"}"
+								"{\"italic\":true,\"color\":\"#FF8000\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Incendium\",{\"translate\":\"incendium\"}]}"
+							]
+							Name: "{\"italic\":false,\"color\":\"#0088FF\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Chilling Blade\",{\"translate\":\"incendium.item.chilling_blade.name\"}]}"
+						}
+					}
+				}
+				match_nbt: true
+				weak_nbt_match: true
+			}]
+			rewards: [
+				{
+					id: "0C9F9F9620AEB270"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "3C71B66D8786F427"
+					type: "item"
+					item: "miningmaster:ice_sapphire"
+				}
+			]
+		}
+		{
+			title: "&2Special Shields"
+			x: 7.5d
+			y: 6.5d
+			shape: "hexagon"
+			subtitle: "&f特殊盾牌格挡无特殊效果（应该是盾牌拓展冲突）"
+			dependencies: ["5AB8F959AD5B199E"]
+			id: "0D99BD5338BE2DE6"
+			tasks: [
+				{
+					id: "18B346BD0671656A"
+					type: "item"
+					item: {
+						id: "minecraft:shield"
+						Count: 1b
+						tag: {
+							CustomModelData: 1450302
+							Damage: 0
+							HideFlags: 32
+							incendium: {
+								item: "radiation_shield"
+							}
+							BlockEntityTag: {
+								Patterns: [
+									{
+										Pattern: "hhb"
+										Color: 15
+									}
+									{
+										Pattern: "bt"
+										Color: 4
+									}
+									{
+										Pattern: "mr"
+										Color: 14
+									}
+									{
+										Pattern: "mc"
+										Color: 15
+									}
+									{
+										Pattern: "flo"
+										Color: 14
+									}
+									{
+										Pattern: "tt"
+										Color: 15
+									}
+								]
+								Base: 4
+							}
+							display: {
+								Lore: [
+									"{\"italic\":false,\"color\":\"#77CC00\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Releases radiation\",{\"translate\":\"incendium.item.radiation_shield.desc1\"}]}"
+									"{\"italic\":false,\"color\":\"#77CC00\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"when blocking an attack\",{\"translate\":\"incendium.item.radiation_shield.desc2\"}]}"
+									"{\"text\":\"\"}"
+									"{\"italic\":true,\"color\":\"#FF8000\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Incendium\",{\"translate\":\"incendium\"}]}"
+								]
+								Name: "{\"italic\":false,\"color\":\"#44FF00\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Radiation Shield\",{\"translate\":\"incendium.item.radiation_shield.name\"}]}"
+							}
+						}
+					}
+					match_nbt: true
+					weak_nbt_match: true
+				}
+				{
+					id: "3A1C58AF59F9F038"
+					type: "item"
+					title: "&3Prismatic Shield"
+					icon: {
+						id: "minecraft:shield"
+						Count: 1b
+						tag: {
+							CustomModelData: 1450301
+							HideFlags: 32
+							incendium: {
+								item: "prismatic_shield"
+							}
+							BlockEntityTag: {
+								Patterns: [
+									{
+										Pattern: "hh"
+										Color: 4
+									}
+									{
+										Pattern: "ts"
+										Color: 1
+									}
+									{
+										Pattern: "bs"
+										Color: 3
+									}
+									{
+										Pattern: "tts"
+										Color: 14
+									}
+									{
+										Pattern: "bts"
+										Color: 10
+									}
+									{
+										Pattern: "cbo"
+										Color: 0
+									}
+								]
+								Base: 5
+							}
+							display: {
+								Lore: [
+									"{\"italic\":false,\"color\":\"#88AAFF\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Reflects attacks with a\",{\"translate\":\"incendium.item.prismatic_shield.desc1\"}]}"
+									"{\"italic\":false,\"color\":\"#88AAFF\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"powerful spark of light\",{\"translate\":\"incendium.item.prismatic_shield.desc2\"}]}"
+									"{\"text\":\"\"}"
+									"{\"italic\":true,\"color\":\"#FF8000\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Incendium\",{\"translate\":\"incendium\"}]}"
+								]
+								Name: "{\"italic\":false,\"color\":\"#BBDDFF\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Prismatic Shield\",{\"translate\":\"incendium.item.prismatic_shield.name\"}]}"
+							}
+							Damage: 0
+							AttributeModifiers: [{
+								Slot: "offhand"
+								AttributeName: "minecraft:generic.armor_toughness"
+								Operation: 1
+								UUID: [I;
+									1077543986
+									1080640321
+									-1471649019
+									-409012215
+								]
+								Amount: -0.03391784802079201d
+								Name: "weaken"
+							}]
+						}
+					}
+					item: {
+						id: "itemfilters:weak_nbt"
+						Count: 1b
+						tag: {
+							value: {
+								incendium: {
+									item: "prismatic_shield"
+								}
+							}
+						}
+					}
+					match_nbt: true
+					weak_nbt_match: true
+				}
+				{
+					id: "0BD205AD5E4850D1"
+					type: "item"
+					title: "&cNecrotic Shield"
+					icon: {
+						id: "minecraft:shield"
+						Count: 1b
+						tag: {
+							CustomModelData: 1450300
+							HideFlags: 32
+							incendium: {
+								item: "necrotic_shield"
+							}
+							BlockEntityTag: {
+								Patterns: [
+									{
+										Pattern: "rud"
+										Color: 14
+									}
+									{
+										Pattern: "ld"
+										Color: 14
+									}
+									{
+										Pattern: "sc"
+										Color: 14
+									}
+									{
+										Pattern: "sku"
+										Color: 15
+									}
+									{
+										Pattern: "cbo"
+										Color: 15
+									}
+									{
+										Pattern: "ts"
+										Color: 15
+									}
+								]
+								Base: 15
+							}
+							display: {
+								Lore: [
+									"{\"italic\":true,\"color\":\"#884444\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Reacts to attacks with\",{\"translate\":\"incendium.item.necrotic_shield.desc1\"}]}"
+									"{\"italic\":true,\"color\":\"#884444\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"an explosion of death\",{\"translate\":\"incendium.item.necrotic_shield.desc2\"}]}"
+									"{\"text\":\"\"}"
+									"{\"italic\":true,\"color\":\"#FF8000\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Incendium\",{\"translate\":\"incendium\"}]}"
+								]
+								Name: "{\"italic\":false,\"color\":\"#993333\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Necrotic Shield\",{\"translate\":\"incendium.item.necrotic_shield.name\"}]}"
+							}
+							Damage: 0
+							AttributeModifiers: [{
+								Slot: "offhand"
+								AttributeName: "minecraft:generic.attack_damage"
+								Operation: 1
+								UUID: [I;
+									298501847
+									2087669497
+									-2120662828
+									825148724
+								]
+								Amount: -0.06001458689570427d
+								Name: "weaken"
+							}]
+						}
+					}
+					item: {
+						id: "itemfilters:weak_nbt"
+						Count: 1b
+						tag: {
+							value: {
+								incendium: {
+									item: "necrotic_shield"
+								}
+							}
+						}
+					}
+					match_nbt: true
+					weak_nbt_match: true
+				}
+				{
+					id: "24D0752F18B06DB0"
+					type: "item"
+					title: "&2Prismatic Shield"
+					icon: {
+						id: "minecraft:shield"
+						Count: 1b
+						tag: {
+							CustomModelData: 1450303
+							HideFlags: 32
+							incendium: {
+								item: "prismatic_shield"
+							}
+							BlockEntityTag: {
+								Patterns: [
+									{
+										Pattern: "flo"
+										Color: 8
+									}
+									{
+										Pattern: "hh"
+										Color: 7
+									}
+									{
+										Pattern: "tt"
+										Color: 4
+									}
+									{
+										Pattern: "ts"
+										Color: 7
+									}
+									{
+										Pattern: "gra"
+										Color: 0
+									}
+									{
+										Pattern: "bo"
+										Color: 7
+									}
+								]
+								Base: 7
+							}
+							display: {
+								Lore: [
+									"{\"italic\":false,\"color\":\"#88AAFF\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Reflects attacks with a\",{\"translate\":\"incendium.item.prismatic_shield.desc1\"}]}"
+									"{\"italic\":false,\"color\":\"#88AAFF\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"powerful spark of light\",{\"translate\":\"incendium.item.prismatic_shield.desc2\"}]}"
+									"{\"text\":\"\"}"
+									"{\"italic\":true,\"color\":\"#FF8000\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Incendium\",{\"translate\":\"incendium\"}]}"
+								]
+								Name: "{\"italic\":false,\"color\":\"#BBDDFF\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Prismatic Shield\",{\"translate\":\"incendium.item.prismatic_shield.name\"}]}"
+							}
+							Damage: 0
+							AttributeModifiers: [{
+								Slot: "offhand"
+								AttributeName: "minecraft:generic.armor_toughness"
+								Operation: 1
+								UUID: [I;
+									4791697
+									-910473994
+									-1482747303
+									-2073339533
+								]
+								Amount: -0.027588391676545143d
+								Name: "weaken"
+							}]
+						}
+					}
+					item: {
+						id: "itemfilters:weak_nbt"
+						Count: 1b
+						tag: {
+							value: {
+								incendium: {
+									item: "prismatic_shield"
+								}
+							}
+						}
+					}
+					match_nbt: true
+					weak_nbt_match: true
+				}
+			]
+			rewards: [{
+				id: "716FD2030A62963F"
+				type: "item"
+				item: "byg:withering_oak_sapling"
+				count: 5
+			}]
+		}
+		{
+			title: "&e管道工的宝藏"
+			x: 6.5d
+			y: 5.0d
+			shape: "square"
+			subtitle: "&6英式谐音，太难翻译"
+			description: ["隐藏的奖品房，也不算太富有"]
+			dependencies: ["7B09A7ADB082A227"]
+			id: "24CFA732AF4179BC"
+			tasks: [{
+				id: "5F6BFFA590093593"
+				type: "advancement"
+				secret: true
+				advancement: "incendium:infernal_dunes/pipeline/pipeline_treasure"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "077BDCDBD59C398C"
+					type: "item"
+					item: "minecraft:totem_of_undying"
+				}
+				{
+					id: "5BBD94FF1CEE0280"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2688748745693820522L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "minecraft:stone_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+					display: {
+						Name: "{\"text\":\"§4§kPIGLIN SLAYER\"}"
+					}
+					Enchantments: [{
+						lvl: 5s
+						id: "minecraft:impaling"
+					}]
+				}
+			}
+			x: -5.5d
+			y: 5.0d
+			shape: "hexagon"
+			subtitle: "需要狠狠地注入附魔之力"
+			dependencies: ["7E4A8ACB14CA4D5E"]
+			id: "3BE60DB8E854CAF4"
+			tasks: [{
+				id: "2414C1F8EFBD5CE5"
+				type: "item"
+				icon: {
+					id: "minecraft:stone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						display: {
+							Name: "{\"text\":\"§4§kPIGLIN SLAYER\"}"
+						}
+						Enchantments: [{
+							lvl: 5s
+							id: "minecraft:impaling"
+						}]
+					}
+				}
+				item: {
+					id: "minecraft:stone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						display: {
+							Name: "{\"text\":\"§4§kPIGLIN SLAYER\"}"
+						}
+					}
+				}
+				match_nbt: true
+				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "4BF1DEAC743F0C3F"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+				count: 3
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.5d
+			shape: "hexagon"
+			subtitle: "&6吸收猪灵的灵魂锻造而成，有着点物成金的功能"
+			description: ["点物成金粒（指正"]
+			dependencies: ["7468AE0C9D8EEC4C"]
+			id: "6906D120FE066312"
+			tasks: [{
+				id: "0C3A4BEE8D2E8B66"
+				type: "item"
+				title: "&6Daybreaker"
+				icon: {
+					id: "minecraft:netherite_sword"
+					Count: 1b
+					tag: {
+						CustomModelData: 1450000
+						Damage: 0
+						incendium: {
+							item: "daybreaker"
+						}
+						AttributeModifiers: [
+							{
+								Slot: "mainhand"
+								AttributeName: "minecraft:generic.attack_speed"
+								Operation: 0
+								UUID: [I;
+									412097057
+									1883652523
+									-1918407031
+									-690663534
+								]
+								Amount: -2.4000000953674316d
+								Name: "base"
+							}
+							{
+								Slot: "mainhand"
+								AttributeName: "minecraft:generic.attack_speed"
+								Operation: 1
+								UUID: [I;
+									-649342495
+									714426196
+									-1803612575
+									-1012829238
+								]
+								Amount: 0.370064377784729d
+								Name: "d"
+							}
+							{
+								Slot: "mainhand"
+								AttributeName: "minecraft:generic.attack_damage"
+								Operation: 0
+								UUID: [I;
+									-1644686468
+									-159955451
+									-1084959103
+									1527569567
+								]
+								Amount: 6.649571895599365d
+								Name: "d"
+							}
+						]
+						display: {
+							Lore: [
+								"{\"italic\":true,\"color\":\"#CC9900\",\"translate\":\"Has a chance to drop gold\"}"
+								"{\"italic\":true,\"color\":\"#CC9900\",\"translate\":\"when killing any mob\"}"
+								"{\"text\":\"\"}"
+								"{\"italic\":true,\"color\":\"#333333\",\"translate\":\"Patron Item\"}"
+								"{\"text\":\"\"}"
+								"{\"italic\":true,\"color\":\"#FF8000\",\"translate\":\"Incendium\"}"
+							]
+							Name: "{\"italic\":false,\"color\":\"#FFCC00\",\"translate\":\"Daybreaker\"}"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:weak_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							incendium: {
+								item: "daybreaker"
+							}
+						}
+					}
+				}
+				match_nbt: true
+				weak_nbt_match: true
+			}]
+			rewards: [
+				{
+					id: "7B0706F3DFBCD982"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "34AC34DBD1449ABD"
+					type: "item"
+					item: "minecraft:gold_block"
+					count: 5
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "incendium:textures/item/ragnarok/pulling_1.png"
+				}
+			}
+			x: -1.5d
+			y: 1.5d
+			shape: "hexagon"
+			subtitle: "&c诸神黄昏，下界黎明"
+			description: ["最帅的特效，超长的蓄力，忽略不计的伤害"]
+			dependencies: ["7468AE0C9D8EEC4C"]
+			id: "2BA1DD16DFC8277C"
+			tasks: [{
+				id: "3C8D4F63FAEC2F65"
+				type: "item"
+				item: {
+					id: "minecraft:bow"
+					Count: 1b
+					tag: {
+						CustomModelData: 1450105
+						Damage: 0
+						incendium: {
+							item: "ragnarok"
+						}
+						display: {
+							Lore: [
+								"{\"italic\":true,\"color\":\"#ABC4B8\",\"translate\":\"The longer you hold back the bow,\"}"
+								"{\"italic\":true,\"color\":\"#ABC4B8\",\"translate\":\"the more powerful the lightning you create\"}"
+								"{\"text\":\"\"}"
+								"{\"italic\":true,\"color\":\"#FF8000\",\"translate\":\"Incendium\"}"
+							]
+							Name: "{\"italic\":false,\"color\":\"#CCEBDB\",\"translate\":\"Ragnarok\"}"
+						}
+					}
+				}
+				match_nbt: true
+				weak_nbt_match: true
+			}]
+			rewards: [
+				{
+					id: "6B3DD9BC145315C8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "54B702958FAC0371"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							CustomPotionEffects: [{
+								"forge:id": "cofh_core:lightning_resistance"
+								CurativeItems: [{
+									id: "minecraft:milk_bucket"
+									Count: 1b
+								}]
+								Ambient: 0b
+								ShowIcon: 1b
+								ShowParticles: 1b
+								Duration: 600
+								Id: 44b
+								Amplifier: 0b
+							}]
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			title: "&6FireStorm"
+			icon: {
+				id: "minecraft:crossbow"
+				Count: 1b
+				tag: {
+					RepairCost: 1000
+					CustomModelData: 1450101
+					Damage: 0
+					incendium: {
+						item: "firestorm"
+					}
+					display: {
+						Lore: [
+							"{\"italic\":true,\"color\":\"#EB783F\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Turns spectral arrows into\",{\"translate\":\"incendium.item.firestorm.desc1\"}]}"
+							"{\"italic\":true,\"color\":\"#EB783F\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"a powerful lightning attack\",{\"translate\":\"incendium.item.firestorm.desc2\"}]}"
+							"{\"text\":\"\"}"
+							"{\"italic\":true,\"color\":\"#FF8000\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Incendium\",{\"translate\":\"incendium\"}]}"
+						]
+						Name: "{\"italic\":false,\"color\":\"#FF4400\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Firestorm\",{\"translate\":\"incendium.item.firestorm.name\"}]}"
+					}
+					Enchantments: [
+						{
+							lvl: 2s
+							id: "minecraft:knockback"
+						}
+						{
+							lvl: 1s
+							id: "majruszsenchantments:fatigue_curse"
+						}
+					]
+				}
+			}
+			x: 4.5d
+			y: 3.5d
+			shape: "hexagon"
+			subtitle: "&6穿透一切"
+			description: ["只能发射光灵箭；蓄力太短会爆炸，另有三把弓弩同理"]
+			dependencies: ["2B4FC854E3161211"]
+			id: "13CF7A04841962BD"
+			tasks: [{
+				id: "0DD8932AFD5948B6"
+				type: "item"
+				icon: {
+					id: "minecraft:crossbow"
+					Count: 1b
+					tag: {
+						RepairCost: 1000
+						CustomModelData: 1450101
+						Damage: 0
+						incendium: {
+							item: "firestorm"
+						}
+						display: {
+							Lore: [
+								"{\"italic\":true,\"color\":\"#EB783F\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Turns spectral arrows into\",{\"translate\":\"incendium.item.firestorm.desc1\"}]}"
+								"{\"italic\":true,\"color\":\"#EB783F\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"a powerful lightning attack\",{\"translate\":\"incendium.item.firestorm.desc2\"}]}"
+								"{\"text\":\"\"}"
+								"{\"italic\":true,\"color\":\"#FF8000\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Incendium\",{\"translate\":\"incendium\"}]}"
+							]
+							Name: "{\"italic\":false,\"color\":\"#FF4400\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Firestorm\",{\"translate\":\"incendium.item.firestorm.name\"}]}"
+						}
+						Enchantments: [
+							{
+								lvl: 2s
+								id: "minecraft:knockback"
+							}
+							{
+								lvl: 1s
+								id: "majruszsenchantments:fatigue_curse"
+							}
+						]
+					}
+				}
+				item: {
+					id: "minecraft:crossbow"
+					Count: 1b
+					tag: {
+						RepairCost: 1000
+						CustomModelData: 1450101
+						Damage: 0
+						incendium: {
+							item: "firestorm"
+						}
+						display: {
+							Lore: [
+								"{\"italic\":true,\"color\":\"#EB783F\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Turns spectral arrows into\",{\"translate\":\"incendium.item.firestorm.desc1\"}]}"
+								"{\"italic\":true,\"color\":\"#EB783F\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"a powerful lightning attack\",{\"translate\":\"incendium.item.firestorm.desc2\"}]}"
+								"{\"text\":\"\"}"
+								"{\"italic\":true,\"color\":\"#FF8000\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Incendium\",{\"translate\":\"incendium\"}]}"
+							]
+							Name: "{\"italic\":false,\"color\":\"#FF4400\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Firestorm\",{\"translate\":\"incendium.item.firestorm.name\"}]}"
+						}
+					}
+				}
+				match_nbt: true
+				weak_nbt_match: true
+			}]
+			rewards: [
+				{
+					id: "75AC4735355DC08B"
+					type: "item"
+					item: "minecraft:spectral_arrow"
+					count: 64
+				}
+				{
+					id: "588392E6E7071A45"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2688748745693820522L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "incendium:textures/item/trailblazer/pulling_1.png"
+				}
+			}
+			x: 2.5d
+			y: 1.5d
+			shape: "hexagon"
+			subtitle: "&6恶灵骑士同款特效"
+			description: ["没准那顶免疫减速的头盔能派上用场？"]
+			dependencies: ["2B4FC854E3161211"]
+			id: "52DF34F1FCB3B3B7"
+			tasks: [{
+				id: "068244CFDD13A130"
+				type: "item"
+				item: {
+					id: "minecraft:bow"
+					Count: 1b
+					tag: {
+						CustomModelData: 1450104
+						Damage: 0
+						incendium: {
+							item: "trailblazer"
+						}
+						display: {
+							Lore: [
+								"{\"italic\":true,\"color\":\"#C46731\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Fires more powerful arrows\",{\"translate\":\"incendium.item.trailblazer.desc1\"}]}"
+								"{\"italic\":true,\"color\":\"#C46731\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"the longer you pull the bow.\",{\"translate\":\"incendium.item.trailblazer.desc2\"}]}"
+								"{\"italic\":true,\"color\":\"#C46731\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Spectral arrows leave\",{\"translate\":\"incendium.item.trailblazer.desc3\"}]}"
+								"{\"italic\":true,\"color\":\"#C46731\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"a trail of blaze.\",{\"translate\":\"incendium.item.trailblazer.desc4\"}]}"
+								"{\"text\":\"\"}"
+								"{\"italic\":true,\"color\":\"#FF8000\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Incendium\",{\"translate\":\"incendium\"}]}"
+							]
+							Name: "{\"italic\":false,\"color\":\"#F7823E\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Trailblazer\",{\"translate\":\"incendium.item.trailblazer.name\"}]}"
+						}
+					}
+				}
+				match_nbt: true
+				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "6D2E533F0487C6A3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2240263939124024074L
+			}]
+		}
+		{
+			title: "&6Holy Wrath"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "incendium:textures/item/patron/holy_wrath/arrow.png"
+				}
+			}
+			x: -3.5d
+			y: 1.5d
+			shape: "hexagon"
+			subtitle: "&6放火烧山，牢底坐穿"
+			description: ["（PS：1.1.6掉率👉0，甚至守卫生成在岩浆柱里面）"]
+			dependencies: ["7468AE0C9D8EEC4C"]
+			id: "17F5AFA692C600B3"
+			tasks: [{
+				id: "065ED1E870AF34B9"
+				type: "advancement"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "incendium:textures/item/patron/holy_wrath/pulling_0.png"
+					}
+				}
+				advancement: "incendium:quartz_flats/sanctum/vault_hunter"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "43A61F95884A5945"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "3356F391045B674E"
+					type: "item"
+					item: {
+						id: "minecraft:crossbow"
+						Count: 1b
+						tag: {
+							CustomModelData: 1450100
+							Damage: 0
+							incendium: {
+								item: "holy_wrath"
+							}
+							display: {
+								Lore: [
+									"{\"italic\":true,\"color\":\"#CCBB88\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Spawn a spiral of fireballs\",{\"translate\":\"incendium.item.holy_wrath.desc1\"}]}"
+									"{\"text\":\"\"}"
+									"{\"italic\":true,\"color\":\"#FF8000\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Incendium\",{\"translate\":\"incendium\"}]}"
+								]
+								Name: "{\"italic\":false,\"color\":\"#FFEE77\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Holy Wrath\",{\"translate\":\"incendium.item.holy_wrath.name\"}]}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			shape: "hexagon"
+			subtitle: "在下界挖掘时破坏周围方块"
+			description: ["“想学吗？我教你啊” 连锁采集说到."]
+			hide_dependency_lines: true
+			dependencies: ["61F6CAF66E5A8350"]
+			id: "3FC9050DD199E2EF"
+			tasks: [{
+				id: "761C31DBB6FA3B9E"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_pickaxe"
+					Count: 1b
+					tag: {
+						CustomModelData: 1450500
+						Damage: 0
+						incendium: {
+							item: "hefty_pickaxe"
+						}
+						Weapon: 3
+						display: {
+							Lore: [
+								"{\"translate\":\"A nether-oriented excavator\",\"color\":\"#880012\",\"italic\":true}"
+								""
+								"{\"translate\":\"Incendium\",\"color\":\"#FF8000\",\"italic\":true}"
+							]
+							Name: "{\"italic\":false,\"color\":\"#990025\",\"text\":\"Hefty Pickaxe\"}"
+						}
+					}
+				}
+				match_nbt: true
+				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "313402F5EAEF66D2"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "veinmining:vein_mining"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -2.5d
+			shape: "hexagon"
+			subtitle: "&6小小的炼丹房里，藏匿着对猪灵的终极杀器"
+			description: ["似乎也能对骷髅、凋零骷髅造成额外伤害"]
+			hide_dependency_lines: true
+			dependencies: ["61F6CAF66E5A8350"]
+			id: "2E4EE018EA2342C4"
+			tasks: [{
+				id: "12BA96190A1F27CB"
+				type: "item"
+				item: {
+					id: "minecraft:golden_sword"
+					Count: 1b
+					tag: {
+						CustomModelData: 1450007
+						Damage: 0
+						incendium: {
+							item: "withersbane"
+						}
+						Enchantments: [
+							{
+								lvl: 8s
+								id: "minecraft:unbreaking"
+							}
+							{
+								lvl: 1s
+								id: "minecraft:mending"
+							}
+						]
+						display: {
+							Lore: [
+								"{\"italic\":true,\"color\":\"#FFDD66\",\"translate\":\"An ancient blade to smite\"}"
+								"{\"italic\":true,\"color\":\"#FFDD66\",\"translate\":\"the impurity from the Nether\"}"
+								"{\"text\":\"\"}"
+								"{\"italic\":true,\"color\":\"#FF8000\",\"translate\":\"Incendium\"}"
+							]
+							Name: "{\"italic\":false,\"color\":\"#FFEE99\",\"translate\":\"Withersbane\"}"
+						}
+					}
+				}
+				match_nbt: true
+				weak_nbt_match: true
+			}]
+			rewards: [
+				{
+					id: "16465A4F22580C94"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 7421896030659922250L
+				}
+				{
+					id: "5DB9798113B2AA42"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "minecraft:smite"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -0.5d
+			shape: "octagon"
+			subtitle: "&6“我要飞得更高~~~”"
+			description: ["暂无特殊效果；兼容连锁，实现木炭自由！"]
+			hide_dependency_lines: true
+			dependencies: ["61F6CAF66E5A8350"]
+			id: "0B2BEECA339B7C7B"
+			tasks: [{
+				id: "1280E24AD3DC6973"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_axe"
+					Count: 1b
+					tag: {
+						CustomModelData: 1450002
+						Damage: 0
+						incendium: {
+							item: "blazing_hatchet"
+						}
+						display: {
+							Lore: [
+								"{\"italic\":true,\"color\":\"#FF8844\",\"translate\":\"Packs a fiery, yet powerful punch\"}"
+								"{\"text\":\"\"}"
+								"{\"italic\":true,\"color\":\"#FF8000\",\"translate\":\"Incendium\"}"
+							]
+							Name: "{\"italic\":false,\"color\":\"#FF6622\",\"translate\":\"Blazing Hatchet\"}"
+						}
+					}
+				}
+				match_nbt: true
+				weak_nbt_match: true
+			}]
+			rewards: [
+				{
+					id: "69116A14F8A011B2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "317FFDB56DF2FB4B"
+					type: "item"
+					item: "miningmaster:fire_ruby"
+				}
+				{
+					id: "5E5B22CBB8ABC602"
+					type: "item"
+					item: "cnb:cindershell_spawn_egg"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -0.5d
+			shape: "hexagon"
+			subtitle: "&6&m战斗剑斧赛高！！"
+			description: ["击杀获得3秒生命回复2"]
+			hide_dependency_lines: true
+			dependencies: ["61F6CAF66E5A8350"]
+			id: "5B02AB617D5D0AA5"
+			tasks: [{
+				id: "0047103F99D5A15E"
+				type: "item"
+				title: "&4Scarlet Dagger"
+				icon: {
+					id: "minecraft:netherite_sword"
+					Count: 1b
+					tag: {
+						CustomModelData: 1450005
+						Damage: 0
+						incendium: {
+							item: "scarlet_dagger"
+						}
+						AttributeModifiers: [
+							{
+								Slot: "mainhand"
+								AttributeName: "minecraft:generic.attack_speed"
+								Operation: 0
+								UUID: [I;
+									953193631
+									745751651
+									-1087589710
+									-1898512770
+								]
+								Amount: -2.4000000953674316d
+								Name: "base"
+							}
+							{
+								Slot: "mainhand"
+								AttributeName: "minecraft:generic.attack_speed"
+								Operation: 1
+								UUID: [I;
+									484855616
+									212681296
+									-1927408663
+									-1625957488
+								]
+								Amount: 0.05000000074505806d
+								Name: "sakuya"
+							}
+							{
+								Slot: "mainhand"
+								AttributeName: "minecraft:generic.attack_damage"
+								Operation: 0
+								UUID: [I;
+									1041412419
+									982008329
+									-1885217040
+									-1737354333
+								]
+								Amount: 7.030996322631836d
+								Name: "remilia_scarlet"
+							}
+						]
+						display: {
+							Lore: [
+								"{\"italic\":true,\"color\":\"#990000\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Drains the life of its slain victims\",{\"translate\":\"incendium.item.scarlet_dagger.desc1\"}]}"
+								"{\"text\":\"\"}"
+								"{\"italic\":true,\"color\":\"#FF8000\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Incendium\",{\"translate\":\"incendium\"}]}"
+							]
+							Name: "{\"italic\":false,\"color\":\"#FF0000\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Scarlet Dagger\",{\"translate\":\"incendium.item.scarlet_dagger.name\"}]}"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:weak_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							incendium: {
+								item: "scarlet_dagger"
+							}
+						}
+					}
+				}
+				match_nbt: true
+				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "647A462535718F2E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -0.5d
+			shape: "hexagon"
+			subtitle: "谁用谁怨种系列"
+			description: ["开玩笑啦，放主手打一下扣3心，放副手没有debuff"]
+			hide_dependency_lines: true
+			dependencies: ["61F6CAF66E5A8350"]
+			id: "4C9BA095AD12A9E6"
+			tasks: [{
+				id: "293620962837FDFE"
+				type: "item"
+				title: "&4Greatsword of Sacrifice"
+				icon: {
+					id: "minecraft:netherite_sword"
+					Count: 1b
+					tag: {
+						CustomModelData: 1450004
+						Damage: 0
+						incendium: {
+							item: "greatsword_of_sacrifice"
+						}
+						AttributeModifiers: [
+							{
+								Slot: "mainhand"
+								AttributeName: "minecraft:generic.attack_speed"
+								Operation: 0
+								UUID: [I;
+									-1838757281
+									-837729962
+									-2053491223
+									-1411576412
+								]
+								Amount: -2.4000000953674316d
+								Name: "base"
+							}
+							{
+								Slot: "mainhand"
+								AttributeName: "minecraft:generic.attack_speed"
+								Operation: 1
+								UUID: [I;
+									2084395200
+									-100512432
+									-1810398775
+									1796618281
+								]
+								Amount: -0.44999998807907104d
+								Name: "d"
+							}
+							{
+								Slot: "mainhand"
+								AttributeName: "minecraft:generic.attack_damage"
+								Operation: 0
+								UUID: [I;
+									1137739590
+									1338393513
+									-1704718618
+									-305985519
+								]
+								Amount: 19.179031372070312d
+								Name: "d"
+							}
+						]
+						display: {
+							Lore: [
+								"{\"italic\":true,\"color\":\"#990000\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Drains the life of its wielder\",{\"translate\":\"incendium.item.greatsword.desc1\"}]}"
+								"{\"italic\":true,\"color\":\"#990000\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"to inflict massive damage\",{\"translate\":\"incendium.item.greatsword.desc2\"}]}"
+								"{\"text\":\"\"}"
+								"{\"italic\":true,\"color\":\"#FF8000\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Incendium\",{\"translate\":\"incendium\"}]}"
+							]
+							Name: "{\"italic\":false,\"color\":\"#FF0000\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Greatsword of Sacrifice\",{\"translate\":\"incendium.item.greatsword.name\"}]}"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:weak_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							incendium: {
+								item: "greatsword_of_sacrifice"
+							}
+						}
+					}
+				}
+				match_nbt: true
+				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "5AA60D23370968BE"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			shape: "hexagon"
+			subtitle: "&5&n泥给路哒哟 !"
+			description: [
+				"&6“藏在皮革套里面的，是我下界合金头盔哒”"
+				"（PS：截止1.1.6掉率👉0）"
+			]
+			hide_dependency_lines: true
+			dependencies: ["61F6CAF66E5A8350"]
+			hide: false
+			size: 1.2d
+			id: "2DA68985D72FDE27"
+			tasks: [{
+				id: "100413C15EF0EBBC"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_helmet"
+					Count: 1b
+					tag: {
+						CustomModelData: 1450200
+						Damage: 0
+						incendium: {
+							item: "scouts_battle_helm"
+						}
+						display: {
+							Lore: [
+								"{\"italic\":true,\"color\":\"#CCBB88\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"You can hide, but you can't\",{\"translate\":\"incendium.item.battle_helm.desc1\"}]}"
+								"{\"italic\":true,\"color\":\"#CCBB88\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"outrun TheDancyScout\",{\"translate\":\"incendium.item.battle_helm.desc2\"}]}"
+								"{\"text\":\"\"}"
+								"{\"italic\":true,\"color\":\"#333333\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Patron Item\",{\"translate\":\"incendium.system.patron_item\"}]}"
+								"{\"text\":\"\"}"
+								"{\"italic\":true,\"color\":\"#FF8000\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Incendium\",{\"translate\":\"incendium\"}]}"
+							]
+							Name: "{\"italic\":false,\"color\":\"#FF9944\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Scout's Battle Helm\",{\"translate\":\"incendium.item.battle_helm.name\"}]}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "68879C1CC38B3350"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 7421896030659922250L
+			}]
+		}
+		{
+			title: "&3&b在诡异森林/倒转森林 击杀：凋灵"
+			x: 0.5d
+			y: 5.5d
+			shape: "hexagon"
+			subtitle: "&n&3注入诡异森林之力锻造的强大凋零之剑"
+			description: ["概率约20%，建议附带抢夺，2秒凋灵10暂不生效"]
+			hide_dependency_lines: true
+			dependencies: ["58AADD19ABE623E6"]
+			hide: false
+			id: "21E22275322401C6"
+			tasks: [{
+				id: "4396B8F744DEF3A4"
+				type: "item"
+				title: "&1Warping Witherblade"
+				icon: {
+					id: "minecraft:netherite_sword"
+					Count: 1b
+					tag: {
+						CustomModelData: 1450001
+						Damage: 0
+						incendium: {
+							item: "warping_witherblade"
+						}
+						AttributeModifiers: [
+							{
+								Slot: "mainhand"
+								AttributeName: "minecraft:generic.movement_speed"
+								Operation: 1
+								UUID: [I;
+									1763889890
+									1212501855
+									-1350092936
+									-82860989
+								]
+								Amount: -0.2057378888130188d
+								Name: "d"
+							}
+							{
+								Slot: "mainhand"
+								AttributeName: "minecraft:generic.attack_speed"
+								Operation: 0
+								UUID: [I;
+									635951
+									-120371962
+									-1909696943
+									-1809611564
+								]
+								Amount: -2.4000000953674316d
+								Name: "d"
+							}
+							{
+								Slot: "mainhand"
+								AttributeName: "minecraft:generic.attack_damage"
+								Operation: 0
+								UUID: [I;
+									1625560471
+									-2002894161
+									-2098052977
+									1586301644
+								]
+								Amount: 13.0d
+								Name: "d"
+							}
+						]
+						display: {
+							Lore: [
+								"{\"italic\":true,\"color\":\"#006666\",\"extra\":[{\"italic\":true,\"color\":\"#006666\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"For in life all things return\",{\"translate\":\"incendium.item.warping_witherblade.desc1\"}]}],\"text\":\"\\\"\"}"
+								"{\"italic\":true,\"color\":\"#006666\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"to death, and in death all things\",{\"translate\":\"incendium.item.warping_witherblade.desc2\"}]}"
+								"{\"italic\":true,\"color\":\"#006666\",\"extra\":[{\"text\":\" \"},{\"italic\":true,\"obfuscated\":true,\"color\":\"#006666\",\"text\":\"CENSOR\"},{\"italic\":true,\"obfuscated\":false,\"color\":\"#006666\",\"text\":\"\\\"\"}],\"translate\":\"%1$s%4733088$s\",\"with\":[\"return to the shadow of\",{\"translate\":\"incendium.item.warping_witherblade.desc3\"}]}"
+								"{\"text\":\"\"}"
+								"{\"italic\":true,\"color\":\"#333333\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Patron Item\",{\"translate\":\"incendium.system.patron_item\"}]}"
+								"{\"text\":\"\"}"
+								"{\"italic\":true,\"color\":\"#FF8000\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Incendium\",{\"translate\":\"incendium\"}]}"
+							]
+							Name: "{\"italic\":false,\"color\":\"#330099\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Warping Witherblade\",{\"translate\":\"incendium.item.warping_witherblade.name\"}]}"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:weak_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							incendium: {
+								item: "warping_witherblade"
+							}
+						}
+					}
+				}
+				match_nbt: true
+				weak_nbt_match: true
+			}]
+			rewards: [
+				{
+					id: "0F3FFA52CEEEC8C0"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+					count: 5
+				}
+				{
+					id: "49D60117D96558C2"
+					type: "item"
+					item: "minecraft:wither_rose"
+					count: 5
+				}
+				{
+					id: "50B98989F78507B4"
+					type: "xp"
+					xp: 555
+				}
+				{
+					id: "24CBDF6A2A637D38"
+					type: "item"
+					item: "ringsofascension:ring_wither"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "incendium:textures/item/sentrys_wrath/arrow.png"
+				}
+			}
+			x: -1.5d
+			y: -0.5d
+			shape: "hexagon"
+			subtitle: "&3球状闪电（bushi）"
+			hide_dependency_lines: true
+			dependencies: ["61F6CAF66E5A8350"]
+			hide: false
+			id: "300B6A135EB29629"
+			tasks: [{
+				id: "7ADD826604BA2A83"
+				type: "item"
+				title: "&bSentry's Wrath"
+				icon: {
+					id: "minecraft:crossbow"
+					Count: 1b
+					tag: {
+						CustomModelData: 1450103
+						Damage: 0
+						incendium: {
+							item: "sentrys_wrath"
+						}
+						Enchantments: [
+							{
+								lvl: 1s
+								id: "minecraft:mending"
+							}
+							{
+								lvl: 6s
+								id: "minecraft:piercing"
+							}
+							{
+								lvl: 1s
+								id: "majruszsenchantments:breaking_curse"
+							}
+						]
+						display: {
+							Lore: [
+								"{\"italic\":true,\"color\":\"#0077BB\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Turns spectral arrows into\",{\"translate\":\"incendium.item.firestorm.desc1\"}]}"
+								"{\"italic\":true,\"color\":\"#0077BB\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"a slow, powerful attack.\",{\"translate\":\"incendium.item.sentrys_wrath.desc2\"}]}"
+								"{\"italic\":true,\"color\":\"#0077BB\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Beware the cooldown.\",{\"translate\":\"incendium.item.sentrys_wrath.desc3\"}]}"
+								"{\"text\":\"\"}"
+								"{\"italic\":true,\"color\":\"#FF8000\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Incendium\",{\"translate\":\"incendium\"}]}"
+							]
+							Name: "{\"italic\":false,\"color\":\"#33CCFF\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Sentry's Wrath\",{\"translate\":\"incendium.item.sentrys_wrath.name\"}]}"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:weak_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							incendium: {
+								item: "sentrys_wrath"
+							}
+						}
+					}
+				}
+				match_nbt: true
+				weak_nbt_match: true
+			}]
+			rewards: [
+				{
+					id: "5E63F1189CADF087"
+					type: "item"
+					item: "minecraft:spectral_arrow"
+					count: 64
+				}
+				{
+					id: "73D7C34B39E43A7B"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 2240263939124024074L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			shape: "hexagon"
+			subtitle: "&5不死之圣水"
+			hide_dependency_lines: true
+			dependencies: ["61F6CAF66E5A8350"]
+			size: 1.2d
+			id: "4556F4AC2DC253B0"
+			tasks: [{
+				id: "4B60C4DC1536A6D8"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						CustomPotionEffects: [
+							{
+								Amplifier: 3b
+								Duration: 900
+								Id: 10
+							}
+							{
+								Amplifier: 1b
+								Duration: 1800
+								Id: 11
+							}
+							{
+								Amplifier: 3b
+								Duration: 2400
+								Id: 22
+							}
+						]
+						CustomPotionColor: 14679821
+						display: {
+							Name: "{\"italic\":false,\"color\":\"#FFCC00\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Elixir of Undying\",{\"translate\":\"incendium.item.undying_elixer.name\"}]}"
+						}
+					}
+				}
+				match_nbt: true
+				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "602AC22CD32FC3C4"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2240263939124024074L
+			}]
+		}
+		{
+			title: "复合弩"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "incendium:textures/item/multiplex/arrow.png"
+				}
+			}
+			x: 0.5d
+			y: -3.5d
+			shape: "hexagon"
+			subtitle: "&6&n美式居合，小子！"
+			description: [
+				"搭配快速装填，记得练好压枪技术"
+				"&c&n（PS：不要射恒晓的炼金师！崩档警告！）"
+			]
+			dependencies: ["61F6CAF66E5A8350"]
+			size: 1.3d
+			id: "2EBB729A5D9636F3"
+			tasks: [{
+				id: "54EDD73632011D2E"
+				type: "item"
+				item: {
+					id: "minecraft:crossbow"
+					Count: 1b
+					tag: {
+						CustomModelData: 1450102
+						Damage: 0
+						incendium: {
+							item: "multiplex_crossbow"
+						}
+						display: {
+							Lore: [
+								"{\"italic\":true,\"color\":\"#DDCC55\",\"translate\":\"Shoots a blast of fiery\"}"
+								"{\"italic\":true,\"color\":\"#DDCC55\",\"translate\":\"arrows at a short-range\"}"
+								"{\"text\":\"\"}"
+								"{\"italic\":true,\"color\":\"#FF8000\",\"translate\":\"Incendium\"}"
+							]
+							Name: "{\"italic\":false,\"color\":\"#CCBB44\",\"translate\":\"Multiplex Crossbow\"}"
+						}
+					}
+				}
+				match_nbt: true
+				weak_nbt_match: true
+			}]
+			rewards: [
+				{
+					id: "1F391AE72FABB2A0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 7421896030659922250L
+				}
+				{
+					id: "501EBB05374BA28B"
+					type: "item"
+					item: {
+						id: "minecraft:tipped_arrow"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_harming"
+						}
+					}
+					count: 16
+				}
+				{
+					id: "2EC658CBB835B30B"
+					type: "item"
+					item: {
+						id: "minecraft:tipped_arrow"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+					count: 16
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 2.5d
+			shape: "hexagon"
+			subtitle: "&m感觉，感觉不如焰魔鞘翅无限耐久"
+			dependencies: ["2B4FC854E3161211"]
+			id: "26CF564050D9A78F"
+			tasks: [{
+				id: "52B8237D57720811"
+				type: "item"
+				item: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						CustomModelData: 1450201
+						Damage: 0
+						incendium: {
+							item: "infernal_wings"
+						}
+						AttributeModifiers: [
+							{
+								Slot: "chest"
+								AttributeName: "minecraft:generic.armor"
+								Operation: 0
+								UUID: [I;
+									2041368144
+									644498049
+									-1480283634
+									802519997
+								]
+								Amount: 6.0d
+								Name: "armor"
+							}
+							{
+								Slot: "chest"
+								AttributeName: "minecraft:generic.armor_toughness"
+								Operation: 0
+								UUID: [I;
+									1033460620
+									-401258375
+									-1928460389
+									1012846818
+								]
+								Amount: 1.0d
+								Name: "armor_toughness"
+							}
+							{
+								Slot: "chest"
+								AttributeName: "minecraft:generic.movement_speed"
+								Operation: 1
+								UUID: [I;
+									-1416054618
+									-1676195096
+									-1216696721
+									2061565789
+								]
+								Amount: -0.05000000074505806d
+								Name: "speed"
+							}
+						]
+						Enchantments: [{ }]
+						display: {
+							Lore: [
+								"{\"italic\":true,\"color\":\"#FF1234\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"A pair of armored wings\",{\"translate\":\"incendium.item.infernal_wings.desc1\"}]}"
+								"{\"italic\":true,\"color\":\"#FF1234\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"forged from the scraps\",{\"translate\":\"incendium.item.infernal_wings.desc2\"}]}"
+								"{\"italic\":true,\"color\":\"#FF1234\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"of the Hovering Inferno's shields\",{\"translate\":\"incendium.item.infernal_wings.desc3\"}]}"
+								"{\"text\":\"\"}"
+								"{\"italic\":true,\"color\":\"#FF8000\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Incendium\",{\"translate\":\"incendium\"}]}"
+							]
+							Name: "{\"italic\":false,\"color\":\"#FF3333\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Infernal Wings\",{\"translate\":\"incendium.item.infernal_wings.name\"}]}"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7350C50089DFA66D"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 2688748745693820522L
+				}
+				{
+					id: "61ED487C440AB708"
+					type: "item"
+					item: {
+						id: "minecraft:firework_rocket"
+						Count: 1b
+						tag: {
+							Fireworks: {
+								Flight: 2
+								Explosions: [{
+									Type: 3
+									Colors: [I;4312372]
+								}]
+							}
+						}
+					}
+					count: 64
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -2.5d
+			shape: "hexagon"
+			subtitle: "&n&9以雷霆，击“退”黑暗！"
+			description: ["雷雨天和下界的毒料堆群系将为它充能...引雷？会超载的啦!"]
+			hide_dependency_lines: true
+			dependencies: ["61F6CAF66E5A8350"]
+			id: "2801DD09E53D2497"
+			tasks: [{
+				id: "7656A1EEE41ED638"
+				type: "item"
+				item: {
+					id: "minecraft:trident"
+					Count: 1b
+					tag: {
+						CustomModelData: 1450006
+						Damage: 0
+						incendium: {
+							item: "voltaic_trident"
+						}
+						Weapon: 10
+						Enchantments: [{
+							lvl: 1
+							id: "loyalty"
+						}]
+						display: {
+							Lore: [
+								"{\"italic\":true,\"color\":\"#4400AA\",\"text\":\"Feel its electrical power\"}"
+								""
+								"{\"translate\":\"Incendium\",\"color\":\"#FF8000\",\"italic\":true}"
+							]
+							Name: "{\"italic\":false,\"color\":\"#8844FF\",\"text\":\"Voltaic Trident\"}"
+						}
+					}
+				}
+				match_nbt: true
+				weak_nbt_match: true
+			}]
+			rewards: [
+				{
+					id: "43DB3EA557CCB8F2"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [
+								{
+									lvl: 5s
+									id: "minecraft:loyalty"
+								}
+								{
+									lvl: 1s
+									id: "minecraft:channeling"
+								}
+							]
+							RepairCost: 1
+						}
+					}
+				}
+				{
+					id: "5A2401211A6AAEE2"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							CustomPotionEffects: [{
+								"forge:id": "cofh_core:lightning_resistance"
+								CurativeItems: [{
+									id: "minecraft:milk_bucket"
+									Count: 1b
+								}]
+								Ambient: 0b
+								ShowIcon: 1b
+								ShowParticles: 1b
+								Duration: 600
+								Id: 44b
+								Amplifier: 0b
+							}]
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -2.5d
+			shape: "hexagon"
+			subtitle: "&5矿工之急迫"
+			hide_dependency_lines: true
+			dependencies: ["61F6CAF66E5A8350"]
+			size: 1.2d
+			id: "309E269F54BD0228"
+			tasks: [{
+				id: "0E3EB02F157A0E51"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						CustomPotionEffects: [{
+							Amplifier: 1b
+							Duration: 18000
+							Id: 3
+						}]
+						CustomPotionColor: 16735265
+						display: {
+							Name: "{\"italic\":false,\"color\":\"#FF4E21\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Miner's Ale\",{\"translate\":\"incendium.item.miners_ale.name\"}]}"
+						}
+					}
+				}
+				match_nbt: true
+				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "77E9DF469870A4B5"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2240263939124024074L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.5d
+			shape: "hexagon"
+			subtitle: "&6“按q键释放闪光弹”"
+			description: ["记得一个一个扔"]
+			hide_dependency_lines: false
+			dependencies: ["61F6CAF66E5A8350"]
+			size: 1.5d
+			id: "0198FFF9070E334B"
+			tasks: [{
+				id: "6A8A7FDF40A11213"
+				type: "item"
+				item: {
+					id: "minecraft:glowstone_dust"
+					Count: 1b
+					tag: {
+						CustomModelData: 1450401
+						incendium: {
+							item: "unstable_powder"
+						}
+						display: {
+							Lore: [
+								"{\"italic\":true,\"color\":\"#666633\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Emits a brilliant light when dropped\",{\"translate\":\"incendium.item.unstable_powder.desc1\"}]}"
+								"{\"text\":\"\"}"
+								"{\"italic\":true,\"color\":\"#FF8000\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Incendium\",{\"translate\":\"incendium\"}]}"
+							]
+							Name: "{\"italic\":false,\"color\":\"#FFEEBB\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Unstable Powder\",{\"translate\":\"incendium.item.unstable_powder.name\"}]}"
+						}
+						Enchantments: [{ }]
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "6B5D8BFBC1EADFC1"
+				type: "item"
+				item: {
+					id: "minecraft:glowstone_dust"
+					Count: 1b
+					tag: {
+						CustomModelData: 1450401
+						incendium: {
+							item: "unstable_powder"
+						}
+						display: {
+							Lore: [
+								"{\"italic\":true,\"color\":\"#666633\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Emits a brilliant light when dropped\",{\"translate\":\"incendium.item.unstable_powder.desc1\"}]}"
+								"{\"text\":\"\"}"
+								"{\"italic\":true,\"color\":\"#FF8000\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Incendium\",{\"translate\":\"incendium\"}]}"
+							]
+							Name: "{\"italic\":false,\"color\":\"#FFEEBB\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Unstable Powder\",{\"translate\":\"incendium.item.unstable_powder.name\"}]}"
+						}
+						Enchantments: [{ }]
+					}
+				}
+				count: 32
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			shape: "square"
+			subtitle: "&6电脑里有一款25年前的经典弹幕躲避游戏"
+			description: ["&cBGM：Border of Life🌸"]
+			dependencies: ["2B4FC854E3161211"]
+			id: "303050AE92B08B24"
+			tasks: [{
+				id: "7D215D329B6E4749"
+				type: "advancement"
+				advancement: "incendium:infernal_dunes/inferno/lunatic_mode"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "4D7772CEFB32639B"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 2240263939124024074L
+				}
+				{
+					id: "5CE92DCDF7A69683"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							CustomPotionEffects: [{
+								"forge:id": "cofh_core:clarity"
+								CurativeItems: [{
+									id: "minecraft:milk_bucket"
+									Count: 1b
+								}]
+								Ambient: 0b
+								ShowIcon: 1b
+								ShowParticles: 1b
+								Duration: 600
+								Id: 47b
+								Amplifier: 0b
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -5.0d
+			shape: "square"
+			subtitle: "&c枪在手,跟我走,撒光猪灵抢碉楼！"
+			hide_dependency_lines: true
+			dependencies: ["61F6CAF66E5A8350"]
+			id: "3A04468F79DF65B3"
+			tasks: [{
+				id: "08EE6750CBD80B13"
+				type: "advancement"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "cnb:textures/items/cinder_sword_4.png"
+					}
+				}
+				advancement: "incendium:ash_barrens/conquer_castle"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "690585C2CA2AF05B"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 7421896030659922250L
+				}
+				{
+					id: "2A6068F98D2188D2"
+					type: "item"
+					item: "minecraft:porkchop"
+					count: 64
+				}
+				{
+					id: "3813539901842DFD"
+					type: "item"
+					item: "nethersdelight:hoglin_hide"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -5.0d
+			shape: "square"
+			subtitle: "&6热门景点 Plus"
+			description: ["回城卷轴仅在下界使用，在手上只能一张一张放"]
+			hide_dependency_lines: true
+			dependencies: ["58AADD19ABE623E6"]
+			hide: true
+			id: "58A4A228E27CD72F"
+			tasks: [{
+				id: "49BDB458AF757EE7"
+				type: "advancement"
+				icon: {
+					id: "minecraft:netherite_boots"
+					Count: 1b
+					tag: {
+						RepairCost: 1
+						"quark:RuneAttached": 1b
+						Damage: 0
+						Enchantments: [{
+							lvl: 3s
+							id: "minecraft:unbreaking"
+						}]
+						"quark:RuneColor": {
+							id: "quark:orange_rune"
+							Count: 1b
+						}
+					}
+				}
+				advancement: "incendium:misc/soul_searcher"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "79EB36F730927A7F"
+					type: "item"
+					item: "stellariscraft:adventurespar"
+					count: 6
+				}
+				{
+					id: "70EE0AE3B1D08BE9"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					id: "0F407480AD0C0D81"
+					type: "item"
+					item: {
+						id: "minecraft:map"
+						Count: 1b
+						tag: {
+							CustomModelData: 1450403
+							incendium: {
+								item: "scroll_of_returning"
+							}
+							AttributeModifiers: [{
+								Slot: "mainhand"
+								AttributeName: "minecraft:horse.jump_strength"
+								Operation: 0
+								UUID: [I;
+									1492476620
+									1881295869
+									-1827636357
+									-2014359670
+								]
+								Amount: 0.0d
+								Name: ""
+							}]
+							display: {
+								Lore: [
+									"{\"italic\":true,\"color\":\"#D393F5\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"A long forgotten technique\",{\"translate\":\"incendium.item.returning_scroll.desc1\"}]}"
+									"{\"italic\":true,\"color\":\"#D393F5\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"to transport back to the\",{\"translate\":\"incendium.item.returning_scroll.desc2\"}]}"
+									"{\"italic\":true,\"color\":\"#D393F5\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"overworld, where it all began...\",{\"translate\":\"incendium.item.returning_scroll.desc3\"}]}"
+									"{\"text\":\"\"}"
+									"{\"italic\":true,\"color\":\"#333333\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Patron Item\",{\"translate\":\"incendium.system.patron_item\"}]}"
+									"{\"text\":\"\"}"
+									"{\"italic\":true,\"color\":\"#FF8000\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Incendium\",{\"translate\":\"incendium\"}]}"
+								]
+								Name: "{\"italic\":false,\"color\":\"#7F32A9\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Scroll of Returning\",{\"translate\":\"incendium.item.returning_scroll.name\"}]}"
+							}
+						}
+					}
+					count: 6
+				}
+			]
+		}
+		{
+			title: "&4王之宝库"
+			icon: {
+				id: "minecraft:map"
+				Count: 1b
+				tag: {
+					CustomModelData: 1450403
+					incendium: {
+						item: "scroll_of_returning"
+					}
+					AttributeModifiers: [{
+						Slot: "mainhand"
+						AttributeName: "minecraft:horse.jump_strength"
+						Operation: 0
+						UUID: [I;
+							1492476620
+							1881295869
+							-1827636357
+							-2014359670
+						]
+						Amount: 0.0d
+						Name: ""
+					}]
+					display: {
+						Lore: [
+							"{\"italic\":true,\"color\":\"#D393F5\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"A long forgotten technique\",{\"translate\":\"incendium.item.returning_scroll.desc1\"}]}"
+							"{\"italic\":true,\"color\":\"#D393F5\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"to transport back to the\",{\"translate\":\"incendium.item.returning_scroll.desc2\"}]}"
+							"{\"italic\":true,\"color\":\"#D393F5\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"overworld, where it all began...\",{\"translate\":\"incendium.item.returning_scroll.desc3\"}]}"
+							"{\"text\":\"\"}"
+							"{\"italic\":true,\"color\":\"#333333\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Patron Item\",{\"translate\":\"incendium.system.patron_item\"}]}"
+							"{\"text\":\"\"}"
+							"{\"italic\":true,\"color\":\"#FF8000\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Incendium\",{\"translate\":\"incendium\"}]}"
+						]
+						Name: "{\"italic\":false,\"color\":\"#7F32A9\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Scroll of Returning\",{\"translate\":\"incendium.item.returning_scroll.name\"}]}"
+					}
+				}
+			}
+			x: 0.5d
+			y: -7.0d
+			shape: "hexagon"
+			subtitle: "&c实用也好收藏也罢，感谢模组作者为我们带来的惊喜"
+			dependencies: [
+				"3A04468F79DF65B3"
+				"58A4A228E27CD72F"
+				"17F5AFA692C600B3"
+				"303050AE92B08B24"
+				"21E22275322401C6"
+			]
+			hide: true
+			size: 1.5d
+			id: "6BB79D1B9953AABF"
+			tasks: [{
+				id: "0AD211A6A38B73B8"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "4A9B09466A34E66E"
+					type: "item"
+					item: "ringsofascension:ring_luck"
+				}
+				{
+					id: "775E18A8F4D3F7CF"
+					type: "item"
+					item: {
+						id: "minecraft:map"
+						Count: 1b
+						tag: {
+							CustomModelData: 1450403
+							incendium: {
+								item: "scroll_of_returning"
+							}
+							AttributeModifiers: [{
+								Slot: "mainhand"
+								AttributeName: "minecraft:horse.jump_strength"
+								Operation: 0
+								UUID: [I;
+									1492476620
+									1881295869
+									-1827636357
+									-2014359670
+								]
+								Amount: 0.0d
+								Name: ""
+							}]
+							display: {
+								Lore: [
+									"{\"italic\":true,\"color\":\"#D393F5\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"A long forgotten technique\",{\"translate\":\"incendium.item.returning_scroll.desc1\"}]}"
+									"{\"italic\":true,\"color\":\"#D393F5\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"to transport back to the\",{\"translate\":\"incendium.item.returning_scroll.desc2\"}]}"
+									"{\"italic\":true,\"color\":\"#D393F5\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"overworld, where it all began...\",{\"translate\":\"incendium.item.returning_scroll.desc3\"}]}"
+									"{\"text\":\"\"}"
+									"{\"italic\":true,\"color\":\"#333333\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Patron Item\",{\"translate\":\"incendium.system.patron_item\"}]}"
+									"{\"text\":\"\"}"
+									"{\"italic\":true,\"color\":\"#FF8000\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Incendium\",{\"translate\":\"incendium\"}]}"
+								]
+								Name: "{\"italic\":false,\"color\":\"#7F32A9\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Scroll of Returning\",{\"translate\":\"incendium.item.returning_scroll.name\"}]}"
+							}
+						}
+					}
+					count: 16
+				}
+				{
+					id: "31BD758D1A4D0905"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 7421896030659922250L
+				}
+				{
+					id: "5E0148C1175AC1D2"
+					type: "item"
+					item: {
+						id: "minecraft:crying_obsidian"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: ["[{\"text\":\"失\",\"color\":\"red\"},{\"text\":\"传\",\"color\":\"gold\"},{\"text\":\"已\",\"color\":\"green\"},{\"text\":\"久\",\"color\":\"aqua\"},{\"text\":\"的\",\"color\":\"yellow\"},{\"text\":\"王\",\"color\":\"blue\"},{\"text\":\"之\",\"color\":\"light_purple\"},{\"text\":\"宝\",\"color\":\"white\"},{\"text\":\"库\",\"color\":\"gray\"}]"]
+								Name: "[{\"text\":\"In\",\"color\":\"red\",\"italic\":true,\"bold\":true},{\"text\":\"cen\",\"color\":\"gold\"},{\"text\":\"di\",\"color\":\"green\"},{\"text\":\"um\",\"color\":\"aqua\"},{\"text\":\"—\",\"color\":\"yellow\"},{\"text\":\"冒\",\"color\":\"blue\"},{\"text\":\"险\",\"color\":\"light_purple\"},{\"text\":\"之\",\"color\":\"white\"},{\"text\":\"证\",\"color\":\"gray\"}]"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&4Mission Impossible"
+			x: -2.5d
+			y: 2.5d
+			shape: "hexagon"
+			subtitle: "&n&42300座灾厄教堂酿造出的最凶狠的恶意"
+			description: ["（PS：整活专用任务，找到了记得分享）"]
+			dependencies: ["7468AE0C9D8EEC4C"]
+			hide: true
+			invisible: true
+			id: "10D1212BD7CE5994"
+			tasks: [{
+				id: "758C1A513B7A8DA2"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Purity: -1
+						CustomPotionColor: 1517120
+						CustomPotionEffects: [
+							{
+								Amplifier: 1
+								Id: 7
+							}
+							{
+								Amplifier: 28
+								Id: 7
+							}
+							{
+								Amplifier: 1
+								Duration: 2147483647
+								Id: 33
+							}
+							{
+								Amplifier: 1
+								Duration: 2147483647
+								Id: 14
+							}
+							{
+								Amplifier: 9
+								Duration: 2147483647
+								Id: 2
+							}
+							{
+								Amplifier: 9
+								Duration: 2147483647
+								Id: 4
+							}
+							{
+								Duration: 2147483647
+								Id: 9
+							}
+							{
+								Duration: 2147483647
+								Id: 15
+							}
+							{
+								Amplifier: 19
+								Duration: 2147483647
+								Id: 17
+							}
+							{
+								Amplifier: 9
+								Duration: 2147483647
+								Id: 18
+							}
+							{
+								Amplifier: 2
+								Duration: 2147483647
+								Id: 19
+							}
+							{
+								Amplifier: 4
+								Duration: 2147483647
+								Id: 20
+							}
+							{
+								Duration: 2147483647
+								Id: 24
+							}
+							{
+								Amplifier: 49
+								Duration: 2147483647
+								Id: 25
+							}
+							{
+								Amplifier: 99
+								Duration: 2147483647
+								Id: 27
+							}
+							{
+								Amplifier: 5
+								Duration: 1200
+								Id: 31
+							}
+						]
+						HideFlags: 32
+						Potion: "minecraft:water"
+						display: {
+							Lore: [
+								"[{\"text\":\"\",\"italic\":false}]"
+								"[{\"text\":\"Make your choice, adventurous stranger\",\"italic\":false,\"color\":\"red\"}]"
+								"[{\"text\":\"Drink the brew, and bide the danger,\",\"italic\":false,\"color\":\"red\"}]"
+								"[{\"text\":\"Or wonder till it drives you mad;\",\"italic\":false,\"color\":\"red\"}]"
+								"[{\"text\":\"What would have happened if you had?\",\"italic\":false,\"color\":\"red\"}]"
+							]
+							Name: "[{\"text\":\"Death Potion\",\"italic\":false,\"color\":\"dark_red\"}]"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "72D52A5D082ABF58"
+				type: "item"
+				item: {
+					id: "minecraft:sculk_sensor"
+					Count: 1b
+					tag: {
+						display: {
+							Lore: ["[{\"text\":\"超\",\"color\":\"red\"},{\"text\":\"越\",\"color\":\"gold\"},{\"text\":\"版\",\"color\":\"green\"},{\"text\":\"本\",\"color\":\"aqua\"},{\"text\":\"的\",\"color\":\"yellow\"},{\"text\":\"信\",\"color\":\"light_purple\"},{\"text\":\"息\",\"color\":\"white\"},{\"text\":\"传\",\"color\":\"dark_blue\"},{\"text\":\"递\",\"color\":\"gray\"}]"]
+							Name: "[{\"text\":\"真\",\"color\":\"red\",\"italic\":true,\"bold\":true},{\"text\":\"·\",\"color\":\"gold\"},{\"text\":\"彩\",\"color\":\"green\"},{\"text\":\"蛋 \",\"color\":\"aqua\"},{\"text\":\"幽\",\"color\":\"yellow\"},{\"text\":\"匿\",\"color\":\"light_purple\"},{\"text\":\"传\",\"color\":\"white\"},{\"text\":\"感\",\"color\":\"dark_blue\"},{\"text\":\"器\",\"color\":\"gray\"}]"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 11.0d
+			subtitle: "一个轻量下界遗迹模组，有着各种原版怪物变体"
+			hide_dependency_lines: true
+			dependencies: ["39BD604E24BAA419"]
+			id: "04657773B3FEADB2"
+			tasks: [{
+				id: "5C58592E2B3F4852"
+				type: "advancement"
+				advancement: "bygonenether:root"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3B1C3BB9B1AC33D4"
+				type: "item"
+				item: "minecraft:totem_of_undying"
+			}]
+		}
+		{
+			title: "凋零墓穴：catacomb"
+			x: 0.5d
+			y: 14.5d
+			subtitle: "&3吾主昔在，吾主今在，吾主亦将永在"
+			description: ["在探险指南针里，注意和铁魔法模组的catacombs区分"]
+			dependencies: ["58AADD19ABE623E6"]
+			hide: true
+			id: "0C079170661D72E9"
+			tasks: [{
+				id: "577857DEA77355C2"
+				type: "structure"
+				title: "凋零坟墓"
+				icon: {
+					id: "bygonenether:withered_debris"
+					Count: 1b
+					tag: {
+						RepairCost: 1
+						Enchantments: [{
+							lvl: 3s
+							id: "minecraft:unbreaking"
+						}]
+					}
+				}
+				structure: "bygonenether:catacomb"
+			}]
+			rewards: [
+				{
+					id: "29BAEE84AECE37AF"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "10133BA4C07AD19D"
+					type: "xp"
+					xp: 180
+				}
+			]
+		}
+		{
+			title: "猪灵庄园：Piglin Manor"
+			x: -4.0d
+			y: 11.0d
+			subtitle: "中型猪灵群落"
+			dependencies: ["04657773B3FEADB2"]
+			hide: true
+			id: "78E85162CDB404A4"
+			tasks: [{
+				id: "1C9A87DE83ACAFC8"
+				type: "structure"
+				title: "猪灵庄园"
+				icon: "nethersdelight:hoglin_mount"
+				structure: "bygonenether:piglin_manor"
+			}]
+			rewards: [
+				{
+					id: "085F53726CA96C80"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "4395AD519AE80185"
+					type: "xp"
+					xp: 180
+				}
+			]
+		}
+		{
+			title: "扭曲堡垒：Citadel"
+			x: 5.0d
+			y: 11.0d
+			subtitle: "扭曲珍珠刷怪塔（"
+			dependencies: ["04657773B3FEADB2"]
+			hide: true
+			id: "24B21C95FABAFB1D"
+			tasks: [{
+				id: "3788C325675E9A30"
+				type: "structure"
+				title: "猪灵庄园"
+				icon: "byg:warped_coral"
+				structure: "bygonenether:citadel"
+			}]
+			rewards: [
+				{
+					id: "25F7C18CA9A69B5F"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "582347E1351AF8EC"
+					type: "xp"
+					xp: 180
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

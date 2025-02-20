@@ -1,0 +1,59 @@
+{
+  "id": "stellariscraft:legendary_longsword",
+  "weight": 1.6,
+  "reforge_experience_cost": 4,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:longsword"}
+  ],
+  "style": {
+    "color": "gold"
+  },
+  "attributes": [
+    {
+      "type": "generic.attack_damage",
+      "modifier": {
+        "name": "stellariscraft:legendary_longsword",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.14
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "toybox:block_rate",
+      "modifier": {
+        "name": "stellariscraft:legendary_longsword",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 1.2
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "generic.attack_speed",
+      "modifier": {
+        "name": "stellariscraft:legendary_longsword",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.08
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "generic.movement_speed",
+      "modifier": {
+        "name": "stellariscraft:legendary_longsword",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.06
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

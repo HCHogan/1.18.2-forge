@@ -1,0 +1,20 @@
+{
+    "type":"miningmaster:forging_recipe",
+    "gems":[
+        {"item":"quark:gunpowder_sack"},
+        {"item":"supplementaries:flint_block"},
+        {"item":"miningmaster:divine_beryl_block"},
+        {"item":"miningmaster:unbreaking_iolite_block"},
+        {"item":"minecraft:creeper_head"},
+        {"item":"miningmaster:kinetic_opal_block"},
+        {"item":"miningmaster:haste_peridot_block"},
+        {"item":"supplementaries:flint_block"},
+        {"item":"quark:gunpowder_sack"}
+],
+    "catalyst":{"item":"shieldexex:netherite_shield"},
+    "result":{"item":"shieldexp:griefer_shield"},
+    "enchantments":[
+        {"enchantment":"minecraft:unbreaking","lvl":10},
+        {"enchantment":"minecraft:mending","lvl":1}
+    ]
+}

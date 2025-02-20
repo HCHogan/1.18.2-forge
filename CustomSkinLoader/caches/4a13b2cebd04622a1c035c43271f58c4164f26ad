@@ -1,0 +1,8 @@
+{
+  "id" : "a104ebf390ff43b0839feec1eea74991",
+  "name" : "Oldsmar",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY3Nzg0NDkxODQ0OCwKICAicHJvZmlsZUlkIiA6ICJhMTA0ZWJmMzkwZmY0M2IwODM5ZmVlYzFlZWE3NDk5MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJPbGRzbWFyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY0NzY1NGVjMDQ0YjJjYjBhYzVjMjBlMTJlMmRkODI4YjJkMzdlMzJlOWUyN2ZkNWVlYjI5ZjNmYjRiNTE1ZmMiCiAgICB9CiAgfQp9"
+  } ]
+}

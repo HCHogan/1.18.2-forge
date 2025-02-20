@@ -1,0 +1,23 @@
+#给第一个进游戏的玩家玩法说明。
+get_guild_book = false
+#自定义普攻间隔判定时间（原版太长了！）
+#Range: 4.9E-324 ~ 1.7976931348623157E308
+basic_attack_time_interval = 10.0
+#切手技判定时间
+#Range: 4.9E-324 ~ 1.7976931348623157E308
+derive_check_time = 16.0
+#蓄力时每tick增加的棍势（棍花充能速度为3倍， 第四段棍势每tick消耗 1/5）
+#Range: 4.9E-324 ~ 1.7976931348623157E308
+charging_speed = 1.0
+#棍花每tick耐力消耗
+#Range: 4.9E-324 ~ 1.7976931348623157E308
+staff_flower_stamina_consume = 2.0
+#立棍和戳棍切手技和每tick耐力消耗
+#Range: 4.9E-324 ~ 1.7976931348623157E308
+derive_stamina_consume = 0.1
+#蓄力每tick耐力消耗
+#Range: 4.9E-324 ~ 1.7976931348623157E308
+charging_stamina_consume = 0.045
+#可被棍花格挡的实体
+"可被棍花格挡的实体" = ["minecraft:arrow", "minecraft:wither_skull", "minecraft:potion", "minecraft:egg", "minecraft:snowball", "minecraft:llama_spit", "minecraft:fireball", "minecraft:shulker_bullet", "mowziesmobs:sunstrike", "mowziesmobs:solar_beam", "mowziesmobs:poison_ball", "mowziesmobs:ice_breath", "mowziesmobs:ice_ball", "cataclysm:void_scatter_arrow", "cataclysm:lava_bomb", "cataclysm:ignis_fireball", "cataclysm:ignis_abyss_fireball", "cataclysm:ender_guardian_bullet", "irons_spellbooks:blood_slash_projectile", "irons_spellbooks:blood_needle", "irons_spellbooks:lightning_lance_projectile", "irons_spellbooks:magic_arrow_projectile", "irons_spellbooks:ice_block_projectile"]
+

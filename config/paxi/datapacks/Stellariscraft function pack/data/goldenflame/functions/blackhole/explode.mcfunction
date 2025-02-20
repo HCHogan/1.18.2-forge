@@ -1,0 +1,1 @@
+execute at @e[type=minecraft:armor_stand,tag=blackhole] run summon cataclysm:flame_strike

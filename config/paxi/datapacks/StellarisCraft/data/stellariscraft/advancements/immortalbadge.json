@@ -1,0 +1,31 @@
+{
+  "parent":"stellariscraft:heavensplinter",
+    "display": {
+      "icon": {
+        "item": "stellariscraft:immortalbadge"
+      },
+      "title":{
+        "text": "群星之上"
+    },
+    "description": {
+        "text": "众神归位，续写传奇"
+    },
+      "frame": "challenge",
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "pkey": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items":[
+            {
+              "items":[
+                "stellariscraft:immortalbadge"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }

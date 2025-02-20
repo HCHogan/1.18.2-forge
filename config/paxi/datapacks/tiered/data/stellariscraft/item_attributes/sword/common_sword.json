@@ -1,0 +1,41 @@
+{
+  "id": "stellariscraft:common_sword",
+  "weight": 7,
+  "reforge_experience_cost": 1,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:forgedspar",
+  "verifiers": [
+    {"tag": "forge:sword_minecraft"},
+    {"tag": "forge:sword_other_mods"},
+    {"tag": "forge:gauntlet"},
+    {"id":  "minecraft:trident"},
+    {"id":  "amethysttoolsmod:amethyst_trident"}
+  ],
+  "style": {
+    "color": "grey"
+  },
+  "attributes": [
+    {
+      "type": "epicfight:staminar",
+      "modifier": {
+        "name": "stellariscraft:common_sword",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.05
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "generic.attack_speed",
+      "modifier": {
+        "name": "stellariscraft:common_sword",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.05
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

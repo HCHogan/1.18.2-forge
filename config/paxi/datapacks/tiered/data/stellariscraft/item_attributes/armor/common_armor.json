@@ -1,0 +1,28 @@
+{
+  "id": "stellariscraft:common_armor",
+  "weight": 8,
+  "reforge_experience_cost": 1,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:forgedspar",
+  "verifiers": [
+    {"tag": "forge:chestplates"},
+    {"tag": "forge:leggings"}
+  ],
+  "style": {
+    "color": "grey"
+  },
+  "attributes": [
+    {
+      "type": "epicfight:stun_armor",
+      "modifier": {
+        "name": "stellariscraft:common_armor",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.02
+      },
+      "optional_equipment_slots": [
+        "LEGS",
+        "CHEST"
+      ]
+    }
+  ]
+}

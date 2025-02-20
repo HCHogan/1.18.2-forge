@@ -1,0 +1,30 @@
+{
+    "name": "终末傀儡",
+    "icon": "ba_bt:bt_end_resonance_stone",
+    "category": "patchouli:beast_strong",
+    "sortnum":4,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"终末傀儡/end tower",
+            "text": "寄宿于终末的虚无之中的原始傀儡之一，镇守于$(#ff0000)末地高塔$()之下。相比于其他傀儡，终末傀儡的内部包含着无尽的终焉力量，不过怪异的是这里也残存着精灵的魔力。魔力已经存在，那精灵为何无影无踪。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/end_golem.png",
+            "text1":"终末傀儡",
+            "text2":""
+        },
+     {"type": "spotlight",
+        "title":"召唤方法",
+        "item": "ba_bt:monolith_key_end,ba_bt:monolith_end",
+        "text": "在高塔内会找到两把末影石碑之键，进入末地高塔的最底层会看到末影石碑，插入两把末影石碑之键后，即可召唤末地的守护者......"
+         },
+        {"type": "spotlight",
+        "title":"掉落物",
+        "item": "ba_bt:guardian_eye_end,byg:ametrine_gems,miningmaster:air_malachite,stellariscraft:exchangestone,bhc:blue_heart",
+        "text": "击杀后掉落$(br)末影守护者之眼1个$(br)紫黄晶4~8个$(br)浮空孔雀石1个$(br)淡粉晶簇、蓝心2~3个$(br2)可以通过配置$(t:等级越高提高量越多,书中为无抢夺掉落量)$(5)抢夺$()附魔提高掉落量。"
+         }
+        
+    ]
+}

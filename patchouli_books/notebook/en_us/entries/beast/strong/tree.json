@@ -1,0 +1,30 @@
+{
+    "name": "星荧粉碎者",
+    "icon": "blue_skies:bluebright_sapling",
+    "category": "patchouli:beast_strong",
+    "sortnum":17,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"星荧粉碎者/nature dungeon",
+            "text": "永昼之地自然力量的化身，在上古时期是永昼之地的守护灵。不难推测，这一定是召唤师将其召唤至此。强大的原始精灵力量，让他几乎无法被大多数武器伤害，不过毕竟是由树木变化而来，或许$(#ff0000)斧子类型$()的武器会有相当好的效果。当然解铃还须系铃人，如果召唤师有办法召唤必然也有对付他的方法，或许他留下的武器会很有用。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/tree.png",
+            "text1":"自然的守护灵",
+            "text2":""
+        },
+     {"type": "spotlight",
+        "title":"召唤方法",
+        "item": "blue_skies:nature_key,blue_skies:nature_keystone",
+        "text": "在永远处于白昼的自然地牢之中可以在每一层找到各一把钥匙，携带四把钥匙插入塔最上方的钥匙孔，便会取得挑战地牢领主的资格。"
+         },
+        {"type": "spotlight",
+        "title":"掉落物",
+        "item": "blue_skies:starlit_crusher_trophy,blue_skies:nature_arc,blue_skies:crushing_hammer,minecraft:saddle,minecraft:enchanted_book,blue_skies:falsite_ingot,blue_skies:aquite,blue_skies:diopside_gem,blue_skies:winter_leaves,blue_skies:cryo_root,blue_skies:cherry_sapling",
+        "text": "击杀后必掉落$(br)召唤师奖杯1个$(br)根据战利品袋品质获得自然饰品$(br)概率掉落破碎之锤、附魔书、鞍$(br)随机数量缪铁、天闪石、透辉石、冬叶、寒根、樱桃树苗。"
+         }
+        
+    ]
+}

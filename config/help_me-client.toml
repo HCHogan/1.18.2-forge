@@ -1,0 +1,5 @@
+#默认发送的文本
+sos_message = "{  \"text\": \" : 【发出救难信号】\",  \"color\": \"gold\",  \"bold\": true,  \"italic\": true}"
+#默认发送的文本
+when_join = "{  \"text\": \"：孩子别怕，我带着魔刀千刃来救你了！\",  \"color\": \"blue\",  \"bold\": true,  \"italic\": true}"
+

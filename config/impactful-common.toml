@@ -1,0 +1,43 @@
+
+["disable hit stop"]
+	disable_hit_stop = false
+
+["weapon categories setting"]
+	#format: weapon_categories hit_stop_duration speed_ratio camera_shake_duration camera_shake_amplitude
+	#example: greatsword 4 0.1 15 2
+	#weapon_categories: greatsword, longsword, sword, etc
+	#hit_stop_duration: duration of hit stop(tick)
+	#speed_ration: percentage rate, 0.0 - 1.0
+	#camera_shake_duration: duration of screen shake(tick)
+	#camera_shake_amplitude: amplitude of screen shake
+	weapon_categories_setting = ["greatsword 0 0.0 15 2.5", "longsword 0 0.0 10 0.75", "tachi 0 0.0 10 0.75", "uchigatana 0 0.0 10 0.75", "spear 0 0.0 10 1.25", "trident 0 0.0 10 1.0", "sword 0 0.0 10 0.5", "dagger 0 0.0 5 1.0", "fist 0 0.0 10 1.0", "axe 1 0.1 15 1.5", "hoe 2 0.3 8 0.3", "pickaxe 2 0.3 8 0.3", "shield 3 0.2 10 1", "battle_scythe 0 0.0 10 1.25", "torment 2 0.1 15 2.5"]
+
+["animation setting"]
+	#priority higher than weapon categories setting and override it
+	#format: attack_animation hit_stop_duration speed_ratio camera_shake_duration camera_shake_amplitude
+	#example: epicfight:biped/combat/greatsword_dash 4 0 20 5
+	#attack_animation: modid:path
+	#hit_stop_duration: duration of hit stop(tick)
+	#speed_ration: percentage rate, 0.0 - 1.0
+	#camera_shake_duration: duration of screen shake(tick)
+	#camera_shake_amplitude: amplitude of screen shake
+	animation_setting = ["epicfight:biped/skill/eviscerate_second 2 0.05 15 3", "epicfight:biped/skill/sweeping_edge 2 0.05 10 3", "epicfight:biped/skill/the_guillotine 3 0.1 15 5", "epicfight:biped/skill/grasping_spire_second 2 0.05 10 4", "epicfight:biped/skill/steel_whirlwind 1 0.1 20 6", "epicfight:biped/skill/rushing_tempo1 0 0.0 8 2", "epicfight:biped/skill/rushing_tempo2 0 0.0 10 3", "epicfight:biped/skill/rushing_tempo3 0 0.0 12 4", "epicfight:biped/skill/battojutsu 2 0.1 12 4", "epicfight:biped/skill/battojutsu_dash 2 0.1 12 4", "epicfight:biped/combat/uchigatana_sheath_auto 1 0.1 10 3", "epicfight:biped/combat/uchigatana_sheath_airslash 0 0.0 10 3", "epicfight:biped/combat/uchigatana_sheath_dash 0 0.0 10 3", "falchionmoveset:biped/falchion/falchion_backward 2 0.1 10 3.0", "falchionmoveset:biped/falchion/falchion_side 0 0.0 10 3.0", "falchionmoveset:biped/falchion/falchion_forward 0 0.0 10 2.0", "wom:biped/skill/solar_auto_4_polvora 3 0.1 15 6"]
+
+["screen shake by guard"]
+	#screen shake when guard success
+	guard_screen_shake_time = 20
+	#Range: 0.0 ~ 10.0
+	guard_screen_shake_amplitude = 3.0
+
+["screen shake by advanced guard"]
+	#screen shake when advanced guard success, like impactful guard or parry
+	advanced_guard_screen_shake_time = 15
+	#Range: 0.0 ~ 10.0
+	advanced_guard_screen_shake_amplitude = 1.0
+
+["screen shake when guard break"]
+	#screen shake when guard break
+	guard_break_screen_shake_time = 30
+	#Range: 0.0 ~ 10.0
+	guard_break_screen_shake_amplitude = 8.0
+

@@ -1,0 +1,1 @@
+execute as @e[type=jobinsmobs:gazeabysser,sort=nearest,limit=1] at @s run indestructible @s play "epicfight:biped/skill/knockdown_wakeup_left" 0.3 1

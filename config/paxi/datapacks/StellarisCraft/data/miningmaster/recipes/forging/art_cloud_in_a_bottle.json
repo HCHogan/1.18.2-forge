@@ -1,0 +1,17 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[
+{"item":"quark:bottled_cloud"},
+{"item":"quark:bottled_cloud"},
+{"item":"quark:bottled_cloud"},
+{"item":"quark:bottled_cloud"},
+{"item":"quark:bottled_cloud"},
+{"item":"quark:bottled_cloud"},
+{"item":"quark:bottled_cloud"},
+{"item":"quark:bottled_cloud"},
+{"item":"quark:bottled_cloud"}
+],
+"catalyst":{"item":"stellariscraft:exchangestone"},
+"result":{"item":"artifacts:cloud_in_a_bottle"},
+"enchantments":[]
+}

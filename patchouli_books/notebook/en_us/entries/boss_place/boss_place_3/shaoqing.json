@@ -1,0 +1,34 @@
+{
+    "name": "少卿X(未完成)",
+    "icon": "epicfight:netherite_tachi",
+    "category": "patchouli:boss_place_3",
+    "sortnum":2,
+    "pages": [
+        {
+           "type": "T1",
+            "title":"太刀之魂",
+            "text": "群星的新秀之一，第三次终焉进攻时期与贤者H一同挡住了被召唤至战场的百计上古冰霜巨人，战役结束后成为群星的一员，因在太刀这把武器的造诣极高被成为太刀之魂。"
+        },
+        {
+            "type": "patchouli:entity",
+            "name":"太刀之魂",
+            "entity": "jobinsmobs:shaoqing",
+            "scale": 0.9,
+            "offset": 0.2
+        },
+        {"type": "spotlight",
+        "title":"召唤材料",
+        "item": "stellariscraft:diedscrap,minecraft:netherite_ingot,blue_skies:pyrope_gem#6,minecraft:diamond#4",
+        "text": "死亡碎片x1$(br)下届合金锭x1$(br)榴石x6$(br)钻石x4$(br)最后加入$(1)$(l:boss_place/boss_summon/imessence)往生精华$()$()"
+         },
+         {"type": "spotlight",
+        "title":"特殊掉落物：霜冻之角",
+        "item": "stellariscraft:the_hornof_frost",
+        "text": "上古冰霜巨人的角，在终焉第三次进攻时期被召唤而来的物种头部的角，目前的观测结果显示冻原的领主冰霜巨兽的祖先很可能是它。可以与钢锭在锻造台上加工制作白泣骑士锭。$(br2)少卿X掉落1个"
+         },
+         {"type": "spotlight",
+         "title":"无其他掉落物",
+         "item": "minecraft:air"        
+        }
+    ]
+}

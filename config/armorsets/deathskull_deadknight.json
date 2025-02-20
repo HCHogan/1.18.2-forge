@@ -1,0 +1,39 @@
+{
+  "armorSetName": "deathskull_deadknight",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "stellarisdlc:deadknight_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "stellarisdlc:deadknight_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "stellarisdlc:deadknight_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "stellarisdlc:deadknight_boots",
+    "mustBeEmpty": false
+  },
+  
+  "additionalSetPieces":[
+    {
+    "itemKey": "stellarisdlc:deathskull",
+    "mustBeEmpty": false
+  }
+  ],
+
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "toybox:crit_damage",
+      "value": 0.2,
+      "attributeOperation": 0,
+      "modifierUUID": "ba74b29f-ec27-40dc-a956-aa15ec459b40",
+      "description": "+0.2 crit damage"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

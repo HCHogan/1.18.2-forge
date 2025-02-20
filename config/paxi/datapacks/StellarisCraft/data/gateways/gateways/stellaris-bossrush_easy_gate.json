@@ -1,0 +1,232 @@
+{
+    "size": "large",
+    "color": "#CB3D07",
+    "leash_range": 64,
+    "waves": [{
+        "entities": [{
+                "entity": "jobinsmobs:darkadvance"
+            }
+        ],
+        "modifiers": [
+        {
+            "attribute": "generic.max_health",
+            "operation": "MULTIPLY_TOTAL",
+            "value": 0.25
+        },
+        {
+            "attribute": "generic.attack_damage",
+            "operation": "MULTIPLY_TOTAL",
+            "value": 0.3
+        }
+    ],
+    "rewards": [{
+        "type": "stack",
+        "stack": {"item": "overweight_farming:melon_juice"}
+    },
+    {
+        "type": "stack",
+        "stack": {"item": "minecraft:enchanted_golden_apple"}
+    },
+    {
+        "type": "stack",
+        "stack": {"item": "minecraft:wither_skeleton_skull"}
+    } 
+    ,
+    {
+        "type": "stack",
+        "stack": {"item": "stellariscraft:adgrain"}
+    } 
+],
+        "max_wave_time": 3600,
+        "setup_time": 60
+    },
+    {
+        "entities": [{
+                "entity": "jobinsmobs:sandcaptain"
+            }
+        ],
+        "modifiers": [
+        {
+            "attribute": "generic.max_health",
+            "operation": "MULTIPLY_TOTAL",
+            "value": 0.2
+        },
+        {
+            "attribute": "generic.attack_damage",
+            "operation": "MULTIPLY_TOTAL",
+            "value": 0.5
+        }
+    ],
+    "rewards": [{
+        "type": "stack",
+        "stack": {"item": "overweight_farming:melon_juice"}
+    },
+    {
+        "type": "stack",
+        "stack": {"item": "minecraft:enchanted_golden_apple"}
+    } 
+    ,
+    {
+        "type": "stack",
+        "stack": {"item": "stellariscraft:sandheart"}
+    } 
+    ,
+    {
+        "type": "stack",
+        "stack": {"item": "miningmaster:spirit_garnet"}
+    } 
+    ,
+    {
+        "type": "stack",
+        "stack": {"item": "miningmaster:lucky_citrine"}
+    } 
+],
+        "max_wave_time": 3600,
+        "setup_time": 60
+    },
+    {
+        "entities": [{
+                "entity": "jobinsmobs:senbaidevil"
+            }
+        ],
+        "modifiers": [
+        {
+            "attribute": "generic.max_health",
+            "operation": "MULTIPLY_TOTAL",
+            "value": 0.2
+        },
+        {
+            "attribute": "generic.attack_damage",
+            "operation": "MULTIPLY_TOTAL",
+            "value": 0.1
+        }
+    ],
+    "rewards": [{
+        "type": "stack",
+        "stack": {"item": "overweight_farming:melon_juice"}
+    },
+    {
+        "type": "stack",
+        "stack": {"item": "minecraft:enchanted_golden_apple"}
+    } 
+    ,
+    {
+        "type": "stack",
+        "stack": {"item": "stellariscraft:netheritess"}
+    } 
+    ,
+    {
+        "type": "stack",
+        "stack": {"item": "miningmaster:ice_sapphire"}
+    } 
+    ,
+    {
+        "type": "stack",
+        "stack": {"item": "miningmaster:divine_beryl"}
+    } 
+],
+        "max_wave_time": 4000,
+        "setup_time": 60
+    },
+    {
+        "entities": [{
+                "entity": "jobinsmobs:slaughtergeneral"
+            }
+        ],
+        "modifiers": [
+        {
+            "attribute": "generic.max_health",
+            "operation": "MULTIPLY_TOTAL",
+            "value": 0.2
+        },
+        {
+            "attribute": "generic.attack_damage",
+            "operation": "MULTIPLY_TOTAL",
+            "value": 0.1
+        }
+    ],
+    "rewards": [{
+        "type": "stack",
+        "stack": {"item": "overweight_farming:melon_juice"}
+    },
+    {
+        "type": "stack",
+        "stack": {"item": "minecraft:enchanted_golden_apple"}
+    } 
+    ,
+    {
+        "type": "stack",
+        "stack": {"item": "stellariscraft:diedscrap"}
+    } 
+    ,
+    {
+        "type": "stack",
+        "stack": {"item": "miningmaster:unbreaking_iolite"}
+    } 
+    ,
+    {
+        "type": "stack",
+        "stack": {"item": "miningmaster:power_pyrite"}
+    } 
+],
+        "max_wave_time": 6000,
+        "setup_time": 60
+    },
+    {
+        "entities": [{
+                "entity": "jobinsmobs:goldenflame"
+            }
+        ],
+        "modifiers": [
+        {
+            "attribute": "generic.max_health",
+            "operation": "MULTIPLY_TOTAL",
+            "value": 0.1
+        },
+        {
+            "attribute": "generic.attack_damage",
+            "operation": "MULTIPLY_TOTAL",
+            "value": 0.1
+        }
+    ],
+    "rewards": [{
+        "type": "stack",
+        "stack": {"item": "overweight_farming:melon_juice"}
+    },
+    {
+        "type": "stack",
+        "stack": {"item": "minecraft:enchanted_golden_apple"}
+    } 
+    ,
+    {
+        "type": "stack",
+        "stack": {"item": "stellariscraft:witherc"}
+    } 
+    ,
+    {
+        "type": "stack",
+        "stack": {"item": "miningmaster:spirit_garnet"}
+    } 
+    ,
+    {
+        "type": "stack",
+        "stack": {"item": "miningmaster:kinetic_opal"}
+    } 
+],
+        "max_wave_time": 8400,
+        "setup_time": 60
+    }
+],
+"rewards": [
+    {
+        "type": "stack",
+        "stack": {"item": "s33r_more_food:omelet"}
+    },
+    {
+        "type": "stack",
+        "stack": {"item": "stellariscraft:beingsbadge"}
+    }
+],
+"completion_xp": 1000,
+"spawn_range": 5
+}

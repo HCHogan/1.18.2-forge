@@ -1,0 +1,21 @@
+{
+	id: "377DB31ED29BC3D3"
+	order_index: 14
+	title: "死亡掉落经验自选指令包"
+	icon: "minecraft:experience_bottle"
+	loot_size: 1
+	rewards: [
+		{
+			title: "开启死亡掉落经验"
+			command: "/gamerule keepInventoryExperience true"
+			player_command: false
+			type: "command"
+		}
+		{
+			title: "关闭死亡掉落经验"
+			command: "/gamerule keepInventoryExperience false"
+			player_command: false
+			type: "command"
+		}
+	]
+}

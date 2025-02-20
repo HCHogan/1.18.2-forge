@@ -1,0 +1,31 @@
+{  
+  "armorSetName": "ring_hungerless",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+    "itemKey": "ringsofascension:ring_hungerless"
+    }
+],
+
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "diet:natural_regeneration",
+      "value": -1.0,
+      "attributeOperation": 0,
+      "modifierUUID": "88766318-2544-45b1-bb59-5564363295cb",
+      "description": "Closedown natural regeneration; Maintain diet value"    
+    },
+    {
+      "type": "effect",
+      "name": "farmersdelight:nourishment",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 120,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+
+  ],
+  "hideGeneratedTooltip": false
+}

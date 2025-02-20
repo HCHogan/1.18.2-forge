@@ -1,0 +1,1 @@
+execute as @p[tag=kill_end] run tag @s remove kill_end

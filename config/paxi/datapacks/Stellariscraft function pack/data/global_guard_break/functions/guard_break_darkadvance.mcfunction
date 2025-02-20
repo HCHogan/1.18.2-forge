@@ -1,0 +1,2 @@
+schedule function global_guard_break:bosses/darkadvance_sort1 1t append
+schedule function global_guard_break:bosses/darkadvance_sort2 10t append

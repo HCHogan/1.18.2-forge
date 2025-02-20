@@ -1,0 +1,2 @@
+schedule function effect_unstable:sheath_dash/core_golem 20t append
+schedule function effect_unstable:sheath_dash/core_golem_set_phase1 45t append

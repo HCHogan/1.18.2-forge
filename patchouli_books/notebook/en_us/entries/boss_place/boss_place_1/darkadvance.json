@@ -1,0 +1,33 @@
+{
+    "name": "黑暗先遣",
+    "icon": "minecraft:rotten_flesh",
+    "category": "patchouli:boss_place_1",
+    "sortnum":1,
+    "pages": [
+        {
+           "type": "T1",
+            "title":"黑暗先遣",
+            "text": "终焉的早期先遣部队善用长剑，它们的任务其一是厮杀，其二是筛选，通过试炼的挑战者们会被赋予$(#ff0000)冒险碎片$()。"
+        },
+        {"type": "png_teach",
+            "image":"stellarisdlc:textures/png/darkadvance.png",
+            "text1":"黑暗先遣",
+            "text2":""
+        },
+        {"type": "spotlight",
+        "title":"召唤材料",
+        "item": "minecraft:copper_ingot#3,minecraft:rotten_flesh#4,minecraft:cobblestone#6,minecraft:iron_ingot#4",
+        "text": "铜锭x3$(br)腐肉x4$(br)圆石x6$(br)铁锭x4$(br)最后加入$(1)$(l:boss_place/boss_summon/imessence)往生精华$()$()"
+         },
+         {"type": "spotlight",
+        "title":"特殊掉落物：冒险碎片",
+        "item": "stellariscraft:adgrain",
+        "text": "勇敢的挑战者啊，成为王国探险队的一员吧。$(br)击杀掉落冒险碎片2~4个。$(br2)可以通过配置$(t:等级越高提高量越多,书中为无抢夺掉落量)$(5)抢夺$()附魔提高掉落量。"
+         },
+         {"type": "spotlight",
+         "title":"其他掉落物",
+         "item": "minecraft:iron_ingot,stellariscraft:adgrain,minecraft:wither_skeleton_skull",
+         "text": "击杀后掉落$(br)铁锭1~2个$(br)凋零骷髅头0~1个$(br2)可以通过配置$(t:等级越高提高量越多,书中为无抢夺掉落量)$(5)抢夺$()附魔提高掉落量。"
+          }
+    ]
+}

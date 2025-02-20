@@ -1,0 +1,13 @@
+{
+	"attributes":
+	{
+		"common":
+		{
+			"armor_negation":30.0,
+			"impact":3.5,
+			"max_strikes":3,
+			"damage_bonus":4.5
+		}
+	},
+	"type":"trident"
+}

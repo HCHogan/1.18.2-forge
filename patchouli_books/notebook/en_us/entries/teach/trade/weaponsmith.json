@@ -1,0 +1,59 @@
+{
+    "name": "武器匠(砂轮)",
+    "icon": "minecraft:grindstone",
+    "category": "patchouli:trade",
+    "sortnum":0,
+    "pages": [
+{"type":"trade1",
+ "head":"村民等级:新手",
+ "item1":"stellariscraft:steelingot#1",
+ "item2":"minecraft:air",
+ "item3":"dotcoinmod:iron_coin",
+ "text1":"10次"
+ 
+},
+{"type":"trade1",
+ "head":"村民等级:学徒",
+ "item1":"dotcoinmod:gold_coin",
+ "item2":"minecraft:air",
+ "item3":"epicfight:skillbook{skill:\"epicfight:swordmaster\"}",
+ "text1":"1次"
+},
+{"type":"trade1",
+ "head":"村民等级:老手",
+ "item1":"dotcoinmod:iron_coin#8",
+ "item2":"minecraft:air",
+ "item3":"minecraft:enchanted_book{Enchantments:[{'id':'minecraft:unbreaking',lvl:5s}]}",
+ "text1":"1次"
+ 
+},
+{"type":"trade3",
+ "head":"村民等级:专家",
+ "item1":"epicfight:uchigatana",
+ "item2":"dotcoinmod:gold_coin#2",
+ "item3":"epicfight:uchigatana{Tiered:{Tier:\"stellariscraft:epic2_heroic_katana\"}}",
+ "text1":"1次",
+"item4":"minecraft:diamond_sword",
+ "item5":"dotcoinmod:gold_coin#2",
+ "item6":"minecraft:diamond_sword{Tiered:{Tier:\"stellariscraft:epic_sword\"}}",
+ "text2":"1次",
+"item7":"dotcoinmod:iron_coin#8",
+ "item8":"minecraft:air",
+ "item9":"stellarisdlc:reinforcedspar#2",
+ "text3":"3次"
+ 
+},
+{"type":"trade2",
+ "head":"村民等级:大师",
+ "item1":"epicfight:diamond_greatsword",
+ "item2":"dotcoinmod:gold_coin#2",
+ "item3":"epicfight:diamond_greatsword{Tiered:{Tier:\"stellariscraft:epic1_warrior_greatsword\"}}",
+ "text1":"1次",
+"item4":"epicfight:diamond_longsword",
+ "item5":"dotcoinmod:gold_coin#2",
+ "item6":"epicfight:diamond_longsword{Tiered:{Tier:\"stellariscraft:epic2_longsword\"}}",
+ "text2":"1次"
+}
+
+    ]
+}

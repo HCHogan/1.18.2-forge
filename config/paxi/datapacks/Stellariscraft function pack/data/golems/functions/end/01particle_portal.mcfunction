@@ -1,0 +1,1 @@
+execute as @e[type=ba_bt:end_golem,sort=nearest,limit=1] at @s run particle minecraft:portal ~ ~0.5 ~ 0 1 0 1.5 600 force

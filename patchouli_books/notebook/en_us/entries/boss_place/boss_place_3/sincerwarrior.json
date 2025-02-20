@@ -1,0 +1,36 @@
+{
+    "name": "忘幽(未完成)",
+    "icon": "stellarisdlc:helleyes",
+    "category": "patchouli:boss_place_3",
+    "sortnum":4,
+    "pages": [
+        {
+           "type": "T1",
+            "title":"赤心武士",
+            "text": "修炼居合至巅的武士群星的创始者之一，赤心一是为群星，二是为居合。终焉第三次进攻时唯一在场的群星，只身一人挡下万人踏入终焉的大本营，随后下落不明。$(#ff0000)赤心徽章$()是其的至宝，也是其赤心的证明，或许正因这赤诚之心火焰宝石才能召唤其的幻影，也因着赤诚即使是幻影也随身携带。"
+        },
+        {
+            "type": "patchouli:entity",
+            "name":"忘幽",
+            "entity": "jobinsmobs:sincerwarrior",
+            "scale": 0.9,
+            "offset": 0.2
+        },
+        {"type": "spotlight",
+        "title":"召唤材料",
+        "item": "miningmaster:fire_ruby",
+        "text": "火焰红宝石x1$(br)最后加入$(1)$(l:boss_place/boss_summon/imessence)往生精华$()$()"
+         },
+         {"type": "spotlight",
+        "title":"特殊掉落物：赤心徽章",
+        "item": "stellariscraft:sinceritycore",
+        "text": "忠于群星，忠于大义，忠于众生，吾绝不后撤，因为身后即众生。$(br)忘幽掉落1个"
+         },
+         {"type": "spotlight",
+         "title":"其他掉落物",
+         "item": "stellariscraft:the_hornof_frost",
+         "text":"霜冻之角5个"
+        }
+        
+    ]
+}

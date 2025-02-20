@@ -1,0 +1,2134 @@
+{
+	id: "4257B5235893E81B"
+	group: "6878AB6C16119261"
+	order_index: 2
+	filename: "4257B5235893E81B"
+	title: "炊烟耕作"
+	icon: {
+		id: "abnormals_delight:passion_aloe_nectar"
+		Count: 1b
+		tag: {
+			RepairCost: 1
+			"quark:RuneAttached": 1b
+			Enchantments: [{
+				lvl: 3s
+				id: "minecraft:unbreaking"
+			}]
+			"quark:RuneColor": {
+				id: "quark:rainbow_rune"
+				Count: 1b
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -18.0d
+			y: 6.5d
+			width: 1.5d
+			height: 1.5d
+			rotation: 20.0d
+			image: "abnormals_delight:textures/item/passion_aloe_nectar.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "5A9F9EB7F003AE4E"
+		}
+		{
+			x: -12.0d
+			y: 14.5d
+			width: 2.0d
+			height: 2.0d
+			rotation: 20.0d
+			image: "farmersdelight:textures/item/honey_glazed_ham_block.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "14DD561DCC210BA4"
+		}
+		{
+			x: -18.0d
+			y: 0.0d
+			width: 12.0d
+			height: 6.0d
+			rotation: 0.0d
+			image: "mcwpaintings:textures/painting/mountains.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -26.0d
+			y: 16.0d
+			width: 1.8d
+			height: 1.8d
+			rotation: -20.0d
+			image: "ecologics:textures/item/tropical_stew.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "5A9F9EB7F003AE4E"
+		}
+		{
+			x: -18.0d
+			y: 11.5d
+			width: 4.2d
+			height: 4.2d
+			rotation: 0.0d
+			image: "farmersdelight:textures/item/cooking_pot.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "5A9F9EB7F003AE4E"
+		}
+		{
+			x: -34.5d
+			y: 8.0d
+			width: 1.5d
+			height: 1.5d
+			rotation: -45.0d
+			image: "overweight_farming:textures/item/straw_hat.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "14DD561DCC210BA4"
+		}
+		{
+			x: -26.5d
+			y: 8.0d
+			width: 1.5d
+			height: 1.5d
+			rotation: 20.0d
+			image: "s33r_more_food:textures/items/beer.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "5A9F9EB7F003AE4E"
+		}
+		{
+			x: -35.0d
+			y: 16.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/glistering_melon_slice.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "14DD561DCC210BA4"
+		}
+		{
+			x: -30.5d
+			y: 12.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "farmersdelight:textures/item/stuffed_pumpkin_block.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "14DD561DCC210BA4"
+		}
+		{
+			x: -18.0d
+			y: 18.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "farmersdelight:textures/item/rice_roll_medley_block.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "51560B259892D636"
+		}
+	]
+	quests: [
+		{
+			title: "&6食之海"
+			icon: "solcarrot:food_book"
+			x: -18.0d
+			y: 12.0d
+			shape: "rsquare"
+			subtitle: "&b食之大，一口胃装不下"
+			description: [
+				"&a手册记录着你的食物数量以及下一阶段的生命值奖励"
+				""
+				""
+				"&c&n休闲与养老&r任务，非必须完成"
+			]
+			dependencies: ["51560B259892D636"]
+			hide: true
+			size: 2.0d
+			id: "2BEBCCACD4F7794E"
+			tasks: [{
+				id: "2391A271E91F9502"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "234E8E5930BB884C"
+					type: "item"
+					item: "minecraft:kelp"
+					count: 2
+				}
+				{
+					id: "48A1A50E9081644C"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "&6均衡饮食"
+			x: -15.0d
+			y: 12.0d
+			shape: "rsquare"
+			subtitle: "&6“你是素食主义者吗？不，你最好不是”"
+			description: [
+				"&a1.均衡饮食可以记录你的营养值，在物品栏查看"
+				"&a2.死亡会减少营养值，饥饿会缓慢降低营养值"
+				""
+				"&a单个营养值提升会给予你药水效果，&c所有营养值都提升将额外增加你的属性"
+				""
+			]
+			dependencies: ["2BEBCCACD4F7794E"]
+			hide: true
+			size: 2.0d
+			id: "221947FF543B8433"
+			tasks: [{
+				id: "23F5484D4B59FB1F"
+				type: "item"
+				item: "minecraft:smoker"
+			}]
+			rewards: [
+				{
+					id: "333AF49D9B8678AB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4A848336BD1390A3"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: 15.5d
+			subtitle: "&a使用蜂蜜面包消除不祥之兆"
+			dependencies: ["2BEBCCACD4F7794E"]
+			hide: true
+			id: "5506EA8B955B802F"
+			tasks: [{
+				id: "1B649F149385C34E"
+				type: "advancement"
+				advancement: "buzzier_bees:husbandry/use_honey_bread"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "6828C3BBDD59D8AE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "392FC56D5CC66012"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "烹饪桌/懒人厨房模组"
+			x: -14.5d
+			y: 9.0d
+			subtitle: "&b手可以懒，但脑袋不能懒！"
+			description: ["&a你可以制作厨房设备，但最棒的是可以用傻瓜手册一键合成食物"]
+			dependencies: ["2BEBCCACD4F7794E"]
+			hide: true
+			id: "750E90D2BE3EF49F"
+			tasks: [{
+				id: "528FD9606CFC4B02"
+				type: "item"
+				item: "cookingforblockheads:cooking_table"
+			}]
+			rewards: [{
+				id: "3B65C2D04841717C"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -11.5d
+			y: 12.0d
+			dependencies: ["2BEBCCACD4F7794E"]
+			hide: true
+			id: "5A9F9EB7F003AE4E"
+			tasks: [{
+				id: "7E2B808ECBA83892"
+				type: "advancement"
+				advancement: "farmersdelight:main/place_campfire"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "0E5CBE25B687F63F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "10BFC026ABD80D4A"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 10.5d
+			dependencies: ["5A9F9EB7F003AE4E"]
+			id: "64C7DB4A22FE61B3"
+			tasks: [{
+				id: "789598D8D2571DDB"
+				type: "advancement"
+				advancement: "farmersdelight:main/place_cooking_pot"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "1FA3316FD7C576A6"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "16A7B0E7250AFB5E"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 15.0d
+			dependencies: ["1D5FF4D7500F83F1"]
+			id: "37E48AFDCB9DEE57"
+			tasks: [{
+				id: "4F02CCA434B5934C"
+				type: "advancement"
+				advancement: "farmersdelight:main/use_skillet"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "2F90D458A64A3133"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "351C0F407C70068D"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 15.0d
+			dependencies: ["37E48AFDCB9DEE57"]
+			id: "758627140A8AB85A"
+			tasks: [{
+				id: "7139DADD2EED43DD"
+				type: "advancement"
+				advancement: "farmersdelight:main/place_skillet"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "4F2D08D46AB692E0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3A4D710580133F51"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 12.0d
+			subtitle: "&b事已至此，先吃饭吧.jpg"
+			description: ["需尝试每一种农夫乐事模组的大餐，详情请移步mc百科"]
+			dependencies: [
+				"64C7DB4A22FE61B3"
+				"630EAD6EA2F2523F"
+			]
+			dependency_requirement: "one_completed"
+			id: "57C5B91A2B3AB928"
+			tasks: [{
+				id: "0877B14FCF86022D"
+				type: "advancement"
+				advancement: "farmersdelight:main/master_chef"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "0D2BFF063578A65D"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "79B62E2F45257ABF"
+					type: "item"
+					item: "ringsofascension:ring_growth"
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 13.5d
+			dependencies: ["5A9F9EB7F003AE4E"]
+			id: "630EAD6EA2F2523F"
+			tasks: [{
+				id: "7CAC35765F438CE3"
+				type: "advancement"
+				advancement: "farmersdelight:main/obtain_netherite_knife"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "6A1F964C03718C21"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+				{
+					id: "49317F009468EA39"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 15.0d
+			subtitle: "分解材料的载体"
+			dependencies: ["5A9F9EB7F003AE4E"]
+			id: "03222C73A4630415"
+			tasks: [{
+				id: "1E08A5E2C16859A0"
+				type: "item"
+				item: "farmersdelight:cutting_board"
+			}]
+			rewards: [
+				{
+					id: "4B1EB70A817D0A9B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3970D7B5E83B073C"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 9.0d
+			subtitle: "营火plus"
+			description: ["升起篝火与炉灶，很好，你已经获得了经营 会员制餐厅 的功能"]
+			dependencies: ["5A9F9EB7F003AE4E"]
+			id: "26E541943C0A8FFA"
+			tasks: [{
+				id: "34DFDDD3BAA6640D"
+				type: "item"
+				item: "farmersdelight:stove"
+			}]
+			rewards: [
+				{
+					id: "6C3371C104213499"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "64764CBA52194F52"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 9.0d
+			dependencies: ["26E541943C0A8FFA"]
+			id: "0A9DCE2C89DC3961"
+			tasks: [{
+				id: "31D4B702ED6E058A"
+				type: "item"
+				item: "nethersdelight:blackstone_stove"
+			}]
+			rewards: [
+				{
+					id: "5A9EAE2532CF5B0B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "73DCC18891D295AB"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 15.0d
+			subtitle: "&a矿工乐事，矿洞中的惬意"
+			dependencies: ["03222C73A4630415"]
+			id: "1D5FF4D7500F83F1"
+			tasks: [{
+				id: "3BBC2D3E1CA1925F"
+				type: "item"
+				item: "miners_delight:copper_pot"
+			}]
+			rewards: [
+				{
+					id: "49BF611E414332FB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0F1BBA61B1349959"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: 7.0d
+			subtitle: "&b竖着的大箱子（"
+			dependencies: ["750E90D2BE3EF49F"]
+			id: "73741E90CF9E6AA8"
+			tasks: [{
+				id: "165B8970B973165A"
+				type: "item"
+				item: "cookingforblockheads:fridge"
+			}]
+			rewards: [{
+				id: "63B97B1A09D737D8"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -13.0d
+			y: 5.0d
+			subtitle: "&a是奶罐不是玻璃罐，可别做错了"
+			dependencies: ["750E90D2BE3EF49F"]
+			id: "2B062F464CC05CFE"
+			tasks: [{
+				id: "1397264091D0BCDA"
+				type: "item"
+				item: "cookingforblockheads:milk_jar"
+			}]
+			rewards: [{
+				id: "3C0F4FE1C852BBEE"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -11.5d
+			y: 18.0d
+			subtitle: "&a使用蜂蜜苹果解除漂浮"
+			dependencies: ["5506EA8B955B802F"]
+			id: "172B8B90FB80CFAC"
+			tasks: [{
+				id: "77F230F134461170"
+				type: "advancement"
+				advancement: "buzzier_bees:husbandry/use_honey_apple"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "7D7F1E0370D2EDA5"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1F6DAD936B4BE518"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 18.0d
+			subtitle: "&a使用蜜汁猪排解除挖掘疲劳"
+			dependencies: ["172B8B90FB80CFAC"]
+			id: "6E1F826A30158B4D"
+			tasks: [{
+				id: "400E8438340B89F1"
+				type: "advancement"
+				advancement: "buzzier_bees:husbandry/use_glazed_porkchop"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "28F67D0472A441EA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "569295C2210F943C"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 9.0d
+			dependencies: ["0A9DCE2C89DC3961"]
+			id: "02515D7018A5E31A"
+			tasks: [{
+				id: "30ECBF4EA29B4182"
+				type: "item"
+				item: "endersdelight:endstone_stove"
+			}]
+			rewards: [
+				{
+					id: "279C457E75E3EAE7"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "20067381E60C7E95"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 7.0d
+			subtitle: "&a注意燃料"
+			description: ["&a左侧 UI 是潘马斯模组联动，不用管"]
+			dependencies: ["37FCB045E31E3F39"]
+			id: "6339B6026A47FEB6"
+			tasks: [{
+				id: "7BDBF139BEF12562"
+				type: "item"
+				item: "cookingforblockheads:oven"
+			}]
+			rewards: [{
+				id: "3B71E146C60A0B39"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+				count: 3
+			}]
+		}
+		{
+			x: -11.5d
+			y: 9.0d
+			subtitle: "无限冰、雪源"
+			description: ["&a不兼容Neapolitan模组的冰块"]
+			dependencies: ["73741E90CF9E6AA8"]
+			id: "0F07B202A2813317"
+			tasks: [{
+				id: "6104AA872A50DEF4"
+				type: "item"
+				item: "cookingforblockheads:ice_unit"
+			}]
+			rewards: [{
+				id: "0AF619D5DCFC58D6"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -10.0d
+			y: 5.0d
+			subtitle: "&b二向砧（"
+			description: ["先挖个洞然后把奶罐放在下面，然后用铁砧把牛砸进去。什么，洞要挖多深才能容得下一个罐子和牛在里边？"]
+			dependencies: ["2B062F464CC05CFE"]
+			id: "218D61C0E965FA5F"
+			tasks: [{
+				id: "0AB667A816349942"
+				type: "item"
+				item: "cookingforblockheads:cow_jar"
+			}]
+			rewards: [
+				{
+					id: "4BB3FE6CA55F2A42"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+				{
+					id: "2DF83A9A2056A871"
+					type: "item"
+					item: "farmersdelight:milk_bottle"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 7.0d
+			subtitle: "&b无限干净水源"
+			description: ["水源？喝水？那是什么...战斗包真的有必要加这玩意吗..."]
+			hide_dependency_lines: false
+			dependencies: ["73741E90CF9E6AA8"]
+			id: "37FCB045E31E3F39"
+			tasks: [{
+				id: "501C4DE8FA8A7CFC"
+				type: "item"
+				item: "cookingforblockheads:sink"
+			}]
+			rewards: [{
+				id: "2906B6B7329A8F43"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+				count: 3
+			}]
+		}
+		{
+			x: -37.0d
+			y: 12.0d
+			hide_dependency_lines: true
+			dependencies: ["14DD561DCC210BA4"]
+			hide: true
+			id: "350199CB4D295493"
+			tasks: [{
+				id: "4E393F23C0454662"
+				type: "item"
+				item: "overweight_farming:overweight_beetroot_block"
+			}]
+			rewards: [
+				{
+					id: "5C1FCB6DFB62F2CE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1805C08272137F57"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -29.5d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["14DD561DCC210BA4"]
+			id: "28CD188499210825"
+			tasks: [{
+				id: "0B0C82B50B985A9B"
+				type: "item"
+				item: "overweight_farming:overweight_carrot_block"
+			}]
+			rewards: [
+				{
+					id: "2F8BB7ABFE7689FE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "62A25F1555FB78E8"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -31.5d
+			y: 16.5d
+			hide_dependency_lines: true
+			dependencies: ["14DD561DCC210BA4"]
+			hide: false
+			id: "789CC51B374C3C02"
+			tasks: [{
+				id: "283786A47EA648CB"
+				type: "item"
+				item: "overweight_farming:overweight_cocoa_block"
+			}]
+			rewards: [
+				{
+					id: "74A5BAAEADD27C41"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "419C9739C0375499"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -30.5d
+			y: 18.5d
+			hide_dependency_lines: true
+			dependencies: ["14DD561DCC210BA4"]
+			hide: true
+			id: "567AFC1268A6D7AF"
+			tasks: [{
+				id: "43DE2B2CFA7F9854"
+				type: "item"
+				item: "overweight_farming:overweight_potato_block"
+			}]
+			rewards: [
+				{
+					id: "569AC9D6F154B5C8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "147C6BF004C4CB55"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -27.5d
+			y: 17.0d
+			description: ["&a放在火焰、营火上烤"]
+			dependencies: ["567AFC1268A6D7AF"]
+			id: "25624955E02963E1"
+			tasks: [{
+				id: "7A12B5CE36A8020B"
+				type: "item"
+				item: "overweight_farming:overweight_baked_potato_block"
+			}]
+			rewards: [
+				{
+					id: "116E641FB50431D5"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4B963B7CB86EC32A"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -33.0d
+			y: 7.0d
+			dependencies: ["71F0649D4830425B"]
+			id: "2917B55CF4B8C5C9"
+			tasks: [{
+				id: "53B3D2C5FF0B7437"
+				type: "item"
+				item: "overweight_farming:overweight_nether_wart_block"
+			}]
+			rewards: [
+				{
+					id: "02E907F7BCE5EDD0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "28E7D5952E70939C"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -25.5d
+			y: 9.5d
+			hide_dependency_lines: false
+			dependencies: ["14DD561DCC210BA4"]
+			id: "3BBB44E22E8BB04F"
+			tasks: [{
+				id: "014544C11712EF13"
+				type: "item"
+				item: "overweight_farming:overweight_poisonous_potato_block"
+			}]
+			rewards: [
+				{
+					id: "429D1907832B0EF9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "17A8128F1844DF3D"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -30.5d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["14DD561DCC210BA4"]
+			id: "71F0649D4830425B"
+			tasks: [{
+				id: "0E1BFBAE1F4CB28D"
+				type: "item"
+				item: "overweight_farming:overweight_apple_block"
+			}]
+			rewards: [
+				{
+					id: "02B0E8C8E96B992E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "301D6EE6BA089C31"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -28.0d
+			y: 7.0d
+			dependencies: ["71F0649D4830425B"]
+			id: "1A4A658ED803BF2B"
+			tasks: [{
+				id: "6CF00DFBF44861B0"
+				type: "item"
+				item: "overweight_farming:overweight_golden_apple_block"
+			}]
+			rewards: [
+				{
+					id: "1FF50C5092F677B7"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "27459E4F2A50B74D"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -26.0d
+			y: 11.0d
+			hide_dependency_lines: true
+			dependencies: ["14DD561DCC210BA4"]
+			id: "60935D41B6B1D26A"
+			tasks: [{
+				id: "28A937B1DAFD103E"
+				type: "item"
+				item: "overweight_farming:overweight_onion_block"
+			}]
+			rewards: [
+				{
+					id: "78107AEFCB507709"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0EE862BB401B01C7"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -25.5d
+			y: 14.5d
+			hide_dependency_lines: false
+			dependencies: ["14DD561DCC210BA4"]
+			id: "3725F0D643312C64"
+			tasks: [{
+				id: "7A877D4DF48E0AF8"
+				type: "item"
+				item: "overweight_farming:overweight_cabbage_block"
+			}]
+			rewards: [
+				{
+					id: "370C92CADFFAF7C3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "54856EEEC9536355"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -35.5d
+			y: 14.5d
+			dependencies: ["350199CB4D295493"]
+			id: "481E7DAE1407D199"
+			tasks: [{
+				id: "1F7880F90A7E13CB"
+				type: "item"
+				item: "overweight_farming:peeled_overweight_beetroot_block"
+			}]
+			rewards: [
+				{
+					id: "0B2D4333A3D1075D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "272C35CDFE5B91D6"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -31.5d
+			y: 7.5d
+			dependencies: ["28CD188499210825"]
+			id: "268822E0ECB18AD1"
+			tasks: [{
+				id: "56135606F530D82F"
+				type: "item"
+				item: "overweight_farming:peeled_overweight_carrot_block"
+			}]
+			rewards: [
+				{
+					id: "004909DE17336E51"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "06FCF6767476DEE2"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -33.5d
+			y: 17.0d
+			dependencies: ["567AFC1268A6D7AF"]
+			hide: true
+			id: "11EB5A303251A07F"
+			tasks: [{
+				id: "58B67383CB875698"
+				type: "item"
+				item: "overweight_farming:peeled_overweight_potato_block"
+			}]
+			rewards: [
+				{
+					id: "766A18B745EA333B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "37B9CDB1C34D995E"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -29.5d
+			y: 16.5d
+			dependencies: ["789CC51B374C3C02"]
+			id: "5F02C02AAFBD0B9E"
+			tasks: [{
+				id: "56104D39E01AFA0D"
+				type: "item"
+				item: "overweight_farming:peeled_overweight_cocoa_block"
+			}]
+			rewards: [
+				{
+					id: "02FC8B0F5D19DEFD"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "332F14F9E82A2EAE"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -26.0d
+			y: 13.0d
+			dependencies: ["60935D41B6B1D26A"]
+			id: "5438DAAFE7C45C0D"
+			tasks: [{
+				id: "23203779FB9C543F"
+				type: "item"
+				item: "overweight_farming:peeled_overweight_onion_block"
+			}]
+			rewards: [
+				{
+					id: "6A25924420BC00BD"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "67E416485A0C5283"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -33.5d
+			y: 11.0d
+			hide_dependency_lines: true
+			dependencies: ["6EFA08A6FAF82CF2"]
+			hide: true
+			id: "788C0E13060B3102"
+			tasks: [{
+				id: "418DB9F7A19A6AAB"
+				type: "item"
+				icon: "minecraft:beetroot"
+				item: "minecraft:beetroot"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "76C24D773083E0AA"
+					type: "xp"
+					xp: 288
+				}
+				{
+					id: "3BA292E91C0E15C0"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -31.5d
+			y: 9.0d
+			hide_dependency_lines: true
+			dependencies: ["6EFA08A6FAF82CF2"]
+			hide: true
+			id: "703077034BAEF03E"
+			tasks: [{
+				id: "4391ADA5E8F8B4E1"
+				type: "item"
+				item: "minecraft:potato"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1BC7F5C8D2811987"
+					type: "xp"
+					xp: 288
+				}
+				{
+					id: "2983F8476EFE9221"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -29.5d
+			y: 9.0d
+			hide_dependency_lines: true
+			dependencies: ["6EFA08A6FAF82CF2"]
+			hide: true
+			id: "32027FCFEA21B761"
+			tasks: [{
+				id: "0A8167E474CD9A37"
+				type: "item"
+				item: "minecraft:carrot"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "330DB7AC2BD1F96A"
+					type: "xp"
+					xp: 288
+				}
+				{
+					id: "6B8238C091513D88"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -29.0d
+			y: 10.5d
+			hide_dependency_lines: true
+			dependencies: ["6EFA08A6FAF82CF2"]
+			hide: true
+			id: "7B4AAC29ECF495E8"
+			tasks: [{
+				id: "7F312FDD20144969"
+				type: "item"
+				item: "minecraft:cocoa_beans"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "6DDF39E34C469815"
+					type: "xp"
+					xp: 288
+				}
+				{
+					id: "3FFC6ACED28B63A0"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -33.0d
+			y: 14.5d
+			hide_dependency_lines: true
+			dependencies: ["6EFA08A6FAF82CF2"]
+			hide: true
+			id: "395C5273DB8F7DF5"
+			tasks: [{
+				id: "3B5086A66061BDFE"
+				type: "item"
+				item: "minecraft:sugar_cane"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3A14D8CE455C8DCD"
+					type: "xp"
+					xp: 288
+				}
+				{
+					id: "077807B54BAB29F8"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -28.5d
+			y: 12.0d
+			hide_dependency_lines: true
+			dependencies: ["6EFA08A6FAF82CF2"]
+			hide: true
+			id: "0B649B4AA3232BA4"
+			tasks: [{
+				id: "5FE268579EBE4E5C"
+				type: "item"
+				item: "minecraft:sweet_berries"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2990372B4CD9336D"
+					type: "xp"
+					xp: 288
+				}
+				{
+					id: "600943DDFD0E30B5"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -31.5d
+			y: 15.0d
+			hide_dependency_lines: true
+			dependencies: ["6EFA08A6FAF82CF2"]
+			hide: true
+			id: "2088209562371E46"
+			tasks: [{
+				id: "59F8006A494C0FAC"
+				type: "item"
+				item: "minecraft:apple"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0595BE9AA66C428E"
+					type: "xp"
+					xp: 288
+				}
+				{
+					id: "50C8B928D4B2B035"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -33.0d
+			y: 9.5d
+			hide_dependency_lines: true
+			dependencies: ["6EFA08A6FAF82CF2"]
+			hide: true
+			id: "3A1643867673D6F9"
+			tasks: [{
+				id: "3D6AA8222BD73DE2"
+				type: "item"
+				item: "minecraft:wheat"
+				count: 128L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "24E0B3F4DB495133"
+					type: "xp"
+					xp: 288
+				}
+				{
+					id: "202C4676BAD0597E"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -35.5d
+			y: 9.5d
+			subtitle: "&b空调 WiFi 西瓜"
+			dependencies: ["350199CB4D295493"]
+			hide: true
+			id: "0CAF394BA687825A"
+			tasks: [{
+				id: "05A9274C5321FF57"
+				type: "item"
+				item: "overweight_farming:seedless_peeled_melon"
+				count: 8L
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "6A78C3E02A9F288C"
+					type: "item"
+					item: "minecraft:glistering_melon_slice"
+				}
+				{
+					id: "08E71BDE6EEF428F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0D908D344EF71121"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -33.5d
+			y: 13.0d
+			hide_dependency_lines: true
+			dependencies: ["6EFA08A6FAF82CF2"]
+			hide: true
+			id: "1C2A84E33CFA3D14"
+			tasks: [{
+				id: "2D0BD22652E8E5B6"
+				type: "item"
+				item: "farmersdelight:cabbage"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "756874793CBB52D5"
+					type: "xp"
+					xp: 288
+				}
+				{
+					id: "250CB19A22FC83A9"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -30.5d
+			y: 14.0d
+			hide_dependency_lines: true
+			dependencies: ["6EFA08A6FAF82CF2"]
+			hide: true
+			id: "34FAFBF3EEDEB62E"
+			tasks: [{
+				id: "0BECB41CACD83327"
+				type: "item"
+				item: "farmersdelight:onion"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2950918878B8510E"
+					type: "xp"
+					xp: 288
+				}
+				{
+					id: "0E3D8678F82698F1"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -27.5d
+			y: 11.0d
+			hide_dependency_lines: true
+			dependencies: ["6EFA08A6FAF82CF2"]
+			hide: true
+			id: "3E411F6781435778"
+			tasks: [{
+				id: "01ACCAC9A3052B16"
+				type: "item"
+				item: "farmersdelight:tomato"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4F4C1B1B74671EDE"
+					type: "xp"
+					xp: 288
+				}
+				{
+					id: "64C5DC0241C6C904"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -32.5d
+			y: 12.0d
+			hide_dependency_lines: true
+			dependencies: ["6EFA08A6FAF82CF2"]
+			hide: true
+			id: "6A70F43AAAF7999E"
+			tasks: [{
+				id: "4BA6FA53DC97D690"
+				type: "item"
+				item: "farmersdelight:rice"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2CDBCF507BD3B51A"
+					type: "xp"
+					xp: 288
+				}
+				{
+					id: "053D70FC01DAA89C"
+					type: "item"
+					item: "dotcoinmod:iron_coin"
+				}
+			]
+		}
+		{
+			x: -29.0d
+			y: 13.5d
+			hide_dependency_lines: true
+			dependencies: ["6EFA08A6FAF82CF2"]
+			hide: true
+			id: "33404E49FDB70641"
+			tasks: [{
+				id: "1A9829A5CDCEA7A5"
+				type: "item"
+				item: "minecraft:melon_slice"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2BC78A7B6F9F982B"
+					type: "xp"
+					xp: 288
+				}
+				{
+					id: "4A5CF63965A6CAB7"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -29.5d
+			y: 15.0d
+			hide_dependency_lines: true
+			dependencies: ["6EFA08A6FAF82CF2"]
+			hide: true
+			id: "24781C749AEC23B6"
+			tasks: [{
+				id: "77F404F3142A5712"
+				type: "item"
+				item: "minecraft:glow_berries"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "6D21794842527B13"
+					type: "xp"
+					xp: 288
+				}
+				{
+					id: "06126DE4CE4FDB5D"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -30.5d
+			y: 10.0d
+			hide_dependency_lines: true
+			dependencies: ["6EFA08A6FAF82CF2"]
+			hide: true
+			id: "3E7A71D08F9CA265"
+			tasks: [{
+				id: "701D6E976A71673F"
+				type: "item"
+				item: "minecraft:dried_kelp_block"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2C060902C626DD27"
+					type: "xp"
+					xp: 360
+				}
+				{
+					id: "3EC7642D220AB4D2"
+					type: "item"
+					item: "dotcoinmod:iron_coin"
+				}
+			]
+		}
+		{
+			x: -27.5d
+			y: 13.0d
+			hide_dependency_lines: true
+			dependencies: ["6EFA08A6FAF82CF2"]
+			hide: true
+			id: "1599BC237F4DEFE3"
+			tasks: [{
+				id: "5C414B880FD1804D"
+				type: "item"
+				item: "ecologics:prickly_pear"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "04F7C0DEE6E4E5CE"
+					type: "xp"
+					xp: 288
+				}
+				{
+					id: "3AB10CD1085655CC"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -32.0d
+			y: 13.5d
+			hide_dependency_lines: true
+			dependencies: ["6EFA08A6FAF82CF2"]
+			hide: true
+			id: "22CDCB617F392426"
+			tasks: [{
+				id: "06848FA01A963479"
+				type: "item"
+				item: "neapolitan:adzuki_beans"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "04707E89B50CFC0C"
+					type: "xp"
+					xp: 288
+				}
+				{
+					id: "4ED2FE6AB3A8D06F"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -32.0d
+			y: 10.5d
+			hide_dependency_lines: true
+			dependencies: ["6EFA08A6FAF82CF2"]
+			hide: true
+			id: "499BA39CA6995472"
+			tasks: [{
+				id: "7788AF31A2014561"
+				type: "item"
+				item: "neapolitan:mint_leaves"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7BA862A01589CF18"
+					type: "xp"
+					xp: 288
+				}
+				{
+					id: "7DE7108D47E0BE53"
+					type: "item"
+					item: "dotcoinmod:iron_coin"
+				}
+			]
+		}
+		{
+			title: "&b真&f·&4终&6极&a奉&d献"
+			icon: {
+				id: "minecraft:netherite_hoe"
+				Count: 1b
+				tag: {
+					RepairCost: 7
+					"quark:RuneAttached": 1b
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 50s
+							id: "majruszsenchantments:harvester"
+						}
+						{
+							lvl: 6s
+							id: "minecraft:fortune"
+						}
+						{
+							lvl: 6s
+							id: "minecraft:looting"
+						}
+						{
+							lvl: 1s
+							id: "minecraft:mending"
+						}
+					]
+					display: {
+						Lore: ["[{\"text\":\"千\",\"color\":\"red\"},{\"text\":\"顷\",\"color\":\"green\"},{\"text\":\"金\",\"color\":\"gold\"},{\"text\":\"黄\",\"color\":\"yellow\"},{\"text\":\"接\",\"color\":\"aqua\"},{\"text\":\"远\",\"color\":\"light_purple\"},{\"text\":\"天\",\"color\":\"blue\"}]"]
+						Name: "[{\"text\":\"真\",\"color\":\"red\",\"italic\":true,\"bold\":true},{\"text\":\"·\",\"color\":\"gold\"},{\"text\":\"终\",\"color\":\"green\"},{\"text\":\"极\",\"color\":\"aqua\"},{\"text\":\"奉\",\"color\":\"yellow\"},{\"text\":\"献\",\"color\":\"light_purple\"}]"
+					}
+					"quark:RuneColor": {
+						id: "quark:light_gray_rune"
+						Count: 1b
+					}
+				}
+			}
+			x: -30.5d
+			y: 12.0d
+			subtitle: "&b饱经忧患，唯稻香与美食生生不息"
+			hide_dependency_lines: true
+			dependencies: [
+				"703077034BAEF03E"
+				"6A70F43AAAF7999E"
+				"1C2A84E33CFA3D14"
+				"0B649B4AA3232BA4"
+				"2088209562371E46"
+				"499BA39CA6995472"
+				"32027FCFEA21B761"
+				"3E7A71D08F9CA265"
+				"22CDCB617F392426"
+				"1599BC237F4DEFE3"
+				"395C5273DB8F7DF5"
+				"788C0E13060B3102"
+				"24781C749AEC23B6"
+				"34FAFBF3EEDEB62E"
+				"3A1643867673D6F9"
+				"3E411F6781435778"
+				"7B4AAC29ECF495E8"
+				"33404E49FDB70641"
+				"350199CB4D295493"
+				"567AFC1268A6D7AF"
+				"11EB5A303251A07F"
+				"71F0649D4830425B"
+				"60935D41B6B1D26A"
+				"1A4A658ED803BF2B"
+				"28CD188499210825"
+				"25624955E02963E1"
+				"0CAF394BA687825A"
+				"22504DE0D7404030"
+				"75226B92AC7A734C"
+				"5438DAAFE7C45C0D"
+				"481E7DAE1407D199"
+				"3725F0D643312C64"
+			]
+			hide: true
+			id: "4F54B379FA82D3C5"
+			tasks: [{
+				id: "5AD1EC4A4D69B709"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "26C3826AC56CBD94"
+					type: "item"
+					item: "skewers:skewer_algae"
+				}
+				{
+					id: "1B09EFE87850EFE8"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_hoe"
+						Count: 1b
+						tag: {
+							RepairCost: 7
+							"quark:RuneAttached": 1b
+							Damage: 0
+							Enchantments: [
+								{
+									lvl: 50s
+									id: "majruszsenchantments:harvester"
+								}
+								{
+									lvl: 8s
+									id: "minecraft:fortune"
+								}
+								{
+									lvl: 8s
+									id: "minecraft:looting"
+								}
+								{
+									lvl: 1s
+									id: "minecraft:mending"
+								}
+							]
+							display: {
+								Lore: ["[{\"text\":\"千\",\"color\":\"red\"},{\"text\":\"顷\",\"color\":\"green\"},{\"text\":\"金\",\"color\":\"gold\"},{\"text\":\"黄\",\"color\":\"yellow\"},{\"text\":\"接\",\"color\":\"aqua\"},{\"text\":\"远\",\"color\":\"light_purple\"},{\"text\":\"天\",\"color\":\"blue\"}]"]
+								Name: "[{\"text\":\"真\",\"color\":\"red\",\"italic\":true,\"bold\":true},{\"text\":\"·\",\"color\":\"gold\"},{\"text\":\"终\",\"color\":\"green\"},{\"text\":\"极\",\"color\":\"aqua\"},{\"text\":\"奉\",\"color\":\"yellow\"},{\"text\":\"献\",\"color\":\"light_purple\"}]"
+							}
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:light_gray_rune"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -35.0d
+			y: 13.0d
+			hide_dependency_lines: true
+			dependencies: ["14DD561DCC210BA4"]
+			id: "75226B92AC7A734C"
+			tasks: [{
+				id: "13E228B7C036F314"
+				type: "item"
+				item: "delightful:mini_melon"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "56CDCD9D77E169E9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6D51A07EFE255405"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -35.0d
+			y: 11.0d
+			dependencies: ["75226B92AC7A734C"]
+			hide: true
+			id: "22504DE0D7404030"
+			tasks: [{
+				id: "34F251D08A99EDA0"
+				type: "item"
+				item: "overweight_farming:waxed_seedless_peeled_melon"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "119F21DA590AC370"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "160319FB61539A64"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+			]
+		}
+		{
+			icon: "overweight_farming:overweight_cabbage_block"
+			x: -24.0d
+			y: 12.0d
+			description: ["&a作物有小概率生成巨型种，试着收获它们找农民吧！"]
+			dependencies: ["6EFA08A6FAF82CF2"]
+			hide: true
+			id: "14DD561DCC210BA4"
+			tasks: [{
+				id: "79872C02AC691428"
+				type: "checkmark"
+				title: "我的农田和作物们"
+			}]
+			rewards: [
+				{
+					id: "5796334D60C42B69"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "781CD11977575BE4"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+			]
+		}
+		{
+			icon: {
+				id: "aquaculture:neptunium_hoe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -21.0d
+			y: 12.0d
+			shape: "rsquare"
+			subtitle: "&6人生的第一把锄头"
+			description: [
+				"&a不照顾你的农田就会产生野草，在农田上方放上方块可以解决此问题&c（包括玻璃）"
+				""
+				"古代智慧：时运镐可增加作物产量，这可是原版知识。"
+			]
+			dependencies: ["2BEBCCACD4F7794E"]
+			hide: true
+			size: 2.0d
+			id: "6EFA08A6FAF82CF2"
+			tasks: [{
+				id: "6E77A9F70F71A51C"
+				type: "advancement"
+				icon: {
+					id: "aquaculture:neptunium_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecraft:husbandry/plant_seed"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "021B4194B2867320"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "31ABC3AA4E4CE2D6"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "肥料"
+			x: -23.0d
+			y: 10.5d
+			subtitle: "&6“金坷垃，不流失不蒸发，零浪费！”"
+			dependencies: ["6EFA08A6FAF82CF2"]
+			hide: true
+			id: "73C2BFBBAD43A67A"
+			tasks: [
+				{
+					id: "2A6B197D85A05EC9"
+					type: "item"
+					item: "farmingforblockheads:green_fertilizer"
+				}
+				{
+					id: "712F9CB06AC689EB"
+					type: "item"
+					item: "farmingforblockheads:red_fertilizer"
+				}
+				{
+					id: "2DC06E67D8A79389"
+					type: "item"
+					item: "farmingforblockheads:yellow_fertilizer"
+				}
+			]
+			rewards: [{
+				id: "2F1A1429C880EB18"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+				count: 8
+			}]
+		}
+		{
+			x: -23.0d
+			y: 13.5d
+			subtitle: "&6鸡棚永不塌陷！"
+			dependencies: ["6EFA08A6FAF82CF2"]
+			hide: true
+			id: "2A4C1A44F4DBF110"
+			tasks: [
+				{
+					id: "267D7F9835FC2A7E"
+					type: "item"
+					item: "farmingforblockheads:feeding_trough"
+				}
+				{
+					id: "33EDBDE2B438D09B"
+					type: "item"
+					item: "farmingforblockheads:chicken_nest"
+				}
+			]
+			rewards: [{
+				id: "7349CF7E49E540D1"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+				count: 4
+			}]
+		}
+		{
+			x: -24.0d
+			y: 16.0d
+			subtitle: "&6要像爱护&c&n温室&r&6的花朵一样爱护你的作物"
+			description: ["&a由于静谧四季模组，非应季作物生长速度极慢，除非..."]
+			hide_dependency_lines: false
+			dependencies: ["6EFA08A6FAF82CF2"]
+			hide: true
+			id: "3E2C6662965AEBFB"
+			tasks: [{
+				id: "46850D715BF9CB88"
+				type: "item"
+				item: "minecraft:glass"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "7F48A04C9EAD710F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3819831DB3E6A1C3"
+					type: "item"
+					item: "minecraft:glass"
+					count: 32
+				}
+			]
+		}
+		{
+			x: -28.0d
+			y: 9.5d
+			hide_dependency_lines: true
+			dependencies: ["6EFA08A6FAF82CF2"]
+			hide: true
+			id: "7BCFCECC3A6B2136"
+			tasks: [{
+				id: "6A0FE4DBC1F8C7B7"
+				type: "item"
+				item: "miners_delight:cave_carrot"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3001CE4184B7CA04"
+					type: "xp"
+					xp: 288
+				}
+				{
+					id: "5F0CF129DED9F8DC"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -28.0d
+			y: 14.5d
+			hide_dependency_lines: true
+			dependencies: ["6EFA08A6FAF82CF2"]
+			hide: true
+			id: "094B6009CB5E746B"
+			tasks: [{
+				id: "0C8B93CE01879E87"
+				type: "item"
+				item: "minecraft:chorus_fruit"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "115AC32EF5CD9415"
+					type: "xp"
+					xp: 288
+				}
+				{
+					id: "03F5D2919BFDC4DE"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "一觉醒来天黑了"
+			x: -24.0d
+			y: 8.0d
+			subtitle: "&a用来跳过白天"
+			dependencies: ["6EFA08A6FAF82CF2"]
+			hide: true
+			id: "74BBD8392CA8ECC9"
+			tasks: [
+				{
+					id: "46D1D60CDDA408F0"
+					type: "item"
+					item: "comforts:sleeping_bag_white"
+				}
+				{
+					id: "4B7AA31DDDB09951"
+					type: "item"
+					item: "comforts:hammock_white"
+				}
+				{
+					id: "3C18B62564F59761"
+					type: "item"
+					item: "comforts:rope_and_nail"
+				}
+			]
+			rewards: [{
+				id: "7B894E742737ABFC"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "&6&l欢迎光临~"
+			icon: "supplementaries:hanging_sign_spruce"
+			x: -2.5d
+			y: 11.875d
+			subtitle: "&m会 员 制 餐 厅（误）"
+			description: [
+				"&a“快点端上来吧（摊手），我已经等不及力！”"
+				"&a“新版的美食商店已搬迁至&c小市场&a了哦”"
+			]
+			dependencies: ["5A9F9EB7F003AE4E"]
+			size: 1.25d
+			id: "0155F5F54A13B054"
+			tasks: [{
+				id: "2967483FAB197E4E"
+				type: "checkmark"
+				title: "偶尔下下馆子也不错吧……"
+			}]
+			rewards: [{
+				id: "7C723D72B4F68232"
+				type: "item"
+				item: {
+					id: "minecraft:paper"
+					Count: 1b
+					tag: {
+						RepairCost: 1
+						"quark:RuneAttached": 1b
+						Enchantments: [{
+							lvl: 1s
+							id: "minecraft:mending"
+						}]
+						display: {
+							Name: "{\"text\":\"优惠券(已过期)\"}"
+						}
+						"quark:RuneColor": {
+							id: "quark:orange_rune"
+							Count: 1b
+						}
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

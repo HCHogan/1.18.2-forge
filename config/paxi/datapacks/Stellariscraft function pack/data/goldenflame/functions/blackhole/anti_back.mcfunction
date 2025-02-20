@@ -1,0 +1,1 @@
+execute as @e[type=jobinsmobs:goldenflame,sort=nearest,tag=anti_form] run indestructible @s set_phase 6

@@ -1,0 +1,1374 @@
+{
+	id: "28BDB702620F9898"
+	group: "6878AB6C16119261"
+	order_index: 0
+	filename: "6_4"
+	title: "奇珍异兽"
+	icon: {
+		id: "blue_skies:life_arc"
+		Count: 1b
+		tag: {
+			ArcLevel: 0
+			RepairCost: 1
+			"quark:RuneAttached": 1b
+			Enchantments: [{
+				lvl: 3s
+				id: "minecraft:unbreaking"
+			}]
+			"quark:RuneColor": {
+				id: "quark:orange_rune"
+				Count: 1b
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.5d
+		y: -11.0d
+		width: 5.0d
+		height: 5.0d
+		rotation: 0.0d
+		image: "blackaures_paintings:textures/p21.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+		dependency: "613EFA633560151B"
+	}]
+	quests: [
+		{
+			title: "&6所谓“异兽”"
+			icon: {
+				id: "blue_skies:life_arc"
+				Count: 1b
+				tag: {
+					ArcLevel: 0
+				}
+			}
+			x: 7.5d
+			y: -11.0d
+			shape: "hexagon"
+			subtitle: "&e在群星手册里有这些龙的详细记载！"
+			description: [
+				"优秀的冒险家一定拥有优秀的侍从，坐骑自然也算是侍从吧"
+				""
+				"                      现在龙可以被&b“笼子”&r所携带了"
+			]
+			dependencies: ["613EFA633560151B"]
+			hide: true
+			dependency_requirement: "one_completed"
+			size: 2.0d
+			id: "6A63308276802DC8"
+			tasks: [{
+				id: "0674A2940F44C39F"
+				type: "checkmark"
+				title: "关于宠物"
+			}]
+		}
+		{
+			title: "蘑孢灵"
+			icon: "cnb:sporeling_overworld_egg"
+			x: 11.5d
+			y: -1.5d
+			description: [
+				"可爱的小家伙……它当然不是坐骑，不过似乎能够祛除物品上的诅咒。"
+				"&6常见于沼泽，蘑菇岛，黑森林"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6A63308276802DC8"]
+			id: "7F0DDA22FC1D5F1F"
+			tasks: [{
+				id: "40EE7335032E3BA4"
+				type: "item"
+				item: {
+					id: "supplementaries:jar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							MobHolder: {
+								EntityData: {
+									GraceRecharged: 1b
+									Brain: {
+										memories: { }
+									}
+									HurtByTimestamp: 0
+									ForgeData: {
+										"Void TotemLastSaveBlockPos": -28587302031294L
+										"enhancedai:follow_ranges_processed": 1b
+									}
+									Sitting: 0b
+									Attributes: [
+										{
+											Base: 0.0d
+											Name: "forge:step_height_addition"
+										}
+										{
+											Base: 17.0d
+											Name: "enhancedai:generic.xray_follow_range"
+										}
+										{
+											Base: 0.2d
+											Name: "minecraft:generic.movement_speed"
+										}
+										{
+											Base: 1.0d
+											Name: "forge:swim_speed"
+										}
+										{
+											Base: 0.08d
+											Name: "forge:entity_gravity"
+										}
+										{
+											Base: 35.0d
+											Modifiers: [{
+												Operation: 1
+												UUID: [I;
+													2115146542
+													935282300
+													-1930436991
+													767528366
+												]
+												Amount: 0.04568117580834721d
+												Name: "Random spawn bonus"
+											}]
+											Name: "minecraft:generic.follow_range"
+										}
+									]
+									Invulnerable: 0b
+									FallFlying: 0b
+									ForcedAge: 0
+									PortalCooldown: 0
+									AbsorptionAmount: 0.0f
+									FallDistance: 0.0f
+									InLove: 0
+									SporelingType: "cnb:red_overworld"
+									CanUpdate: 1b
+									DeathTime: 0s
+									ForgeCaps: {
+										"mowziesmobs:living_cap": { }
+										"mowziesmobs:frozen_cap": {
+											frozenYaw: 0.0f
+											freezeProgress: 0.0f
+											frozenPitch: 0.0f
+											freezeDecayDelay: 0
+											prevHasAI: 1b
+											frozenYawHead: 0.0f
+											frozen: 0b
+											frozenLimbSwingAmount: 0.0f
+											prevFrozen: 0b
+											frozenRenderYawOffset: 0.0f
+											frozenSwingProgress: 0.0f
+										}
+										"structure_gel:gel_entity": {
+											portal: "structure_gel:empty"
+										}
+										"lodestone:entity_data": { }
+										"mowziesmobs:ability": { }
+										"mowziesmobs:frozen": {
+											frozenYaw: 0.0f
+											freezeProgress: 0.0f
+											frozenPitch: 0.0f
+											freezeDecayDelay: 0
+											prevHasAI: 1b
+											frozenYawHead: 0.0f
+											frozen: 0b
+											frozenLimbSwingAmount: 0.0f
+											prevFrozen: 0b
+											frozenRenderYawOffset: 0.0f
+											frozenSwingProgress: 0.0f
+										}
+										"mowziesmobs:last_damage": { }
+										"minecraft:treechopchop_settings_capability": {
+											isSynced: 0b
+											choppingEnabled: 1b
+											fellingEnabled: 1b
+											sneakBehavior: "INVERT_CHOPPING"
+											treesMustHaveLeaves: 1b
+											chopInCreativeMode: 0b
+										}
+										"pollen:synced_data": { }
+									}
+									HandDropChances: [
+										0.085f
+										0.085f
+									]
+									PersistenceRequired: 1b
+									id: "cnb:sporeling"
+									Age: 0
+									Motion: [
+										0.0d
+										-0.0784000015258789d
+										0.0d
+									]
+									Health: 16.0f
+									KubeJSPersistentData: { }
+									LeftHanded: 0b
+									Air: 300s
+									OnGround: 1b
+									CitadelData: { }
+									Rotation: [
+										0.0f
+										0.0f
+									]
+									HandItems: [
+										{ }
+										{ }
+									]
+									ArmorDropChances: [
+										0.085f
+										0.085f
+										0.085f
+										0.085f
+									]
+									Pos: [
+										0.5d
+										0.0626d
+										0.5d
+									]
+									Fire: 0s
+									ArmorItems: [
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+									CanPickUpLoot: 0b
+									HurtTime: 0s
+								}
+								Scale: 0.625f
+								UUID: [I;
+									-1843672821
+									-1510191902
+									-1190293451
+									-459225986
+								]
+								Name: "蘑孢灵"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "75F6C1E7C3E9DDB1"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "末地鲸"
+			x: 9.5d
+			y: -1.5d
+			description: ["偏爱紫颂果的神秘生物……"]
+			hide_dependency_lines: true
+			dependencies: ["6A63308276802DC8"]
+			id: "2B4F89132EA7EEBE"
+			tasks: [{
+				id: "770D011F74EFE20B"
+				type: "item"
+				item: "cnb:end_whale_spawn_egg"
+			}]
+			rewards: [{
+				id: "56CECCDE0A7CABD6"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "烈焰狂魔"
+			x: 7.5d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["6A63308276802DC8"]
+			id: "14D921FD682A3F6C"
+			tasks: [{
+				id: "71AFBC01671498DC"
+				type: "advancement"
+				advancement: "isleofberk:stoker"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "098C4048BAD24867"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "葛伦科龙"
+			x: 9.5d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["6A63308276802DC8"]
+			id: "62EF25A4B3B3C7AB"
+			tasks: [{
+				id: "405C54E850628B56"
+				type: "advancement"
+				advancement: "isleofberk:boulder"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7C0E094F3908CFC8"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "疾刺龙"
+			x: 11.5d
+			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["6A63308276802DC8"]
+			id: "077ADC7C02752FBC"
+			tasks: [{
+				id: "040F097D12FFCD7F"
+				type: "advancement"
+				advancement: "isleofberk:sharp"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4AD68AED09CA5320"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "致命纳德"
+			x: 13.5d
+			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["6A63308276802DC8"]
+			id: "3009BCC17CEC9140"
+			tasks: [{
+				id: "06825E8C486FFB5D"
+				type: "advancement"
+				advancement: "isleofberk:tracker"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5F22ACA10195DB49"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "丑陋双头龙"
+			x: 9.5d
+			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["6A63308276802DC8"]
+			id: "6728E2A6A036205C"
+			tasks: [{
+				id: "77823D313F9CDA48"
+				type: "advancement"
+				advancement: "isleofberk:mystery"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2820267727877994"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "夜煞"
+			x: 7.5d
+			y: -6.5d
+			subtitle: "不知道你是否看过《驯█高手》……"
+			hide_dependency_lines: true
+			dependencies: ["6A63308276802DC8"]
+			id: "12B01359A8620C64"
+			tasks: [{
+				id: "3F7671C8CEA9D8EF"
+				type: "advancement"
+				advancement: "isleofberk:strike"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "565FD105747515FF"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "光煞"
+			x: 13.5d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["6A63308276802DC8"]
+			id: "0D8B6C43C97B37D5"
+			tasks: [{
+				id: "06B0AF310DE09AEF"
+				type: "advancement"
+				advancement: "isleofberk:light_fury"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4C497B4C26595BD5"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "夜光"
+			x: 11.5d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["6A63308276802DC8"]
+			id: "71DA428A812CFB89"
+			tasks: [{
+				id: "6DC89D59C2D8D32D"
+				type: "advancement"
+				advancement: "isleofberk:night_fury"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7AF5B61B7CBA06A8"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "炽岩"
+			x: 13.5d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["6A63308276802DC8"]
+			id: "06D60B62BD14CFB9"
+			tasks: [{
+				id: "19E69AE6A0D8FB27"
+				type: "item"
+				item: "alexsmobs:spawn_egg_laviathan"
+			}]
+			rewards: [{
+				id: "30B781414FFAA88B"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 17.5d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["6A63308276802DC8"]
+			id: "1FB96E498790386E"
+			tasks: [{
+				id: "31D6526011394B56"
+				type: "item"
+				item: "cnb:cindershell_bucket"
+			}]
+			rewards: [{
+				id: "3A56A65AEDD3C544"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 17.5d
+			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["6A63308276802DC8"]
+			id: "15CD69EBB08CB109"
+			tasks: [{
+				id: "22B4CE81709EF498"
+				type: "item"
+				item: "minecraft:axolotl_bucket"
+			}]
+			rewards: [{
+				id: "61EE903C6F1CA4B1"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 15.5d
+			y: -6.5d
+			subtitle: "&6卡瓦！！！"
+			hide_dependency_lines: true
+			dependencies: ["6A63308276802DC8"]
+			id: "107ACE0D29F8A1EE"
+			tasks: [{
+				id: "1690A098E2B722CF"
+				type: "item"
+				item: "crittersandcompanions:dumbo_octopus_bucket"
+			}]
+			rewards: [{
+				id: "7D2DB6DA6E323A18"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 15.5d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["6A63308276802DC8"]
+			id: "1390C959934F1681"
+			tasks: [{
+				id: "0AE8EC2A7E5932B0"
+				type: "item"
+				item: "quark:slime_in_a_bucket"
+			}]
+			rewards: [{
+				id: "2295410960AC8943"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "蘑菇苦力怕"
+			x: 15.5d
+			y: -1.5d
+			description: ["“小伙子是友善的……”"]
+			hide_dependency_lines: true
+			dependencies: ["6A63308276802DC8"]
+			id: "4D73213ABB2F53AF"
+			tasks: [{
+				id: "19A6AE33E019F92E"
+				type: "item"
+				item: "creeperoverhaul:mushroom_creeper_spawn_egg"
+			}]
+			rewards: [{
+				id: "4575B2C6FAD53B18"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "盔甲匠"
+			x: -15.5d
+			y: -4.0d
+			subtitle: "出售&6紧急逃生技能书"
+			description: [
+				"盔甲匠会回收一些金属块，并且也会为你提供廉价的基础附魔护甲。"
+				""
+			]
+			hide_dependency_lines: true
+			dependencies: ["315436379A0714ED"]
+			id: "2DDD0E739799D329"
+			tasks: [{
+				id: "1C428C0F09571EB6"
+				type: "item"
+				item: "minecraft:blast_furnace"
+			}]
+			rewards: [{
+				id: "34E539E0D8E62D03"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "屠夫"
+			x: -18.5d
+			y: -6.0d
+			subtitle: "出售&6狂战士技能书"
+			description: ["屠夫会提供一些美味的&n&6肉类。"]
+			hide_dependency_lines: true
+			dependencies: ["315436379A0714ED"]
+			id: "071B6DF653A2E326"
+			tasks: [{
+				id: "0AB46FDFFAF06869"
+				type: "item"
+				item: "minecraft:smoker"
+			}]
+			rewards: [{
+				id: "27D6479788876E32"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "制图师"
+			x: -14.5d
+			y: -6.0d
+			subtitle: "出售&6瞬步技能书"
+			description: ["制图师出售&n&6探险者指南针和自然指南针&r，用于寻找遗迹地牢和生物群系，以及一些稀有的&e传送道具&r。"]
+			hide_dependency_lines: true
+			dependencies: ["315436379A0714ED"]
+			id: "403DFE7C4A107ABD"
+			tasks: [{
+				id: "2C5925D86FB48ED0"
+				type: "item"
+				item: "minecraft:cartography_table"
+			}]
+			rewards: [{
+				id: "206FA4DB724CEB41"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "牧师"
+			x: -10.5d
+			y: -6.0d
+			description: ["牧师会出售&n&6混合酿造台和强化炼药锅&r，同时&n&6沙风之眼和末影珍珠&r也在他的收藏当中。"]
+			hide_dependency_lines: true
+			dependencies: ["315436379A0714ED"]
+			id: "2E62D07123AFD112"
+			tasks: [{
+				id: "7018BA967952C45D"
+				type: "item"
+				item: "minecraft:brewing_stand"
+			}]
+			rewards: [{
+				id: "2AD1E1BDB8FA3EED"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "农民"
+			x: -6.5d
+			y: -6.0d
+			subtitle: "出售&6超强活力技能书"
+			description: ["农民会出售&n&6白色马勃菌菌盖和部分食物&r。甚至会出售一些十分美味的&e食材&r！"]
+			hide_dependency_lines: true
+			dependencies: ["315436379A0714ED"]
+			id: "61F8E1EB12497855"
+			tasks: [{
+				id: "7D77ADA37D35FFE8"
+				type: "item"
+				item: "minecraft:composter"
+			}]
+			rewards: [{
+				id: "2E051F2F19CEBFFA"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "渔夫"
+			x: -12.5d
+			y: -6.0d
+			subtitle: "出售&6耐力掠夺者技能书"
+			description: ["渔夫会出售一种微微泛光的&n&6珍珠和珍珠项链&r，似乎能提高与水的亲和力，此外他还收藏着锻造传说中&b海王装备&r的材料。"]
+			hide_dependency_lines: true
+			dependencies: ["315436379A0714ED"]
+			id: "6DD731077C2988F8"
+			tasks: [{
+				id: "011C8EF2B0498158"
+				type: "item"
+				item: "minecraft:barrel"
+			}]
+			rewards: [{
+				id: "5844D5836A33A269"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			x: -13.5d
+			y: -4.0d
+			subtitle: "出售&6耐力技能书"
+			description: ["会出售一些特殊的箭头，还有&n&6无限附魔书&r！"]
+			hide_dependency_lines: true
+			dependencies: ["315436379A0714ED"]
+			id: "0E6BAF354BF512EF"
+			tasks: [{
+				id: "3FD7D66A5010876B"
+				type: "item"
+				item: "minecraft:fletching_table"
+			}]
+			rewards: [{
+				id: "0230F75B289B8598"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "皮匠"
+			x: -17.5d
+			y: -4.0d
+			subtitle: "出售&6技巧大师技能书"
+			description: ["皮匠会出售&n&6黏液球和训练人偶&r，说不定你可以和他打听打听&b雪人&r身上的秘密。"]
+			hide_dependency_lines: true
+			dependencies: ["315436379A0714ED"]
+			id: "133247AE5E13AAA6"
+			tasks: [{
+				id: "7C1BEB4B9DB5B365"
+				type: "item"
+				item: "minecraft:cauldron"
+			}]
+			rewards: [{
+				id: "1D5FEE1515B41C72"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "图书管理员"
+			x: -11.5d
+			y: -4.0d
+			subtitle: "出售&6翻滚技能书"
+			description: ["图书管理员出售&n&6附魔台和附魔书&r等重要道具。"]
+			hide_dependency_lines: true
+			dependencies: ["315436379A0714ED"]
+			id: "0AD1C40F05C1E1F6"
+			tasks: [{
+				id: "41EEA18323C677BA"
+				type: "item"
+				item: "minecraft:lectern"
+			}]
+			rewards: [{
+				id: "12A20ED4A5B3D765"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "石匠"
+			x: -7.5d
+			y: -4.0d
+			subtitle: "出售&n&6招架技能书&r，此外他也经营&n&6建材&r的回收与出售"
+			description: ["&a也可以切割一些轻质材料，如铁护腿，金胸甲，钻石马铠等。"]
+			hide_dependency_lines: true
+			dependencies: ["315436379A0714ED"]
+			id: "44205E006DF7BF69"
+			tasks: [{
+				id: "57BC3F152E3F3BCD"
+				type: "item"
+				item: "minecraft:stonecutter"
+			}]
+			rewards: [{
+				id: "6E7496C88F2D5E22"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "牧羊人"
+			x: -9.5d
+			y: -4.0d
+			description: ["好吃的&n&6羊肉食物&r，牧羊人生来就是为这个而生的！"]
+			hide_dependency_lines: true
+			dependencies: ["315436379A0714ED"]
+			id: "762A96CAE2388F1F"
+			tasks: [{
+				id: "4AF6AE01C9B2F7BA"
+				type: "item"
+				item: "minecraft:loom"
+			}]
+			rewards: [{
+				id: "231842DBDDB32F7F"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "工具匠"
+			x: -16.5d
+			y: -6.0d
+			subtitle: "出售&6冲击防御技能书"
+			description: [
+				"工具匠会回收和出售一些珍贵的&n&6矿物&r，同时出售&n&6附魔的镐子&r， 以及&n&6烟花火箭和锻造晶石&r！相传他精通武器的打磨，珍藏着极高品质的&a匕首&r！"
+				""
+			]
+			hide_dependency_lines: true
+			dependencies: ["315436379A0714ED"]
+			id: "1C3018BD637F611E"
+			tasks: [{
+				id: "7D305C59750D651B"
+				type: "item"
+				item: "minecraft:smithing_table"
+			}]
+			rewards: [{
+				id: "4AFA033DF56A5F9A"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "武器匠"
+			x: -8.5d
+			y: -6.0d
+			subtitle: "出售&6剑圣技能书"
+			description: [
+				"武器匠会出售&n&6强化晶石&r！"
+				""
+			]
+			hide_dependency_lines: true
+			dependencies: ["315436379A0714ED"]
+			id: "15A009E14A4A2778"
+			tasks: [{
+				id: "1D55682801676B0A"
+				type: "item"
+				item: "minecraft:grindstone"
+			}]
+			rewards: [{
+				id: "57DA10B7F9052DA4"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.75d
+			description: ["召唤师拥有&n&6毒刺龙蛋和光煞龙蛋&r！并且他有&n&6回复生命的法术书&r。"]
+			hide_dependency_lines: true
+			dependencies: ["315436379A0714ED"]
+			id: "35BFBCD1251908C7"
+			tasks: [{
+				id: "104EA53DCA26EB00"
+				type: "item"
+				item: "blue_skies:summoning_table"
+			}]
+			rewards: [{
+				id: "50B6DA0558FF955A"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "炼金师"
+			x: -15.5d
+			y: -1.75d
+			description: ["炼金师会回收大量的&n&6炼金素材&r，作为回报，他也会将他收藏的&n&6珍贵饰品&r卖给你。"]
+			hide_dependency_lines: true
+			dependencies: ["315436379A0714ED"]
+			id: "70324C679731B1E0"
+			tasks: [{
+				id: "119C8D0ACD3F120C"
+				type: "item"
+				item: "blue_skies:alchemy_table"
+			}]
+			rewards: [{
+				id: "2EA53238657E120E"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "铲雪者"
+			x: -17.5d
+			y: -1.75d
+			description: ["铲雪者会出售&n&6蔚蓝地牢的钥匙&r，此外他还提供至关重要的&b雪人&r的情报！！"]
+			hide_dependency_lines: true
+			dependencies: ["315436379A0714ED"]
+			id: "62B33BA0008D465B"
+			tasks: [{
+				id: "5901B76FC12E04C6"
+				type: "item"
+				item: "blue_skies:tool_box"
+			}]
+			rewards: [{
+				id: "7B633CFC6FF8CF0F"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "牧人"
+			x: -13.5d
+			y: -1.75d
+			description: ["牧人出售&6自然主义灰熊刷怪蛋&r和&6驼鹿刷怪蛋"]
+			hide_dependency_lines: true
+			dependencies: ["315436379A0714ED"]
+			id: "12CF4AA0D582158A"
+			tasks: [{
+				id: "33426DE9B4AF24E2"
+				type: "item"
+				item: "blue_skies:trough"
+			}]
+			rewards: [{
+				id: "38584D0ED83ED016"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "守夜人"
+			x: -11.5d
+			y: -1.75d
+			description: ["守夜人会出售一些&n&6蔚蓝的矿石&r！"]
+			hide_dependency_lines: true
+			dependencies: ["315436379A0714ED"]
+			id: "2105572A000F170B"
+			tasks: [{
+				id: "67C01E4F74259CFC"
+				type: "item"
+				item: "blue_skies:bag_of_spoils"
+			}]
+			rewards: [{
+				id: "7AF3FFD5C3021282"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "观星者"
+			x: -9.5d
+			y: -1.75d
+			description: ["观星者出售&6末地鲸&r，能&6&n祛除诅咒的蘑抱灵&r也在他的交易列表中，月长石灯是他们的货币之一"]
+			hide_dependency_lines: true
+			dependencies: ["315436379A0714ED"]
+			id: "57485192A365AF82"
+			tasks: [{
+				id: "0AD287C78C792629"
+				type: "item"
+				item: "blue_skies:star_emitter"
+			}]
+			rewards: [{
+				id: "0852EF1B4E319056"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "&6珍珠项链（三级）"
+			x: -12.5d
+			y: -7.5d
+			subtitle: "于水中起舞……"
+			description: ["在物品栏中即可生效"]
+			dependencies: ["6DD731077C2988F8"]
+			id: "409DF6DE3F256925"
+			tasks: [{
+				id: "43E0722DD8CD8795"
+				type: "item"
+				item: "crittersandcompanions:pearl_necklace_3"
+			}]
+			rewards: [{
+				id: "6FAB84C9FEE9AFD5"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "&6混合酿造台"
+			x: -11.0d
+			y: -7.5d
+			subtitle: "快速、便捷、高效……"
+			dependencies: ["2E62D07123AFD112"]
+			id: "19643E8E9DCB3F2B"
+			tasks: [{
+				id: "5D308DC3B33F3B9B"
+				type: "item"
+				item: "davespotioneering:compound_brewing_stand"
+			}]
+			rewards: [{
+				id: "6AF92BC2709192A1"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "&6&l探险家指南针"
+			x: -15.0d
+			y: -7.5d
+			subtitle: "&c&l可以进行遗迹的搜索"
+			dependencies: ["403DFE7C4A107ABD"]
+			id: "4190990A5EA76D41"
+			tasks: [{
+				id: "622E177212BBBF4D"
+				type: "item"
+				item: {
+					id: "explorerscompass:explorerscompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "011413790BD4FBFF"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "&6自然指南针"
+			x: -14.0d
+			y: -7.5d
+			subtitle: "可以进行群系的搜索"
+			dependencies: ["403DFE7C4A107ABD"]
+			id: "1C91AC3D1F48EB37"
+			tasks: [{
+				id: "016114685DE5470A"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5CBF4811118C3FA8"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "&6治疗法术书（三级）"
+			x: -7.5d
+			y: -0.25d
+			subtitle: "奈斯大夫！"
+			dependencies: ["35BFBCD1251908C7"]
+			id: "457F0118345AFFCB"
+			tasks: [{
+				id: "7513C8D6E6CC05AE"
+				type: "item"
+				item: "cnb:heal_spell_book_3"
+			}]
+			rewards: [{
+				id: "6ABB21E3E7C3F4B8"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "&6雪人皮"
+			x: -17.5d
+			y: -0.25d
+			subtitle: "来自于近乎灭绝的古老物种……"
+			description: [
+				"与盔甲在铁砧中进行多次合成，用于提高防御力"
+				"（PS：有群友遇到过野生的）"
+			]
+			dependencies: ["62B33BA0008D465B"]
+			id: "246170A5928FB183"
+			tasks: [{
+				id: "48515A6C0BBBD5F2"
+				type: "item"
+				item: "cnb:yeti_hide"
+			}]
+			rewards: [{
+				id: "5D9053A38DB10065"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "&6锻造晶石"
+			x: -16.5d
+			y: -7.5d
+			description: ["与护甲在铁砧当中合成以赋予或者刷新随机增益词条"]
+			dependencies: ["1C3018BD637F611E"]
+			id: "2EBF170936F9277F"
+			tasks: [{
+				id: "6E862798BF650B41"
+				type: "item"
+				item: {
+					id: "stellarisdlc:forgedspar"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "06F5C05D3C9D1ACB"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "&6强化晶石"
+			x: -8.5d
+			y: -7.5d
+			description: ["与护甲在铁砧中合成以升级已有的随机增益词条（有概率成功）"]
+			dependencies: ["15A009E14A4A2778"]
+			id: "69D9D32AC25B2F74"
+			tasks: [{
+				id: "415D52C8C3384ABB"
+				type: "item"
+				item: {
+					id: "stellarisdlc:reinforcedspar"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "59790771888DD9F7"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "&6混合酿造台"
+			x: -10.0d
+			y: -7.5d
+			subtitle: "用于给药剂师拳套注入药水"
+			dependencies: ["2E62D07123AFD112"]
+			id: "27E4DB267C5BE399"
+			tasks: [{
+				id: "16D3A1E05E69C848"
+				type: "item"
+				item: "davespotioneering:potion_injector"
+			}]
+			rewards: [{
+				id: "6E1B3DE266FA1498"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "滑溜药水"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ecologics:textures/mob_effect/slippery.png"
+				}
+			}
+			x: -10.5d
+			y: -9.0d
+			subtitle: "“请善待它们”"
+			hide_dependency_lines: true
+			dependencies: [
+				"19643E8E9DCB3F2B"
+				"27E4DB267C5BE399"
+			]
+			hide: true
+			can_repeat: true
+			id: "26D93E4A5F490166"
+			tasks: [
+				{
+					id: "58B76A17593FF3BB"
+					type: "item"
+					item: "dotcoinmod:iron_coin"
+					count: 3L
+				}
+				{
+					id: "0F2E5033BC068F10"
+					type: "item"
+					item: "ecologics:penguin_feather"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "532369970386BF47"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "ecologics:long_sliding"
+					}
+				}
+			}]
+		}
+		{
+			title: "&6所谓“奇珍”"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "blue_skies:textures/item/arcs/aquatic_arc.png"
+				}
+			}
+			x: -7.0d
+			y: -11.0d
+			shape: "hexagon"
+			subtitle: "没有钱是万万不能的……"
+			description: [
+				"强烈推荐培养每一种职业的村民"
+				"可能会售卖各类稀有物品"
+			]
+			dependencies: ["613EFA633560151B"]
+			hide: true
+			size: 2.0d
+			id: "315436379A0714ED"
+			tasks: [{
+				id: "16BC6E9DBE87C06A"
+				type: "checkmark"
+				title: "关于贸易"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -6.0d
+			dependencies: ["2B3259F8E57ED77C"]
+			hide: true
+			id: "3C5483514EFE4071"
+			tasks: [{
+				id: "376FA3DA2E411A34"
+				type: "advancement"
+				advancement: "minecraft:husbandry/tame_an_animal"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "7A975B9C9F4A5168"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4A3D2FB3B646E920"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 2
+				}
+			]
+		}
+		{
+			icon: "naturalist:snail_shell"
+			x: 0.5d
+			y: -7.5d
+			subtitle: "“繁殖一对生物”"
+			dependencies: ["613EFA633560151B"]
+			hide: true
+			id: "2B3259F8E57ED77C"
+			tasks: [{
+				id: "73A05C412E185C04"
+				type: "advancement"
+				advancement: "minecraft:husbandry/breed_an_animal"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "59BD08739BB46436"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7D97A336F7D4C4BC"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -6.0d
+			dependencies: ["2B3259F8E57ED77C"]
+			hide: true
+			id: "2AE69B36455CD4D7"
+			tasks: [{
+				id: "63A9F4447F3BADEE"
+				type: "advancement"
+				advancement: "minecraft:husbandry/axolotl_in_a_bucket"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "6E025B553D24EB37"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0223D843E4D4A548"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -4.5d
+			description: ["&a和美西螈一起作战并取得胜利"]
+			dependencies: ["2AE69B36455CD4D7"]
+			id: "3B5CBC7FDE38F248"
+			tasks: [{
+				id: "70E8A8DE2E43B16E"
+				type: "advancement"
+				advancement: "minecraft:husbandry/kill_axolotl_target"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "13CAB553933568B5"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "11128758FE2FC3A8"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "繁殖动物次数"
+			x: -3.5d
+			y: -4.5d
+			subtitle: "&2春天来了，又到了动物们繁殖的季节"
+			description: ["当然值得注意的是，生物实体过多将造成卡顿"]
+			dependencies: ["3C5483514EFE4071"]
+			hide: true
+			id: "7B05DE40C30E2297"
+			tasks: [{
+				id: "25204BA72A1393F6"
+				type: "stat"
+				title: "&d丘比特在世"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "cofh_core:textures/mob_effect/love.png"
+					}
+				}
+				stat: "minecraft:animals_bred"
+				value: 1314
+			}]
+			rewards: [{
+				id: "53ADAE16A4977224"
+				type: "item"
+				item: "nock_enough_arrows:cupid_arrow"
+				count: 520
+			}]
+		}
+		{
+			title: "哥布林商人"
+			x: -12.5d
+			y: -9.0d
+			subtitle: "现在，从哥布林商人那里也能买到珍贵的技能书了！"
+			description: [
+				"&a主世界——毁坏跳跃"
+				"&b下界——流星猛击"
+			]
+			hide_dependency_lines: true
+			dependencies: ["315436379A0714ED"]
+			hide: true
+			id: "1BA526EAE470FD6E"
+			tasks: [{
+				id: "1F402C6DB168BDEA"
+				type: "item"
+				item: "minecraft:apple"
+			}]
+		}
+		{
+			title: "流浪商人"
+			x: -14.5d
+			y: -9.0d
+			subtitle: "或许应该叫他宝石商人"
+			description: ["只要是珍贵的宝石都能和他交易，不管是出售还是购买！"]
+			hide_dependency_lines: true
+			dependencies: ["315436379A0714ED"]
+			hide: true
+			id: "3D441C7ED30738F5"
+			tasks: [{
+				id: "268358CB077D6A54"
+				type: "item"
+				item: "minecraft:leather_horse_armor"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

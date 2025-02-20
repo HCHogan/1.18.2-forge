@@ -1,0 +1,40 @@
+{
+  "id": "stellariscraft:rare_thick_armor",
+  "weight": 3.5,
+  "reforge_experience_cost": 2,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:chestplates"},
+    {"tag": "forge:leggings"}
+  ],
+  "style": {
+    "color": "blue"
+  },
+  "attributes": [
+    {
+      "type": "epicfight:stun_armor",
+      "modifier": {
+        "name": "stellariscraft:rare_thick_armor",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.05
+      },
+      "optional_equipment_slots": [
+        "LEGS",
+        "CHEST"
+      ]
+    },
+   {
+      "type": "epicfight:weight",
+      "modifier": {
+        "name": "stellariscraft:rare_thick_armor",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.08
+      },
+      "optional_equipment_slots": [
+        "LEGS",
+        "CHEST"
+      ]
+    }
+  ]
+}

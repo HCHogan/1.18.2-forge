@@ -1,0 +1,37 @@
+{
+  "id": "stellariscraft:devil_may_cry",
+  "weight": 1.1,
+  "reforge_experience_cost": 4,
+  "reforge_durability_cost": 8,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:yamato"}
+  ],
+  "style": {
+    "color": "aqua"
+  },
+  "attributes": [
+    {
+      "type": "toybox:crit_damage",
+      "modifier": {
+        "name": "stellariscraft:devil_may_cry",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.5
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "toybox:burden",
+      "modifier": {
+        "name": "stellariscraft:devil_may_cry",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 2.0
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

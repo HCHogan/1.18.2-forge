@@ -1,0 +1,29 @@
+{
+    "name": "石精灵",
+    "icon": "minecraft:stone",
+    "category": "patchouli:beast_tool",
+    "sortnum":2,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"石精灵",
+            "text": "终焉的入侵带来了毁灭，但是也带来了魔力。在这种魔力的影响下有些石头“活”了过来，这些小家伙经常举着在洞穴中找到的宝物活跃在洞穴的深处。不过他们相当胆小，如果靠的过近会快速跑开并消失。坚硬的外壳让他们不惧大多数弓箭，但是据说一种$(t:空灵箭)$(5)幻翼膜制成的箭$()可以穿透他们的皮肤"
+        },
+        {
+            "type": "png_mining",
+            "text1":"石精灵",
+             "image":"stellarisdlc:textures/png/stoneling.png"
+        },
+        {"type": "spotlight",
+        "title":"吸引",
+        "item": "quark:glow_shroom",
+        "text": "石精灵对于这种生长于洞穴的天然菌类有着难以抗拒的喜爱，拿着它或许石精灵不会再尝试远离，而是会快速赶到你的身边。"
+         },
+         {"type": "spotlight",
+        "title":"特殊掉落物",
+        "item": "quark:diamond_heart",
+        "link_recipe":true,
+        "text": "石精灵的生命力来源，坚硬无比又带有淡淡的魔力，是制作钻石背包的重要道具也是许多强大饰品的制作原料之一。当然这是石精灵的核心，或许也可以用于将石头变成石精灵"
+         }
+    ]
+}

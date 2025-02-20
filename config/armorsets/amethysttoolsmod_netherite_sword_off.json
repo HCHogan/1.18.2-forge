@@ -1,0 +1,28 @@
+{
+  "armorSetName": "amethysttoolsmod_netherite_sword_off",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "amethysttoolsmod:netherite_sword_amethyst"
+    },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 1.0,
+      "attributeOperation": 0,
+      "modifierUUID": "0f9bea57-7bd7-4372-8fdc-296a677fb72d",
+      "hideBonusDescription": true,
+      "description": "+1 attack damage" 
+    },
+    {
+      "type": "attribute",
+      "name": "epicfight:offhand_armor_negation",
+      "value": 24,
+      "attributeOperation": 0,
+      "modifierUUID": "0f9bea57-7bd7-4372-8fdc-296a677fb72d",
+      "hideBonusDescription": true,
+      "description": "+24% offhand_armor_negation (EpicFight)" 
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

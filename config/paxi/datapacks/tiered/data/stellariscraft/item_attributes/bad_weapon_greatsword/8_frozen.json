@@ -1,0 +1,37 @@
+{
+  "id": "stellariscraft:8_frozen",
+  "weight": 1,
+  "reforge_experience_cost": 1,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:forgedspar",
+  "verifiers": [
+    {"tag": "forge:greatsword"}
+  ],
+    "style": {
+    "color": "dark_red"
+  },
+  "attributes": [
+    {
+      "type": "generic.attack_speed",
+      "modifier": {
+        "name": "stellariscraft:8_frozen",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": -0.15
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "toybox:crit_chance",
+      "modifier": {
+        "name": "stellariscraft:8_frozen",
+        "operation": "ADDITION",
+        "amount": -0.5
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

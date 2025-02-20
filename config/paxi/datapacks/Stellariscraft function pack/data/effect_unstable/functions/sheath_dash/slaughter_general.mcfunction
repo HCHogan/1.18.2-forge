@@ -1,0 +1,1 @@
+execute as @e[type=jobinsmobs:slaughtergeneral,tag=sheath_dash_slaughter] at @s run effect give @s star:unstable 1

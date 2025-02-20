@@ -1,0 +1,55 @@
+{
+  "armorSetName": "aquaculture",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "aquaculture:neptunium_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "aquaculture:neptunium_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "aquaculture:neptunium_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "aquaculture:neptunium_boots",
+    "mustBeEmpty": false
+  },
+  "offHand": {
+    "itemKey": "crittersandcompanions:pearl_necklace_2",
+    "mixAndMatch": [
+      "crittersandcompanions:pearl_necklace_3"
+    ]
+  },
+
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:conduit_power",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "description": "minecraft:conduit_power+minecraft:saturation"
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:saturation",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 20,
+      "hideBonusDescription": true,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:mining_fatigue",
+      "interactionType": "immunity",
+      "description": "minecraft:mining_fatigue"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

@@ -1,0 +1,81 @@
+
+["Basic Repair Service Settings"]
+	"Some Villager Professions can sell Repair Services" = true
+	#Range: 0 ~ 5
+	"Profession Level needed to sell Repair Services" = 3
+	#Range: 0 ~ 999999
+	"Max Repair Services a Villager can sell per day" = 2
+	#Item Needed must be lowercase and spelt correctly.  If not, the Repair Service WILL NOT appear in trades.
+	"Item needed for Trade" = "stellariscraft:adgrain"
+	#Range: 0 ~ 64
+	"Amount of Trade Items Needed" = 4
+	#Range: 0 ~ 999999
+	"Repair Amount per Repair Service Purchase" = 250
+	#Repair a Percentage of the Items Max Durability.  (If this option is set to anything other than 0, it will override the Repair Amount)
+	#Range: 0 ~ 100
+	"Percent Value" = 0
+	"Refund the Cost if There are No Items to Repair" = true
+
+["Full Repair Service Settings (Repairs 100% of the items Durability)"]
+	"Some Villager Professions can sell Full Repair Services" = true
+	#Range: 0 ~ 5
+	"Profession Level needed to sell Full Repair Services" = 4
+	#Range: 0 ~ 999999
+	"Max Full Repair Services a Villager can sell per day" = 1
+	#Item Needed must be lowercase and spelt correctly.  If not, the Full Repair Service WILL NOT appear in trades.
+	"Item needed for Trade" = "dotcoinmod:iron_coin"
+	#Range: 0 ~ 64
+	"Amount of Trade Items Needed" = 4
+	"Refund the Cost if There are No Items to Repair" = true
+
+["Professions which Sell Repair Services"]
+	Armorer = true
+	Butcher = false
+	Cartographer = false
+	Cleric = false
+	Farmer = false
+	Fisherman = false
+	Fletcher = false
+	Leatherworker = false
+	Librarian = false
+	Mason = false
+	Shepherd = false
+	Toolsmith = true
+	Weaponsmith = false
+
+["Villager Friendly Repair Settings"]
+	"Some Villager Professions will Repair nearby players gear" = true
+	"Prioritize the players Main Hand item when giving a Friendly Repair" = true
+	#Range: 1 ~ 5
+	"Minimum Profession Level needed to do Repairs" = 4
+	#Range: 0 ~ 999999
+	"Durability Repaired" = 250
+	#Repair a Percentage of the Items Max Durability.  (If this option is set to anything other than 0, it will override the Repair Amount)
+	#Range: 0 ~ 100
+	"Percent Value" = 10
+	#Range: 0 ~ 999999
+	"Seconds Between Repairs" = 360
+	"Crouch + Right Clicking a Villager with the Reset Item will reset the Friendly Repair Cooldown" = true
+	#Reset Item must be lowercase and spelt correctly.  If not, the Reset Friendly Repair Cooldown will not work.
+	"Reset Item" = "dotcoinmod:iron_coin"
+
+["Professions which Offer Friendly Repairs"]
+	Armorer = false
+	Butcher = false
+	Cartographer = false
+	Cleric = false
+	Farmer = false
+	Fisherman = false
+	Fletcher = false
+	Leatherworker = false
+	Librarian = false
+	Mason = false
+	Shepherd = false
+	Toolsmith = false
+	Weaponsmith = false
+
+["Anvil Repair Options"]
+	"Crouch + Right Clicking on a Chipped/Damaged Anvil with a stack of Iron Ingots in hand will repair it" = true
+	#Range: 1 ~ 64
+	"Amount of Iron Ingots Needed for an Anvil Repair" = 6
+

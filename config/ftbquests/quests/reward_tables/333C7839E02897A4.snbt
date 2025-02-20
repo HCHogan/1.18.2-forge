@@ -1,0 +1,14 @@
+{
+	id: "333C7839E02897A4"
+	order_index: 15
+	title: "前期被动技能书"
+	icon: {
+		id: "epicfight:skillbook"
+		Count: 1b
+		tag: {
+			skill: "epicfight:demolition_leap"
+		}
+	}
+	loot_size: 1
+	rewards: [ ]
+}

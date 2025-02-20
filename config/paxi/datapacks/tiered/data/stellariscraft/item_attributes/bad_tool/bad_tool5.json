@@ -1,0 +1,27 @@
+{
+  "id": "stellariscraft:bad_tool5",
+  "weight": 1,
+  "reforge_experience_cost": 1,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:forgedspar",
+  "verifiers": [
+    {"tag": "forge:tools_minecraft"},
+    {"tag": "forge:tools_other_mods"}
+  ],
+  "style": {
+    "color": "dark_red"
+  },
+  "attributes": [
+    {
+      "type": "unionlib:generic.dig_speed",
+      "modifier": {
+        "name": "stellariscraft:bad_tool5",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": -0.3
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

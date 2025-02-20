@@ -1,0 +1,31 @@
+{
+  "armorSetName": "evidence_star2",
+  "performanceMode": true,
+
+  "additionalSetPieces":[
+    {
+    "itemKey": "stellarisdlc:evidencestar_2",
+    "mustBeEmpty": false
+  }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "epicfight:offhand_impact",
+      "value": 0.35,
+      "attributeOperation": 0,
+      "modifierUUID": "b70668dc-a5c7-4353-a567-14a0ee4a7452",
+      "description": "evidence_star2"    
+    },
+    {
+      "type": "attribute",
+      "name": "epicfight:impact",
+      "value": 0.35,
+      "attributeOperation": 0,
+      "hideBonusDescription": true,
+      "modifierUUID": "b70668dc-a5c7-4353-a567-14a0ee4a7452",
+      "description": "+0.35 offhand_impact (Epic Fight)"    
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

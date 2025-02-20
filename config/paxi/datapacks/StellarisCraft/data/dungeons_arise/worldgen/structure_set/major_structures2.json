@@ -1,0 +1,26 @@
+{
+  "structures": [
+    {
+      "structure": "dungeons_arise:infested_temple",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:mining_system",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:plague_asylum",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:shiraz_palace",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 29199132,
+    "spacing": 54,
+    "separation": 46,
+    "type": "minecraft:random_spread"
+  }
+}

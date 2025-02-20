@@ -1,0 +1,30 @@
+{
+    "name": "下界傀儡",
+    "icon": "ba_bt:bt_nether_resonance_stone",
+    "category": "patchouli:beast_strong",
+    "sortnum":3,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"下界傀儡/nether tower",
+            "text": "寄宿于下界熔岩之上的原始傀儡之一，镇守于$(#ff0000)下界高塔$()之上。下界曾发生过一次巨大的血祭之后神王被暗杀，下界发生了暴动，在这之后就出现了下界高塔，不知这两者存在着什么联系..."
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/nether_golem.png",
+            "text1":"下界傀儡",
+            "text2":""
+        },
+     {"type": "spotlight",
+        "title":"召唤方法",
+        "item": "ba_bt:monolith_key_nether,ba_bt:monolith_nether",
+        "text": "在高塔内会找到两把下界石碑之键，进入下界高塔的顶层层会看到下界石碑，插入两把下界石碑之键后，即可召唤下界的守护者......"
+         },
+        {"type": "spotlight",
+        "title":"掉落物",
+        "item": "ba_bt:guardian_eye_nether,miningmaster:power_pyrite,stellariscraft:exchangestone,miningmaster:heart_rhodonite,bhc:blue_heart",
+        "text": "击杀后掉落$(br)下界守护者之眼1个$(br)力量黄铁矿、淡粉晶簇2~3个$(br)生命玫瑰石、蓝心1个$(br2)可以通过配置$(t:等级越高提高量越多,书中为无抢夺掉落量)$(5)抢夺$()附魔提高掉落量。"
+         }
+        
+    ]
+}

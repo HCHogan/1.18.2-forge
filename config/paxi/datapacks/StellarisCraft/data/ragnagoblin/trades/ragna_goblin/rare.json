@@ -1,0 +1,59 @@
+{
+  "replace": true,
+    "trades": [
+      {
+        "type": "goblintraders:basic",
+        "offer_item": {
+          "item": "dotcoinmod:gold_coin",
+          "count": 3
+        },
+        "payment_item": {
+          "item": "quark:dragon_scale",
+          "count": 2
+        },
+        "max_trades": 2,
+        "experience": 100
+      },
+      {
+        "type": "goblintraders:basic",
+        "offer_item": {
+          "item": "dotcoinmod:gold_coin",
+          "count": 3
+        },
+        "payment_item": {
+          "item": "ends_delight:dragon_tooth",
+          "count": 2
+        },
+        "max_trades": 2,
+        "experience": 100
+      },
+      {
+        "type": "goblintraders:basic",
+        "offer_item": {
+          "item": "alexsmobs:void_worm_eye",
+          "count": 1
+        },
+        "payment_item": {
+          "item": "dotcoinmod:gold_coin",
+          "count": 2
+        },
+        "max_trades": 2,
+        "experience": 100
+      },
+      {
+        "type": "goblintraders:basic",
+        "offer_item": {
+          "item": "dotcoinmod:gold_coin",
+          "count": 1
+        },
+        "payment_item": {
+          "item": "bosses_of_mass_destruction:obsidian_heart",
+          "count": 1
+        },
+        "max_trades": 2,
+        "experience": 100
+      }
+
+
+   ]
+}

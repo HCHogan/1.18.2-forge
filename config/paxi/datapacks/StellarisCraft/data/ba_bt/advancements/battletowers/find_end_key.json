@@ -1,0 +1,51 @@
+{
+  "parent": "ba_bt:battletowers/end_tower_found",
+  "display": {
+    "icon": {
+      "item": "ba_bt:monolith_key_end"
+    },
+    "title": {
+      "text": "这个世界到底还隐藏着什么...",
+      "color": "white",
+      "italic": true
+    },
+    "description": {
+      "text": "—找到一把末地石碑之键",
+      "color": "green",
+      "italic": true
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "Acquire Key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "player": {
+            "advancements": {
+              "ba_bt:battletowers/end_tower_found": true
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "ba_bt:monolith_key_end"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "Acquire Key"
+    ]
+  ],
+  "rewards": {
+    "experience": 56
+  }
+}

@@ -1,0 +1,60 @@
+{
+    "name": "渔夫(木桶)",
+    "icon": "minecraft:barrel",
+    "category": "patchouli:trade",
+    "sortnum":0,
+    "pages": [
+{"type":"trade2",
+ "head":"村民等级:新手",
+ "item1":"dotcoinmod:copper_coin",
+ "item2":"minecraft:air",
+ "item3":"alexsmobs:flying_fish",
+ "text1":"15次",
+ "item4":"minecraft:pufferfish",
+ "item5":"minecraft:air",
+ "item6":"dotcoinmod:copper_coin#6",
+ "text2":"10次"
+},
+{"type":"trade1",
+ "head":"村民等级:学徒",
+ "item1":"dotcoinmod:iron_coin#8",
+ "item2":"minecraft:air",
+ "item3":"crittersandcompanions:pearl_necklace_1",
+ "text1":"1次"
+},
+{"type":"trade2",
+ "head":"村民等级:老手",
+ "item1":"dotcoinmod:iron_coin#4",
+ "item2":"minecraft:air",
+ "item3":"crittersandcompanions:pearl",
+ "text1":"3次",
+ "item4":"crittersandcompanions:koi_fish",
+ "item5":"minecraft:air",
+ "item6":"dotcoinmod:iron_coin",
+ "text2":"2次"
+},
+{"type":"trade2",
+ "head":"村民等级:专家",
+ "item1":"dotcoinmod:gold_coin",
+ "item2":"minecraft:air",
+ "item3":"epicfight:skillbook{skill:\"epicfight:stamina_pillager\"}",
+ "text1":"1次",
+ "item4":"dotcoinmod:iron_coin#6",
+ "item5":"minecraft:copper_block#2",
+ "item6":"aquaculture:neptunium_ingot",
+ "text2":"1次"
+},
+{"type":"trade2",
+ "head":"村民等级:大师",
+ "item1":"blue_skies:aquatic_arc",
+ "item2":"dotcoinmod:iron_coin#8",
+ "item3":"blue_skies:aquatic_arc{ArcLevel:3}",
+ "text1":"1次",
+ "item4":"dotcoinmod:gold_coin#2",
+ "item5":"minecraft:air",
+ "item6":"aquaculture:nether_star_hook",
+ "text2":"1次"
+}
+
+    ]
+}

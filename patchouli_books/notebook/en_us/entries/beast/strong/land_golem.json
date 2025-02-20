@@ -1,0 +1,30 @@
+{
+    "name": "大地傀儡",
+    "icon": "ba_bt:bt_land_resonance_stone",
+    "category": "patchouli:beast_strong",
+    "sortnum":0,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"大地傀儡/land battle tower",
+            "text": "寄宿于大地之上的原始傀儡之一，镇守于$(#ff0000)大地高塔$()之上。据说所有的傀儡都是由人类或者类人生物被诅咒变化而来，而它们的核心就是所要守护的东西同时也是诅咒的来源。据传，大地傀儡的核心能够打破维度之间的屏障，但是由于力量不足无法在打破后进入下一个维度，只能在维度的间隙间游荡。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/land_golem.png",
+            "text1":"大地傀儡",
+            "text2":""
+        },
+       {"type": "spotlight",
+        "title":"召唤方法",
+        "item": "ba_bt:monolith_key_land,ba_bt:monolith_land",
+        "text": "在高塔内会找到三把大地石碑之键，进入大地高塔的最顶层会看到大地石碑，插入三把大地石碑之键后，即可召唤大地的守护者......"
+         },
+        {"type": "spotlight",
+        "title":"掉落物",
+        "item": "ba_bt:guardian_eye_land,miningmaster:haste_peridot,bhc:red_heart,stellariscraft:exchangestone,bhc:yellow_heart",
+        "text": "击杀后掉落$(br)大地傀儡之眼1$(br)急迫橄榄石、红心1个$(br)淡粉晶簇、黄心1个$(br2)可以通过配置$(t:等级越高提高量越多,书中为无抢夺掉落量)$(5)抢夺$()附魔提高掉落量。"
+         }
+        
+    ]
+}

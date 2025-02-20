@@ -1,0 +1,168 @@
+{
+  "profession": "minecraft:farmer",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 3
+      },
+      "request": {
+        "itemKey": "minecraft:beetroot",
+        "amount": 32
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:farmer_fried_egg_for_copper_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "byg:white_puffball_cap",
+        "amount": 3
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 3
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:farmer_white_puffball_cap_for_copper_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 5
+      },
+      "request": {
+        "itemKey": "minecraft:wheat",
+        "amount": 32
+      },
+      "tradeExp": 8,
+      "maxUses": 20,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:farmer_copper_coin_for_wheat_0"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:rabbit_stew",
+        "amount": 4
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 8
+      },
+      "tradeExp": 8,
+      "maxUses": 20,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:rabbit_stew_for_copper_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 16
+      },
+      "request": {
+        "itemKey": "minecraft:honey_bottle",
+        "amount": 12
+      },
+      "tradeExp": 10,
+      "maxUses": 8,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:farmer_copper_coin_for_honey_bottle_0"
+    },
+    {
+      "offer": {
+        "itemKey": "bhc:red_heart",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 1
+      },
+      "tradeExp": 20,
+      "maxUses": 2,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:bhc:red_heart_for_honey_bottle_0"
+    },
+    {
+      "offer": {
+        "itemKey": "largemeals:hearty_lunch",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 8
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:farmer_hearty_lunch_for_iron_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 3
+      },
+      "request": {
+        "itemKey": "overweight_farming:overweight_carrot_block",
+        "amount": 4
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:farmer_iron_coin_for_overweight_carrot_block_0"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 4
+      },
+      "request": {
+        "itemKey": "overweight_farming:overweight_onion_block",
+        "amount": 3
+      },
+      "tradeExp": 9,
+      "maxUses": 20,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:iron_coin_for_overweight_onion_block_0"
+    },
+    {
+      "offer": {
+        "itemKey": "mca:male_villager_spawn_egg",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 5
+      },
+      "tradeExp": 100,
+      "maxUses": 1,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:farmer_gold_coin_for_male_villager_spawn_egg"
+    }
+
+  ]
+}

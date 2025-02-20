@@ -1,0 +1,26 @@
+{
+  "id": "stellariscraft:rare_rod",
+  "weight": 3,
+  "reforge_experience_cost": 2,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:fishing_rods"}
+  ],
+  "style": {
+    "color": "blue"
+  },
+  "attributes": [
+    {
+      "type": "minecraft:generic.luck",
+      "modifier": {
+        "name": "stellariscraft:rare_rod",
+        "operation": "ADDITION",
+        "amount": 0.8
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+execute as @p[tag=redemption,sort=nearest,limit=1] at @s run tp @e[type=ba_bt:end_golem,sort=nearest,limit=1] ~ ~7 ~

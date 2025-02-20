@@ -1,0 +1,35 @@
+{
+    "name": "紫黄晶",
+    "category": "patchouli:mining",
+    "icon": "byg:ametrine_gems",
+    "pages": [
+       {"type": "spotlight",
+        "title":"紫黄晶",
+        "item": "byg:ametrine_gems",
+        "text": "终末之地的原生矿物，蕴含着神秘力量的怪异晶体。由于只存在于终末之地当中，很少有人见过这种矿物，直到有位传奇的探险家进入了末地人们才知晓了它的部分信息。根据探险家的描述，这种矿物在终末之地高处的一种$(5)$(t:以太空灵岛)浮空岛屿群$()出现，而其制作成块可以与盔甲融合提升盔甲的性能。",
+        "link_recipe":true
+         },
+        {
+            "type": "patchouli:png_mining",
+            "image": "stellarisdlc:textures/png/purple.png",
+            "text1":"紫黄晶矿",
+            "text2":"生成于末地对应生物群。"
+            
+          },
+         {"type": "patchouli:GF",
+           "item1": "stellariscraft:steelingot",
+        "item2": "stellariscraft:steelingot",
+        "item3": "stellariscraft:steelingot",
+        "item4": "mowziesmobs:sol_visage",
+        "item5": "mowziesmobs:wrought_helmet",
+        "item6": "mowziesmobs:ice_crystal",
+        "item7": "stellariscraft:steelingot",
+        "item8": "stellariscraft:steelingot",
+           "item9": "stellariscraft:steelingot",
+           "item10": "ba_bt:guardian_eye_core",
+           "item": "byg:ametrine_block",
+           "head":"黄紫晶的秘方",
+            "text":"来源未知的配方，为什么这本书的作者会知道？"
+        }
+    ]
+  }

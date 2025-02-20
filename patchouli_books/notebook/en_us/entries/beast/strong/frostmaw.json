@@ -1,0 +1,26 @@
+{
+    "name": "霜冻巨兽",
+    "icon": "mowziesmobs:ice_crystal",
+    "category": "patchouli:beast_strong",
+    "sortnum":6,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"霜冻巨兽/frostmaw spawn",
+            "text": "据说在终焉的第一次进攻之下，暴风雪变得愈加强烈。即使为了适应这种疯狂的气候变化，也是由于终焉力量带来的感染，雪人中少数强大个体成为了霜冻巨兽。如今这种逐渐趋于平常的环境让他们丧失了危机感，大多数时候都在平静地睡觉。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/frostmaw.png",
+            "text1":"呼啸的寒风",
+            "text2":""
+        },
+    
+        {"type": "spotlight",
+        "title":"掉落物",
+        "item": "cnb:yeti_hide,stellariscraft:adventurespar,bhc:red_heart,dotcoinmod:iron_coin,bhc:yellow_heart,mowziesmobs:ice_crystal",
+        "text": "击杀后固定掉落$(br)冰霜结晶1个$(br2)以下掉落物通过$(t:等级越高提高数量越多,下列为无附魔掉落数量)$(5)抢夺$()可增加数量$(br)雪人皮1~2个$(br)冒险晶石、红心、银币1个$(br)黄心0~1个。"
+         }
+        
+    ]
+}

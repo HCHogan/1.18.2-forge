@@ -1,0 +1,12 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[
+{"item":"blue_skies:dusk_arc"},
+{"item":"blue_skies:poison_arc"},
+{"item":"stellarisdlc:exchangestonecore"},
+{"item":"blue_skies:ethereal_arc"},
+{"item":"blue_skies:nature_arc"}],
+"catalyst":{"item":"stellarisdlc:exchangestonecore"},
+"result":{"item":"blue_skies:runic_arc"},
+"enchantments":[]
+}

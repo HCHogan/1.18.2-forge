@@ -1,0 +1,1466 @@
+{
+	id: "7824965486893CD9"
+	group: "6878AB6C16119261"
+	order_index: 1
+	filename: "7824965486893CD9"
+	title: "猎魔征途"
+	icon: {
+		id: "miningmaster:ultima_sword"
+		Count: 1b
+		tag: {
+			Damage: 0
+			Enchantments: [
+				{
+					lvl: 3s
+					id: "minecraft:fire_aspect"
+				}
+				{
+					lvl: 3s
+					id: "miningmaster:freezing"
+				}
+				{
+					lvl: 3s
+					id: "minecraft:looting"
+				}
+				{
+					lvl: 1s
+					id: "miningmaster:leeching"
+				}
+			]
+			Tiered: {
+				Tier: "stellariscraft:common_sword"
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 6.0d
+			y: 5.5d
+			width: 8.0d
+			height: 4.0d
+			rotation: 0.0d
+			image: "blackaures_paintings:textures/p15.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "5F218A222D0FF0F5"
+		}
+		{
+			x: -6.5d
+			y: 8.5d
+			width: 7.0d
+			height: 7.0d
+			rotation: 0.0d
+			image: "blackaures_paintings:textures/p12.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "5F218A222D0FF0F5"
+		}
+	]
+	quests: [
+		{
+			icon: "minecraft:orange_terracotta"
+			x: 2.0d
+			y: 8.5d
+			dependencies: [
+				"4E762D141B75A6DB"
+				"5F218A222D0FF0F5"
+			]
+			hide: true
+			id: "20DCC084C76BA4F7"
+			tasks: [{
+				id: "0AB8EF114405BA6F"
+				type: "kill"
+				entity: "creeperoverhaul:badlands_creeper"
+				value: 3L
+			}]
+			rewards: [
+				{
+					id: "6AD07B22095616DC"
+					type: "xp"
+					xp: 99
+				}
+				{
+					id: "7726B0D08EB28176"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "&a中立：竹林"
+			x: 1.0d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"4E762D141B75A6DB"
+				"5F218A222D0FF0F5"
+			]
+			hide: true
+			id: "7C2F6F7C8774DB87"
+			tasks: [
+				{
+					id: "47F07BACC95BC289"
+					type: "item"
+					item: "minecraft:bamboo"
+					count: 12L
+					consume_items: true
+				}
+				{
+					id: "206A5CC379AAF15E"
+					type: "item"
+					item: "minecraft:creeper_head"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "550D23661BCF2141"
+				type: "item"
+				item: "creeperoverhaul:bamboo_creeper_spawn_egg"
+			}]
+		}
+		{
+			icon: "ecologics:seashell"
+			x: 10.0d
+			y: 10.5d
+			dependencies: [
+				"4E762D141B75A6DB"
+				"5F218A222D0FF0F5"
+			]
+			hide: true
+			id: "4BF78A4B7619E06E"
+			tasks: [{
+				id: "76057B1C4D3F3A3D"
+				type: "kill"
+				entity: "creeperoverhaul:beach_creeper"
+				value: 3L
+			}]
+			rewards: [
+				{
+					id: "12EC3500139A08DF"
+					type: "xp"
+					xp: 99
+				}
+				{
+					id: "7BCB361EA92E376E"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 4
+				}
+			]
+		}
+		{
+			icon: "minecraft:dark_oak_log"
+			x: 6.0d
+			y: 10.5d
+			dependencies: [
+				"4E762D141B75A6DB"
+				"5F218A222D0FF0F5"
+			]
+			hide: true
+			id: "4937A2E34E6C855B"
+			tasks: [{
+				id: "030C28A1C26A1856"
+				type: "kill"
+				entity: "creeperoverhaul:dark_oak_creeper"
+				value: 3L
+			}]
+			rewards: [
+				{
+					id: "69F8D4F3D26D00D5"
+					type: "xp"
+					xp: 99
+				}
+				{
+					id: "74383F5779697D97"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 4
+				}
+			]
+		}
+		{
+			icon: "minecraft:big_dripleaf"
+			x: 10.0d
+			y: 8.5d
+			dependencies: [
+				"4E762D141B75A6DB"
+				"5F218A222D0FF0F5"
+			]
+			hide: true
+			id: "0E69148B8D70AC15"
+			tasks: [{
+				id: "4985431B58055E93"
+				type: "kill"
+				entity: "creeperoverhaul:cave_creeper"
+				value: 3L
+			}]
+			rewards: [
+				{
+					id: "71FB0D9DF6AB9C09"
+					type: "xp"
+					xp: 99
+				}
+				{
+					id: "50377B4C75CBFA34"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 4
+				}
+			]
+		}
+		{
+			icon: "minecraft:sand"
+			x: 2.0d
+			y: 10.5d
+			dependencies: [
+				"4E762D141B75A6DB"
+				"5F218A222D0FF0F5"
+			]
+			hide: true
+			id: "54216751D2AB0D1B"
+			tasks: [{
+				id: "77B0C88A1EAAB7F3"
+				type: "kill"
+				entity: "creeperoverhaul:desert_creeper"
+				value: 3L
+			}]
+			rewards: [
+				{
+					id: "064247200F09A756"
+					type: "xp"
+					xp: 99
+				}
+				{
+					id: "29A845F866CFED48"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 4
+				}
+			]
+		}
+		{
+			icon: "minecraft:pointed_dripstone"
+			x: 2.0d
+			y: 6.5d
+			dependencies: [
+				"4E762D141B75A6DB"
+				"5F218A222D0FF0F5"
+			]
+			hide: true
+			id: "0ACEB30DF2B07BE0"
+			tasks: [{
+				id: "219DE0F77C046D1B"
+				type: "kill"
+				entity: "creeperoverhaul:dripstone_creeper"
+				value: 3L
+			}]
+			rewards: [
+				{
+					id: "47CA4B6934D02C70"
+					type: "xp"
+					xp: 99
+				}
+				{
+					id: "7ECE2DD9217413E2"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "&a中立：山丘"
+			x: 3.5d
+			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"4E762D141B75A6DB"
+				"5F218A222D0FF0F5"
+			]
+			hide: true
+			id: "53B8534D52B0C766"
+			tasks: [
+				{
+					id: "74CB712D329DB72E"
+					type: "item"
+					item: "minecraft:stone"
+					count: 12L
+					consume_items: true
+				}
+				{
+					id: "3773F6A71F24B049"
+					type: "item"
+					item: "minecraft:creeper_head"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "670D4003DC7C9CB0"
+				type: "item"
+				item: "creeperoverhaul:hills_creeper_spawn_egg"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 10.5d
+			dependencies: [
+				"4E762D141B75A6DB"
+				"5F218A222D0FF0F5"
+			]
+			hide: true
+			id: "009D89E2293B01AD"
+			tasks: [{
+				id: "077E92DB72929B2A"
+				type: "kill"
+				icon: "minecraft:jungle_sapling"
+				entity: "creeperoverhaul:jungle_creeper"
+				value: 3L
+			}]
+			rewards: [
+				{
+					id: "553AD7C71520049A"
+					type: "xp"
+					xp: 99
+				}
+				{
+					id: "592ACEA61E8CD3D5"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "&a中立：热带"
+			x: 10.5d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"4E762D141B75A6DB"
+				"5F218A222D0FF0F5"
+			]
+			hide: true
+			id: "18AB753543DA56DC"
+			tasks: [
+				{
+					id: "21CD2067D5B04489"
+					type: "item"
+					item: "minecraft:acacia_log"
+					count: 12L
+					consume_items: true
+				}
+				{
+					id: "26CA176344B82627"
+					type: "item"
+					item: "minecraft:creeper_head"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "2A3BFBEBBD58D643"
+				type: "item"
+				item: "creeperoverhaul:savannah_creeper_spawn_egg"
+			}]
+		}
+		{
+			title: "&a中立：雪原"
+			x: 8.5d
+			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"4E762D141B75A6DB"
+				"5F218A222D0FF0F5"
+			]
+			hide: true
+			id: "3833A63E97D8B685"
+			tasks: [
+				{
+					id: "733E5F1D604168E6"
+					type: "item"
+					item: "minecraft:snow_block"
+					count: 12L
+					consume_items: true
+				}
+				{
+					id: "7D9FBE729835DE1E"
+					type: "item"
+					item: "minecraft:creeper_head"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "22ECA4FDBEBB85F6"
+				type: "item"
+				item: "creeperoverhaul:snowy_creeper_spawn_egg"
+			}]
+		}
+		{
+			icon: "ecologics:surface_moss"
+			x: 10.0d
+			y: 6.5d
+			dependencies: [
+				"4E762D141B75A6DB"
+				"5F218A222D0FF0F5"
+			]
+			hide: true
+			id: "17E8E829CBBB8856"
+			tasks: [{
+				id: "0C365A65C3AA9B9B"
+				type: "kill"
+				entity: "creeperoverhaul:swamp_creeper"
+				value: 3L
+			}]
+			rewards: [
+				{
+					id: "59403A454B79F43C"
+					type: "xp"
+					xp: 99
+				}
+				{
+					id: "490C8F706F8990CB"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 6.25d
+			shape: "gear"
+			subtitle: "&2Crepper?"
+			dependencies: ["5F218A222D0FF0F5"]
+			hide: true
+			size: 1.5d
+			id: "4E762D141B75A6DB"
+			tasks: [{
+				id: "7ADB7DD496855D8C"
+				type: "kill"
+				icon: "minecraft:creeper_head"
+				entity: "minecraft:creeper"
+				value: 6L
+			}]
+			rewards: [
+				{
+					id: "5D346E48351641EF"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "344172A08DD5CBA3"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							CustomPotionEffects: [{
+								"forge:id": "cofh_core:explosion_resistance"
+								CurativeItems: [{
+									id: "minecraft:milk_bucket"
+									Count: 1b
+								}]
+								Ambient: 0b
+								ShowIcon: 1b
+								ShowParticles: 1b
+								Duration: 600
+								Id: 43b
+								Amplifier: 0b
+							}]
+						}
+					}
+					count: 3
+				}
+				{
+					id: "6FD675D39265E561"
+					type: "item"
+					item: "artifacts:kitty_slippers"
+				}
+			]
+		}
+		{
+			icon: "minecraft:spruce_sapling"
+			x: 4.0d
+			y: 10.5d
+			dependencies: [
+				"4E762D141B75A6DB"
+				"5F218A222D0FF0F5"
+			]
+			hide: true
+			id: "080664BE92004CFF"
+			tasks: [{
+				id: "569A61813A627281"
+				type: "kill"
+				entity: "creeperoverhaul:spruce_creeper"
+				value: 3L
+			}]
+			rewards: [
+				{
+					id: "58989D89FD4EB114"
+					type: "xp"
+					xp: 99
+				}
+				{
+					id: "6BEF3E2851A9F47E"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 4.5d
+			description: ["&a它是唯一一只友善的苦力怕，请善待它"]
+			hide_dependency_lines: true
+			dependencies: [
+				"4E762D141B75A6DB"
+				"5F218A222D0FF0F5"
+			]
+			hide: true
+			id: "638914AA1E70C6A8"
+			tasks: [
+				{
+					id: "5C5D601613516E49"
+					type: "item"
+					item: "minecraft:brown_mushroom"
+					count: 6L
+					consume_items: true
+				}
+				{
+					id: "35EA2A4AFBFB4621"
+					type: "item"
+					item: "minecraft:red_mushroom"
+					count: 6L
+					consume_items: true
+				}
+				{
+					id: "6C739278D4EBAFCB"
+					type: "item"
+					item: "minecraft:creeper_head"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "58215E2AE0E006BE"
+				type: "item"
+				item: "creeperoverhaul:mushroom_creeper_spawn_egg"
+			}]
+		}
+		{
+			icon: "creeperoverhaul:tiny_cactus"
+			x: 6.0d
+			y: 2.0d
+			shape: "rsquare"
+			subtitle: "&2Awl！Man！"
+			hide_dependency_lines: true
+			dependencies: [
+				"7C2F6F7C8774DB87"
+				"54216751D2AB0D1B"
+				"4937A2E34E6C855B"
+				"53B8534D52B0C766"
+				"20DCC084C76BA4F7"
+				"0E69148B8D70AC15"
+				"080664BE92004CFF"
+				"009D89E2293B01AD"
+				"4BF78A4B7619E06E"
+				"17E8E829CBBB8856"
+				"3833A63E97D8B685"
+				"0ACEB30DF2B07BE0"
+				"18AB753543DA56DC"
+				"638914AA1E70C6A8"
+				"5F218A222D0FF0F5"
+			]
+			hide: true
+			size: 2.0d
+			id: "0688F27AD7C854DF"
+			tasks: [{
+				id: "0D3949C2FE0B8B05"
+				type: "checkmark"
+				title: "&6万事大吉"
+			}]
+			rewards: [
+				{
+					id: "3AA6B60F2A2F5229"
+					type: "item"
+					item: "minecraft:enchanted_golden_apple"
+					count: 12
+				}
+				{
+					id: "5349088340DD2916"
+					type: "xp"
+					xp: 288
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/zombie.png"
+				}
+			}
+			x: -5.0d
+			y: 2.0d
+			description: [
+				"武器：空手；剑/铲子"
+				""
+				"僵尸仅拥有最简单的ai，但他们也不是傻子"
+			]
+			dependencies: ["5F218A222D0FF0F5"]
+			hide: true
+			id: "7C7B20BDECDFC93A"
+			tasks: [{
+				id: "2FC21FCC675D473E"
+				type: "kill"
+				entity: "minecraft:zombie"
+				value: 64L
+			}]
+			rewards: [
+				{
+					id: "736621ADC56698A5"
+					type: "item"
+					item: "minecraft:golden_apple"
+					count: 2
+				}
+				{
+					id: "309FEE8191BAE360"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/skeleton.png"
+				}
+			}
+			x: -8.0d
+			y: 2.0d
+			subtitle: "注：后续不再说明空手与持弓的反击及概率"
+			description: ["武器     ：单手剑；斧头镐子；&6双手剑&r；空手"]
+			dependencies: ["5F218A222D0FF0F5"]
+			hide: true
+			id: "0434DE91A4A61898"
+			tasks: [{
+				id: "535D9D7A09660BDD"
+				type: "kill"
+				entity: "minecraft:skeleton"
+				value: 64L
+			}]
+			rewards: [
+				{
+					id: "26F142F71E170D05"
+					type: "item"
+					item: "minecraft:golden_apple"
+					count: 2
+				}
+				{
+					id: "607F16A6A0894D49"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/enderman.png"
+				}
+			}
+			x: -8.5d
+			y: 5.0d
+			shape: "circle"
+			dependencies: ["5F218A222D0FF0F5"]
+			hide: true
+			id: "03FA55B3233A7163"
+			tasks: [{
+				id: "2523EA5B46166985"
+				type: "kill"
+				entity: "minecraft:enderman"
+				value: 18L
+			}]
+			rewards: [
+				{
+					id: "0AF534E53FF3483A"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "098E9482F35D5AED"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/spider.png"
+				}
+			}
+			x: -9.5d
+			y: 3.5d
+			dependencies: ["5F218A222D0FF0F5"]
+			hide: true
+			id: "784F174321F3105A"
+			tasks: [{
+				id: "1AF5CDA5AB750664"
+				type: "kill"
+				entity: "minecraft:spider"
+				value: 32L
+			}]
+			rewards: [
+				{
+					id: "35C97D1DCFE3E9A3"
+					type: "item"
+					item: "minecraft:golden_apple"
+					count: 2
+				}
+				{
+					id: "0575E923CE75FBB1"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/cave_spider.png"
+				}
+			}
+			x: -5.5d
+			y: 3.5d
+			dependencies: ["5F218A222D0FF0F5"]
+			hide: true
+			id: "03E9DA12D15059D9"
+			tasks: [{
+				id: "01C39E18BF8367B9"
+				type: "kill"
+				entity: "minecraft:cave_spider"
+				value: 18L
+			}]
+			rewards: [
+				{
+					id: "7680F6AEF7F579DA"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "2CAFBAA8FB9144FB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/husk.png"
+				}
+			}
+			x: -3.5d
+			y: 3.5d
+			description: ["武器     ：单手剑 铲子；斧头 镐子；&6锄头"]
+			dependencies: ["5F218A222D0FF0F5"]
+			hide: true
+			id: "60D12455D3E9DBB6"
+			tasks: [{
+				id: "203CA03273F462E2"
+				type: "kill"
+				entity: "minecraft:husk"
+				value: 32L
+			}]
+			rewards: [
+				{
+					id: "7ED98074489A86F9"
+					type: "item"
+					item: "minecraft:golden_apple"
+					count: 2
+				}
+				{
+					id: "3721F9314AC9FA77"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/phantom.png"
+				}
+			}
+			x: -4.5d
+			y: 5.0d
+			dependencies: ["5F218A222D0FF0F5"]
+			hide: true
+			id: "0DF6E93B53B6BA58"
+			tasks: [{
+				id: "6F1694246AA3BCDA"
+				type: "kill"
+				entity: "minecraft:phantom"
+				value: 18L
+			}]
+			rewards: [
+				{
+					id: "5D2A42519B9C2711"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "5055F700C99BD708"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+			]
+		}
+		{
+			icon: "minecraft:totem_of_undying"
+			x: -3.0d
+			y: 8.5d
+			dependencies: ["5F218A222D0FF0F5"]
+			hide: true
+			id: "43ACC49239B6D7E9"
+			tasks: [{
+				id: "083DA4C8231E4E8C"
+				type: "kill"
+				entity: "minecraft:evoker"
+				value: 8L
+			}]
+			rewards: [{
+				id: "01EF994E51E58B75"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			icon: {
+				id: "omnis:haunted_vindicator_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.0d
+			y: 6.5d
+			subtitle: "灾厄村民是一家，脸的材质长得太像没什么辨识度"
+			description: ["武器     ：斧头"]
+			dependencies: ["5F218A222D0FF0F5"]
+			hide: true
+			id: "7EDAC013C806DDF9"
+			tasks: [{
+				id: "125D3DA090063C89"
+				type: "kill"
+				icon: "minecraft:vindicator_spawn_egg"
+				entity: "minecraft:vindicator"
+				value: 28L
+			}]
+			rewards: [{
+				id: "2FB8282A4DB9A5E6"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:crossbow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.0d
+			y: 10.5d
+			dependencies: ["5F218A222D0FF0F5"]
+			hide: true
+			id: "3B864B0A587B750C"
+			tasks: [{
+				id: "13B0745037DAC3E5"
+				type: "kill"
+				entity: "minecraft:pillager"
+				value: 28L
+			}]
+			rewards: [{
+				id: "50AAA2DCAD2F7037"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:golden_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -14.0d
+			y: 6.5d
+			subtitle: "&6注：原版的猪灵与猪灵蛮兵ai有bug，不会格挡，请小心"
+			description: ["武器     ：单手剑；斧头"]
+			dependencies: ["5F218A222D0FF0F5"]
+			hide: true
+			id: "32BE4F2B05EC4DAB"
+			tasks: [{
+				id: "568117AD23378DA9"
+				type: "kill"
+				entity: "minecraft:piglin"
+				value: 48L
+			}]
+			rewards: [{
+				id: "7631B48FD3BA62EE"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/witch.png"
+				}
+			}
+			x: -4.5d
+			y: 12.0d
+			dependencies: ["5F218A222D0FF0F5"]
+			hide: true
+			id: "4C07A786313F5799"
+			tasks: [{
+				id: "1F7C3ACBC63E636B"
+				type: "kill"
+				entity: "minecraft:witch"
+				value: 18L
+			}]
+			rewards: [{
+				id: "043E7C234E97F6B0"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/wither_skeleton.png"
+				}
+			}
+			x: -10.0d
+			y: 6.5d
+			description: ["武器     ：单手剑；斧头  镐子 锄头"]
+			dependencies: ["5F218A222D0FF0F5"]
+			hide: true
+			id: "3640E57EE4F4C11D"
+			tasks: [{
+				id: "1561D87D15DA1268"
+				type: "kill"
+				entity: "minecraft:wither_skeleton"
+				value: 18L
+			}]
+			rewards: [{
+				id: "379C8B7884B95739"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:golden_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -14.0d
+			y: 10.5d
+			subtitle: "&6注：原版的猪灵与猪灵蛮兵ai有bug，不会格挡，请小心"
+			description: ["武器     ：斧头"]
+			dependencies: ["5F218A222D0FF0F5"]
+			hide: true
+			id: "0A8559DF9EBBC560"
+			tasks: [{
+				id: "0180F1766DE2CB5D"
+				type: "kill"
+				entity: "minecraft:piglin_brute"
+				value: 32L
+			}]
+			rewards: [{
+				id: "5A981554740A9371"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/blaze.png"
+				}
+			}
+			x: -10.0d
+			y: 8.5d
+			dependencies: ["5F218A222D0FF0F5"]
+			hide: true
+			id: "2195475AD746BE8F"
+			tasks: [{
+				id: "79BFDCD75EA66940"
+				type: "kill"
+				entity: "minecraft:blaze"
+				value: 48L
+			}]
+			rewards: [{
+				id: "47ACBE44A950B48B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/shulker.png"
+				}
+			}
+			x: -8.5d
+			y: 12.0d
+			dependencies: ["5F218A222D0FF0F5"]
+			hide: true
+			id: "0B720A1BABAC9EA0"
+			tasks: [{
+				id: "1FFE7AC05C852B3D"
+				type: "kill"
+				entity: "minecraft:shulker"
+				value: 28L
+			}]
+			rewards: [{
+				id: "67475A16D26FC017"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/stray.png"
+				}
+			}
+			x: -7.5d
+			y: 3.5d
+			description: ["武器     ：单手剑 铲子"]
+			dependencies: ["5F218A222D0FF0F5"]
+			hide: true
+			id: "14D76BF715F33CF2"
+			tasks: [{
+				id: "26AA5EBFDB0AD8CC"
+				type: "kill"
+				entity: "minecraft:stray"
+				value: 28L
+			}]
+			rewards: [
+				{
+					id: "56269CA665512283"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "5CEF7A15715B68A7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+			]
+		}
+		{
+			icon: "omnis:tear_of_vex"
+			x: -6.5d
+			y: 5.0d
+			dependencies: ["5F218A222D0FF0F5"]
+			hide: true
+			id: "459494F7C1E79977"
+			tasks: [{
+				id: "38BB74D90F203FC9"
+				type: "kill"
+				entity: "minecraft:vex"
+				value: 18L
+			}]
+			rewards: [
+				{
+					id: "556D7817617B77D0"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "25B0A48258352E70"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/wither_skeleton.png"
+				}
+			}
+			x: -10.0d
+			y: 10.5d
+			description: ["注：凋零死士武器渲染有问题，因此默认拿手套作为武器（低于一定血量召唤凋零恼鬼）"]
+			dependencies: ["5F218A222D0FF0F5"]
+			hide: true
+			id: "01BA8E3AFAE0729F"
+			tasks: [{
+				id: "252F45418B68519D"
+				type: "kill"
+				entity: "bygonenether:wraither"
+				value: 18L
+			}]
+			rewards: [{
+				id: "3580D37F23580092"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			icon: "omnis:tear_of_vex"
+			x: -6.5d
+			y: 12.0d
+			dependencies: ["5F218A222D0FF0F5"]
+			hide: true
+			id: "4AEEA56ADA452855"
+			tasks: [{
+				id: "3777789C27BE532A"
+				type: "kill"
+				entity: "bygonenether:wex"
+				value: 18L
+			}]
+			rewards: [{
+				id: "6AD9348B194071EA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:golden_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -14.0d
+			y: 8.5d
+			description: ["注：猪灵猎人会优先攻击凋零类实体"]
+			dependencies: ["5F218A222D0FF0F5"]
+			hide: true
+			id: "601088B38423076F"
+			tasks: [{
+				id: "2F8DC18DB0B73BDA"
+				type: "kill"
+				entity: "bygonenether:piglin_hunter"
+				value: 48L
+			}]
+			rewards: [{
+				id: "16085BC059613FC0"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			icon: "bygonenether:warped_ender_pearl"
+			x: -12.0d
+			y: 8.5d
+			shape: "circle"
+			dependencies: ["5F218A222D0FF0F5"]
+			hide: true
+			id: "09332E39E088F1F4"
+			tasks: [{
+				id: "17A4B0523EBBB5B6"
+				type: "kill"
+				entity: "bygonenether:warped_enderman"
+				value: 18L
+			}]
+			rewards: [{
+				id: "6E2F525D5F673910"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/wither_skeleton.png"
+				}
+			}
+			x: -12.0d
+			y: 6.5d
+			dependencies: ["5F218A222D0FF0F5"]
+			hide: true
+			id: "2B9C516C783FE4A5"
+			tasks: [{
+				id: "36A52D24217AAC64"
+				type: "kill"
+				entity: "bygonenether:wither_skeleton_knight"
+				value: 18L
+			}]
+			rewards: [{
+				id: "0FEE95873763CC13"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/wither_skeleton.png"
+				}
+			}
+			x: -12.0d
+			y: 10.5d
+			dependencies: ["5F218A222D0FF0F5"]
+			hide: true
+			id: "265B69837D7BADEF"
+			tasks: [{
+				id: "1FCF274957E5A361"
+				type: "kill"
+				entity: "bygonenether:corpor"
+				value: 18L
+			}]
+			rewards: [{
+				id: "61F987EE2EE50C22"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/zombie.png"
+				}
+			}
+			x: -5.0d
+			y: -1.0d
+			dependencies: ["7C7B20BDECDFC93A"]
+			hide: true
+			id: "7F92E2A5E21BDA83"
+			tasks: [{
+				id: "02EAE148685A0B39"
+				type: "kill"
+				entity: "minecraft:zombie"
+				value: 128L
+			}]
+			rewards: [
+				{
+					id: "09C6B42984500592"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "0BB2460B6579B530"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 2688748745693820522L
+				}
+				{
+					id: "4CFE716F34596332"
+					type: "item"
+					item: "bhc:red_heart"
+					count: 3
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/skeleton.png"
+				}
+			}
+			x: -8.0d
+			y: -1.0d
+			dependencies: ["0434DE91A4A61898"]
+			hide: true
+			id: "6AFE107E4F159806"
+			tasks: [{
+				id: "2010877C2879F1EA"
+				type: "kill"
+				entity: "minecraft:skeleton"
+				value: 128L
+			}]
+			rewards: [
+				{
+					id: "2907381F5ADE1CA6"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "07E454AC006BA62B"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 2688748745693820522L
+				}
+				{
+					id: "60BD0A07951B59FA"
+					type: "item"
+					item: "bhc:red_heart"
+					count: 3
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/husk.png"
+				}
+			}
+			x: -3.0d
+			y: 0.5d
+			dependencies: ["60D12455D3E9DBB6"]
+			hide: true
+			id: "6403EB319F4089E8"
+			tasks: [{
+				id: "7E1C26784A650545"
+				type: "kill"
+				entity: "minecraft:husk"
+				value: 64L
+			}]
+			rewards: [
+				{
+					id: "6CEA0D71F0CEB7DA"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 2688748745693820522L
+				}
+				{
+					id: "05D191B751055E56"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/spider.png"
+				}
+			}
+			x: -10.0d
+			y: 0.5d
+			dependencies: ["784F174321F3105A"]
+			hide: true
+			id: "1F237AABC15C7637"
+			tasks: [{
+				id: "7BF252C443E076B5"
+				type: "kill"
+				entity: "minecraft:spider"
+				value: 64L
+			}]
+			rewards: [
+				{
+					id: "7DD1A3FEB76F29E4"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "6D9F317C7B57C092"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 2688748745693820522L
+				}
+				{
+					id: "4DA10D51D991BEB4"
+					type: "item"
+					item: "bhc:red_heart"
+					count: 3
+				}
+			]
+		}
+		{
+			icon: "neapolitan:ice_cubes"
+			x: -6.5d
+			y: 13.5d
+			dependencies: ["5F218A222D0FF0F5"]
+			hide: true
+			id: "61DB7529DD8618CB"
+			tasks: [{
+				id: "1E771EF6F54C2FD2"
+				type: "kill"
+				entity: "blue_skies:armored_frost_spirit"
+				value: 30L
+			}]
+			rewards: [{
+				id: "5B6D58232583B61C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

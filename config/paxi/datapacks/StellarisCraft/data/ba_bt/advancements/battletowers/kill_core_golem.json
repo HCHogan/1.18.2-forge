@@ -1,0 +1,48 @@
+{
+  "parent": "ba_bt:battletowers/find_core_key",
+  "display": {
+    "icon": {
+      "item": "ba_bt:guardian_eye_core"
+    },
+    "title": {
+      "text": "地心深处开始躁动...",
+      "color": "white",
+      "italic": true
+    },
+    "description": {
+      "text": "—摧毁炉心傀儡，从地狱逃逸出的神明",
+      "color": "green",
+      "italic": true
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "Kill Golem": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "player": {
+            "advancements": {
+              "ba_bt:battletowers/find_core_key": true
+            }
+          }
+        },
+        "id" : "ba_bt:core_golem",
+        "entity": {
+          "type": "ba_bt:core_golem"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "Kill Golem"
+    ]
+  ],
+  "rewards": {
+    "experience": 56
+  }
+}

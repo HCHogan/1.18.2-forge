@@ -1,0 +1,42 @@
+{
+    "name": "雪人",
+    "icon": "cnb:yeti_antler",
+    "category": "patchouli:beast_tool",
+    "sortnum":2,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"雪人",
+            "text": "产生自冰霜之力的神奇物种，据说其是在冰霜巨人绝迹后大量出现的族群，其与冰霜巨兽近似的外表也不禁让人怀疑其中的联系。数量庞大的雪人无止尽的猎杀面前接近灭绝也在后王国时期初期被大量猎杀故而仇视人类。"
+        },
+        {
+            "type": "png_mining",
+            "text1":"雪人",
+             "image":"stellarisdlc:textures/png/yeti.png"
+        },
+         {"type":"TT",
+           "head":"栖息群系",
+           "text":"冰刺之地$(br2)积雪山坡$(br2)积雪针刺林$(br2)冰封山峰$(br2)积雪平原"
+},
+        {"type": "spotlight",
+        "title":"繁殖",
+        "item": "minecraft:sweet_berries,minecraft:melon_slice",
+        "text": "不断地猎杀让其族群已经日益稀少，部分生物学者发现$(#ff0000)甜浆果能够让其快速繁殖并发育长大$()，但是其与人类已经逐渐仇视，但当时民间有人曾见过部分与雪人一族共同生活的人们。它们不知道这是怎么做到的，商队透露过它们常常购入大量$(#ff0000)西瓜$()。"
+         },
+         {"type": "spotlight",
+        "title":"掉落物",
+        "item": "cnb:yeti_hide,cnb:yeti_antler",
+        "link_recipe":true,
+        "text": "雪人被猎杀的重要原因便是其皮毛能够增加盔甲硬度，当钢铁守护者已无法制造时，人类便想要通过更坚硬的盔甲来弥补。除了皮毛之外其的角可以分解为大量催熟作用的骨粉。$(br2)成年雪人掉落$(br)雪人皮0~3个$(br)雪人角0~2个"
+         },
+         {
+         "type":"patchouli:anvil",
+         "item1": "minecraft:diamond_chestplate",
+        "item2": "cnb:yeti_hide",
+        "item3": "minecraft:diamond_chestplate{AttributeModifiers:[{Amount:8.16d,AttributeName:'minecraft:generic.armor',Operation:0,Slot:'chest',UUID:[I;1003158451,1425557645,-1929897326,-402215780]},{Amount:2.0d,AttributeName:'minecraft:generic.armor_toughness',Operation:0,Slot:'chest',UUID:[I;-14469409,1950500698,-1929526572,942729654]}],Damage:0,saa1:{}}",
+        "head":"雪人皮的使用",
+        "text":"在$(#ff0000)铁砧$()上消耗6级经验用一个雪人皮可以提升盔甲2%的护甲值，可以反复使用雪人皮提升护甲值，最多使用5次。"
+        
+      }
+    ]
+}

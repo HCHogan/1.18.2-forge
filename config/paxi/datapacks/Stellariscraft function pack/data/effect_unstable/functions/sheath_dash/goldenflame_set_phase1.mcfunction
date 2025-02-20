@@ -1,0 +1,2 @@
+execute as @e[type=jobinsmobs:goldenflame,tag=unstable_goldenflame] at @s run indestructible @s set_phase 1
+execute as @e[type=jobinsmobs:goldenflame,tag=unstable_goldenflame,sort=nearest] at @s run tag @s remove unstable_goldenflame

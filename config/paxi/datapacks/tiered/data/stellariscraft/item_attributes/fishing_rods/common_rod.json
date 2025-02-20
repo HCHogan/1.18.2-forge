@@ -1,0 +1,26 @@
+{
+  "id": "stellariscraft:common_rod",
+  "weight": 5,
+  "reforge_experience_cost": 1,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:forgedspar",
+  "verifiers": [
+    {"tag": "forge:fishing_rods"}
+  ],
+  "style": {
+    "color": "grey"
+  },
+  "attributes": [
+    {
+      "type": "minecraft:generic.luck",
+      "modifier": {
+        "name": "stellariscraft:common_rod",
+        "operation": "ADDITION",
+        "amount": 0.2
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

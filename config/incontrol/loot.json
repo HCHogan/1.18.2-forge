@@ -1,0 +1,763 @@
+
+[
+    //僵尸猪金
+{
+  "mob": "minecraft:zombified_piglin",
+  "remove": "minecraft:gold_ingot"
+},
+    //大剑专属技能书
+    {
+      "mob": "ba_bt:land_golem",
+      "player": true,
+      "helditem": ["epicfight:stone_greatsword","epicfight:iron_greatsword","epicfight:golden_greatsword","epicfight:diamond_greatsword",
+      "epicfight:netherite_greatsword","stellarisdlc:balmung","mowziesmobs:wrought_axe","cataclysm:the_incinerator",
+      "cataclysm:final_fractal","stellarisdlc:rotgreatsword","stellarisdlc:ironbrokentooth"],
+      "item": "epicfight:skillbook",
+      "nbt": {
+        "skill": "toybox:brave_guard"
+       }
+    },
+    //凋零——凋零之骨
+    {
+      "mob": "minecraft:wither",
+      "item": "bhc:wither_bone",
+      "itemcount": "1/1-2/2-3/3/3-4/4/4-5"
+    },
+
+    //jobin生物-死神
+    {
+      "mob": "jobinsmobs:reaper",
+      "dimension": "minecraft:overworld",
+      "item": "stellariscraft:exchangestone",
+      "itemcount": "1/1-2/2-3/3/3-4/4/4-5"
+    },
+    {
+      "mob": "jobinsmobs:reaper",
+      "dimension": "minecraft:the_nether",
+      "item": "stellariscraft:exchangestone",
+      "itemcount": "1-2/1-3/2-4/3-4/4/4-5/4-6"
+    },
+    {
+      "mob": "jobinsmobs:reaper",
+      "dimension": "minecraft:the_end",
+      "item": "stellariscraft:exchangestone",
+      "itemcount": "1-3/2-4/3-5/4-5/5/5-6/6"
+    },
+
+    //仿生泪滴
+    {
+      "mob": "star:mimic_tears",
+      "item": "stellariscraft:adgrain",
+      "itemcount": "1-3/2-4/3-6",
+      "removeall":"true"
+    },
+    //铁魔法-远古骑士
+    {
+      "mob": "irons_spellbooks:citadel_keeper",
+      "item": "irons_spellbooks:arcane_essence",
+      "itemcount": "1-3/2-4/3-6/4-6/5-6/6-7/7"
+    },
+
+
+//溺尸
+{
+  "mob": ["minecraft:drowned","minecraft:zombie"],
+  "remove": "minecraft:diamond_sword"
+},
+{
+  "mob": "minecraft:elder_guardian",
+  "item": "aquaculture:neptunium_ingot",
+  "itemcount": "1-4"
+},
+{
+  "mob": "minecraft:guardian",
+  "item": "aquaculture:neptunium_nugget",
+  "itemcount": "1-2"
+},
+
+//野牛
+{
+  "mob": "alexsmobs:bison",
+  "item": "alexsdelight:raw_bison",
+  "itemcount": "1-4"
+},
+
+      
+//乐事食物补全/菜刀/末影龙
+{
+  "mob": "minecraft:ender_dragon",
+  "item": ["ends_delight:dragon_tooth","ends_delight:dragon_leg"],
+  "itemcount": "0-2"
+},
+{
+  "mob": "minecraft:ender_dragon",
+  "item": "ends_delight:raw_dragon_meat_cuts",
+  "itemcount": "1-3"
+},
+{
+  "mob": "minecraft:ender_dragon",
+  "item": "quark:dragon_scale",
+  "itemcount": "0-1/0-2/1-2/2/2-3/3-4/4"
+},
+//末影螨
+{
+  "mob": "minecraft:endermite",
+  "item": ["endersdelight:mite_crust","ends_delight:raw_ender_mite_meat"],
+  "itemcount": "1-2"
+},
+//小黑眼
+{
+  "mob": "minecraft:enderman",
+  "item": "endersdelight:enderman_sight",
+  "itemcount": "0-2"
+},
+//潜影贝
+{
+  "mob": "minecraft:shulker",
+  "item": ["ends_delight:shulker_meat","endersdelight:shulker_mollusk"],
+  "itemcount": "1-2"
+},
+//疣猪兽
+{
+  "mob": "minecraft:hoglin",
+  "item": ["farmersdelight:ham","nethersdelight:hoglin_hide"],
+  "itemcount": "1-2"
+},
+//炽足兽
+{
+  "mob": "minecraft:strider",
+  "item": "nethersdelight:strider_slice",
+  "itemcount": "1-2"
+},
+
+
+
+//大世界boss————mowzie————霜冻巨兽
+    {
+      "mob": "mowziesmobs:frostmaw",
+      "item": "cnb:yeti_hide",
+      "itemcount": "1-2/2-4/4-6/5-6/6-8/7-8/8-9"
+    },
+    {
+      "mob": "mowziesmobs:frostmaw",
+      "item": ["stellariscraft:adventurespar","bhc:red_heart","dotcoinmod:iron_coin"],
+      "itemcount": "1/1-2/1-3/2-3/3/3-4/4"
+    },
+    {
+      "mob": "mowziesmobs:frostmaw",
+      "item": "bhc:yellow_heart",
+      "itemcount": "0-1/1/1-2/2/2-3/3/3-4"
+    },
+
+    //太阳神鸟
+    {
+      "mob": "mowziesmobs:umvuthi",
+      "item": "miningmaster:lucky_citrine",
+      "itemcount": "1-2/2-4/4-6/5-6/5-8/6-8/7-9"
+    },
+    {
+      "mob": "mowziesmobs:umvuthi",
+      "item": ["stellariscraft:adventurespar","bhc:red_heart","dotcoinmod:iron_coin"],
+      "itemcount": "1/1-2/1-3/2-3/3-4/3-5/4-6"
+    },
+    {
+      "mob": "mowziesmobs:umvuthi",
+      "item": "bhc:yellow_heart",
+      "itemcount": "0-1/1/1-2/2/2-3/3/3-4"
+    },
+    
+
+    //铁哥
+    {
+      "mob": "mowziesmobs:ferrous_wroughtnaut",
+      "item": ["stellariscraft:adventurespar","bhc:red_heart","dotcoinmod:iron_coin"],
+      "itemcount": "1-2/2-3/3-4/4/4-5/5/5-6"
+    },
+    {
+      "mob": "mowziesmobs:ferrous_wroughtnaut",
+      "item": "bhc:yellow_heart",
+      "itemcount": "0-1/1/1-2/2/2-3/3/3-4"
+    },
+
+
+    //大世界————bosses_of_mass_destruction
+    {
+      "mob": "bosses_of_mass_destruction:lich",
+      "dimension": "minecraft:overworld",
+      "item": ["stellariscraft:adventurespar","bhc:red_heart","dotcoinmod:iron_coin"],
+      "itemcount": "1-2/1-3/2-3/3/3-5/4-5/5"
+    },
+    {
+      "mob": "bosses_of_mass_destruction:lich",
+      "dimension": "minecraft:overworld",
+      "item": "bhc:yellow_heart",
+      "itemcount": "0/0-1/1/1-2/2-3/3/4"
+    },
+
+    {
+      "mob": "bosses_of_mass_destruction:void_blossom",
+      "dimension": "minecraft:overworld",
+      "item": ["stellariscraft:adventurespar","bhc:red_heart","dotcoinmod:iron_coin"],
+      "itemcount": "1-2/1-3/2-3/3/3-4/4/4-5"
+    },
+    {
+      "mob": "bosses_of_mass_destruction:void_blossom",
+      "dimension": "minecraft:overworld",
+      "item": "bhc:yellow_heart",
+      "itemcount": "0/0-1/1/1-2/2/2-3/3"
+    },
+
+    {
+      "mob": "bosses_of_mass_destruction:gauntlet",
+      "dimension": "minecraft:the_nether",
+      "item": ["stellariscraft:adventurespar","minecraft:netherite_scrap","dotcoinmod:iron_coin"],
+      "itemcount": "1-2/2-3/3-4/4/4-6/5-6/6"
+    },
+    {
+      "mob": "bosses_of_mass_destruction:gauntlet",
+      "dimension": "minecraft:the_nether",
+      "item": "bhc:green_heart",
+      "itemcount": "0/0-1/1/1-2/2-4/3-4/4"
+    },
+
+    {
+      "mob": "bosses_of_mass_destruction:obsidilith",
+      "dimension": "minecraft:the_end",
+      "item": "stellariscraft:adventurespar",
+      "itemcount": "2/3-4/4-5/5-6/6/6-8/8"
+    },
+    {
+      "mob": "bosses_of_mass_destruction:obsidilith",
+      "dimension": "minecraft:the_end",
+      "item": "bhc:blue_heart",
+      "itemcount": "0/0-1/1/1-2/2/2-3/3"
+    },
+
+
+         // 五个傀儡————大地傀儡
+        {
+          "mob": "ba_bt:land_golem",
+          "dimension": "minecraft:overworld",
+          "item": "ba_bt:guardian_eye_land",
+          "itemcount": "0/0-1/1-2"
+        },
+        {
+          "mob": "ba_bt:land_golem",
+          "dimension": "minecraft:overworld",
+          "item": ["miningmaster:haste_peridot","bhc:red_heart"],
+          "itemcount": "1/1-2/2-4/3-4/4-7/5-7/7"
+        },
+        {
+          "mob": "ba_bt:land_golem",
+          "dimension": "minecraft:overworld",
+          "item": ["stellariscraft:exchangestone","bhc:yellow_heart"],
+          "itemcount": "1/1-2/2-3/3/3-4/4-5/5-7"
+        },
+  
+       // 海洋傀儡
+       {
+        "mob": "ba_bt:ocean_golem",
+        "dimension": "minecraft:overworld",
+        "item": "ba_bt:guardian_eye_ocean",
+        "itemcount": "0/0-1/1-2"
+      },
+      {
+        "mob": "ba_bt:ocean_golem",
+        "dimension": "minecraft:overworld",
+        "item": ["miningmaster:dive_aquamarine","bhc:red_heart","stellariscraft:exchangestone","bhc:yellow_heart"],
+        "itemcount": "1/1-2/2-3/3/3-5/4-5/5-6"
+      },
+
+
+       // 炉心傀儡
+      {
+        "mob": "ba_bt:core_golem",
+        "remove": "stellarisdlc:dragonfalchion"
+      },
+      {
+        "mob": "ba_bt:core_golem",
+        "dimension": "minecraft:overworld",
+        "item": "ba_bt:guardian_eye_core",
+        "itemcount": "0/0-1/1-2"
+      },
+      {
+        "mob": "ba_bt:core_golem",
+        "dimension": "minecraft:overworld",
+        "item": "miningmaster:fire_ruby",
+        "itemcount": "2-3/2-4/3-5/4-5/5-6/5-7/6-7"
+      },
+      {
+        "mob": "ba_bt:core_golem",
+        "dimension": "minecraft:overworld",
+        "item": ["stellariscraft:exchangestone","bhc:green_heart"],
+        "itemcount": "1-2/1-3/2-3/3/3-4/3-5/4-5"
+      },
+  
+
+       // 下界傀儡
+       {
+        "mob": "ba_bt:nether_golem",
+        "dimension": "minecraft:the_nether",
+        "item": "ba_bt:guardian_eye_nether",
+        "itemcount": "0/0-1/1-2"
+      },
+      {
+        "mob": "ba_bt:nether_golem",
+        "dimension": "minecraft:the_nether",
+        "item": ["miningmaster:heart_rhodonite","bhc:blue_heart"],
+        "itemcount": "1/1-2/2-3/3/3-4/3-5/4-5"
+      },
+      {
+        "mob": "ba_bt:nether_golem",
+        "dimension": "minecraft:the_nether",
+        "item": ["miningmaster:power_pyrite","stellariscraft:exchangestone"],
+        "itemcount": "2-3/2-4/3-5/4-5/4-6/5-6/5-7"
+      },
+  
+  
+       // 末地傀儡
+       {
+        "mob": "ba_bt:end_golem",
+        "dimension": "minecraft:the_end",
+        "item": "ba_bt:guardian_eye_end",
+        "itemcount": "0/0-1/1-2"
+      },
+      {
+        "mob": "ba_bt:end_golem",
+        "dimension": "minecraft:the_end",
+        "item": "byg:ametrine_gems",
+        "itemcount": "4-8/8-16/16-20/20/20-24/22-28/28-30"
+      },
+      {
+        "mob": "ba_bt:end_golem",
+        "dimension": "minecraft:the_end",
+        "item": "miningmaster:air_malachite",
+        "itemcount": "1/1-2/1-3/2-3/2-4/3-4/3-5"
+      },
+      {
+        "mob": "ba_bt:end_golem",
+        "dimension": "minecraft:the_end",
+        "item": ["stellariscraft:exchangestone","bhc:blue_heart"],
+        "itemcount": "2-3/4-5/5-6/6/6-7/6-8/7-8"
+      },
+  
+  
+  
+  
+  //末影守卫+灾变末地傀儡
+      {
+        "mob": "cataclysm:ender_guardian",
+        "remove": "jobinsmobs:jobinsmobs"
+      },
+      {
+        "mob": "cataclysm:ender_guardian",
+        "remove": "cataclysm:gauntlet_of_guard"
+      },
+
+      {
+        "mob": "cataclysm:ender_guardian",
+        "item": "cataclysm:void_core",
+        "itemcount": "1-2/2-3/3-5/4-5/5/5-6/6"
+      },
+
+      {
+        "mob": "cataclysm:ender_golem",
+        "item": "cataclysm:void_core",
+        "itemcount": "0-1/0-2/1-2/2/2-3/2-4/3-4"
+      },
+
+  
+  
+
+
+
+
+
+      //决斗场掉落
+      //蒂蒂
+      {
+        "mob": "jobinsmobs:didi",
+        "dimension": "stellariscraft:parena",
+        "item": ["minecraft:splash_potion","archers_paradox:quartz_arrow"],
+        "itemcount": "2-5"
+      },
+      
+      //赤焰军团
+      {
+        "mob": "minecraft:blaze",
+        "dimension": ["stellariscraft:parena","stellariscraft:marena","stellariscraft:uarena"],
+        "remove": "minecraft:blaze_rod",
+        "item": "minecraft:blaze_powder",
+        "itemcount": "1-2/1-3/2-4/3-4/3-5/4-5/5-6"
+      },
+      {
+        "mob": "minecraft:blaze",
+        "dimension": ["stellariscraft:parena","stellariscraft:marena","stellariscraft:uarena"],
+        "remove": "minecraft:blaze_rod",
+        "item": "stellariscraft:blazestone",
+        "itemcount": "0-1/1/1-2/2/2-3/2-4/3-4"
+      },
+      {
+        "mob": "jobinsmobs:reaper",
+        "dimension": ["stellariscraft:parena","stellariscraft:marena","stellariscraft:uarena"],
+        "item": ["stellariscraft:blazestone","miningmaster:spider_kunzite"],
+        "itemcount": "1/1-2/2-3/3/3-4/3-5/4-5",
+        "removeall":"true"
+      },
+      {
+        "mob": "jobinsmobs:reaper",
+        "dimension": ["stellariscraft:parena","stellariscraft:marena","stellariscraft:uarena"],
+        "item": ["cataclysm:burning_ashes"],
+        "itemcount": "1/1-2/1-3/2-3/3/3-4/4"
+
+      },
+  
+      //堕落审判者
+      {
+        "mob": "jobinsmobs:fallenjudge",
+        "dimension": "stellariscraft:parena",
+        "remove": "stellariscraft:bb",
+        "item": "dotcoinmod:iron_coin",
+        "itemcount": "1-3"
+      },
+      {
+        "mob": "jobinsmobs:fallenjudge",
+        "dimension": "stellariscraft:parena",
+        "item": "stellariscraft:knightingot",
+        "itemcount": "1-2"
+      },
+
+
+      //先遣
+      {
+        "mob": "jobinsmobs:darkadvance",
+        "dimension": ["stellariscraft:parena","stellariscraft:marena"],
+        "item": ["minecraft:wither_skeleton_skull"],
+        "itemcount": "0-1/1/1-2/2/2-3/3/3-4"
+      },
+      {
+        "mob": "jobinsmobs:darkadvance",
+        "dimension": ["stellariscraft:parena","stellariscraft:marena"],
+        "item": ["minecraft:iron_ingot"],
+        "itemcount": "1-2/2-4/4-6/5-6/5-7/6-7/6-8"
+      },
+      {
+        "mob": "jobinsmobs:darkadvance",
+        "dimension": ["stellariscraft:parena","stellariscraft:marena"],
+        "item": "stellariscraft:adgrain",
+        "itemcount": "2-4/3-5/4-6/5-6/5-7/6-7/7"
+      },
+  
+      //沙之凝壳
+      {
+        "mob": "jobinsmobs:sandcaptain",
+        "dimension": ["stellariscraft:parena","stellariscraft:marena"],
+        "item": ["stellariscraft:sandheart"],
+        "itemcount": "1-2/1-3/2-3/3/3-4/4/4-5"
+      },
+      {
+        "mob": "jobinsmobs:sandcaptain",
+        "dimension": ["stellariscraft:parena","stellariscraft:marena"],
+        "item": ["miningmaster:spirit_garnet","miningmaster:lucky_citrine"],
+        "itemcount": "1-2"
+      },
+      {
+        "mob": "jobinsmobs:sandcaptain",
+        "dimension": ["stellariscraft:parena","stellariscraft:marena"],
+        "item": "stellariscraft:adgrain",
+        "itemcount": "4-6/5-7/6-8/7-8/8-9/9-10/10"
+      },
+      {
+        "mob": "jobinsmobs:sandcaptain",
+        "remove": "epicfight:netherite_spear"
+      },
+      //森白影魔
+      {
+        "mob": "jobinsmobs:senbaidevil",
+        "remove": "epicfight:uchigatana"
+      },
+      {
+        "mob": "jobinsmobs:senbaidevil",
+        "dimension": "stellariscraft:parena",
+        "item": ["stellariscraft:netheritess","miningmaster:ice_sapphire","miningmaster:divine_beryl"],
+        "itemcount": "1/1-2/2-3/3/3-4/3-5/4-5"
+      },
+
+  
+      //杀戮将军
+      {
+        "mob": "jobinsmobs:slaughtergeneral",
+        "remove": ["stellariscraft:helleyes","stellariscraft:deadknight_helmet","stellariscraft:deadknight_chestplate","stellariscraft:deadknight_leggings","stellariscraft:deadknight_boots"]
+      },
+      {
+        "mob": "jobinsmobs:slaughtergeneral",
+        "dimension": ["stellariscraft:parena","stellariscraft:marena"],
+        "item": ["stellariscraft:diedscrap","miningmaster:unbreaking_iolite","miningmaster:power_pyrite"],
+        "itemcount": "1-2/1-3/2-3/3/3-4/4/4-5"
+      },
+
+  
+      //金焰神王
+      {
+        "mob": "jobinsmobs:goldenflame",
+        "remove": ["cataclysm:the_incinerator","cataclysm:ignitium_helmet","cataclysm:ignitium_chestplate","cataclysm:ignitium_leggings","cataclysm:ignitium_boots","stellarisdlc:trueincinerator","stellarisdlc:originincinerator"]
+      },
+      {
+        "mob": "jobinsmobs:goldenflame",
+        "dimension": "stellariscraft:parena",
+        "item": "stellariscraft:witherc",
+        "itemcount": "1/1-2/2/2-3/3/3-4/3-5"
+      },
+      {
+        "mob": "jobinsmobs:goldenflame",
+        "dimension": "stellariscraft:parena",
+        "item": ["miningmaster:spirit_garnet","miningmaster:kinetic_opal"],
+        "itemcount": "1-2/1-3/2-4/3-4/4/4-5/5-6"
+      },
+
+
+      //晨星之渊
+      {
+        "mob": "jobinsmobs:msabyss",
+        "remove": "stellariscraft:loyalheart"
+      },
+      {
+        "mob": "jobinsmobs:msabyss",
+        "dimension": ["stellariscraft:parena","stellariscraft:marena","stellariscraft:uarena"],
+        "item": "stellariscraft:starcore",
+        "itemcount": "1/1-2/2-3/3/3-4/4/4-5"
+      },
+
+      //困难 晨星之渊
+      {
+        "mob": "jobinsmobs:msabyssh",
+        "remove": "stellariscraft:loyalheart"
+      },
+      {
+        "mob": "jobinsmobs:msabyssh",
+        "dimension": ["stellariscraft:parena","stellariscraft:marena"],
+        "item": "stellariscraft:starcore",
+        "itemcount": "6"
+      },
+      {
+        "mob": "jobinsmobs:msabyss",
+        "dimension": "stellariscraft:parena",
+        "item": "bhc:blue_heart",
+        "itemcount": "2-4"
+      },
+
+
+
+  
+      //遗忘
+      {
+        "mob": "quark:forgotten",
+        "item": "stellariscraft:forget_bone",
+        "itemcount": "1-2"
+      },
+  
+      //羚羊
+      {
+        "mob": "alexsmobs:gazelle",
+        "remove": "alexsmobs:gazelle_horn"
+      },
+      //恼鬼
+      {
+        "mob": "minecraft:vex",
+        "remove": "mca:scythe"
+      },
+      //流光
+      {
+        "mob": "jobinsmobs:gazeabysser",
+              "item": "stellariscraft:lightfulcore",
+              "itemcount": "1"
+      },
+      {
+        "mob": "jobinsmobs:gazeabysser",
+              "item": "cnb:yeti_hide",
+              "itemcount": "1"
+      },
+      {
+        "mob": "jobinsmobs:gazeabysserh",
+              "dimension": "stellariscraft:uarena",
+              "item": "stellariscraft:lightfulcore",
+              "itemcount": "3"
+      },
+
+      
+      {
+        "mob": "jobinsmobs:sincerwarrior",
+        "dimension": "stellariscraft:marena",
+        "item": "stellariscraft:sinceritycore",
+        "itemcount": "1"
+      },
+      {
+        "mob": "jobinsmobs:sincerwarrior",
+        "dimension": "stellariscraft:marena",
+        "item": "stellariscraft:the_hornof_frost",
+        "itemcount": "3-5"
+      },
+      {
+        "mob": "jobinsmobs:shaoqing",
+        "dimension": "stellariscraft:marena",
+        "item": "stellariscraft:the_hornof_frost",
+        "itemcount": "1-2"
+      },
+
+    //堕落审判者
+    {
+      "mob": "jobinsmobs:fallenjudge",
+      "dimension": "stellariscraft:uarena",
+      "item": "dotcoinmod:iron_coin",
+      "itemcount": "4-6"
+    },
+    {
+      "mob": "jobinsmobs:fallenjudge",
+      "dimension": "stellariscraft:uarena",
+      "item": "stellariscraft:knightingot",
+      "itemcount": "6"
+    },
+
+    //妖精之女
+    {
+      "mob": "jobinsmobs:fairydaughter",
+      "dimension": "stellariscraft:uarena",
+      "item": "stellariscraft:deadingot",
+      "itemcount": "2-4"
+    },
+    {
+      "mob": "jobinsmobs:fairydaughter",
+      "dimension": "stellariscraft:uarena",
+      "item": "stellariscraft:netherrotingot",
+      "itemcount": "2-4"
+    },
+//审判
+{
+  "mob": "jobinsmobs:fallenjudge",
+  "dimension": "stellariscraft:uarena",
+  "item": "stellarisdlc:degenerate",
+  "itemcount": "1"
+},
+//凋零恼鬼
+{
+  "mob": "bygonenether:wex",
+  "dimension": "minecraft:overworld",
+  "item": "omnis:tear_of_vex",
+  "itemcount": "1/1-2/1-3/2-3/3/3-4/3-5"
+},
+{
+  "mob": "bygonenether:wex",
+  "dimension": "minecraft:the_nether",
+  "item": "omnis:tear_of_vex",
+  "itemcount": "1/1-2/1-3/2-3/3/3-4/3-5"
+},
+//灾厄术士
+{
+  "mob": "irons_spellbooks:archevoker",
+  "dimension": "minecraft:overworld",
+  "item": "irons_spellbooks:arcane_essence",
+  "itemcount": "5-10",
+  "removeall":"true"
+},
+//冰霜术士
+{
+  "mob": "irons_spellbooks:cryomancer",
+  "dimension": "minecraft:overworld",
+  "item": "irons_spellbooks:arcane_essence",
+  "itemcount": "5-10",
+  "removeall":"true"
+},
+//炽焰术士
+{
+  "mob": "irons_spellbooks:pyromancer",
+  "dimension": "minecraft:overworld",
+  "item": "irons_spellbooks:arcane_essence",
+  "itemcount": "5-10",
+  "removeall":"true"
+},
+//死灵之王
+{
+  "mob": "irons_spellbooks:dead_king",
+  "dimension": "minecraft:overworld",
+  "item": "irons_spellbooks:arcane_essence",
+  "itemcount": "5-10",
+  "removeall":"true"
+},
+{
+  "mob": "irons_spellbooks:dead_king",
+  "dimension": "minecraft:overworld",
+  "item": "stellariscraft:exchangestone",
+  "itemcount": "1"
+},
+//远古骑士
+{
+  "mob": "irons_spellbooks:citadel_keeper",
+  "dimension": "minecraft:the_nether",
+  "item": "irons_spellbooks:arcane_essence",
+  "itemcount": "5-10",
+  "removeall":"true"
+},
+{
+  "mob": "irons_spellbooks:citadel_keeper",
+  "dimension": "minecraft:overworld",
+  "item": "irons_spellbooks:arcane_essence",
+  "itemcount": "5-10",
+  "removeall":"true"
+},
+
+//流光掉落霜冻角
+{
+  "mob": "jobinsmobs:gazeabysser",
+  "item": "stellariscraft:the_hornof_frost",
+  "itemcount": "1/1-2/2-3/3/3-4/4/4-5"
+} ,
+
+   //焰魔
+  {
+    "mob": "cataclysm:ignis",
+    "item": "bhc:green_heart",
+    "itemcount": "0/0-1/1/1-2/2/2-3/3"
+  },
+
+     //下界合金巨兽
+    {
+      "mob": "cataclysm:netherite_monstrosity",
+      "item": "bhc:green_heart",
+      "itemcount": "0/0-1/1/1-2/2/2-3/3"
+    },
+  //禁用烈焰人掉落魔法书
+{
+  "mob": "minecraft:blaze",
+  "remove":"irons_spellbooks:blaze_spell_book"
+},
+  //禁用唤魔者掉落魔法书
+  {
+    "mob": "minecraft:evoker",
+    "remove":"irons_spellbooks:evoker_spell_book"
+  },
+
+  //贤者掉落雪人皮
+{
+  "mob": "jobinsmobs:sage",
+  "item": "cnb:yeti_hide",
+  "itemcount": "1",
+  "removeall":"true"
+},
+
+//燃魂增加灰烬掉落
+{
+  "mob": "cataclysm:ignited_revenant",
+  "item": "cataclysm:burning_ashes",
+  "itemcount": "0-1/0-2/1-2/2/2-3/3/3-4"
+},
+
+//焰魔增加焰魔锭掉落
+{
+  "mob": "cataclysm:ignis",
+  "item": "cataclysm:ignitium_ingot",
+  "itemcount": "0/1/1-2/2/2-3/3-4/4"
+}
+  ]
+
+
+

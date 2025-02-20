@@ -1,0 +1,1 @@
+title @p[tag=kill_core] title [{"text":"破开下界的力量","color":"gold"}]

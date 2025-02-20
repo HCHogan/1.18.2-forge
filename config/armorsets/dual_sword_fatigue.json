@@ -1,0 +1,58 @@
+{
+  "armorSetName": "dual_sword_fatigue",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "minecraft:wooden_sword",
+    "mixAndMatch": [
+    "minecraft:stone_sword",
+    "minecraft:golden_sword",
+    "minecraft:iron_sword",
+    "minecraft:diamond_sword",
+    "minecraft:netherite_sword",
+    "dungeons_plus:leviathan_blade",
+    "blue_skies:different_sword",
+    "blue_skies:turquoise_stone_sword",
+    "blue_skies:lunar_stone_sword",
+    "blue_skies:pyrope_sword",
+    "blue_skies:aquite_sword",
+    "blue_skies:diopside_sword",
+    "blue_skies:charoite_sword",
+    "blue_skies:horizonite_sword",
+    "blue_skies:infused_arc_sword",
+    "stellariscraft:fightswordaxe",
+    "stellariscraft:rotswordaxe",
+    "stellariscraft:killsowrdaxe",
+    "stellariscraft:ravagedsword",
+    "stellariscraft:diopsidesword",
+    "aquaculture:neptunium_sword",
+    "byg:pendorite_sword",
+    "miningmaster:lucky_citrine_sword",
+    "miningmaster:power_pyrite_sword",
+    "miningmaster:ultima_sword",
+    "amethysttoolsmod:iron_sword_amethyst",
+    "amethysttoolsmod:diamond_sword_amethyst",
+    "amethysttoolsmod:netherite_sword_amethyst",
+    "cnb:cinder_sword",
+    "irons_spellbooks:magehunter",
+    "ba_bt:platinum_sword",
+    "omnis:spell_blade",
+    "omnis:haunted_spell_blade",
+    "stellarisdlc:lionsword",
+    "stellarisdlc:whitewolf",
+    "stellarisdlc:diedsword",
+    "stellarisdlc:xiuchundao",
+    "stellarisdlc:xiuchundaogolden"
+]
+    },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "epicfight:offhand_attack_speed",
+      "value": -0.4,
+      "attributeOperation": 2,
+      "modifierUUID": "ef170ec4-7ee4-46b4-87aa-5ebf8609d933",
+      "description": "-0.7 offhand_attack_speed (EpicFight)" 
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

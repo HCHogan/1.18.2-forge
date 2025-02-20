@@ -1,0 +1,1 @@
+execute at @e[type=jobinsmobs:goldenflame,sort=nearest,limit=1] run playsound cataclysm:flame_burst block @p ~ ~ ~ 2

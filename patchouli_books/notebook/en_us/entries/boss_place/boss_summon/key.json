@@ -1,0 +1,27 @@
+{
+    "name": "决斗场钥匙",
+    "icon": "supplementaries:key",
+    "anchor":"imessence",
+    "category": "patchouli:boss_summon",
+    "sortnum":6,
+    "pages": [
+        {
+            "type": "crafting",
+            "name": "炼狱决斗场钥匙",
+            "recipe": "stellariscraft:pkey",
+            "text":"进入炼狱决斗场的门票，大地守护者之眼作为核心尽管可以突破维度之间的屏障但是能力不足以让人安全地抵达下一个维度，只能存在于为度之间的间隙之间，因此可以进去位于地狱与主世界之间的炼狱决斗场。"
+        },
+        {
+            "type": "crafting",
+            "name": "终焉决斗场钥匙",
+            "recipe": "stellariscraft:ukey",
+            "text":"利用终末守护者之眼的终焉之力和外维度的力量，最后加上古老文明的能源核心可以进入曾今的终焉力量创造的次元，但是注意进入此地意味着很可能受到终焉的监视。"
+        },
+        {
+            "type": "crafting",
+            "name": "圣堂决斗场钥匙",
+            "recipe": "stellariscraft:mkey",
+            "text":"谜一样的存在，不应属于这里"
+        }
+    ]
+}

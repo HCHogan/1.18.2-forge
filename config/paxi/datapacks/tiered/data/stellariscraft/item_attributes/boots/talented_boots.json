@@ -1,0 +1,59 @@
+{
+  "id": "stellariscraft:talented_boots",
+  "weight": 9,
+  "reforge_experience_cost": 2,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:boots"}
+  ],
+  "style": {
+    "color": "green"
+  },
+  "attributes": [
+    {
+      "type": "generic.movement_speed",
+      "modifier": {
+        "name": "stellariscraft:talented_boots",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.01
+      },
+      "optional_equipment_slots": [
+        "FEET"
+      ]
+    },
+   {
+      "type": "generic.knockback_resistance",
+      "modifier": {
+        "name": "stellariscraft:talented_boots",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.1
+      },
+      "optional_equipment_slots": [
+        "FEET"
+      ]
+    },
+{
+      "type": "forge:swim_speed",
+      "modifier": {
+        "name": "stellariscraft:talented_boots",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.03
+      },
+      "optional_equipment_slots": [
+        "FEET"
+      ]
+    },
+{
+      "type": "generic.flying_speed",
+      "modifier": {
+        "name": "stellariscraft:talented_boots",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.03
+      },
+      "optional_equipment_slots": [
+        "FEET"
+      ]
+    }
+  ]
+}

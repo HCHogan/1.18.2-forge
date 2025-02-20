@@ -1,0 +1,240 @@
+{
+  "profession": "minecraft:toolsmith",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:iron_pickaxe",
+        "amount": 1,
+        "priceModifier": 0,
+        "semiRandomEnchantments": [
+          {
+            "enchantmentKey": "minecraft:unbreaking",
+            "enchantmentLevel": 1,
+            "maxEnchantmentLevel": 2
+          },
+          {
+            "enchantmentKey": "minecraft:efficiency",
+            "enchantmentLevel": 2,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "minecraft:fortune",
+            "enchantmentLevel": 1,
+            "maxEnchantmentLevel": 2
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:iron_pickaxe",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 3,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:toolsmith_iron_pickaxe_for_iron_coin_and_iron_pickaxe_0"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:gunpowder",
+        "amount": 4
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 8
+      },
+      "tradeExp": 5,
+      "maxUses": 20,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:toolsmith_gunpowder_for_copper_coin_0"
+    },
+
+    {
+      "offer": {
+        "itemKey": "minecraft:diamond_pickaxe",
+        "amount": 1,
+        "priceModifier": 0,
+        "semiRandomEnchantments": [
+          {
+            "enchantmentKey": "minecraft:unbreaking",
+            "enchantmentLevel": 2,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "minecraft:efficiency",
+            "enchantmentLevel": 3,
+            "maxEnchantmentLevel": 4
+          },
+          {
+            "enchantmentKey": "minecraft:fortune",
+            "enchantmentLevel": 2,
+            "maxEnchantmentLevel": 3
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond",
+        "amount": 3
+      },
+      "tradeExp": 20,
+      "maxUses": 5,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:toolsmith_diamond_pickaxe_for_iron_coin_and_diamond_0"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:firework_rocket",
+        "amount": 32
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 15
+      },
+      "tradeExp": 10,
+      "maxUses": 20,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:toolsmith_firework_rocket_for_copper_coin_0"
+    },
+
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 32
+      },
+      "tradeExp": 50,
+      "maxUses": 20,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:toolsmith_iron_coin_for_gold_ingot_0"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 12
+      },
+      "request": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 32
+      },
+      "tradeExp": 50,
+      "maxUses": 20,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:toolsmith_iron_coin_for_iron_ingot_0"
+    },
+
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 2
+      },
+      "request": {
+        "itemKey": "minecraft:diamond",
+        "amount": 24
+      },
+      "tradeExp": 50,
+      "maxUses": 50,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:toolsmith_iron_coin_for_diamond_0"
+    },
+
+    {
+      "offer": {
+        "itemKey": "stellarisdlc:forgedspar",
+        "amount": 6
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 8
+      },
+      "tradeExp": 5,
+      "maxUses": 1,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:toolsmith_forgedspar_for_gold_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:netherite_ingot",
+        "amount": 4
+      },
+      "tradeExp": 5,
+      "maxUses": 5,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:toolsmith_gold_coin_for_netherite_ingot_0"
+    },
+    {
+      "offer": {
+        "itemKey": "epicfight:diamond_dagger",
+        "amount": 1,
+        "advancedNBTData": "{Tiered:{Tier:\"stellariscraft:epic2_itinerant_dagger\"}}"
+      },
+      "request": {
+        "itemKey": "epicfight:diamond_dagger",
+        "amount": 1
+      },
+      "additionalRequest": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 3
+      },
+      "tradeExp": 100,
+      "maxUses": 1,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:epic2_itinerant_dagger"
+    },
+    {
+      "offer": {
+        "itemKey": "epicfight:skillbook",
+        "amount": 1,
+        "advancedNBTData": "{skill:\"epicfight:impact_guard\"}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 5
+      },
+      "tradeExp": 100,
+      "maxUses": 1,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:toolsmith_gold_coin_for_skill_book"
+    }
+
+  ]
+}

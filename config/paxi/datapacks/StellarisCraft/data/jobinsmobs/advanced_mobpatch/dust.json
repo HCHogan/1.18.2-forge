@@ -1,0 +1,690 @@
+{
+    "model": "epicfight:entity/biped_old_texture",
+    "armature": "epicfight:entity/biped",
+    "renderer": "minecraft:zombie",
+	"isHumanoid": true,
+	"faction": "undead",
+	"advanced": true,
+	"attributes": {
+		"impact": 1.0,
+		"armor_negation": 10.0,
+		"max_strikes": 3,
+		"chasing_speed": 1.0,
+		"max_stamina": 100, 		
+		"stamina_regan_multiply": 0.5, 	 
+		"stamina_regan_delay": 30
+	},
+	"default_livingmotions": {
+		"idle": "epicfight:biped/living/idle",
+		"walk": "epicfight:biped/living/walk",
+		"chase": "epicfight:biped/living/walk",
+		"death": "epicfight:biped/living/death"
+	},
+	"humanoid_weapon_motions": [
+		{
+			"weapon_categories": ["fist"],
+			"style":"common",
+			"livingmotions": {
+				"chase": "epicfight:biped/living/walk",
+				"walk": "epicfight:biped/living/walk"
+			}
+		}
+	],
+	"custom_guard_motion": [				    			
+		{
+			"weapon_categories": ["fist"],
+			"style": "common", 				    			 
+			"guard": "indestructible:guard/guard_dualsword",   
+			"stamina_cost_multiply": 1.0,
+			"can_block_projectile" : true    	
+		}
+	],
+	"stun_animations": {
+		"short": "epicfight:biped/combat/hit_short",
+		"long": "epicfight:biped/combat/hit_long",
+		"knockdown": "epicfight:biped/combat/knockdown",
+		"fall": "epicfight:biped/living/landing",
+		"neutralize": "epicfight:biped/skill/guard_break1"
+	},
+	"stun_command_list":[
+		{"command":"effect give @s epicfight:stun_immunity 1", "stun_type": "short"}
+	],
+	"combat_behavior": [
+		{
+			"weapon_categories": ["fist"],
+			"style": "common",
+			"behavior_series": [
+				{
+					"weight": 0.15,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 10, 
+					"behaviors": [
+					    {
+							"conditions": [
+								{"predicate":"within_eye_height"},  {"predicate":"within_distance", "min": 0.0, "max": 2.0}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"wander": 16,             
+							"inaction_time": 0,	  
+							"x_axis": 0.0,		   
+							"z_axis": -0.75
+						}
+                    ]                 
+				},
+				{
+					"weight": 1.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 40,
+					"behaviors": [
+					    {
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, {"predicate":"within_distance", "min": 1.5, "max": 3.0}
+							],
+							"wander": 5,             
+							"inaction_time": 0,	  
+							"x_axis": 0.0,		   
+							"z_axis": 0.05
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "epicfight:biped/combat/sword_dual_auto1",
+							"convert_time": 0.2,
+							"play_speed": 0.8
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "epicfight:biped/combat/sword_dual_auto2",
+							"convert_time": 0.2,
+							"play_speed": 0.8
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "epicfight:biped/combat/dagger_dual_dash",
+							"convert_time": 0.3,
+							"play_speed": 0.7
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "star:biped/new/sword_slash",
+							"convert_time": 0.2,
+							"play_speed": 0.8
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						}
+                    ]                 
+				},
+				{
+					"weight": 1.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 40,
+					"behaviors": [
+					    {
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, {"predicate":"within_distance", "min": 1.5, "max": 3.0}
+							],
+							"wander": 5,             
+							"inaction_time": 0,	  
+							"x_axis": 0.0,		   
+							"z_axis": 0.05
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "epicfight:biped/combat/sword_dual_auto3",
+							"convert_time": 0.4
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "epicfight:biped/combat/sword_dual_airslash",
+							"convert_time": 0.2
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/roll_backward"
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "wom:biped/skill/enderblaster_twohand_shoot_4",
+							"convert_time": 0.2,
+							"damage_modifier": {	 	    								
+								"impact": 0.1
+							}
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						}
+                    ]                 
+				},
+				{
+					"weight": 1.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 40,
+					"behaviors": [
+					    {
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, {"predicate":"within_distance", "min": 1.5, "max": 4.0}
+							],
+							"wander": 5,             
+							"inaction_time": 0,	  
+							"x_axis": 0.0,		   
+							"z_axis": 0.05
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "epicfight:enderman/kick_twice",
+							"convert_time": 0.2,
+							"play_speed": 0.8
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "wom:biped/combat/enderblaster_onehand_dash",
+							"convert_time": 0.2,
+							"play_speed": 0.8,
+							"damage_modifier": {	 	    								
+								"impact": 0.1
+							}
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "wom:biped/skill/gezets_auto_1",
+							"convert_time": 0.2,
+							"damage_modifier": {	 	    								
+								"impact": 0.1
+							}
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/roll_backward"
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "wom:biped/skill/enderblaster_twohand_shoot_4",
+							"convert_time": 0.2,
+							"damage_modifier": {	 	    								
+								"impact": 0.1
+							}
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						}
+                    ]                 
+				},
+				{
+					"weight": 1.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"behaviors": [
+					
+					    {
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"within_distance", "min": 6.0, "max": 8.0}
+							],
+							"wander": 40,             
+							"inaction_time": 0,	  
+							"x_axis": 0.0,		   
+							"z_axis": 1.0
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "wom:biped/skill/enderblaster_twohand_shoot_dash",
+							"play_speed": 0.6
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						}
+                    ]                 
+				},
+				{
+					"weight": 1.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"behaviors": [
+					    {
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, {"predicate":"within_distance", "min": 8.0, "max": 20.0}
+							],
+							"wander": 5,             
+							"inaction_time": 0,	  
+							"x_axis": 0.0,		   
+							"z_axis": 0.05
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}
+							],
+							"animation": "wom:biped/skill/enderblaster_onehand_shoot_3"
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						}
+                    ]                 
+				},
+				{
+					"weight": 1.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"counter_cost": 100,
+					"behaviors": [
+					    {
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"attack_level", "min": 1, "max": 2}, {"predicate":"within_distance", "min": 0.0, "max": 4.0}
+							],
+							"wander": 20,             
+							"inaction_time": 0,	  
+							"x_axis": 0.0,		   
+							"z_axis": 0.05
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 1, 
+							"counter": "epicfight:biped/skill/guard_dualsword",
+							"counter_cost": 5, 
+							"counter_chance": 1.0, 
+							"counter_speed": 0.4
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"attack_level", "min": 0, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 1, 
+							"counter": "epicfight:biped/skill/guard_sword_hit_active1",
+							"counter_cost": 5, 
+							"counter_chance": 1.0, 
+							"counter_speed": 0.4
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"attack_level", "min": 0, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 1, 
+							"counter": "epicfight:biped/skill/guard_sword_hit_active2",
+							"counter_cost": 5, 
+							"counter_chance": 1.0, 
+							"counter_speed": 0.4
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}
+							],
+							"animation": "epicfight:biped/combat/fist_auto1",
+							"convert_time": 0.2,
+							"play_speed": 0.8
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}
+							],
+							"animation": "epicfight:biped/combat/fist_auto2",
+							"convert_time": 0.2,
+							"play_speed": 0.8
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "epicfight:enderman/kick_twice",
+							"convert_time": 0.2,
+							"play_speed": 0.8
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}
+							],
+							"animation": "wom:biped/combat/enderblaster_onehand_auto_3",
+							"convert_time": 0.2,
+							"play_speed": 0.8,
+							"damage_modifier": {	 	    								
+								"impact": 0.1
+							}
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/roll_backward"
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}
+							],
+							"animation": "wom:biped/skill/enderblaster_twohand_airshoot",
+							"convert_time": 0.2,
+							"play_speed": 0.6,
+							"damage_modifier": {	 	    								
+								"impact": 0.1
+							}
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						}
+                    ]                 
+				},
+				{
+					"weight": 1.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"counter_cost": 100,
+					"behaviors": [
+					    {
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"attack_level", "min": 1, "max": 2}, {"predicate":"within_distance", "min": 0.0, "max": 4.0}
+							],
+							"wander": 20,             
+							"inaction_time": 0,	  
+							"x_axis": 0.0,		   
+							"z_axis": 0.05
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 1, 
+							"counter": "epicfight:biped/skill/guard_dualsword",
+							"counter_cost": 5, 
+							"counter_chance": 1.0, 
+							"counter_speed": 0.4
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"attack_level", "min": 0, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 1, 
+							"counter": "epicfight:biped/skill/guard_sword_hit_active1",
+							"counter_cost": 5, 
+							"counter_chance": 1.0, 
+							"counter_speed": 0.4
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"attack_level", "min": 0, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 1, 
+							"counter": "epicfight:biped/skill/guard_sword_hit_active2",
+							"counter_cost": 5, 
+							"counter_chance": 1.0, 
+							"counter_speed": 0.4
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}
+							],
+							"animation": "epicfight:biped/combat/sword_dual_auto3",
+							"convert_time":0.2,
+							"play_speed": 0.8
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "wom:biped/skill/enderblaster_twohand_airshoot",
+							"play_speed": 0.5
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/roll_backward"
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "wom:biped/skill/enderblaster_twohand_shoot_4",
+							"convert_time": 0.2,
+							"damage_modifier": {	 	    								
+								"impact": 0.1
+							}
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						}
+                    ]                 
+				},
+				{
+					"weight": 1.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"counter_cost": 100,
+					"behaviors": [
+					    {
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"attack_level", "min": 1, "max": 2}, {"predicate":"within_distance", "min": 0.0, "max": 4.0}
+							],
+							"wander": 20,             
+							"inaction_time": 0,	  
+							"x_axis": 0.0,		   
+							"z_axis": 0.05
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 1, 
+							"counter": "epicfight:biped/skill/guard_dualsword",
+							"counter_cost": 5, 
+							"counter_chance": 1.0, 
+							"counter_speed": 0.4
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"attack_level", "min": 0, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 1, 
+							"counter": "epicfight:biped/skill/guard_sword_hit_active1",
+							"counter_cost": 5, 
+							"counter_chance": 1.0, 
+							"counter_speed": 0.4
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"attack_level", "min": 0, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 1, 
+							"counter": "epicfight:biped/skill/guard_sword_hit_active2",
+							"counter_cost": 5, 
+							"counter_chance": 1.0, 
+							"counter_speed": 0.4
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}
+							],
+							"animation": "epicfight:biped/skill/roll_backward"
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}
+							],
+							"animation": "wom:biped/skill/enderblaster_onehand_shoot_3"
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}
+							],
+							"animation": "wom:biped/skill/enderblaster_twohand_shoot_2",
+							"play_speed": 0.6
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}
+							],
+							"animation": "wom:biped/skill/enderblaster_twohand_shoot_3",
+							"convert_time": 0.5
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/roll_backward"
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}
+							],
+							"animation": "wom:biped/skill/agony_plunge_forward",
+							"convert_time": 0.2
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						}	
+                    ]                 
+				},
+				{
+					"weight": 1.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"counter_cost": 100,
+					"behaviors": [
+					    {
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"attack_level", "min": 1, "max": 2}, {"predicate":"within_distance", "min": 0.0, "max": 4.0}
+							],
+							"wander": 20,             
+							"inaction_time": 0,	  
+							"x_axis": 0.0,		   
+							"z_axis": 0.05
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 1, 
+							"counter": "epicfight:biped/skill/guard_dualsword",
+							"counter_cost": 5, 
+							"counter_chance": 1.0, 
+							"counter_speed": 0.4
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"attack_level", "min": 0, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 1, 
+							"counter": "epicfight:biped/skill/guard_sword_hit_active1",
+							"counter_cost": 5, 
+							"counter_chance": 1.0, 
+							"counter_speed": 0.4
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"attack_level", "min": 0, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 4.0}
+							],
+							"guard": 1, 
+							"counter": "epicfight:biped/skill/guard_sword_hit_active2",
+							"counter_cost": 5, 
+							"counter_chance": 1.0, 
+							"counter_speed": 0.4
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}
+							],
+							"animation": "wom:biped/combat/enderblaster_onehand_auto_1",
+							"convert_time":0.2,
+							"play_speed": 0.8,
+							"damage_modifier": {	 	    								
+								"impact": 0.1
+							}
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}
+							],
+							"animation": "wom:biped/combat/enderblaster_onehand_auto_3",
+							"convert_time":0.2,
+							"play_speed": 0.8,
+							"damage_modifier": {	 	    								
+								"impact": 0.1
+							}
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/roll_backward"
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "wom:biped/skill/enderblaster_twohand_shoot_2",
+							"play_speed": 0.5
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "wom:biped/skill/enderblaster_twohand_shoot_4",
+							"convert_time": 0.2
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						}
+                    ]                 
+				}
+				]                 
+				}
+			]
+        }

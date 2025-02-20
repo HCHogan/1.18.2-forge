@@ -1,0 +1,19 @@
+{
+    "name": "幽灵海盗船",
+    "icon": "minecraft:bone",
+    "category": "patchouli:buildings",
+    "sortnum":0,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"幽灵海盗船/undead_pirate_ship",
+            "text": "在第三次终焉战争之后，海面之上也不在安全，或许是终焉力量的渗入让水下的亡灵们有了自我。据说在海洋之上，如果看到了这种骷髅水手的船舶，那么你便已经注定了死亡葬身大海。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/undead_ship.png",
+            "text1":"海上迷雾",
+            "text2":""
+        }
+    ]
+}

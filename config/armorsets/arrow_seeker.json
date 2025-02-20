@@ -1,0 +1,19 @@
+{
+  "armorSetName": "arrow_seeker",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "nock_enough_arrows:seeker_arrow",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "toybox:arrow_damage",
+      "value": 0.6,
+      "attributeOperation": 2,
+      "modifierUUID": "4422f714-1686-4c72-b00e-0b8b46462708",
+      "description": "arrow_seeker.translate" 
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

@@ -1,0 +1,32 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:leather_boots",
+    "minecraft:chainmail_boots",
+    "minecraft:iron_boots",
+    "minecraft:golden_boots",
+    "minecraft:diamond_boots",
+    "minecraft:netherite_boots",
+    "aquaculture:neptunium_boots",
+    "blue_skies:pyrope_boots",
+    "blue_skies:aquite_boots",
+    "blue_skies:diopside_boots",
+    "blue_skies:charoite_boots",
+    "blue_skies:horizonite_boots",
+    "cataclysm:ignitium_boots",
+    "byg:ametrine_boots",
+    "miningmaster:paragon_boots",
+    "omnis:ravaged_boots",
+    "omnis:haunted_boots",
+    "ba_bt:platinum_boots",
+    "stellarisdlc:diasteel_boots",
+    "stellarisdlc:goldendragon_boots",
+    "stellarisdlc:tiestone_armor_boots",
+    "stellarisdlc:netherrot_armor_boots",
+    "stellarisdlc:w_tknight_armor_boots",
+    "stellarisdlc:deadknight_boots",
+    "amethysttoolsmod:iron_boots_amethyst",
+    "amethysttoolsmod:diamond_boots_amethyst",
+    "amethysttoolsmod:netherite_boots_amethyst"
+  ]
+}

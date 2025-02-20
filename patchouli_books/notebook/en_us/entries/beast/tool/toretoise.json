@@ -1,0 +1,23 @@
+{
+    "name": "矿石乌龟",
+    "icon": "aquaculture:box_turtle",
+    "category": "patchouli:beast_tool",
+    "sortnum":2,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"矿石乌龟",
+            "text": "原本只是普通的陆龟，在终焉的魔力影响下，背部有长出$(t:煤、铁、青金石、红石、铜)$(5)矿石$()的能力，同时也改变了生活的习性，更加喜欢在地下深处生活。据说用镐类工具敲击不会伤害他们，反而能让背部的矿石脱落下来。"
+        },
+        {
+            "type": "png_mining",
+            "text1":"矿石乌龟",
+             "image":"stellarisdlc:textures/png/toretoise.png"
+        },
+        {"type": "spotlight",
+        "title":"矿物生长",
+        "item": "minecraft:glow_berries",
+        "text": "将发光浆果喂食给背上没有矿石的乌龟，会有一定概率催使其再次长出新的$(t:煤、铁、青金石、红石、铜中的随机一种)$(5)矿石$()。当然这种催化无法一直进行，每次的催化需要等待$(t:喂食冷却60s)$(5)一段时间$()。不过令人可惜的是这种乌龟的基因受到了改变，已经无法进行繁殖。"
+         }
+    ]
+}

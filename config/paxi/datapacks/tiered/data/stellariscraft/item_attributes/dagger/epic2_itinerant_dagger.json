@@ -1,0 +1,49 @@
+{
+  "id": "stellariscraft:epic2_itinerant_dagger",
+  "weight": 2.5,
+  "reforge_experience_cost": 2,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:dagger"}
+  ],
+  "style": {
+    "color": "dark_purple"
+  },
+  "attributes": [
+    {
+      "type": "toybox:crit_chance",
+      "modifier": {
+        "name": "stellariscraft:epic2_itinerant_dagger",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.4
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "toybox:burden",
+      "modifier": {
+        "name": "stellariscraft:epic2_itinerant_dagger",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 1
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+
+    {
+      "type": "generic.movement_speed",
+      "modifier": {
+        "name": "stellariscraft:epic2_itinerant_dagger",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.1
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

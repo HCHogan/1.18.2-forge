@@ -1,0 +1,20 @@
+{
+  "armorSetName": "jobinsmobs",
+  "performanceMode": false,
+  "mainHand": {
+    "itemKey": "jobinsmobs:jobinsmobs",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "omnis:magic_proficiency",
+      "value": 9.0,
+      "interactionType": "self",
+      "interactionDuration": 80,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

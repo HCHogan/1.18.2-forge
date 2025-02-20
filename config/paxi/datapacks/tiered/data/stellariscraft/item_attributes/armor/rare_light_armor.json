@@ -1,0 +1,40 @@
+{
+  "id": "stellariscraft:rare_light_armor",
+  "weight": 3.5,
+  "reforge_experience_cost": 2,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:chestplates"},
+    {"tag": "forge:leggings"}
+  ],
+  "style": {
+    "color": "blue"
+  },
+  "attributes": [
+    {
+      "type": "generic.movement_speed",
+      "modifier": {
+        "name": "stellariscraft:rare_light_armor",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.04
+      },
+      "optional_equipment_slots": [
+        "LEGS",
+        "CHEST"
+      ]
+    },
+   {
+      "type": "epicfight:weight",
+      "modifier": {
+        "name": "stellariscraft:rare_light_armor",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": -0.07
+      },
+      "optional_equipment_slots": [
+        "LEGS",
+        "CHEST"
+      ]
+    }
+  ]
+}

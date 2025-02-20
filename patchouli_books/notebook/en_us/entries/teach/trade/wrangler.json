@@ -1,0 +1,50 @@
+{
+    "name": "牧人(料槽)",
+    "icon": "blue_skies:trough",
+    "category": "patchouli:trade",
+    "sortnum":1,
+    "pages": [
+{"type":"trade1",
+ "head":"村民等级:新手",
+ "item1":"dotcoinmod:copper_coin#5",
+ "item2":"minecraft:air",
+ "item3":"minecraft:lead#5",
+ "text1":"10次"
+ 
+},
+{"type":"trade2",
+ "head":"村民等级:学徒",
+ "item1":"dotcoinmod:copper_coin#10",
+ "item2":"minecraft:air",
+ "item3":"blue_skies:cooked_charscale_moki#5",
+ "text1":"10次",
+"item4":"blue_skies:fox_pelt#4",
+ "item5":"minecraft:air",
+ "item6":"dotcoinmod:copper_coin#3",
+ "text2":"10次"
+},
+{"type":"trade1",
+ "head":"村民等级:老手",
+ "item1":"dotcoinmod:copper_coin#6",
+ "item2":"minecraft:air",
+ "item3":"blue_skies:cherry_pie",
+ "text1":"5次"
+},
+{"type":"trade1",
+ "head":"村民等级:专家",
+ "item1":"blue_skies:moonstone_lantern#5",
+ "item2":"dotcoinmod:iron_coin#2",
+ "item3":"naturalist:bear_spawn_egg",
+ "text1":"2次"
+ 
+},
+{"type":"trade1",
+ "head":"村民等级:大师",
+ "item1":"blue_skies:moonstone_lantern#10",
+ "item2":"dotcoinmod:iron_coin#2",
+ "item3":"alexsmobs:spawn_egg_moose",
+ "text1":"2次"
+}
+
+    ]
+}

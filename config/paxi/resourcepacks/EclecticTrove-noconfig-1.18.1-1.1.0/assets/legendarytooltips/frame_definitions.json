@@ -1,0 +1,120 @@
+{
+	"definitions": [
+		// 0.  baiqi
+		{
+			"index": 0,
+			"startColor": "#A2DAF8",
+			"endColor": "#CDE1E4",
+			"selectors": ["stellarisdlc:wtamulet","stellarisdlc:w_tknight_armor_helmet","stellarisdlc:w_tknight_armor_chestplate","stellarisdlc:w_tknight_armor_leggings","stellarisdlc:w_tknight_armor_boots","stellariscraft:w_knightingot",
+		"stellarisdlc:bailu","stellariscraft:the_hornof_frost","cataclysm:final_fractal"]
+		},
+		// 1.  shalu
+		{
+			"index": 1,
+			"startColor": "#E66868",
+			"endColor": "#4A0303",
+			"selectors": ["stellarisdlc:deathskull","stellarisdlc:diedsword","stellarisdlc:dieddagger","stellariscraft:killsowrdaxe",
+		"stellarisdlc:deadknight_helmet","stellarisdlc:deadknight_chestplate","stellarisdlc:deadknight_leggings","stellarisdlc:deadknight_boots"
+	,"stellariscraft:deadingot","stellarisdlc:alloytachi","stellarisdlc:helleyes"]
+		},
+		// 2.  shengzhun
+		{
+			"index": 2,
+			"startColor": "#FA6BEA",
+			"endColor": "#BCABFE",
+			"selectors": ["stellarisdlc:paragoncrown","miningmaster:paragon_helmet","miningmaster:paragon_chestplate","miningmaster:paragon_leggings",
+		"miningmaster:paragon_boots","stellariscraft:superhealth","shieldexp:paragon_shield"]
+		},
+		// 3.  yanmo
+		{
+			"index": 3,
+			"startColor": "#FFF473",
+			"endColor": "#B60808",
+			"selectors": ["stellarisdlc:ignisheart","cataclysm:ignitium_ingot","cataclysm:ignitium_boots","cataclysm:ignitium_leggings","cataclysm:ignitium_elytra_chestplate",
+			"cataclysm:ignitium_helmet","cataclysm:ignitium_chestplate","cataclysm:bulwark_of_the_flame","cataclysm:the_incinerator","cataclysm:ignitium_block"]
+		},
+		// 4.  jinlong
+		{
+			"index": 4,
+			"startColor": "#FBF6C8",
+			"endColor": "#FAA57E",
+			"selectors": ["stellarisdlc:goldendragon_boots","stellarisdlc:goldendragon_leggings","stellarisdlc:goldendragon_chestplate","stellarisdlc:goldendragon_helmet","stellarisdlc:goldendragonclaw","stellarisdlc:dragonspear"]
+		},
+		// 5.  kuilei
+		{
+			"index": 5,
+			"startColor": "#AFA29D",
+			"endColor": "##47403C",
+			"selectors": ["ba_bt:guardian_eye_sky","ba_bt:guardian_eye_end","ba_bt:guardian_eye_nether","ba_bt:guardian_eye_core","ba_bt:guardian_eye_ocean","ba_bt:guardian_eye_land"]
+		},
+		// 6.  jingshi
+		{
+			"index": 6,
+			"startColor": "#D5F6F7",
+			"endColor": "#99F0EC",
+			"selectors": ["stellariscraft:adventurespar","stellariscraft:mkey","stellariscraft:reinforcedspar","stellariscraft:forgedspar","stellariscraft:ukey","stellariscraft:pkey","stellarisdlc:adventure_scroll"]
+		},
+		// 7.   zhizheng
+		{
+			"index": 7,
+			"startColor": "#A615CF",
+			"endColor": "#431250",
+			"selectors": [  "stellarisdlc:evidenceadventure_1","stellarisdlc:evidenceadventure_2","stellarisdlc:evidenceadventure",
+		                    "stellarisdlc:evidencenether_1","stellarisdlc:evidencenether_2","stellarisdlc:evidencenether",
+	                        "stellarisdlc:evidenceskies_2","stellarisdlc:evidenceskies_1","stellarisdlc:evidenceskies",
+                            "stellarisdlc:evidencestar_1","stellarisdlc:evidencestar_2","stellarisdlc:evidencestar",
+			"minecraft:dragon_head","quark:dragon_scale","cataclysm:enderite_ingot","stellarisdlc:mononchasm","stellariscraft:deadheart","stellariscraft:starcore"]
+		},
+		// 8.  shipin
+		{
+			"index": 8,
+			"startColor": "#74BF7C",
+			"endColor": "#61B369",
+			"selectors": ["artifacts:everlasting_beef","artifacts:eternal_steak","artifacts:plastic_drinking_hat","artifacts:novelty_drinking_hat",
+			"artifacts:superstitious_hat","artifacts:lucky_scarf","overweight_farming:straw_hat","artifacts:antidote_vessel","artifacts:crystal_heart",
+			"artifacts:feral_claws","artifacts:power_glove","artifacts:pocket_piston","artifacts:vampiric_glove","artifacts:bunny_hoppers","artifacts:running_shoes",
+		"stellariscraft:exchangestone","stellarisdlc:exchangestonecore"]
+		},
+		// 9.  lianzhan
+		{
+			"index": 9,
+			"startColor": "#fbfcd3",
+			"endColor": "#f9fad6",
+			"selectors": ["stellariscraft:beingsbadge","stellariscraft:immortalbadge"]
+		},
+		// 10.  jiezhi
+		{
+			"index": 10,
+			"startColor": "#22f429",
+			"endColor": "#22f449",
+			"selectors": ["@ringsofascension"]
+		},
+		// 12.  haiwang
+		{
+			"index": 12,
+			"startColor": "#22c2f4",
+			"endColor": "#2297f4",
+			"selectors": ["aquaculture:neptunium_fishing_rod","aquaculture:neptunium_ingot","aquaculture:neptunium_nugget","aquaculture:neptunium_pickaxe",
+			"aquaculture:neptunium_shovel","aquaculture:neptunium_axe","aquaculture:neptunium_hoe","aquaculture:neptunium_sword","aquaculture:neptunium_bow",
+			"aquaculture:neptunium_helmet","aquaculture:neptunium_chestplate","aquaculture:neptunium_leggings","aquaculture:neptunium_boots","aquaculture:neptunium_fillet_knife",
+			"aquaculture:neptunium_block","aquaculture:neptunes_bounty","crittersandcompanions:pearl_necklace_1","crittersandcompanions:pearl_necklace_2","crittersandcompanions:pearl_necklace_3"]
+		},
+		// 14.  diaoling
+		{
+			"index": 14,
+			"startColor": "#ffffff",
+			"endColor": "#f2f2f2",
+			"selectors": ["stellariscraft:witherc","stellarisdlc:withereye","bhc:wither_bone","minecraft:wither_skeleton_skull","cataclysm:witherite_ingot",
+			"stellariscraft:blacknetherstar","minecraft:wither_rose","mca:scythe","stellarisdlc:sickle","stellarisdlc:soulsickle","omnis:ankh_charm"]
+		},
+
+		// 15.  fumo
+		{
+			"index": 15,
+			"startColor": "#996922",
+			"endColor": "#5B3B1D",
+			"selectors": ["!uncommon","!rare","!epic"]
+		}
+
+	]
+}

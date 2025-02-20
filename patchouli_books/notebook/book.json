@@ -1,0 +1,8 @@
+{
+	"name": "终焉决斗指导手册",
+	"landing_text": "从诡异裂缝中突然的一本笔记，神奇地记载了这片大陆的一切。$(br2)$(br2)有些事物只是存在，没有起源。",
+	"model": "patchouli:book_red",
+	"version": 0,
+	"subtitle": "v2.0",
+                "use_resource_pack": true
+}

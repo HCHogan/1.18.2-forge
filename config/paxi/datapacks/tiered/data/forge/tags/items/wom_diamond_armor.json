@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    "wom:diamond_crown",
+    "wom:diamond_armbracelet",
+    "wom:diamond_legtopseal",
+    "wom:diamond_legbottomseal"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "stellariscraft:parry",
+  "weight": 1.1,
+  "reforge_experience_cost": 4,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:longsword"}
+  ],
+  "style": {
+    "color": "#a8ff78"
+  },
+  "attributes": [
+    {
+      "type": "generic.attack_damage",
+      "modifier": {
+        "name": "stellariscraft:parry",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.16
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "toybox:block_rate",
+      "modifier": {
+        "name": "stellariscraft:parry",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 1.4
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "generic.attack_speed",
+      "modifier": {
+        "name": "stellariscraft:parry",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.04
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+
+  ]
+}

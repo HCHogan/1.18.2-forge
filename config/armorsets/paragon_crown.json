@@ -1,0 +1,30 @@
+{
+  "armorSetName": "paragon_crown",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+    "itemKey": "stellarisdlc:paragoncrown"
+  }
+],
+
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "lodestone:magic_proficiency",
+      "value": 8,
+      "attributeOperation": 0,
+      "modifierUUID": "b6ed0dea-dbf2-4aa7-86d3-77fae29a945d",
+      "description": "paragon_crown" 
+    },
+    {
+      "type": "attribute",
+      "name": "irons_spellbooks:spell_power",
+      "value": 0.25,
+      "attributeOperation": 2,
+      "hideBonusDescription": true,
+      "modifierUUID": "b6ed0dea-dbf2-4aa7-86d3-77fae29a945d"
+    }
+
+  ],
+  "hideGeneratedTooltip": false
+}

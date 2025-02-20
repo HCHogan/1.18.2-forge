@@ -1,0 +1,27 @@
+{
+  "armorSetName": "amethysttoolsmod_diamond_sword",
+  "performanceMode": true,
+ "mainHand": {
+	"itemKey": "amethysttoolsmod:diamond_sword_amethyst"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 1.0,
+      "attributeOperation": 0,
+      "modifierUUID": "62200342-9da1-4940-8b25-70660365d824",
+      "hideBonusDescription": true,
+      "description": "+1 attack damage" 
+    },
+    {
+      "type": "attribute",
+      "name": "epicfight:armor_negation",
+      "value": 16,
+      "attributeOperation": 0,
+      "modifierUUID": "62200342-9da1-4940-8b25-70660365d824",
+      "description": "+16% armor_negation (EpicFight)" 
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

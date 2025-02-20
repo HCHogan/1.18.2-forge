@@ -1,0 +1,1 @@
+execute as @p[tag=kill_core] run tag @s remove kill_core

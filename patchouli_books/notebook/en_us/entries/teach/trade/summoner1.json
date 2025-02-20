@@ -1,0 +1,54 @@
+{
+    "name": "召唤师(召唤台)",
+    "icon": "blue_skies:summoning_table",
+    "category": "patchouli:trade",
+    "sortnum":1,
+    "pages": [
+{"type":"trade1",
+ "head":"村民等级:新手",
+ "item1":"dotcoinmod:copper_coin#5",
+ "item2":"minecraft:air",
+ "item3":"byg:pink_cherry_sapling#5",
+ "text1":"10次"
+ 
+},
+{"type":"trade1",
+ "head":"村民等级:学徒",
+ "item1":"byg:ametrine_gems#32",
+ "item2":"minecraft:air",
+ "item3":"dotcoinmod:copper_coin#8",
+ "text1":"30次"
+},
+{"type":"trade1",
+ "head":"村民等级:老手",
+ "item1":"blue_skies:soulbound_spear",
+ "item2":"minecraft:air",
+ "item3":"dotcoinmod:copper_coin#8",
+ "text1":"10次"
+ 
+},
+{"type":"trade2",
+ "head":"村民等级:专家",
+ "item1":"blue_skies:moonstone_lantern",
+ "item2":"dotcoinmod:gold_coin#2",
+ "item3":"isleofberk:night_light_egg",
+ "text1":"1次",
+"item4":"blue_skies:moonstone_lantern",
+ "item5":"dotcoinmod:gold_coin#2",
+ "item6":"isleofberk:monstrous_nightmare_egg",
+ "text2":"1次"
+},
+{"type":"trade2",
+ "head":"村民等级:大师",
+ "item1":"dotcoinmod:gold_coin#3",
+ "item2":"minecraft:air",
+ "item3":"cnb:heal_spell_book_3",
+ "text1":"1次",
+"item4":"blue_skies:moonstone_lantern",
+ "item5":"dotcoinmod:gold_coin#2",
+ "item6":"isleofberk:zippleback_egg",
+ "text2":"1次"
+}
+
+    ]
+}

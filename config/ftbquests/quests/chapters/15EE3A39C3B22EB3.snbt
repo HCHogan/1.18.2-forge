@@ -1,0 +1,393 @@
+{
+	id: "15EE3A39C3B22EB3"
+	group: "3AE5966EA782F1F6"
+	order_index: 3
+	filename: "15EE3A39C3B22EB3"
+	title: "虚无末地"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "minecraft:textures/block/end_portal_frame_top.png"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 3.5d
+			y: 0.5d
+			width: 2.5d
+			height: 2.5d
+			rotation: 0.0d
+			image: "cataclysm:textures/items/void_guard.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "63AAF803245D5858"
+		}
+		{
+			x: -11.5d
+			y: 3.0d
+			width: 8.0d
+			height: 8.0d
+			rotation: 0.0d
+			image: "blackaures_paintings:textures/painting/p_10.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "63AAF803245D5858"
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ends_delight:textures/item/dragon_leg_with_sauce_block.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "63AAF803245D5858"
+		}
+		{
+			x: 3.5d
+			y: 5.5d
+			width: 2.9d
+			height: 2.9d
+			rotation: -90.0d
+			image: "cataclysm:textures/items/zweiender.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "7DFBFEE196ABACDA"
+		}
+		{
+			x: 3.5d
+			y: 5.5d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "cataclysm:textures/items/final_fractal.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "3462192E8CDBF427"
+		}
+		{
+			x: 10.0d
+			y: 3.0d
+			width: 2.5d
+			height: 2.5d
+			rotation: 0.0d
+			image: "minecraft:textures/item/dragon_breath.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "63AAF803245D5858"
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			width: 2.5d
+			height: 2.5d
+			rotation: -90.0d
+			image: "cataclysm:textures/items/void_guard.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "63AAF803245D5858"
+		}
+	]
+	quests: [
+		{
+			title: "&3&l末影守卫: Ruined Citadel"
+			icon: "cataclysm:void_core"
+			x: 3.5d
+			y: 5.5d
+			shape: "diamond"
+			subtitle: "&a我将以高达形态出击！"
+			dependencies: ["63AAF803245D5858"]
+			id: "7DFBFEE196ABACDA"
+			tasks: [{
+				id: "1EA218F6E26BD8DC"
+				type: "advancement"
+				advancement: "cataclysm:kill_ender_guardian"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "2F42D204DFBE92F6"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "2EE4F03A50EB96FD"
+					type: "item"
+					item: "miningmaster:air_malachite"
+				}
+				{
+					id: "31F8AC161390ECAF"
+					type: "item"
+					item: "endersdelight:twisted_cereal"
+				}
+				{
+					id: "580704D8E7DA2E2C"
+					type: "item"
+					item: "stellarisdlc:attribute_scrap"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "&5虚无末地"
+			icon: "minecraft:end_crystal"
+			x: -5.0d
+			y: 3.0d
+			shape: "rsquare"
+			subtitle: "&b听说，现在&c&n用厨刀击杀末影龙&r&b才能掉落珍美的食材"
+			dependencies: [
+				"39BD604E24BAA419"
+				"7D110C077BF18A2B"
+			]
+			hide: true
+			size: 2.0d
+			id: "63AAF803245D5858"
+			tasks: [{
+				id: "4735DA6F94B5A3C1"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [{
+				id: "682AF470C41FF0DB"
+				type: "item"
+				item: "minecraft:endermite_spawn_egg"
+				count: 16
+			}]
+		}
+		{
+			title: "&3&l末影龙"
+			icon: "minecraft:dragon_head"
+			x: -1.0d
+			y: 3.0d
+			shape: "diamond"
+			subtitle: "&a史诗战斗状态下的末影龙，对你真正亮出了利爪……"
+			description: [
+				"来自龙年吉祥物——&d安德拽根&r的祝福（"
+				""
+				"超链接：点任务栏上方链接符号🔗查看另一处任务"
+			]
+			dependencies: [
+				"7D110C077BF18A2B"
+				"63AAF803245D5858"
+			]
+			id: "3462192E8CDBF427"
+			tasks: [{
+				id: "79E9A53F89EFB020"
+				type: "kill"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "147E678DAD311A1A"
+					type: "item"
+					item: "quark:dragon_scale"
+					count: 2
+				}
+				{
+					id: "3E41AB77FA09C0CF"
+					type: "item"
+					item: "ringsofascension:ring_slow_resistance"
+				}
+				{
+					id: "75CCD1835DB1597E"
+					type: "item"
+					item: "miningmaster:air_malachite"
+				}
+				{
+					id: "01749CE15F66EE07"
+					type: "item"
+					item: "stellarisdlc:attribute_scrap"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "&3&l黑曜巨石柱：&cObsidilith Arena"
+			icon: "bosses_of_mass_destruction:obsidian_heart"
+			x: 3.5d
+			y: 0.5d
+			shape: "diamond"
+			description: ["超链接：点任务栏上方链接符号🔗查看另一处任务"]
+			dependencies: [
+				"7D110C077BF18A2B"
+				"63AAF803245D5858"
+			]
+			id: "06BD62AC9653A759"
+			tasks: [{
+				id: "70FB57B6E46D30EE"
+				type: "kill"
+				icon: "bosses_of_mass_destruction:obsidian_heart"
+				entity: "bosses_of_mass_destruction:obsidilith"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "59EAA533602702C7"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "7E401FAF902554D1"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 7421896030659922250L
+				}
+				{
+					id: "7BBA069DAFE9B581"
+					type: "item"
+					item: "stellarisdlc:attribute_scrap"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			shape: "diamond"
+			subtitle: "尽情发挥龙蛋的功效吧..."
+			dependencies: ["3462192E8CDBF427"]
+			id: "45B3821435D274F1"
+			tasks: [{
+				id: "0772FF6CCCD757E9"
+				type: "advancement"
+				advancement: "minecraft:end/dragon_egg"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "7C98094911616519"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 7421896030659922250L
+				}
+				{
+					id: "1E185D7CA8D1AE72"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+			]
+		}
+		{
+			title: "&6&l维度撕裂者"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "alexsmobs:textures/item/dimensional_carver.png"
+				}
+			}
+			x: 7.0d
+			y: 3.0d
+			subtitle: "随身虫洞？！"
+			description: [
+				"&a长按右键可创造连通原地和玩家复活点的虫洞                   "
+				"*曾经有人在下界要塞尝试使用……结果可想而知，回家的可不止他一个……最后在家里被困了整整十天……*"
+			]
+			dependencies: [
+				"7FB20648C9A66CCA"
+				"70DCA54307C307A0"
+			]
+			id: "1EF29EDC10879548"
+			tasks: [{
+				id: "407062A4F18396C1"
+				type: "item"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "alexsmobs:textures/entity/portal/portal_idle_2.png"
+					}
+				}
+				item: {
+					id: "alexsmobs:dimensional_carver"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7CEF8D5EBD96C242"
+				type: "item"
+				item: "minecraft:totem_of_undying"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			subtitle: "蠕动的意大利面（    噫↑↓~~~"
+			dependencies: ["3462192E8CDBF427"]
+			id: "7FB20648C9A66CCA"
+			tasks: [{
+				id: "5572C2E1E589A61A"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/mysterious_worm"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3B2FF56555A31876"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 5.0d
+			subtitle: "&6蛋白质是牛肉的6倍，嘎嘣脆......呕~~~"
+			dependencies: ["3462192E8CDBF427"]
+			id: "70DCA54307C307A0"
+			tasks: [{
+				id: "3CBD39C7CB6E533C"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/void_worm_kill"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "08327477798435E6"
+				type: "item"
+				item: "alexsmobs:spawn_egg_fly"
+				count: 6
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.0d
+			subtitle: "&d灌注了终极的力量"
+			dependencies: ["3462192E8CDBF427"]
+			id: "6735F017172BD4C0"
+			tasks: [{
+				id: "5367E25EAA885302"
+				type: "item"
+				item: "cataclysm:enderite_ingot"
+			}]
+			rewards: [{
+				id: "5160B2298139DE79"
+				type: "xp"
+				xp: 666
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,71 @@
+{
+  "armorSetName": "amethysttoolsmod_iron",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "amethysttoolsmod:iron_helmet_amethyst",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "amethysttoolsmod:iron_chestplate_amethyst",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "amethysttoolsmod:iron_leggings_amethyst",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "amethysttoolsmod:iron_boots_amethyst",
+    "mustBeEmpty": false
+  },
+"partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:strength",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:hunger",
+      "interactionType": "immunity"
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:haste",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:strength",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:hunger",
+      "interactionType": "immunity"
+    },
+    {
+      "type": "attribute",
+      "name": "epicfight:stamina_regen",
+      "value": 0.05,
+      "attributeOperation": 0,
+      "modifierUUID": "02348332-7352-4039-b051-e04f17df2df4",
+      "description": "+5% stamina regeneration speed (EpicFight)" 
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

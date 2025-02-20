@@ -1,0 +1,2 @@
+execute as @e[type=ba_bt:nether_golem,tag=unstable_nether_golem] at @s run indestructible @s set_phase 1
+execute as @e[type=ba_bt:nether_golem,tag=unstable_nether_golem,sort=nearest] at @s run tag @s remove unstable_nether_golem

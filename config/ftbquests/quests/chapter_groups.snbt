@@ -1,0 +1,11 @@
+{
+	chapter_groups: [
+		{ id: "6AA1C8D202068AB6", title: "初见晨星" }
+		{ id: "48B78DC948D03E7E", title: "升起之星" }
+		{ id: "6FC5E28CB4B49290", title: "终焉决斗" }
+		{ id: "3AE5966EA782F1F6", title: "维度冒险" }
+		{ id: "0F5486DFDF7D448B", title: "大千世界" }
+		{ id: "6878AB6C16119261", title: "众生倾倒" }
+		{ id: "0AB6945465C0105E", title: "王之宝库" }
+	]
+}

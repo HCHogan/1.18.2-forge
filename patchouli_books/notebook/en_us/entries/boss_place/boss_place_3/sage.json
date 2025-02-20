@@ -1,0 +1,33 @@
+{
+    "name": "贤者H",
+    "icon": "stellarisdlc:symmetryspear",
+    "category": "patchouli:boss_place_3",
+    "sortnum":3,
+    "pages": [
+        {
+           "type": "T1",
+            "title":"长枪之魂",
+            "text": "群星的新秀之一，第三次终焉进攻时期与少卿X一同挡住了被召唤至战场的百计上古冰霜巨人，战役结束后成为群星的一员，因在长枪这种武器的造诣极高被成为长枪之魂。"
+        },
+        {
+            "type": "patchouli:entity",
+            "name":"长枪之魂",
+            "entity": "jobinsmobs:sage",
+            "scale": 0.9,
+            "offset": 0.2
+        },
+        {"type": "spotlight",
+        "title":"召唤材料",
+        "item": "stellariscraft:sandheart,minecraft:netherite_ingot,blue_skies:diopside_gem#2,minecraft:diamond#2",
+        "text": "耀沙之心x1$(br)下界合金锭x1$(br)透辉石x2$(br)钻石x2$(br)最后加入$(1)$(l:boss_place/boss_summon/imessence)往生精华$()$()"
+         },
+         {"type": "spotlight",
+        "title":"掉落物",
+        "item": "cnb:yeti_hide",
+        "text": "击杀后固定掉落$(br)雪人皮1个。"
+         }
+          
+         
+         
+     ]
+ }

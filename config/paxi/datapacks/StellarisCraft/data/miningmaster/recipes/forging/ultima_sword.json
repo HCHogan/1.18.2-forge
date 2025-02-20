@@ -1,0 +1,25 @@
+{
+    "type":"miningmaster:forging_recipe",
+    "gems":
+        [
+            {"item":"miningmaster:lucky_citrine"},
+            {"item":"miningmaster:lucky_citrine"},
+            {"item":"miningmaster:power_pyrite"},
+            {"item":"miningmaster:ice_sapphire"},
+            {"item":"stellariscraft:superhealth"},
+            {"item":"miningmaster:fire_ruby"},
+            {"item":"miningmaster:power_pyrite"},
+            {"item":"miningmaster:lucky_citrine"},
+            {"item":"miningmaster:lucky_citrine"}
+        ],
+    "catalyst":
+        {"item":"stellariscraft:ravagedsword"},
+    "result":
+        {"item":"miningmaster:ultima_sword"},
+    "enchantments":
+        [
+            {"enchantment":"miningmaster:freezing","lvl":3},
+            {"enchantment":"minecraft:sharpness","lvl":5},
+            {"enchantment":"minecraft:looting","lvl":4}
+        ]
+    }

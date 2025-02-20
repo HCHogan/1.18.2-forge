@@ -1,0 +1,11 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[{"item":"miningmaster:kinetic_opal"},
+{"item":"ringsofascension:ring_knockback_resistance"},
+{"item":"amethysttoolsmod:netherite_boots_amethyst"},
+{"item":"ringsofascension:ring_knockback_resistance"},
+{"item":"miningmaster:kinetic_opal"}],
+"catalyst":{"item":"stellarisdlc:exchangestonecore"},
+"result":{"item":"artifacts:steadfast_spikes"},
+"enchantments":[]
+}

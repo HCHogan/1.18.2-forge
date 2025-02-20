@@ -1,0 +1,50 @@
+{  "armorSetName": "shield_tower2",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "stellarisdlc:symmetryspear",
+    "mixAndMatch": [
+      "stellarisdlc:phoenixspear", "stellarisdlc:flayer", "stellarisdlc:dragonspear", "mca:scythe", 
+      "mowziesmobs:spear", "epicfight:iron_spear", "epicfight:golden_spear", "epicfight:diamond_spear", "epicfight:netherite_spear",
+      
+      "epicfight:iron_longsword", "epicfight:golden_longsword", "epicfight:diamond_longsword", "epicfight:netherite_longsword",
+      "stellariscraft:liesnow", "stellariscraft:durandal", "stellarisdlc:excalibur", "stellarisdlc:loyalheart", "stellarisdlc:saber"  
+    ]
+  },
+  "offHand": {
+    "itemKey": "shieldexex:iron_tower_shield",
+    "mixAndMatch": [
+      "shieldexex:diamond_tower_shield",
+      "shieldexex:netherite_tower_shield"
+    ]
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "cofh_core:shocked",
+      "value": 0.0,
+      "interactionType": "interact",
+      "interactionDuration": 80,
+      "hideBonusDescription": false,
+      "description": "shield_tower2",
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "isleofberk:shock",
+      "value": 1.0,
+      "interactionType": "interact",
+      "interactionDuration": 80,
+      "hideBonusDescription": true,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": -0.08,
+      "attributeOperation": 2,
+      "modifierUUID": "0fc34ccb-0fdd-4736-bd27-fbad4e4dff5e",
+      "description": "-8% movement_speed" 
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

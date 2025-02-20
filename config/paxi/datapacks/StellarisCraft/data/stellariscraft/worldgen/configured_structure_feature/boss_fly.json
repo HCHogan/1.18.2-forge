@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:village",
+  "biomes": "#stellariscraft:has_structure/boss_fly",
+  "adapt_noise": false,
+  "spawn_overrides": {},
+  "config": {
+  "start_pool": "stellariscraft:boss_fly/start_pool",
+  "size": 7
+  }
+}

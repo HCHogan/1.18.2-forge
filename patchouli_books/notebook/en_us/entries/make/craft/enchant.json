@@ -1,0 +1,41 @@
+{
+    "name": "附魔师的余辉",
+    "icon": "minecraft:enchanted_book",
+    "category": "patchouli:craft",
+"sortnum": 3,
+    "pages": [
+        {
+            "type": "T1",
+           "title":"诅咒附魔",
+            "text": "自从终焉第一次进攻之后，世界的一切都受到了影响，出现了诞生自魔法的生物，吸收魔力的矿物。不幸的是附魔的方式受到了严重的影响，任何方式的附魔都可能会导致物品染上诅咒附魔，就算是用纯净的附魔书利用铁砧也会有可能招来诅咒。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:enchanting_table",
+            "text":"钻石已经被彻底污染用其做媒介必然招致诅咒，奥数锭的配方改良让附魔成为了可能，当然诅咒一直都存在，只能减少无法避免。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:disenchanter",
+            "text":"祛魔台的发明是为了将物品的附魔转移到附魔书上，最开始是为了集优，但自从有了诅咒附魔某种意义上也代表了放弃被诅咒的物品。$(br2)据说有一种上古就存在的$(l:beast/tool/mushroom)生物$()也可以祛除附魔或者说祛除诅咒。"
+        },
+        {
+            "type": "crafting",
+            "title":"生生不息的生命魔力",
+            "recipe": "crafttweaker:heartfelt1",
+            "recipe2": "crafttweaker:heartfelt2"
+        },
+        {
+            "type": "crafting",
+            "title":"生生不息的生命魔力",
+            "recipe": "crafttweaker:heartfelt3",
+            "recipe2": "crafttweaker:heartfelt4"
+        },
+        
+        {
+            "type": "T1",
+            "title":"生生不息的魔力",
+            "text":"从死亡中诞生新生，从残魂中提取生机。大部分从炼狱竞技场中诞生的残魂所持有的特殊信物都有着其过去的信念，这种信念的所有者越强其的生命之力也会越强大，加上奥术材料的吸引与提纯，最后会将这种生命的力量以附魔的形式展现并附着与书本之中储存。"
+        }
+    ]
+}

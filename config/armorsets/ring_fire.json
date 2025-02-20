@@ -1,0 +1,18 @@
+{
+  "armorSetName": "ring_fire",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "ringsofascension:ring_fire_resistance"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:fire_resistance",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 100,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

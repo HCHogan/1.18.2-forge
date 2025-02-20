@@ -1,0 +1,50 @@
+{
+  "armorSetName": "wtamulet_final_fractcal",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "cataclysm:final_fractal"
+  },
+  "additionalSetPieces":[
+    {
+    "itemKey": "stellarisdlc:wtamulet",
+    "mustBeEmpty": false
+  }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": -0.15,
+      "attributeOperation": 2,
+      "modifierUUID": "8abcadfa-5e80-4025-96ee-f544227c9668",
+      "description": "wtamulet_final_fractcal.movement_speed"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": -0.1,
+      "attributeOperation": 2,
+      "modifierUUID": "8abcadfa-5e80-4025-96ee-f544227c9668",
+      "description": "wtamulet_final_fractcal.attack_speed"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 10,
+      "attributeOperation": 0,
+      "modifierUUID": "8abcadfa-5e80-4025-96ee-f544227c9668",
+      "description": "wtamulet_final_fractcal.attack_damage"
+    },
+    {
+      "type": "effect",
+      "name": "epicfight:stun_immunity",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 80,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+
+  ],
+  "hideGeneratedTooltip": false
+}

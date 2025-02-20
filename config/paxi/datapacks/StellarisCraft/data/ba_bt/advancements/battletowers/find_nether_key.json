@@ -1,0 +1,51 @@
+{
+  "parent": "ba_bt:battletowers/nether_tower_found",
+  "display": {
+    "icon": {
+      "item": "ba_bt:monolith_key_nether"
+    },
+    "title": {
+      "text": "居然存在全是岩浆没有昼夜的维度...",
+      "color": "white",
+      "italic": true
+    },
+    "description": {
+      "text": "—找到一把下界石碑之键",
+      "color": "green",
+      "italic": true
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "Acquire Key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "player": {
+            "advancements": {
+              "ba_bt:battletowers/nether_tower_found": true
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "ba_bt:monolith_key_nether"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "Acquire Key"
+    ]
+  ],
+  "rewards": {
+    "experience": 56
+  }
+}

@@ -1,0 +1,116 @@
+{
+    "replace": true,
+    "trades": [
+      {
+        "type": "goblintraders:basic",
+        "offer_item": {
+          "item": "minecraft:ancient_debris",
+          "count": 4
+        },
+        "payment_item": {
+          "item": "bygonenether:withered_debris",
+          "count": 64
+        },
+        "secondary_payment_item": {
+          "item": "miningmaster:fire_ruby",
+          "count": 2
+        },
+        "price_multiplier": 0.0,
+        "max_trades": 4,
+        "experience": 20
+      },
+
+      {
+        "type": "goblintraders:basic",
+        "offer_item": {
+          "item": "miningmaster:power_pyrite",
+          "count": 3
+        },
+        "payment_item": {
+          "item": "miningmaster:power_pyrite_ore",
+          "count": 1
+        },
+        "secondary_payment_item": {
+          "item": "minecraft:lava_bucket",
+          "count": 1
+        },
+        "price_multiplier": 0.0,
+        "max_trades": 5,
+        "experience": 20
+      },
+
+      {
+        "type": "goblintraders:basic",
+        "offer_item": {
+          "item": "miningmaster:fire_ruby",
+          "count": 5
+        },
+        "payment_item": {
+          "item": "miningmaster:fire_ruby_ore",
+          "count": 2
+        },
+        "secondary_payment_item": {
+          "item": "minecraft:lava_bucket",
+          "count": 1
+        },
+        "price_multiplier": 0.5,
+        "max_trades": 4,
+        "experience": 20
+      },
+      {
+        "type": "goblintraders:basic",
+        "offer_item": {
+          "item": "miningmaster:fire_ruby",
+          "count": 5
+        },
+        "payment_item": {
+          "item": "miningmaster:deepslate_fire_ruby_ore",
+          "count": 2
+        },
+        "secondary_payment_item": {
+          "item": "minecraft:lava_bucket",
+          "count": 1
+        },
+        "price_multiplier": 0.5,
+        "max_trades": 4,
+        "experience": 20
+      },
+
+      {
+        "type": "goblintraders:basic",
+        "offer_item": {
+          "item": "minecraft:netherite_scrap",
+          "count": 6
+        },
+        "payment_item": {
+          "item": "minecraft:ancient_debris",
+          "count": 4
+        },
+        "secondary_payment_item": {
+          "item": "minecraft:lava_bucket",
+          "count": 1
+        },
+        "max_trades": 4,
+        "experience": 30
+      },
+
+      {
+        "type": "goblintraders:basic",
+        "offer_item": {
+          "item": "dotcoinmod:copper_coin",
+          "count": 8
+        },
+        "payment_item": {
+          "item": "minecraft:totem_of_undying",
+          "count": 1
+        },
+        "max_trades": 10,
+        "experience": 30
+      }
+
+
+
+
+
+    ]
+  }

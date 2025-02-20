@@ -1,0 +1,39 @@
+{
+    "name": "骇龙",
+    "icon": "isleofberk:terrible_terror_spawn_egg",
+    "category": "patchouli:beast_dragon",
+    "advancement":"minecraft:husbandry/root",
+    "sortnum":2,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"骇龙",
+            "text": "骇龙看起来就如同一只普通的花园龙，他有着类似于蜥蜴一般的身体，两对角，一对翅膀,以及带刺的尾巴。他们皮肤的颜色多种多样，绿色最为常见，也有红色，橙色，蓝色，黄色和紫色。他们身体的一些物理特征表明，尽管在体型大小上有着不同，但是与的确与烈焰狂魔有着密切的关联。它们的黄色大眼睛以及迷你的体型使其成为最为可爱的龙种之一。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/terror.png",
+            "text1":"火龙纲:骇龙",
+            "text2":""
+        },
+         {"type":"TT",
+           "head":"栖息群系",
+           "text":"石岸、河流、沙滩、丛林、竹林、黑森林"
+},
+        {"type": "spotlight",
+        "title":"驯服",
+        "item": "minecraft:cod,minecraft:salmon,minecraft:tropical_fish",
+        "text": "骇龙易于驯服，在不持有武器的情况下喂食鱼类即可$(br2)无法上鞍或携带箱子$(br)使用木棍可右键命令该龙:坐下、跟随、游荡。"
+         },
+         {"type": "spotlight",
+        "title":"繁殖",
+        "item": "minecraft:pufferfish,isleofberk:terrible_terror_egg",
+        "text": "喂食河豚可让骇龙繁殖，2只骇龙配对后会产生骇龙蛋。$(br2)蛋的孵化时间为10分钟，需要附近有$(#ff0000)热源(光源)$()"
+         },
+         {"type":"TT",
+           "head":"技能列表",
+           "text":"主动技能:无$(br2)被动技能:在跟随状态下空手右键可以附着在玩家身上，一名玩家最多可以附着3只，按 SHIFT 可以使它们停止附着。在附着状态下，它们会用火焰攻击任何玩家攻击或是攻击玩家的敌对生物，且会根据附着数量为玩家提供 增益。1只：缓降I跳跃提升I；2只：缓降II跳跃提升II速度II；3只：缓降III跳跃提升III速度III"
+           }
+        
+    ]
+}

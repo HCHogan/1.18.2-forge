@@ -1,0 +1,51 @@
+{
+  "id": "stellariscraft:legendary_axe",
+  "weight": 1.6,
+  "reforge_experience_cost": 4,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:axe_minecraft"},
+    {"tag": "forge:axe_other_mods"},
+    {"tag": "forge:hammer"}
+  ],
+  "style": {
+    "color": "gold"
+  },
+  "attributes": [
+    {
+      "type": "epicfight:stun_armor",
+      "modifier": {
+        "name": "stellariscraft:legendary_axe",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.08
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "epicfight:staminar",
+      "modifier": {
+        "name": "stellariscraft:legendary_axe",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.17
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "generic.attack_speed",
+      "modifier": {
+        "name": "stellariscraft:legendary_axe",
+        "operation": "ADDITION",
+        "amount": 0.08
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+
+  ]
+}

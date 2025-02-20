@@ -1,0 +1,32 @@
+{
+  "id": "stellariscraft:4_rusty",
+  "weight": 1.02,
+  "reforge_experience_cost": 1,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:forgedspar",
+  "verifiers": [
+    {"tag": "forge:helmets"},
+    {"tag": "forge:chestplates"},
+    {"tag": "forge:leggings"},
+    {"tag": "forge:boots"}
+  ],
+    "style": {
+    "color": "dark_red"
+  },
+  "attributes": [
+    {
+      "type": "generic.armor",
+      "modifier": {
+        "name": "stellariscraft:4_stuck",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": -0.25
+      },
+      "optional_equipment_slots": [
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    }
+  ]
+}

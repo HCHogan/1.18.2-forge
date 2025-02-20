@@ -1,0 +1,39 @@
+{
+    "name": "永昼之地",
+    "icon": "blue_skies:everbright_portal",
+    "category": "patchouli:dim",
+    "sortnum":2,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"永昼之地",
+            "text": "被精灵用魔力将时间永久禁锢在白天的魔法之地，本应该有着纯净的精灵魔法作为封印，但目前的情况来看，其封印中有着炼金术士的手法。然而作为精灵之乡精灵却不见踪影，后王国时期的召唤师一族缺也与所有冒险者成为了敌人，自然地牢中的星荧粉碎者则是精灵魔力的产物，难道说他们在守护着什么东西吗。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/ever.png",
+            "text1":"",
+            "text2":""
+        },
+         {
+         "type":"patchouli:smith",
+         "item1": "stellarisdlc:evidencestar_1",
+        "item2": "stellarisdlc:evidencestar_2",
+        "item3": "stellarisdlc:evidencestar",
+        "head":"破除维度封印",
+        "text":"凝聚了下界之星与凋零残片的证明，可以短暂破开恒晓之地的封印。"
+        
+      },
+      {
+            "type": "crafting",
+            "recipe": "crafttweaker:evidencestar_1",
+            "text":"下界守护之眼与下界之星这两股纯净的猩红之力，可以很好地中和侵蚀保护使用者，适合作为凋零之证的核心"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:evidencestar_2",
+            "text":"强大侵蚀能力的凋零残片配合同样有着侵蚀能力的焰魔锭可以加强侵蚀封印的速度，配合纯净的猩红之力可以定向侵蚀封印又不伤害使用者。"
+        }
+        
+    ]
+}

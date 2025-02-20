@@ -1,0 +1,15 @@
+{
+	id: "7A3D6371FC4F30EC"
+	order_index: 4
+	title: "冒险晶石"
+	loot_size: 1
+	rewards: [
+		{ item: "stellariscraft:adgrain", count: 4, random_bonus: 2 }
+		{
+			xp: 202
+			type: "xp"
+		}
+		{ item: "dotcoinmod:copper_coin", count: 4, random_bonus: 2 }
+		{ item: "minecraft:diamond", count: 2, random_bonus: 2 }
+	]
+}

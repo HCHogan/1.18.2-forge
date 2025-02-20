@@ -1,0 +1,9 @@
+{"type": "battle_scythe", "attributes": {"common": {"impact": 2.2, "armor_negation": 24.0, "max_strikes": 2,"speed_bonus": 0.2,"damage_bonus": -1}
+	},
+	"collider":
+	{
+		"number": 3,
+		"center": [0.0, 0.0, -1.02],
+		"size": [0.4, 0.4, 1.2]
+	}
+}

@@ -1,0 +1,48 @@
+{
+  "parent": "ba_bt:battletowers/find_end_key",
+  "display": {
+    "icon": {
+      "item": "ba_bt:guardian_eye_end"
+    },
+    "title": {
+      "text": "终焉维度为你打开大门...",
+      "color": "white",
+      "italic": true
+    },
+    "description": {
+      "translate": "—摧毁末地傀儡，在虚无中冥想的守卫者",
+      "color": "green",
+      "italic": true
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "Kill Golem": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "player": {
+            "advancements": {
+              "ba_bt:battletowers/find_end_key": true
+            }
+          }
+        },
+        "id" : "ba_bt:end_golem",
+        "entity": {
+          "type": "ba_bt:end_golem"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "Kill Golem"
+    ]
+  ],
+  "rewards": {
+    "experience": 56
+  }
+}

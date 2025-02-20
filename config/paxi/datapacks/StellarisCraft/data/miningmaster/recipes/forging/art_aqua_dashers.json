@@ -1,0 +1,9 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[{"item":"miningmaster:dive_aquamarine"},
+{"item":"ringsofascension:ring_water_walking"},
+{"item":"miningmaster:dive_aquamarine"}],
+"catalyst":{"item":"stellariscraft:exchangestone"},
+"result":{"item":"artifacts:aqua_dashers"},
+"enchantments":[]
+}

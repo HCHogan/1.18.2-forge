@@ -1,0 +1,32 @@
+{
+    "name": "烬壳龟",
+    "icon": "cnb:cinder_furnace",
+    "category": "patchouli:beast_tool",
+    "sortnum":2,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"烬壳龟",
+            "text": "贫瘠的下界荒地加上焰魔永不熄灭的火孕育了烬壳龟，焰魔自从被击败封印后火之力便逐渐稀少，这或许是烬壳龟也极度罕见的原因。由于诞生自焰魔之火，如果给他装上特制的$(#ff0000)余烬熔炉$()便可不断用其不灭之火烧制东西。当然，由于诞生于下界，水会伤害它。"
+        },
+        {
+            "type": "png_mining",
+            "text1":"烬壳龟",
+             "image":"stellarisdlc:textures/png/cinder.png" 
+        },
+         {"type":"TT",
+           "head":"栖息群系",
+           "text":"下界荒地"
+},
+        {"type": "spotlight",
+        "title":"携带",
+        "item": "minecraft:warped_fungus,minecraft:crimson_fungus,cnb:cindershell_bucket,minecraft:lava_bucket",
+        "text": "烬壳龟体型较大不方便移动，但是可以用$(#ff0000)诡异菌或者绯红菌让其繁殖$()产下幼崽，其$(#ff0000)幼崽可以装在岩浆桶$()中，这样便可以移动其幼崽。"
+         },
+          {
+            "type": "crafting",
+            "recipe": "cnb:crafting/shaped/cinder_furnace",
+            "text":"后王国时期日渐衰败的王国加上炼金术士仅有的遗留配方导致了煤炭资源的紧缺，下界的一次探险发现了烬壳龟同时也了解到了他的神奇作用，余烬熔炉便被设计出来用于高效率使用其的火焰并用作通用燃料。"
+        }
+    ]
+}

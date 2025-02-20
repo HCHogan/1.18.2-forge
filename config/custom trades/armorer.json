@@ -1,0 +1,220 @@
+{
+  "profession": "minecraft:armorer",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "epicfight:skillbook",
+        "amount": 1,
+        "advancedNBTData": "{skill:\"epicfight:emergency_escape\"}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 1
+      },
+      "tradeExp": 50,
+      "maxUses": 1,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_skillbook_for_gold_coin_0"
+    },
+
+    {
+      "offer": {
+        "itemKey": "minecraft:iron_helmet",
+        "amount": 1,
+        "priceModifier": 0,
+        "semiRandomEnchantments": [
+          {
+            "enchantmentKey": "minecraft:protection",
+            "enchantmentLevel": 2,
+            "maxEnchantmentLevel": 4
+          },
+          {
+            "enchantmentKey": "minecraft:fire_protection",
+            "enchantmentLevel": 3,
+            "maxEnchantmentLevel": 4
+          },
+          {
+            "enchantmentKey": "minecraft:projectile_protection",
+            "enchantmentLevel": 2,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "minecraft:blast_protection",
+            "enchantmentLevel": 2,
+            "maxEnchantmentLevel": 3
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 4
+      },
+      "tradeExp": 25,
+      "maxUses": 3,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:armorer_iron_helmet_for_iron_coin_and_iron_ingot_0"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 12
+      },
+      "request": {
+        "itemKey": "minecraft:copper_ingot",
+        "amount": 64
+      },
+      "tradeExp": 15,
+      "maxUses": 5,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:copper_ingot_for_copper_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 15
+      },
+      "request": {
+        "itemKey": "minecraft:raw_iron_block",
+        "amount": 1
+      },
+      "tradeExp": 15,
+      "maxUses": 5,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:raw_iron_block_for_iron_ingot_0"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 15
+      },
+      "request": {
+        "itemKey": "minecraft:raw_gold_block",
+        "amount": 1
+      },
+      "tradeExp": 15,
+      "maxUses": 5,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:raw_gold_block_for_iron_gold_0"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:diamond_chestplate",
+        "amount": 1,
+        "priceModifier": 0,
+        "semiRandomEnchantments": [
+          {
+            "enchantmentKey": "minecraft:protection",
+            "enchantmentLevel": 2,
+            "maxEnchantmentLevel": 4
+          },
+          {
+            "enchantmentKey": "minecraft:fire_protection",
+            "enchantmentLevel": 3,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "minecraft:projectile_protection",
+            "enchantmentLevel": 3,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "minecraft:blast_protection",
+            "enchantmentLevel": 3,
+            "maxEnchantmentLevel": 3
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond",
+        "amount": 7
+      },
+      "tradeExp": 30,
+      "maxUses": 1,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:armorer_diamond_chestplate_for_iron_coin_and_diamond_0"
+    },
+    {
+      "offer": {
+        "itemKey": "quark:forgotten_hat",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 2
+      },
+      "tradeExp": 30,
+      "maxUses": 2,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:armorer_forgotten_hat_for_iron_coin_0"
+    },
+
+    {
+      "offer": {
+        "itemKey": "minecraft:ancient_debris",
+        "amount": 2
+      },
+      "request": {
+        "itemKey": "bygonenether:withered_debris",
+        "amount": 64
+      },
+      "additionalRequest": {
+        "itemKey": "miningmaster:fire_ruby",
+        "amount": 2
+      },
+      "tradeExp": 30,
+      "maxUses": 5,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:withered_debris_for_ancient_debris"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:diamond_helmet",
+        "amount": 1,
+        "advancedNBTData": "{Tiered:{Tier:\"stellariscraft:legendary_helmet\"}}"
+      },
+      "request": {
+        "itemKey": "minecraft:diamond_helmet",
+        "amount": 1
+      },
+      "additionalRequest": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 5
+      },
+      "tradeExp": 100,
+      "maxUses": 1,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:legendary_diamond_helmet"
+    }
+
+  ]
+}

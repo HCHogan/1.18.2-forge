@@ -1,0 +1,15 @@
+{
+    "name": "召唤祭坛",
+    "icon": "summoningrituals:altar",
+    "category": "patchouli:boss_summon",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "summoningrituals:altar",
+            "link_recipe":true,
+            "text": "只存在于决斗场的召唤祭坛$(br2)亡者需要祭品才能感知，接受召唤，迎接挑战者。$(br2)手持右键可放上祭品，Shift+右键可取下祭品。$(br2)祭品准备好后需要放入$(l:boss_place/imessence)往生精华$()启动召唤祭坛。"
+        }
+        
+        
+      ]
+}

@@ -1,0 +1,15 @@
+{
+    "name":"stellariscraft:core_tower/room_1",
+    "fallback":"minecraft:empty",
+    "elements":[
+        {
+            "weight":1,
+            "element":{
+                "projection":"rigid",
+                "element_type":"minecraft:single_pool_element",
+                "location":"stellariscraft:core_tower/room_1",
+                "processors":"minecraft:empty"
+            }
+        }
+    ]
+}

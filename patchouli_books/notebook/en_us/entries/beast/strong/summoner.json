@@ -1,0 +1,30 @@
+{
+    "name": "召唤师",
+    "icon": "blue_skies:summoning_tome",
+    "category": "patchouli:beast_strong",
+    "sortnum":15,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"召唤师/everbright blinding tower",
+            "text": "召唤师来到永昼之地一方面是精灵的邀请，另一方面也是不堪忍受帝国的内部腐败。但是哪怕如此，博爱的召唤师不可能会与人类为敌，一定有着别的什么原因。甚至召唤师还利用精灵的力量召唤了恒晓上古凶兽与永昼之地的元素力量化身。不过，如果说做这些仅仅只是为了确保人类不再来犯未免有些太过了，他们更像在保护着什么。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/summoner.png",
+            "text1":"矛盾的",
+            "text2":""
+        },
+     {"type": "spotlight",
+        "title":"召唤方法",
+        "item": "blue_skies:blinding_key,blue_skies:bright_blinding_keystone",
+        "text": "在永远处于白昼的惑乱高塔之中可以找到四把钥匙，携带四把钥匙插入塔最上方的钥匙孔，便会取得挑战塔主的资格。"
+         },
+        {"type": "spotlight",
+        "title":"掉落物",
+        "item": "blue_skies:summoner_trophy,blue_skies:summoning_tome,blue_skies:ethereal_arc,blue_skies:soulbound_spear,blue_skies:summoning_table,minecraft:enchanted_book,blue_skies:moonstone_shard,blue_skies:aquite,blue_skies:soul_fragment,minecraft:emerald,blue_skies:star_flare",
+        "text": "击杀后必掉落$(br)召唤师奖杯1个$(br)召唤之书1个$(br)缚魂之矛1个$(br)根据战利品袋品质获得飘渺饰品$(br)概率掉落召唤台、附魔书$(br)随机数量月长石碎片、天闪石、魂魄碎片、绿宝石、星荧。"
+         }
+        
+    ]
+}

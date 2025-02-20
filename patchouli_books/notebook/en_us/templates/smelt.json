@@ -1,0 +1,60 @@
+{
+	"components": [
+     {
+		"type": "patchouli:header",
+                                "text":"#head",
+                                "y":-1,"x":-1
+	
+	  },	
+	  {
+		"type": "patchouli:item",
+		"x": 10,
+		"y": 15,
+		"item": "#item1",
+		"framed": true
+	    },
+        {
+		"type": "patchouli:item",
+		"x": 50,
+		"y": 15,
+		"item": "#item2",
+		"framed": false
+	  },
+                  {
+		"type": "patchouli:item",
+		"x": 90,
+		"y": 15,
+		"item": "#item3",
+                                "link_recipe":true,
+		"framed": true
+	  },
+	  {
+		"type": "patchouli:image",
+		"image": "patchouli:textures/gui/crafting.png",
+		"x": 72,
+		"y": 14,
+		"width": 12,
+		"height": 16,
+         "u":64,
+         "v":22,
+		"texture_width": "128",
+		"texture_height": "256"
+	  },
+                  {
+		"type": "patchouli:image",
+		"image": "patchouli:textures/gui/crafting.png",
+		"x": 34,
+		"y": 14,
+		"width": 12,
+		"height": 16,
+        "u":64,
+        "v":22,
+		"texture_width": "128",
+		"texture_height": "256"
+	
+	  },
+{"type":"patchouli:text","text":"#text","x":1,"y":45
+}
+                 
+	]
+  }

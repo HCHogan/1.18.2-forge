@@ -1,0 +1,144 @@
+{
+	id: "331563382650DECB"
+	group: "6FC5E28CB4B49290"
+	order_index: 2
+	filename: "331563382650DECB"
+	title: "终焉决斗场"
+	icon: "stellariscraft:ukey"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "&6终极终焉决斗场"
+			x: 41.0d
+			y: 11.5d
+			shape: "hexagon"
+			subtitle: "“接受终焉决斗场的试炼，我来了”"
+			description: [
+				"&a人数限制：1"
+				" "
+				"&4开启维度：末地"
+			]
+			dependencies: [
+				"51D0D30C793EC904"
+				"5C546744855B6C60"
+			]
+			size: 2.5d
+			id: "71F5E866BCCEB9A9"
+			tasks: [{
+				id: "0A323FF88A196105"
+				type: "dimension"
+				dimension: "stellariscraft:uarena"
+			}]
+			rewards: [
+				{
+					id: "302B005AB7D8FED3"
+					type: "item"
+					item: "waystones:warp_scroll"
+					count: 4
+				}
+				{
+					id: "73E3C6F5391F58F8"
+					type: "item"
+					item: "minecraft:enchanted_golden_apple"
+				}
+			]
+		}
+		{
+			title: "&d&l凝渊人——流光"
+			icon: {
+				id: "stellariscraft:lightfulcore"
+				Count: 1b
+				tag: { }
+			}
+			x: 41.0d
+			y: 7.5d
+			subtitle: "&bI &6am &2the &4…&d…"
+			description: ["&e&o&lBGM : Bury the Light (Game Edit)"]
+			dependencies: ["71F5E866BCCEB9A9"]
+			hide: true
+			size: 3.5d
+			id: "5174127C13F71B7C"
+			tasks: [
+				{
+					id: "0787285959829A88"
+					type: "kill"
+					icon: {
+						id: "stellarisdlc:yamato"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					entity: "jobinsmobs:gazeabysser"
+					value: 1L
+				}
+				{
+					id: "47CB943C900C6AF7"
+					type: "item"
+					item: "stellariscraft:lightfulcore"
+				}
+			]
+			rewards: [{
+				id: "5BA789A87985F8F0"
+				type: "item"
+				item: "bhc:blue_heart"
+			}]
+		}
+		{
+			title: "&b&l霜冻之角"
+			icon: "stellariscraft:the_hornof_frost"
+			x: 41.0d
+			y: 4.0d
+			shape: "square"
+			subtitle: "&f击杀流光获得"
+			hide_dependency_lines: true
+			dependencies: ["5174127C13F71B7C"]
+			hide: true
+			size: 2.0d
+			id: "10CACCAB1428EA4E"
+			tasks: [
+				{
+					id: "2C114E9BD5199B48"
+					type: "item"
+					item: "stellariscraft:the_hornof_frost"
+				}
+				{
+					id: "27BA567EBBC20040"
+					type: "item"
+					item: "stellariscraft:w_knightingot"
+				}
+			]
+			rewards: [{
+				id: "6153AEF3AB7EB784"
+				type: "item"
+				item: "stellariscraft:the_hornof_frost"
+			}]
+		}
+	]
+	quest_links: [
+		{
+			linked_quest: "5C546744855B6C60"
+			x: 41.0d
+			y: 18.75d
+			shape: "hexagon"
+			size: 2.5d
+			id: "5CD9289D66857792"
+		}
+		{
+			linked_quest: "0ADE3AD4690C571A"
+			x: 41.0d
+			y: 15.25d
+			shape: "gear"
+			size: 2.5d
+			id: "2743580B392A8DBF"
+		}
+		{
+			linked_quest: "0E063AB996FABFBE"
+			x: 41.0d
+			y: 1.0d
+			size: 2.0d
+			id: "26770EF540695BF8"
+		}
+	]
+}

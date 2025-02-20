@@ -1,0 +1,70 @@
+{
+  "id": "stellariscraft:rare_boots",
+  "weight": 7,
+  "reforge_experience_cost": 2,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:boots"}
+  ],
+  "style": {
+    "color": "blue"
+  },
+  "attributes": [
+    {
+      "type": "generic.movement_speed",
+      "modifier": {
+        "name": "stellariscraft:rare_boots",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.02
+      },
+      "optional_equipment_slots": [
+        "FEET"
+      ]
+    },
+   {
+      "type": "generic.knockback_resistance",
+      "modifier": {
+        "name": "stellariscraft:rare_boots",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.2
+      },
+      "optional_equipment_slots": [
+        "FEET"
+      ]
+    },
+{
+      "type": "forge:swim_speed",
+      "modifier": {
+        "name": "stellariscraft:rare_boots",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.07
+      },
+      "optional_equipment_slots": [
+        "FEET"
+      ]
+    },
+{
+      "type": "generic.flying_speed",
+      "modifier": {
+        "name": "stellariscraft:rare_boots",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.07
+      },
+      "optional_equipment_slots": [
+        "FEET"
+      ]
+    },
+{
+      "type": "forge:step_height_addition",
+      "modifier": {
+        "name": "stellariscraft:rare_boots",
+        "operation": "ADDITION",
+        "amount": 1
+      },
+      "optional_equipment_slots": [
+        "FEET"
+      ]
+    }
+  ]
+}

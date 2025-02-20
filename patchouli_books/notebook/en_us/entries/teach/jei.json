@@ -1,0 +1,32 @@
+{
+    "name": "JEI介绍(面向新手玩家)",
+    "icon": "minecraft:crafting_table",
+    "category": "patchouli:teach",
+    "sortnum":9,
+    "pages": [
+{
+            "type": "png_teach",
+            "image":"stellarisdlc:textures/png/jei1.png",
+            "text1":"JEI的使用",
+            "text2":""
+        },
+        {
+           "type": "T1",
+           "title":"JEI的使用",
+            "text": "JEI为大多数整合包基础性模组，此章节主要教学JEI使用，面向首次游玩整合包的玩家。打开物品栏右侧为JEI，鼠标移动至对应物品，左键可查找配方，$(t:容器会显示以此为载体的所有配方)$(5)右键可查找用途$()，下方可以输入拼音直接搜索物品。$(br2)物品栏内鼠标移动至对应物品，按$(k:jei.showRecipe)可查询配方，按$(k:jei.showUses)可查询用途。"
+        },
+{
+            "type": "png_teach",
+            "image":"stellarisdlc:textures/png/jei2.png",
+            "text1":"JEI书签与物品放大",
+            "text2":""
+        },
+        
+{
+           "type": "T1",
+           "title":"JEI书签与物品放大",
+            "text": "打开物品栏左侧为JEI书签与物品放大区域，鼠标移动至对应物品按$(t:jei.bookmark)可将物品添加至$(5)$(t:图片中以各种矿石为例)左侧书签栏$()，可用于快捷寻找物品。左下角减号图标可用于关闭或开启书签栏的显示。$(br2)鼠标移动至物品栏与JEI区域左侧会有$(5)$(t:图中以钻石矿为例子)物品图像放大$()，按$(k:itemzoom.toggle)可控制该功能的开启与停用。"
+        }
+        
+    ]
+}

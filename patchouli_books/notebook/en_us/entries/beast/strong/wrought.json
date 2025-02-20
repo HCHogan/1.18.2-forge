@@ -1,0 +1,25 @@
+{
+    "name": "钢铁守护者",
+    "icon": "mowziesmobs:wrought_axe",
+    "category": "patchouli:beast_strong",
+    "sortnum":5,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"钢铁守护者/wrought chamber",
+            "text": "王国时期原本可以批量生产的人族战争机器，在奴役龙族的时期人类的野心不断扩大，这种战争机器才得以遍布主世界的四处。如今这些战争机器大多数已经被摧毁，少量存在于地下但是也已经被遗忘。但是小心，它们仍然具备着战斗的本能，据说只有在其有破绽时尝试猛击其的背部才能毁灭它。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/wrought.png",
+            "text1":"王国的遗物",
+            "text2":""
+        },
+        {"type": "spotlight",
+        "title":"掉落物",
+        "item": "stellariscraft:adventurespar,bhc:red_heart,dotcoinmod:iron_coin,bhc:yellow_heart,mowziesmobs:wrought_axe,mowziesmobs:wrought_helmet",
+        "text": "击杀后掉落$(br)千锻战斧、精炼头盔1个。$(br2)以下掉落物通过$(t:等级越高提高数量越多,下列为无附魔掉落数量)$(5)抢夺$()可增加数量$(br)冒险晶石、红心、银币1~2个$(br)黄心0~1个。$(br2)注意不要穿护甲:)"
+         }
+        
+    ]
+}

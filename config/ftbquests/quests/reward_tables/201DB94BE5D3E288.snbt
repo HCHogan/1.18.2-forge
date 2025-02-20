@@ -1,0 +1,58 @@
+{
+	id: "201DB94BE5D3E288"
+	order_index: 7
+	title: "戒指回收包"
+	icon: "ringsofascension:ring_flight"
+	loot_size: 1
+	rewards: [
+		{ item: "dotcoinmod:copper_coin", count: 8, random_bonus: 3, weight: 40 }
+		{ item: "minecraft:diamond", count: 5, random_bonus: 2, weight: 18 }
+		{
+			xp: 160
+			type: "xp"
+			weight: 20
+		}
+		{ item: "minecraft:iron_ingot", count: 6, random_bonus: 5, weight: 39 }
+		{ item: "stellariscraft:adgrain", weight: 18 }
+		{ item: "minecraft:quartz", count: 32, random_bonus: 12, weight: 36 }
+		{ item: "minecraft:wither_skeleton_skull", weight: 8 }
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "minecraft:sharpness"
+					}]
+				}
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "minecraft:bane_of_arthropods"
+					}]
+				}
+			}
+			weight: 16
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:mending"
+					}]
+				}
+			}
+		}
+	]
+}

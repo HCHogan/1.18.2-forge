@@ -1,0 +1,11 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[{"item":"miningmaster:spider_kunzite"},
+{"item":"ringsofascension:ring_slow_resistance"},
+{"item":"ringsofascension:ring_wither"},
+{"item":"ringsofascension:ring_poison_resistance"},
+{"item":"miningmaster:spider_kunzite"}],
+"catalyst":{"item":"stellariscraft:exchangestone"},
+"result":{"item":"artifacts:antidote_vessel"},
+"enchantments":[]
+}

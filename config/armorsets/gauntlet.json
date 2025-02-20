@@ -1,0 +1,27 @@
+{  "armorSetName": "gauntlet",
+  "performanceMode": true,
+ "mainHand": {
+    "itemKey": "davespotioneering:potioneer_gauntlet",
+    "mixAndMatch": [
+      "cataclysm:gauntlet_of_guard"
+    ]
+  },
+
+  "additionalSetPieces": [
+    {
+    "itemKey": "artifacts:steadfast_spikes"
+    }
+],
+
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "epicfight:stun_armor",
+      "value": 0.2,
+      "attributeOperation": 2,
+      "modifierUUID": "43200418-b9b2-45fa-ba40-ee764d0231c8",
+      "description": "gauntlet"  
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

@@ -1,0 +1,22 @@
+{
+	"attributes":
+	{
+		"one_hand":
+		{
+			"armor_negation":20.0,
+			"impact":-0.45,
+			"max_strikes":5,
+			"speed_bonus":-0.2,
+			"damage_bonus":0
+		},
+		"two_hand":
+		{
+			"armor_negation":30.0,
+			"impact":-0.45,
+			"max_strikes":5,
+			"speed_bonus":-0.2,
+			"damage_bonus":0
+		}
+	},
+	"type":"ender_blaster"
+}

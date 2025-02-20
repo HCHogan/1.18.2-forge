@@ -1,0 +1,38 @@
+{
+    "name": "神圣绿柱石",
+    "category": "patchouli:mining",
+    "icon": "miningmaster:divine_beryl",
+    "pages": [
+       {"type": "spotlight",
+        "title":"神圣绿柱石",
+        "item": "miningmaster:divine_beryl",
+        "text": "吸收了神圣力量产生的珍惜矿物。$(br2)分布极其稀少，沼泽和黑森林生物群系的地下会少量增加数量，流浪商人有时也会以1金币的价格售卖。$(br)$(#ff0000)森白影魔$()曾携带此物助其剑道。",
+        "link_recipe":true
+         },
+        {
+            "type": "patchouli:png_mining",
+            "image": "stellarisdlc:textures/png/divine.png",
+            "text1":"神圣绿柱石矿",
+            "text2":"生成层数y:-40~20$(br)对应群系:9个/区块$(br)其他群系:0.5个/区块"
+            
+          },
+      {
+        "type": "patchouli:mining_smith",
+        "head":"神圣绿柱石的简单使用",
+        "item1": "minecraft:diamond_sword",
+        "item2": "miningmaster:divine_beryl",
+        "item3": "minecraft:diamond_sword{Enchantments:[{id:'sweeping',lvl:1s}]}",
+        "item4": "minecraft:trident",
+        "item5": "miningmaster:divine_beryl",
+        "item6": "minecraft:trident{Enchantments:[{id:'minecraft:channeling',lvl:1s}]}",
+        "item7": "minecraft:diamond_sword{Enchantments:[{id:'sweeping',lvl:1s}]}",
+        "item8": "miningmaster:divine_beryl",
+        "item9": "minecraft:diamond_sword{Enchantments:[{id:'sweeping',lvl:2s}]}"
+      },
+      {
+         "type":"patchouli:TT",
+        "head":"神圣绿柱石的简单使用",
+        "text":"在$(#ff0000)锻造台$()上可以根据物品的不同分别赋予节肢属性的力量，可以通过再次锻造反复提升力量但是由于并非专业的魔力注入，$(#ff0000)无法突破这些附魔原有的极限。$()"     
+      }
+    ]
+  }

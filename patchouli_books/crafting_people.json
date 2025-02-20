@@ -1,0 +1,45 @@
+{
+    "name": "工匠的智慧",
+    "icon": "omnis:ravaged_metal",
+    "category": "patchouli:make",
+"sortnum": 3,
+    "pages": [
+        {
+            "type": "T1",
+           "title":"工匠的智慧",
+            "text": "炼金术士在终焉第二次进攻的前期离开了王国，一夜之间炼金术士们的大量器材和人员一起消失了王国的贵族极端愤怒：说到底只是一群贪生怕死的乌合之众毫无荣耀可言。而王国的工匠们为了人类种族的延续需要填补炼金术士们的位置，但是工匠们也知道它们赶不上炼金术士们的研究。"
+        },
+        {
+            "type": "smelt",
+            "item1":"minecraft:iron_block#3",
+            "item2":"minecraft:blast_furnace",
+            "item3":"stellariscraft:steelingot#2",
+            "text":"钢铁守卫者已经无法制作，除了葛伦科龙之外，工匠们还希望能找到其他替代品。通过熔炉二次加工铁块从而获取高密度的铁，这或许是个不错的办法。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "stellariscraft:ccrafting",
+            "text":"第一次终焉进攻敌方的飞行特种兵曾引起过工匠的注意，为此，工匠们将飞行兵俘虏身上的飞行装置拆卸下来进行研究仿制，花费10余年最终成功用已有材料仿制出了飞行用具。"
+        },
+        {"type": "patchouli:smith_link",
+           "item1": "stellariscraft:steelingot",
+        "item2": "stellariscraft:the_hornof_frost",
+        "item3": "stellariscraft:w_knightingot",
+            "text":"霜冻之角是王国时期的遗物，炼金术士曾尝试用其经行炼金术的研究但结果都已失败告终，工匠们决定将其用在盔甲方面。出乎意料的是其与钢有着较好的相性可以在$(#ff0000)锻造台$()上制作杰出的材料。"
+        },
+        {"type": "patchouli:smith_link",
+           "item1": "stellariscraft:steelingot",
+        "item2": "stellariscraft:diedscrap",
+        "item3": "stellariscraft:deadingot",
+            "text":"后王国时期内乱不断，在监狱中调查显示嗜杀的人其盔甲上常常产生死亡碎片，其蕴含的杀戮之力很难较好地驾驭，工匠们不打算像炼金术士那样开发其的全部潜能，$(#ff0000)锻造台$()上的简单工艺手法粗糙会损失很多杀戮的力量但是对于使用者来说更好驾驭。"
+        },
+       {"type": "patchouli:smith",
+           "item1": "minecraft:netherite_ingot",
+        "item2": "stellariscraft:witherc",
+        "item3": "cataclysm:witherite_ingot",
+            "text":"为了王国与人类的延续，哪怕是最不稳定的力量也需要利用。工匠为了打造更具威胁的武器，尝试过利用下界的矿物与下界的上古侵蚀力量融合。最终两种力量达到了平衡，现在的冒险者常常用其制作一种神奇的可以抵抗外界元素之力威胁的护符。"
+        }
+        
+        
+      ]
+}

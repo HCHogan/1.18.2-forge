@@ -1,0 +1,1 @@
+scoreboard players remove @p gazeabysser 2

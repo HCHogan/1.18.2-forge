@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"stellarisdlc:evidencestar"},"title":"Everdawn Unlocked!","description":"Obtain a item.stellarisdlc.evidencestar"},"parent":"restrictedportals:root","criteria":{"everdawn":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["stellarisdlc:evidencestar"]}]}}},"requirements":[["everdawn"]]}

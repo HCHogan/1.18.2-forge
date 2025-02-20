@@ -1,0 +1,16 @@
+{
+  "type": "nock_enough_arrows:fletching",
+  "fletching": {
+    "item": "minecraft:spectral_arrow"
+  },
+  "shaft": {
+    "item": "amethysttoolsmod:amethyst_dust"
+  },
+  "arrowhead": {
+    "item": "minecraft:spectral_arrow"
+  },
+  "result": {
+    "item": "amethysttoolsmod:amethyst_spectral_arrow",
+    "count": 2
+  }
+}

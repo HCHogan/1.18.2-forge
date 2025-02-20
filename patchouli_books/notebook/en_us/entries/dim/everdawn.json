@@ -1,0 +1,39 @@
+{
+    "name": "恒晓之地",
+    "icon": "blue_skies:everdawn_portal",
+    "category": "patchouli:dim",
+    "sortnum":1,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"恒晓之地",
+            "text": "一片被精灵魔法禁锢时间的魔法之地，这里是主世界与永昼之地的接连维度。理论上凋零的侵蚀并不能摧毁精灵的封印，恒晓同样归属精灵但是确可用凋零之物侵蚀。更奇怪的是后王国时期的炼金术士为什么会在这里与冒险者为敌，猛毒地牢的幽咽蛛王则是早已灭绝的上古物种。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/dawn.png",
+            "text1":"",
+            "text2":""
+        },
+         {
+         "type":"patchouli:smith",
+         "item1": "stellarisdlc:evidencestar_1",
+        "item2": "stellarisdlc:evidencestar_2",
+        "item3": "stellarisdlc:evidencestar",
+        "head":"破除维度封印",
+        "text":"凝聚了下界之星与凋零残片的证明，可以短暂破开恒晓之地的封印。"
+        
+      },
+      {
+            "type": "crafting",
+            "recipe": "crafttweaker:evidencestar_1",
+            "text":"下界守护之眼与下界之星这两股纯净的猩红之力，可以很好地中和侵蚀保护使用者，适合作为凋零之证的核心"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:evidencestar_2",
+            "text":"强大侵蚀能力的凋零残片配合同样有着侵蚀能力的焰魔锭可以加强侵蚀封印的速度，配合纯净的猩红之力可以定向侵蚀封印又不伤害使用者。"
+        }
+        
+    ]
+}

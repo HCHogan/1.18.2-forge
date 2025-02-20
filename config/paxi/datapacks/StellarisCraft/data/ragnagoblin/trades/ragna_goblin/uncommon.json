@@ -1,0 +1,59 @@
+{
+  "replace": true,
+  "trades": [
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "cnb:end_whale_spawn_egg",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "dotcoinmod:gold_coin",
+        "count": 1
+      },
+      "max_trades": 2,
+      "experience": 100
+    },
+
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "ends_delight:raw_dragon_meat",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 5
+      },
+      "max_trades": 2,
+      "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "ends_delight:liquid_dragon_egg",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 5
+      },
+      "max_trades": 2,
+      "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "ends_delight:dragon_leg",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 5
+      },
+      "max_trades": 2,
+      "experience": 20
+    }
+
+  ]
+}

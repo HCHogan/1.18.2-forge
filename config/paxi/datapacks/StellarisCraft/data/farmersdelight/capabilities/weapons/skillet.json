@@ -1,0 +1,13 @@
+{
+	"attributes":
+	{
+		"common":
+		{
+			"speed_bonus":1.5,
+			"armor_negation":8.0,
+			"impact":1.3,
+			"damage_bonus":0
+		}
+	},
+	"type":"dagger"
+}

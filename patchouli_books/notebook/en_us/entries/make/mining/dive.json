@@ -1,0 +1,55 @@
+{
+    "name": "深潜蓝宝石",
+    "category": "patchouli:mining",
+    "icon": "miningmaster:dive_aquamarine",
+    "pages": [
+       {"type": "spotlight",
+        "title":"深潜蓝宝石",
+        "item": "miningmaster:dive_aquamarine",
+        "text": "吸收了深海力量产生的珍惜矿物，据说水下之城亚特兰蒂斯盛产此物$(br2)分布极其稀少，海洋和溶洞生物群系的地下会少量增加数量，流浪商人有时也会以1金币的价格售卖。$(br)此外，$(#ff0000)海洋傀儡$()就是为了守护此物而诞生的。",
+        "link_recipe":true
+         },
+        {
+            "type": "patchouli:png_mining",
+            "image": "stellarisdlc:textures/png/dive.png",
+            "text1":"深潜蓝宝石矿",
+            "text2":"生成层数y:-40~20$(br)海洋群系:9个/区块$(br)其他群系:0.5个/区块"
+            
+          },
+      {
+        "type": "patchouli:mining_smith",
+        "item1": "minecraft:trident",
+        "head" : "深潜蓝宝石的简单使用",
+        "item2": "miningmaster:dive_aquamarine",
+        "item3": "minecraft:trident{Enchantments:[{id:'minecraft:riptide',lvl:1s}]}",
+        "item4": "minecraft:diamond_helmet",
+        "item5": "miningmaster:dive_aquamarine",
+        "item6": "minecraft:diamond_helmet{Enchantments:[{id:'aqua_affinity',lvl:1s}]}",
+        "item7": "minecraft:diamond_chestplate",
+        "item8": "miningmaster:dive_aquamarine",
+        "item9": "minecraft:diamond_chestplate{Enchantments:[{id:'miningmaster:grace',lvl:1s}]}"
+      },
+{
+        "type": "patchouli:mining_smith",
+        "head" : "深潜蓝宝石的简单使用",
+        "item1": "minecraft:fishing_rod",
+        "item2": "miningmaster:dive_aquamarine",
+        "item3": "minecraft:fishing_rod{Enchantments:[{id:'luck_of_the_sea',lvl:1s}]}",
+        "item4": "minecraft:diamond_boots",
+        "item5": "miningmaster:dive_aquamarine",
+        "item6": "minecraft:diamond_boots{Enchantments:[{id:'depth_strider',lvl:1s}]}",
+        "item7": "minecraft:diamond_boots{Enchantments:[{id:'depth_strider',lvl:1s}]}",
+        "item8": "miningmaster:dive_aquamarine",
+        "item9": "minecraft:diamond_boots{Enchantments:[{id:'depth_strider',lvl:2s}]}"
+      },
+      {
+         "type":"patchouli:smith",
+         "head" : "深潜蓝宝石的简单使用",
+         "item1": "minecraft:trident{Enchantments:[{id:'minecraft:riptide',lvl:1s}]}",
+        "item2": "miningmaster:dive_aquamarine",
+        "item3": "minecraft:trident{Enchantments:[{id:'minecraft:riptide',lvl:2s}]}",
+        "text":"在$(#ff0000)锻造台$()上可以根据物品的不同分别赋予水属性的力量，可以通过再次锻造反复提升力量但是由于并非专业的魔力注入，$(#ff0000)无法突破这些附魔原有的极限。$()"
+        
+      }
+    ]
+  }

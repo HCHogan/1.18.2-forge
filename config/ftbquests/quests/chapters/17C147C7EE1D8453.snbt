@@ -1,0 +1,259 @@
+{
+	id: "17C147C7EE1D8453"
+	group: "0F5486DFDF7D448B"
+	order_index: 5
+	filename: "17C147C7EE1D8453"
+	title: "奥术遗迹"
+	icon: "irons_spellbooks:divine_pearl"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Iron's Spells 'n Spellbooks 模组"
+			icon: {
+				id: "irons_spellbooks:iron_spell_book"
+				Count: 1b
+				tag: {
+					ISB_spellbook: {
+						spellSlots: 5
+						activeSpellIndex: -1
+						spells: [ ]
+					}
+				}
+			}
+			x: 1.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "&6仅需要其中的“奥术源质”"
+			dependencies: [
+				"0B64144888793FD7"
+				"1010A4921691744A"
+			]
+			hide: true
+			size: 2.0d
+			id: "78E1C08F33BFD0EA"
+			tasks: [{
+				id: "721691EB1BC4CFC9"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "1E3834E3A04BF2CF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2688748745693820522L
+				}
+				{
+					id: "2733C87D976854DA"
+					type: "item"
+					item: "irons_spellbooks:arcane_essence"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			shape: "diamond"
+			subtitle: "孤独的冰霜魔法塔，它可以在山脉和雪原的生物群落中找到。"
+			hide_dependency_lines: true
+			dependencies: ["78E1C08F33BFD0EA"]
+			hide: true
+			id: "1219DD100E3B54CC"
+			tasks: [{
+				id: "381532196DCE1025"
+				type: "structure"
+				title: "冰霜魔法塔:mountain_tower"
+				icon: "minecraft:snow_block"
+				structure: "irons_spellbooks:mountain_tower"
+			}]
+			rewards: [
+				{
+					id: "1E4954AF646BB4E4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "14C056B8D36AD7FD"
+					type: "item"
+					item: "irons_spellbooks:arcane_essence"
+					count: 9
+				}
+			]
+		}
+		{
+			title: "远古战场:ancient_battleground"
+			x: 2.5d
+			y: -0.5d
+			shape: "diamond"
+			subtitle: "在下界中生成"
+			description: [
+				"                   名字很久以前就被遗忘了的战斗地点。"
+				"      在其中的散落的盔甲堆，可以破坏以复活远古骑士。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["78E1C08F33BFD0EA"]
+			hide: true
+			id: "1EE648132CB93E31"
+			tasks: [{
+				id: "103E50D6944D4770"
+				type: "structure"
+				title: "远古战场:ancient_battleground"
+				icon: "minecraft:netherite_scrap"
+				structure: "irons_spellbooks:ancient_battleground"
+			}]
+			rewards: [
+				{
+					id: "03B489A44F3D0D80"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "26004874C769A96D"
+					type: "item"
+					item: "irons_spellbooks:arcane_essence"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			shape: "diamond"
+			subtitle: "类似要塞，是一种生成在主世界的多级结构。"
+			description: [
+				"第一个随机生成的地牢和含有boss的结构，这是一位很久以前去世的国王的魔法据点，可以在地下深处找到。"
+				""
+				"&6可以使用&b归途指南针&6来定位结构。"
+				""
+				"&c死王之尸&6生成在其中的boss房中。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["78E1C08F33BFD0EA"]
+			hide: true
+			id: "17F4B9F4EC618071"
+			tasks: [{
+				id: "1AC4FFEAACC15955"
+				type: "structure"
+				title: "地下墓穴:catacombs"
+				icon: {
+					id: "irons_spellbooks:wayward_compass"
+					Count: 1b
+					tag: { }
+				}
+				structure: "irons_spellbooks:catacombs"
+			}]
+			rewards: [
+				{
+					id: "24475106597D51CA"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "5EB2B5EF33AA16E1"
+					type: "item"
+					item: "irons_spellbooks:arcane_essence"
+				}
+			]
+		}
+		{
+			title: "炽焰术士小屋:mangrove_hut"
+			x: 3.5d
+			y: 0.5d
+			shape: "diamond"
+			subtitle: "炽焰术士法师的家，可以在沼泽生物群系、红树林生物群系中找到。"
+			hide_dependency_lines: true
+			dependencies: ["78E1C08F33BFD0EA"]
+			hide: true
+			id: "0A6EB2E0590D02F2"
+			tasks: [{
+				id: "1012E4DAC899AAF2"
+				type: "structure"
+				title: "炽焰术士小屋:mangrove_hut"
+				icon: "minecraft:dripstone_block"
+				structure: "irons_spellbooks:mangrove_hut"
+			}]
+			rewards: [
+				{
+					id: "1787B310FD2F4F82"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "433960E355433745"
+					type: "item"
+					item: "irons_spellbooks:arcane_essence"
+					count: 9
+				}
+			]
+		}
+		{
+			title: "召唤师塔:evoker_fort"
+			x: 2.5d
+			y: 0.5d
+			shape: "diamond"
+			subtitle: "高位唤魔者的巢穴，可以在森林、平原、沙漠和大草原中找到，周围随机生成营地。"
+			hide_dependency_lines: true
+			dependencies: ["78E1C08F33BFD0EA"]
+			hide: true
+			id: "7646C4BF84403419"
+			tasks: [{
+				id: "69B1307C86D8DDE5"
+				type: "structure"
+				title: "召唤师塔:evoker_fort"
+				icon: "minecraft:stripped_dark_oak_log"
+				structure: "irons_spellbooks:evoker_fort"
+			}]
+			rewards: [
+				{
+					id: "40139B913F69ED48"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "4797FA794312D366"
+					type: "item"
+					item: "irons_spellbooks:arcane_essence"
+					count: 9
+				}
+			]
+		}
+		{
+			title: "鲜血精华"
+			x: 4.5d
+			y: -0.5d
+			shape: "diamond"
+			subtitle: "在燃着的营火上方放置炼药锅，当生物处于炼药锅中时，每秒会受到2点伤害，并且炼药锅会有 1/2 几率生成猩红精华。"
+			description: ["手持玻璃瓶右键有血的锅可收集其中的血并作为猩红精华而储存，每个药水位可以储存一瓶猩红精华"]
+			hide_dependency_lines: true
+			dependencies: ["17F4B9F4EC618071"]
+			hide: true
+			id: "596222D779387A6C"
+			tasks: [{
+				id: "45431B4C8C4AB956"
+				type: "item"
+				item: "irons_spellbooks:blood_vial"
+			}]
+			rewards: [
+				{
+					id: "4A3E74D46F94FE4D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "35A1FC3F9F83ECFB"
+					type: "item"
+					item: "irons_spellbooks:arcane_essence"
+					count: 9
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

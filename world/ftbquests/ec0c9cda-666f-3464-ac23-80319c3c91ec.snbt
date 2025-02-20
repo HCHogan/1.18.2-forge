@@ -1,0 +1,15 @@
+{
+	version: 1
+	uuid: "ec0c9cda666f3464ac2380319c3c91ec"
+	name: "SAOKE666"
+	can_edit: false
+	lock: false
+	auto_pin: false
+	chapter_pinned: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}

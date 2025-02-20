@@ -1,0 +1,1 @@
+execute at @e[type=jobinsmobs:goldenflame,sort=nearest,limit=1] run playsound minecraft:block.anvil.land block @p ~ ~ ~ 1 0.6

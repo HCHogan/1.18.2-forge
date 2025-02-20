@@ -1,0 +1,16 @@
+{
+  "type": "nock_enough_arrows:fletching",
+  "fletching": {
+    "item": "minecraft:feather"
+  },
+  "shaft": {
+    "item": "minecraft:spectral_arrow"
+  },
+  "arrowhead": {
+    "item": "cataclysm:void_jaw"
+  },
+  "result": {
+    "item": "cataclysm:void_scatter_arrow",
+    "count": 2
+  }
+}

@@ -1,0 +1,9 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[{"item":"miningmaster:lucky_citrine"},
+{"item":"quark:forgotten_hat"},
+{"item":"miningmaster:lucky_citrine"}],
+"catalyst":{"item":"stellarisdlc:exchangestonecore"},
+"result":{"item":"artifacts:superstitious_hat"},
+"enchantments":[]
+}

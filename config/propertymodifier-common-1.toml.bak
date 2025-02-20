@@ -1,0 +1,193 @@
+
+#A few general things to note:
+#Any invalid entries will result in a log warning, but will just be skipped, and working entries will work.
+#Most entries will utilize a block, item or enchantment id, which needs to be in the modid:blockid, modid:itemid or modid:enchantmentid format, respectively. "minecraft:" is not optional.
+#All of these support regex. So you could use .* to select all entries, or minecraft:.* to select all elements in the minecraft namespace. For further information, please consult Google.
+#Entries are read from left to right, this means that entries will overwrite entries read before it if they modify the same block/item/enchantment.
+#NBT and blockstates are currently not supported in any way.
+[logging]
+	#Whether to log successful operations or not.
+	log_successful = true
+	#Whether to log failed operations or not.
+	log_errors = true
+
+[item_groups]
+	#Define new item groups. Format is "id;icon", with icon being an item id. Will run before the below stuff, allowing you to use these groups below. Note that you need to set a translation using a resource pack, otherwise an itemGroup.<id> translation key will appear. Do not use "none" as a name, as this is the key used to remove an item from any group.
+	item_group = []
+	#Removes item groups that have no items, including empty ones created by this mod. Runs after the below stuff, clearing up any empty groups left from moving all items out of them.
+	remove_empty_item_groups = true
+	#Whether to sort all item groups or not.
+	sort = false
+	#A list of groups that should be removed under all circumstances. Cannot remove "hotbar", "search" and "inventory".
+	force_remove = []
+
+#Dumps all corresponding values with their changeable properties into the logs. Dumping tilling transitions or villager trades is impossible code-wise, hence they are missing in this list.
+[dump]
+	#Dump blocks BEFORE applying the changes.
+	dump_blocks = false
+	#Dump blocks AFTER applying the changes.
+	dump_blocks_after = false
+	#Dump blocks BEFORE applying the changes. Only dumps non-default values. Does nothing if dump_blocks is set to true.
+	dump_blocks_non_default = false
+	#Dump blocks AFTER applying the changes. Only dumps non-default values. Does nothing if dump_blocks_after is set to true.
+	dump_blocks_after_non_default = false
+	#Dump items BEFORE applying the changes. Due to technical reasons, repair materials cannot be dumped.
+	dump_items = false
+	#Dump items AFTER applying the changes. Due to technical reasons, repair materials cannot be dumped.
+	dump_items_after = false
+	#Dump items BEFORE applying the changes. Repair materials cannot be dumped (technical limitations). Only dumps non-default values. Does nothing if dump_items is set to true.
+	dump_items_non_default = false
+	#Dump items AFTER applying the changes. Repair materials cannot be dumped (technical limitations). Only dumps non-default values. Does nothing if dump_items is set to true.
+	dump_items_after_non_default = false
+	#Dump enchantments BEFORE applying the changes.
+	dump_enchantments = false
+	#Dump enchantments AFTER applying the changes.
+	dump_enchantments_after = false
+	#Dump item groups BEFORE applying the changes.
+	dump_groups = false
+	#Dump item groups AFTER applying the changes.
+	dump_groups_after = false
+	#Dump composter inputs BEFORE applying the changes.
+	dump_composter = false
+	#Dump composter inputs AFTER applying the changes.
+	dump_composter_after = false
+	#Dump stripping transitions BEFORE applying the changes.
+	dump_stripping = false
+	#Dump stripping transitions AFTER applying the changes.
+	dump_stripping_after = false
+	#Dump pathing transitions BEFORE applying the changes.
+	dump_pathing = false
+	#Dump pathing transitions AFTER applying the changes.
+	dump_pathing_after = false
+	#The default enchantment value of items. Change this if you have a mod installed that makes every item enchantable. If you're unsure, leave this unchanged and run the item dumping. You'll see if you need to change it or not.
+	#Range: > 0
+	default_enchantment_value = 0
+
+#Settings related to blocks. Format is "blockid;value", unless stated otherwise.
+[blocks]
+	#How long the block takes to break. 0.5 is dirt, 1.5 is stone, 50 is obsidian. -1 makes the block unbreakable. Not recommended for blocks with blockstate-dependent destroy time that may be added by other mods. Default value: 0
+	destroy_time = []
+	#How explosion-resistant the block is. 0.5 is dirt, 6 is stone and cobblestone, 1200 is obsidian. 3600000 or more makes the block completely explosion resistant. Default value: 0
+	explosion_resistance = []
+	#Whether you need a corresponding tool to get block drops (e.g. stone, ores) or if the harvest tool type only speeds up the breaking speed (e.g. dirt, gravel). Default value: false
+	requires_tool = []
+	#The light emitted by this block. Not recommended for blocks with blockstate-dependant light emission (e. g. furnaces). Default value: 0
+	light_emission = []
+	#The friction multiplier applied to entities moving on this block. Lower value means more slowdown. Default value: 0.6
+	friction = []
+	#Accelerates (if > 1) or slows down (if between 0 and 1) entities that walk upon this block. Default value: 1
+	speed_factor = []
+	#Allows entities on this block to jump higher (if > 1) or lower (if between 0 and 1). Default value: 1
+	jump_factor = []
+	#The sound type the block has. Only vanilla sound types are supported. Default value: stone. Vanilla sound types are:
+	#wood, gravel, grass, lily_pad, stone, metal, glass, wool, sand, snow, ladder, anvil, slime_block, honey_block, wet_grass, coral_block, bamboo, bamboo_sapling, scaffolding, sweet_berry_bush, crop, hard_crop, vine, nether_wart, lantern, stem, nylium, fungus, roots, shroomlight, weeping_vine, twisting_vine, soul_sand, soul_soil, basalt, wart_block, netherrack, nether_bricks, nether_sprouts, nether_ore, bone_block, netherite_block, ancient_debris, lodestone, chain, nether_gold_ore, gilded_blackstone
+	sound_type = []
+
+#Settings related to items. Format is "item;value", unless stated otherwise.
+[items]
+	#The max durability an item has. Can only be set on damageable items. Default value: 0
+	max_damage = ["minecraft:iron_helmet;320", "minecraft:iron_chestplate;450", "minecraft:iron_leggings;450", "minecraft:iron_boots;300", "stellariscraft:tiestone_armor_helmet;300", "stellariscraft:tiestone_armor_chestplate;400", 
+"stellariscraft:tiestone_armor_leggings;400", "stellariscraft:tiestone_armor_boots;270", "amethysttoolsmod:iron_helmet_amethyst;540", "amethysttoolsmod:iron_chestplate_amethyst;750", "amethysttoolsmod:iron_leggings_amethyst;750", 
+"amethysttoolsmod:iron_boots_amethyst;520", "amethysttoolsmod:diamond_helmet_amethyst;720", "amethysttoolsmod:diamond_chestplate_amethyst;900", "amethysttoolsmod:diamond_leggings_amethyst;900", "amethysttoolsmod:diamond_boots_amethyst;640", 
+"amethysttoolsmod:netherite_helmet_amethyst;840", "amethysttoolsmod:netherite_chestplate_amethyst;1000", "amethysttoolsmod:netherite_leggings_amethyst;1000", "amethysttoolsmod:netherite_boots_amethyst;720", "minecraft:diamond_helmet;540", 
+"minecraft:diamond_chestplate;750", "minecraft:diamond_leggings;750", "minecraft:diamond_boots;520", "minecraft:netherite_helmet;720", "minecraft:netherite_leggings;900", "minecraft:netherite_leggings;900", "minecraft:netherite_boots;640", 
+"stellariscraft:diasteel_helmet;1260", "stellariscraft:diasteel_chestplate;1500", "stellariscraft:diasteel_leggings;1500", "stellariscraft:diasteel_boots;1080", "aquaculture:neptunium_helmet;660", "aquaculture:neptunium_chestplate;840", 
+"aquaculture:neptunium_leggings;840", "aquaculture:neptunium_boots;640", "byg:ametrine_helmet;750", "byg:ametrine_chestplate;900", "byg:ametrine_leggings;900", "byg:ametrine_boots;640", "miningmaster:paragon_helmet;750", 
+"miningmaster:paragon_chestplate;960", "miningmaster:paragon_leggings;960", "miningmaster:paragon_boots;660", "omnis:haunted_helmet;630", "omnis:haunted_chestplate;750", "omnis:haunted_leggings;750", "omnis:haunted_boots;540", 
+"omnis:ravaged_helmet;450", "omnis:ravaged_chestplate;600", "omnis:ravaged_leggings;600", "omnis:ravaged_boots;420", "blue_skies:diopside_helmet;720", "blue_skies:diopside_chestplate;840", "blue_skies:diopside_leggings;840", 
+"blue_skies:diopside_boots;600", "shieldxp:wooden_shield;100", "shieldxp:iron_shield;640", "shieldxp:diamond_shield;820", "shieldxp:netherite_shield;990", "shieldxp:griefer_shield;600", "shieldxp:paragon_shield;900", 
+"blue_skies:moonstone_shield;600", "blue_skies:spike_shield;1050", "stellarisdlc:dragonfalchion;3200", "stellarisdlc:lionsword;3200", "stellarisdlc:symmetryspear;1200", "stellarisdlc:phoenixspear;2560", "stellarisdlc:whitewolf;2560", 
+"stellarisdlc:steelkatana;2560", "stellarisdlc:dragonspear;4800", "stellarisdlc:bailu;4800", "stellarisdlc:flayer;4800", "stellariscraft:fairylotus;4800", "stellariscraft:balmung;3200", "stellariscraft:durandal;2400", 
+"stellariscraft:liesnow;3200", "stellariscraft:hunterdagger;640", "stellariscraft:fightswordaxe;2160", "stellariscraft:rotswordaxe;2560", "stellariscraft:killswordaxe;3200", "stellariscraft:voidaxe;2160", "stellariscraft:ravagedsword;2160", 
+"stellariscraft:alloytachi;2560", "minecraft:elytra;640", "alexsmobs:tarantula_hawk_elytra;1024", "stellariscraft:forgedspar;48", "stellariscraft:reinforcedspar;24", "minecraft:trident;640", "amethysttoolsmod:amethyst_trident;1280"]
+	#The max stack size an item has. Can't be set on damageable items. Default value: 64 (1 for damageable items)
+	max_stack_size = ["minecraft:totem_of_undying;4", "bhc:green_heart;16", "bhc:blue_heart;4", "quark:bottled_cloud;2"]
+	#The item group (= creative tab) of an item. Use "none" to remove the item from any item group. Default value: none
+	group = []
+	#Whether the item should have the fire and lava shielding properties of netherite or not. Default value: false
+	is_fire_resistant = []
+	#Sets the item rarity (currently only affects text color). Must be one of common (white), uncommon (yellow), rare (aqua) and epic (light purple). Default value: common
+	rarity = []
+	#Sets the enchantment value of the item. Default value: the default enchantment value defined above
+	enchantment_value = []
+	#Sets the repair material of the item. Tags (e.g. #minecraft:planks) are also allowed.
+	repair_material = ["epicfight:uchigatana;stellariscraft:steelingot", "stellariscraft:forgedspar;minecraft:lapis_lazuli", "stellariscraft:reinforcedspar;minecraft:lapis_block", "stellarisdlc:symmetryspear;minecraft:gold_block", 
+"stellarisdlc:alloytachi;omnis:haunted_steel_ingot", "stellariscraft:diopsidesword;blue_skies:diopside_gem", "stellariscraft:voidaxe;omnis:haunted_steel_ingot", "stellariscraft:durandal;stellariscraft:netherrotingot", 
+"stellariscraft:liesnow;blue_skies:aquite_block", "stellarisdlc:excalibur;byg:ametrine_block", "stellarisdlc:saber;byg:ametrine_gems", "stellarisdlc:dragonfalchion;stellariscraft:netherrotingot", 
+"stellarisdlc:groundcrackhammer;stellariscraft:rotsteelingot", "stellarisdlc:dragonspear;byg:ametrine_gems", "stellarisdlc:flayer;minecraft:netherite_ingot", "stellarisdlc:phoenixspear;cataclysm:ignitium_ingot", 
+"stellarisdlc:steelkatana;stellariscraft:steelingot", "stellarisdlc:bailu;stellariscraft:w_knightingot", "stellarisdlc:helleyes;stellariscraft:netherrotingot", "stellarisdlc:withereye;cataclysm:witherite_ingot", 
+"stellarisdlc:balmung;irons_spellbooks:arcane_ingot", "stellarisdlc:bb;stellariscraft:forget_bone", "stellarisdlc:rotgreatsword;stellariscraft:netherrotingot", "stellarisdlc:diedsword;stellariscraft:deadingot", 
+"stellarisdlc:dieddagger;stellariscraft:deadingot", "stellarisdlc:concealedge;blue_skies:star_flare", "stellarisdlc:netherrot_armor_helmet;stellariscraft:netherrotingot", "stellarisdlc:netherrot_armor_chestplate;stellariscraft:netherrotingot", 
+"stellarisdlc:netherrot_armor_leggings;stellariscraft:netherrotingot", "stellarisdlc:netherrot_armor_boots;stellariscraft:netherrotingot", "stellarisdlc:w_tknight_armor_helmet;stellariscraft:w_knightingot", 
+"stellarisdlc:w_tknight_armor_chestplate;stellariscraft:w_knightingot", "stellarisdlc:w_tknight_armor_leggings;stellariscraft:w_knightingot", "stellarisdlc:w_tknight_armor_boots;stellariscraft:w_knightingot", 
+"stellarisdlc:deadknight_helmet;stellariscraft:deadingot", "stellarisdlc:deadknight_chestplate;stellariscraft:deadingot", "stellarisdlc:deadknight_leggings;stellariscraft:deadingot", "stellarisdlc:deadknight_boots;stellariscraft:deadingot", 
+"stellarisdlc:goldendragon_helmet;cataclysm:enderite_ingot", "stellarisdlc:goldendragon_chestplate;cataclysm:enderite_ingot", "stellarisdlc:goldendragon_leggings;cataclysm:enderite_ingot", "stellarisdlc:goldendragon_boots;cataclysm:enderite_ingot", 
+"stellarisdlc:diasteel_helmet;stellariscraft:steelingot", "stellarisdlc:diasteel_chestplate;stellariscraft:steelingot", "stellarisdlc:diasteel_leggings;stellariscraft:steelingot", "stellarisdlc:diasteel_boots;stellariscraft:steelingot", 
+"stellariscraft:ravagedsword;omnis:haunted_steel_ingot", "miningmaster:ultima_sword;miningmaster:unbreaking_iolite", "aquaculture:neptunium_bow;aquaculture:neptunium_ingot", "miningmaster:air_malachite_bow;miningmaster:unbreaking_iolite"]
+
+	#Settings related to armor. Only armor items (excluding the elytra) can be affected, anything else will be skipped.
+	[items.armor]
+		#Sets the armor value.
+		defense = []
+		#Sets the armor toughness value. Default value: 0
+		toughness = []
+		#Sets the knockback resistance. Default value: 0
+		knockback_resistance = []
+
+	#Settings related to tools. Only tool, sword and trident items can be affected, anything else will be skipped.
+	[items.tools]
+		#Sets the attack damage.
+		attack_damage = []
+		#Sets the attack speed.
+		attack_speed = []
+		#Sets the efficiency. Does not work for swords and tridents.
+		efficiency = []
+
+#Settings related to enchantments. Format is "enchantment;value", unless stated otherwise.
+[enchantments]
+	#The enchantment rarity of this enchantment. Must be one of common (10), uncommon (5), rare (2) and very_rare (1).
+	rarity = []
+	#The item group this enchantment type's enchanted books are in. As soon as you add one for an item group, you need to re-add every enchantment type for that group as well. Enchantment types are:
+	#vanishable, breakable, wearable, armor, armor_chest, armor_feet, armor_head, armor_legs, weapon, digger, bow, crossbow, fishing_rod, trident
+	group = []
+	#Remove enchanted books from creative tabs. Runs before group, so re-adding is possible.
+	remove_item_groups = false
+
+[composter]
+	#Define additional composter inputs. Format is "itemid;chance", with chance being a percentage between 0.0 and 1.0.
+	inputs = []
+	#Whether to clear the default composter inputs and have the composter inputs only contain the stuff defined here.
+	clear = false
+
+[stripping]
+	#Define additional stripping transitions. Format is "fromid;toid", with both of them being in the modid:blockid format.
+	transitions = []
+	#Whether to clear the default stripping transitions and have the stripping transitions only contain the stuff defined here.
+	clear = false
+
+[pathing]
+	#Define additional pathing transitions. Format is "fromid;toid", with both of them being in the modid:blockid format.
+	transitions = []
+	#Whether to clear the default pathing transitions and have the pathing transitions only contain the stuff defined here.
+	clear = false
+
+[tilling]
+	#Define additional tilling transitions. Format is "fromid;toid", with both of them being in the modid:blockid format.
+	transitions = []
+	#Whether to clear the default tilling transitions and have the tilling transitions only contain the stuff defined here.
+	clear = false
+
+[entities]
+	#Apply entity attribute modifiers on spawning. To get the default value of an attribute, make a superflat world without mob spawning, spawn the desired mob, and run "/attribute @e[type=<entityid>,limit=1] <attributeid> get". Format is "entity;attribute;amount;operation":
+	#entity: the entity id (e.g. minecraft:rabbit)
+	#attribute: the attribute id (e.g. minecraft:generic.max_health)
+	#amount: the amount of the modifier (e.g. 5)
+	#operation: 0 for addition, 1 for multiply base, 2 for multiply total. See https://minecraft.fandom.com/wiki/Attribute for more information
+	modifiers = ["cataclysm:ignited_revenant;minecraft:generic.armor;-1;2", "cataclysm:ignited_revenant;minecraft:generic.armor_toughness;-1;2", "mowziesmobs:naga;minecraft:generic.armor;-1;2", 
+"mowziesmobs:naga;minecraft:generic.armor_toughness;-1;2", "cataclysm:ignis;minecraft:generic.armor;-11;0", "jobinsmobs:slaughtergeneral;minecraft:generic.follow_range;16;0", 
+"jobinsmobs:senbaidevil;minecraft:generic.follow_range;16;0", "jobinsmobs:goldenflame;minecraft:generic.follow_range;16;0", "jobinsmobs:msabyss;minecraft:generic.follow_range;16;0", 
+"jobinsmobs:gazeabysser;minecraft:generic.follow_range;16;0", "minecraft:zombie;epicfight:stun_armor;2.5;0", "minecraft:skeleton;epicfight:stun_armor;2.5;0", "minecraft:drowned;epicfight:stun_armor;2.5;0", 
+"minecraft:husk;epicfight:stun_armor;2.5;0", "minecraft:stray;epicfight:stun_armor;2.5;0", "minecraft:vindicator;epicfight:stun_armor;3;0", "minecraft:wither_skeleton;epicfight:stun_armor;3.5;0", 
+"minecraft:zombie_villager;epicfight:stun_armor;2.5;0", "minecraft:zombified_piglin;epicfight:stun_armor;2.5;0", "minecraft:piglin;epicfight:stun_armor;2.5;0", "minecraft:piglin_brute;epicfight:stun_armor;3.5;0",
+"quark:forgotten;epicfight:stun_armor;3;0", "bygonenether:corpor;epicfight:stun_armor;2.5;0"]
+

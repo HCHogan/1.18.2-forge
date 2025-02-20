@@ -1,0 +1,1 @@
+execute as @e[type=jobinsmobs:senbaidevil,sort=nearest] run data merge entity @s {ForgeData:{stamina:3.0d}}

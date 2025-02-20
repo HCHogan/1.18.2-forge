@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:player,tag=lighting_hit,sort=nearest,limit=1] at @s run summon minecraft:lightning_bolt ~ ~ ~

@@ -1,0 +1,28 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "conditions": [
+    {
+      "itemRegistryName": "sophisticatedbackpacks:iron_backpack",
+      "type": "sophisticatedcore:item_enabled"
+    }
+  ],
+  "pattern": [
+    "III",
+    "IBI",
+    "IMI"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "B": {
+      "item": "sophisticatedbackpacks:backpack"
+    },
+    "M": {
+      "item": "stellariscraft:steelingot"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:iron_backpack"
+  }
+}

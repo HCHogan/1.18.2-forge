@@ -1,0 +1,28 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "conditions": [
+    {
+      "itemRegistryName": "sophisticatedbackpacks:copper_backpack",
+      "type": "sophisticatedcore:item_enabled"
+    }
+  ],
+  "pattern": [
+    "SSS",
+    "SCS",
+    "SLS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:copper_ingot"
+    },
+    "C": {
+      "item": "supplementaries:sack"
+    },
+    "L": {
+      "item": "minecraft:copper_block"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:copper_backpack"
+  }
+}

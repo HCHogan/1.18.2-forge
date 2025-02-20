@@ -1,0 +1,14 @@
+{
+	"attributes":
+	{
+		"one_hand":
+		{
+			"armor_negation":32.0,
+			"impact":1.6,
+			"max_strikes":1,
+			"speed_bonus":1.5,
+			"damage_bonus":-5
+		}
+	},
+	"type":"dagger"
+}

@@ -1,0 +1,105 @@
+{
+    "replace": true,
+    "trades": [
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "dotcoinmod:iron_coin",
+              "count": 1
+            },
+            "payment_item": {
+              "item": "minecraft:turtle_egg",
+              "count": 1
+            },
+            "price_multiplier": 0.0,
+            "max_trades": 3,
+            "experience": 10
+          },
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "dotcoinmod:copper_coin",
+              "count": 8
+            },
+            "payment_item": {
+              "item": "minecraft:pufferfish_bucket",
+              "count": 1
+            },
+            "price_multiplier": 0.0,
+            "max_trades": 6,
+            "experience": 10
+          },
+
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "minecraft:anvil",
+              "count": 1
+            },
+            "payment_item": {
+              "item": "minecraft:chipped_anvil",
+              "count": 1
+            },
+            "secondary_payment_item": {
+              "item": "minecraft:iron_ingot",
+              "count": 4
+            },
+            "price_multiplier": 0.0,
+            "max_trades": 2,
+            "experience": 10
+          },
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "minecraft:clay",
+              "count": 4
+            },
+            "payment_item": {
+              "item": "dotcoinmod:copper_coin",
+              "count": 4
+            },
+            "price_multiplier": 0.0,
+            "max_trades": 2,
+            "experience": 8
+          },
+
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "miningmaster:spider_kunzite",
+              "count": 2
+            },
+            "payment_item": {
+              "item": "miningmaster:spider_kunzite_ore",
+              "count": 1
+            },
+            "secondary_payment_item": {
+              "item": "minecraft:lava_bucket",
+              "count": 1
+            },
+            "price_multiplier": 0.0,
+            "max_trades": 4,
+            "experience": 10
+          },
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "miningmaster:spider_kunzite",
+              "count": 2
+            },
+            "payment_item": {
+              "item": "miningmaster:deepslate_spider_kunzite_ore",
+              "count": 1
+            },
+            "secondary_payment_item": {
+              "item": "minecraft:lava_bucket",
+              "count": 1
+            },
+            "price_multiplier": 0.0,
+            "max_trades": 4,
+            "experience": 10
+          }
+
+        ]
+      }
+ 

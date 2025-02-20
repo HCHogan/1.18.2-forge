@@ -1,0 +1,37 @@
+{
+  "id": "stellariscraft:talented3_lightweight_tachi",
+  "weight": 5,
+  "reforge_experience_cost": 2,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:tachi"}
+  ],
+  "style": {
+    "color": "green"
+  },
+  "attributes": [
+    {
+      "type": "minecraft:generic.max_health",
+      "modifier": {
+        "name": "stellariscraft:talented3_lightweight_tachi",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.06
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "generic.attack_speed",
+      "modifier": {
+        "name": "stellariscraft:talented3_lightweight_tachi",
+        "operation": "ADDITION",
+        "amount": 0.04
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

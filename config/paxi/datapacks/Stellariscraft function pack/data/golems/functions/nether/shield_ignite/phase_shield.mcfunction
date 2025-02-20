@@ -1,0 +1,2 @@
+execute as @e[type=ba_bt:core_golem,sort=nearest] at @s run indestructible @s set_phase 2
+execute as @e[type=ba_bt:core_golem,sort=nearest] at @s run item replace entity @s weapon.offhand with shieldexex:netherite_shield{Enchantments:[{id:"minecraft:unbreaking",lvl:5}],"quark:RuneAttached":1b,"quark:RuneColor": {id:"quark:orange_rune",Count:1b}}

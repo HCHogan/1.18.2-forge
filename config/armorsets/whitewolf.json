@@ -1,0 +1,39 @@
+{
+  "armorSetName": "whitewolf",
+  "performanceMode": true,
+ "mainHand": {
+    "itemKey": "stellarisdlc:lionsword"
+  },
+  "offHand": {
+    "itemKey": "stellarisdlc:lionkingheart"
+  },
+  "partialBonusRequiredAmount": 1,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": -4,
+      "attributeOperation": 0,
+      "modifierUUID": "529b026c-eb38-4042-bc44-2efdf38b8452",
+      "description": "whitewolf.half"
+    }
+   ], 
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 4,
+      "attributeOperation": 0,
+      "modifierUUID": "529b026c-eb38-4042-bc44-2efdf38b8452",
+      "description": "whitewolf.full"
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:strength",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 120,
+      "onlyImmuneToNewEffects": false
+    }
+  ]
+}

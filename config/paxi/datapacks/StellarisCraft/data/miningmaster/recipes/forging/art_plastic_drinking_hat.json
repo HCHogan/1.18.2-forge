@@ -1,0 +1,11 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[{"item":"minecraft:enchanted_golden_apple"},
+{"item":"miningmaster:haste_peridot"},
+{"item":"bhc:red_heart"},
+{"item":"miningmaster:haste_peridot"},
+{"item":"minecraft:enchanted_golden_apple"}],
+"catalyst":{"item":"stellariscraft:exchangestone"},
+"result":{"item":"artifacts:plastic_drinking_hat"},
+"enchantments":[]
+}

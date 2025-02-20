@@ -1,0 +1,3452 @@
+{
+	"model": "epicfight:entity/biped_old_texture",
+	"armature": "epicfight:entity/biped",
+    "renderer": "minecraft:zombie",
+	"isHumanoid": true,
+	"faction": "undead",
+	"boss_bar": true,
+	"custom_texture": "indestructible:textures/gui/land_golem.png",
+	"attributes": {
+		"impact": 1.3,
+		"armor_negation": 5.0,
+		"max_strikes": 5,
+		"chasing_speed": 1.1,
+        "scale": 1.5,
+        "max_stamina": 80,
+		"stamina_regan_multiply": 0.02,
+		"stamina_regan_delay": 100,
+		"has_stun_reduction": true,
+		"stamina_lose_multiply": 0.4,
+		"attack_radius": 1.5
+    },
+	"default_livingmotions": {
+        "idle": "epicfight:biped/living/idle",
+        "walk": "epicfight:biped/living/walk",
+        "chase": "epicfight:biped/living/walk",
+        "mount": "epicfight:biped/living/mount",
+        "fall": "epicfight:biped/living/fall",
+        "death": "epicfight:biped/living/death"
+	},
+    "stun_animations": {
+        "short": "epicfight:biped/combat/hit_short",
+        "long": "epicfight:biped/combat/hit_long",
+        "knockdown": "epicfight:biped/combat/knockdown",
+        "fall": "epicfight:biped/living/landing",
+		"neutralize": "epicfight:biped/combat/hit_long"
+    },
+    "humanoid_weapon_motions": [
+        {
+            "weapon_categories": ["axe", "pickaxe", "shovel", "sword", "fist"],
+            "style":"common",
+            "livingmotions": {
+				"chase": "epicfight:biped/living/walk",
+                "walk": "epicfight:biped/living/walk"
+            }
+        },
+		{
+            "weapon_categories": ["fist"],
+            "style":"common",
+            "livingmotions": {
+				"chase": "epicfight:biped/living/walk",
+                "walk": "epicfight:biped/living/walk"
+			}
+        },
+        {
+            "weapon_categories": ["hoe"],
+            "style":"common",
+            "livingmotions": {
+				"chase": "epicfight:biped/living/walk",
+                "walk": "epicfight:biped/living/run"
+            }
+        },
+        { 
+            "weapon_categories": ["spear", "trident", "tachi"],
+            "style":"common", 
+            "livingmotions": {
+                "chase": "epicfight:biped/living/walk_spear",
+                "walk": "epicfight:biped/living/run_spear"
+            }
+        },
+        { 
+            "weapon_categories": ["greatsword"],
+            "style":"common", 
+            "livingmotions": {
+                "chase": "epicfight:biped/living/walk_greatsword",
+                "walk": "epicfight:biped/living/run_greatsword"
+            }
+        },
+        { 
+            "weapon_categories": ["longsword"],
+            "style":"common", 
+            "livingmotions": {
+                "chase": "epicfight:biped/living/walk_longsword",
+                "walk": "epicfight:biped/living/run_longsword"
+            }
+        },
+        { 
+            "weapon_categories": ["uchigatana"],
+            "style":"common", 
+            "livingmotions": {
+                "chase": "epicfight:biped/living/walk_uchigatana",
+                "walk": "epicfight:biped/living/run_uchigatana"
+            }
+        },
+        { 
+            "weapon_categories": ["sword"],
+            "style":"two_hand", 
+            "livingmotions": {
+                "chase": "epicfight:biped/living/walk",
+                "walk": "epicfight:biped/living/walk"
+            }
+        }
+
+    ],
+    "custom_guard_motion": [
+	    {
+             "weapon_categories": ["pickaxe", "shovel"],
+			 "style": "common",
+             "guard": "indestructible:guard/guard_sword",
+             "stamina_cost_multiply": 0.4,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.4,
+			 "parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1", "epicfight:biped/skill/guard_sword_hit_active2"]
+        },
+        {
+            "weapon_categories": ["hoe"],
+            "style": "common",
+            "guard": "indestructible:guard/guard_sword",
+            "stamina_cost_multiply": 0.2,
+            "can_block_projectile" : true,
+			"parry_cost_multiply": 0.2,
+			"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1", "epicfight:biped/skill/guard_sword_hit_active2"]
+        },
+        {
+            "weapon_categories": ["axe"],
+            "style": "common",
+            "guard": "indestructible:guard/guard_sword",
+            "stamina_cost_multiply": 0.3,
+            "can_block_projectile" : true,
+			"parry_cost_multiply": 0.3,
+			"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1", "epicfight:biped/skill/guard_sword_hit_active2"]
+        },
+        {
+            "weapon_categories": ["fist"],
+            "style": "common",
+            "guard": "indestructible:guard/guard_dualsword",
+            "stamina_cost_multiply": 0.1,
+            "can_block_projectile" : true,
+			"parry_cost_multiply": 0.1,
+			"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1", "epicfight:biped/skill/guard_sword_hit_active2"]
+        },
+        {
+            "weapon_categories": ["sword"],
+            "style": "two_hand",
+            "guard": "indestructible:guard/guard_dualsword",
+            "stamina_cost_multiply": 0.16,
+            "can_block_projectile" : true,
+			"parry_cost_multiply": 0.16
+        },
+		{
+             "weapon_categories": ["sword"],
+			 "style": "common",
+             "guard": "indestructible:guard/guard_sword",
+             "stamina_cost_multiply": 0.2,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.2
+        },
+		{
+             "weapon_categories": ["spear"],
+			 "style": "common",
+             "guard": "indestructible:guard/guard_spear",
+             "stamina_cost_multiply": 0.22,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.22,
+			 "parry_animation": ["epicfight:biped/skill/guard_longsword_hit_active1", "epicfight:biped/skill/guard_longsword_hit_active2"]
+        },
+		{
+             "weapon_categories": ["trident"],
+			 "style": "common",
+             "guard": "indestructible:guard/guard_spear",
+             "stamina_cost_multiply": 0.22,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.22,
+			 "parry_animation": ["epicfight:biped/skill/guard_longsword_hit_active1", "epicfight:biped/skill/guard_longsword_hit_active2"]
+        },
+        {
+             "weapon_categories": ["greatsword"],
+             "style": "common",
+             "guard": "indestructible:guard/guard_greatsword",
+             "stamina_cost_multiply": 0.25,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.25,
+			 "parry_animation": ["epicfight:biped/skill/guard_longsword_hit_active1", "epicfight:biped/skill/guard_longsword_hit_active2"]
+        },
+		{
+             "weapon_categories": ["uchigatana"],
+             "style": "common",
+             "guard": "indestructible:guard/guard_uchigatana",
+             "stamina_cost_multiply": 0.2,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.2,
+			 "parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1", "epicfight:biped/skill/guard_sword_hit_active2"]
+        },
+        {
+             "weapon_categories": ["longsword"],
+             "style": "common",
+             "guard": "indestructible:guard/guard_longsword",
+             "stamina_cost_multiply": 0.2,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.2,
+			 "parry_animation": ["epicfight:biped/skill/guard_longsword_hit_active1", "epicfight:biped/skill/guard_longsword_hit_active2"]
+        },
+        {
+            "weapon_categories": ["tachi"],
+            "style": "common",
+            "guard": "indestructible:guard/guard_longsword",
+            "stamina_cost_multiply": 0.2,
+            "can_block_projectile" : true,
+			"parry_cost_multiply": 0.2,
+			"parry_animation": ["epicfight:biped/skill/guard_longsword_hit_active1", "epicfight:biped/skill/guard_longsword_hit_active2"]
+       }
+    ],
+	"stun_command_list":[
+        {"command":"effect give @s minecraft:glowing 4", "stun_type": "neutralize"},
+        {"command":"effect give @s stellarisdlc:fragile 4 2", "stun_type": "neutralize"},
+		{"command":"effect give @s cataclysm:stun 4", "stun_type": "neutralize"},
+		{"command":"effect give @s cofh_core:sundered 4 4", "stun_type": "neutralize"},
+
+		{"command":"indestructible @s set_phase 1", "stun_type": "neutralize"},
+		{"command":"function global_guard_break:guard_break_land_golem", "stun_type": "neutralize"}
+	],
+
+    "combat_behavior": [
+		{
+			"weapon_categories": ["fist"],
+			"style": "common",
+			"behavior_series": [
+                {
+                    "weight": 999999,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 999999,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                            ],
+                            "animation": "epicfight:biped/skill/step_backward",
+                            "command_list":[
+								{"time":0.0, "command":"item replace entity @s weapon.offhand with minecraft:air", "execute_at_target":false},
+								{"time":0.1, "command":"item replace entity @s weapon.mainhand with minecraft:diamond_sword{Enchantments:[{id:\"miningblock:freezing\",lvl:3}],incendium:{item:\"chilling_blade\"},CustomModelData:1450003,display:{Name:'{\"text\":\"冰霜——钻石剑\",\"color\":\"#0088FF\"}'}}", "execute_at_target":false},
+                                {"time":0.0, "command":"data merge entity @s {Attributes:[{Base:80d,Name:\"epicfight:weight\"}]}", "execute_at_target":false},
+								{"time":0.0, "command":"data merge entity @s {Attributes:[{Base:2d,Name:\"epicfight:stun_armor\"}]}", "execute_at_target":false},
+								{"time":0.0, "command":"data merge entity @s {Attributes:[{Base:3d,Name:\"forge:step_height_addition\"}]}", "execute_at_target":false},
+								{"time":0.0, "command":"data merge entity @s {ForgeData:{recovery:4.0d}}", "execute_at_target":false},
+								{"time":0.0, "command":"data merge entity @s {ForgeData:{stamina:1.6d}}", "execute_at_target":false},
+								{"time":0.0, "command":"data merge entity @s {GolemState:1b}", "execute_at_target":false},
+								{"time":0.05, "command":"data merge entity @s {GolemState:1b}", "execute_at_target":false},
+								{"time":0.1, "command":"data merge entity @s {GolemState:1b}", "execute_at_target":false},
+								{"time":0.1, "command":"fill ~18 ~-10 ~18 ~-18 ~-18 ~-18 minecraft:air replace minecraft:cobblestone_slab", "execute_at_target":false},
+								
+                                {"time":0.0, "command":"effect give @s minecraft:instant_health 5 4", "execute_at_target":false}
+                            ],
+							"set_phase": 0,
+							"stamina": -80
+                        }
+                    ]
+                }
+
+
+            ]
+        },
+
+		{
+			"weapon_categories": ["sword"],
+			"style": "common",
+			"behavior_series": [
+				{
+                    "weight": 999999,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 9999999,
+                    "behaviors": [
+                        {
+                            "conditions": [
+								{"predicate":"health", "health": 0.5, "comparator": "less_ratio"}
+                            ],
+                            "animation": "epicfight:biped/skill/step_backward",
+                            "command_list":[
+								{"time":0.0, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 3", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s minecraft:resistance 5 9", "execute_at_target":false}
+                            ],
+							"stamina": -5,
+							"set_phase": 0
+                        },
+						{
+                            "conditions": [
+                            ],
+                            "animation": "epicfight:biped/skill/everlasting_allegiance_call",
+                            "command_list":[
+								{"time":0.0, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 3", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s minecraft:resistance 3 9", "execute_at_target":false},
+
+								{"time":0.0, "command":"playsound minecraft:item.trident.return block @p ~ ~ ~ 2", "execute_at_target":false},
+								{"time":0.37, "command":"playsound epicfight:entity.weapon.whoosh_rod block @p ~ ~ ~ 2", "execute_at_target":false},
+								{"time":0.52, "command":"playsound epicfight:entity.weapon.whoosh_rod block @p ~ ~ ~ 2", "execute_at_target":false}
+
+                            ],
+							"stamina": -5,
+							"set_phase": 0,
+							"play_speed": 0.8
+                        },
+						{
+                            "conditions": [
+                            ],
+                            "animation": "epicfight:biped/skill/everlasting_allegiance_catch",
+                            "command_list":[
+								{"time":0.0, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 3", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s minecraft:resistance 2 9", "execute_at_target":false},
+
+								{"time":0.2, "command":"item replace entity @s weapon.mainhand with minecraft:netherite_sword{Enchantments:[{id:\"miningblock:freezing\",lvl:3}],incendium:{item:\"greatsword_of_sacrifice\"},CustomModelData:1450004,display:{Name:'{\"text\":\"献祭——下界合金剑\",\"color\":\"#FF0000\"}'},\"quark:RuneAttached\":1b,\"quark:RuneColor\": {id:\"quark:brown_rune\",Count:1b}}", "execute_at_target":false},
+								{"time":0.2, "command":"item replace entity @s weapon.offhand with minecraft:diamond_sword{Enchantments:[{id:\"miningblock:freezing\",lvl:3}],incendium:{item:\"chilling_blade\"},CustomModelData:1450003,display:{Name:'{\"text\":\"冰霜——钻石剑\",\"color\":\"#0088FF\"}'}}", "execute_at_target":false},
+
+								{"time":0.0, "command":"playsound epicfight:entity.weapon.whoosh_rod block @p ~ ~ ~ 2", "execute_at_target":false},
+								{"time":0.15, "command":"playsound epicfight:entity.weapon.whoosh_rod block @p ~ ~ ~ 2", "execute_at_target":false},
+								{"time":0.3, "command":"playsound epicfight:entity.weapon.whoosh_rod block @p ~ ~ ~ 2", "execute_at_target":false},
+								{"time":0.45, "command":"playsound epicfight:entity.weapon.whoosh_rod block @p ~ ~ ~ 2", "execute_at_target":false}
+                            ],
+							"stamina": -10,
+							"set_phase": 0,
+							"convert_time": 0.1,
+							"play_speed": 0.8
+                        }
+
+                    ]
+                },
+                {
+					"weight": 999999,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 100,
+					"behaviors": [
+						{
+							"conditions": [
+                                {"predicate":"phase", "min": 1, "max": 1}
+							],
+							"animation": "wom:biped/skill/roll_backward",
+							"set_phase": 0,
+							"command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+
+								{"time":0.1, "command":"indestructible @s set_phase 0", "execute_at_target":false},
+								{"time":0.2, "command":"indestructible @s set_phase 0", "execute_at_target":false},
+								{"time":0.3, "command":"indestructible @s set_phase 0", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"animation": "epicfight:biped/living/walk",
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 32,
+							"inaction_time": 16,
+							"x_axis": 0.0,
+							"z_axis": -0.25,
+							"set_phase": 0
+						}
+
+					]
+				},
+
+
+				{
+					"weight": 500,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 400,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 6.0}, {"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 10,
+                            "counter": "epicfight:biped/skill/guard_dualsword",
+                            "counter_cost": 1,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6,
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 4.0},{"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 6,
+                            "counter": "epicfight:biped/skill/guard_sword_hit_active2",
+                            "counter_cost": 0.5,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0},{"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 4,
+							"parry": true,
+							"parry_times": 1,
+							"counter_chance": 0,
+							"stun_immunity_time": 30,
+							"specific_guard_motion": {
+								"parry_cost_multiply": 0.05,
+								"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1"]
+							}
+						},
+
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"convert_time": 0.1,
+							"animation": "epicfight:biped/combat/longsword_auto1",
+							"play_speed": 0.92,
+							"command_list":[
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"convert_time": 0,
+							"animation": "epicfight:biped/combat/longsword_auto2",
+							"play_speed": 0.92,
+							"command_list":[
+							]
+						}
+					]
+				},
+				{
+					"weight": 400,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 300,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 6.0}, {"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 8,
+                            "counter": "epicfight:biped/skill/guard_dualsword",
+                            "counter_cost": 1,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6,
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 4.0},{"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 6,
+                            "counter": "epicfight:biped/skill/guard_sword_hit_active2",
+                            "counter_cost": 0.5,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0},{"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 4,
+							"parry": true,
+							"parry_times": 1,
+							"counter_chance": 0,
+							"stun_immunity_time": 30,
+							"specific_guard_motion": {
+								"parry_cost_multiply": 0.05,
+								"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1"]
+							}
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"convert_time": 0,
+							"animation": "epicfight:biped/combat/mob_dagger_onehand3",
+							"play_speed": 1.2,
+							"command_list":[
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"knock_down","invert":true}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"convert_time": 0.15,
+							"animation": "star:biped/new/sword_slash",
+							"play_speed": 0.7,
+							"command_list": [
+                            ],
+                            "damage_modifier":{
+								"damage": 0.8,
+                                "impact": 1.2,
+                                "armor_negation": 0.8
+							}         
+                        },
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 20,
+                            "inaction_time": 10,
+                            "x_axis": 0.0,
+                            "z_axis": -0.4
+						}
+					]
+				},
+                {
+					"weight": 300,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 160,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 6.0}, {"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 10,
+                            "counter": "epicfight:biped/skill/guard_dualsword",
+                            "counter_cost": 1,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6,
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 4.0},{"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 6,
+                            "counter": "epicfight:biped/skill/guard_sword_hit_active2",
+                            "counter_cost": 0.5,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0},{"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 4,
+							"parry": true,
+							"parry_times": 1,
+							"counter_chance": 0,
+							"stun_immunity_time": 30,
+							"specific_guard_motion": {
+								"parry_cost_multiply": 0.05,
+								"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1"]
+							}
+						},
+
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3}
+							],
+							"animation": "epicfight:biped/combat/longsword_auto1", 				
+							"play_speed": 0.92,
+							"convert_time": 0.1
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "epicfight:biped/combat/longsword_auto2", 				
+							"play_speed": 0.92
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3}
+							],
+							"animation": "epicfight:biped/combat/longsword_auto3",
+							"play_speed": 0.92
+						}
+					]
+				},
+				{
+					"weight": 300,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 240,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 6.0}, {"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 10,
+                            "counter": "epicfight:biped/skill/guard_dualsword",
+                            "counter_cost": 1,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6,
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 4.0},{"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 6,
+                            "counter": "epicfight:biped/skill/guard_sword_hit_active2",
+                            "counter_cost": 0.5,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0},{"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 4,
+							"parry": true,
+							"parry_times": 1,
+							"counter_chance": 0,
+							"stun_immunity_time": 30,
+							"specific_guard_motion": {
+								"parry_cost_multiply": 0.05,
+								"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1"]
+							}
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3}
+							],
+							"animation": "epicfight:biped/combat/longsword_auto1", 				
+							"play_speed": 0.92,
+							"convert_time": 0.1
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "epicfight:biped/combat/longsword_auto2", 				
+							"play_speed": 0.92
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 4}
+							],
+							"animation": "star:biped/new/sword_slash",
+							"play_speed": 0.7,
+							"convert_time": 0.3,
+                            "damage_modifier":{
+								"damage": 0.8,
+                                "impact": 1.2,
+                                "armor_negation": 0.8
+							}      
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 20,
+                            "inaction_time": 10,
+                            "x_axis": 0.0,
+                            "z_axis": -0.4
+						}
+					]
+				},
+				{
+					"weight": 200,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 160,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 6.0}, {"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 10,
+                            "counter": "epicfight:biped/skill/guard_dualsword",
+                            "counter_cost": 1,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6,
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 4.0},{"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 6,
+                            "counter": "epicfight:biped/skill/guard_sword_hit_active2",
+                            "counter_cost": 0.5,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0},{"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 4,
+							"parry": true,
+							"parry_times": 1,
+							"counter_chance": 0,
+							"stun_immunity_time": 30,
+							"specific_guard_motion": {
+								"parry_cost_multiply": 0.05,
+								"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1"]
+							}
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3}
+							],
+							"animation": "epicfight:biped/combat/mob_dagger_onehand3", 
+							"play_speed": 0.9,
+							"convert_time": 0.1
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3}
+							],
+							"animation": "epicfight:illager/swing_axe2", 				
+							"play_speed": 0.9,
+							"convert_time": 0.1
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 4}
+							],
+							"animation": "star:biped/new/sword_slash",
+							"play_speed": 0.7,
+							"convert_time": 0.16,
+                            "damage_modifier":{
+								"damage": 0.8,
+                                "impact": 1.2,
+                                "armor_negation": 0.8
+							},
+							"command_list":[
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.5, "command":"indestructible @s play \"epicfight:illager/swing_axe3\" 0 1", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 20,
+							"inaction_time": 10,
+							"x_axis": 0.0,
+							"z_axis": -0.4
+						}
+					]
+				},
+
+				{
+					"weight": 0.001,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 100,
+					"behaviors": [
+						{
+							"conditions": [
+                                {"predicate":"within_distance", "min": 0.0, "max": 6.0}, {"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 10,
+                            "counter": "epicfight:biped/skill/guard_dualsword",
+                            "counter_cost": 1,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6,
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 4.0},{"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 6,
+                            "counter": "epicfight:biped/skill/guard_sword_hit_active2",
+                            "counter_cost": 0.5,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0},{"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 4,
+							"parry": true,
+							"parry_times": 1,
+							"counter_chance": 0,
+							"stun_immunity_time": 30,
+							"specific_guard_motion": {
+								"parry_cost_multiply": 0.05,
+								"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1"]
+							}
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"convert_time": 0.1,
+							"animation": "epicfight:biped/combat/longsword_auto1",
+							"play_speed": 0.92,
+							"command_list":[
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+							],
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"convert_time": 0.1,
+							"animation": "epicfight:biped/combat/longsword_auto2",
+							"play_speed": 0.92,
+							"command_list":[
+							],
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"knock_down","invert":true}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"convert_time": 0,
+							"animation": "epicfight:biped/combat/longsword_auto3",
+							"play_speed": 0.92,
+							"command_list": [
+                            ],
+							"set_phase": 0
+                        }
+					]
+				},
+
+
+
+
+
+
+                {
+					"weight": 300,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 500,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"guard": 10,
+                            "counter": "epicfight:biped/skill/guard_dualsword",
+                            "counter_cost": 1,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6,
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"guard": 6,
+                            "counter": "epicfight:biped/skill/guard_sword_hit_active1",
+                            "counter_cost": 0,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"animation": "wom:biped/skill/roll_backward",
+							"set_phase": 0,
+							"command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.0, "command":"function golems:land_sunstrike_3", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"animation": "epicfight:illager/spellcast",
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 40,
+							"inaction_time": 20,
+							"x_axis": 0.0,
+							"z_axis": -0.4
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"animation": "epicfight:biped/living/walk"
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 10,
+							"inaction_time": 2,
+							"x_axis": 0.0,
+							"z_axis": 1.0
+						}
+
+					]
+				},
+				{
+					"weight": 200,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 800,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"stamina", "stamina": 0.4, "comparator": "greater_ratio"}, {"predicate":"attack_level", "min": 1, "max": 3},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"guard": 10,
+                            "counter": "epicfight:biped/skill/guard_dualsword",
+                            "counter_cost": 1,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6,
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"guard": 6,
+                            "counter": "epicfight:biped/skill/guard_sword_hit_active2",
+                            "counter_cost": 0,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6
+						},
+
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"animation": "epicfight:biped/skill/step_backward"
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+								{"predicate":"stamina", "stamina": 0.4, "comparator": "greater_ratio"}
+							],
+							"animation": "stellarisdlc:biped/skill/magic_skill_1",
+							"convert_time": 0.1,
+							"play_speed": 0.5,
+							"command_list":[
+								{"time":0.0, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.05, "command":"execute as @s at @s run playsound minecraft:entity.evoker.prepare_summon block @p[distance=..16] ~ ~ ~ 10 1.5", "execute_at_target":true},
+								{"time":0.3, "command":"execute at @s as @p run playsound ba_bt:entity.golem.charge block @p[distance=..16] ~ ~ ~ 2", "execute_at_target":false},
+								
+								{"time":0.6, "command":"function golems:land_sunstrike_all", "execute_at_target":false}
+							],
+							"stamina": 10
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 40,
+							"inaction_time": 16,
+							"x_axis": 0.0,
+							"z_axis": -0.4
+						}
+					]
+				},
+
+				{
+					"weight": 1,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 320,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, 
+                                {"predicate":"within_distance", "min": 3.0, "max": 6.0}
+							],
+							"animation": "epicfight:biped/combat/axe_dash",
+							"convert_time": 0.3,
+							"play_speed": 1.0,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ],
+							"set_phase": 0
+						}
+					]
+				},
+				{
+					"weight": 3,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 500,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, 
+                                {"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"animation": "epicfight:enderman/kick_twice",
+							"convert_time": 0.2,
+							"play_speed": 0.9,
+							"command_list": [
+                            ],
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"animation": "wom:biped/skill/roll_backward",
+							"set_phase": 0,
+							"command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.0, "command":"function golems:land_sunstrike_3", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"animation": "epicfight:illager/spellcast",
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 60,
+							"inaction_time": 40,
+							"x_axis": 0.0,
+							"z_axis": -0.3
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"animation": "epicfight:biped/living/walk"
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 10,
+							"inaction_time": 2,
+							"x_axis": 0.0,
+							"z_axis": 1.0
+						}
+					]
+				},
+
+
+
+
+
+
+				{
+					"weight": 5,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 400,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"convert_time": 0.3,
+							"animation": "epicfight:biped/combat/longsword_auto1",
+							"play_speed": 0.92,
+							"command_list":[
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+							],
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"knock_down","invert":true}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"convert_time": 0,
+							"animation": "epicfight:biped/combat/longsword_auto2",
+							"play_speed": 0.92,
+							"command_list": [
+                            ]
+                        }
+					]
+				},
+				{
+					"weight": 4,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 300,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"convert_time": 0.3,
+							"animation": "epicfight:biped/combat/mob_dagger_onehand3",
+							"play_speed": 1.2,
+							"command_list":[
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+							],
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"knock_down","invert":true}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"convert_time": 0.15,
+							"animation": "star:biped/new/sword_slash",
+							"play_speed": 0.7,
+							"command_list": [
+                            ],
+                            "damage_modifier":{
+								"damage": 0.8,
+                                "impact": 1.2,
+                                "armor_negation": 0.8
+							}         
+                        }
+					]
+				},
+                {
+					"weight": 3,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 160,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"animation": "epicfight:biped/combat/longsword_auto1", 				
+							"play_speed": 0.92,
+							"convert_time": 0.3,
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "epicfight:biped/combat/longsword_auto2", 				
+							"play_speed": 0.92
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3}
+							],
+							"animation": "epicfight:biped/combat/longsword_auto3",
+							"play_speed": 0.92
+						}
+					]
+				},
+				{
+					"weight": 3,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 240,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 6.0}, {"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"animation": "epicfight:biped/combat/longsword_auto1", 				
+							"play_speed": 0.92,
+							"convert_time": 0.3,
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "epicfight:biped/combat/longsword_auto2", 				
+							"play_speed": 0.92
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 4}
+							],
+							"animation": "star:biped/new/sword_slash",
+							"play_speed": 0.7,
+							"convert_time": 0.3,
+                            "damage_modifier":{
+								"damage": 0.8,
+                                "impact": 1.2,
+                                "armor_negation": 0.8
+							}      
+						}
+					]
+				},
+				{
+					"weight": 2,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 160,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3}
+							],
+							"animation": "epicfight:biped/combat/mob_dagger_onehand3", 
+							"play_speed": 0.9,
+							"convert_time": 0.3,
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3}
+							],
+							"animation": "epicfight:illager/swing_axe2", 				
+							"play_speed": 0.9,
+							"convert_time": 0.1
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 4}
+							],
+							"animation": "star:biped/new/sword_slash",
+							"play_speed": 0.7,
+							"convert_time": 0.16,
+                            "damage_modifier":{
+								"damage": 0.8,
+                                "impact": 1.2,
+                                "armor_negation": 0.8
+							},
+							"command_list":[
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.5, "command":"indestructible @s play \"epicfight:illager/swing_axe3\" 0 1", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 20,
+							"inaction_time": 10,
+							"x_axis": 0.0,
+							"z_axis": -0.4
+						}
+					]
+				},
+
+				{
+					"weight": 0.001,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 100,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 2.0}
+							],
+							"convert_time": 0.3,
+							"animation": "epicfight:biped/combat/longsword_auto1",
+							"play_speed": 0.92,
+							"command_list":[
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+							],
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"convert_time": 0.1,
+							"animation": "epicfight:biped/combat/longsword_auto2",
+							"play_speed": 0.92,
+							"command_list":[
+							],
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"knock_down","invert":true}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"convert_time": 0,
+							"animation": "epicfight:biped/combat/longsword_auto3",
+							"play_speed": 0.92,
+							"command_list": [
+                            ],
+							"set_phase": 0
+                        }
+					]
+				},
+
+
+
+
+
+
+
+                {
+                    "weight": 10000,
+                    "canBeInterrupted": false,
+                    "looping": false,
+	                "cooldown": 6, 
+                    "behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+                                {"predicate":"within_distance", "min": 2.0, "max": 8.0}, {"predicate":"stamina", "stamina": 0.5, "comparator": "greater_ratio"},
+								{"predicate":"health", "health": 0.99, "comparator": "less_ratio"}, {"predicate":"using_item", "edible": true}
+							],
+                            "animation": "epicfight:biped/skill/step_backward",
+							"set_phase": 11
+                        },
+                        {
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0}
+							],
+							"animation": "epicfight:enderman/convert_rage",
+                            "play_speed": 1.2,
+                            "command_list": [
+								{"time":0.0, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+								{"time":0.0, "command":"execute as @p at @s run playsound cataclysm:flame_burst block @p ~ ~ ~ 1.5", "execute_at_target":true},
+								{"time":0.0, "command":"particle minecraft:flame ~ ~0.5 ~ 1 1 1 0.1 200", "execute_at_target":false}
+							],
+							"stamina": -10,
+							"set_phase": 11
+						},
+                        {
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0}
+							],
+							"animation": "epicfight:enderman/death",
+							"play_speed": 0.8,
+							"command_list": [
+                                {"time":0.0, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+                                {"time":0.2, "command":"effect give @s minecraft:resistance 5 3", "execute_at_target":false},
+                                {"time":0.1, "command":"effect give @s alexsmobs:earthquake 2", "execute_at_target":true},
+
+								{"time":0.0, "command":"execute as @p at @s run playsound ba_bt:entity.golem.death block @p ~ ~ ~ 1 0.8", "execute_at_target":true},
+
+								{"time":0.0, "command":"function golems:land_sunstrike_all", "execute_at_target":false},
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+							],
+							"stamina": -16,
+							"set_phase": 11
+						}
+                    ]
+                },
+
+				{
+					"weight": 1,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 5,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+                                {"predicate":"within_distance", "min": 2.0, "max": 8.0}, {"predicate":"stamina", "stamina": 0.5, "comparator": "greater_ratio"},
+								{"predicate":"phase", "min": 11, "max": 11}
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"set_phase": 0,
+							"command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.0, "command":"function golems:land_sunstrike_5", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"animation": "epicfight:illager/spellcast",
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 60,
+							"inaction_time": 40,
+							"x_axis": 0.0,
+							"z_axis": -0.3
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"animation": "epicfight:biped/living/walk"
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 10,
+							"inaction_time": 2,
+							"x_axis": 0.0,
+							"z_axis": 1.0
+						}
+					]
+				},
+				{
+					"weight": 1,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 5,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+                                {"predicate":"within_distance", "min": 3.0, "max": 8.0}, {"predicate":"stamina", "stamina": 0.5, "comparator": "greater_ratio"},
+								{"predicate":"phase", "min": 11, "max": 11}
+							],
+							"animation": "epicfight:illager/spellcast"
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 16,
+							"inaction_time": 10,
+							"x_axis": 0.0,
+							"z_axis": -0.2
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+								{"predicate":"stamina", "stamina": 0.5, "comparator": "greater_ratio"}
+							],
+							"animation": "epicfight:biped/skill/guard_break2",
+							"convert_time": 0.3,
+							"play_speed": 0.8,
+							"command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+
+                                {"time":0.0, "command":"execute as @s at @s run summon mowziesmobs:sunstrike ~ ~ ~", "execute_at_target":true},
+								{"time":0.4, "command":"execute as @s at @s run summon mowziesmobs:sunstrike ~ ~ ~", "execute_at_target":true},
+								{"time":0.8, "command":"execute as @s at @s run summon mowziesmobs:sunstrike ~ ~ ~", "execute_at_target":true}
+							],
+							"stamina": 8
+						}
+					]
+				},
+				{
+					"weight": 1,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 5,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+                                {"predicate":"within_distance", "min": 3.0, "max": 8.0}, {"predicate":"stamina", "stamina": 0.5, "comparator": "greater_ratio"},
+								{"predicate":"phase", "min": 11, "max": 11}
+							],
+							"animation": "epicfight:illager/spellcast"
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 16,
+							"inaction_time": 10,
+							"x_axis": 0.0,
+							"z_axis": -0.2
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+								{"predicate":"stamina", "stamina": 0.5, "comparator": "greater_ratio"}
+							],
+							"animation": "epicfight:biped/skill/guard_break2",
+							"convert_time": 0.3,
+							"play_speed": 0.8,
+							"command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+
+                                {"time":0.0, "command":"execute as @s at @s run summon mowziesmobs:sunstrike ~ ~ ~", "execute_at_target":true},
+								{"time":0.4, "command":"execute as @s at @s run summon mowziesmobs:sunstrike ~ ~ ~", "execute_at_target":true},
+								{"time":0.8, "command":"execute as @s at @s run summon mowziesmobs:sunstrike ~ ~ ~", "execute_at_target":true}
+							],
+							"stamina": 8
+						}
+					]
+				},
+
+
+				{
+					"weight": 1.0,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 160,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"within_distance", "min": 3.0, "max": 50.0}, {"predicate":"stamina", "stamina": 0.5, "comparator": "less_ratio"},
+								{"predicate":"phase", "min": 11, "max": 11}
+                            ],
+                            "animation": "epicfight:biped/skill/step_backward"
+                        },
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 20,
+							"inaction_time": 10,
+							"x_axis": 0.0,
+							"z_axis": -0.4
+						}
+					]
+				},
+
+
+
+
+
+                {
+					"weight": 1.0,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 60,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"within_distance", "min": 0.0, "max": 4.0}, {"predicate":"guard_break","invert":false}
+							],
+							"animation": "star:biped/new/sword_slash",
+                            "convert_time": 0.3,
+                            "play_speed": 0.7,
+                            "stamina": 5,
+                            "damage_modifier":{
+								"damage": 0.8,
+                                "impact": 1.2,
+                                "armor_negation": 0.8
+							}
+						}
+                    ]
+                },
+                {
+					"weight": 2.0,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 60,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"within_distance", "min": 0.0, "max": 2.0}, {"predicate":"guard_break","invert":false}
+							],
+							"animation": "epicfight:enderman/knee",
+                            "play_speed": 0.9,
+                            "convert_time": 0.4
+						}
+                    ]
+                }
+
+
+
+            ]
+        },
+
+		{
+			"weapon_categories": ["sword"],
+			"style": "two_hand",
+			"behavior_series": [
+                {
+					"weight": 999999,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 100,
+					"behaviors": [
+						{
+							"conditions": [
+                                {"predicate":"phase", "min": 1, "max": 1}
+							],
+							"animation": "wom:biped/skill/roll_backward",
+							"set_phase": 0,
+							"command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+
+								{"time":0.1, "command":"indestructible @s set_phase 0", "execute_at_target":false},
+								{"time":0.2, "command":"indestructible @s set_phase 0", "execute_at_target":false},
+								{"time":0.3, "command":"indestructible @s set_phase 0", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"animation": "epicfight:biped/living/walk",
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 40,
+							"inaction_time": 20,
+							"x_axis": 0.0,
+							"z_axis": -0.4,
+							"set_phase": 0
+						}
+
+					]
+				},
+				{
+                    "weight": 999999,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 9999999,
+                    "behaviors": [
+                        {
+                            "conditions": [
+								{"predicate":"health", "health": 0.5, "comparator": "greater_ratio"}
+                            ],
+                            "animation": "epicfight:biped/skill/step_backward",
+                            "command_list":[
+								{"time":0.0, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 3", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s minecraft:resistance 5 9", "execute_at_target":false}
+                            ],
+							"stamina": -5,
+							"set_phase": 0
+                        },
+						{
+                            "conditions": [
+                            ],
+                            "animation": "epicfight:biped/skill/everlasting_allegiance_call",
+                            "command_list":[
+								{"time":0.0, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 3", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s minecraft:resistance 3 9", "execute_at_target":false},
+
+								{"time":0.0, "command":"playsound minecraft:item.trident.return block @p ~ ~ ~ 2", "execute_at_target":false},
+								{"time":0.37, "command":"playsound epicfight:entity.weapon.whoosh_rod block @p ~ ~ ~ 2", "execute_at_target":false},
+								{"time":0.52, "command":"playsound epicfight:entity.weapon.whoosh_rod block @p ~ ~ ~ 2", "execute_at_target":false}
+
+                            ],
+							"stamina": -5,
+							"set_phase": 0,
+							"play_speed": 0.8
+                        },
+						{
+                            "conditions": [
+                            ],
+                            "animation": "epicfight:biped/skill/everlasting_allegiance_catch",
+                            "command_list":[
+								{"time":0.0, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 3", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s minecraft:resistance 2 9", "execute_at_target":false},
+
+								{"time":0.2, "command":"item replace entity @s weapon.mainhand with minecraft:diamond_sword{Enchantments:[{id:\"miningblock:freezing\",lvl:3}],incendium:{item:\"chilling_blade\"},CustomModelData:1450003,display:{Name:'{\"text\":\"冰霜——钻石剑\",\"color\":\"#0088FF\"}'}}", "execute_at_target":false},
+								{"time":0.2, "command":"item replace entity @s weapon.offhand with minecraft:air", "execute_at_target":false},
+
+								{"time":0.0, "command":"playsound epicfight:entity.weapon.whoosh_rod block @p ~ ~ ~ 2", "execute_at_target":false},
+								{"time":0.15, "command":"playsound epicfight:entity.weapon.whoosh_rod block @p ~ ~ ~ 2", "execute_at_target":false},
+								{"time":0.3, "command":"playsound epicfight:entity.weapon.whoosh_rod block @p ~ ~ ~ 2", "execute_at_target":false},
+								{"time":0.45, "command":"playsound epicfight:entity.weapon.whoosh_rod block @p ~ ~ ~ 2", "execute_at_target":false}
+                            ],
+							"stamina": -10,
+							"set_phase": 0,
+							"convert_time": 0.1,
+							"play_speed": 0.8
+                        }
+
+                    ]
+                },
+
+
+				
+				{
+					"weight": 500,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 400,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 6.0}, {"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 10,
+                            "counter": "epicfight:biped/skill/guard_dualsword",
+                            "counter_cost": 1,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 4.0},{"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 6,
+                            "counter": "epicfight:biped/skill/guard_sword_hit_active1",
+                            "counter_cost": 0.5,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0},{"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 4,
+							"parry": true,
+							"parry_times": 1,
+							"counter_chance": 0,
+							"stun_immunity_time": 30,
+							"specific_guard_motion": {
+								"parry_cost_multiply": 0.05,
+								"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active2"]
+							}
+						},
+
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"convert_time": 0.1,
+							"animation": "epicfight:biped/combat/longsword_auto2",
+							"play_speed": 0.92,
+							"command_list":[
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"knock_down","invert":true}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"convert_time": 0,
+							"animation": "epicfight:biped/combat/longsword_auto3",
+							"play_speed": 0.92,
+							"command_list": [
+                            ]
+                        }
+					]
+				},
+				{
+					"weight": 400,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 300,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 6.0}, {"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 8,
+                            "counter": "epicfight:biped/skill/guard_dualsword",
+                            "counter_cost": 1,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 4.0},{"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 6,
+                            "counter": "epicfight:biped/skill/guard_sword_hit_active2",
+                            "counter_cost": 0.5,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0},{"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 4,
+							"parry": true,
+							"parry_times": 1,
+							"counter_chance": 0,
+							"stun_immunity_time": 30,
+							"specific_guard_motion": {
+								"parry_cost_multiply": 0.05,
+								"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1"]
+							}
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"convert_time": 0,
+							"animation": "epicfight:biped/combat/mob_dagger_onehand3",
+							"play_speed": 1.2,
+							"command_list":[
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"knock_down","invert":true}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"convert_time": 0.15,
+							"animation": "star:biped/new/sword_slash",
+							"play_speed": 0.7,
+							"command_list": [
+                            ],
+                            "damage_modifier":{
+								"damage": 0.8,
+                                "impact": 1.2,
+                                "armor_negation": 0.8
+							}
+                        },
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 20,
+                            "inaction_time": 10,
+                            "x_axis": 0.0,
+                            "z_axis": -0.4
+						}
+					]
+				},
+                {
+					"weight": 150,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 160,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 6.0}, {"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 10,
+                            "counter": "epicfight:biped/skill/guard_dualsword",
+                            "counter_cost": 1,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 4.0},{"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 6,
+                            "counter": "epicfight:biped/skill/guard_sword_hit_active2",
+                            "counter_cost": 0.5,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0},{"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 4,
+							"parry": true,
+							"parry_times": 1,
+							"counter_chance": 0,
+							"stun_immunity_time": 30,
+							"specific_guard_motion": {
+								"parry_cost_multiply": 0.05,
+								"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1"]
+							}
+						},
+
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3}
+							],
+							"animation": "epicfight:biped/combat/longsword_auto1", 				
+							"play_speed": 0.92,
+							"convert_time": 0.1
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "epicfight:biped/combat/longsword_auto2", 				
+							"play_speed": 0.92
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3}
+							],
+							"animation": "epicfight:biped/combat/longsword_auto3",
+							"play_speed": 0.92
+						}
+					]
+				},
+				{
+					"weight": 150,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 240,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 6.0}, {"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 10,
+                            "counter": "epicfight:biped/skill/guard_dualsword",
+                            "counter_cost": 1,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 4.0},{"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 6,
+                            "counter": "epicfight:biped/skill/guard_sword_hit_active2",
+                            "counter_cost": 0.5,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0},{"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 4,
+							"parry": true,
+							"parry_times": 1,
+							"counter_chance": 0,
+							"stun_immunity_time": 30,
+							"specific_guard_motion": {
+								"parry_cost_multiply": 0.05,
+								"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1"]
+							}
+						},
+
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3}
+							],
+							"animation": "epicfight:biped/combat/longsword_auto1", 				
+							"play_speed": 0.92,
+							"convert_time": 0.1
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "epicfight:biped/combat/longsword_auto2", 				
+							"play_speed": 0.92
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 4}
+							],
+							"animation": "star:biped/new/sword_slash",
+							"play_speed": 0.7,
+							"convert_time": 0.3,
+                            "damage_modifier":{
+								"damage": 0.8,
+                                "impact": 1.2,
+                                "armor_negation": 0.8
+							}      
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 20,
+                            "inaction_time": 10,
+                            "x_axis": 0.0,
+                            "z_axis": -0.4
+						}
+					]
+				},
+				{
+					"weight": 100,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 160,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 6.0}, {"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 10,
+                            "counter": "epicfight:biped/skill/guard_dualsword",
+                            "counter_cost": 1,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 4.0},{"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 6,
+                            "counter": "epicfight:biped/skill/guard_sword_hit_active2",
+                            "counter_cost": 0.5,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0},{"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 4,
+							"parry": true,
+							"parry_times": 1,
+							"counter_chance": 0,
+							"stun_immunity_time": 30,
+							"specific_guard_motion": {
+								"parry_cost_multiply": 0.05,
+								"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1"]
+							}
+						},
+
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3}
+							],
+							"animation": "epicfight:biped/combat/mob_dagger_onehand3", 
+							"play_speed": 0.9,
+							"convert_time": 0.1
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3}
+							],
+							"animation": "epicfight:illager/swing_axe2", 				
+							"play_speed": 0.9,
+							"convert_time": 0.1
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 4}
+							],
+							"animation": "star:biped/new/sword_slash",
+							"play_speed": 0.7,
+							"convert_time": 0.16,
+                            "damage_modifier":{
+								"damage": 0.8,
+                                "impact": 1.2,
+                                "armor_negation": 0.8
+							},
+							"command_list":[
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3}
+							],
+							"animation": "epicfight:illager/swing_axe3", 				
+							"play_speed": 0.9,
+							"convert_time": 0.1
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 20,
+							"inaction_time": 10,
+							"x_axis": 0.0,
+							"z_axis": -0.4
+						}
+					]
+				},
+
+				{
+					"weight": 200,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 200,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 6.0}, {"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 10,
+                            "counter": "epicfight:biped/skill/guard_dualsword",
+                            "counter_cost": 1,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 4.0},{"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 6,
+                            "counter": "epicfight:biped/skill/guard_sword_hit_active2",
+                            "counter_cost": 0.5,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0},{"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 4,
+							"parry": true,
+							"parry_times": 1,
+							"counter_chance": 0,
+							"stun_immunity_time": 30,
+							"specific_guard_motion": {
+								"parry_cost_multiply": 0.05,
+								"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1"]
+							}
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"convert_time": 0.2,
+							"animation": "epicfight:biped/combat/dagger_dual_auto2",
+							"play_speed": 0.5,
+							"command_list":[
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+							],
+                            "damage_modifier":{"damage": 0.7,"impact": 0.7}
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0} ,{"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"convert_time": 0.1,
+							"animation": "epicfight:biped/combat/dagger_dual_auto3",
+							"play_speed": 0.5,
+							"command_list": [
+                            ],
+                            "damage_modifier":{"damage": 0.7,"impact": 0.7}
+                        },
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0} ,{"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"convert_time": 0.15,
+							"animation": "epicfight:biped/combat/dagger_dual_auto4",
+							"play_speed": 0.5,
+							"command_list": [
+                            ],
+                            "damage_modifier":{"damage": 0.5,"impact": 0.7}
+                        },
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 20,
+                            "inaction_time": 10,
+                            "x_axis": 0.0,
+                            "z_axis": -0.4
+						}
+					]
+				},
+				{
+					"weight": 100,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 280,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 6.0}, {"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 10,
+                            "counter": "epicfight:biped/skill/guard_dualsword",
+                            "counter_cost": 1,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 4.0},{"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 6,
+                            "counter": "epicfight:biped/skill/guard_sword_hit_active2",
+                            "counter_cost": 0.5,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0},{"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 4,
+							"parry": true,
+							"parry_times": 1,
+							"counter_chance": 0,
+							"stun_immunity_time": 30,
+							"specific_guard_motion": {
+								"parry_cost_multiply": 0.05,
+								"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1"]
+							}
+						},
+
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3}
+							],
+							"animation": "epicfight:biped/combat/mob_dagger_onehand3", 
+							"play_speed": 0.9,
+							"convert_time": 0.1
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "epicfight:illager/swing_axe2", 				
+							"play_speed": 0.9,
+							"convert_time": 0.1
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 4}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "star:biped/new/sword_slash",
+							"play_speed": 0.7,
+							"convert_time": 0.16,
+                            "damage_modifier":{
+								"damage": 0.8,
+                                "impact": 1.2,
+                                "armor_negation": 0.8
+							},
+							"command_list":[
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "epicfight:illager/swing_axe3", 				
+							"play_speed": 0.9,
+							"convert_time": 0.1
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 20,
+							"inaction_time": 10,
+							"x_axis": 0.0,
+							"z_axis": -0.4
+						}
+					]
+				},
+
+				{
+					"weight": 0.001,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 100,
+					"behaviors": [
+						{
+							"conditions": [
+                                {"predicate":"within_distance", "min": 0.0, "max": 6.0}, {"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 10,
+                            "counter": "epicfight:biped/skill/guard_dualsword",
+                            "counter_cost": 1,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6,
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 4.0},{"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 6,
+                            "counter": "epicfight:biped/skill/guard_sword_hit_active2",
+                            "counter_cost": 0.5,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0},{"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"guard": 4,
+							"parry": true,
+							"parry_times": 1,
+							"counter_chance": 0,
+							"stun_immunity_time": 30,
+							"specific_guard_motion": {
+								"parry_cost_multiply": 0.05,
+								"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1"]
+							}
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"convert_time": 0.1,
+							"animation": "epicfight:biped/combat/longsword_auto1",
+							"play_speed": 0.92,
+							"command_list":[
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+							],
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"convert_time": 0.1,
+							"animation": "epicfight:biped/combat/longsword_auto2",
+							"play_speed": 0.92,
+							"command_list":[
+							],
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"knock_down","invert":true}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"convert_time": 0,
+							"animation": "epicfight:biped/combat/longsword_auto3",
+							"play_speed": 0.92,
+							"command_list": [
+                            ],
+							"set_phase": 0
+                        }
+					]
+				},
+
+
+
+
+
+
+
+				{
+					"weight": 1.4,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 400,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, 
+                                {"predicate":"within_distance", "min": 3.0, "max": 6.0}
+							],
+							"animation": "epicfight:biped/combat/sword_dual_dash",
+							"convert_time": 0.4,
+							"play_speed": 0.8,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ]
+						}
+					]
+				},
+				{
+					"weight": 3,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 500,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, 
+                                {"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"animation": "epicfight:enderman/kick_twice",
+							"convert_time": 0.3,
+							"play_speed": 0.9,
+							"command_list": [
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"animation": "wom:biped/skill/roll_backward",
+							"set_phase": 0,
+							"command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.0, "command":"function golems:land_sunstrike_5", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"animation": "epicfight:illager/spellcast",
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 60,
+							"inaction_time": 40,
+							"x_axis": 0.0,
+							"z_axis": -0.3
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"animation": "epicfight:biped/living/walk"
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 10,
+							"inaction_time": 2,
+							"x_axis": 0.0,
+							"z_axis": 1.0
+						}
+					]
+				},
+
+                {
+					"weight": 300,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 500,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"guard": 10,
+                            "counter": "epicfight:biped/skill/guard_dualsword",
+                            "counter_cost": 1,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"guard": 6,
+                            "counter": "epicfight:biped/skill/guard_sword_hit_active1",
+                            "counter_cost": 0,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"animation": "wom:biped/skill/roll_backward",
+							"set_phase": 0,
+							"command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.0, "command":"function golems:land_sunstrike_5", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"animation": "epicfight:illager/spellcast",
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 60,
+							"inaction_time": 40,
+							"x_axis": 0.0,
+							"z_axis": -0.3
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"animation": "epicfight:biped/living/walk"
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 10,
+							"inaction_time": 2,
+							"x_axis": 0.0,
+							"z_axis": 1.0
+						}
+
+					]
+				},
+				{
+					"weight": 100,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 800,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"stamina", "stamina": 0.4, "comparator": "greater_ratio"}, {"predicate":"attack_level", "min": 1, "max": 3},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"guard": 10,
+                            "counter": "epicfight:biped/skill/guard_dualsword",
+                            "counter_cost": 1,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"guard": 6,
+                            "counter": "epicfight:biped/skill/guard_sword_hit_active1",
+                            "counter_cost": 0,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6
+						},
+
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+								{"predicate":"stamina", "stamina": 0.4, "comparator": "greater_ratio"}
+							],
+							"animation": "stellarisdlc:biped/skill/magic_skill_1",
+							"convert_time": 0.1,
+							"play_speed": 0.5,
+							"command_list":[
+								{"time":0.0, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.05, "command":"execute as @s at @s run playsound minecraft:entity.evoker.prepare_summon block @p[distance=..16] ~ ~ ~ 10 1.5", "execute_at_target":true},
+								{"time":0.3, "command":"execute at @s as @p run playsound ba_bt:entity.golem.charge block @p[distance=..16] ~ ~ ~ 2", "execute_at_target":false},
+								
+								{"time":0.6, "command":"function golems:land_sunstrike_all", "execute_at_target":false}
+							],
+							"stamina": 10,
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 40,
+							"inaction_time": 16,
+							"x_axis": 0.0,
+							"z_axis": -0.4
+						}
+					]
+				},
+
+
+
+
+
+
+
+				{
+					"weight": 5,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 400,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"convert_time": 0.3,
+							"animation": "epicfight:biped/combat/longsword_auto2",
+							"play_speed": 0.92,
+							"command_list":[
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"knock_down","invert":true}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"convert_time": 0,
+							"animation": "epicfight:biped/combat/longsword_auto3",
+							"play_speed": 0.92,
+							"command_list": [
+                            ]
+                        }
+					]
+				},
+				{
+					"weight": 4,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 300,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"convert_time": 0.3,
+							"animation": "epicfight:biped/combat/mob_dagger_onehand3",
+							"play_speed": 1.2,
+							"command_list":[
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"knock_down","invert":true}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"convert_time": 0.15,
+							"animation": "star:biped/new/sword_slash",
+							"play_speed": 0.7,
+							"command_list": [
+                            ],
+                            "damage_modifier":{
+								"damage": 0.8,
+                                "impact": 1.2,
+                                "armor_negation": 0.8
+							}         
+                        }
+					]
+				},
+                {
+					"weight": 1.5,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 160,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"animation": "epicfight:biped/combat/longsword_auto1", 				
+							"play_speed": 0.92,
+							"convert_time": 0.3
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "epicfight:biped/combat/longsword_auto2", 				
+							"play_speed": 0.92
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3}
+							],
+							"animation": "epicfight:biped/combat/longsword_auto3",
+							"play_speed": 0.92
+						}
+					]
+				},
+				{
+					"weight": 1.5,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 240,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"animation": "epicfight:biped/combat/longsword_auto1", 				
+							"play_speed": 0.92,
+							"convert_time": 0.3
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "epicfight:biped/combat/longsword_auto2", 				
+							"play_speed": 0.92
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 4}
+							],
+							"animation": "star:biped/new/sword_slash",
+							"play_speed": 0.7,
+							"convert_time": 0.3,
+                            "damage_modifier":{
+								"damage": 0.8,
+                                "impact": 1.2,
+                                "armor_negation": 0.8
+							}      
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 20,
+                            "inaction_time": 10,
+                            "x_axis": 0.0,
+                            "z_axis": -0.4
+						}
+					]
+				},
+				{
+					"weight": 1.2,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 160,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"animation": "epicfight:illager/swing_axe1", 				
+							"play_speed": 0.9,
+							"convert_time": 0.3
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3}
+							],
+							"animation": "epicfight:illager/swing_axe2", 				
+							"play_speed": 1.0,
+							"convert_time": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "epicfight:biped/combat/mob_dagger_onehand3", 				
+							"play_speed": 1.0,
+							"convert_time": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 4}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "epicfight:biped/combat/mob_dagger_twohand1",
+							"play_speed": 1.2,
+							"convert_time": 0.1,
+                            "damage_modifier":{
+								"damage": 0.6,
+                                "impact": 0.7,
+                                "armor_negation": 0.8
+							}      
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 4}
+							],
+							"animation": "star:biped/new/sword_slash",
+							"play_speed": 0.7,
+							"convert_time": 0.1,
+                            "damage_modifier":{
+								"damage": 0.8,
+                                "impact": 1.2,
+                                "armor_negation": 0.8
+							}      
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 20,
+							"inaction_time": 10,
+							"x_axis": 0.0,
+							"z_axis": -0.4
+						}
+					]
+				},
+
+				{
+					"weight": 2,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 200,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"convert_time": 0.35,
+							"animation": "epicfight:biped/combat/dagger_dual_auto2",
+							"play_speed": 0.5,
+							"command_list":[
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+							],
+                            "damage_modifier":{"damage": 0.7,"impact": 0.7}
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0} ,{"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"convert_time": 0.1,
+							"animation": "epicfight:biped/combat/dagger_dual_auto3",
+							"play_speed": 0.5,
+							"command_list": [
+                            ],
+                            "damage_modifier":{"damage": 0.7,"impact": 0.7}
+                        },
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0} ,{"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"convert_time": 0.15,
+							"animation": "epicfight:biped/combat/dagger_dual_auto4",
+							"play_speed": 0.5,
+							"command_list": [
+                            ],
+                            "damage_modifier":{"damage": 0.5,"impact": 0.7}
+                        },
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 20,
+                            "inaction_time": 10,
+                            "x_axis": 0.0,
+                            "z_axis": -0.4
+						}
+					]
+				},
+				{
+					"weight": 1,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 280,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3}
+							],
+							"animation": "epicfight:biped/combat/mob_dagger_onehand3", 
+							"play_speed": 0.9,
+							"convert_time": 0.3
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "epicfight:illager/swing_axe2", 				
+							"play_speed": 0.9,
+							"convert_time": 0.1
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 4}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "star:biped/new/sword_slash",
+							"play_speed": 0.7,
+							"convert_time": 0.16,
+                            "damage_modifier":{
+								"damage": 0.8,
+                                "impact": 1.2,
+                                "armor_negation": 0.8
+							},
+							"command_list":[
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"animation": "epicfight:illager/swing_axe3", 				
+							"play_speed": 0.9,
+							"convert_time": 0.1
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 20,
+							"inaction_time": 10,
+							"x_axis": 0.0,
+							"z_axis": -0.4
+						}
+					]
+				},
+
+				{
+					"weight": 0.001,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 100,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 2.0}
+							],
+							"convert_time": 0.3,
+							"animation": "epicfight:biped/combat/longsword_auto1",
+							"play_speed": 0.92,
+							"command_list":[
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+							],
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"convert_time": 0.1,
+							"animation": "epicfight:biped/combat/longsword_auto2",
+							"play_speed": 0.92,
+							"command_list":[
+							],
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"knock_down","invert":true}, {"predicate":"attack_level", "min": 0, "max": 0}
+							],
+							"convert_time": 0,
+							"animation": "epicfight:biped/combat/longsword_auto3",
+							"play_speed": 0.92,
+							"command_list": [
+                            ],
+							"set_phase": 0
+                        }
+					]
+				},
+
+
+
+
+
+
+
+                {
+                    "weight": 10000,
+                    "canBeInterrupted": false,
+                    "looping": false,
+	                "cooldown": 6, 
+                    "behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+                                {"predicate":"within_distance", "min": 2.0, "max": 8.0}, {"predicate":"stamina", "stamina": 0.5, "comparator": "greater_ratio"},
+								{"predicate":"health", "health": 0.99, "comparator": "less_ratio"}, {"predicate":"using_item", "edible": true}
+							],
+                            "animation": "epicfight:biped/skill/step_backward",
+							"set_phase": 11
+                        },
+                        {
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0}
+							],
+							"animation": "epicfight:enderman/convert_rage",
+                            "play_speed": 1.2,
+                            "command_list": [
+								{"time":0.0, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+								{"time":0.0, "command":"execute as @p at @s run playsound cataclysm:flame_burst block @p ~ ~ ~ 1.5", "execute_at_target":true},
+								{"time":0.0, "command":"particle minecraft:flame ~ ~0.5 ~ 1 1 1 0.1 200", "execute_at_target":false}
+							],
+							"stamina": -10,
+							"set_phase": 11
+						},
+                        {
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0}
+							],
+							"animation": "epicfight:enderman/death",
+							"play_speed": 0.8,
+							"command_list": [
+                                {"time":0.0, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+                                {"time":0.2, "command":"effect give @s minecraft:resistance 5 3", "execute_at_target":false},
+                                {"time":0.1, "command":"effect give @s alexsmobs:earthquake 2", "execute_at_target":true},
+
+								{"time":0.0, "command":"execute as @p at @s run playsound ba_bt:entity.golem.death block @p ~ ~ ~ 1 0.8", "execute_at_target":true},
+
+								{"time":0.0, "command":"function golems:land_sunstrike_all", "execute_at_target":false},
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+							],
+							"stamina": -16,
+							"set_phase": 11
+						}
+                    ]
+                },
+
+				{
+					"weight": 1,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 5,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+                                {"predicate":"within_distance", "min": 2.0, "max": 8.0}, {"predicate":"stamina", "stamina": 0.5, "comparator": "greater_ratio"},
+								{"predicate":"phase", "min": 11, "max": 11}
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"set_phase": 0,
+							"command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.0, "command":"function golems:land_sunstrike_5", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"animation": "epicfight:illager/spellcast",
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 60,
+							"inaction_time": 40,
+							"x_axis": 0.0,
+							"z_axis": -0.3
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"animation": "epicfight:biped/living/walk"
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 10,
+							"inaction_time": 2,
+							"x_axis": 0.0,
+							"z_axis": 1.0
+						}
+					]
+				},
+				{
+					"weight": 1,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 5,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+                                {"predicate":"within_distance", "min": 3.0, "max": 8.0}, {"predicate":"stamina", "stamina": 0.5, "comparator": "greater_ratio"},
+								{"predicate":"phase", "min": 11, "max": 11}
+							],
+							"animation": "epicfight:illager/spellcast"
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 16,
+							"inaction_time": 10,
+							"x_axis": 0.0,
+							"z_axis": -0.2
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+								{"predicate":"stamina", "stamina": 0.5, "comparator": "greater_ratio"}
+							],
+							"animation": "epicfight:biped/skill/guard_break2",
+							"convert_time": 0.3,
+							"play_speed": 0.8,
+							"command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+
+                                {"time":0.0, "command":"execute as @s at @s run summon mowziesmobs:sunstrike ~ ~ ~", "execute_at_target":true},
+								{"time":0.4, "command":"execute as @s at @s run summon mowziesmobs:sunstrike ~ ~ ~", "execute_at_target":true},
+								{"time":0.8, "command":"execute as @s at @s run summon mowziesmobs:sunstrike ~ ~ ~", "execute_at_target":true}
+							],
+							"stamina": 8
+						}
+					]
+				},
+				{
+					"weight": 1,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 5,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+                                {"predicate":"within_distance", "min": 3.0, "max": 8.0}, {"predicate":"stamina", "stamina": 0.5, "comparator": "greater_ratio"},
+								{"predicate":"phase", "min": 11, "max": 11}
+							],
+							"animation": "epicfight:illager/spellcast"
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 16,
+							"inaction_time": 10,
+							"x_axis": 0.0,
+							"z_axis": -0.2
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+								{"predicate":"stamina", "stamina": 0.5, "comparator": "greater_ratio"}
+							],
+							"animation": "epicfight:biped/skill/guard_break2",
+							"convert_time": 0.3,
+							"play_speed": 0.8,
+							"command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+
+                                {"time":0.0, "command":"execute as @s at @s run summon mowziesmobs:sunstrike ~ ~ ~", "execute_at_target":true},
+								{"time":0.4, "command":"execute as @s at @s run summon mowziesmobs:sunstrike ~ ~ ~", "execute_at_target":true},
+								{"time":0.8, "command":"execute as @s at @s run summon mowziesmobs:sunstrike ~ ~ ~", "execute_at_target":true}
+							],
+							"stamina": 8
+						}
+					]
+				},
+
+
+				{
+					"weight": 1.0,
+					"canBeInterrupted": true,
+					"looping": false,
+					"cooldown": 240,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"within_distance", "min": 3.0, "max": 50.0}, {"predicate":"stamina", "stamina": 0.5, "comparator": "less_ratio"},
+								{"predicate":"phase", "min": 11, "max": 11}
+                            ],
+                            "animation": "epicfight:biped/skill/step_backward"
+                        },
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true}
+							],
+							"wander": 20,
+							"inaction_time": 10,
+							"x_axis": 0.0,
+							"z_axis": -0.4
+						}
+					]
+				},
+
+
+
+
+
+                {
+					"weight": 1.0,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 60,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"within_distance", "min": 0.0, "max": 4.0}, {"predicate":"guard_break","invert":false}
+							],
+							"animation": "star:biped/new/sword_slash",
+                            "convert_time": 0.3,
+                            "play_speed": 0.7,
+                            "stamina": 5,
+                            "damage_modifier":{
+								"damage": 0.8,
+                                "impact": 1.2,
+                                "armor_negation": 0.8
+							}
+						}
+                    ]
+                },
+                {
+					"weight": 2.0,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 60,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0},
+								{"predicate":"within_distance", "min": 0.0, "max": 2.0}, {"predicate":"guard_break","invert":false}
+							],
+							"animation": "epicfight:enderman/knee",
+                            "play_speed": 0.9,
+                            "convert_time": 0.4
+						}
+                    ]
+                }
+
+
+
+
+            ]
+        }
+
+
+
+    ]
+}

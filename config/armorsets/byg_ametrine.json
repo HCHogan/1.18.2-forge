@@ -1,0 +1,59 @@
+{
+  "armorSetName": "byg_ametrine_armors",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "byg:ametrine_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "byg:ametrine_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "byg:ametrine_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "byg:ametrine_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "cofh_core:cold_resistance",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:fire_resistance",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": true,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 160,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "stellarisdlc:dragonpower",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 100,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

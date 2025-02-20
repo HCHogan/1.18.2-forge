@@ -1,0 +1,39 @@
+{
+  "id": "stellariscraft:common_axe1",
+  "weight": 6.5,
+  "reforge_experience_cost": 1,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:forgedspar",
+  "verifiers": [
+    {"tag": "forge:axe_minecraft"},
+    {"tag": "forge:axe_other_mods"},
+    {"tag": "forge:hammer"}
+  ],
+  "style": {
+    "color": "grey"
+  },
+  "attributes": [
+    {
+      "type": "epicfight:stun_armor",
+      "modifier": {
+        "name": "stellariscraft:common_axe1",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.01
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "epicfight:staminar",
+      "modifier": {
+        "name": "stellariscraft:common_axe1",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.05
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

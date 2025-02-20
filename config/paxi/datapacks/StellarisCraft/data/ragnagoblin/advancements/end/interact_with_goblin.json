@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:end/kill_dragon",
+  "display": {
+    "icon": {
+      "item": "minecraft:poisonous_potato"
+    },
+    "title": {
+      "translate": "advancements.ragnagoblin.interact_with_goblin.title"
+    },
+    "description": {
+      "translate": "advancements.ragnagoblin.interact_with_goblin.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "interact_with_goblin": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "ragnagoblin:ragna_goblin"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "interact_with_goblin"
+    ]
+  ]
+}

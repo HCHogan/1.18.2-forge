@@ -1,0 +1,6 @@
+{
+    "name": "决斗场的召唤之术",
+    "description": "召唤术最初由人类的召唤师一族开发研究，哪怕是终焉势力对此种法术也知之甚少。但是在第三次的终焉进攻之中，终焉进攻势力大范围使用了召唤术，究竟是召唤术的关键已经被破解，还是说另有隐情？",
+    "icon": "alexsmobs:textures/entity/portal/portal_idle_1.png",
+    "parent": "patchouli:boss_place"
+}

@@ -1,0 +1,14 @@
+{
+	"attributes":
+	{
+		"common":
+		{
+			"armor_negation":20.0,
+			"impact":1.56,
+			"max_strikes":3,
+			"speed_bonus":0.15,
+			"damage_bonus":3
+		}
+	},
+	"type":"sword"
+}

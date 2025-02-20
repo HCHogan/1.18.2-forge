@@ -1,0 +1,12 @@
+[
+      {
+        "mob": "minecraft:blaze",
+        "dimension": "stellariscraft:parena",
+        "setxp": 30
+      },
+      {
+        "mob": "minecraft:blaze",
+        "dimension": "stellariscraft:marena",
+        "setxp": 50
+      }
+]

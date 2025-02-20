@@ -1,0 +1,27 @@
+{
+	id: "2879333997C5C02E"
+	order_index: 16
+	title: "开启/关闭友伤"
+	icon: {
+		id: "minecraft:iron_sword"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	loot_size: 1
+	rewards: [
+		{
+			title: "关闭友军伤害"
+			command: "/team join 1 @a"
+			player_command: false
+			type: "command"
+		}
+		{
+			title: "开启友军伤害"
+			command: "/team leave @a"
+			player_command: false
+			type: "command"
+		}
+	]
+}

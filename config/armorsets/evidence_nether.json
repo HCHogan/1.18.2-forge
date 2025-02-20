@@ -1,0 +1,32 @@
+{
+  "armorSetName": "evidence_nether",
+  "performanceMode": true,
+
+  "additionalSetPieces":[
+    {
+    "itemKey": "stellarisdlc:evidencenether",
+    "mustBeEmpty": false
+  }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "epicfight:staminar",
+      "value": 4,
+      "attributeOperation": 0,
+      "modifierUUID": "b3cff98f-52a8-4825-bdfc-09d814ed61fa",
+      "description": "evidence_nether"    
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:fire_resistance",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 160,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+
+  ],
+  "hideGeneratedTooltip": false
+}

@@ -1,0 +1,10 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[
+{"item":"aquaculture:neptunium_nugget"},
+{"item":"miningmaster:dive_aquamarine"},
+{"item":"aquaculture:neptunium_nugget"}],
+"catalyst":{"item":"artifacts:charm_of_sinking"},
+"result":{"item":"blue_skies:aquatic_arc"},
+"enchantments":[]
+}

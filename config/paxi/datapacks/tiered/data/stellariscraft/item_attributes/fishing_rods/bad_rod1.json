@@ -1,0 +1,26 @@
+{
+  "id": "stellariscraft:bad_rod1",
+  "weight": 1,
+  "reforge_experience_cost": 1,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:forgedspar",
+  "verifiers": [
+    {"tag": "forge:fishing_rods"}
+  ],
+  "style": {
+    "color": "dark_red"
+  },
+  "attributes": [
+    {
+      "type": "generic.luck",
+      "modifier": {
+        "name": "stellariscraft:bad_rod1",
+        "operation": "ADDITION",
+        "amount": -2
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

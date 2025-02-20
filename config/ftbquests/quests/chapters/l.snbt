@@ -1,0 +1,338 @@
+{
+	id: "0D29577E3C71161D"
+	group: "6FC5E28CB4B49290"
+	order_index: 1
+	filename: "l"
+	title: "圣堂决斗场"
+	icon: "stellariscraft:mkey"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "&6圣堂决斗场"
+			x: 7.5d
+			y: 3.0d
+			shape: "hexagon"
+			description: [
+				"人数限制：2人&r  &6来自主角们的正义群殴！！！"
+				""
+				"&c进入前需要准备好召唤材料和往生精华，进入后前往祭坛处召唤"
+				""
+				"还是得提醒一下，多人服务器的延迟对史诗战斗的手感具有毁灭性的打击。"
+			]
+			hide_dependency_lines: false
+			dependencies: ["533EDC478A5FDAF5"]
+			size: 3.5d
+			id: "3E69DE684F0E50B0"
+			tasks: [
+				{
+					id: "61F5E1B3CFDC9888"
+					type: "dimension"
+					dimension: "stellariscraft:marena"
+				}
+				{
+					id: "038F397AB946CAA2"
+					type: "checkmark"
+					title: "&c二级决斗场非主线，可不打！！！"
+				}
+			]
+			rewards: [
+				{
+					id: "65AE2B1E02873260"
+					type: "item"
+					item: "waystones:warp_scroll"
+					count: 4
+				}
+				{
+					id: "186C90FF66F3A612"
+					type: "item"
+					item: "minecraft:enchanted_golden_apple"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "&3海洋高塔"
+			icon: "ba_bt:bt_ocean_resonance_stone"
+			x: -9.5d
+			y: 3.0d
+			shape: "hexagon"
+			subtitle: "&f&l猜你在搜：&c&nOcean Battle Tower"
+			description: [
+				"请不要用指令搜索&a大地&r和&b海洋&r两种高塔，会卡死游戏"
+				""
+				"开启需要&l&b2把海洋石碑之键"
+				""
+				"坠渊buff：玩家处于水中将玩家向下拖拽，无视创造。"
+				"似乎有什么东西能无视该debuff......"
+				"&e推荐带解药瓶饰品"
+				""
+				"超链接：点任务栏上方链接符号🔗查看另一处任务"
+				""
+				"&cPS:由于溺尸会导致游戏崩溃，且史诗战斗不适合水下战斗同时本包水下内容仅海洋高塔，故禁用溺尸生成"
+			]
+			dependencies: ["49363FC6A7361EC8"]
+			hide: true
+			size: 3.5d
+			id: "0A05E95EE3C32575"
+			tasks: [{
+				id: "730ACA67F2FD9D6C"
+				type: "advancement"
+				icon: "ba_bt:bt_ocean_resonance_stone"
+				advancement: "ba_bt:battletowers/ocean_tower_found"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "657833D18F239577"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "4CC1B096470D5807"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "minecraft:impaling"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 3.0d
+			shape: "rsquare"
+			dependencies: ["0A05E95EE3C32575"]
+			size: 2.5d
+			id: "5F1A668136B7AFAC"
+			tasks: [{
+				id: "57074DAB1976EFD4"
+				type: "item"
+				item: "ba_bt:guardian_eye_ocean"
+			}]
+			rewards: [
+				{
+					id: "31C3CC2182DB0371"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 6
+				}
+				{
+					id: "68AE55037F8229F4"
+					type: "item"
+					item: "miningmaster:air_malachite"
+				}
+			]
+		}
+		{
+			title: "&5攀登此界之顶"
+			x: 0.75d
+			y: 3.0d
+			shape: "gear"
+			subtitle: "被认可的人们啊……"
+			description: [
+				"&6改了个名，也就是老版本为人熟知的&b二级决斗场"
+				""
+				"但它发生了改变"
+				""
+				"&b二级主要更新支线boss"
+			]
+			dependencies: ["5F1A668136B7AFAC"]
+			hide: false
+			size: 3.5d
+			id: "533EDC478A5FDAF5"
+			tasks: [{
+				id: "66836114D02B734F"
+				type: "item"
+				item: "stellariscraft:mkey"
+			}]
+			rewards: [{
+				id: "693014A8657D72F3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "&b补货——海洋石碑钥匙"
+			icon: "ba_bt:monolith_key_ocean"
+			x: -13.5d
+			y: 0.5d
+			subtitle: "史诗战斗水下体验一坨，加上海洋傀儡招小弟的设定，特此半价处理"
+			dependencies: [
+				"68F1C2178AE6706C"
+				"0A05E95EE3C32575"
+			]
+			size: 1.5d
+			can_repeat: true
+			id: "4384214D629E3A5D"
+			tasks: [{
+				id: "29729FDD8E0CEC7F"
+				type: "item"
+				item: "dotcoinmod:iron_coin"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5F7CD028F541A4B1"
+				type: "item"
+				item: "ba_bt:monolith_key_ocean"
+			}]
+		}
+		{
+			title: "&b补货——海洋石碑"
+			icon: "ba_bt:monolith_ocean"
+			x: -13.5d
+			y: 5.25d
+			subtitle: "同理海洋石碑钥匙补货任务"
+			dependencies: [
+				"68F1C2178AE6706C"
+				"0A05E95EE3C32575"
+			]
+			size: 1.5d
+			can_repeat: true
+			id: "6C747948D80DCD40"
+			tasks: [{
+				id: "7D2C0872515DBA79"
+				type: "item"
+				item: "dotcoinmod:iron_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "32D6BC7FE8CDE5F4"
+				type: "item"
+				item: "ba_bt:monolith_ocean"
+			}]
+		}
+		{
+			title: "&6关于太阳神鸟的再召唤"
+			x: 11.25d
+			y: -1.25d
+			shape: "rsquare"
+			subtitle: "&c可在决斗场祭坛进行太阳神鸟的再召唤"
+			description: [
+				"&b材料:"
+				"&b1营火+1沙耀之心+1紫黄晶+1往生精华（最后放置）"
+			]
+			dependencies: ["3E69DE684F0E50B0"]
+			size: 2.5d
+			id: "1FC7D451199612E9"
+			tasks: [{
+				id: "6960B27421616010"
+				type: "checkmark"
+				title: "我已了解"
+			}]
+			rewards: [
+				{
+					id: "3E2A66A74D455109"
+					type: "item"
+					item: "stellariscraft:imessence"
+				}
+				{
+					id: "6090B32643F5C998"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2688748745693820522L
+				}
+			]
+		}
+		{
+			title: "&6关于霜冻巨兽的再召唤"
+			x: 11.25d
+			y: 7.5d
+			shape: "rsquare"
+			subtitle: "&c可在决斗场祭坛进行霜冻巨兽的再召唤"
+			description: [
+				"&b材料:"
+				"&b1寒冰蓝宝石+1蓝冰+1紫黄晶+1往生精华（最后放置）"
+			]
+			dependencies: ["3E69DE684F0E50B0"]
+			size: 2.5d
+			id: "0F8F3D8580F36074"
+			tasks: [{
+				id: "7F6F6F0188B3599F"
+				type: "checkmark"
+				title: "我已了解"
+			}]
+			rewards: [
+				{
+					id: "59B15C3BE58521BF"
+					type: "item"
+					item: "stellariscraft:imessence"
+				}
+				{
+					id: "072B79778CF98A33"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2944719802946291587L
+				}
+			]
+		}
+		{
+			title: "&6敬请期待后续dlc更新"
+			x: 15.0d
+			y: 3.0d
+			shape: "rsquare"
+			subtitle: "&c更多支线boss将在后续dlc持续更新"
+			dependencies: ["3E69DE684F0E50B0"]
+			size: 2.5d
+			id: "49223E3084F61FDE"
+			tasks: [{
+				id: "06754A196EF7A833"
+				type: "checkmark"
+				title: "我已了解"
+			}]
+			rewards: [{
+				id: "30260C8F77B1F9F8"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 23.0d
+			y: 3.0d
+			shape: "rsquare"
+			subtitle: "&c非主线任务，难度较高，谨慎挑战！！！"
+			dependencies: ["3E69DE684F0E50B0"]
+			size: 2.5d
+			id: "029C491867984A80"
+			tasks: [{
+				id: "57977209DF4BDAE0"
+				type: "kill"
+				icon: {
+					id: "stellarisdlc:symmetryspear"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "jobinsmobs:sage"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "3915620BE634157A"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "7DAEA78E10E17132"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 7421896030659922250L
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,40 @@
+{
+    "name": "生命玫瑰石",
+    "category": "patchouli:mining",
+    "icon": "miningmaster:heart_rhodonite",
+    "sortnum":1,
+    "pages": [
+       {"type": "spotlight",
+        "title":"生命玫瑰石",
+        "item": "miningmaster:heart_rhodonite",
+        "text": "吸收了微弱生命力量产生的珍惜矿物。$(br2)分布极其稀少，下界荒地生物群系会少量增加数量，流浪商人有时也会以2金币的价格售卖。$(br)$(#ff0000)下界傀儡$()能够诞生就是由于其是核心之一。",
+        "link_recipe":true
+         },
+        {
+            "type": "patchouli:png_mining",
+            "image": "stellarisdlc:textures/png/heart.png",
+            "text1":"生命玫瑰矿",
+            "text2":"生成层数:所有高度$(br)下界荒地群系:5个/区块$(br)其他群系:0.5个/区块"
+            
+          },
+      {
+        "type": "patchouli:mining_smith",
+        "head":"生命玫瑰石的简单使用",
+        "item1": "miningmaster:heart_rhodonite",
+        "item2": "miningmaster:air_malachite",
+        "item3": "stellariscraft:superhealth",
+        "item4": "minecraft:diamond_chestplate",
+        "item5": "stellariscraft:superhealth",
+        "item6": "minecraft:diamond_chestplate{Enchantments:[{id:'miningmaster:heartfelt',lvl:1s}]}",
+        "item7": "minecraft:diamond_chestplate{Enchantments:[{id:'miningmaster:heartfelt',lvl:1s}]}",
+        "item8": "stellariscraft:superhealth",
+        "item9": "minecraft:diamond_chestplate{Enchantments:[{id:'miningmaster:heartfelt',lvl:2s}]}"
+      },
+      {
+         "type":"T1",
+         "title":"生命玫瑰石的简单使用",
+        "text":"生命玫瑰石的微弱生命力只能坎坎唤起已死之人的一丝生气，但倘若唤起的是亡灵或许能长时间维持，可是这微弱的生命力不足以用以附魔力量的赋予。如果用$(l:make/mining/air)浮空孔雀石$()加以稳定则能够将仅存的生命之力高效率使用进而为铠甲赋予生命力量，可以通过再次锻造反复提升生命力量但是由于并非专业的魔力注入，$(#ff0000)无法突破这些附魔原有的极限。$()"
+        
+      }
+    ]
+  }

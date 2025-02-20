@@ -1,0 +1,1962 @@
+{
+    "model": "epicfight:entity/biped_slim_arm",
+	"armature": "epicfight:entity/biped",
+    "renderer": "player",
+    "isHumanoid": true,
+    "faction": "undead",
+	"boss_bar": true,
+	"custom_texture": "indestructible:textures/gui/boss_bar.png",
+    "attributes": {
+        "impact": 1.5,
+        "armor_negation": 5.0,
+        "max_strikes": 3,
+        "chasing_speed": 1.0,
+		"max_stamina": 100,
+		"scale": 1.1,
+		"stamina_regan_multiply": 0.01,
+		"stamina_regan_delay": 60,
+		"has_stun_reduction": true,
+		"stamina_lose_multiply": 0.3,
+		"attack_radius": 1.5
+    },
+	"default_livingmotions": {
+        "idle": "epicfight:biped/living/idle",
+        "walk": "epicfight:biped/living/walk",
+        "chase": "epicfight:biped/living/walk",
+        "mount": "epicfight:biped/living/mount",
+        "fall": "epicfight:biped/living/fall",
+        "death": "epicfight:biped/living/death"
+	},
+    "stun_animations": {
+        "short": "wom:biped/living/biped_hit_extra_long",
+        "long": "wom:biped/living/biped_hit_extra_long",
+        "knockdown": "epicfight:biped/combat/knockdown",
+        "fall": "epicfight:biped/living/landing",
+		"neutralize": "epicfight:biped/skill/guard_break1"
+    },
+    "humanoid_weapon_motions": [
+        {
+            "weapon_categories": ["axe", "pickaxe", "shovel", "sword", "fist"],
+            "style":"common",
+            "livingmotions": {
+				"chase": "epicfight:biped/living/walk",
+                "walk": "epicfight:biped/living/walk"
+            }
+        },
+        {
+            "weapon_categories": ["hoe"],
+            "style":"common",
+            "livingmotions": {
+				"chase": "epicfight:biped/living/walk",
+                "walk": "epicfight:biped/living/run"
+            }
+        },
+        { 
+            "weapon_categories": ["spear", "trident", "tachi"],
+            "style":"common", 
+            "livingmotions": {
+                "chase": "epicfight:biped/living/walk_spear",
+                "walk": "epicfight:biped/living/walk_spear"
+            }
+        },
+        { 
+            "weapon_categories": ["greatsword"],
+            "style":"common", 
+            "livingmotions": {
+                "chase": "epicfight:biped/living/walk_greatsword",
+                "walk": "epicfight:biped/living/run_greatsword"
+            }
+        },
+        { 
+            "weapon_categories": ["longsword"],
+            "style":"common", 
+            "livingmotions": {
+                "chase": "epicfight:biped/living/walk_longsword",
+                "walk": "epicfight:biped/living/run_longsword"
+            }
+        },
+        { 
+            "weapon_categories": ["uchigatana"],
+            "style":"common", 
+            "livingmotions": {
+                "chase": "epicfight:biped/living/walk_uchigatana",
+                "walk": "epicfight:biped/living/walk_uchigatana_sheath",
+                "idle": "epicfight:biped/living/hold_uchigatana_sheath"
+            }
+        },
+        { 
+            "weapon_categories": ["sword"],
+            "style":"two_hand", 
+            "livingmotions": {
+                "chase": "epicfight:biped/living/walk_twohand",
+                "walk": "epicfight:biped/living/walk_twohand"
+            }
+        }
+
+    ],
+    "custom_guard_motion": [
+	    {
+             "weapon_categories": ["pickaxe", "shovel"],
+			 "style": "common",
+             "guard": "indestructible:guard/guard_sword",
+             "stamina_cost_multiply": 0.4,
+             "can_block_projectile" : true
+        },
+        {
+            "weapon_categories": ["hoe"],
+            "style": "common",
+            "guard": "indestructible:guard/guard_sword",
+            "stamina_cost_multiply": 0.2,
+            "can_block_projectile" : true
+        },
+        {
+            "weapon_categories": ["axe"],
+            "style": "common",
+            "guard": "indestructible:guard/guard_sword",
+            "stamina_cost_multiply": 0.3,
+            "can_block_projectile" : true
+        },
+        {
+            "weapon_categories": ["fist"],
+            "style": "common",
+            "guard": "indestructible:guard/guard_dualsword",
+            "stamina_cost_multiply": 0.1,
+            "can_block_projectile" : true
+        },
+        {
+            "weapon_categories": ["sword"],
+            "style": "two_hand",
+            "guard": "indestructible:guard/guard_dualsword",
+            "stamina_cost_multiply": 0.18,
+            "can_block_projectile" : true
+        },
+		{
+             "weapon_categories": ["sword"],
+			 "style": "common",
+             "guard": "indestructible:guard/guard_sword",
+             "stamina_cost_multiply": 0.3,
+             "can_block_projectile" : true
+        },
+		{
+             "weapon_categories": ["spear"],
+			 "style": "common",
+             "guard": "indestructible:guard/guard_spear",
+             "stamina_cost_multiply": 0.22,
+             "can_block_projectile" : true
+        },
+		{
+             "weapon_categories": ["trident"],
+			 "style": "common",
+             "guard": "indestructible:guard/guard_spear",
+             "stamina_cost_multiply": 0.22,
+             "can_block_projectile" : true
+        },
+        {
+             "weapon_categories": ["greatsword"],
+             "style": "common",
+             "guard": "indestructible:guard/guard_greatsword",
+             "stamina_cost_multiply": 0.25,
+             "can_block_projectile" : true
+        },
+		{
+             "weapon_categories": ["uchigatana"],
+             "style": "common",
+             "guard": "indestructible:guard/guard_uchigatana",
+             "stamina_cost_multiply": 0.12,
+             "can_block_projectile" : true
+        },
+        {
+             "weapon_categories": ["longsword"],
+             "style": "common",
+             "guard": "indestructible:guard/guard_longsword",
+             "stamina_cost_multiply": 0.2,
+             "can_block_projectile" : true
+        },
+        {
+            "weapon_categories": ["tachi"],
+            "style": "common",
+            "guard": "indestructible:guard/guard_longsword",
+            "stamina_cost_multiply": 0.2,
+            "can_block_projectile" : true
+       }
+    ],
+	"stun_command_list":[
+        {"command":"effect give @s minecraft:glowing 4", "stun_type": "neutralize"},
+        {"command":"effect give @s stellarisdlc:fragile 4 2", "stun_type": "neutralize"},
+		{"command":"effect give @s cataclysm:stun 4", "stun_type": "neutralize"},
+		{"command":"effect give @s cofh_core:sundered 4 4", "stun_type": "neutralize"},
+		{"command":"effect give @s epicfight:stun_immunity 4", "stun_type": "neutralize"},
+		{"command":"effect give @s star:really_stun_immunity 4", "stun_type": "neutralize"},
+		
+
+		{"command":"indestructible @s set_phase 0", "stun_type": "neutralize"},
+		{"command":"function global_guard_break:guard_break_senbaih", "stun_type": "neutralize"}
+	],
+
+    "combat_behavior": [
+        {
+            "weapon_categories": ["tachi"],
+            "style": "common",
+            "behavior_series": [
+				{
+                    "weight": 9999999,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 999999,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                            ],
+                            "animation": "epicfight:biped/skill/step_backward",
+                            "command_list":[
+								{"time":0.01, "command":"stopsound @e[type=minecraft:player,distance=..20] music", "execute_at_target":false},
+								{"time":0.02, "command":"stopsound @e[type=minecraft:player,distance=..20] record", "execute_at_target":false},
+                                
+
+								{"time":0.01, "command":"data merge entity @s {Attributes:[{Base:0.5d,Name:\"minecraft:generic.knockback_resistance\"}]}", "execute_at_target":false},
+								{"time":0.01, "command":"data merge entity @s {Attributes:[{Base:80d,Name:\"epicfight:weight\"}]}", "execute_at_target":false},
+								{"time":0.01, "command":"data merge entity @s {Attributes:[{Base:15d,Name:\"minecraft:generic.armor\"}]}", "execute_at_target":false},
+								{"time":0.01, "command":"data merge entity @s {Attributes:[{Base:12.0d,Name:\"epicfight:stun_armor\"}]}", "execute_at_target":false},
+								{"time":0.01, "command":"data merge entity @s {Attributes:[{Base:2d,Name:\"forge:step_height_addition\"}]}", "execute_at_target":false},
+								{"time":0.01, "command":"data merge entity @s {ForgeData:{recovery:4.0d}}", "execute_at_target":false},
+								{"time":0.01, "command":"data merge entity @s {ForgeData:{stamina:2.0d}}", "execute_at_target":false},
+
+                                {"time":0.01, "command":"effect give @s minecraft:instant_health 7 10", "execute_at_target":false},
+								{"time":0.01, "command":"effect clear @s stellariscraft:bloodkill", "execute_at_target":false},
+
+								{"time":0.02, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+								{"time":0.05, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+								{"time":0.08, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+								
+								{"time":0.0, "command":"effect give @s minecraft:fire_resistance 10000 0 true", "execute_at_target":false},
+
+								{"time":0.0, "command":"tag @s remove fatal_draw_able", "execute_at_target":false},
+								{"time":0.0, "command":"tag @s remove 2-3health_below", "execute_at_target":false},
+
+                                {"time":0.05, "command":"effect give @s cataclysm:stun 5", "execute_at_target":false},
+								{"time":0.05, "command":"effect give @s minecraft:resistance 5 9", "execute_at_target":false},
+                                {"time":0.05, "command":"effect give @s stellarisdlc:stamina_regen_enhanced 10 100", "execute_at_target":false}
+								,{"time":0.01, "command":"function co:co", "execute_at_target":false}
+                            ],
+							"stamina": -120,
+							"set_phase": 1
+                        }
+                    ]
+                },
+				{
+                    "weight": 1000,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 100,
+                    "behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0}
+							],
+							"guard": 4, 
+							"counter": "epicfight:biped/skill/guard_sword_hit_active1",
+							"counter_cost": 0.01, 
+							"counter_chance": 1.0, 
+							"counter_speed": 0.4,
+							"set_phase": 1
+						},
+						{
+							"conditions": [
+							],
+							"guard": 4, 
+							"counter": "epicfight:biped/skill/guard_sword_hit_active2",
+							"counter_cost": 0.01, 
+							"counter_chance": 1.0, 
+							"counter_speed": 0.4,
+							"set_phase": 1
+						}
+                    ]
+                },
+
+
+
+
+
+				
+				
+				{
+					"weight": 80,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 0,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 64.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 4}
+							],
+							"animation": "epicfight:biped/skill/step_backward"
+						}
+                    ]
+                },
+				
+				
+				{
+					"weight": 320,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 60,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 5.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 4}
+							],
+							"guard": 4,
+							"parry": true,
+							"parry_times": 1,
+							"counter_chance": 0,
+							"stun_immunity_time": 30,
+							"specific_guard_motion": {
+								"parry_cost_multiply": 0.1,
+								"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1"]
+							}
+						},
+						{
+							"conditions": [
+							],
+							"animation": "wom:biped/combat/enderblaster_onehand_auto_4",
+							"convert_time": 0.5,
+							"play_speed": 1.0,
+							"set_phase": 4,
+							"command_list": [
+								{"time":0.3, "command":"impactful @s shake 60 5 4", "execute_at_target":true},			
+								{"time":0.3, "command":"execute as @s at @s run particle irons_spellbooks:fire ^ ^-1.0 ^1 0.2 0.1 0.2 0.75 320", "execute_at_target":false},
+								{"time":0.3, "command":"execute as @p at @s run playsound cataclysm:sword_stomp block @s ~ ~ ~ 3.0 1.5", "execute_at_target":true},
+								{"time":0.25, "command":"execute as @p at @s run playsound cataclysm:sword_stomp block @s ~ ~ ~ 3.0 0.5", "execute_at_target":true}
+							],
+							"damage_modifier":{"damage": 2.5,"impact": 64.0,"armor_negation": 2},
+							"hit_command_list":[
+							
+							
+							{"command":"indestructible @s play 'epicfight:biped/combat/knockdown' 0.1 1", "execute_at_target":true},
+							{"command":"effect give @s alexsmobs:exsanguination 3 2", "execute_at_target":true},
+							{"command":"execute as @p at @s run playsound epicfight:entity.hit.eviscerate block @s ~ ~ ~ 2.0 1.5", "execute_at_target":true},
+							{"command":"execute as @p at @s run playsound epicfight:entity.hit.eviscerate block @s ~ ~ ~ 2.0 0.5", "execute_at_target":true},
+							{"command":"execute as @s at @s run particle epicfight:blade_rush ~ ~1 ~ 0 0 0 1 1", "execute_at_target":true},
+							{"command":"execute as @s at @s run particle irons_spellbooks:blood ~ ~0.5 ~ 0.1 0.3 0.1 0.2 640", "execute_at_target":true}
+							]
+						}
+
+                    ]
+                },
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				{
+					"weight": 5.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 30,
+					"behaviors": [
+					    {
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 2.0}, {"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_angle", "min": -40.0, "max": 40.0}, {"predicate":"phase", "min": 0, "max": 1}
+							],
+							"animation": "epicfight:biped/combat/tachi_auto1",
+							"convert_time": 0.25,
+							"play_speed": 1.0,
+							"set_phase": 2,
+							"command_list": [
+                                {"time":0.45, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						}
+                        ]                 
+				},
+				
+				{
+					"weight": 5.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 15,
+					"behaviors": [
+					    {
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 2.0}, {"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_angle", "min": -30.0, "max": 30.0}, {"predicate":"phase", "min": 0, "max": 1}
+							],
+							"animation": "epicfight:biped/combat/tachi_auto2",
+							"convert_time": 0.25,
+							"play_speed": 1.0,
+							"set_phase": 3,
+							"command_list": [
+                                {"time":0.45, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/combat/tachi_auto3",
+							"convert_time": 0.15,
+							"play_speed": 1.0,
+							"set_phase": 4,
+							"command_list": [
+                                {"time":0.45, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"random_chance", "chance": 0.2}
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"set_phase": 9,
+							"convert_time": 0.0
+						}
+                        ]                 
+				},
+				
+				{
+					"weight": 5.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 12,
+					"behaviors": [
+					    {
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 1.5}, {"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_angle", "min": -20.0, "max": 20.0}, {"predicate":"phase", "min": 2, "max": 2}
+							],
+							"animation": "epicfight:biped/combat/tachi_auto2",
+							"convert_time": 0.2,
+							"play_speed": 1.0,
+							"set_phase": 3,
+							"command_list": [
+                                {"time":0.45, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						}
+                        ]                 
+				},
+				
+				{
+					"weight": 2.5,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 12,
+					"behaviors": [
+					    {
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"within_distance", "min": 0.0, "max": 2.5}, {"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_angle", "min": -30.0, "max": 30.0}, {"predicate":"phase", "min": 3, "max": 3}
+							],
+							"animation": "epicfight:biped/combat/tachi_auto3",
+							"convert_time": 0.2,
+							"play_speed": 1.0,
+							"set_phase": 4,
+							"command_list": [
+                                {"time":0.45, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+								{"predicate":"within_eye_height"}
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						},
+						{
+							"conditions": [
+								{"predicate":"random_chance", "chance": 0.2}
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"set_phase": 8,
+							"convert_time": 0.0
+						}
+                        ]                 
+				},
+				
+				
+				{
+					"weight": 2.5,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 75,
+					"behaviors": [
+					    {
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"within_distance", "min": 3.0, "max": 8.0}, {"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_angle", "min": -20.0, "max": 20.0}, {"predicate":"phase", "min": 0, "max": 4}, {"predicate":"random_chance", "chance": 0.4}
+							],
+							"animation": "epicfight:biped/combat/tachi_auto3",
+							"convert_time": 0.25,
+							"play_speed": 1.0,
+							"set_phase": 4,
+							"command_list": [
+                                {"time":0.45, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"set_phase": 8,
+							"convert_time": 0.0
+						}
+                        ]                 
+				},
+				
+				{
+					"weight": 0.1,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 120,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate": "health", "health": 0.99, "comparator": "less_ratio"}, {"predicate":"within_distance", "min": 0.0, "max": 3.0}, {"predicate":"phase", "min": 0, "max": 4}, {"predicate":"within_angle", "min": 80.0, "max": 180.0}, {"predicate":"random_chance", "chance": 0.5}
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"set_phase": 5,
+							"convert_time": 0.0
+						}
+
+                    ]
+                },
+				
+				{
+					"weight": 0.1,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 1,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 4, "max": 4}
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"set_phase": 1,
+							"convert_time": 0.0
+						}
+
+                    ]
+                },
+				
+				{
+					"weight": 1.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 120,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate": "health", "health": 0.99, "comparator": "less_ratio"}, {"predicate":"phase", "min": 4, "max": 4}
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"set_phase": 5,
+							"convert_time": 0.0
+						}
+
+                    ]
+                },
+				
+				{
+					"weight": 10.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 10,
+					"behaviors": [
+						{
+							"conditions": [
+							{"predicate": "health", "health": 0.99, "comparator": "less_ratio"}, {"predicate":"phase", "min": 5, "max": 5}
+							],
+							"animation": "epicfight:biped/skill/step_right",
+							"convert_time": 0.1,
+							"play_speed": 1.0,
+							"set_phase": 6,
+							"command_list": [																							
+                                {"time":0.0, "command":"effect give @s minecraft:slowness 1 4 true", "execute_at_target":false},							
+							    {"time":0.0, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s star:really_stun_immunity 3", "execute_at_target":false}
+							]
+						}
+
+                    ]
+                },
+				
+				{
+					"weight": 12.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 10,
+					"behaviors": [
+						{
+							"conditions": [
+							{"predicate": "health", "health": 0.99, "comparator": "less_ratio"}, {"predicate":"phase", "min": 5, "max": 5}
+							],
+							"animation": "epicfight:biped/skill/step_left",
+							"convert_time": 0.1,
+							"play_speed": 1.0,
+							"set_phase": 7,
+							"command_list": [																							
+                                {"time":0.0, "command":"effect give @s minecraft:slowness 1 4 true", "execute_at_target":false},							
+							    {"time":0.0, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s star:really_stun_immunity 3", "execute_at_target":false}
+							]
+						}
+
+                    ]
+                },
+				
+				
+				{
+					"weight": 150.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 200,
+					"behaviors": [
+						{
+							"conditions": [
+							{"predicate": "health", "health": 0.67, "comparator": "less_ratio"}, {"predicate":"phase", "min": 6, "max": 7}
+							],
+							"animation": "wom:biped/combat/enderblaster_onehand_auto_4",
+							"convert_time": 0.5,
+							"play_speed": 1.0,
+							"set_phase": 1,
+							"command_list": [
+								{"time":0.3, "command":"impactful @s shake 60 5 4", "execute_at_target":true},			
+								{"time":0.3, "command":"execute as @s at @s run particle irons_spellbooks:fire ^ ^-1.0 ^1 0.2 0.1 0.2 0.75 320", "execute_at_target":false},
+								{"time":0.3, "command":"execute as @p at @s run playsound cataclysm:sword_stomp block @s ~ ~ ~ 3.0 1.5", "execute_at_target":true},
+								{"time":0.25, "command":"execute as @p at @s run playsound cataclysm:sword_stomp block @s ~ ~ ~ 3.0 0.5", "execute_at_target":true}
+							],
+							"damage_modifier":{"damage": 1.5,"impact": 2.0,"armor_negation": 2},
+							"hit_command_list":[
+							
+							
+							{"command":"indestructible @s play 'epicfight:biped/skill/guard_break1' 0.1 1", "execute_at_target":true},
+							{"command":"effect give @s alexsmobs:exsanguination 3 2", "execute_at_target":true},
+							{"command":"execute as @p at @s run playsound epicfight:entity.hit.eviscerate block @s ~ ~ ~ 2.0 1.5", "execute_at_target":true},
+							{"command":"execute as @p at @s run playsound epicfight:entity.hit.eviscerate block @s ~ ~ ~ 2.0 0.5", "execute_at_target":true},
+							{"command":"execute as @s at @s run particle epicfight:blade_rush ~ ~1 ~ 0 0 0 1 1", "execute_at_target":true},
+							{"command":"execute as @s at @s run particle irons_spellbooks:blood ~ ~0.5 ~ 0.1 0.3 0.1 0.2 320", "execute_at_target":true}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "wom:biped/combat/enderblaster_onehand_auto_4",
+							"convert_time": 0.5,
+							"play_speed": 1.0,
+							"set_phase": 1,
+							"command_list": [
+								{"time":0.3, "command":"impactful @s shake 60 5 4", "execute_at_target":true},			
+								{"time":0.3, "command":"execute as @s at @s run particle irons_spellbooks:fire ^ ^-1.0 ^1 0.2 0.1 0.2 0.75 320", "execute_at_target":false},
+								{"time":0.3, "command":"execute as @p at @s run playsound cataclysm:sword_stomp block @s ~ ~ ~ 3.0 1.5", "execute_at_target":true},
+								{"time":0.25, "command":"execute as @p at @s run playsound cataclysm:sword_stomp block @s ~ ~ ~ 3.0 0.5", "execute_at_target":true}
+							],
+							"damage_modifier":{"damage": 2.5,"impact": 64.0,"armor_negation": 2},
+							"hit_command_list":[
+							
+							
+							{"command":"indestructible @s play 'epicfight:biped/skill/guard_break1' 0.1 1", "execute_at_target":true},
+							{"command":"effect give @s alexsmobs:exsanguination 3 2", "execute_at_target":true},
+							{"command":"execute as @p at @s run playsound epicfight:entity.hit.eviscerate block @s ~ ~ ~ 2.0 1.5", "execute_at_target":true},
+							{"command":"execute as @p at @s run playsound epicfight:entity.hit.eviscerate block @s ~ ~ ~ 2.0 0.5", "execute_at_target":true},
+							{"command":"execute as @s at @s run particle epicfight:blade_rush ~ ~1 ~ 0 0 0 1 1", "execute_at_target":true},
+							{"command":"execute as @s at @s run particle irons_spellbooks:blood ~ ~0.5 ~ 0.1 0.3 0.1 0.2 640", "execute_at_target":true}
+							]
+						},
+					    {
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"command_list": [								
+							     {"time":0.0, "command":"particle irons_spellbooks:fire ~ ~0.5 ~ 0.5 0 0.5 0.1 32 force", "execute_at_target":false},
+                                 {"time":0.0, "command":"execute as @p at @s run playsound cataclysm:sword_stomp block @s ~ ~ ~ 3.0 1.5", "execute_at_target":true},
+								 {"time":0.0, "command":"effect give @s minecraft:levitation 1 74 true", "execute_at_target":false},
+								 {"time":0.0, "command":"effect give @s minecraft:speed 1 9 true", "execute_at_target":false},
+								 {"time":0.075, "command":"effect clear @s minecraft:levitation", "execute_at_target":false}
+							   ]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "wom:biped/combat/enderblaster_twohand_tishnaw",
+							"convert_time": 0.15,
+							"play_speed": 1.0,
+							"set_phase": 1,
+							"command_list": [
+								{"time":0.45, "command":"impactful @s shake 60 5 4", "execute_at_target":true},			
+								{"time":0.25, "command":"effect clear @s minecraft:weakness", "execute_at_target":false},
+								{"time":0.45, "command":"execute as @s at @s run particle irons_spellbooks:fire ^ ^-1.0 ^1 0.2 0.1 0.2 0.75 640", "execute_at_target":false},
+								{"time":0.45, "command":"execute as @p at @s run playsound cataclysm:sword_stomp block @s ~ ~ ~ 3.0 1.5", "execute_at_target":true},
+								{"time":0.4, "command":"execute as @p at @s run playsound cataclysm:sword_stomp block @s ~ ~ ~ 3.0 0.5", "execute_at_target":true}
+							],
+							"damage_modifier":{"damage": 3.5,"impact": 64.0,"armor_negation": 2},
+							"hit_command_list":[
+							
+							
+							{"command":"indestructible @s play 'epicfight:biped/combat/knockdown' 0.1 1", "execute_at_target":true},
+							{"command":"effect give @s alexsmobs:exsanguination 3 2", "execute_at_target":true},
+							{"command":"execute as @p at @s run playsound epicfight:entity.hit.eviscerate block @s ~ ~ ~ 2.0 1.5", "execute_at_target":true},
+							{"command":"execute as @p at @s run playsound epicfight:entity.hit.eviscerate block @s ~ ~ ~ 2.0 0.5", "execute_at_target":true},
+							{"command":"execute as @s at @s run particle epicfight:blade_rush ~ ~1 ~ 0 0 0 1 1", "execute_at_target":true},
+							{"command":"execute as @s at @s run particle irons_spellbooks:blood ~ ~0.5 ~ 0.1 0.3 0.1 0.2 640", "execute_at_target":true}
+							]
+						}
+
+                    ]
+                },
+				
+
+
+				
+
+				
+				{
+					"weight": 100.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 10,
+					"behaviors": [
+						{
+							"conditions": [
+							{"predicate":"phase", "min": 6, "max": 6}
+							],
+							"animation": "epicfight:biped/skill/rushing_tempo1",
+							"convert_time": 0.4,
+							"set_phase": 4,
+							"command_list": [
+							{"time":0.0, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+                            ],
+							"damage_modifier":{"damage": 0.25,"impact": 0.5,"armor_negation": 1},
+							"hit_command_list":[
+							{"command":"indestructible @s play 'epicfight:biped/combat/hit_long' 0.1 1", "execute_at_target":true}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/rushing_tempo1",
+							"convert_time": 0.1,
+							"play_speed": 0.8,
+							"set_phase": 4,
+							"command_list": [
+							{"time":0.24, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+                            ],
+							"damage_modifier":{"damage": 0.25,"impact": 0.5,"armor_negation": 1},
+							"hit_command_list":[
+							{"command":"indestructible @s play 'epicfight:biped/combat/hit_long' 0.1 1", "execute_at_target":true}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/rushing_tempo2",
+							"convert_time": 0.1,
+							"play_speed": 0.8,
+							"set_phase": 4,
+							"command_list": [
+							{"time":0.24, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+                            ],
+							"damage_modifier":{"damage": 0.25,"impact": 0.5,"armor_negation": 1},
+							"hit_command_list":[
+							{"command":"indestructible @s play 'epicfight:biped/combat/hit_long' 0.1 1", "execute_at_target":true}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/rushing_tempo1",
+							"convert_time": 0.1,
+							"play_speed": 0.8,
+							"set_phase": 4,
+							"command_list": [
+							{"time":0.24, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+                            ],
+							"damage_modifier":{"damage": 0.25,"impact": 0.5,"armor_negation": 1},
+							"hit_command_list":[
+							{"command":"indestructible @s play 'epicfight:biped/combat/hit_long' 0.1 1", "execute_at_target":true}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/rushing_tempo2",
+							"convert_time": 0.1,
+							"play_speed": 0.8,
+							"set_phase": 4,
+							"command_list": [
+							{"time":0.24, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+                            ],
+							"damage_modifier":{"damage": 0.25,"impact": 0.5,"armor_negation": 1},
+							"hit_command_list":[
+							{"command":"indestructible @s play 'epicfight:biped/combat/hit_long' 0.1 1", "execute_at_target":true}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/rushing_tempo1",
+							"convert_time": 0.1,
+							"play_speed": 0.8,
+							"set_phase": 4,
+							"command_list": [
+							{"time":0.24, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+                            ],
+							"damage_modifier":{"damage": 0.25,"impact": 0.5,"armor_negation": 1},
+							"hit_command_list":[
+							{"command":"indestructible @s play 'epicfight:biped/combat/hit_long' 0.1 1", "execute_at_target":true}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/rushing_tempo2",
+							"convert_time": 0.1,
+							"play_speed": 0.8,
+							"set_phase": 4,
+							"command_list": [
+							{"time":0.24, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+                            ],
+							"damage_modifier":{"damage": 0.25,"impact": 0.5,"armor_negation": 1},
+							"hit_command_list":[
+							{"command":"indestructible @s play 'epicfight:biped/combat/hit_long' 0.1 1", "execute_at_target":true}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/rushing_tempo1",
+							"convert_time": 0.1,
+							"play_speed": 0.8,
+							"set_phase": 4,
+							"command_list": [
+                            ],
+							"damage_modifier":{"damage": 0.25,"impact": 0.5,"armor_negation": 1},
+							"hit_command_list":[
+							{"command":"indestructible @s play 'epicfight:biped/combat/hit_long' 0.1 1", "execute_at_target":true}
+							]
+						},
+						{
+							"conditions": [
+							{"predicate":"random_chance", "chance": 0.75}, {"predicate":"within_distance", "min": 0.0, "max": 4.0}, {"predicate":"within_angle", "min": 0.0, "max": 15.0}
+							],
+							"wander": 15,             
+							"inaction_time": 15,	  
+							"x_axis": 0.0,		   
+							"z_axis": 0.0,
+							"set_phase": 9
+						}
+
+                    ]
+                },
+				
+				{
+					"weight": 100.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 10,
+					"behaviors": [
+						{
+							"conditions": [
+							{"predicate":"phase", "min": 9, "max": 9}
+							],
+							"animation": "epicfight:biped/skill/rushing_tempo1",
+							"convert_time": 0.0,
+							"play_speed": 0.8,
+							"set_phase": 4,
+							"command_list": [
+							{"time":0.24, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+                            ],
+							"damage_modifier":{"damage": 0.25,"impact": 0.5,"armor_negation": 1},
+							"hit_command_list":[
+							{"command":"indestructible @s play 'epicfight:biped/combat/hit_long' 0.1 1", "execute_at_target":true}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/rushing_tempo2",
+							"convert_time": 0.1,
+							"play_speed": 0.8,
+							"set_phase": 4,
+							"command_list": [
+							{"time":0.24, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+                            ],
+							"damage_modifier":{"damage": 0.25,"impact": 0.5,"armor_negation": 1},
+							"hit_command_list":[
+							{"command":"indestructible @s play 'epicfight:biped/combat/hit_long' 0.1 1", "execute_at_target":true}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/rushing_tempo1",
+							"convert_time": 0.1,
+							"play_speed": 0.8,
+							"set_phase": 4,
+							"command_list": [
+							{"time":0.24, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+                            ],
+							"damage_modifier":{"damage": 0.25,"impact": 0.5,"armor_negation": 1},
+							"hit_command_list":[
+							{"command":"indestructible @s play 'epicfight:biped/combat/hit_long' 0.1 1", "execute_at_target":true}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/rushing_tempo2",
+							"convert_time": 0.1,
+							"play_speed": 0.8,
+							"set_phase": 4,
+							"command_list": [
+							{"time":0.24, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+                            ],
+							"damage_modifier":{"damage": 0.25,"impact": 0.5,"armor_negation": 1},
+							"hit_command_list":[
+							{"command":"indestructible @s play 'epicfight:biped/combat/hit_long' 0.1 1", "execute_at_target":true}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/rushing_tempo1",
+							"convert_time": 0.1,
+							"play_speed": 0.8,
+							"set_phase": 4,
+							"command_list": [
+							{"time":0.24, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+                            ],
+							"damage_modifier":{"damage": 0.25,"impact": 0.5,"armor_negation": 1},
+							"hit_command_list":[
+							{"command":"indestructible @s play 'epicfight:biped/combat/hit_long' 0.1 1", "execute_at_target":true}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/rushing_tempo2",
+							"convert_time": 0.1,
+							"play_speed": 0.8,
+							"set_phase": 4,
+							"command_list": [
+							{"time":0.24, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}
+                            ],
+							"damage_modifier":{"damage": 0.25,"impact": 0.5,"armor_negation": 1},
+							"hit_command_list":[
+							{"command":"indestructible @s play 'epicfight:biped/combat/hit_long' 0.1 1", "execute_at_target":true}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/rushing_tempo1",
+							"convert_time": 0.1,
+							"play_speed": 0.8,
+							"set_phase": 4,
+							"command_list": [
+                            ],
+							"damage_modifier":{"damage": 0.25,"impact": 0.5,"armor_negation": 1},
+							"hit_command_list":[
+							{"command":"indestructible @s play 'epicfight:biped/combat/hit_long' 0.1 1", "execute_at_target":true}
+							]
+						},
+						{
+							"conditions": [
+							{"predicate":"random_chance", "chance": 0.5}, {"predicate":"within_distance", "min": 0.0, "max": 6.0}
+							],
+							"wander": 15,             
+							"inaction_time": 15,	  
+							"x_axis": 0.0,		   
+							"z_axis": 0.0,
+							"set_phase": 9
+						}
+
+                    ]
+                },
+				
+				
+				{
+					"weight": 100.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 10,
+					"behaviors": [
+						{
+							"conditions": [
+							{"predicate":"phase", "min": 7, "max": 7}
+							],
+							"animation": "wom:biped/skill/bull_charge",
+							"convert_time": 0.4,
+							"play_speed": 0.8,
+							"set_phase": 4,
+							"command_list": [
+                            ],
+							"damage_modifier":{"damage": 20.0,"impact": 16.0,"armor_negation": 10},
+							"hit_command_list":[
+							{"command":"indestructible @s play 'wom:biped/living/biped_hit_extra_long' -0.05 1", "execute_at_target":true},
+							{"command":"indestructible @s set_phase 10", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							{"predicate":"random_chance", "chance": 0.75}, {"predicate":"within_distance", "min": 4.0, "max": 16.0}
+							],
+							"wander": 15,             
+							"inaction_time": 15,	  
+							"x_axis": 0.0,		   
+							"z_axis": 0.0,
+							"set_phase": 10
+						}
+
+                    ]
+                },
+				
+				{
+					"weight": 100.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 10,
+					"behaviors": [
+						{
+							"conditions": [
+							{"predicate":"phase", "min": 10, "max": 10}
+							],
+							"animation": "wom:biped/skill/bull_charge",
+							"convert_time": -0.1,
+							"play_speed": 0.8,
+							"set_phase": 4,
+							"command_list": [
+                            ],
+							"damage_modifier":{"damage": 20.0,"impact": 16.0,"armor_negation": 10},
+							"hit_command_list":[
+							{"command":"indestructible @s play 'wom:biped/living/biped_hit_extra_long' -0.05 1", "execute_at_target":true},
+							{"command":"indestructible @s set_phase 10", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+							{"predicate":"random_chance", "chance": 0.9}, {"predicate":"within_distance", "min": 4.0, "max": 16.0}
+							],
+							"wander": 15,             
+							"inaction_time": 15,	  
+							"x_axis": 0.0,		   
+							"z_axis": 0.0,
+							"set_phase": 10
+						}
+
+                    ]
+                },
+				
+				
+
+				
+				
+				
+				
+
+				
+
+
+				
+
+				
+				
+				
+				
+
+				
+
+				
+				
+				
+				
+				
+				
+				
+				{
+					"weight": 60.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 10,
+					"behaviors": [
+						{
+							"conditions": [
+							{"predicate":"phase", "min": 8, "max": 8}, {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}
+							],
+							"animation": "wom:biped/skill/roll_backward",
+							"convert_time": 0.1,
+							"set_phase": 4,
+							"command_list": [
+							    {"time":0.0, "command":"effect give @s minecraft:slowness 1 4 true", "execute_at_target":false},							
+							    {"time":0.0, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s star:really_stun_immun 1", "execute_at_target":false},
+								{"time":0.3, "command":"effect give @s star:unstable 2", "execute_at_target":false},
+								
+								{"time":0.04, "command":"tag @s add purple", "execute_at_target":false},
+								{"time":0.04, "command":"schedule function danger:danger_purple 8t append", "execute_at_target":false}
+                            ]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "wom:biped/combat/solar_quemadura",
+							"convert_time": 0.5,
+							"play_speed": 0.7,
+							"set_phase": 4,
+							"command_list": [
+                            ],
+							"hit_command_list":[
+								{"command":"effect give @s alexsmobs:exsanguination 3 1", "execute_at_target":true},
+								{"command":"indestructible @s set_phase 9", "execute_at_target":false},
+								{"command":"indestructible @s play \"epicfight:biped/combat/hit_long\" 0.1 1", "execute_at_target":true}
+							],
+                            "damage_modifier":{
+								"damage": 1.5,
+                                "impact": 1.0,
+                                "armor_negation": 1.6
+							}
+						},
+						{
+							"conditions": [
+							],
+							"animation": "wom:biped/combat/solar_quemadura",
+							"convert_time": 0.05,
+							"play_speed": 0.8,
+							"set_phase": 4,
+							"command_list": [
+                            ],
+							"hit_command_list":[
+								{"command":"effect give @s alexsmobs:exsanguination 3 1", "execute_at_target":true},
+								{"command":"indestructible @s set_phase 9", "execute_at_target":false},
+								{"command":"indestructible @s play \"epicfight:biped/combat/hit_long\" 0.1 1", "execute_at_target":true}
+							],
+                            "damage_modifier":{
+								"damage": 1.5,
+                                "impact": 1.0,
+                                "armor_negation": 1.6
+							}
+						},
+						{
+							"conditions": [
+							],
+							"animation": "wom:biped/combat/solar_quemadura",
+							"convert_time": 0.05,
+							"play_speed": 0.9,
+							"set_phase": 4,
+							"command_list": [
+                            ],
+							"hit_command_list":[
+								{"command":"effect give @s alexsmobs:exsanguination 3 1", "execute_at_target":true},
+								{"command":"indestructible @s set_phase 9", "execute_at_target":false},
+								{"command":"indestructible @s play \"epicfight:biped/combat/hit_long\" 0.1 1", "execute_at_target":true}
+							],
+                            "damage_modifier":{
+								"damage": 1.5,
+                                "impact": 1.0,
+                                "armor_negation": 1.6
+							}
+						},
+						{
+							"conditions": [
+							],
+							"animation": "wom:biped/combat/solar_quemadura",
+							"convert_time": 0.05,
+							"play_speed": 1.0,
+							"set_phase": 4,
+							"command_list": [
+                            ],
+							"hit_command_list":[
+								{"command":"effect give @s alexsmobs:exsanguination 3 1", "execute_at_target":true},
+								{"command":"indestructible @s set_phase 9", "execute_at_target":false},
+								{"command":"indestructible @s play \"epicfight:biped/combat/hit_long\" 0.1 1", "execute_at_target":true}
+							],
+                            "damage_modifier":{
+								"damage": 1.5,
+                                "impact": 1.0,
+                                "armor_negation": 1.6
+							}
+						},
+						{
+							"conditions": [
+							],
+							"animation": "wom:biped/combat/solar_quemadura",
+							"convert_time": 0.05,
+							"play_speed": 1.0,
+							"set_phase": 4,
+							"command_list": [
+                            ],
+							"hit_command_list":[
+								{"command":"effect give @s alexsmobs:exsanguination 3 1", "execute_at_target":true},
+								{"command":"indestructible @s set_phase 9", "execute_at_target":false},
+								{"command":"indestructible @s play \"epicfight:biped/combat/hit_long\" 0.1 1", "execute_at_target":true}
+							],
+                            "damage_modifier":{
+								"damage": 1.5,
+                                "impact": 1.0,
+                                "armor_negation": 1.6
+							}
+						},
+						{
+							"conditions": [
+							],
+							"animation": "wom:biped/combat/solar_quemadura",
+							"convert_time": 0.05,
+							"play_speed": 1.0,
+							"set_phase": 4,
+							"command_list": [
+                            ],
+							"hit_command_list":[
+								{"command":"effect give @s alexsmobs:exsanguination 3 1", "execute_at_target":true},
+								{"command":"indestructible @s set_phase 9", "execute_at_target":false},
+								{"command":"indestructible @s play \"epicfight:biped/combat/hit_long\" 0.1 1", "execute_at_target":true}
+							],
+                            "damage_modifier":{
+								"damage": 1.5,
+                                "impact": 1.0,
+                                "armor_negation": 1.6
+							}
+						},
+						{
+							"conditions": [
+							],
+							"animation": "wom:biped/combat/solar_quemadura",
+							"convert_time": 0.05,
+							"play_speed": 1.0,
+							"set_phase": 4,
+							"command_list": [
+							{"time":0.0, "command":"effect give @s star:unstable 3", "execute_at_target":false}
+                            ],
+							"hit_command_list":[
+								{"command":"effect give @s alexsmobs:exsanguination 3 1", "execute_at_target":true},
+								{"command":"indestructible @s set_phase 9", "execute_at_target":false},
+								{"command":"indestructible @s play \"epicfight:biped/combat/hit_long\" 0.1 1", "execute_at_target":true}
+							],
+                            "damage_modifier":{
+								"damage": 1.5,
+                                "impact": 1.0,
+                                "armor_negation": 1.6
+							}
+						}
+
+                    ]
+                },
+				
+				
+				
+				
+				
+				
+				{
+					"weight": 1.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 60,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 4.25, "max": 32.0}, {"predicate": "health", "health": 0.99, "comparator": "less_ratio"}, {"predicate":"phase", "min": 0, "max": 16}
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"set_phase": 17,
+							"convert_time": 0.0
+						}
+
+                    ]
+                },
+				
+				{
+					"weight": 1.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 10,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 16.0}, {"predicate":"using_item", "edible": true}, {"predicate":"phase", "min": 0, "max": 16}
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"set_phase": 17,
+							"convert_time": 0.0
+						}
+
+                    ]
+                },
+				
+				
+				
+
+				
+				
+				{
+					"weight": 0.5,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 20,
+					"behaviors": [
+						{
+							"conditions": [
+							{"predicate":"within_distance", "min": 8.0, "max": 32.0}, {"predicate":"phase", "min": 17, "max": 17}
+							],
+							"wander": 1,             
+							"inaction_time": 0,	  
+							"x_axis": 0.0,		   
+							"z_axis": 0.0
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/new/fire_ball",
+							"convert_time": 0.25,
+							"play_speed": 1.5,
+							"set_phase": 18,
+							"command_list": [
+								{"time":0.05, "command":"execute as @s at @s run playsound minecraft:entity.evoker.prepare_summon block @p ~ ~ ~ 10 1.5", "execute_at_target":true},
+								{"time":1.0, "command":"playsound minecraft:entity.wither.hurt block @p ~ ~ ~ 1.5", "execute_at_target":false},
+
+								{"time":1.01, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false},
+
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 2", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s minecraft:resistance 3 3", "execute_at_target":false}
+
+                            ]
+						}
+					]
+                },
+				
+				{
+					"weight": 0.5,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 0,
+					"behaviors": [
+						{
+							"conditions": [
+							{"predicate":"within_distance", "min": 8.0, "max": 32.0}, {"predicate":"phase", "min": 18, "max": 18}
+							],
+							"animation": "star:biped/new/fire_ball",
+							"convert_time": -1.0,
+							"play_speed": 4.0,
+							"set_phase": 18,
+							"command_list": [
+								{"time":0.05, "command":"execute as @s at @s run playsound minecraft:entity.evoker.prepare_summon block @p ~ ~ ~ 10 1.5", "execute_at_target":true},
+								{"time":1.0, "command":"playsound minecraft:entity.wither.hurt block @p ~ ~ ~ 1.5", "execute_at_target":false},
+
+								{"time":1.01, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false},
+
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 2", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s minecraft:resistance 3 3", "execute_at_target":false}
+
+                            ]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/new/fire_ball",
+							"convert_time": -1.0,
+							"play_speed": 4.0,
+							"set_phase": 18,
+							"command_list": [
+								{"time":0.05, "command":"execute as @s at @s run playsound minecraft:entity.evoker.prepare_summon block @p ~ ~ ~ 10 1.5", "execute_at_target":true},
+								{"time":1.0, "command":"playsound minecraft:entity.wither.hurt block @p ~ ~ ~ 1.5", "execute_at_target":false},
+
+								{"time":1.01, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false},
+
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 2", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s minecraft:resistance 3 3", "execute_at_target":false}
+
+                            ]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/new/fire_ball",
+							"convert_time": -1.0,
+							"play_speed": 4.0,
+							"set_phase": 18,
+							"command_list": [
+								{"time":0.05, "command":"execute as @s at @s run playsound minecraft:entity.evoker.prepare_summon block @p ~ ~ ~ 10 1.5", "execute_at_target":true},
+								{"time":1.0, "command":"playsound minecraft:entity.wither.hurt block @p ~ ~ ~ 1.5", "execute_at_target":false},
+
+								{"time":1.01, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false},
+
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 2", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s minecraft:resistance 3 3", "execute_at_target":false}
+
+                            ]
+						}
+					]	
+                },
+				
+				{
+					"weight": 0.5,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 0,
+					"behaviors": [
+						{
+							"conditions": [
+							{"predicate":"within_distance", "min": 0.0, "max": 8.0}, {"predicate":"phase", "min": 18, "max": 18}
+							],
+							"wander": 1,             
+							"inaction_time": 0,	  
+							"x_axis": 0.0,		   
+							"z_axis": 0.0
+						},
+                        {
+                            "conditions": [
+                            ],
+                            "animation": "wom:biped/skill/torment_berserk_dash",
+							"play_speed": 1.0, 										
+							"convert_time": 0.3,
+
+							"damage_modifier":{"damage": 0.1,"impact": 0.1,"armor_negation": 3},
+							"command_list": [										 
+								 {"time":0.0, "command":"effect clear @s minecraft:weakness", "execute_at_target":false},	 
+								 {"time":0.0, "command":"effect clear @s cofh_core:shocked", "execute_at_target":false},							 
+							     {"time":0.05, "command":"indestructible @s play 'epicfight:biped/living/hold_longsword' 0.1 1", "execute_at_target":false}					
+							   ],
+							"hit_command_list": [
+                            ]
+                        },
+						{
+							"conditions": [
+							],
+							"animation": "wom:biped/combat/enderblaster_onehand_auto_4",
+							"convert_time": 0.5,
+							"play_speed": 1.0,
+							"set_phase": 1,
+							"command_list": [
+								{"time":0.3, "command":"impactful @s shake 60 5 4", "execute_at_target":true},			
+								{"time":0.3, "command":"execute as @s at @s run particle irons_spellbooks:fire ^ ^-1.0 ^1 0.2 0.1 0.2 0.75 320", "execute_at_target":false},
+								{"time":0.3, "command":"execute as @p at @s run playsound cataclysm:sword_stomp block @s ~ ~ ~ 3.0 1.5", "execute_at_target":true},
+								{"time":0.25, "command":"execute as @p at @s run playsound cataclysm:sword_stomp block @s ~ ~ ~ 3.0 0.5", "execute_at_target":true}
+							],
+							"damage_modifier":{"damage": 2.5,"impact": 64.0,"armor_negation": 2},
+							"hit_command_list":[
+							
+							
+							{"command":"indestructible @s play 'epicfight:biped/combat/knockdown' 0.1 1", "execute_at_target":true},
+							{"command":"effect give @s alexsmobs:exsanguination 3 2", "execute_at_target":true},
+							{"command":"execute as @p at @s run playsound epicfight:entity.hit.eviscerate block @s ~ ~ ~ 2.0 1.5", "execute_at_target":true},
+							{"command":"execute as @p at @s run playsound epicfight:entity.hit.eviscerate block @s ~ ~ ~ 2.0 0.5", "execute_at_target":true},
+							{"command":"execute as @s at @s run particle epicfight:blade_rush ~ ~1 ~ 0 0 0 1 1", "execute_at_target":true},
+							{"command":"execute as @s at @s run particle irons_spellbooks:blood ~ ~0.5 ~ 0.1 0.3 0.1 0.2 640", "execute_at_target":true}
+							]
+						}
+
+                    ]
+                },
+				
+
+				
+				
+				
+				{
+					"weight": 10.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 10, 
+					"behaviors": [
+					    {
+							"conditions": [
+								{"predicate":"within_distance", "min": 4.0, "max": 10.0}, {"predicate":"attack_level", "min": 1, "max": 2}, {"predicate":"phase", "min": 17, "max": 17}
+							],
+							"animation": "epicfight:biped/skill/step_backward", 
+							"convert_time": 0.05,
+							"set_phase": 9,
+							"command_list": [								
+								 {"time":0.05, "command":"playsound star:foresight voice @s ~ ~ ~ 1.0 1.15", "execute_at_target":true},
+								 {"time":0.05, "command":"effect give @s minecraft:speed 1 4 true", "execute_at_target":false}
+							   ]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0
+						}
+                               ]                 
+				},
+				
+				{
+					"weight": 10.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 5, 
+					"behaviors": [
+					    {
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 4.0}, {"predicate":"attack_level", "min": 1, "max": 2}, {"predicate":"phase", "min": 17, "max": 17}
+							],
+							"animation": "wom:biped/skill/roll_backward", 
+							"convert_time": 0.1,
+							"command_list": [								
+								 {"time":0.05, "command":"playsound star:foresight voice @s ~ ~ ~ 1.0 1.15", "execute_at_target":true},
+								 {"time":0.0, "command":"effect give @s minecraft:slowness 1 5 true", "execute_at_target":false}
+							   ]
+						},
+						{
+							"conditions": [
+							{"predicate":"random_chance", "chance": 0.9}
+							],
+							"animation": "epicfight:biped/living/hold_longsword",
+							"convert_time": 0.0,
+							"set_phase": 7
+						}
+                               ]                 
+				},
+				
+				{
+					"weight": 0.1,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 0,
+					"behaviors": [
+						{
+							"conditions": [
+							{"predicate":"phase", "min": 17, "max": 17}, {"predicate":"within_distance", "min": 0.0, "max": 4.0}
+							],
+							"wander": 40,             
+							"inaction_time": 0,	  
+							"x_axis": 0.0,		   
+							"z_axis": -0.6
+						}
+
+                    ]
+                },
+				
+				{
+					"weight": 0.1,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 20,
+					"behaviors": [
+						{
+							"conditions": [
+							{"predicate":"phase", "min": 17, "max": 17}, {"predicate":"within_distance", "min": 4.0, "max": 10.0}
+							],
+							"wander": 40,             
+							"inaction_time": 0,	  
+							"x_axis": 0.15,		   
+							"z_axis": -0.15
+						}
+
+                    ]
+                },
+				
+				{
+					"weight": 0.1,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 20,
+					"behaviors": [
+						{
+							"conditions": [
+							{"predicate":"phase", "min": 17, "max": 17}, {"predicate":"within_distance", "min": 4.0, "max": 10.0}
+							],
+							"wander": 40,             
+							"inaction_time": 0,	  
+							"x_axis": -0.15,		   
+							"z_axis": -0.15
+						}
+
+                    ]
+                },
+				
+				
+				
+				
+				
+				{
+					"weight": 10.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 10,
+					"behaviors": [
+						{
+							"conditions": [
+							{"predicate": "health", "health": 0.99, "comparator": "less_ratio"}, {"predicate":"phase", "min": 5, "max": 5}
+							],
+							"animation": "wom:biped/skill/roll_right",
+							"convert_time": 0.1,
+							"play_speed": 1.0,
+							"set_phase": 6,
+							"command_list": [																							
+                                {"time":0.0, "command":"effect give @s minecraft:slowness 1 4 true", "execute_at_target":false},							
+							    {"time":0.0, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s star:really_stun_immunity 3", "execute_at_target":false}
+							]
+						}
+
+                    ]
+                },
+				
+				
+				
+				{
+					"weight": 0.001,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 120,
+					"behaviors": [
+						{
+							"conditions": [
+							{"predicate":"within_distance", "min": 0.0, "max": 3.0}, {"predicate":"phase", "min": 0, "max": 17},
+							{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}
+							],
+							"animation": "wom:biped/combat/enderblaster_onehand_auto_4",
+							"convert_time": 0.5,
+							"play_speed": 1.0,
+							"set_phase": 1,
+							"command_list": [
+								{"time":0.3, "command":"impactful @s shake 60 5 4", "execute_at_target":true},			
+								{"time":0.3, "command":"execute as @s at @s run particle irons_spellbooks:fire ^ ^-1.0 ^1 0.2 0.1 0.2 0.75 320", "execute_at_target":false},
+								{"time":0.3, "command":"execute as @p at @s run playsound cataclysm:sword_stomp block @s ~ ~ ~ 3.0 1.5", "execute_at_target":true},
+								{"time":0.25, "command":"execute as @p at @s run playsound cataclysm:sword_stomp block @s ~ ~ ~ 3.0 0.5", "execute_at_target":true}
+							],
+							"damage_modifier":{"damage": 2.5,"impact": 64.0,"armor_negation": 2},
+							"hit_command_list":[
+							
+							
+							{"command":"indestructible @s play 'epicfight:biped/combat/knockdown' 0.1 1", "execute_at_target":true},
+							{"command":"effect give @s alexsmobs:exsanguination 3 2", "execute_at_target":true},
+							{"command":"execute as @p at @s run playsound epicfight:entity.hit.eviscerate block @s ~ ~ ~ 2.0 1.5", "execute_at_target":true},
+							{"command":"execute as @p at @s run playsound epicfight:entity.hit.eviscerate block @s ~ ~ ~ 2.0 0.5", "execute_at_target":true},
+							{"command":"execute as @s at @s run particle epicfight:blade_rush ~ ~1 ~ 0 0 0 1 1", "execute_at_target":true},
+							{"command":"execute as @s at @s run particle irons_spellbooks:blood ~ ~0.5 ~ 0.1 0.3 0.1 0.2 640", "execute_at_target":true}
+							]
+						}
+
+                    ]
+                },
+
+                {
+					"weight": 99999,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 12000,
+					"behaviors": [
+                        {
+							"conditions": [
+								{"predicate": "health", "health": 0.67, "comparator": "less_ratio"}
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"set_phase": 1
+						},
+                        {
+							"conditions": [
+							],
+							"animation": "wom:biped/skill/roll_backward",
+							"set_phase": 1
+						},
+                        {
+							"conditions": [
+							],
+							"animation": "epicfight:enderman/convert_rage",
+                            "play_speed": 1.2,
+                            "command_list": [
+                                {"time":0.0, "command":"summon minecraft:lightning_bolt ~ ~ ~", "execute_at_target":false},
+                                {"time":0.2, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+                                {"time":0.2, "command":"effect give @s minecraft:resistance 5 3", "execute_at_target":false},
+                                {"time":0.1, "command":"effect give @s alexsmobs:earthquake 2", "execute_at_target":true}
+                            ],
+							"stamina": -10,
+							"set_phase": 1
+						},
+                        {
+							"conditions": [
+							],
+							"animation": "epicfight:enderman/death",
+							"command_list": [
+								{"time":1.0, "command":"indestructible @s play \"epicfight:biped/living/walk\" 0 1", "execute_at_target":false}
+							],
+							"set_phase": 1
+						}
+					]
+				},
+				
+				
+				
+				
+				
+				
+				{
+					"weight": 150.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 10,
+					"behaviors": [
+						{
+							"conditions": [
+							{"predicate":"guard_break", "invert": false}
+							],
+							"animation": "wom:biped/combat/enderblaster_onehand_auto_4",
+							"convert_time": 0.5,
+							"play_speed": 1.0,
+							"set_phase": 1,
+							"command_list": [
+								{"time":0.3, "command":"impactful @s shake 60 5 4", "execute_at_target":true},			
+								{"time":0.3, "command":"execute as @s at @s run particle irons_spellbooks:fire ^ ^-1.0 ^1 0.2 0.1 0.2 0.75 320", "execute_at_target":false},
+								{"time":0.3, "command":"execute as @p at @s run playsound cataclysm:sword_stomp block @s ~ ~ ~ 3.0 1.5", "execute_at_target":true},
+								{"time":0.25, "command":"execute as @p at @s run playsound cataclysm:sword_stomp block @s ~ ~ ~ 3.0 0.5", "execute_at_target":true}
+							],
+							"damage_modifier":{"damage": 1.5,"impact": 2.0,"armor_negation": 2},
+							"hit_command_list":[
+							
+							
+							{"command":"indestructible @s play 'epicfight:biped/skill/guard_break1' 0.1 1", "execute_at_target":true},
+							{"command":"effect give @s alexsmobs:exsanguination 3 2", "execute_at_target":true},
+							{"command":"execute as @p at @s run playsound epicfight:entity.hit.eviscerate block @s ~ ~ ~ 2.0 1.5", "execute_at_target":true},
+							{"command":"execute as @p at @s run playsound epicfight:entity.hit.eviscerate block @s ~ ~ ~ 2.0 0.5", "execute_at_target":true},
+							{"command":"execute as @s at @s run particle epicfight:blade_rush ~ ~1 ~ 0 0 0 1 1", "execute_at_target":true},
+							{"command":"execute as @s at @s run particle irons_spellbooks:blood ~ ~0.5 ~ 0.1 0.3 0.1 0.2 320", "execute_at_target":true}
+							]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "wom:biped/combat/enderblaster_onehand_auto_4",
+							"convert_time": 0.5,
+							"play_speed": 1.0,
+							"set_phase": 1,
+							"command_list": [
+								{"time":0.3, "command":"impactful @s shake 60 5 4", "execute_at_target":true},			
+								{"time":0.3, "command":"execute as @s at @s run particle irons_spellbooks:fire ^ ^-1.0 ^1 0.2 0.1 0.2 0.75 320", "execute_at_target":false},
+								{"time":0.3, "command":"execute as @p at @s run playsound cataclysm:sword_stomp block @s ~ ~ ~ 3.0 1.5", "execute_at_target":true},
+								{"time":0.25, "command":"execute as @p at @s run playsound cataclysm:sword_stomp block @s ~ ~ ~ 3.0 0.5", "execute_at_target":true}
+							],
+							"damage_modifier":{"damage": 2.5,"impact": 64.0,"armor_negation": 2},
+							"hit_command_list":[
+							
+							
+							{"command":"indestructible @s play 'epicfight:biped/skill/guard_break1' 0.1 1", "execute_at_target":true},
+							{"command":"effect give @s alexsmobs:exsanguination 3 2", "execute_at_target":true},
+							{"command":"execute as @p at @s run playsound epicfight:entity.hit.eviscerate block @s ~ ~ ~ 2.0 1.5", "execute_at_target":true},
+							{"command":"execute as @p at @s run playsound epicfight:entity.hit.eviscerate block @s ~ ~ ~ 2.0 0.5", "execute_at_target":true},
+							{"command":"execute as @s at @s run particle epicfight:blade_rush ~ ~1 ~ 0 0 0 1 1", "execute_at_target":true},
+							{"command":"execute as @s at @s run particle irons_spellbooks:blood ~ ~0.5 ~ 0.1 0.3 0.1 0.2 640", "execute_at_target":true}
+							]
+						},
+					    {
+							"conditions": [
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"command_list": [								
+							     {"time":0.0, "command":"particle irons_spellbooks:fire ~ ~0.5 ~ 0.5 0 0.5 0.1 32 force", "execute_at_target":false},
+                                 {"time":0.0, "command":"execute as @p at @s run playsound cataclysm:sword_stomp block @s ~ ~ ~ 3.0 1.5", "execute_at_target":true},
+								 {"time":0.0, "command":"effect give @s minecraft:levitation 1 74 true", "execute_at_target":false},
+								 {"time":0.0, "command":"effect give @s minecraft:speed 1 9 true", "execute_at_target":false},
+								 {"time":0.075, "command":"effect clear @s minecraft:levitation", "execute_at_target":false}
+							   ]
+						},
+						{
+							"conditions": [
+							],
+							"animation": "wom:biped/combat/enderblaster_twohand_tishnaw",
+							"convert_time": 0.15,
+							"play_speed": 1.0,
+							"set_phase": 1,
+							"command_list": [
+								{"time":0.45, "command":"impactful @s shake 60 5 4", "execute_at_target":true},			
+								{"time":0.25, "command":"effect clear @s minecraft:weakness", "execute_at_target":false},
+								{"time":0.45, "command":"execute as @s at @s run particle irons_spellbooks:fire ^ ^-1.0 ^1 0.2 0.1 0.2 0.75 640", "execute_at_target":false},
+								{"time":0.45, "command":"execute as @p at @s run playsound cataclysm:sword_stomp block @s ~ ~ ~ 3.0 1.5", "execute_at_target":true},
+								{"time":0.4, "command":"execute as @p at @s run playsound cataclysm:sword_stomp block @s ~ ~ ~ 3.0 0.5", "execute_at_target":true}
+							],
+							"damage_modifier":{"damage": 3.5,"impact": 64.0,"armor_negation": 2},
+							"hit_command_list":[
+							
+							
+							{"command":"indestructible @s play 'epicfight:biped/combat/knockdown' 0.1 1", "execute_at_target":true},
+							{"command":"effect give @s alexsmobs:exsanguination 3 2", "execute_at_target":true},
+							{"command":"execute as @p at @s run playsound epicfight:entity.hit.eviscerate block @s ~ ~ ~ 2.0 1.5", "execute_at_target":true},
+							{"command":"execute as @p at @s run playsound epicfight:entity.hit.eviscerate block @s ~ ~ ~ 2.0 0.5", "execute_at_target":true},
+							{"command":"execute as @s at @s run particle epicfight:blade_rush ~ ~1 ~ 0 0 0 1 1", "execute_at_target":true},
+							{"command":"execute as @s at @s run particle irons_spellbooks:blood ~ ~0.5 ~ 0.1 0.3 0.1 0.2 640", "execute_at_target":true}
+							]
+						}
+
+                    ]
+                },
+
+
+
+
+                {
+					"weight": 1000,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 0,
+					"behaviors": [
+						{
+							"conditions": [
+							        {"predicate":"knock_down","invert":false}
+							],
+							"animation": "epicfight:biped/living/sneak",
+							"convert_time": -0.1,
+							"play_speed": 1.0,
+							"set_phase": 9
+						},
+						{
+							"conditions": [
+							],
+							"wander": 2,             
+							"inaction_time": 2,	  
+							"x_axis": 0.1,		   
+							"z_axis": 0.0,
+							"set_phase": 9
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/idle",
+							"convert_time": -0.1,
+							"play_speed": 1.0,
+							"set_phase": 9
+						},
+						{
+							"conditions": [
+							],
+							"wander": 2,             
+							"inaction_time": 2,	  
+							"x_axis": -0.1,		   
+							"z_axis": 0.0,
+							"set_phase": 9
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/sneak",
+							"convert_time": -0.1,
+							"play_speed": 1.0,
+							"set_phase": 9
+						},
+						{
+							"conditions": [
+							],
+							"wander": 2,             
+							"inaction_time": 2,	  
+							"x_axis": 0.1,		   
+							"z_axis": 0.0,
+							"set_phase": 9
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/idle",
+							"convert_time": -0.1,
+							"play_speed": 1.0,
+							"set_phase":9
+						}
+
+					]
+				},
+
+				{
+					"weight": 1000,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 0,
+					"behaviors": [
+						{
+							"conditions": [
+							        {"predicate":"knock_down","invert":false}
+							],
+							"animation": "epicfight:biped/living/sneak",
+							"convert_time": -0.1,
+							"play_speed": 1.0,
+							"set_phase": 10
+						},
+						{
+							"conditions": [
+							],
+							"wander": 2,             
+							"inaction_time": 2,	  
+							"x_axis": 0.1,		   
+							"z_axis": 0.0,
+							"set_phase": 10
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/idle",
+							"convert_time": -0.1,
+							"play_speed": 1.0,
+							"set_phase": 10
+						},
+						{
+							"conditions": [
+							],
+							"wander": 2,             
+							"inaction_time": 2,	  
+							"x_axis": -0.1,		   
+							"z_axis": 0.0,
+							"set_phase": 10
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/sneak",
+							"convert_time": -0.1,
+							"play_speed": 1.0,
+							"set_phase": 10
+						},
+						{
+							"conditions": [
+							],
+							"wander": 2,             
+							"inaction_time": 2,	  
+							"x_axis": 0.1,		   
+							"z_axis": 0.0,
+							"set_phase": 10
+						},
+						{
+							"conditions": [
+							],
+							"animation": "epicfight:biped/living/idle",
+							"convert_time": -0.1,
+							"play_speed": 1.0,
+							"set_phase": 10
+						}
+
+					]
+				}
+
+
+            ]
+        }
+    ]
+}

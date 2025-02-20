@@ -1,0 +1,6 @@
+{
+    "name": "炼狱决斗场",
+    "description": "此处是位于地狱与主世界之间的维度间隙，由于与主世界的联系较近，哪怕多名人员同时进入仍然可以保持稳定。但是也由于与主世界的连接较为接近，召唤出的残魂并非那些战士的全部实力，不过作为探险团的资格检验也已经足够了。",
+    "icon": "stellarisdlc:evidencenether",
+    "parent": "patchouli:boss_place"
+}

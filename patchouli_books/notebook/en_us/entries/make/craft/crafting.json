@@ -1,0 +1,63 @@
+{
+    "name": "炼金术士的遗产",
+    "icon": "minecraft:netherite_scrap",
+    "category": "patchouli:craft",
+"sortnum": 3,
+    "pages": [
+        {
+            "type": "T1",
+           "title":"炼金术士的遗产",
+            "text": "第二帝国时期的炼金术士为了王国的延续，致力于炼金术的研究，意在用大量简单的材料提炼出更高品质的珍宝。然而王国的衰败已摆在眼前，终焉的进攻不可阻挡。因此，在终焉的进攻前失望的炼金术士们用毕生所学击穿了蔚蓝之地的部分封印逃入了恒晓之地，之后用炼金术重新填补其缺口，保证不会有人来犯。据说炼金术的致命弱点是凋零之物的侵蚀。"
+        },
+        {
+            "type": "crafting",
+            "name": "简易的提炼技术",
+            "recipe": "stellariscraft:diamondcrafting",
+            "text":"炼金术士离开时带走了大量器材因此留下的可利用配方不多。通过大量煤炭的压制技术熔合金元素可人造钻石。"
+        },
+        {
+            "type": "crafting",
+            "name": "简易的提炼技术",
+            "recipe": "stellariscraft:netheritescarpcraft",
+            "text":"下界合金理应是地狱的产物稀有产物，炼金术士们通过冒险碎片和金产生的魔力于钻石融合改变了其元素组成，令人惊讶的是操作竟然简单到不需要专业性工具即可制作。这究竟是由于炼金术士的智慧还是冒险晶石碎片的魔力？"
+        },
+        {"type": "patchouli:smith_link",
+           "item1": "cataclysm:ignitium_ingot",
+        "item2": "minecraft:netherite_ingot",
+        "item3": "cataclysm:ignitium_ingot#2",
+        "head":"焰魔锭的复制",
+            "text":"理应是珍贵的材料，火之领主的盔甲残片。但是炼金术士研究发现焰魔锭，焰魔锭的组成与下界合金惊人的相似。焰魔锭本身也难以置信的火之侵蚀力，将下界合金和焰魔锭一起放置于$(#ff0000)锻造台$()上稍加捶打，下界合金就会迅速被侵蚀为焰魔锭。"
+        },
+        {"type": "patchouli:smith_link",
+           "item1": "stellariscraft:netheritess",
+        "item2": "minecraft:gold_ingot",
+        "item3": "minecraft:netherite_scrap#2",
+        "head":"下界合金锭的制作",
+            "text":"下界的探险队曾在偶然间发现了合金巨兽，但当时的巨兽还在建设初期本身没有任何活力，探险队认为其是一种特殊生物的化石，便取走部分用于研究。炼金术士经过测试发现其于下界合金的相似性质，在$(#ff0000)锻造台上$()简单捶打即可于金熔合为下界合金碎片。"
+        },
+       {"type": "patchouli:GF",
+           "item1": "byg:ametrine_block",
+        "item2": "cataclysm:ignitium_ingot",
+        "item3": "cataclysm:void_core",
+        "item4": "quark:dragon_scale",
+        "item5": "minecraft:dragon_head",
+        "item6": "quark:dragon_scale",
+        "item7": "cataclysm:void_core",
+        "item8": "cataclysm:ignitium_ingot",
+           "item9": "byg:ametrine_block",
+           "item10": "ba_bt:guardian_eye_end",
+           "item": "cataclysm:enderite_ingot",
+           "head":"末影合金锭的制作",
+            "text":"第一次终焉进攻后，炼金术士进行了狂热的研究。但当时整个王国都鲜有人踏足终末，能带回原材料的更是少之又少。"
+        },
+      {"type": "patchouli:smith_link",
+           "item1": "cataclysm:ignitium_ingot",
+        "item2": "cataclysm:enderite_ingot",
+        "item3": "cataclysm:enderite_ingot#2",
+        "head":"末影合金复制技术",
+            "text":"不灭之火当受到更加强大的力量通化时，便会呗吞噬融合。利用这种特性，炼金术士也尝试过利用焰魔锭来复制末影合金这种传奇珍宝，过程甚至惊人地简单，只需要在$(#ff0000)锻造台$()上大力锤击即可。不过这种配方在刚发现不久，炼金术士就离开了王国，因此这种配方未让人类文明知晓。"
+        }
+        
+        
+      ]
+}

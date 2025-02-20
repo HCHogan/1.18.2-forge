@@ -1,0 +1,17 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[
+{"item":"bhc:red_heart_canister"},
+{"item":"bhc:yellow_heart_canister"},
+{"item":"bhc:green_heart_canister"},
+{"item":"bhc:blue_heart_canister"},
+{"item":"stellariscraft:superhealth"},
+{"item":"bhc:blue_heart_canister"},
+{"item":"bhc:green_heart_canister"},
+{"item":"bhc:yellow_heart_canister"},
+{"item":"bhc:red_heart_canister"}
+],
+"catalyst":{"item":"stellarisdlc:exchangestonecore"},
+"result":{"item":"artifacts:crystal_heart"},
+"enchantments":[]
+}

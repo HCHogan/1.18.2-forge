@@ -1,0 +1,1 @@
+execute as @e[type=ba_bt:nether_golem,tag=unstable_nether_golem] at @s run effect give @s star:unstable 1

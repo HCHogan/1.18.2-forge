@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "epicfight:iron_dagger",
+    "epicfight:golden_dagger",
+    "epicfight:diamond_dagger",
+    "epicfight:netherite_dagger",
+    "stellariscraft:hunterdagger",
+    "stellarisdlc:dieddagger",
+    "mowziesmobs:naga_fang_dagger",
+
+    "farmersdelight:skillet"
+  ]
+}

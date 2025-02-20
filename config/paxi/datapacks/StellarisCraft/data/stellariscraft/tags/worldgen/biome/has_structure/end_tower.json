@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:small_end_islands",
+        "minecraft:end_midlands",
+        "minecraft:end_highlands",
+        "minecraft:end_barrens",
+        "byg:bulbis_gardens",
+        "byg:shulkren_forest",
+        "byg:nightshade_forest",
+        "#bosses_of_mass_destruction:collections/in_end"
+    ]
+}

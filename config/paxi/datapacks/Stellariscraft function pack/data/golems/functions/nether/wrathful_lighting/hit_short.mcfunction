@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:player,tag=lighting_hit,sort=nearest,limit=1] run indestructible @s play "epicfight:biped/combat/hit_short" 2 1

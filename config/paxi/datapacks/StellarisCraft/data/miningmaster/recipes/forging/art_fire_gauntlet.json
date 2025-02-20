@@ -1,0 +1,9 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[{"item":"miningmaster:fire_ruby"},
+{"item":"amethysttoolsmod:amethyst_cluster_lv2"},
+{"item":"miningmaster:fire_ruby"}],
+"catalyst":{"item":"stellariscraft:exchangestone"},
+"result":{"item":"artifacts:fire_gauntlet"},
+"enchantments":[]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "stellariscraft:legendary_staff",
+  "weight": 2,
+  "reforge_experience_cost": 4,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:staff"}
+  ],
+  "style": {
+    "color": "gold"
+  },
+  "attributes": [
+    {
+      "type": "toybox:crit_chance",
+      "modifier": {
+        "name": "stellariscraft:legendary_staff",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": -0.5
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "minecraft:generic.attack_damage",
+      "modifier": {
+        "name": "stellariscraft:legendary_staff",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.2
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "epicfight:stun_armor",
+      "modifier": {
+        "name": "stellariscraft:legendary_staff",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.18
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "epicfight:weight",
+      "modifier": {
+        "name": "stellariscraft:legendary_staff",
+        "operation": "ADDITION",
+        "amount": 8
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "generic.attack_speed",
+      "modifier": {
+        "name": "stellariscraft:legendary_staff",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.1
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "stellariscraft:rare_axe",
+  "weight": 9,
+  "reforge_experience_cost": 2,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:axe_minecraft"},
+    {"tag": "forge:axe_other_mods"},
+    {"tag": "forge:hammer"}
+  ],
+  "style": {
+    "color": "blue"
+  },
+  "attributes": [
+    {
+      "type": "epicfight:stun_armor",
+      "modifier": {
+        "name": "stellariscraft:rare_axe",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.04
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "epicfight:staminar",
+      "modifier": {
+        "name": "stellariscraft:rare_axe",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.11
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

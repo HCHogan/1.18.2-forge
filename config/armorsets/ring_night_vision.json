@@ -1,0 +1,18 @@
+{
+  "armorSetName": "ring_night_vision",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "ringsofascension:ring_night_vision"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:night_vision",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

@@ -1,0 +1,39 @@
+{
+    "name": "蜘蛛紫锂辉石",
+    "category": "patchouli:mining",
+    "icon": "miningmaster:spider_kunzite",
+    "pages": [
+       {"type": "spotlight",
+        "title":"蜘蛛紫锂辉石",
+        "item": "miningmaster:spider_kunzite",
+        "text": "吸收了节肢力量产生的珍惜矿物，听说森白影魔灵活的身法便是由于他的出生点盛产此矿。$(br2)分布极其稀少，森林生物群系的地下会少量增加数量，流浪商人有时也会以1金币的价格售卖。$(br)$(#ff0000)赤焰小队的炽焰魔使$()尤为热爱掠夺此物",
+        "link_recipe":true
+         },
+        {
+            "type": "patchouli:png_mining",
+            "image": "stellarisdlc:textures/png/spider.png",
+            "text1":"蜘蛛紫锂辉石矿",
+            "text2":"生成层数y:-40~20$(br)森林群系:9个/区块$(br)其他群系:0.5个/区块"
+            
+          },
+      {
+        "type": "patchouli:mining_smith",
+        "head":"蜘蛛紫锂辉石的简单使用",
+        "item1": "minecraft:diamond_sword",
+        "item2": "miningmaster:spider_kunzite",
+        "item3": "minecraft:diamond_sword{Enchantments:[{id:'bane_of_arthropods',lvl:1s}]}",
+        "item4": "minecraft:diamond_pickaxe",
+        "item5": "miningmaster:spider_kunzite",
+        "item6": "minecraft:diamond_pickaxe{Enchantments:[{id:'silk_touch',lvl:1s}]}",
+        "item7": "minecraft:diamond_sword{Enchantments:[{id:'bane_of_arthropods',lvl:1s}]}",
+        "item8": "miningmaster:spider_kunzite",
+        "item9": "minecraft:diamond_sword{Enchantments:[{id:'bane_of_arthropods',lvl:2s}]}"
+      },
+      {
+         "type":"patchouli:TT",
+        "head":"蜘蛛紫锂辉石的简单使用",
+        "text":"在$(#ff0000)锻造台$()上可以根据物品的不同分别赋予节肢属性的力量，可以通过再次锻造反复提升力量但是由于并非专业的魔力注入，$(#ff0000)无法突破这些附魔原有的极限。$()"
+        
+      }
+    ]
+  }

@@ -1,0 +1,1 @@
+execute as @e[type=jobinsmobs:goldenflame,sort=nearest,tag=anti_form] run tag @s remove anti_form

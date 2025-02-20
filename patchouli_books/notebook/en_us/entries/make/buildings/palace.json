@@ -1,0 +1,19 @@
+{
+    "name": "繁花之宫",
+    "icon": "ecologics:sandcastle",
+    "category": "patchouli:buildings",
+    "sortnum":0,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"繁花之宫/shiraz_palace",
+            "text": "最为繁华的宫殿也抵抗不了历史的冲刷，这里原本是狂沙之枪的黄金之城的正中心，所以藏匿着几乎无穷的宝物。当守卫的矛被时间折断，再辉煌的城市也会由于失去了守护者而被战火洗礼，规模惊人的黄金之城也只剩下了这一小部分，最后的追随者们为了守护财富，诅咒了自己也诅咒了城市的子民，化为不死之人守护着最后的荣光。或许他们还在幻想着自己的王会回归，会归来再次领导他们......."
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/palace.png",
+            "text1":"坠入梦乡.",
+            "text2":""
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "stellariscraft:talented_magic_helmet",
+  "weight": 3,
+  "reforge_experience_cost": 2,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:helmets"}
+  ],
+  "style": {
+    "color": "green"
+  },
+  "attributes": [
+
+   {
+      "type": "lodestone:magic_resistance",
+      "modifier": {
+        "name": "stellariscraft:talented_magic_helmet",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.2
+      },
+      "optional_equipment_slots": [
+        "HEAD"
+      ]
+    },
+{
+      "type": "toybox:burden",
+      "modifier": {
+        "name": "stellariscraft:talented_magic_helmet",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.3
+      },
+      "optional_equipment_slots": [
+        "HEAD"
+      ]
+    }
+  ]
+}

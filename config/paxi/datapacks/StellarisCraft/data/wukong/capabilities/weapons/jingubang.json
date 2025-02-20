@@ -1,0 +1,13 @@
+{
+  "attributes":
+  {
+    "common":
+    {
+      "damage_bonus":-1,
+      "impact":0.5,
+      "max_strikes":3,
+      "armor_negation":28.0
+    }
+  },
+  "type":"wukong:wk_staff"
+}

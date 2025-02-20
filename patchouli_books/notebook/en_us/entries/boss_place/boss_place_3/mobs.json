@@ -1,0 +1,33 @@
+{
+    "name": "原始自然怪物再召唤",
+    "icon": "stellarisdlc:helleyes",
+    "category": "patchouli:boss_place_3",
+    "sortnum":4,
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "name":"霜冻巨兽",
+            "entity": "mowziesmobs:frostmaw",
+            "scale": 0.9,
+            "offset": 0.2
+        },
+        {"type": "spotlight",
+        "title":"召唤材料",
+        "item": "byg:ametrine_gems,minecraft:blue_ice,miningmaster:ice_sapphire",
+        "text": "紫黄晶x1$(br)蓝冰x1$(br)寒冰蓝宝石x1$(br)最后加入$(1)$(l:boss_place/boss_summon/imessence)往生精华$()$()$(br2)令人困惑的是这种本应属于终焉之力的召唤术为何会出现在这本书中。"
+         },
+{
+            "type": "patchouli:entity",
+            "name":"太阳烈鸟",
+            "entity": "mowziesmobs:umvuthi",
+            "scale": 0.9,
+            "offset": 0.2
+        },
+        {"type": "spotlight",
+        "title":"召唤材料",
+        "item": "byg:ametrine_gems,minecraft:campfire,stellariscraft:sandheart",
+        "text": "紫黄晶x1$(br)营火x1$(br)耀沙之心x1$(br)最后加入$(1)$(l:boss_place/boss_summon/imessence)往生精华$()$()$(br2)人类与终焉都未曾尝试过的禁忌方法不应出现在这本书上。"
+         }
+        
+    ]
+}

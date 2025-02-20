@@ -1,0 +1,43 @@
+{
+    "name": "力量黄铁矿",
+    "category": "patchouli:mining",
+    "icon": "miningmaster:power_pyrite",
+"sortnum":1,
+    "pages": [
+       {"type": "spotlight",
+        "title":"力量黄铁矿",
+        "item": "miningmaster:power_pyrite",
+        "text": "吸收了猩红力量产生的珍惜矿物。$(br2)分布极端稀少，绯红森林生物群系的地下会少量增加数量，流浪商人偶尔也会以2金币的价格售卖。$(br)$(#ff0000)下界傀儡$()的毁灭力量就是因为此物是核心之一。$(#ff0000)杀戮将军$()的强大力量也有着它的一份功劳。",
+        "link_recipe":true
+         },
+        {
+            "type": "patchouli:png_mining",
+            "image": "stellarisdlc:textures/png/power.png",
+            "text1":"力量黄铁矿",
+            "text2":"生成层数:所有高度$(br)绯红森林群系:5个/区块$(br)其他群系:0.5个/区块"
+            
+          },
+      {
+        "type": "patchouli:mining_smith",
+        "head":"力量黄铁矿的简单使用",
+        "item1": "minecraft:diamond_sword{Enchantments:[{id:'minecraft:sharpness',lvl:4s}]}",
+        "item2": "miningmaster:power_pyrite",
+        "item3": "minecraft:diamond_sword{Enchantments:[{id:'minecraft:sharpness',lvl:5s}]}",
+        "item4": "minecraft:diamond_pickaxe",
+        "item5": "miningmaster:power_pyrite",
+        "item6": "minecraft:diamond_pickaxe{Enchantments:[{id:'miningmaster:stonebreaker',lvl:1s}]}",
+        "item7": "minecraft:bow",
+        "item8": "miningmaster:power_pyrite",
+        "item9": "minecraft:bow{Enchantments:[{id:'power',lvl:1s}]}"
+      },
+      {
+         "type":"patchouli:smith",
+         "head":"力量黄铁矿的简单使用",
+        "item1": "minecraft:trident",
+        "item2": "miningmaster:power_pyrite",
+        "item3": "minecraft:trident{Enchantments:[{id:'minecraft:impaling',lvl:1s}]}",
+        "text":"在$(#ff0000)锻造台$()上可以根据物品的不同分别赋予力量属性的能力，可以通过再次锻造反复提升力量但是由于并非专业的魔力注入，$(#ff0000)无法突破这些附魔原有的极限。$()"
+        
+      }
+    ]
+  }

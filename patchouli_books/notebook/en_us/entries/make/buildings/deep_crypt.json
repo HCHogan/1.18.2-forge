@@ -1,0 +1,19 @@
+{
+    "name": "地下墓穴",
+    "icon": "minecraft:rotten_flesh",
+    "category": "patchouli:buildings",
+    "sortnum":0,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"地下墓穴/deep crypt",
+            "text": "土葬是古老的习俗，这是帝国时期的习惯，庞大的人口基数也导致了巨大的墓穴规模。当终焉入侵之后成堆的尸骸无处安放只能乱葬与地下，当终焉力量渗入之时，这些尸体便会渴望侵略与杀戮。然而，或许也是由于墓穴规模的庞大与错综复杂，几乎不会有行走的尸体能够离开这里。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/deep_crypt.png",
+            "text1":"入土为安",
+            "text2":""
+        }
+    ]
+}

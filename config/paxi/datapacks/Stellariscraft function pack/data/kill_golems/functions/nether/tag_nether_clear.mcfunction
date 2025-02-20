@@ -1,0 +1,1 @@
+execute as @p[tag=kill_nether] run tag @s remove kill_nether

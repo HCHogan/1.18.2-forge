@@ -1,0 +1,30 @@
+{
+    "name": "下界铁掌",
+    "icon": "bosses_of_mass_destruction:blazing_eye",
+    "category": "patchouli:beast_strong",
+    "sortnum":12,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"下界铁掌/gauntlet arean",
+            "text": "下界的古老生灵，据说下界的原生矿物远古残骸就是这种古老的生物在时间的尽头不断死亡与重生带来的馈赠。相传这一种族在下界诞生之初就已经存在，因此唤醒这种生物也要承受着这种源自下界诞生就存在的野蛮。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/nether_hand.png",
+            "text1":"深眠的禁忌之物",
+            "text2":""
+        },
+     {"type": "spotlight",
+        "title":"召唤方法",
+        "item": "bosses_of_mass_destruction:gauntlet_blackstone",
+        "text": "在建筑的核心区域，挖开远古雕纹黑石，深眠的下界铁掌便会苏醒......"
+         },
+        {"type": "spotlight",
+        "title":"掉落物",
+        "item": "bosses_of_mass_destruction:blazing_eye,stellariscraft:adventurespar,minecraft:netherite_scrap,dotcoinmod:iron_coin,bhc:green_heart",
+        "text": "击杀后掉落$(br)烈焰之眼1个$(br2)以下掉落物通过$(t:等级越高提高数量越多,下列为无附魔掉落数量)$(5)抢夺$()可增加数量$(br)冒险晶石、下界合金碎片、银币1~2个$(br)绿心0个。"
+         }
+        
+    ]
+}

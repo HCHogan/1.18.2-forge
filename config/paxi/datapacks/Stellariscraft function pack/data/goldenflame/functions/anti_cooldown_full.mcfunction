@@ -1,0 +1,1 @@
+schedule function goldenflame:blackhole/anti_cooldown_tag_remove 1300t append

@@ -1,0 +1,54 @@
+{
+    "name": "幸运黄水晶",
+    "category": "patchouli:mining",
+    "icon": "miningmaster:lucky_citrine",
+    "pages": [
+       {"type": "spotlight",
+        "title":"幸运黄水晶",
+        "item": "miningmaster:lucky_citrine",
+        "text": "吸收了幸运力量产生的珍惜矿物，有人将$(#ff0000)狂沙之枪$()能不败的原因归结于它的存在。$(br2)分布极其稀少，恶地生物群系的地下会少量增加数量，流浪商人有时也会以1金币的价格售卖。另外，$(#ff0000)太阳神鸟$()的力量也源自此物，其死亡后会凝结出此宝石",
+        "link_recipe":true
+         },
+        {
+            "type": "patchouli:png_mining",
+            "image": "stellarisdlc:textures/png/lucky.png",
+            "text1":"幸运黄水晶",
+            "text2":"生成层数y:-40~20$(br)恶地群系:9个/区块$(br)其他群系:0.5个/区块"
+            
+          },
+      {
+        "type": "patchouli:mining_smith",
+        "head":"幸运黄水晶的简单使用",
+        "item1": "minecraft:diamond_sword",
+        "item2": "miningmaster:lucky_citrine",
+        "item3": "minecraft:diamond_sword{Enchantments:[{id:'looting',lvl:1s}]}",
+        "item4": "minecraft:diamond_pickaxe",
+        "item5": "miningmaster:lucky_citrine",
+        "item6": "minecraft:diamond_pickaxe{Enchantments:[{id:'fortune',lvl:1s}]}",
+        "item7": "minecraft:fishing_rod",
+        "item8": "miningmaster:lucky_citrine",
+        "item9": "minecraft:fishing_rod{Enchantments:[{id:'luck_of_the_sea',lvl:1s}]}"
+      },
+{
+        "type": "patchouli:mining_smith",
+        "head":"幸运黄水晶的简单使用",
+        "item1": "minecraft:diamond_hoe",
+        "item2": "miningmaster:lucky_citrine",
+        "item3": "minecraft:diamond_hoe{Enchantments:[{id:'majruszsenchantments:harvester',lvl:1s}]}",
+        "item4": "minecraft:diamond_chestplate",
+        "item5": "miningmaster:lucky_citrine#2",
+        "item6": "minecraft:diamond_chestplate{Enchantments:[{id:'majruszsenchantments:enlightenment',lvl:2s}]}",
+        "item7": "minecraft:crossbow",
+        "item8": "miningmaster:lucky_citrine",
+        "item9": "minecraft:crossbow{Enchantments:[{id:'majruszsenchantments:hunter',lvl:1s}]}"
+      },
+      {
+         "type":"patchouli:smith",
+         "item1": "minecraft:fishing_rod{Enchantments:[{id:'luck_of_the_sea',lvl:1s}]}",
+        "item2": "miningmaster:lucky_citrine",
+        "item3": "minecraft:fishing_rod{Enchantments:[{id:'luck_of_the_sea',lvl:2s}]}",
+        "text":"在$(#ff0000)锻造台$()上可以根据物品的不同分别赋予幸运属性的力量，可以通过再次锻造反复提升力量但是由于并非专业的魔力注入，$(#ff0000)无法突破这些附魔原有的极限。$()"
+        
+      }
+    ]
+  }

@@ -1,0 +1,1 @@
+execute at @e[type=ba_bt:nether_golem,sort=nearest,limit=1] run particle minecraft:flame ~ ~1 ~ 0 0.5 0 0.1 100 force

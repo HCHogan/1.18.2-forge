@@ -1,0 +1,1 @@
+execute as @e[type=ba_bt:ocean_golem] at @s run tp @e[type=minecraft:guardian,limit=1,sort=nearest,distance=..20] ~ ~ ~

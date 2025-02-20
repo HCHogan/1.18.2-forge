@@ -1,0 +1,81 @@
+{
+    "replace": true,
+    "trades": [
+        {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "dotcoinmod:copper_coin",
+              "count": 4
+            },
+            "payment_item": {
+              "item": "minecraft:carrot",
+              "count": 32
+            },
+            "price_multiplier": 0.0,
+            "max_trades": 16,
+            "experience": 4
+          },
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "dotcoinmod:copper_coin",
+              "count": 4
+            },
+            "payment_item": {
+              "item": "minecraft:glowstone",
+              "count": 64
+            },
+            "max_trades": 16,
+            "experience": 3
+          },
+
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "dotcoinmod:copper_coin",
+              "count": 1
+            },
+            "payment_item": {
+              "item": "minecraft:netherrack",
+              "count": 64
+            },
+            "price_multiplier": 0.0,
+            "max_trades": 32,
+            "experience": 3
+          },
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "dotcoinmod:iron_coin",
+              "count": 1
+            },
+            "payment_item": {
+              "item": "minecraft:nether_wart",
+              "count": 16
+            },
+            "experience": 4,
+            "max_trades": 4
+          },
+
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "minecraft:slime_block",
+              "count": 24
+            },
+            "payment_item": {
+              "item": "byg:embur_gel_block",
+              "count": 32
+            },
+            "secondary_payment_item": {
+              "item": "miningmaster:ice_sapphire",
+              "count": 1
+            },
+            "experience": 16,
+            "max_trades": 2
+          }
+
+
+
+        ]
+      }

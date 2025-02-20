@@ -1,0 +1,38 @@
+{
+  "armorSetName": "miningmaster_paragon",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+    "itemKey": "stellarisdlc:paragoncrown"
+  }
+  ],
+  "head": {
+    "itemKey": "miningmaster:paragon_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "miningmaster:paragon_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "miningmaster:paragon_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "miningmaster:paragon_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "cofh_core:panacea",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 120,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "description": "cofh_core:panacea"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

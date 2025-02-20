@@ -1,0 +1,23 @@
+{
+    "display": {
+      "icon": {
+        "item": "stellariscraft:adventurespar"
+      },
+      "title":{
+        "text": "终焉之旅"
+    },
+    "description": {
+        "text": "开启终焉的冒险之旅"
+    },
+      "frame": "task",
+      "background":"minecraft:textures/gui/advancements/backgrounds/end.png",
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "pkey": {
+        "trigger": "minecraft:tick",
+        "conditions": {}
+      }
+    }
+  }

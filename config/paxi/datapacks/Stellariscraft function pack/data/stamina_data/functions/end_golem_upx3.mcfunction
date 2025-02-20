@@ -1,0 +1,2 @@
+schedule function stamina_data:stamina_change/end_golem_upx3 1t append
+schedule function stamina_data:stamina_change/end_golem_down 31t append

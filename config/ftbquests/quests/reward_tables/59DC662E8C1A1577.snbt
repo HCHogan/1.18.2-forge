@@ -1,0 +1,59 @@
+{
+	id: "59DC662E8C1A1577"
+	order_index: 8
+	title: "斧头"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "minecraft:wooden_axe"
+				Count: 1b
+				tag: {
+					RepairCost: 1
+					Damage: 0
+					Enchantments: [{
+						lvl: 15s
+						id: "minecraft:efficiency"
+					}]
+					display: {
+						Name: "{\"text\":\"*破破烂烂的木斧*\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:iron_axe"
+				Count: 1b
+				tag: {
+					RepairCost: 1
+					Damage: 0
+					Enchantments: [{
+						lvl: 15s
+						id: "minecraft:efficiency"
+					}]
+					display: {
+						Name: "{\"text\":\"*银斧子*\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:golden_axe"
+				Count: 1b
+				tag: {
+					RepairCost: 3
+					Damage: 0
+					display: {
+						Name: "{\"text\":\"*金斧子*\"}"
+					}
+					Enchantments: [{
+						lvl: 15s
+						id: "minecraft:efficiency"
+					}]
+				}
+			}
+		}
+	]
+}

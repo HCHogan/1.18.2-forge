@@ -1,0 +1,51 @@
+{
+    "name": "急迫橄榄石",
+    "category": "patchouli:mining",
+    "icon": "miningmaster:haste_peridot",
+    "pages": [
+       {"type": "spotlight",
+        "title":"急迫橄榄石",
+        "item": "miningmaster:haste_peridot",
+        "text": "吸收了速度的力量产生的珍惜矿物$(br2)分布极其稀少，丛林生物群系的地下会少量增加数量，流浪商人有时也会以1金币的价格售卖。$(br)另外，据说$(#ff0000)大地傀儡$()毁灭后其力量会幻化为此物",
+        "link_recipe":true
+         },
+        {
+            "type": "patchouli:png_mining",
+            "image": "stellarisdlc:textures/png/haste.png",
+            "text1":"急迫橄榄石矿",
+            "text2":"生成层数y:-40~20$(br)丛林群系:9个/区块$(br)其他群系:0.5个/区块"
+            
+          },
+      {
+        "type": "patchouli:mining_smith",
+        "head":"急迫橄榄石的简单使用",
+        "item1": "minecraft:fishing_rod",
+        "item2": "miningmaster:haste_peridot",
+        "item3": "minecraft:fishing_rod{Enchantments:[{id:'lure',lvl:1s}]}",
+        "item4": "minecraft:diamond_pickaxe",
+        "item5": "miningmaster:haste_peridot",
+        "item6": "minecraft:diamond_pickaxe{Enchantments:[{id:'efficiency',lvl:1s}]}",
+        "item7": "minecraft:crossbow",
+        "item8": "miningmaster:haste_peridot",
+        "item9": "minecraft:crossbow{Enchantments:[{id:'quick_charge',lvl:1s}]}"
+      },
+      {
+         "type":"patchouli:smith",
+         "item1": "minecraft:fishing_rod{Enchantments:[{id:'lure',lvl:1s}]}",
+        "item2": "miningmaster:haste_peridot",
+        "head":"急迫橄榄石的简单使用",
+        "item3": "minecraft:fishing_rod{Enchantments:[{id:'lure',lvl:2s}]}",
+        "text":"在$(#ff0000)锻造台$()上可以根据物品的不同分别赋予速度属性的力量，可以通过再次锻造反复提升力量但是由于并非专业的魔力注入，$(#ff0000)无法突破这些附魔原有的极限。$()"
+        
+      },
+     {
+        "type":"patchouli:smith",
+        "head":"急迫橄榄石的简单使用",
+        "item1": "minecraft:diamond_pickaxe{Enchantments:[{id:'veinmining:vein_mining',lvl:1s}]}",
+        "item2": "miningmaster:haste_peridot_block",
+        "item3": "minecraft:diamond_pickaxe{Enchantments:[{id:'veinmining:vein_mining',lvl:2s}]}",
+        "text":"制作成块的急迫橄榄石的属性发生了质变在$(#ff0000)锻造台$()上可以给予物品$(#ff0000)连锁采集$()的附魔。当然,可以通过再次锻造反复提升附魔但是由于并非专业的魔力注入，$(#ff0000)无法突破这些附魔原有的极限。$()"
+        
+      }
+    ]
+  }

@@ -1,0 +1,31 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "conditions": [
+    {
+      "itemRegistryName": "sophisticatedbackpacks:diamond_backpack",
+      "type": "sophisticatedcore:item_enabled"
+    }
+  ],
+  "pattern": [
+    "DND",
+    "DBD",
+    "DKD"
+  ],
+  "key": {
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+    "B": {
+      "item": "sophisticatedbackpacks:gold_backpack"
+    },
+    "N": {
+      "item": "quark:diamond_heart"
+    },
+    "K": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:diamond_backpack"
+  }
+}

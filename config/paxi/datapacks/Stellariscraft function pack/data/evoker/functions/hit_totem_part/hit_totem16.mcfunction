@@ -1,0 +1,1 @@
+execute unless entity @e[type=minecraft:evoker,limit=1,sort=nearest,nbt={HandItems:[{id:"minecraft:totem_of_undying"}],ForgeCaps:{"champions:champion":{tier:5}}}] run item replace entity @e[type=minecraft:evoker,limit=1,sort=nearest,nbt={ForgeCaps:{"champions:champion":{tier:5}}}] weapon.offhand with minecraft:totem_of_undying

@@ -1,0 +1,105 @@
+{
+    "replace": true,
+    "trades": [
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "dotcoinmod:iron_coin",
+              "count": 4
+            },
+            "payment_item": {
+              "item": "cnb:cinder_furnace",
+              "count": 32
+            },
+            "experience": 4,
+            "max_trades": 2
+          },
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "minecraft:wither_skeleton_skull",
+              "count": 1
+            },
+            "payment_item": {
+              "item": "bhc:wither_bone",
+              "count": 2
+            },
+            "price_multiplier": 0.0,
+            "max_trades": 6,
+            "experience": 10
+          },
+
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "miningmaster:kinetic_opal",
+              "count": 2
+            },
+            "payment_item": {
+              "item": "miningmaster:kinetic_opal_ore",
+              "count": 1
+            },
+            "secondary_payment_item": {
+              "item": "minecraft:lava_bucket",
+              "count": 1
+            },
+            "price_multiplier": 0.0,
+            "max_trades": 6,
+            "experience": 20
+          },
+    
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "minecraft:diamond_sword",
+              "count": 1
+            },
+            "payment_item": {
+              "item": "minecraft:diamond_sword",
+              "count": 1,
+              "nbt": "{Enchantments:[{id:\"minecraft:looting\",lvl:5s}]}"
+            },
+            "secondary_payment_item": {
+              "item": "ba_bt:guardian_eye_nether",
+              "count": 1
+            },
+            "max_trades": 1,
+            "experience": 300,
+            "enchantments": [
+              {
+                "id": "minecraft:looting",
+                "level": 6
+              }
+            ]
+          },
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "minecraft:diamond_pickaxe",
+              "count": 1
+            },
+            "payment_item": {
+              "item": "minecraft:diamond_pickaxe",
+              "count": 1,
+              "nbt": "{Enchantments:[{id:\"minecraft:fortune\",lvl:5s}]}"
+            },
+            "secondary_payment_item": {
+              "item": "stellarisdlc:evidencestar_1",
+              "count": 1
+            },
+            "max_trades": 1,
+            "experience": 300,
+            "enchantments": [
+              {
+                "id": "minecraft:fortune",
+                "level": 6
+              }
+            ]
+          }
+
+
+
+        ]
+    }
+        
+      

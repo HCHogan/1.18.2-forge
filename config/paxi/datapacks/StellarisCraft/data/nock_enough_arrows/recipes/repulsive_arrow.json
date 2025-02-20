@@ -1,0 +1,16 @@
+{
+  "type": "nock_enough_arrows:fletching",
+  "fletching": {
+    "item": ""
+  },
+  "shaft": {
+    "item": ""
+  },
+  "arrowhead": {
+    "item": ""
+  },
+  "result": {
+    "item": "",
+    "count": 0
+  }
+}

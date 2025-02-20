@@ -1,0 +1,1 @@
+execute as @e[type=jobinsmobs:msabyss,tag=unstable_msabyss] at @s run effect give @s star:unstable 1

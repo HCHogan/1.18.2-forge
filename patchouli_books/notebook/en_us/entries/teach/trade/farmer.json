@@ -1,0 +1,65 @@
+{
+    "name": "农夫(堆肥桶)",
+    "icon": "minecraft:composter",
+    "category": "patchouli:trade",
+    "sortnum":0,
+    "pages": [
+{"type":"trade2",
+ "head":"村民等级:新手",
+ "item1":"minecraft:beetroot#32",
+ "item2":"minecraft:air",
+ "item3":"dotcoinmod:copper_coin#3",
+ "text1":"10次",
+ "item4":"dotcoinmod:copper_coin#3",
+ "item5":"minecraft:air",
+ "item6":"byg:white_puffball_cap#3",
+ "text2":"10次"
+},
+{"type":"trade2",
+ "head":"村民等级:学徒",
+ "item1":"minecraft:wheat#32",
+ "item2":"minecraft:air",
+ "item3":"dotcoinmod:copper_coin#5",
+ "text1":"20次",
+ "item4":"dotcoinmod:copper_coin#8",
+ "item5":"minecraft:air",
+ "item6":"minecraft:rabbit_stew#4",
+ "text2":"20次"
+},
+{"type":"trade2",
+ "head":"村民等级:老手",
+ "item1":"minecraft:honey_bottle#12",
+ "item2":"minecraft:air",
+ "item3":"dotcoinmod:copper_coin#16",
+ "text1":"20次",
+ "item4":"dotcoinmod:iron_coin",
+ "item5":"minecraft:air",
+ "item6":"bhc:red_heart",
+ "text2":"2次"
+},
+{"type":"trade2",
+ "head":"村民等级:专家",
+ "item1":"overweight_farming:overweight_carrot_block#4",
+ "item2":"minecraft:air",
+ "item3":"dotcoinmod:iron_coin#3",
+ "text1":"10次",
+ "item4":"dotcoinmod:copper_coin#8",
+ "item5":"minecraft:air",
+ "item6":"largemeals:hearty_lunch",
+ "text2":"10次"
+},
+{"type":"trade2",
+ "head":"村民等级:大师",
+ "item1":"overweight_farming:overweight_onion_block#3",
+ "item2":"minecraft:air",
+ "item3":"dotcoinmod:iron_coin#4",
+ "text1":"20次",
+ "item4":"dotcoinmod:diamond_coin#5",
+ "item5":"minecraft:air",
+ "item6":"epicfight:skillbook{skill:\"epicfight:hypervitality\"}",
+ "text2":"1次"
+
+}
+
+    ]
+}

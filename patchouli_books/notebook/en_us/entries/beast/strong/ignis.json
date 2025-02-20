@@ -1,0 +1,26 @@
+{
+    "name": "焰魔",
+    "icon": "cataclysm:altar_of_fire",
+    "category": "patchouli:beast_strong",
+    "sortnum":9,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"焰魔/burning arean",
+            "text": "下界的原本统治者，诞生于灼热的熔岩之间，强大的同时也暴虐无道。后来被金焰神王与人类联手共同封印，并将其的纯净之火拆散出部分力量，同时也产生了自愿追逐火焰的燃魂。然而火焰的实力远超众人想象，被封印的同时诞生了火焰祭坛与熔岩竞技场，或许火之领主仍在等待着重生。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/ignis.png",
+            "text1":"炽热的火焰领主",
+            "text2":""
+        },
+    
+        {"type": "spotlight",
+        "title":"掉落物",
+        "item": "cataclysm:ignitium_ingot,cataclysm:music_disc_ignis,bhc:green_heart",
+        "text": "击杀后掉落$(br)焰魔锭3个$(br)音乐唱片：魔界(10%)$(br)绿心0个$(br2)可以通过配置$(t:等级越高提高量越多,书中为无抢夺掉落量)$(5)抢夺$()附魔提高掉落量。"
+         }
+        
+    ]
+}

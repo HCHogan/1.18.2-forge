@@ -1,0 +1,42 @@
+{
+  "id": "stellariscraft:balanced",
+  "weight": 1.1,
+  "reforge_experience_cost": 4,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:sword_minecraft"},
+    {"tag": "forge:sword_other_mods"},
+    {"tag": "forge:gauntlet"},
+    {"id":  "minecraft:trident"},
+    {"id":  "amethysttoolsmod:amethyst_trident"}
+  ],
+  "style": {
+    "color": "#c471ed"
+  },
+  "attributes": [
+    {
+      "type": "epicfight:staminar",
+      "modifier": {
+        "name": "stellariscraft:balanced",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.2
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "generic.attack_speed",
+      "modifier": {
+        "name": "stellariscraft:balanced",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.15
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+
+  ]
+}

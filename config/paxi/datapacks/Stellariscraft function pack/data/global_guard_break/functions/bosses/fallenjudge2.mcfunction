@@ -1,0 +1,1 @@
+execute as @e[type=jobinsmobs:fallenjudge,sort=nearest,limit=1] at @s run indestructible @s play "epicfight:biped/skill/guard_break1" 0.2 1

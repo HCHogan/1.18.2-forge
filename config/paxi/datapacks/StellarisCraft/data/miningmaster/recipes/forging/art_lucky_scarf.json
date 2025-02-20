@@ -1,0 +1,9 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[{"item":"miningmaster:lucky_citrine"},
+{"item":"mca:needle_and_thread"},
+{"item":"miningmaster:lucky_citrine"}],
+"catalyst":{"item":"stellarisdlc:exchangestonecore"},
+"result":{"item":"artifacts:lucky_scarf"},
+"enchantments":[]
+}

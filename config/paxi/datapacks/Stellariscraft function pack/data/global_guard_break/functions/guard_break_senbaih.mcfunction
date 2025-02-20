@@ -1,0 +1,2 @@
+schedule function global_guard_break:bosses/senbaih_sort_1 1t append
+schedule function global_guard_break:bosses/senbaih_sort_2 10t append

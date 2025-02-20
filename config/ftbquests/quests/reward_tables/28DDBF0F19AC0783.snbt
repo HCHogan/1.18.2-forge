@@ -1,0 +1,28 @@
+{
+	id: "28DDBF0F19AC0783"
+	order_index: 1
+	title: "货币抽奖包"
+	loot_size: 1
+	rewards: [
+		{ item: "dotcoinmod:copper_coin", count: 6, random_bonus: 4, weight: 12 }
+		{ item: "dotcoinmod:iron_coin", random_bonus: 2, weight: 3 }
+		{ item: "dotcoinmod:gold_coin" }
+		{ item: "minecraft:sand", count: 24, random_bonus: 12, weight: 30 }
+		{ item: "minecraft:cobblestone", count: 32, weight: 35 }
+		{ item: "quark:light_gray_rune", weight: 9 }
+		{ item: "minecraft:iron_ingot", count: 6, weight: 10 }
+		{ item: "minecraft:copper_ingot", count: 16, weight: 25 }
+		{
+			xp: 333
+			type: "xp"
+			weight: 9
+		}
+		{
+			xp_levels: 8
+			type: "xp_levels"
+			weight: 8
+		}
+		{ item: "minecraft:emerald", count: 5, random_bonus: 5, weight: 10 }
+		{ item: "minecraft:amethyst_shard", count: 5, weight: 10 }
+	]
+}

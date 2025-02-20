@@ -1,0 +1,2565 @@
+{
+	id: "75DF9CDFE7EB22A6"
+	group: "6FC5E28CB4B49290"
+	order_index: 0
+	filename: "6"
+	title: "炼狱决斗场+大世界Boss"
+	icon: "stellariscraft:pkey"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -19.0d
+			y: 1.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/ender_eye.png"
+			hover: [
+				"大概是彩蛋？"
+				"*Huanhuan← _ ← + 太阳 + 萧萧 排版了任务树*"
+			]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "71F5E866BCCEB9A9"
+		}
+		{
+			x: -21.5d
+			y: 1.5d
+			width: 0.5d
+			height: 0.5d
+			rotation: 0.0d
+			image: "minecraft:textures/entity/conduit/open_eye.png"
+			hover: ["彩蛋：你怎么这么细？"]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "7FF3834DC7D6D982"
+		}
+		{
+			x: -22.0d
+			y: 0.0d
+			width: 12.0d
+			height: 6.0d
+			rotation: 0.0d
+			image: "blackaures_paintings:textures/p32.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "5FEB0BCED60A7D15"
+		}
+		{
+			x: 60.5d
+			y: 16.0d
+			width: 6.0d
+			height: 6.0d
+			rotation: 0.0d
+			image: "cataclysm:textures/items/final_fractal.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "3462192E8CDBF427"
+		}
+		{
+			x: 60.5d
+			y: 16.0d
+			width: 6.0d
+			height: 6.0d
+			rotation: -90.0d
+			image: "cataclysm:textures/items/zweiender.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "7DFBFEE196ABACDA"
+		}
+	]
+	quests: [
+		{
+			x: -13.5d
+			y: 25.5d
+			shape: "circle"
+			subtitle: "皮↑卡↓......镖！"
+			dependencies: ["37375F46CDC4CE34"]
+			dependency_requirement: "one_started"
+			size: 2.0d
+			id: "080B7D489B0F4F86"
+			tasks: [{
+				id: "2EF37B3784DA972A"
+				type: "item"
+				item: {
+					id: "quark:pickarang"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "76236203F94E34D4"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 3
+				}
+				{
+					id: "070DB95579654F44"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 12
+				}
+			]
+		}
+		{
+			title: "&c死亡次数"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "stellariscraft:textures/mob_effect/diedeye.png"
+				}
+			}
+			x: -46.5d
+			y: 19.5d
+			shape: "circle"
+			subtitle: "&c玩这个整合包，要学会养成不怕死的习惯"
+			hide_dependency_lines: true
+			dependencies: ["7FF3834DC7D6D982"]
+			size: 2.0d
+			id: "43F6679083096D39"
+			tasks: [{
+				id: "7A3C831809491352"
+				type: "stat"
+				icon: {
+					id: "wom:netherite_mask"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:deaths"
+				value: 250
+			}]
+			rewards: [
+				{
+					id: "70523B3A79FFE0CF"
+					type: "item"
+					item: "stellariscraft:adventurespar"
+					count: 3
+				}
+				{
+					id: "73C8A1DC5136FC56"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 2240263939124024074L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 4.5d
+			shape: "circle"
+			subtitle: "&b字面意思，能突破常规的附魔等级上限"
+			hide_dependency_lines: false
+			dependencies: ["3D57D8D14E2B6694"]
+			dependency_requirement: "one_completed"
+			size: 2.0d
+			id: "08424FBE6708658F"
+			tasks: [{
+				id: "731AAC794099C3E0"
+				type: "item"
+				item: "toolleveling:tool_leveling_table"
+			}]
+			rewards: [{
+				id: "51333BF48673740A"
+				type: "item"
+				item: "minecraft:enchanted_golden_apple"
+			}]
+		}
+		{
+			title: "&6下界之证"
+			x: -0.5d
+			y: 22.5d
+			shape: "gear"
+			subtitle: "&6合成以解锁&c&n下界&r&6维度限制"
+			dependencies: [
+				"218119FC26BA1F80"
+				"3E4A7CA630132F4B"
+			]
+			hide: true
+			size: 4.0d
+			id: "1D03D9427ED4456A"
+			tasks: [{
+				id: "1AEC3542678796A2"
+				type: "item"
+				item: "stellarisdlc:evidencenether"
+			}]
+			rewards: [
+				{
+					id: "23B0A2ECF8F133C0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "553E938788A0CF35"
+					type: "command"
+					auto: "invisible"
+					command: "/say 已解锁篇章：猩红地狱！"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -31.0d
+			y: 18.0d
+			shape: "diamond"
+			subtitle: "&a击杀boss掉落，在&6宝石锻造炉&a里熔炼成珍贵的饰品"
+			dependencies: ["68F1C2178AE6706C"]
+			hide: true
+			size: 1.5d
+			id: "58E91810C74B2FFA"
+			tasks: [{
+				id: "408F920B9AB66885"
+				type: "item"
+				item: "stellariscraft:exchangestone"
+			}]
+			rewards: [{
+				id: "21A30CBD253722DA"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "&6炼狱决斗场"
+			x: -18.5d
+			y: 14.5d
+			shape: "hexagon"
+			subtitle: "“接受终焉决斗场的试炼，我来了”"
+			description: [
+				"&a人数限制：2人"
+				""
+				"&c&n进入前需准备好召唤材料（jei按用途键查看或阅读群星的笔记）和往生精华，再前往祭坛右键召唤"
+				""
+				"注：多人服务器的延迟对史诗战斗的手感具有毁灭性的打击。"
+				""
+				"&6请注意召唤boss祭坛底下所需的方块"
+				""
+				"&6怪物招式：森白和炉心傀儡及之后boss将使用&d紫刀招式（无法防御/招架闪避&6，但是能在正确时机被&d跳跃闪避&6）此外，炉心傀儡的&d下段危招式&6，由于碰撞箱过大，请尽量拿到二段跳/跳跃药水再挑战，且只有一段跳的话，注意要往后跳。"
+				""
+				"&6关于&a危招机制&b“怪异的笔记本”&6中有详细图文描述"
+				""
+				"&6关于&d紫刀&6的跳跃躲避方式：可以使用技能书习得的&b二段跳&6，或者使用&b跳跃药水&6代替"
+				""
+				"&c&l&n关于危招：请务必在与有危招的怪物战斗前将视频设置中的粒子效果拉满，否则可能出现危招提示的粒子丢失"
+			]
+			dependencies: ["22294E9C4E58436D"]
+			hide: true
+			size: 3.0d
+			id: "7FF3834DC7D6D982"
+			tasks: [
+				{
+					id: "5081F4668F6729AD"
+					type: "dimension"
+					dimension: "stellariscraft:parena"
+				}
+				{
+					id: "0B98E756DE63A0DB"
+					type: "checkmark"
+					title: "&c第一次进入钥匙放副手 JEI查看召唤材料 往生精华最后放！！！！"
+				}
+			]
+			rewards: [
+				{
+					id: "04CB6D9D0585B0F9"
+					type: "item"
+					item: "waystones:warp_scroll"
+					count: 4
+				}
+				{
+					id: "1C7C8C208C2ACF5C"
+					type: "item"
+					item: "minecraft:enchanted_golden_apple"
+				}
+				{
+					id: "21A7B0DD72E72600"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_leaping"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			title: "炽焰小队"
+			icon: "minecraft:blaze_powder"
+			x: -13.5d
+			y: 14.5d
+			description: [""]
+			dependencies: ["7FF3834DC7D6D982"]
+			dependency_requirement: "one_completed"
+			size: 2.0d
+			id: "31CFB886B5F67978"
+			tasks: [{
+				id: "356E0609224FD4C2"
+				type: "kill"
+				title: "&5&l烈焰人——赤焰魔使"
+				entity: "minecraft:blaze"
+				value: 3L
+			}]
+			rewards: [
+				{
+					id: "541EC329E78BF313"
+					type: "item"
+					item: "waystones:warp_scroll"
+					count: 4
+				}
+				{
+					id: "7734138DB0F842AF"
+					type: "item"
+					item: "artifacts:obsidian_skull"
+				}
+			]
+		}
+		{
+			icon: "minecraft:zombie_head"
+			x: -18.5d
+			y: 20.5d
+			subtitle: "似乎是个凋零头和冒险碎片的好来源"
+			description: [
+				"&a作为先遣部队，他们有着较为原始的精英怪战斗机制。"
+				""
+				"&6关于怪物招式：先遣及先遣后boss将会可能使用橙危招式（无法被防御与强力防守，但是能被招架）"
+				""
+				"&6关于危招机制&b“怪异的笔记本”&6中有详细图文描述"
+				""
+				"&c&l&n关于危招：请务必在与有危招的怪物战斗前将视频设置中的粒子效果拉满，否则可能出现危招提示的粒子丢失"
+			]
+			dependencies: ["7FF3834DC7D6D982"]
+			size: 2.0d
+			id: "03F0BF77B4086D7D"
+			tasks: [
+				{
+					id: "24BC6CB1C2EF00DC"
+					type: "kill"
+					title: "&3&l黑暗先遣"
+					icon: "minecraft:zombie_head"
+					entity: "jobinsmobs:darkadvance"
+					value: 1L
+				}
+				{
+					id: "748972F8E8BB3524"
+					type: "item"
+					item: "stellariscraft:adgrain"
+				}
+			]
+			rewards: [
+				{
+					id: "41052704C12C3AAD"
+					type: "item"
+					item: "stellariscraft:adgrain"
+					count: 2
+				}
+				{
+					id: "13E704C7681F7796"
+					type: "item"
+					item: "miningmaster:air_malachite"
+				}
+			]
+		}
+		{
+			title: "&e&l狂沙之枪"
+			icon: "stellariscraft:sandheart"
+			x: -13.5d
+			y: 20.5d
+			subtitle: "&e部分武器必备合成材料，对耀沙之心按键查看用途吧"
+			description: ["狂沙之枪是你遇到的第一只特殊AI的小boss"]
+			dependencies: ["03F0BF77B4086D7D"]
+			size: 2.0d
+			id: "37375F46CDC4CE34"
+			tasks: [
+				{
+					id: "5BF4C2DC154015F6"
+					type: "kill"
+					icon: "ecologics:sandcastle"
+					entity: "jobinsmobs:sandcaptain"
+					value: 1L
+				}
+				{
+					id: "631566DA14C108B1"
+					type: "item"
+					item: "stellariscraft:sandheart"
+				}
+			]
+			rewards: [
+				{
+					id: "3A9EC70618819DDB"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "0AEF2F26CB0E2DFE"
+					type: "random"
+					table_id: 2944719802946291587L
+				}
+				{
+					id: "44CFE49AA7EA585C"
+					type: "item"
+					item: "stellariscraft:sandheart"
+				}
+				{
+					id: "646A237D91C5B83A"
+					type: "item"
+					item: "stellarisdlc:strangedirt"
+				}
+			]
+		}
+		{
+			title: "&b&l森白影魔"
+			icon: {
+				id: "stellariscraft:netheritess"
+				Count: 1b
+				tag: { }
+			}
+			x: -8.5d
+			y: 14.5d
+			shape: "rsquare"
+			subtitle: "&e其掉落物可合成生命感召1"
+			description: [
+				"&c在他的身上隐藏着打开地狱之门的秘密....."
+				"&b&o&lBGM : Beyond Reasoning-Dead Cells"
+				""
+				"&c&n&l推荐最次装备：原版附魔+钻钢/紫水晶下界合金套，血量60，抗性提升1；&a绿色/&b蓝色&c品质盔甲及武器。"
+				"注：森白部分招式赋予玩家的失血debuff，为法术伤害，可被法抗护符减免"
+				""
+				"&6注：森白、杀戮将军收鞘准备居合时，离太远会使其收鞘动作被替换，后续出招无前摇辨识度低，请避免。"
+				""
+				"&e所有决斗场所有boss的bgm：由唱片选项控制。"
+			]
+			dependencies: ["7FF3834DC7D6D982"]
+			hide: true
+			dependency_requirement: "one_started"
+			size: 2.0d
+			id: "634BF6222CF103CB"
+			tasks: [{
+				id: "6932E9B3BEA52744"
+				type: "kill"
+				icon: "minecraft:skeleton_skull"
+				entity: "jobinsmobs:senbaidevil"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "3D3A5AC21AFD1241"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:leaping"
+						}
+					}
+					random_bonus: 2
+				}
+				{
+					id: "4CA681E7D794A8B5"
+					type: "item"
+					item: "stellarisdlc:attribute_scrap"
+					count: 6
+				}
+				{
+					id: "3601489A1D984CAD"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "miningmaster:heartfelt"
+							}]
+						}
+					}
+				}
+				{
+					id: "2CF8E37E54A7F952"
+					type: "gamestage"
+					auto: "invisible"
+					ignore_reward_blocking: true
+					stage: "fight_b"
+				}
+				{
+					id: "1EB0B00C2AA7235F"
+					type: "item"
+					item: {
+						id: "epicfight:skillbook"
+						Count: 1b
+						tag: {
+							skill: "wukong:ju_xing_san_qi"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&c&l杀戮将军"
+			icon: {
+				id: "stellariscraft:diedscrap"
+				Count: 1b
+				tag: { }
+			}
+			x: -0.5d
+			y: 16.5d
+			shape: "rsquare"
+			subtitle: "&e其掉落物可合成生命感召2"
+			description: [
+				"&c&o&lBGM : Clock Tower-Dead Cells"
+				""
+				"&6关于怪物招式：杀戮和下界傀儡及之后boss将会可能使用&c红危&6招式（无法被防御与招架，但是能在精确时机被闪避）"
+			]
+			dependencies: ["1D03D9427ED4456A"]
+			size: 2.0d
+			id: "5484F1714B668B69"
+			tasks: [{
+				id: "657EAFDF9066B2C3"
+				type: "kill"
+				icon: "minecraft:zombie_head"
+				entity: "jobinsmobs:slaughtergeneral"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "40FBDE71DDF6F8D3"
+					type: "item"
+					item: "miningmaster:air_malachite"
+				}
+				{
+					id: "6EDD89CDC86C3A47"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "miningmaster:heartfelt"
+							}]
+						}
+					}
+				}
+				{
+					id: "4FDDCF6F45AFFB91"
+					type: "item"
+					item: {
+						id: "epicfight:skillbook"
+						Count: 1b
+						tag: {
+							skill: "wukong:tong_tou_tie_bi"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&6&l金焰神王"
+			icon: "cataclysm:the_incinerator"
+			x: 7.5d
+			y: 14.5d
+			shape: "rsquare"
+			subtitle: "&e其掉落物可合成生命感召3"
+			description: [
+				"&6&o&lBGM : 癫火之王"
+				""
+				"&c&n&l推荐最次装备：原版附魔+腐金/紫黄晶套，血量90，抗性提升1；&b蓝色品质盔甲"
+				""
+				"技能说明："
+				"&b噬魂：&r自带高等级灵魂汲取buff；"
+				"&6魂焰：&r喷火招式击中实体，给予其&c6秒创伤debuff&r，给予自身1秒耐力恢复&e&n10层(*)&rbuff；"
+				"&d反神：&r反神形态下，当玩家有凋零6时，击中玩家给予自身&b超高等级灵魂汲取buff。"
+				""
+				"&a集终焉决斗2.0所有先进技术于一体的代表性boss。"
+			]
+			dependencies: ["72431516A526DDE5"]
+			hide: true
+			size: 2.0d
+			id: "12AAD2969091AD80"
+			tasks: [{
+				id: "348EEDB63E3463F2"
+				type: "kill"
+				icon: "minecraft:wither_skeleton_skull"
+				entity: "jobinsmobs:goldenflame"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "336F97F0E6B968BF"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 7421896030659922250L
+				}
+				{
+					id: "1687AA57A5316DCD"
+					type: "item"
+					item: "miningmaster:air_malachite"
+				}
+				{
+					id: "339685D474C8C1CD"
+					type: "command"
+					auto: "invisible"
+					command: "/say 已解锁篇章：古老远征！"
+					player_command: false
+				}
+				{
+					id: "58CB652C26C5BB2C"
+					type: "gamestage"
+					auto: "invisible"
+					ignore_reward_blocking: true
+					stage: "fight_c"
+				}
+				{
+					id: "383AA8E9AB68E68F"
+					type: "item"
+					item: "stellarisdlc:attribute_scrap"
+					count: 6
+				}
+				{
+					id: "1F8EF762CE509242"
+					type: "command"
+					auto: "invisible"
+					command: "/say 快了，那终焉的力量..."
+					player_command: false
+				}
+				{
+					id: "1BB48C0CA4330BF6"
+					type: "item"
+					item: "stellarisdlc:strangedirt"
+				}
+				{
+					id: "6BD8A289B16E036E"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "miningmaster:heartfelt"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&d末地之证--核心"
+			icon: "stellarisdlc:evidenceskies_2"
+			x: 35.5d
+			y: 22.5d
+			shape: "rsquare"
+			subtitle: "&e其掉落物可合成生命感召4"
+			description: [
+				"&c&n&l推荐最次装备：附魔升级台+腐金/紫黄晶套，血量100，抗性提升1"
+				"&a&l&oBGM : Astrolab-Dead Cells"
+			]
+			dependencies: ["60FCB994194306C9"]
+			size: 2.0d
+			id: "2394E9C10D03FDF1"
+			tasks: [
+				{
+					id: "56FFB88B60418469"
+					type: "kill"
+					icon: {
+						id: "stellarisdlc:excalibur"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					entity: "jobinsmobs:msabyss"
+					value: 1L
+				}
+				{
+					id: "759156FD424604D2"
+					type: "item"
+					item: "stellarisdlc:evidenceskies_2"
+				}
+			]
+			rewards: [
+				{
+					id: "72588C70771406CC"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 2240263939124024074L
+				}
+				{
+					id: "06DFB6D7107E143F"
+					type: "item"
+					item: "stellarisdlc:attribute_scrap"
+					count: 5
+				}
+				{
+					id: "32F82371464DDA33"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "miningmaster:heartfelt"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&a当熊熊烈火与滔滔巨浪结合在一起时......"
+			x: -18.5d
+			y: 11.0d
+			shape: "circle"
+			subtitle: "&b将水瓶丢在火焰上能灭火，这可是原版知识"
+			description: ["                                    充能海洋之心青春版"]
+			dependencies: ["7FF3834DC7D6D982"]
+			size: 1.5d
+			invisible_until_tasks: 1
+			id: "7ED63B2CCFB65930"
+			tasks: [{
+				id: "70D56EB105B13ABA"
+				type: "item"
+				item: {
+					id: "minecraft:splash_potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:water"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3936131268281F56"
+				type: "item"
+				item: {
+					id: "minecraft:splash_potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:water"
+					}
+				}
+				count: 5
+			}]
+		}
+		{
+			x: -18.5d
+			y: 25.5d
+			shape: "circle"
+			subtitle: "&a一级boss大多数吃亡灵杀手"
+			dependencies: ["03F0BF77B4086D7D"]
+			dependency_requirement: "one_started"
+			size: 2.0d
+			id: "1F1547CD51FD1001"
+			tasks: [{
+				id: "542FC4489E40589B"
+				type: "item"
+				item: "minecraft:rotten_flesh"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "116D407DB32EAC70"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 5s
+							id: "minecraft:smite"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: -13.5d
+			y: 11.0d
+			shape: "circle"
+			dependencies: ["31CFB886B5F67978"]
+			dependency_requirement: "one_completed"
+			size: 2.0d
+			invisible_until_tasks: 1
+			id: "3FC1E7223EF482EA"
+			tasks: [
+				{
+					id: "44B099B4C8A84224"
+					type: "item"
+					item: "stellariscraft:blazestone"
+				}
+				{
+					id: "217877236DD5540E"
+					type: "item"
+					item: "cataclysm:burning_ashes"
+				}
+			]
+			rewards: [
+				{
+					id: "3AD0CDB86DCDC6B4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2688748745693820522L
+				}
+				{
+					id: "62DF1533F2859D44"
+					type: "item"
+					item: "minecraft:enchanted_golden_apple"
+				}
+			]
+		}
+		{
+			title: "&6&lankh护符"
+			x: 4.5d
+			y: 7.5d
+			shape: "circle"
+			subtitle: "&b减少debuff持续时间必备道具"
+			dependencies: ["3D57D8D14E2B6694"]
+			size: 2.0d
+			id: "5ED013F7446E0BDE"
+			tasks: [{
+				id: "68A27D941EFA706E"
+				type: "item"
+				item: "omnis:ankh_charm"
+			}]
+			rewards: [{
+				id: "62FE0F4EA296C3F9"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "&5末地之证"
+			x: 40.0d
+			y: 22.5d
+			shape: "gear"
+			subtitle: "&6合成以解锁&d&n末地&r&6维度限制"
+			dependencies: [
+				"2394E9C10D03FDF1"
+				"69B3C66D955218FC"
+			]
+			hide: true
+			size: 4.0d
+			id: "7D110C077BF18A2B"
+			tasks: [{
+				id: "5E2777B68F184B96"
+				type: "item"
+				item: "stellarisdlc:evidenceskies"
+			}]
+			rewards: [
+				{
+					id: "555D697C4A192508"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "0591C04AD913E081"
+					type: "command"
+					auto: "invisible"
+					command: "/say 已解锁篇章：虚无末地！"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "&e蔚蓝之证"
+			x: 15.5d
+			y: 22.5d
+			shape: "gear"
+			subtitle: "&a合成以解锁&6&n蔚&b蓝&r&a维度限制"
+			description: ["注：佩戴蔚蓝护符且玩家处于蔚蓝两个维度时，额外增加史诗战斗100%穿甲属性，完全无视蔚蓝的限伤机制。"]
+			dependencies: [
+				"7E91341A35CE9CA4"
+				"4C04618C09C46497"
+			]
+			hide: true
+			size: 4.0d
+			id: "60FCB994194306C9"
+			tasks: [{
+				id: "7DFBE3999DC6DD82"
+				type: "item"
+				item: "stellarisdlc:evidencestar"
+			}]
+			rewards: [
+				{
+					id: "3DFED2E82552696F"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "2D27F521768095FF"
+					type: "command"
+					auto: "invisible"
+					command: "/say 已解锁篇章：蔚蓝御风！"
+					player_command: false
+				}
+				{
+					id: "7D4F28E57EAB2D2F"
+					type: "item"
+					item: "stellarisdlc:life_saving_strand"
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -24.1d
+			y: 7.0d
+			subtitle: "&6击杀boss自动关停bgm"
+			hide_dependency_lines: true
+			dependencies: ["7FF3834DC7D6D982"]
+			size: 0.1d
+			can_repeat: true
+			id: "4E599770B9E2B464"
+			tasks: [{
+				id: "7265B7E0244E8F5E"
+				type: "kill"
+				disable_toast: true
+				entity: "jobinsmobs:msabyss"
+				value: 1L
+			}]
+			rewards: [{
+				id: "6A7098D34005A87A"
+				type: "command"
+				auto: "no_toast"
+				command: "/execute as @p at @s run stopsound @p"
+				player_command: false
+			}]
+		}
+		{
+			disable_toast: true
+			x: -24.650000000000002d
+			y: 7.5d
+			subtitle: "&6击杀boss自动关停bgm"
+			hide_dependency_lines: true
+			dependencies: ["7FF3834DC7D6D982"]
+			size: 0.1d
+			can_repeat: true
+			id: "06D0535266774679"
+			tasks: [{
+				id: "52C1C833BC034D88"
+				type: "kill"
+				entity: "jobinsmobs:senbaidevil"
+				value: 1L
+			}]
+			rewards: [{
+				id: "1BC88795D6BBD0BC"
+				type: "command"
+				auto: "no_toast"
+				command: "/execute as @p at @s run stopsound @p"
+				player_command: false
+			}]
+		}
+		{
+			disable_toast: true
+			x: -24.3d
+			y: 7.449999999999999d
+			subtitle: "&6击杀boss自动关停bgm"
+			hide_dependency_lines: true
+			dependencies: ["7FF3834DC7D6D982"]
+			size: 0.1d
+			can_repeat: true
+			id: "0923444DEA89072B"
+			tasks: [{
+				id: "452B08C3324FFB89"
+				type: "kill"
+				entity: "jobinsmobs:slaughtergeneral"
+				value: 1L
+			}]
+			rewards: [{
+				id: "4FF684FB80720174"
+				type: "command"
+				auto: "no_toast"
+				command: "/execute as @p at @s run stopsound @p"
+				player_command: false
+			}]
+		}
+		{
+			disable_toast: true
+			x: -23.900000000000002d
+			y: 7.399999999999999d
+			subtitle: "&6击杀boss自动关停bgm"
+			hide_dependency_lines: true
+			dependencies: ["7FF3834DC7D6D982"]
+			size: 0.1d
+			can_repeat: true
+			id: "3149FC4FE9722180"
+			tasks: [{
+				id: "3217E2E94082406D"
+				type: "kill"
+				disable_toast: true
+				entity: "jobinsmobs:goldenflame"
+				value: 1L
+			}]
+			rewards: [{
+				id: "53B58387442C62C4"
+				type: "command"
+				auto: "no_toast"
+				command: "/execute as @p at @s run stopsound @p"
+				player_command: false
+			}]
+		}
+		{
+			disable_toast: true
+			x: -23.55d
+			y: 7.350000000000001d
+			subtitle: "&6击杀boss自动关停bgm"
+			hide_dependency_lines: true
+			dependencies: ["7FF3834DC7D6D982"]
+			size: 0.1d
+			can_repeat: true
+			id: "7C5706BA8F3EE181"
+			tasks: [{
+				id: "60330A81CDC3D6FA"
+				type: "kill"
+				entity: "jobinsmobs:gazeabysser"
+				value: 1L
+			}]
+			rewards: [{
+				id: "28E248E8233F9208"
+				type: "command"
+				auto: "no_toast"
+				command: "/execute as @p at @s run stopsound @p"
+				player_command: false
+			}]
+		}
+		{
+			x: -8.5d
+			y: 20.5d
+			shape: "circle"
+			subtitle: "你已经是个成熟的附魔师了，要学会自己祛魔"
+			dependencies: ["634BF6222CF103CB"]
+			size: 2.0d
+			id: "2193A5DA68EA9290"
+			tasks: [{
+				id: "361E6CDEBD06F6AA"
+				type: "item"
+				item: "disenchanting:disenchanter"
+			}]
+			rewards: [{
+				id: "43B1F0C0689F4BE0"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:mending"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "&6关闭自然回血"
+			x: -46.5d
+			y: 25.5d
+			shape: "circle"
+			subtitle: "&b关闭自然回血功能"
+			description: ["饰品栏放一个戒指即可关闭自己的自然回血功能并获得滋养buff"]
+			hide_dependency_lines: true
+			dependencies: ["5FEB0BCED60A7D15"]
+			hide: true
+			size: 2.0d
+			id: "15878C2E237A08D0"
+			tasks: [{
+				id: "7ABDB331B3C2C97E"
+				type: "item"
+				item: "ringsofascension:ring_hungerless"
+			}]
+			rewards: [{
+				id: "01AAB788D9C8F25E"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			disable_toast: true
+			x: -24.05d
+			y: 7.75d
+			subtitle: "&6击杀boss自动关停bgm"
+			hide_dependency_lines: true
+			dependencies: ["7FF3834DC7D6D982"]
+			size: 0.1d
+			can_repeat: true
+			id: "2C9FFE777CB9F9BF"
+			tasks: [{
+				id: "74A0AE06D0F67A3F"
+				type: "kill"
+				entity: "jobinsmobs:fallenjudge"
+				value: 1L
+			}]
+			rewards: [{
+				id: "59F5CA4FA361D802"
+				type: "command"
+				auto: "no_toast"
+				command: "/execute as @p at @s run stopsound @p"
+				player_command: false
+			}]
+		}
+		{
+			disable_toast: true
+			x: -24.1d
+			y: 7.550000000000001d
+			subtitle: "&6击杀boss自动关停bgm"
+			hide_dependency_lines: true
+			dependencies: ["7FF3834DC7D6D982"]
+			size: 0.1d
+			can_repeat: true
+			id: "3CAB077F2E9F290D"
+			tasks: [{
+				id: "6AFD70AAC5B8BB8E"
+				type: "kill"
+				entity: "ba_bt:end_golem"
+				value: 1L
+			}]
+			rewards: [{
+				id: "53647B4569D1E6BF"
+				type: "command"
+				auto: "no_toast"
+				command: "/execute as @p at @s run stopsound @p music"
+				player_command: false
+			}]
+		}
+		{
+			icon: "ba_bt:tab_icon"
+			x: -43.0d
+			y: 22.5d
+			shape: "octagon"
+			subtitle: "&aOCR的感觉，回来了！"
+			description: [
+				"&b新版本是决斗场与大世界boss双线并行"
+				""
+				"超链接：点任务栏上方链接（左上角图标）符号🔗查看另一处任务"
+				""
+				"&c&n&l5大傀儡先后顺序&r：大地→海洋（不强求）→炉心→下界→末地"
+				"&n&a大地石碑&r需3个&n&a大地石碑之键&r激活，&6&n后续石碑需&a2个同等级石碑之键&r激活"
+				""
+				"傀儡设定：远离傀儡生成点一定距离，自动将其传送回出生点"
+			]
+			dependencies: ["5F218A222D0FF0F5"]
+			hide: true
+			size: 2.5d
+			id: "5FEB0BCED60A7D15"
+			tasks: [{
+				id: "301651A21BF583AE"
+				type: "checkmark"
+				title: "&6战斗高塔！"
+			}]
+			rewards: [{
+				id: "6728FF0A99ABDAEA"
+				type: "command"
+				command: "/advancement grant @s only ba_bt:battletowers/battle_tower"
+				player_command: false
+			}]
+		}
+		{
+			title: "&b补货——大地高塔钥匙"
+			icon: {
+				id: "ba_bt:monolith_key_land"
+				Count: 1b
+				tag: { }
+			}
+			x: -38.5d
+			y: 18.0d
+			subtitle: "部分&a大地&r和&b海洋高塔&r的&6刷怪笼&r会显示&cspawner marker&r且空心状，外表有交叉线条"
+			description: [
+				"是的，这种情况我们称其为&c&l\"坏塔\"&r，这样的塔刷怪笼挖了宝箱也无法开启，且boss层未生成对应的石碑。"
+				""
+				"&a大地&r和&b海洋&r高塔的钥匙、石碑&6补货任务&r就是为此而生的；非此类特殊情况还是推荐慢慢探索高塔。"
+			]
+			dependencies: ["49363FC6A7361EC8"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			can_repeat: true
+			id: "44BB1A359595DFC9"
+			tasks: [{
+				id: "4CF8B28CB837BCA4"
+				type: "item"
+				item: "dotcoinmod:iron_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "64F74D58A8FE49CA"
+				type: "item"
+				item: "ba_bt:monolith_key_land"
+			}]
+		}
+		{
+			title: "&a大地高塔"
+			icon: {
+				id: "ba_bt:bt_land_resonance_stone"
+				Count: 1b
+				tag: { }
+			}
+			x: -37.0d
+			y: 22.5d
+			shape: "hexagon"
+			subtitle: "&f&l猜你在搜：&c&nLand Bettle Tower"
+			description: [
+				"请不要用指令搜索&a大地&r和&b海洋&r两种高塔，会卡死游戏"
+				"(注：Overground和Sandy开头的land battle tower都是大地高塔，是不同群系的结构变种，如森林、沙漠)"
+				""
+				"&c&n&l推荐最次装备：钻钢/紫水晶钻石套，血量40，抗性提升1；&a全套绿色品质盔甲及武器。"
+				"&6最次装备&r意为最低要求装备+武器条件；并非强制要求玩家穿xxx套装，而是推荐当前套装在xxx套装强度之上时再去挑战。因为：&b数值和技术，至少得有一个&r，新人玩家通关才会更容易，数值平衡也基于此。"
+				""
+				"&a注：共鸣石与大地、海洋方尖碑无法互动，仅作为装饰"
+				""
+				"&c如果实在无法找到大地高塔，可以通过上方任务自行购买石碑和3把钥匙召唤"
+			]
+			dependencies: ["5FEB0BCED60A7D15"]
+			hide: true
+			size: 3.5d
+			id: "49363FC6A7361EC8"
+			tasks: [
+				{
+					id: "02D732E464C89465"
+					type: "advancement"
+					icon: {
+						id: "ba_bt:bt_land_resonance_stone"
+						Count: 1b
+						tag: { }
+					}
+					advancement: "ba_bt:battletowers/land_tower_found"
+					criterion: ""
+				}
+				{
+					id: "7112619169AD5799"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "5AA3EE3CC17DA9BE"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "53D8D714AC0EC21D"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "majruszsenchantments:misanthropy"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 30.5d
+			shape: "rsquare"
+			subtitle: "迈出新手村的第一步"
+			description: ["炉心、下界、终末高塔有设置较多隐藏箱，需解密；但解密完也请不要炫耀，剧透对新玩家开荒体验影响很大"]
+			dependencies: ["36E7D044B02C0C0E"]
+			hide: true
+			size: 2.0d
+			id: "35FD4746C4F7A108"
+			tasks: [{
+				id: "08C426E540325E78"
+				type: "item"
+				item: "ba_bt:guardian_eye_core"
+			}]
+			rewards: [
+				{
+					id: "67CB7739BAFA1C75"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "400EFE06C39A2906"
+					type: "item"
+					item: "stellarisdlc:attribute_scrap"
+					count: 8
+				}
+				{
+					id: "393A30B0831FCB18"
+					type: "item"
+					item: "miningmaster:air_malachite"
+				}
+			]
+		}
+		{
+			icon: "ba_bt:bt_core_resonance_stone"
+			x: -18.5d
+			y: 30.5d
+			shape: "hexagon"
+			subtitle: "&f&l猜你在搜：&c&nCore Tower"
+			description: [
+				"&c&n&l推荐最次装备：原版附魔+钻钢/紫水晶下界合金套，血量60，抗性提升1；&a绿色/&b蓝色&c品质盔甲及武器。"
+				""
+				"&e难度较高，推荐佩戴防火措施,背包的升级模板可以抽半砖的水"
+				""
+				"&6怪物招式：森白和炉心傀儡及之后boss将使用&d紫刀招式（无法防御/招架闪避&6，但是能在正确时机被&d跳跃闪避&6）此外，炉心傀儡的&d下段危招式&6，由于碰撞箱过大，请尽量拿到二段跳/跳跃药水再挑战，且只有一段跳的话，注意要往后跳。"
+				""
+				"&6关于&a危招机制&b“怪异的笔记本”&6中有详细图文描述"
+				""
+				"&6关于&d紫刀&6的跳跃躲避方式：可以使用技能书习得的&b二段跳&6，或者使用&b跳跃药水&6代替"
+				""
+				"&c&l&n关于危招：请务必在与有危招的怪物战斗前将视频设置中的粒子效果拉满，并打开音量选项中的“方块”音效，否则可能出现感叹号粒子或音效丢失"
+			]
+			dependencies: ["22294E9C4E58436D"]
+			hide: true
+			size: 3.0d
+			id: "36E7D044B02C0C0E"
+			tasks: [{
+				id: "015EF124386E5EF5"
+				type: "advancement"
+				icon: "ba_bt:bt_core_resonance_stone"
+				advancement: "ba_bt:battletowers/core_tower_found"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "12E93FBE279E2D97"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2688748745693820522L
+				}
+				{
+					id: "0F0C00F39759E963"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_leaping"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ba_bt:bt_nether_resonance_stone"
+				Count: 1b
+				tag: { }
+			}
+			x: -0.5d
+			y: 30.5d
+			shape: "hexagon"
+			subtitle: "&f&l猜你在搜：&c&nNether Tower"
+			description: [
+				"&c&n&l推荐最次装备：原版附魔+腐金/紫黄晶套，血量90，抗性提升1；&b蓝色品质盔甲及武器。"
+				""
+				"指南针搜索：nether_tower；指令定位：/locate stellariscraft:nether_tower"
+				""
+				"&c注：雷击红刀可能触发识破，此为游戏特性。"
+				""
+				"&6关于危招机制&b“怪异的笔记本”&6中有详细图文描述"
+				""
+				"&6关于怪物招式：杀戮和下界傀儡及之后boss将会可能使用&c红危&6招式（无法被防御与招架，但是能在精确时机被闪避）"
+				""
+				"&c&l&n关于危招：请务必在与有危招的怪物战斗前将视频设置中的粒子效果拉满，并打开音量选项中的“方块”音效，否则可能出现感叹号粒子或音效丢失"
+			]
+			dependencies: [
+				"35FD4746C4F7A108"
+				"39BD604E24BAA419"
+			]
+			hide: true
+			size: 3.0d
+			id: "5C32D67B3D18933E"
+			tasks: [{
+				id: "41ED60D517DE59AF"
+				type: "advancement"
+				icon: "ba_bt:bt_nether_resonance_stone"
+				advancement: "ba_bt:battletowers/nether_tower_found"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "60E615071EF27A0F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2688748745693820522L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 30.5d
+			shape: "rsquare"
+			dependencies: ["5C32D67B3D18933E"]
+			hide: true
+			size: 2.0d
+			id: "625CC3F897C371EB"
+			tasks: [{
+				id: "01DACE4C58E6AE2E"
+				type: "item"
+				item: "ba_bt:guardian_eye_nether"
+			}]
+			rewards: [
+				{
+					id: "28D958E32A2B2CD3"
+					type: "item"
+					item: "dotcoinmod:iron_coin"
+					count: 3
+				}
+				{
+					id: "120D8895843D5F26"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 7421896030659922250L
+				}
+				{
+					id: "70B13149FA789EEA"
+					type: "item"
+					item: "stellarisdlc:attribute_scrap"
+					count: 6
+				}
+				{
+					id: "23060E04CFBDDA12"
+					type: "item"
+					item: "miningmaster:air_malachite"
+				}
+				{
+					id: "39FD85AEAAEAEBB8"
+					type: "item"
+					item: {
+						id: "wukong:kang_jin"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: "ba_bt:bt_end_resonance_stone"
+			x: 49.0d
+			y: 22.5d
+			shape: "hexagon"
+			subtitle: "&f&l猜你在搜：&c&nEnd Tower"
+			description: [
+				"&c&n&l推荐最次装备：附魔升级台+腐金/紫黄晶套，血量120-150，抗性提升1；护甲28+，盔甲韧性19+；&d紫色品质盔甲及武器。"
+				""
+				"指南针搜索：end_tower；指令定位：/locate stellariscraft:end_tower"
+				""
+				"终末傀儡：实际血量1716，等效血量1716x(2/3+1/3÷2÷2/5)=1859"
+				""
+				"&6注：危招伤害极高，请小心。"
+			]
+			dependencies: [
+				"7D110C077BF18A2B"
+				"63AAF803245D5858"
+			]
+			hide: true
+			size: 3.0d
+			id: "5C546744855B6C60"
+			tasks: [{
+				id: "39B2E51ADF8DD748"
+				type: "advancement"
+				icon: "ba_bt:bt_end_resonance_stone"
+				advancement: "ba_bt:battletowers/end_tower_found"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "499DFA5D670CB1F6"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 7421896030659922250L
+			}]
+		}
+		{
+			x: 54.0d
+			y: 22.5d
+			shape: "rsquare"
+			dependencies: ["5C546744855B6C60"]
+			size: 2.0d
+			id: "51D0D30C793EC904"
+			tasks: [{
+				id: "6DBD340185979C4D"
+				type: "item"
+				item: "ba_bt:guardian_eye_end"
+			}]
+			rewards: [
+				{
+					id: "698405F4E90F6AAA"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 7421896030659922250L
+				}
+				{
+					id: "1658B9D3017103AF"
+					type: "item"
+					item: "stellarisdlc:attribute_scrap"
+					count: 7
+				}
+			]
+		}
+		{
+			x: -31.0d
+			y: 22.5d
+			shape: "rsquare"
+			subtitle: "&e傀儡boss设定（适用于所有种类）"
+			description: [
+				"&61/3血以下升级形态，该形态傀儡受伤翻倍（这设定，认真的？）"
+				""
+				"&a不同于决斗场boss的bgm，傀儡bgm都属于音乐类。"
+			]
+			dependencies: ["5FEB0BCED60A7D15"]
+			size: 2.5d
+			id: "68F1C2178AE6706C"
+			tasks: [{
+				id: "4CFA1104EE4C92CB"
+				type: "item"
+				item: {
+					id: "ba_bt:guardian_eye_land"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "6AC324B2B8B5918E"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 6
+				}
+				{
+					id: "310A4503B29ED973"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:impaling"
+							}]
+						}
+					}
+				}
+				{
+					id: "2303309AE18F640E"
+					type: "item"
+					item: "stellarisdlc:attribute_scrap"
+					count: 6
+				}
+				{
+					id: "5CC93D348869A0C2"
+					type: "item"
+					item: "stellarisdlc:strangedirt"
+				}
+				{
+					id: "691E681979694569"
+					type: "item"
+					item: {
+						id: "epicfight:skillbook"
+						Count: 1b
+						tag: {
+							skill: "wukong:ding_shen_fa"
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: "stellarisdlc:evidencenether_2"
+			x: -4.5d
+			y: 18.5d
+			subtitle: "&f新版证明被拆成两部分，各有各的加成"
+			description: ["详情请按shift+ctrl查看套装效果"]
+			dependencies: ["634BF6222CF103CB"]
+			size: 2.0d
+			id: "218119FC26BA1F80"
+			tasks: [{
+				id: "20D395504AE4B1FD"
+				type: "item"
+				item: "stellarisdlc:evidencenether_2"
+			}]
+			rewards: [{
+				id: "457C240229612ED8"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2240263939124024074L
+			}]
+		}
+		{
+			icon: "stellarisdlc:evidencenether_1"
+			x: -4.5d
+			y: 26.5d
+			subtitle: "新版证明被拆成两部分，各有各的加成"
+			description: ["详情请按shift+ctrl查看套装效果"]
+			dependencies: ["35FD4746C4F7A108"]
+			size: 2.0d
+			id: "3E4A7CA630132F4B"
+			tasks: [{
+				id: "2D7C59943E01ACBD"
+				type: "item"
+				item: "stellarisdlc:evidencenether_1"
+			}]
+			rewards: [{
+				id: "7AAB2FEA14EC198D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2240263939124024074L
+			}]
+		}
+		{
+			x: -8.5d
+			y: 25.5d
+			shape: "circle"
+			subtitle: "正如腐金套出自决斗场维度那样，大世界也有自己的套装路线了"
+			description: ["&a这玩意能在锻造台上用紫晶簇复制？！"]
+			dependencies: ["35FD4746C4F7A108"]
+			size: 2.0d
+			id: "1B207D90BED96E82"
+			tasks: [{
+				id: "2E4E0DCE2084996E"
+				type: "item"
+				item: "byg:ametrine_block"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "273A90C87C4B154A"
+					type: "item"
+					item: "mowziesmobs:grant_suns_blessing"
+				}
+				{
+					id: "76DD71D665ED8306"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+			]
+		}
+		{
+			icon: "stellarisdlc:evidencestar_2"
+			x: 11.5d
+			y: 18.5d
+			subtitle: "猜你在搜：gatekeeper_house"
+			dependencies: ["12AAD2969091AD80"]
+			size: 2.0d
+			id: "7E91341A35CE9CA4"
+			tasks: [{
+				id: "10AD2C32E8E7FF3A"
+				type: "item"
+				item: "stellarisdlc:evidencestar_2"
+			}]
+			rewards: [
+				{
+					id: "53BC6044619C627A"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 2240263939124024074L
+				}
+				{
+					id: "10A150B62874D151"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+			]
+		}
+		{
+			icon: "stellarisdlc:evidencestar_1"
+			x: 11.5d
+			y: 26.5d
+			subtitle: "猜你在搜：gatekeeper_house"
+			dependencies: [
+				"625CC3F897C371EB"
+				"0E76DB62CFF2359D"
+			]
+			size: 2.0d
+			id: "4C04618C09C46497"
+			tasks: [{
+				id: "228ADEA986FC4BD9"
+				type: "item"
+				item: "stellarisdlc:evidencestar_1"
+			}]
+			rewards: [
+				{
+					id: "473CBDFD2D5A5815"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2240263939124024074L
+				}
+				{
+					id: "2EBA5B04EA189DF6"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+			]
+		}
+		{
+			x: 60.0d
+			y: 22.5d
+			shape: "gear"
+			subtitle: "改了个名，也就是老版本为人熟知的&d三级决斗场"
+			description: ["&c注：终极决斗场定位为极限挑战，在无法保证自身装备强度，武器伤害以及保护手段的情况下不要轻易挑战"]
+			dependencies: [
+				"3462192E8CDBF427"
+				"51D0D30C793EC904"
+				"06BD62AC9653A759"
+			]
+			hide: true
+			size: 4.0d
+			id: "0ADE3AD4690C571A"
+			tasks: [{
+				id: "06382841F7C01FF7"
+				type: "item"
+				item: "stellariscraft:ukey"
+			}]
+			rewards: [
+				{
+					id: "7527CCAF69FA2484"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 2240263939124024074L
+				}
+				{
+					id: "5AFF313A8D3DB541"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 7421896030659922250L
+				}
+			]
+		}
+		{
+			title: "&5挑战者"
+			icon: "stellariscraft:pkey"
+			x: -24.5d
+			y: 22.5d
+			shape: "gear"
+			subtitle: "“决斗场将成为我的王座！”"
+			description: [
+				"&c第一次进入必须将决斗钥匙放在副手&b（也就是你的左手！！！）&c以生成结构！如果决斗场被破坏，放在副手可以刷新结构"
+				"&a如果放错了东西，可以在挖掘模式下潜行右键把东西拿下来。"
+				"&b新版本可以支持2个玩家进入    &6炼狱决斗场"
+				""
+				"&6改了个名，也就是老版本为人熟知的&b一级决斗场"
+				""
+				"新增功能：在决斗场右手拿钥匙，蹲下+右键可直接返回主世界"
+				""
+				"&c如果进入决斗场很黑，可以先从决斗场传送出来，重新副手进入重新加载决斗场即可"
+			]
+			dependencies: ["68F1C2178AE6706C"]
+			hide: false
+			size: 3.5d
+			id: "22294E9C4E58436D"
+			tasks: [
+				{
+					id: "1137C1F6A254715C"
+					type: "item"
+					item: "stellariscraft:pkey"
+				}
+				{
+					id: "0F7B6A3131CE05D9"
+					type: "checkmark"
+					title: "&4第一次进入放在副手！！！！！"
+				}
+			]
+			rewards: [{
+				id: "1D400F9F53944D8F"
+				type: "xp"
+				xp: 444
+			}]
+		}
+		{
+			title: "&b补货——大地石碑"
+			icon: {
+				id: "ba_bt:monolith_land"
+				Count: 1b
+				tag: { }
+			}
+			x: -35.5d
+			y: 18.0d
+			subtitle: "同理大地高塔钥匙补货任务"
+			dependencies: ["49363FC6A7361EC8"]
+			hide: false
+			dependency_requirement: "one_started"
+			size: 1.5d
+			can_repeat: true
+			id: "608526382F8BDE6A"
+			tasks: [{
+				id: "283C9393E0B4CE66"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5D764470BF531E23"
+				type: "item"
+				item: "ba_bt:monolith_land"
+			}]
+		}
+		{
+			title: "&b补货——海洋守卫之眼"
+			icon: "ba_bt:guardian_eye_ocean"
+			x: -31.0d
+			y: 27.5d
+			shape: "circle"
+			subtitle: "同理海洋石碑钥匙补货任务"
+			description: ["如果是在苦于找不到海洋群系，或感觉史诗战斗水下体验很粪，可以试着跳过"]
+			dependencies: ["68F1C2178AE6706C"]
+			size: 1.5d
+			can_repeat: true
+			id: "0A679E54B70EB6DC"
+			tasks: [{
+				id: "6FDCF0747E754BB8"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "17DDE4443DB7A01A"
+				type: "item"
+				item: "ba_bt:guardian_eye_ocean"
+			}]
+		}
+		{
+			icon: "ba_bt:bt_sky_resonance_stone"
+			x: 68.0d
+			y: 27.5d
+			shape: "hexagon"
+			subtitle: "任务建设中"
+			description: ["需等到史诗战斗弓箭附属mod出来后才有战斗的可能性"]
+			dependencies: ["0ADE3AD4690C571A"]
+			hide: true
+			size: 3.0d
+			id: "552084B0D564DBB9"
+			tasks: [{
+				id: "6A051702003D50FE"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1EF3499767D1E74F"
+				type: "item"
+				item: "ba_bt:bt_sky_resonance_stone"
+			}]
+		}
+		{
+			icon: "ba_bt:bt_city_resonance_stone"
+			x: 68.0d
+			y: 18.5d
+			shape: "hexagon"
+			subtitle: "任务建设中"
+			dependencies: ["0ADE3AD4690C571A"]
+			hide: true
+			size: 3.0d
+			id: "07BF7E5A54F85CE9"
+			tasks: [{
+				id: "7240C7A50C197CAE"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3586DD22827CC776"
+				type: "item"
+				item: "ba_bt:bt_city_resonance_stone"
+			}]
+		}
+		{
+			title: "&6&l遁地尖矛"
+			x: 10.5d
+			y: 7.5d
+			shape: "circle"
+			subtitle: "&b“我个人认为，根据量子隧穿效应，遁地尖矛就该拌C40混凝土迷宫食用”"
+			dependencies: ["3D57D8D14E2B6694"]
+			size: 2.0d
+			id: "0546A5FE8F9C730E"
+			tasks: [{
+				id: "2C95074CB0AB6409"
+				type: "item"
+				item: {
+					id: "bosses_of_mass_destruction:earthdive_spear"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3172CC1D36171307"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "&6&l凋零合金锭"
+			x: 7.5d
+			y: 11.0d
+			shape: "circle"
+			subtitle: "&b为灾变隐藏道具，jei是搜不到的，需手动添加标签"
+			dependencies: ["12AAD2969091AD80"]
+			size: 2.0d
+			id: "3D57D8D14E2B6694"
+			tasks: [{
+				id: "295D37CC0C83135C"
+				type: "item"
+				item: "cataclysm:witherite_ingot"
+			}]
+			rewards: [
+				{
+					id: "0A615F2F8EBAE15D"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "627E83B79803E506"
+					type: "item"
+					item: "cataclysm:witherite_ingot"
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 11.0d
+			shape: "circle"
+			dependencies: [
+				"634BF6222CF103CB"
+				"3FC1E7223EF482EA"
+			]
+			size: 2.0d
+			invisible_until_tasks: 1
+			id: "5F7C21755F262235"
+			tasks: [{
+				id: "0DD53F28CB6FC99B"
+				type: "item"
+				item: "stellariscraft:netherrotingot"
+			}]
+			rewards: [
+				{
+					id: "045079C0B2AF6162"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2688748745693820522L
+				}
+				{
+					id: "7B29E8F2F35D89C8"
+					type: "item"
+					item: "stellariscraft:netherrotingot"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 12.5d
+			shape: "circle"
+			dependencies: ["5484F1714B668B69"]
+			dependency_requirement: "one_completed"
+			size: 2.0d
+			invisible_until_tasks: 1
+			id: "7097CFE832BE1CDE"
+			tasks: [{
+				id: "6D163B6F1128AFC8"
+				type: "item"
+				item: "stellariscraft:deadingot"
+			}]
+			rewards: [
+				{
+					id: "2A7765D6A4DB944E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2688748745693820522L
+				}
+				{
+					id: "42AC4EBABCEF7F9F"
+					type: "item"
+					item: "stellariscraft:deadingot"
+				}
+			]
+		}
+		{
+			title: "仿生泪滴"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "miners_delight:textures/item/axolotl.png"
+				}
+			}
+			x: -23.5d
+			y: 14.5d
+			subtitle: "&6用于格挡练刀的小boss"
+			description: [
+				"&a在决斗场中提交以上材料，最后领取“我已准备好召唤泪滴”的奖励召唤boss仿生泪滴"
+				"&6该boss将会复制玩家召唤时身上穿着的装备以及主副手的武器，因此玩家可以按照自身需求自定义boss的强度，想要练习什么类型的武器ai，手持该类型武器召唤boss即可。"
+			]
+			dependencies: ["7FF3834DC7D6D982"]
+			size: 2.0d
+			can_repeat: true
+			id: "682B96936129AC0A"
+			tasks: [
+				{
+					id: "4C6C95E005E15503"
+					type: "item"
+					item: "minecraft:slime_block"
+					consume_items: true
+				}
+				{
+					id: "438B4C099AECB6F3"
+					type: "item"
+					item: "minecraft:ghast_tear"
+					consume_items: true
+				}
+				{
+					id: "6FCF36AC0CC2CC3B"
+					type: "item"
+					item: "stellariscraft:imessence"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "2AEC55E8E462D17F"
+				type: "command"
+				title: "我已准备好召唤仿生泪滴"
+				icon: "bhc:red_heart"
+				team_reward: false
+				auto: "disabled"
+				command: "/execute at @p run summon star:mimic_tears"
+				player_command: false
+			}]
+		}
+		{
+			disable_toast: true
+			x: -24.15d
+			y: 8.0d
+			subtitle: "&6进入高塔播放bgm"
+			hide_dependency_lines: true
+			dependencies: ["68F1C2178AE6706C"]
+			size: 0.1d
+			id: "0204561DC21DB966"
+			tasks: [{
+				id: "097BE773B65B6B27"
+				type: "advancement"
+				advancement: "ba_bt:battletowers/core_tower_found"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1CB15B6350B6CA53"
+				type: "command"
+				auto: "no_toast"
+				command: "/execute as @p at @s run playsound ba_bt:tower.ambient.music.core record @p ~ ~ ~ 1.3"
+				player_command: false
+			}]
+		}
+		{
+			disable_toast: true
+			x: -23.9d
+			y: 8.0d
+			subtitle: "&6击杀傀儡成就播放字幕（仅一次）"
+			hide_dependency_lines: true
+			dependencies: ["36E7D044B02C0C0E"]
+			size: 0.1d
+			id: "6D049DCC3989B7C2"
+			tasks: [{
+				id: "5783A343A498FCE0"
+				type: "advancement"
+				advancement: "ba_bt:battletowers/kill_core_golem"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "44FEDD8C8345D6B4"
+					type: "command"
+					auto: "no_toast"
+					command: "/tag @s add kill_core"
+					player_command: false
+				}
+				{
+					id: "31F396B7657123D1"
+					type: "command"
+					auto: "no_toast"
+					command: "/function kill_golems:core_full"
+					player_command: false
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -23.8d
+			y: 8.2d
+			subtitle: "&6击杀傀儡成就播放字幕（仅一次）"
+			hide_dependency_lines: true
+			dependencies: ["5C32D67B3D18933E"]
+			size: 0.1d
+			id: "140370B75FB9B43F"
+			tasks: [{
+				id: "590490373B49D0E6"
+				type: "advancement"
+				advancement: "ba_bt:battletowers/kill_nether_golem"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "11BF6A11703BCF98"
+					type: "command"
+					auto: "no_toast"
+					command: "/tag @s add kill_nether"
+					player_command: false
+				}
+				{
+					id: "50681B32B031F7E0"
+					type: "command"
+					auto: "no_toast"
+					command: "/function kill_golems:nether_full"
+					player_command: false
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -23.65d
+			y: 8.399999999999999d
+			subtitle: "&6击杀傀儡成就播放字幕（仅一次）"
+			hide_dependency_lines: true
+			dependencies: ["5C546744855B6C60"]
+			size: 0.1d
+			id: "18B18CA56F391961"
+			tasks: [{
+				id: "4EB0DFA0610B98BA"
+				type: "advancement"
+				advancement: "ba_bt:battletowers/kill_end_golem"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "1CA8D893A21C4F1F"
+					type: "command"
+					auto: "no_toast"
+					command: "/tag @s add kill_end"
+					player_command: false
+				}
+				{
+					id: "18386FD1BA2D2B39"
+					type: "command"
+					auto: "no_toast"
+					command: "/function kill_golems:end_full"
+					player_command: false
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -24.2d
+			y: 8.2d
+			subtitle: "&6进入高塔播放bgm"
+			hide_dependency_lines: true
+			dependencies: ["35FD4746C4F7A108"]
+			size: 0.1d
+			id: "27596AF0D61766E3"
+			tasks: [{
+				id: "2CF70D9BA5698A2C"
+				type: "advancement"
+				advancement: "ba_bt:battletowers/nether_tower_found"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7B6C0285C2BB2118"
+				type: "command"
+				auto: "no_toast"
+				command: "/execute as @p at @s run playsound ba_bt:tower.ambient.music.nether record @p ~ ~ ~ 1"
+				player_command: false
+			}]
+		}
+		{
+			disable_toast: true
+			x: -24.3d
+			y: 8.45d
+			subtitle: "&6进入高塔播放bgm"
+			hide_dependency_lines: true
+			dependencies: ["625CC3F897C371EB"]
+			size: 0.1d
+			id: "137FFED81539A872"
+			tasks: [{
+				id: "4BAC2E45652B929D"
+				type: "advancement"
+				advancement: "ba_bt:battletowers/end_tower_found"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "3ADA31EBE0965F5B"
+					type: "command"
+					auto: "no_toast"
+					command: "/execute as @p at @s run playsound ba_bt:tower.ambient.music.end record @p ~ ~ ~ 1"
+					player_command: false
+				}
+				{
+					id: "09CC08C2BB617336"
+					type: "command"
+					command: "/execute as @p at @s run stopsound @s music minecraft:music.end"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "&6关于傀儡boss破坏方块"
+			icon: {
+				id: "minecraft:diamond_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -50.5d
+			y: 22.5d
+			shape: "octagon"
+			subtitle: "&a可重复领取"
+			description: ["疑似：每次进游戏都会将傀儡破坏方块设置为true，当你发现他们可以破坏方块，点这个任务执行关闭破坏指令即可。"]
+			dependencies: ["5FEB0BCED60A7D15"]
+			hide: true
+			size: 2.5d
+			can_repeat: true
+			id: "2B70228C62AF9CF4"
+			tasks: [{
+				id: "5F8322C0AE69EFE8"
+				type: "checkmark"
+				title: "&6战斗高塔！"
+			}]
+			rewards: [
+				{
+					id: "599895D3AB519450"
+					type: "command"
+					auto: "enabled"
+					command: "/mobgriefing ba_bt:land_golem false"
+					player_command: false
+				}
+				{
+					id: "1D2D27F28921F4D2"
+					type: "command"
+					auto: "enabled"
+					command: "/mobgriefing ba_bt:core_golem false"
+					player_command: false
+				}
+				{
+					id: "6EEBF7A6347E6C50"
+					type: "command"
+					auto: "enabled"
+					command: "/mobgriefing ba_bt:nether_golem false"
+					player_command: false
+				}
+				{
+					id: "37039A6CC7B4F561"
+					type: "command"
+					auto: "enabled"
+					command: "/mobgriefing ba_bt:end_golem false"
+					player_command: false
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -23.7d
+			y: 8.0d
+			subtitle: "&6击杀傀儡播放bgm"
+			hide_dependency_lines: true
+			dependencies: ["36E7D044B02C0C0E"]
+			size: 0.1d
+			can_repeat: true
+			id: "46C475D0B5EAB050"
+			tasks: [{
+				id: "37215B98E37EDADE"
+				type: "kill"
+				entity: "ba_bt:core_golem"
+				value: 1L
+			}]
+			rewards: [{
+				id: "5F2A70D4A45DBA56"
+				type: "command"
+				auto: "no_toast"
+				command: "/execute as @p at @s run playsound ba_bt:tower.break.collapse music @p ~ ~ ~ 1"
+				player_command: false
+			}]
+		}
+		{
+			disable_toast: true
+			x: -23.6d
+			y: 8.2d
+			subtitle: "&6击杀傀儡播放bgm"
+			hide_dependency_lines: true
+			dependencies: ["5C32D67B3D18933E"]
+			size: 0.1d
+			can_repeat: true
+			id: "10891B25B6618414"
+			tasks: [{
+				id: "6B7BB53C66ACDE0C"
+				type: "kill"
+				entity: "ba_bt:nether_golem"
+				value: 1L
+			}]
+			rewards: [{
+				id: "106916FE988C1CA0"
+				type: "command"
+				auto: "no_toast"
+				command: "/execute as @p at @s run playsound ba_bt:tower.break.collapse music @p ~ ~ ~ 1"
+				player_command: false
+			}]
+		}
+		{
+			disable_toast: true
+			x: -23.5d
+			y: 8.399999999999999d
+			subtitle: "&6击杀傀儡播放bgm"
+			hide_dependency_lines: true
+			dependencies: ["5C546744855B6C60"]
+			size: 0.1d
+			can_repeat: true
+			id: "1D736A9CC1352617"
+			tasks: [{
+				id: "1E68DD4E6E80575E"
+				type: "kill"
+				entity: "ba_bt:end_golem"
+				value: 1L
+			}]
+			rewards: [{
+				id: "4B63AB888C5A9C39"
+				type: "command"
+				auto: "no_toast"
+				command: "/execute as @p at @s run playsound ba_bt:tower.break.collapse music @p ~ ~ ~ 1"
+				player_command: false
+			}]
+		}
+		{
+			title: "&b补货——炉心高塔钥匙"
+			icon: "ba_bt:monolith_key_core"
+			x: -20.0d
+			y: 34.0d
+			dependencies: ["36E7D044B02C0C0E"]
+			can_repeat: true
+			id: "04750DCA5DB5445D"
+			tasks: [{
+				id: "4A0069510EE385D1"
+				type: "item"
+				item: "dotcoinmod:iron_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "169FE0C60598592F"
+				type: "item"
+				item: "ba_bt:monolith_key_core"
+			}]
+		}
+		{
+			title: "&b补货——炉心石碑"
+			icon: "ba_bt:monolith_core"
+			x: -17.0d
+			y: 34.0d
+			dependencies: ["36E7D044B02C0C0E"]
+			can_repeat: true
+			id: "4652D962A9BDFEEE"
+			tasks: [{
+				id: "7CE574E3DD8A1EEB"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7AF692E6D64C1082"
+				type: "item"
+				item: "ba_bt:monolith_core"
+			}]
+		}
+		{
+			title: "&b补货——下界高塔钥匙"
+			icon: "ba_bt:monolith_key_nether"
+			x: -2.0d
+			y: 34.0d
+			dependencies: ["5C32D67B3D18933E"]
+			can_repeat: true
+			id: "243C80865241919A"
+			tasks: [{
+				id: "10F5CAF4A6378575"
+				type: "item"
+				item: "dotcoinmod:iron_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5EE2CEC329D46611"
+				type: "item"
+				item: "ba_bt:monolith_key_nether"
+				count: 2
+			}]
+		}
+		{
+			title: "&b补货——下界石碑"
+			icon: "ba_bt:monolith_nether"
+			x: 1.0d
+			y: 34.0d
+			dependencies: ["5C32D67B3D18933E"]
+			can_repeat: true
+			id: "36CF52525C2EC59A"
+			tasks: [{
+				id: "0EF3F34863F2A3C6"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "71F5D396E2053BD2"
+				type: "item"
+				item: "ba_bt:monolith_nether"
+			}]
+		}
+		{
+			title: "&b补货——终末高塔钥匙"
+			icon: "ba_bt:monolith_key_end"
+			x: 49.0d
+			y: 25.5d
+			dependencies: ["5C546744855B6C60"]
+			can_repeat: true
+			id: "422C5CD9910C6FAA"
+			tasks: [{
+				id: "270EAB6AFDDB330C"
+				type: "item"
+				item: "dotcoinmod:iron_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4562FD589CE7796F"
+				type: "item"
+				item: "ba_bt:monolith_key_end"
+				count: 2
+			}]
+		}
+		{
+			title: "&b补货——终末石碑"
+			icon: "ba_bt:monolith_end"
+			x: 49.0d
+			y: 19.5d
+			dependencies: ["5C546744855B6C60"]
+			can_repeat: true
+			id: "1F648E589E289852"
+			tasks: [{
+				id: "4F61C68C1FEE983A"
+				type: "item"
+				item: "dotcoinmod:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "292B4D73B740D038"
+				type: "item"
+				item: "ba_bt:monolith_end"
+			}]
+		}
+	]
+	quest_links: [
+		{
+			linked_quest: "0E76DB62CFF2359D"
+			x: 3.5d
+			y: 26.5d
+			shape: "rsquare"
+			size: 2.0d
+			id: "4ACE68BE9963070C"
+		}
+		{
+			linked_quest: "3462192E8CDBF427"
+			x: 47.0d
+			y: 14.5d
+			size: 2.0d
+			id: "742B3C8BFA77A95F"
+		}
+		{
+			linked_quest: "06BD62AC9653A759"
+			x: 47.0d
+			y: 30.5d
+			size: 2.0d
+			id: "25A6C9E025E4DF10"
+		}
+		{
+			linked_quest: "7DFBFEE196ABACDA"
+			x: 44.5d
+			y: 22.5d
+			shape: "circle"
+			size: 2.0d
+			id: "6BA775EE4D25DAAD"
+		}
+		{
+			linked_quest: "0A05E95EE3C32575"
+			x: -37.0d
+			y: 27.5d
+			shape: "hexagon"
+			size: 2.5d
+			id: "297269E1661D16A1"
+		}
+		{
+			linked_quest: "72431516A526DDE5"
+			x: 3.5d
+			y: 18.5d
+			shape: "rsquare"
+			size: 2.0d
+			id: "67F9B8AC84AB0AF7"
+		}
+		{
+			linked_quest: "69B3C66D955218FC"
+			x: 31.5d
+			y: 22.5d
+			shape: "rsquare"
+			size: 2.0d
+			id: "4FD262C6D45B856D"
+		}
+		{
+			linked_quest: "3AF9F254A6B82782"
+			x: 23.5d
+			y: 14.5d
+			shape: "rsquare"
+			size: 2.0d
+			id: "4A7555F0FDD5AC3B"
+		}
+		{
+			linked_quest: "7A9E8126545ECAC1"
+			x: 23.5d
+			y: 30.5d
+			shape: "rsquare"
+			size: 2.0d
+			id: "37CA4179A9DC4234"
+		}
+		{
+			linked_quest: "41F4D87AB24A0481"
+			x: 19.5d
+			y: 26.5d
+			size: 2.0d
+			id: "6C074E63BEE4AEB5"
+		}
+		{
+			linked_quest: "4AF41FE510DEA9E0"
+			x: 19.5d
+			y: 18.5d
+			size: 2.0d
+			id: "49F99BDF8F2BAC70"
+		}
+		{
+			linked_quest: "3F8334639906C763"
+			x: -13.5d
+			y: 30.5d
+			size: 2.0d
+			id: "695E639FC34F40CC"
+		}
+	]
+}

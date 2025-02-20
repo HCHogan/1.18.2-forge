@@ -1,0 +1,357 @@
+{
+	id: "48B40E6F0E62768A"
+	group: "6AA1C8D202068AB6"
+	order_index: 0
+	filename: "48B40E6F0E62768A"
+	title: "前言"
+	icon: {
+		id: "blue_skies:star_flare"
+		Count: 1b
+		tag: {
+			RepairCost: 1
+			"quark:RuneAttached": 1b
+			Enchantments: [{
+				lvl: 3s
+				id: "minecraft:unbreaking"
+			}]
+			"quark:RuneColor": {
+				id: "quark:light_gray_rune"
+				Count: 1b
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -10.0d
+			y: -6.0d
+			width: 6.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "blackaures_paintings:textures/p16.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -4.0d
+			y: 4.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: -45.0d
+			image: "abnormals_delight:textures/item/cherry_cream_soda.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "0EB958D0240DBD29"
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			width: 1.5d
+			height: 1.5d
+			rotation: -45.0d
+			image: "alexsmobs:textures/item/cosmic_cod_bucket.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "0EB958D0240DBD29"
+		}
+	]
+	quests: [
+		{
+			title: "&5游玩须知"
+			icon: {
+				id: "stellarisdlc:excalibur"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "&4“难度分级他来了！！！”"
+			description: [
+				"《终焉决斗》是以史诗战斗为核心，进行大量魔改与新增设定的硬核战斗向整合包。我们团队为此付出了难以想象的心血和精力。因此，&c&a不要随意添加（影响核心属性的）模组、核心机制与数值，我们不会帮忙解决除整合包自身以外的任何问题。"
+				""
+				"本整合包的难度分级基于&6困难&f设计，玩家可自行选择难度"
+			]
+			hide_dependency_lines: true
+			size: 2.5d
+			can_repeat: true
+			id: "0EB958D0240DBD29"
+			tasks: [{
+				id: "2C52AF52D6C27126"
+				type: "checkmark"
+				title: "读"
+			}]
+			rewards: [{
+				id: "5C4C9384115CF1F9"
+				type: "choice"
+				auto: "disabled"
+				exclude_from_claim_all: true
+				table_id: 1179277749980289225L
+			}]
+		}
+		{
+			title: "&b凝星制作组"
+			icon: {
+				id: "stellarisdlc:ignisheart"
+				Count: 1b
+				tag: { }
+			}
+			x: 0.0d
+			y: -5.0d
+			subtitle: "&e感谢游玩！"
+			description: [
+				"&b整合现作者：太阳照常升起"
+				"&b                             Hant0nN（李小牧徒弟）"
+				"&6整合原作者：Jobin Ghy"
+				"&6                             奋斗吧清峰（Kindom）"
+				"&2任务制作：    太刀虾萧萧"
+				"&d建筑制作：    RSGed（kk）、一撮骨灰"
+				"&9美术制作：    喵紙（Ink_Hiro）、马了还想马、一只路过的小吴"
+				"&l&7背景设定：    一只无情码字机"
+				"&d设备支持：     斑鸠（zhifan）"
+				"&l&c技术支持:       longlong、普白丁（zdyyy）、孤豪 、东非大野猪（Tairitsu）、凌、腐犬、p1nero(悟空附属作者)"
+				"&5吉 祥 物：     蒂蒂                  "
+				"&r&a贡献人员：番茄布丁、dlack（厄老师）、流光（Liuguang233）、伯皆无人（Oldsmar）、环环（Huanhuan_）、忘幽（Creation-YM）、 jiojio卷不动啦、一纸空文、马铃薯不是大土豆（豆纱粉）、豁浪玄黄（yellow_sea）"
+				"&r&e特别鸣谢：言莫泠泠泠泠泠泠（动画师 )"
+				"&r&e                        歌舞伎町案内人李小牧（建模美术指导）"
+			]
+			hide: true
+			size: 2.5d
+			id: "603B591691B33A44"
+			tasks: [{
+				id: "3C430BF0F1081085"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "72DC0DD7CDB75155"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "5D3DF5A6ED8BF6C7"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 2
+					random_bonus: 4
+				}
+			]
+		}
+		{
+			title: "&f一位老玩家想说的话"
+			icon: {
+				id: "alexsmobs:cooked_lobster_tail"
+				Count: 1b
+				tag: { }
+			}
+			x: 0.0d
+			y: 5.0d
+			shape: "square"
+			subtitle: "&b祝：&2武&6运&c昌&d隆"
+			description: [
+				"1.任务和《终焉决斗指导手册》是非常重要的，整合包中有更改的地方都会在任务和手册中说明，请务必熟读于心"
+				""
+				"2.模组出问题可查看&6“MC百科”&r，这真的非常有用"
+				""
+				"3.打不过boss不要钻牛角尖，去b站查看大佬的打法讲解"
+				""
+				"4.友军伤害可以通过/team指令关闭，详情请去百度搜索"
+				""
+				"&e5.官网和KOOK已经停用！！！"
+			]
+			hide: true
+			size: 2.5d
+			id: "1164A44AD7F3D138"
+			tasks: [{
+				id: "37F2919D57CEC281"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "34173187E3F99BE5"
+				type: "item"
+				item: "waystones:warp_scroll"
+				count: 3
+			}]
+		}
+		{
+			title: "&e新人需知"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:demolition_leap"
+				}
+			}
+			x: 5.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "&e请不要用静止、片面的眼光看待问题"
+			description: [
+				"自两位新作者接手以来，终焉决斗2.0从未提及类魂等概念，无关类魂；有参照一些优秀动作游戏的设定，但核心点是想做出 玩家、敌人性能近似对等的战斗整合包。"
+				""
+				"&d&l请不要--1：&r看见某大体型低攻速boss就说是类魂/不配是类魂，这样做只会被当成招黑小鬼；本整合包不想玩这些低级的标签游戏。"
+				""
+				"&d&l请不要--2：&r用传统只会翻滚的不死人/褪色者等弱鸡主角对标史蒂夫，若高手完全发挥，这边性能甚至高于狼，前提需要玩家综合应用招架与娴熟闪避。"
+				""
+				"&d&l请不要--3：&r总是询问整合包/包里的核心模组什么时候移植手机/网易，不会移植；后续会开放github供开发者参考；身为整合包作者，绝不想看到一个好的模组直接被拿去xx整合包私用、瞎用，而是应该在公开的基础上魔改出更多功能，发展整个史诗战斗社区的生态。"
+			]
+			hide: true
+			size: 2.25d
+			id: "1657588A0925B96A"
+			tasks: [{
+				id: "47A0769F871003C0"
+				type: "checkmark"
+				title: "你干嘛，哈哈，哎呦"
+			}]
+			rewards: [
+				{
+					id: "52350B08405FB437"
+					type: "item"
+					item: "farmersdelight:beef_patty"
+				}
+				{
+					id: "7FF3EB4DFD2B8995"
+					type: "command"
+					auto: "invisible"
+					command: "/say 已解锁篇章：临村怀梦！"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: "stellarisdlc:avalonsheath"
+			x: -5.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "&a更新信息请关注QQ群与B站凝星制作组官方账号"
+			description: ["&e疑，这个图标是？有点眼熟的感觉呢...(*)"]
+			dependencies: ["5174127C13F71B7C"]
+			hide: true
+			hide_text_until_complete: false
+			size: 2.5d
+			id: "570B798B94662BBF"
+			tasks: [{
+				id: "7D5A4B81F9E0619F"
+				type: "checkmark"
+				title: "&6&l感谢您游玩终焉决斗！"
+			}]
+			rewards: [{
+				id: "0D776E4D3993737F"
+				type: "item"
+				item: {
+					id: "minecraft:bedrock"
+					Count: 1b
+					tag: {
+						display: {
+							Lore: ["[{\"text\":\"强\",\"color\":\"red\"},{\"text\":\"者\",\"color\":\"gold\"},{\"text\":\"的\",\"color\":\"green\"},{\"text\":\"通\",\"color\":\"aqua\"},{\"text\":\"关\",\"color\":\"yellow\"},{\"text\":\"之\",\"color\":\"light_purple\"},{\"text\":\"证\",\"color\":\"white\"}]"]
+							Name: "[{\"text\":\"石\",\"color\":\"green\"},{\"text\":\"粒\",\"color\":\"aqua\"},{\"text\":\"—\",\"color\":\"yellow\"},{\"text\":\"基\",\"color\":\"light_purple\"},{\"text\":\"岩\",\"color\":\"white\"}]"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "前言-Part1"
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTY4NzMxMTU4MTI3MCwKICAicHJvZmlsZUlkIiA6ICJlNWQ4ZWYyNTk4ZTI0ZjcwYTlkNmNhNTc3ZDNkMjcyOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJMaXR0bGVTdW4yMDQ4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JlZDAwZWVlMmQxMWZmODQwMjZlOTJiZGRkNzFmZjU0YzU4Y2RiODczNTQwZjEwMmRjMmEwMTExNmNlYzQxMjQiCiAgICB9CiAgfQp9"
+								Signature: "aLxo8Va/InKDPVCpaXsWFb14cWmciLWiw44b8w42zod505RH9R/Ltkz2GemvFL98xiNqsz9I60EjIzXtihBUokiabH6tV2lTN8veJRbzxHpPSEB0sQCfgBHwgnOm/EVu20zf5+B4347Mc4FTtHlfww9aMHffLTPfCsmTKeWr0VGm64TInuVK53khMz7Fuja1BhYztnn2pTkkPWhDEGEE4xrEeuOz5hr1U25QGkUKl+49SAMcmHXZtRJkoLzNe/cZQrJWIx4r5IYQQbyffS/2bXb/KpY3gkggEvnPGwAid7gj8BBUwvoJeAQqx8ZXPg/pck+NLh9BEaAsUTDrtKIg4ORNxkf0V3WkFR+NZPEoaufql9cHZPlGTEl//HQ/Ofx95tir+OOxYoj1+jP4Fn+rVAb9GnlGxUnXZ6NfJIM9ded6PQpibMhi0ibzDgWg1xsUZzsPGajglUZ2mOystUn2yePvEd1h4kVtM69FjBRK3qFt4sInDSgdJamU6GY3UNKowJmWWnEQrEWjYT3QLKEv+a8PU6S4qs9rbcRIrY1AIopT7QGHO3843QjXz70Tx3Q6JLc7rYUW6GsrcRZaP5qTaaEPydS6gqYli/4BWYiwVWFxQVf6XXswbnZrTEtjl8iXQ/oRaIiWJLWRZP4vE21frAHKkshVq0rpcP5ugm9ujSk="
+							}]
+						}
+						Id: [I;
+							-438767835
+							-1729998992
+							-1445541289
+							2101159721
+						]
+						Name: "LittleSun2048"
+					}
+				}
+			}
+			x: -4.0d
+			y: -4.0d
+			subtitle: "&e\"动作优化？战斗系统！ \""
+			description: [
+				"随着&6奇迹武器等附属&r的出现，史诗战斗的方向早以偏离所谓类魂的范畴。&a史诗战斗&f并不是所谓的动作优化，而是一套尚不成熟且不完善的&c战斗系统&f。我们在此基础上进行了大量的魔改和调试，定制了相关附属模组，希望在完善这套系统的同时做出属于我们自己的东西。"
+				""
+				"在你对这个整合包熟悉之前都不要因为一时的冲动去调整整合包内容、修改整合包元素、替换整合包模组。"
+				""
+				"&6其次：整合包对数值有着较严格的把控&r：最终boss不超过2000血，玩家单次平a伤害不超过100（除&b百分比大剑&r和&d处决&r）；不喜欢这样贫瘠的数值请及时打住，我们目的是让玩家在性能、技术上有提升，数值仅辅助作用。"
+				""
+			]
+			id: "482A56533B472CFE"
+			tasks: [{
+				id: "54E59E51BC548142"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "34D63448841902B0"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "前言-Part2"
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTY4NzMxMTU4MTI3MCwKICAicHJvZmlsZUlkIiA6ICJlNWQ4ZWYyNTk4ZTI0ZjcwYTlkNmNhNTc3ZDNkMjcyOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJMaXR0bGVTdW4yMDQ4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JlZDAwZWVlMmQxMWZmODQwMjZlOTJiZGRkNzFmZjU0YzU4Y2RiODczNTQwZjEwMmRjMmEwMTExNmNlYzQxMjQiCiAgICB9CiAgfQp9"
+								Signature: "aLxo8Va/InKDPVCpaXsWFb14cWmciLWiw44b8w42zod505RH9R/Ltkz2GemvFL98xiNqsz9I60EjIzXtihBUokiabH6tV2lTN8veJRbzxHpPSEB0sQCfgBHwgnOm/EVu20zf5+B4347Mc4FTtHlfww9aMHffLTPfCsmTKeWr0VGm64TInuVK53khMz7Fuja1BhYztnn2pTkkPWhDEGEE4xrEeuOz5hr1U25QGkUKl+49SAMcmHXZtRJkoLzNe/cZQrJWIx4r5IYQQbyffS/2bXb/KpY3gkggEvnPGwAid7gj8BBUwvoJeAQqx8ZXPg/pck+NLh9BEaAsUTDrtKIg4ORNxkf0V3WkFR+NZPEoaufql9cHZPlGTEl//HQ/Ofx95tir+OOxYoj1+jP4Fn+rVAb9GnlGxUnXZ6NfJIM9ded6PQpibMhi0ibzDgWg1xsUZzsPGajglUZ2mOystUn2yePvEd1h4kVtM69FjBRK3qFt4sInDSgdJamU6GY3UNKowJmWWnEQrEWjYT3QLKEv+a8PU6S4qs9rbcRIrY1AIopT7QGHO3843QjXz70Tx3Q6JLc7rYUW6GsrcRZaP5qTaaEPydS6gqYli/4BWYiwVWFxQVf6XXswbnZrTEtjl8iXQ/oRaIiWJLWRZP4vE21frAHKkshVq0rpcP5ugm9ujSk="
+							}]
+						}
+						Id: [I;
+							-438767835
+							-1729998992
+							-1445541289
+							2101159721
+						]
+						Name: "LittleSun2048"
+					}
+				}
+			}
+			x: 4.0d
+			y: 4.0d
+			subtitle: "&e\"动作优化？战斗系统！ \""
+			description: [
+				"&b最后，本整合包也希望通过这种方式，向现行大量的整合包作者展示："
+				""
+				"&6即使没有mod叠叠乐，即使不在前期刻意为难玩家，即使抛开口渴、养老、风景等所谓的“必备要素”，即使后期数值不膨胀，结合史诗战斗，也能打造出有趣味、有品位，有难度、有深度的冒险战斗类整合包。"
+				""
+				"&a一切的一切，需要的是对整合包作者的砺炼、对核心模组的理解与把控，魔改代码的能力，肝度，以及一群热爱该整合包的内测玩家。"
+				""
+				"&d道阻且长，最后愿国内整合包发展越来越好。"
+			]
+			id: "1B5B9465B44B19C9"
+			tasks: [{
+				id: "35298F71B4D8CFE7"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "37E244F0CD47AE9E"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+				count: 2
+			}]
+		}
+	]
+	quest_links: [ ]
+}

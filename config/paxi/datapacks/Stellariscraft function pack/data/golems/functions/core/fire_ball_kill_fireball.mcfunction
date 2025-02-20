@@ -1,0 +1,1 @@
+kill @e[type=cataclysm:ignis_fireball]

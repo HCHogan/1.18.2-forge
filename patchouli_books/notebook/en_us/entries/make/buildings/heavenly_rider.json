@@ -1,0 +1,19 @@
+{
+    "name": "天堂骑行者",
+    "icon": "minecraft:saddle",
+    "category": "patchouli:buildings",
+    "sortnum":0,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"天堂骑行者/heavenly rider",
+            "text": "终焉的三种飞船中最小的一个，因此他的运行速度最快。不出意外的话，它应该是负责飞船之间的通讯而存在的吧。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/heavenly_rider.png",
+            "text1":"天国的女武神",
+            "text2":""
+        }
+    ]
+}

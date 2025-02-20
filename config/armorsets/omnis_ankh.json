@@ -1,0 +1,23 @@
+{
+  "armorSetName": "omnis_ankh",
+  "performanceMode": true,
+
+  "additionalSetPieces":[
+    {
+    "itemKey": "omnis:ankh_charm",
+    "mustBeEmpty": false
+  }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "epicfight:staminar",
+      "value": 2,
+      "attributeOperation": 0,
+      "modifierUUID": "fe61e798-9164-488b-bbcb-3e35819de249",
+      "description": "omnis_ankh"    
+    }
+
+  ],
+  "hideGeneratedTooltip": false
+}

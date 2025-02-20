@@ -1,0 +1,2969 @@
+{
+    "model": "epicfight:entity/skeleton",
+    "armature": "epicfight:entity/skeleton",
+    "renderer": "minecraft:wither_skeleton",
+    "isHumanoid": true,
+    "faction": "undead",
+    "boss_bar": true,
+	"custom_texture": "indestructible:textures/gui/goldenflame.png",
+    "attributes": {
+        "impact": 2.0,
+        "armor_negation": 20.0,
+        "max_strikes": 5,
+        "chasing_speed": 1.0,
+        "scale":1.3,
+		"max_stamina": 120,
+		"stamina_regan_multiply": 0.06,
+		"stamina_regan_delay": 80,
+		"has_stun_reduction": true,
+		"stamina_lose_multiply": 0.6,
+		"attack_radius": 1.5
+    },
+	"default_livingmotions": {
+        "idle": "epicfight:wither_skeleton/idle",
+        "walk": "epicfight:wither_skeleton/walk",
+        "chase": "epicfight:wither_skeleton/walk",
+        "mount": "epicfight:biped/living/mount",
+        "fall": "epicfight:biped/living/fall",
+        "death": "epicfight:biped/living/death"
+	},
+    "stun_animations": {
+        "short": "epicfight:biped/combat/hit_short",
+        "long": "epicfight:biped/combat/hit_long",
+        "knockdown": "epicfight:biped/combat/knockdown",
+        "fall": "epicfight:biped/living/landing",
+		"neutralize": "epicfight:biped/combat/hit_long"
+    },
+    "humanoid_weapon_motions": [
+        {
+            "weapon_categories": ["axe", "pickaxe", "shovel", "sword", "fist"],
+            "style":"common",
+            "livingmotions": {
+				"chase": "epicfight:biped/living/walk",
+                "walk": "epicfight:biped/living/walk"
+            }
+        },
+        {
+            "weapon_categories": ["hoe"],
+            "style":"common",
+            "livingmotions": {
+				"chase": "epicfight:biped/living/walk",
+                "walk": "epicfight:biped/living/run"
+            }
+        },
+        { 
+            "weapon_categories": ["spear", "trident", "tachi"],
+            "style":"common", 
+            "livingmotions": {
+                "chase": "epicfight:biped/living/walk_spear",
+                "walk": "epicfight:biped/living/run_spear"
+            }
+        },
+        { 
+            "weapon_categories": ["greatsword"],
+            "style":"common", 
+            "livingmotions": {
+				"chase": "epicfight:wither_skeleton/walk",
+				"idle": "epicfight:wither_skeleton/idle",
+				"walk": "epicfight:wither_skeleton/walk"
+            }
+        },
+        { 
+            "weapon_categories": ["torment"],
+            "style":"common", 
+            "livingmotions": {
+				"chase": "epicfight:wither_skeleton/walk",
+				"idle": "epicfight:wither_skeleton/idle",
+				"walk": "epicfight:wither_skeleton/walk"
+            }
+        },
+        {
+            "weapon_categories": ["antitheus","fist"],
+            "style":"common",
+            "livingmotions": {
+                "idle": "wom:biped/living/antitheus_ascended_run",
+				"chase": "wom:biped/living/antitheus_ascended_run",
+                "walk": "wom:biped/living/antitheus_ascended_run"
+            }
+        },
+
+        { 
+            "weapon_categories": ["longsword"],
+            "style":"common", 
+            "livingmotions": {
+                "chase": "epicfight:biped/living/walk_longsword",
+                "walk": "epicfight:biped/living/run_longsword"
+            }
+        },
+        { 
+            "weapon_categories": ["uchigatana"],
+            "style":"common", 
+            "livingmotions": {
+                "chase": "epicfight:biped/living/walk_uchigatana",
+                "walk": "epicfight:biped/living/run_uchigatana"
+            }
+        },
+        { 
+            "weapon_categories": ["sword"],
+            "style":"two_hand", 
+            "livingmotions": {
+                "chase": "epicfight:biped/living/walk",
+                "walk": "epicfight:biped/living/walk"
+            }
+        }
+
+    ],
+    "custom_guard_motion": [
+	    {
+             "weapon_categories": ["pickaxe", "shovel"],
+			 "style": "common",
+             "guard": "indestructible:guard/guard_sword",
+             "stamina_cost_multiply": 0.4,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.4,
+			 "parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1", "epicfight:biped/skill/guard_sword_hit_active2"]
+        },
+        {
+            "weapon_categories": ["hoe"],
+            "style": "common",
+            "guard": "indestructible:guard/guard_sword",
+            "stamina_cost_multiply": 0.2,
+            "can_block_projectile" : true,
+			"parry_cost_multiply": 0.2,
+			"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1", "epicfight:biped/skill/guard_sword_hit_active2"]
+        },
+        {
+            "weapon_categories": ["axe"],
+            "style": "common",
+            "guard": "indestructible:guard/guard_sword",
+            "stamina_cost_multiply": 0.3,
+            "can_block_projectile" : true,
+			"parry_cost_multiply": 0.3,
+			"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1", "epicfight:biped/skill/guard_sword_hit_active2"]
+        },
+        {
+            "weapon_categories": ["fist"],
+            "style": "common",
+            "guard": "indestructible:guard/guard_dualsword",
+            "stamina_cost_multiply": 0.1,
+            "can_block_projectile" : true,
+			"parry_cost_multiply": 0.1,
+			"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1", "epicfight:biped/skill/guard_sword_hit_active2"]
+        },
+        {
+            "weapon_categories": ["sword"],
+            "style": "two_hand",
+            "guard": "indestructible:guard/guard_dualsword",
+            "stamina_cost_multiply": 0.24,
+            "can_block_projectile" : true,
+			"parry_cost_multiply": 0.24,
+			"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1", "epicfight:biped/skill/guard_sword_hit_active2"]
+        },
+		{
+             "weapon_categories": ["sword"],
+			 "style": "common",
+             "guard": "indestructible:guard/guard_sword",
+             "stamina_cost_multiply": 0.35,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.35,
+			 "parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1", "epicfight:biped/skill/guard_sword_hit_active2"]
+        },
+		{
+             "weapon_categories": ["spear"],
+			 "style": "common",
+             "guard": "indestructible:guard/guard_spear",
+             "stamina_cost_multiply": 0.22,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.22,
+			 "parry_animation": ["epicfight:biped/skill/guard_longsword_hit_active1", "epicfight:biped/skill/guard_longsword_hit_active2"]
+        },
+		{
+             "weapon_categories": ["trident"],
+			 "style": "common",
+             "guard": "indestructible:guard/guard_spear",
+             "stamina_cost_multiply": 0.22,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.22,
+			 "parry_animation": ["epicfight:biped/skill/guard_longsword_hit_active1", "epicfight:biped/skill/guard_longsword_hit_active2"]
+        },
+        {
+             "weapon_categories": ["greatsword"],
+             "style": "common",
+             "guard": "indestructible:guard/guard_greatsword",
+             "stamina_cost_multiply": 0.08,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.08,
+			 "parry_animation": ["epicfight:biped/skill/guard_longsword_hit_active1", "epicfight:biped/skill/guard_longsword_hit_active2"]
+        },
+		{
+             "weapon_categories": ["uchigatana"],
+             "style": "common",
+             "guard": "indestructible:guard/guard_uchigatana",
+             "stamina_cost_multiply": 0.2,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.2,
+			 "parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1", "epicfight:biped/skill/guard_sword_hit_active2"]
+        },
+        {
+             "weapon_categories": ["longsword"],
+             "style": "common",
+             "guard": "indestructible:guard/guard_longsword",
+             "stamina_cost_multiply": 0.2,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.2,
+			 "parry_animation": ["epicfight:biped/skill/guard_longsword_hit_active1", "epicfight:biped/skill/guard_longsword_hit_active2"]
+        },
+        {
+            "weapon_categories": ["tachi"],
+            "style": "common",
+            "guard": "indestructible:guard/guard_longsword",
+            "stamina_cost_multiply": 0.2,
+            "can_block_projectile" : true,
+			"parry_cost_multiply": 0.2,
+			"parry_animation": ["epicfight:biped/skill/guard_longsword_hit_active1", "epicfight:biped/skill/guard_longsword_hit_active2"]
+       }
+    ],
+	"stun_command_list":[
+        {"command":"effect clear @s star:unstable", "stun_type": "long", "execute_at_target":false},
+
+        {"command":"effect give @s minecraft:glowing 4", "stun_type": "neutralize", "execute_at_target":false},
+        {"command":"effect give @s stellarisdlc:fragile 4 4", "stun_type": "neutralize", "execute_at_target":false},
+		{"command":"effect give @s cataclysm:stun 4", "stun_type": "neutralize", "execute_at_target":false},
+		{"command":"effect give @s cofh_core:sundered 4 4", "stun_type": "neutralize", "execute_at_target":false},
+		{"command":"effect give @s epicfight:stun_immunity 4", "stun_type": "neutralize", "execute_at_target":false},
+
+		{"command":"indestructible @s set_phase 0", "stun_type": "neutralize", "execute_at_target":false},
+		{"command":"function global_guard_break:guard_break_goldenflame", "stun_type": "neutralize", "execute_at_target":false}
+	],
+    "combat_behavior": [
+        {
+            "weapon_categories": ["longsword"],
+            "style": "common",
+            "behavior_series": [
+				{
+                    "weight": 9999999,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 10,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                            ],
+                            "animation": "epicfight:biped/skill/step_backward",
+                            "command_list":[
+								{"time":0.01, "command":"stopsound @e[type=minecraft:player,distance=..20] music", "execute_at_target":false},
+								{"time":0.02, "command":"stopsound @e[type=minecraft:player,distance=..20] record", "execute_at_target":false},
+
+                                {"time":0.05, "command":"execute as @e[type=player,distance=..20] at @s run playsound minecraft:goldenflame record @p ~ ~ ~ 0.6", "execute_at_target":false},
+
+                                {"time":0.05, "command":"data merge entity @s {Attributes:[{Base:120d,Name:\"epicfight:staminar\"}]}", "execute_at_target":false},
+								{"time":0.05, "command":"data merge entity @s {Attributes:[{Base:2.0d,Name:\"epicfight:impact\"}]}", "execute_at_target":false},
+
+                                {"time":0.05, "command":"data merge entity @s {Attributes:[{Base:60d,Name:\"epicfight:weight\"}]}", "execute_at_target":false},
+								{"time":0.05, "command":"data merge entity @s {Attributes:[{Base:11d,Name:\"minecraft:generic.armor\"}]}", "execute_at_target":false},
+								{"time":0.05, "command":"data merge entity @s {Attributes:[{Base:6d,Name:\"minecraft:generic.armor_toughness\"}]}", "execute_at_target":false},
+                                {"time":0.05, "command":"data merge entity @s {Attributes:[{Base:8d,Name:\"minecraft:generic.knockback_resistance\"}]}", "execute_at_target":false},
+
+								{"time":0.05, "command":"data merge entity @s {Attributes:[{Base:4d,Name:\"epicfight:stun_armor\"}]}", "execute_at_target":false},
+								{"time":0.05, "command":"data merge entity @s {Attributes:[{Base:3d,Name:\"forge:step_height_addition\"}]}", "execute_at_target":false},
+								{"time":0.05, "command":"data merge entity @s {ForgeData:{stamina:3.0d}}", "execute_at_target":false},
+								{"time":0.05, "command":"effect give @s epicfight:stun_immunity 999999", "execute_at_target":false},
+
+                                {"time":0.05, "command":"effect give @s minecraft:instant_damage 5 9", "execute_at_target":false},
+                                {"time":0.05, "command":"effect give @s alexsmobs:soulsteal 999999 12", "execute_at_target":false},
+
+                                {"time":0.05, "command":"effect give @s cataclysm:stun 10", "execute_at_target":false},
+								{"time":0.05, "command":"effect give @s minecraft:resistance 10 9", "execute_at_target":false},
+                                {"time":0.05, "command":"effect give @s stellarisdlc:stamina_regen_enhanced 10 100", "execute_at_target":false},
+                                {"time":0.05, "command":"effect clear @s stellarisdlc:ignis_slash", "execute_at_target":false},
+                                
+                                {"time":0.1, "command":"item replace entity @s weapon.mainhand with cataclysm:the_incinerator", "execute_at_target":false},
+                                {"time":0.1, "command":"item replace entity @s weapon.offhand with ringsofascension:ring_wither", "execute_at_target":false},
+
+                                {"time":0.05, "command":"tag @s remove anti_form", "execute_at_target":false},
+                                {"time":0.05, "command":"tag @s remove anti_cooldown", "execute_at_target":false},
+                                {"time":0.05, "command":"tag @s remove 2-3below", "execute_at_target":false},
+
+                                {"time":0.05, "command":"execute at @s run kill @e[type=minecraft:armor_stand,tag=blackhole,distance=..50]", "execute_at_target":false}
+                            ],
+							"stamina": -160,
+							"set_phase": 1
+                        }
+                    ]
+                }
+                
+                
+                
+
+            ]
+        },
+        {
+            "weapon_categories": ["fist"],
+            "style": "common",
+            "behavior_series": [
+                {
+                    "weight": 9999999,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 999999,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate":"phase", "min": 0, "max": 0}
+                            ],
+                            "animation": "epicfight:biped/skill/step_backward",
+                            "command_list":[
+                                {"time":0.01, "command":"execute if entity @s[tag=anti_form] run indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.02, "command":"execute unless entity @s[tag=anti_form] run indestructible @s set_phase 6", "execute_at_target":false},
+                                {"time":0.07, "command":"execute if entity @s[tag=anti_form] run indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.08, "command":"execute unless entity @s[tag=anti_form] run indestructible @s set_phase 6", "execute_at_target":false},
+
+                                {"time":0.0, "command":"effect give @s star:really_stun_immunity 1", "execute_at_target":false}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "weight": 600,
+                    "canBeInterrupted": false,
+                    "looping": false, 
+                    "cooldown": 120, 
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate":"knock_down", "invert": true},
+                                {"predicate":"phase", "min": 6, "max": 6}
+                            ],
+                            "animation": "epicfight:biped/skill/step_backward",
+                            "command_list":[
+                                {"time":0.01, "command":"execute as @e[type=minecraft:player,distance=..20] run stopsound @s music", "execute_at_target":false},
+
+                                {"time":0.0, "command":"effect give @s epicfight:stun_immunity 5", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s star:really_stun_immunity 5", "execute_at_target":false},
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s minecraft:resistance 5 3", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s minecraft:weakness 3 9", "execute_at_target":false},
+
+                                {"time":0.05, "command":"tag @s remove anti_form", "execute_at_target":false},
+                                {"time":0.09, "command":"tag @s remove anti_form", "execute_at_target":false}
+                            ],
+                            "set_phase": 1
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"phase", "min": 1, "max": 6}
+                            ],
+                            "animation": "wom:biped/skill/antitheus_lapse",
+							"convert_time": 0.3,
+							"play_speed": 0.8,
+                            "command_list":[
+                                {"time":0.4, "command":"execute at @s run playsound minecraft:entity.wither.shoot block @a[distance=..20] ~ ~ ~ 0.8 0.5", "execute_at_target":false},
+
+                                {"time":0.1, "command":"effect give @s cofh_core:lightning_resistance 6", "execute_at_target":false},
+                                {"time":1.5, "command":"effect clear @s minecraft:weakness", "execute_at_target":false},
+
+                                {"time":1.8, "command":"summon minecraft:lightning_bolt ~ ~ ~", "execute_at_target":false},
+                                {"time":1.8, "command":"summon minecraft:lightning_bolt ~ ~ ~", "execute_at_target":false},
+                                {"time":1.8, "command":"summon minecraft:lightning_bolt ~ ~ ~", "execute_at_target":false},
+                                {"time":1.8, "command":"summon minecraft:lightning_bolt ~ ~ ~", "execute_at_target":false},
+                                {"time":1.8, "command":"summon minecraft:lightning_bolt ~ ~ ~", "execute_at_target":false},
+                                {"time":1.8, "command":"summon minecraft:lightning_bolt ~ ~ ~", "execute_at_target":false},
+                                {"time":1.8, "command":"execute at @s run playsound minecraft:entity.wither.death block @a[distance=..20] ~ ~ ~ 1 2", "execute_at_target":false},
+                                {"time":1.8, "command":"execute at @s run particle minecraft:soul_fire_flame ~ ~ ~ 0 1 0 0.1 200", "execute_at_target":false},
+
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.1, "command":"effect give @s star:really_stun_immunity 2", "execute_at_target":false},
+                                {"time":1.6, "command":"item replace entity @s weapon.mainhand with stellarisdlc:trueincinerator", "execute_at_target":false},
+
+                                {"time":0.0, "command":"effect clear @s minecraft:slow_falling", "execute_at_target":false},
+                                {"time":0.1, "command":"effect clear @s minecraft:slow_falling", "execute_at_target":false},
+                                {"time":0.2, "command":"effect clear @s minecraft:slow_falling", "execute_at_target":false},
+
+                                {"time":0.1, "command":"tag @s remove anti_form", "execute_at_target":false},
+                                {"time":0.2, "command":"tag @s remove anti_form", "execute_at_target":false}
+                            ],
+                            "hit_command_list":[
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run effect give @e[type=jobinsmobs:goldenflame,sort=nearest] alexsmobs:soulsteal 16 36", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run playsound minecraft:entity.husk.converted_to_zombie block @a[distance=..20] ~ ~ ~ 2 1.4", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run particle minecraft:soul ~ ~0.5 ~ 0 0.2 0 0.1 100", "execute_at_target":true},
+
+                                {"command":"effect clear @s minecraft:wither", "execute_at_target":true}
+                            ],
+                            "set_phase": 1
+                        }
+                    ]
+                },
+
+
+
+                {
+                    "weight": 600,
+                    "canBeInterrupted": false,
+                    "looping": false, 
+                    "cooldown": 200, 
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 2.0}, {"predicate":"phase", "min": 1, "max": 1},
+                                {"predicate":"attack_level", "min": 1, "max": 2}
+                            ],
+                            "animation": "wom:biped/skill/antitheus_ascended_deathfall",
+							"convert_time": 0.3,
+							"play_speed": 0.6,
+                            "command_list":[
+                                {"time":0.0, "command":"effect give @s alexsmobs:knockback_resistance 1 9", "execute_at_target":true},
+
+                                {"time":0.0, "command":"execute at @s run playsound minecraft:entity.wither.shoot block @a[distance=..20] ~ ~ ~ 0.8 0.5", "execute_at_target":false},
+                                {"time":0.35, "command":"execute at @s run playsound epicfight:sfx.ground_slam block @a[distance=..20] ~ ~ ~ 0.6", "execute_at_target":false}
+                            ],
+                            "hit_command_list":[
+                                {"command":"execute at @s run playsound minecraft:entity.wither.hurt block @a[distance=..20] ~ ~ ~ 1.5 0.4", "execute_at_target":true},
+                                {"command":"effect give @s minecraft:wither 12 5", "execute_at_target":true}
+                            ],
+                            "damage_modifier":{"damage": 1.5, "impact": 4, "armor_negation": 5.0}
+                        }
+                    ]
+                },
+                {
+                    "weight": 200,
+                    "canBeInterrupted": false,
+                    "looping": false, 
+                    "cooldown": 800, 
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 3.0}, {"predicate":"phase", "min": 1, "max": 20},
+                                {"predicate":"attack_level", "min": 1, "max": 2}
+                            ],
+                            "animation": "wom:biped/skill/enderstep_backward",
+                            "convert_time": 0.2,
+                            "play_speed": 0.7,
+                            "command_list":[
+                                {"time":0.01, "command":"execute if entity @s[tag=anti_form] run indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.02, "command":"execute unless entity @s[tag=anti_form] run indestructible @s set_phase 6", "execute_at_target":false},
+                                {"time":0.07, "command":"execute if entity @s[tag=anti_form] run indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.08, "command":"execute unless entity @s[tag=anti_form] run indestructible @s set_phase 6", "execute_at_target":false},
+
+                                {"time":0.01, "command":"effect give @s star:really_stun_immunity 1", "execute_at_target":false}
+                            ]
+                        }
+                    ]
+                },
+
+
+
+
+                {
+                    "weight": 80,
+                    "canBeInterrupted": false,
+                    "looping": false, 
+                    "cooldown": 1000, 
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 4.1}, {"predicate":"phase", "min": 1, "max": 1}
+                            ],
+                            "animation": "epicfight:biped/skill/step_forward",
+                            "command_list":[
+                                {"time":0.0, "command":"effect give @s star:really_stun_immunity 3", "execute_at_target":false},
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s minecraft:resistance 5 3", "execute_at_target":false},
+                                {"time":0.0, "command":"execute as @a[distance=..32] run effect give @s alexsmobs:knockback_resistance 3 99", "execute_at_target":false}
+                            ]
+                        },
+                        {
+							"conditions": [
+								{"predicate":"phase", "min": 1, "max": 1}, {"predicate":"guard_break", "invert": true}, 
+								{"predicate":"knock_down","invert":true}
+							],
+							"wander": 40,
+                            "inaction_time": 2,
+                            "x_axis": 0.0,
+                            "z_axis": -0.04
+						},
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"phase", "min": 1, "max": 1}
+                            ],
+                            "animation": "wom:biped/skill/antitheus_ascended_blackhole",
+							"convert_time": 0.3,
+							"play_speed": 0.8,
+                            "command_list":[
+                                {"time":0.1, "command":"execute as @a[distance=..32] run effect give @s alexsmobs:knockback_resistance 2 99", "execute_at_target":false},
+
+                                {"time":1.7, "command":"execute at @s run playsound wom:sfx.antitheus_blackhole block @a[distance=..20] ~ ~ ~ 1 0.9", "execute_at_target":false},
+                                {"time":1.7, "command":"execute at @s run function goldenflame:blackhole_full", "execute_at_target":false},
+                                {"time":1.37, "command":"execute at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:[blackhole],Invisible:1b}", "execute_at_target":false},
+                               
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 2", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s cofh_core:explosion_resistance 10", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s alexsmobs:knockback_resistance 2 99", "execute_at_target":true}
+                            ],
+                            "damage_modifier":{"damage": 1.5, "impact": 30.0, "armor_negation": 3.0},
+                            "hit_command_list":[
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 2.5 1", "execute_at_target":true},
+                                {"command":"indestructible @s set_phase 5", "execute_at_target":true},
+                                {"command":"effect give @s star:really_stun_immunity 6", "execute_at_target":false},
+                                {"command":"effect give @s stellarisdlc:fragile 6", "execute_at_target":true},
+                                {"command":"effect give @s alexsmobs:knockback_resistance 6 9", "execute_at_target":true},
+                                {"command":"effect give @s minecraft:wither 12 5", "execute_at_target":true},
+                                {"command":"execute at @s run playsound minecraft:entity.wither.hurt block @a[distance=..20] ~ ~ ~ 1.2 0.4", "execute_at_target":true}
+                            ]
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"knock_down", "invert": true}, {"predicate":"phase", "min": 5, "max": 5}
+                            ],
+                            "animation": "wom:biped/skill/antitheus_ascended_auto_2",
+                            "convert_time": 0.3,
+							"play_speed": 0.5,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s star:really_stun_immunity 3", "execute_at_target":false},
+                                {"time":0.01, "command":"execute if entity @s[tag=anti_form] run indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.02, "command":"execute unless entity @s[tag=anti_form] run indestructible @s set_phase 6", "execute_at_target":false}
+                            ],
+                            "hit_command_list":[
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run effect give @e[type=jobinsmobs:goldenflame,sort=nearest] alexsmobs:soulsteal 10 36", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run playsound minecraft:entity.husk.converted_to_zombie block @a[distance=..20] ~ ~ ~ 2 1.4", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run particle minecraft:soul ~ ~0.5 ~ 0 0.2 0 0.1 100", "execute_at_target":true},
+
+                                {"command":"effect clear @s minecraft:wither", "execute_at_target":true},
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 1.6 1", "execute_at_target":true}
+                            ],
+                            "damage_modifier":{"damage": 1.0, "impact": 4.0, "armor_negation": 1.0}
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"phase", "min": 1, "max": 6}
+                            ],
+                            "animation": "wom:biped/skill/antitheus_ascended_auto_3",
+							"convert_time": 0.1,
+							"play_speed": 0.5,
+                            "command_list":[
+                                {"time":0.01, "command":"execute if entity @s[tag=anti_form] run indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.02, "command":"execute unless entity @s[tag=anti_form] run indestructible @s set_phase 6", "execute_at_target":false}
+                            ],
+                            "hit_command_list":[
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run effect give @e[type=jobinsmobs:goldenflame,sort=nearest] alexsmobs:soulsteal 10 36", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run playsound minecraft:entity.husk.converted_to_zombie block @a[distance=..20] ~ ~ ~ 2 1.4", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run particle minecraft:soul ~ ~0.5 ~ 0 0.2 0 0.1 100", "execute_at_target":true},
+
+                                {"command":"effect clear @s minecraft:wither", "execute_at_target":true},
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 1 1", "execute_at_target":true}
+                            ],
+                            "damage_modifier":{"damage": 1.0, "impact": 2.0, "armor_negation": 1.0}
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"phase", "min": 1, "max": 5}
+                            ],
+                            "animation": "wom:biped/combat/enderblaster_onehand_auto_4",
+							"convert_time": 0.2,
+							"play_speed": 0.6,
+                            "command_list":[
+                                {"time":0.01, "command":"execute if entity @s[tag=anti_form] run indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.02, "command":"execute unless entity @s[tag=anti_form] run indestructible @s set_phase 6", "execute_at_target":false}
+                            ],
+                            "hit_command_list":[
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run effect give @e[type=jobinsmobs:goldenflame,sort=nearest] alexsmobs:soulsteal 10 36", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run playsound minecraft:entity.husk.converted_to_zombie block @a[distance=..20] ~ ~ ~ 2 1.4", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run particle minecraft:soul ~ ~0.5 ~ 0 0.2 0 0.1 100", "execute_at_target":true},
+
+                                {"command":"effect clear @s minecraft:wither", "execute_at_target":true},
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_long\" 0.2 1", "execute_at_target":true}
+                            ],
+                            "damage_modifier":{"damage": 1.3, "impact": 1.0, "armor_negation": 1.0}
+                        },
+						{
+							"conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"phase", "min": 1, "max": 1}
+							],
+							"wander": 40,
+                            "inaction_time": 10,
+                            "x_axis": 0.0,
+                            "z_axis": -0.6
+						}
+
+                    ]
+                },
+                {
+                    "weight": 800,
+                    "canBeInterrupted": false,
+                    "looping": false, 
+                    "cooldown": 800, 
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"within_distance", "min": 4.0, "max": 24.0}, {"predicate":"phase", "min": 1, "max": 1}
+                            ],
+							"animation": "wom:biped/skill/agony_plunge_forward",
+							"convert_time": 0.1,
+							"play_speed": 0.4,
+                            "command_list":[
+								{"time":0.1, "command":"execute at @s run playsound minecraft:entity.firework_rocket.blast block @a[distance=..32] ~ ~ ~ 2", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s minecraft:weakness 1 9", "execute_at_target":false},
+
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.0, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+								{"time":0.1, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+								{"time":0.17, "command":"indestructible @s play \"epicfight:biped/living/walk\" 0 1", "execute_at_target":false}
+                            ], 
+							"damage_modifier":{"damage": 0.01, "impact": 0.1, "armor_negation": 0}
+                        },
+						{
+							"conditions": [
+							],
+							"animation": "wom:biped/combat/enderblaster_twohand_tishnaw",
+							"convert_time": 0.4,
+							"play_speed": 0.5,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 1", "execute_at_target":false},
+
+								{"time":0.45, "command":"execute at @s run playsound epicfight:sfx.ground_slam block @p[distance=..10] ~ ~ ~ 0.7", "execute_at_target":false},
+								{"time":0.45, "command":"execute at @s run particle minecraft:block minecraft:lava ~ ~ ~ 1.5 0 1.5 0.1 300", "execute_at_target":false}
+                            ]
+						},
+                        {
+							"conditions": [
+                                {"predicate":"knock_down", "invert": true}, {"predicate":"phase", "min": 1, "max": 1}
+							],
+							"wander": 20,
+                            "inaction_time": 2,
+                            "x_axis": 0.0,
+                            "z_axis": 0.02
+						},
+                        {
+                            "conditions": [
+                            ],
+							"animation": "wom:biped/combat/enderblaster_onehand_auto_4",
+                            "convert_time": 0.2,
+							"play_speed": 0.6,
+                            "command_list":[
+                                {"time":0.0, "command":"effect give @s star:really_stun_immunity 5", "execute_at_target":false},
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ],
+                            "hit_command_list":[
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_long\" 0.2 1", "execute_at_target":true}
+                            ]
+                        }
+                    ]
+                },
+
+
+                {
+                    "weight": 20,
+                    "canBeInterrupted": false,
+                    "looping": false, 
+                    "cooldown": 320, 
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"within_distance", "min": 4.0, "max": 24.0}, {"predicate":"phase", "min": 1, "max": 1}
+                            ],
+							"animation": "wom:biped/skill/agony_plunge_forward",
+							"convert_time": 0.1,
+							"play_speed": 0.4,
+                            "command_list":[
+								{"time":0.1, "command":"execute at @s run playsound minecraft:entity.firework_rocket.blast block @a[distance=..32] ~ ~ ~ 2", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s minecraft:weakness 1 9", "execute_at_target":false},
+
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.0, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+								{"time":0.1, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+								{"time":0.17, "command":"indestructible @s play \"epicfight:biped/living/walk\" 0 1", "execute_at_target":false}
+                            ], 
+							"damage_modifier":{"damage": 0.01, "impact": 0.1, "armor_negation": 0}
+                        },
+						{
+							"conditions": [
+							],
+							"animation": "wom:biped/combat/enderblaster_twohand_tishnaw",
+							"convert_time": 0.4,
+							"play_speed": 0.5,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 1", "execute_at_target":false},
+
+								{"time":0.45, "command":"execute at @s run playsound epicfight:sfx.ground_slam block @p[distance=..10] ~ ~ ~ 0.7", "execute_at_target":false},
+								{"time":0.45, "command":"execute at @s run particle minecraft:block minecraft:lava ~ ~ ~ 1.5 0 1.5 0.1 300", "execute_at_target":false}
+                            ]
+						},
+                        {
+							"conditions": [
+                                {"predicate":"knock_down", "invert": true}, {"predicate":"phase", "min": 1, "max": 1}
+							],
+							"wander": 60,
+                            "inaction_time": 2,
+                            "x_axis": 0.0,
+                            "z_axis": 0.02
+						},
+                        {
+                            "conditions": [
+                            ],
+							"animation": "wom:biped/combat/enderblaster_onehand_auto_4",
+                            "convert_time": 0.2,
+							"play_speed": 0.6,
+                            "command_list":[
+                                {"time":0.0, "command":"effect give @s star:really_stun_immunity 5", "execute_at_target":false},
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "weight": 40,
+                    "canBeInterrupted": false,
+                    "looping": false, 
+                    "cooldown": 600, 
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"within_distance", "min": 4.0, "max": 10.0}, {"predicate":"phase", "min": 1, "max": 1},
+                                {"predicate":"stamina", "stamina": 0.5, "comparator": "greater_ratio"}
+                            ],
+							"animation": "wom:biped/skill/katana_fatal_draw_dash",
+							"play_speed": 0.8,
+							"convert_time": 0.5,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+                                {"time":0.4, "command":"indestructible @s play \"epicfight:biped/living/walk\" 0 1", "execute_at_target":false}
+                            ],
+                            "end_by_hut_level": 1
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"phase", "min": 1, "max": 1}
+                            ],
+							"animation": "wom:biped/skill/antitheus_ascended_blink",
+							"play_speed": 0.8,
+							"convert_time": -0.1,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ],
+                            "hit_command_list":[
+                                {"command":"execute at @s run playsound minecraft:entity.wither.hurt block @a[distance=..20] ~ ~ ~ 1.2 0.4", "execute_at_target":true},
+                                {"command":"effect give @s minecraft:wither 12 5", "execute_at_target":true},
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 1.0 1", "execute_at_target":true}
+                            ],
+                            "end_by_hut_level": 1,
+                            "damage_modifier":{"damage": 2.0, "impact": 1.5, "armor_negation": 2.5}
+                        }
+                    ]
+                },
+                {
+                    "weight": 40,
+                    "canBeInterrupted": false,
+                    "looping": false, 
+                    "cooldown": 600, 
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"within_distance", "min": 4.0, "max": 10.0}, {"predicate":"phase", "min": 1, "max": 1},
+                                {"predicate":"stamina", "stamina": 0.5, "comparator": "greater_ratio"}
+                            ],
+							"animation": "wom:biped/skill/katana_fatal_draw_dash",
+							"play_speed": 0.8,
+							"convert_time": 0.5,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+                                {"time":0.4, "command":"indestructible @s play \"epicfight:biped/living/walk\" 0 1", "execute_at_target":false}
+                            ],
+                            "end_by_hut_level": 1
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"phase", "min": 1, "max": 1}
+                            ],
+							"animation": "wom:biped/skill/antitheus_ascended_blink",
+							"play_speed": 0.8,
+							"convert_time": -0.1,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ],
+                            "hit_command_list":[
+                                {"command":"execute at @s run playsound minecraft:entity.wither.hurt block @a[distance=..20] ~ ~ ~ 1.2 0.4", "execute_at_target":true},
+                                {"command":"effect give @s minecraft:wither 12 5", "execute_at_target":true},
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 1.0 1", "execute_at_target":true}
+                            ],
+                            "end_by_hut_level": 1,
+                            "damage_modifier":{"damage": 2.0, "impact": 1.5, "armor_negation": 2.5}
+                        }
+                    ]
+                },
+
+                {
+                    "weight": 100,
+                    "canBeInterrupted": false,
+                    "looping": false, 
+                    "cooldown": 400, 
+                    "behaviors": [
+                        {
+							"conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"within_distance", "min": 4.0, "max": 24.0}, {"predicate":"phase", "min": 1, "max": 1}
+							],
+							"wander": 60,
+                            "inaction_time": 2,
+                            "x_axis": 0.0,
+                            "z_axis": 0.1
+						},
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}
+                            ],
+                            "animation": "wom:biped/skill/antitheus_shoot",
+							"convert_time": 0.7,
+							"play_speed": 0.8,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ]
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"within_distance", "min": 4.0, "max": 60.0}, {"predicate":"phase", "min": 1, "max": 1}
+                            ],
+                            "animation": "wom:biped/skill/antitheus_shoot",
+							"convert_time": 0.1,
+							"play_speed": 0.8,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ]
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"within_distance", "min": 4.0, "max": 60.0}, {"predicate":"phase", "min": 1, "max": 1}
+                            ],
+                            "animation": "wom:biped/skill/antitheus_shoot",
+							"convert_time": 0.1,
+							"play_speed": 0.8,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "weight": 10,
+                    "canBeInterrupted": false,
+                    "looping": false, 
+                    "cooldown": 240, 
+                    "behaviors": [
+                        {
+							"conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"within_distance", "min": 4.0, "max": 20.0}, {"predicate":"phase", "min": 1, "max": 1}
+							],
+							"wander": 60,
+                            "inaction_time": 2,
+                            "x_axis": 0.0,
+                            "z_axis": 0.1
+						},
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}
+                            ],
+                            "animation": "wom:biped/skill/antitheus_shoot",
+							"convert_time": 0.7,
+							"play_speed": 0.8,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ]
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"within_distance", "min": 4.0, "max": 60.0}, {"predicate":"phase", "min": 1, "max": 1}
+                            ],
+                            "animation": "wom:biped/skill/antitheus_shoot",
+							"convert_time": 0.1,
+							"play_speed": 0.8,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ]
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"within_distance", "min": 4.0, "max": 60.0}, {"predicate":"phase", "min": 1, "max": 1}
+                            ],
+                            "animation": "wom:biped/skill/antitheus_shoot",
+							"convert_time": 0.1,
+							"play_speed": 0.8,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ]
+                        },
+
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 1, "max": 1}, {"predicate":"guard_break", "invert": true}, 
+								{"predicate":"knock_down","invert":true}
+							],
+							"wander": 40,
+                            "inaction_time": 10,
+                            "x_axis": 0.0,
+                            "z_axis": -0.6
+						}
+                    ]
+                },
+
+
+
+
+
+                {
+                    "weight": 1,
+                    "canBeInterrupted": false,
+                    "looping": false, 
+                    "cooldown": 100, 
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 4.0}, {"predicate":"phase", "min": 1, "max": 1}
+                            ],
+                            "animation": "wom:biped/skill/antitheus_ascended_auto_2",
+                            "convert_time": 0.3,
+							"play_speed": 0.5,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ],
+                            "hit_command_list":[
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run effect give @e[type=jobinsmobs:goldenflame,sort=nearest] alexsmobs:soulsteal 10 36", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run playsound minecraft:entity.husk.converted_to_zombie block @a[distance=..20] ~ ~ ~ 2 1.4", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run particle minecraft:soul ~ ~0.5 ~ 0 0.2 0 0.1 100", "execute_at_target":true},
+
+                                {"command":"effect clear @s minecraft:wither", "execute_at_target":true},
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 0.4 1", "execute_at_target":true}
+                            ],
+                            "damage_modifier":{"damage": 1.0, "impact": 4.0, "armor_negation": 1.0},
+                            "end_by_hurt_level": 1
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"phase", "min": 1, "max": 1}
+                            ],
+                            "animation": "wom:biped/skill/antitheus_ascended_auto_3",
+							"convert_time": 0.1,
+							"play_speed": 0.5,
+                            "command_list":[
+                            ],
+                            "hit_command_list":[
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run effect give @e[type=jobinsmobs:goldenflame,sort=nearest] alexsmobs:soulsteal 10 36", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run playsound minecraft:entity.husk.converted_to_zombie block @a[distance=..20] ~ ~ ~ 2 1.4", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run particle minecraft:soul ~ ~0.5 ~ 0 0.2 0 0.1 100", "execute_at_target":true},
+
+                                {"command":"effect clear @s minecraft:wither", "execute_at_target":true},
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 0.3 1", "execute_at_target":true}
+                            ],
+                            "damage_modifier":{"damage": 1.0, "impact": 2.0, "armor_negation": 1.0},
+                            "end_by_hurt_level": 1
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"phase", "min": 1, "max": 1}
+                            ],
+                            "animation": "wom:biped/combat/enderblaster_onehand_auto_4",
+							"convert_time": 0.2,
+							"play_speed": 0.6,
+                            "command_list":[
+                            ],
+                            "hit_command_list":[
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run effect give @e[type=jobinsmobs:goldenflame,sort=nearest] alexsmobs:soulsteal 10 36", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run playsound minecraft:entity.husk.converted_to_zombie block @a[distance=..20] ~ ~ ~ 2 1.4", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run particle minecraft:soul ~ ~0.5 ~ 0 0.2 0 0.1 100", "execute_at_target":true},
+
+                                {"command":"effect clear @s minecraft:wither", "execute_at_target":true}
+                            ],
+                            "damage_modifier":{"damage": 1.3, "impact": 1.0, "armor_negation": 1.0},
+                            "end_by_hurt_level": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "canBeInterrupted": false,
+                    "looping": false, 
+                    "cooldown": 100, 
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 4.0}, {"predicate":"phase", "min": 1, "max": 1}
+                            ],
+                            "animation": "wom:biped/skill/antitheus_ascended_auto_2",
+                            "convert_time": 0.3,
+							"play_speed": 0.5,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ],
+                            "hit_command_list":[
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run effect give @e[type=jobinsmobs:goldenflame,sort=nearest] alexsmobs:soulsteal 10 36", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run playsound minecraft:entity.husk.converted_to_zombie block @a[distance=..20] ~ ~ ~ 2 1.4", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run particle minecraft:soul ~ ~0.5 ~ 0 0.2 0 0.1 100", "execute_at_target":true},
+
+                                {"command":"effect clear @s minecraft:wither", "execute_at_target":true},
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 0.4 1", "execute_at_target":true}
+                            ],
+                            "damage_modifier":{"damage": 1.0, "impact": 4.0, "armor_negation": 1.0},
+                            "end_by_hurt_level": 1
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"phase", "min": 1, "max": 1}
+                            ],
+                            "animation": "wom:biped/skill/antitheus_ascended_auto_3",
+							"convert_time": 0.1,
+							"play_speed": 0.5,
+                            "command_list":[
+                            ],
+                            "hit_command_list":[
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run effect give @e[type=jobinsmobs:goldenflame,sort=nearest] alexsmobs:soulsteal 10 36", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run playsound minecraft:entity.husk.converted_to_zombie block @a[distance=..20] ~ ~ ~ 2 1.4", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run particle minecraft:soul ~ ~0.5 ~ 0 0.2 0 0.1 100", "execute_at_target":true},
+
+                                {"command":"effect clear @s minecraft:wither", "execute_at_target":true},
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 0.3 1", "execute_at_target":true}
+                            ],
+                            "damage_modifier":{"damage": 1.0, "impact": 2.0, "armor_negation": 1.0},
+                            "end_by_hurt_level": 1
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"phase", "min": 1, "max": 1}
+                            ],
+                            "animation": "wom:biped/skill/antitheus_ascended_deathfall",
+							"convert_time": 0.3,
+							"play_speed": 0.6,
+                            "command_list":[
+                                {"time":0.0, "command":"effect give @s alexsmobs:knockback_resistance 1 9", "execute_at_target":true},
+
+                                {"time":0.0, "command":"execute at @s run playsound minecraft:entity.wither.shoot block @a[distance=..20] ~ ~ ~ 0.8 0.5", "execute_at_target":false},
+                                {"time":0.35, "command":"execute at @s run playsound epicfight:sfx.ground_slam block @a[distance=..20] ~ ~ ~ 0.6", "execute_at_target":false}
+                            ],
+                            "hit_command_list":[
+                                {"command":"execute at @s run playsound minecraft:entity.wither.hurt block @a[distance=..20] ~ ~ ~ 1.2 0.4", "execute_at_target":true},
+                                {"command":"effect give @s minecraft:wither 12 5", "execute_at_target":true}
+                            ],
+                            "damage_modifier":{"damage": 2.0, "impact": 4, "armor_negation": 5.0},
+                            "end_by_hurt_level": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "canBeInterrupted": false,
+                    "looping": false, 
+                    "cooldown": 100, 
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 4.0}, {"predicate":"phase", "min": 1, "max": 1}
+                            ],
+                            "animation": "wom:biped/skill/antitheus_ascended_auto_2",
+                            "convert_time": 0.3,
+							"play_speed": 0.5,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ],
+                            "hit_command_list":[
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run effect give @e[type=jobinsmobs:goldenflame,sort=nearest] alexsmobs:soulsteal 10 36", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run playsound minecraft:entity.husk.converted_to_zombie block @a[distance=..20] ~ ~ ~ 2 1.4", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run particle minecraft:soul ~ ~0.5 ~ 0 0.2 0 0.1 100", "execute_at_target":true},
+
+                                {"command":"effect clear @s minecraft:wither", "execute_at_target":true},
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 0.4 1", "execute_at_target":true}
+                            ],
+                            "damage_modifier":{"damage": 1.0, "impact": 4.0, "armor_negation": 1.0},
+                            "end_by_hurt_level": 1
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"phase", "min": 1, "max": 1}
+                            ],
+                            "animation": "wom:biped/skill/antitheus_ascended_auto_3",
+							"convert_time": 0.1,
+							"play_speed": 0.5,
+                            "command_list":[
+                            ],
+                            "hit_command_list":[
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run effect give @e[type=jobinsmobs:goldenflame,sort=nearest] alexsmobs:soulsteal 10 36", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run playsound minecraft:entity.husk.converted_to_zombie block @a[distance=..20] ~ ~ ~ 2 1.4", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run particle minecraft:soul ~ ~0.5 ~ 0 0.2 0 0.1 100", "execute_at_target":true},
+
+                                {"command":"effect clear @s minecraft:wither", "execute_at_target":true},
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 0.3 1", "execute_at_target":true}
+                            ],
+                            "damage_modifier":{"damage": 1.0, "impact": 2.0, "armor_negation": 1.0}
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"phase", "min": 1, "max": 1}
+                            ],
+                            "animation": "wom:biped/skill/solar_auto_1_polvora",
+							"convert_time": 0.3,
+							"play_speed": 0.8,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+                                {"time":0.2, "command":"execute at @s run playsound wom:sfx.solar_hit block @a[distance=..20] ~ ~ ~ 1 1", "execute_at_target":false}
+                            ],
+                            "hit_command_list":[
+                                {"command":"effect give @s champions:wound 6", "execute_at_target":true},
+                                {"command":"indestructible @s set_phase 5", "execute_at_target":false},
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 2 1", "execute_at_target":true},
+                                {"command":"effect give @s stellarisdlc:stamina_regen_enhanced 2 9", "execute_at_target":false},
+                                {"command":"effect give @s star:really_stun_immunity 4", "execute_at_target":false}
+                            ],
+                            "damage_modifier":{"damage": 1.0, "impact": 4.0, "armor_negation": 1.0},
+                            "end_by_hurt_level": 1
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"phase", "min": 5, "max": 6}
+                            ],
+                            "animation": "wom:biped/skill/solar_auto_3_polvora",
+							"convert_time": 0.7,
+							"play_speed": 1.0,
+                            "command_list":[
+                                {"time":0.0, "command":"execute unless entity @s[tag=anti_form] run indestructible @s set_phase 6", "execute_at_target":false}
+                            ],
+                            "hit_command_list":[
+                                {"command":"effect give @s champions:wound 6", "execute_at_target":true},
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 1.2 1", "execute_at_target":true},
+                                {"command":"effect give @s stellarisdlc:stamina_regen_enhanced 2 9", "execute_at_target":false}
+                            ],
+                            "damage_modifier":{"damage": 0.6, "impact": 4.0, "armor_negation": 5.0}
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"phase", "min": 1, "max": 6}
+                            ],
+                            "animation": "wom:biped/skill/solar_auto_3_polvora",
+							"convert_time": 0.1,
+							"play_speed": 1.0,
+                            "command_list":[
+                                {"time":0.0, "command":"execute if entity @s[tag=anti_form] run indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.1, "command":"execute unless entity @s[tag=anti_form] run indestructible @s set_phase 6", "execute_at_target":false}
+                            ],
+                            "hit_command_list":[
+                                {"command":"effect give @s champions:wound 6", "execute_at_target":true},
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 1.2 1", "execute_at_target":true},
+                                {"command":"effect give @s stellarisdlc:stamina_regen_enhanced 2 9", "execute_at_target":false}
+                            ],
+                            "damage_modifier":{"damage": 0.6, "impact": 4.0, "armor_negation": 5.0}
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"phase", "min": 1, "max": 6}
+                            ],
+                            "animation": "wom:biped/skill/solar_auto_3_polvora",
+							"convert_time": 0.1,
+							"play_speed": 1.0,
+                            "command_list":[
+                                {"time":0.0, "command":"execute if entity @s[tag=anti_form] run indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.1, "command":"execute unless entity @s[tag=anti_form] run indestructible @s set_phase 6", "execute_at_target":false}
+                            ],
+                            "hit_command_list":[
+                                {"command":"effect give @s champions:wound 6", "execute_at_target":true},
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 1.2 1", "execute_at_target":true},
+                                {"command":"effect give @s stellarisdlc:stamina_regen_enhanced 2 9", "execute_at_target":false}
+                            ],
+                            "damage_modifier":{"damage": 0.6, "impact": 4.0, "armor_negation": 5.0}
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"phase", "min": 1, "max": 6}
+                            ],
+                            "animation": "wom:biped/skill/antitheus_ascended_deathfall",
+							"convert_time": 0.3,
+							"play_speed": 0.6,
+                            "command_list":[
+                                {"time":0.0, "command":"execute if entity @s[tag=anti_form] run indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.1, "command":"execute unless entity @s[tag=anti_form] run indestructible @s set_phase 6", "execute_at_target":false},
+
+                                {"time":0.0, "command":"effect give @s alexsmobs:knockback_resistance 1 9", "execute_at_target":true},
+
+                                {"time":0.0, "command":"execute at @s run playsound minecraft:entity.wither.shoot block @a[distance=..20] ~ ~ ~ 0.8 0.5", "execute_at_target":false},
+                                {"time":0.35, "command":"execute at @s run playsound epicfight:sfx.ground_slam block @a[distance=..20] ~ ~ ~ 0.6", "execute_at_target":false}
+                            ],
+                            "hit_command_list":[
+                                {"command":"execute at @s run playsound minecraft:entity.wither.hurt block @a[distance=..20] ~ ~ ~ 1.2 0.4", "execute_at_target":true},
+                                {"command":"effect give @s minecraft:wither 12 5", "execute_at_target":true}
+                            ],
+                            "damage_modifier":{"damage": 2.0, "impact": 4, "armor_negation": 5.0}
+                        }
+                    ]
+                },
+
+                {
+                    "weight": 0.01,
+                    "canBeInterrupted": false,
+                    "looping": false, 
+                    "cooldown": 60, 
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 4.0}, {"predicate":"phase", "min": 5, "max": 5}
+                            ],
+                            "animation": "wom:biped/skill/antitheus_ascended_auto_2",
+                            "convert_time": 0.3,
+							"play_speed": 0.5,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+                                {"time":0.0, "command":"execute if entity @s[tag=anti_form] run indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.1, "command":"execute unless entity @s[tag=anti_form] run indestructible @s set_phase 6", "execute_at_target":false}                
+                            ],
+                            "hit_command_list":[
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run effect give @e[type=jobinsmobs:goldenflame,sort=nearest] alexsmobs:soulsteal 10 36", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run playsound minecraft:entity.husk.converted_to_zombie block @a[distance=..20] ~ ~ ~ 2 1.4", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run particle minecraft:soul ~ ~0.5 ~ 0 0.2 0 0.1 100", "execute_at_target":true},
+
+                                {"command":"effect clear @s minecraft:wither", "execute_at_target":true},
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 0.4 1", "execute_at_target":true}
+                            ],
+                            "damage_modifier":{"damage": 1.0, "impact": 4.0, "armor_negation": 1.0},
+                            "end_by_hurt_level": 1
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"phase", "min": 1, "max": 1}
+                            ],
+                            "animation": "wom:biped/skill/antitheus_ascended_auto_3",
+							"convert_time": 0.1,
+							"play_speed": 0.5,
+                            "command_list":[
+                                {"time":0.0, "command":"execute if entity @s[tag=anti_form] run indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.1, "command":"execute unless entity @s[tag=anti_form] run indestructible @s set_phase 6", "execute_at_target":false}                
+                            ],
+                            "hit_command_list":[
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run effect give @e[type=jobinsmobs:goldenflame,sort=nearest] alexsmobs:soulsteal 10 36", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run playsound minecraft:entity.husk.converted_to_zombie block @a[distance=..20] ~ ~ ~ 2 1.4", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run particle minecraft:soul ~ ~0.5 ~ 0 0.2 0 0.1 100", "execute_at_target":true},
+
+                                {"command":"effect clear @s minecraft:wither", "execute_at_target":true},
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 0.3 1", "execute_at_target":true}
+                            ],
+                            "damage_modifier":{"damage": 1.0, "impact": 2.0, "armor_negation": 1.0},
+                            "end_by_hurt_level": 1
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"phase", "min": 1, "max": 1}
+                            ],
+                            "animation": "wom:biped/combat/enderblaster_onehand_auto_4",
+							"convert_time": 0.2,
+							"play_speed": 0.6,
+                            "command_list":[
+                                {"time":0.0, "command":"execute if entity @s[tag=anti_form] run indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.1, "command":"execute unless entity @s[tag=anti_form] run indestructible @s set_phase 6", "execute_at_target":false}                
+                            ],
+                            "hit_command_list":[
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run effect give @e[type=jobinsmobs:goldenflame,sort=nearest] alexsmobs:soulsteal 10 36", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run playsound minecraft:entity.husk.converted_to_zombie block @a[distance=..20] ~ ~ ~ 2 1.4", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run particle minecraft:soul ~ ~0.5 ~ 0 0.2 0 0.1 100", "execute_at_target":true},
+
+                                {"command":"effect clear @s minecraft:wither", "execute_at_target":true}
+                            ],
+                            "damage_modifier":{"damage": 1.3, "impact": 1.0, "armor_negation": 1.0},
+                            "end_by_hurt_level": 1
+                        }
+                    ]
+                },
+
+
+
+
+
+                {
+                    "weight": 1000,
+                    "canBeInterrupted": false,
+                    "looping": false, 
+                    "cooldown": 40, 
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": false}, {"predicate":"phase", "min": 1, "max": 20}
+                            ],
+                            "animation": "wom:biped/skill/antitheus_ascended_auto_2",
+                            "convert_time": 0.3,
+							"play_speed": 0.5,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s star:really_stun_immunity 3", "execute_at_target":false}
+                            ],
+                            "hit_command_list":[
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run effect give @e[type=jobinsmobs:goldenflame,sort=nearest] alexsmobs:soulsteal 10 36", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run playsound minecraft:entity.husk.converted_to_zombie block @a[distance=..20] ~ ~ ~ 2 1.4", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run particle minecraft:soul ~ ~0.5 ~ 0 0.2 0 0.1 100", "execute_at_target":true},
+
+                                {"command":"effect clear @s minecraft:wither", "execute_at_target":true},
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 1.6 1", "execute_at_target":true}
+                            ],
+                            "damage_modifier":{"damage": 1.0, "impact": 4.0, "armor_negation": 1.0}
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"phase", "min": 1, "max": 6}
+                            ],
+                            "animation": "wom:biped/skill/antitheus_ascended_auto_3",
+							"convert_time": 0.1,
+							"play_speed": 0.5,
+                            "command_list":[
+                            ],
+                            "hit_command_list":[
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run effect give @e[type=jobinsmobs:goldenflame,sort=nearest] alexsmobs:soulsteal 10 36", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run playsound minecraft:entity.husk.converted_to_zombie block @a[distance=..20] ~ ~ ~ 2 1.4", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run particle minecraft:soul ~ ~0.5 ~ 0 0.2 0 0.1 100", "execute_at_target":true},
+
+                                {"command":"effect clear @s minecraft:wither", "execute_at_target":true},
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 1 1", "execute_at_target":true}
+                            ],
+                            "damage_modifier":{"damage": 1.0, "impact": 2.0, "armor_negation": 1.0}
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"phase", "min": 1, "max": 6}
+                            ],
+                            "animation": "wom:biped/combat/enderblaster_onehand_auto_4",
+							"convert_time": 0.2,
+							"play_speed": 0.6,
+                            "command_list":[
+                            ],
+                            "hit_command_list":[
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run effect give @e[type=jobinsmobs:goldenflame,sort=nearest] alexsmobs:soulsteal 10 36", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run playsound minecraft:entity.husk.converted_to_zombie block @a[distance=..20] ~ ~ ~ 2 1.4", "execute_at_target":true},
+                                {"command":"execute if data entity @s ActiveEffects[{Id: 20b,Amplifier: 5b}] run execute at @s run particle minecraft:soul ~ ~0.5 ~ 0 0.2 0 0.1 100", "execute_at_target":true},
+
+                                {"command":"effect clear @s minecraft:wither", "execute_at_target":true},
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_long\" 0.2 1", "execute_at_target":true}
+                            ],
+                            "damage_modifier":{"damage": 1.3, "impact": 1.0, "armor_negation": 1.0}
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "weapon_categories": ["greatsword", "torment", "solar"],
+            "style": "common",
+            "behavior_series": [
+                {
+                    "weight": 99999999,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 2400,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate":"phase", "min": 0, "max": 0}
+                            ],
+                            "animation": "epicfight:biped/skill/step_backward",
+                            "command_list":[
+								{"time":0.0, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+								{"time":0.1, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+								{"time":0.2, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s star:really_stun_immunity 1", "execute_at_target":false}
+                            ],
+							"set_phase": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 10000,
+                    "canBeInterrupted": false,
+                    "looping": false, 
+                    "cooldown": 700,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 15.0}, {"predicate":"phase", "min": 1, "max": 20},
+								{"predicate": "health", "health": 0.333, "comparator": "less_ratio"}
+                            ],
+                            "animation": "epicfight:biped/skill/step_backward",
+                            "command_list":[
+                                {"time":0.01, "command":"execute as @e[type=minecraft:player,distance=..20] run stopsound @s music", "execute_at_target":false},
+
+                                {"time":0.05, "command":"execute if entity @s[tag=anti_cooldown] run indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.1, "command":"execute unless entity @s[tag=anti_cooldown] run indestructible @s set_phase 20", "execute_at_target":false},
+                                
+                                {"time":0.0, "command":"effect give @s star:really_stun_immunity 5", "execute_at_target":false},
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s minecraft:resistance 5 3", "execute_at_target":false}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "weight": 10000,
+                    "canBeInterrupted": false,
+                    "looping": false, 
+                    "cooldown": 300, 
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate":"phase", "min": 20, "max": 20}
+                            ],
+                            "animation": "wom:biped/skill/antitheus_ascension",
+							"convert_time": 0.5,
+							"play_speed": 0.8,
+                            "command_list":[
+                                {"time":0.0, "command":"tag @s add anti_cooldown", "execute_at_target":false},
+                                {"time":0.1, "command":"tag @s add anti_cooldown", "execute_at_target":false},
+                                {"time":0.2, "command":"tag @s add anti_cooldown", "execute_at_target":false},
+
+                                {"time":0.0, "command":"function goldenflame:anti_cooldown_full", "execute_at_target":false},
+                                {"time":0.0, "command":"function goldenflame:anti_back_full", "execute_at_target":false},
+                                
+                                {"time":0.4, "command":"execute at @s run playsound minecraft:entity.wither.shoot block @a[distance=..20] ~ ~ ~ 0.8 0.5", "execute_at_target":false},
+                                {"time":1.8, "command":"execute at @s run playsound minecraft:entity.wither.ambient block @a[distance=..20] ~ ~ ~ 1 0.4", "execute_at_target":false},
+                                {"time":1.8, "command":"execute at @s run playsound minecraft:entity.wither.hurt block @a[distance=..20] ~ ~ ~ 1.2 0.4", "execute_at_target":false},
+                                {"time":1.8, "command":"execute at @s run particle minecraft:soul ~ ~ ~ 0 1 0 0.1 200", "execute_at_target":false},
+
+                                {"time":1.8, "command":"summon minecraft:lightning_bolt ~ ~ ~", "execute_at_target":false},
+                                {"time":1.8, "command":"summon minecraft:lightning_bolt ~ ~ ~", "execute_at_target":false},
+                                {"time":1.8, "command":"summon minecraft:lightning_bolt ~ ~ ~", "execute_at_target":false},
+                                {"time":1.8, "command":"summon minecraft:lightning_bolt ~ ~ ~", "execute_at_target":false},
+                                {"time":1.8, "command":"summon minecraft:lightning_bolt ~ ~ ~", "execute_at_target":false},
+                                {"time":1.8, "command":"summon minecraft:lightning_bolt ~ ~ ~", "execute_at_target":false},
+
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s cofh_core:lightning_resistance 6", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 2", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s minecraft:weakness 3 9", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s minecraft:slow_falling 999999", "execute_at_target":false},
+                                {"time":0.1, "command":"effect give @s minecraft:slow_falling 999999", "execute_at_target":false},
+                                {"time":0.2, "command":"effect give @s minecraft:slow_falling 999999", "execute_at_target":false},
+                                {"time":1.5, "command":"effect clear @s minecraft:weakness", "execute_at_target":false},
+
+                                {"time":0.0, "command":"tag @s add anti_form", "execute_at_target":false},
+                                {"time":0.1, "command":"tag @s add anti_form", "execute_at_target":false},
+                                {"time":0.2, "command":"tag @s add anti_form", "execute_at_target":false},
+
+                                {"time":1.9, "command":"item replace entity @s weapon.mainhand with davespotioneering:netherite_gauntlet", "execute_at_target":false}
+                            ],
+                            "hit_command_list":[
+                            ],
+                            "damage_modifier":{"damage": 1.0, "impact": 0.4, "armor_negation": 1.0},
+                            "set_phase": 1
+                        },
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 1, "max": 5}, {"predicate":"guard_break", "invert": true}, 
+								{"predicate":"knock_down","invert":true}
+							],
+							"wander": 40,
+                            "inaction_time": 10,
+                            "x_axis": 0.0,
+                            "z_axis": -0.6,
+                            "set_phase": 1
+						}
+                    ]
+                },
+
+                {
+                    "weight": 999999,
+                    "canBeInterrupted": false,
+                    "looping": false, 
+                    "cooldown": 699,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 18.0}, {"predicate":"phase", "min": 0, "max": 20},
+								{"predicate":"health", "health": 0.668, "comparator": "less_ratio"}
+                            ],
+                            "animation": "epicfight:biped/skill/step_forward",
+                            "command_list":[
+                                {"time":0.01, "command":"execute as @e[type=minecraft:player,distance=..20] run stopsound @s music", "execute_at_target":false},
+
+                                {"time":0.02, "command":"effect give @s star:really_stun_immunity 3", "execute_at_target":false},
+                                {"time":0.02, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+                                {"time":0.02, "command":"effect give @s minecraft:resistance 3 3", "execute_at_target":false}
+                            ], "set_phase": 1
+                        },
+                        {
+                            "conditions": [
+                            ],
+                            "animation": "wom:biped/skill/torment_berserk_convert",
+                            "convert_time": 0.1,
+                            "play_speed": 0.7,
+                            "command_list":[
+                                {"time":0.02, "command":"effect give @s star:really_stun_immunity 3", "execute_at_target":false},
+                                {"time":0.02, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+                                {"time":0.02, "command":"effect give @s minecraft:resistance 3 3", "execute_at_target":false},
+                                {"time":0.05, "command":"effect give @s stellarisdlc:ignis_slash 999999", "execute_at_target":false},
+                                {"time":0.05, "command":"effect give @s stellarisdlc:stamina_regen_enhanced 3 2", "execute_at_target":false},
+                                
+                                {"time":0.5, "command":"item replace entity @s weapon.mainhand with stellarisdlc:trueincinerator", "execute_at_target":false}
+                            ], "set_phase": 1
+                        }
+                    ]
+                },
+
+
+
+
+
+
+
+				{
+					"weight": 2,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 300,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 4.0}, {"predicate":"phase", "min": 1, "max": 1},
+                                {"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 3", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s minecraft:resistance 3 2", "execute_at_target":false},
+                                {"time":0.0, "command":"function goldenflame:charge1", "execute_at_target":false}
+                            ]
+						},
+                        {
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 1}
+							],
+							"animation": "wom:biped/living/torment_charge",
+							"convert_time": 0.3
+						},
+                        {
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 1}
+							],
+							"wander": 15,
+                            "inaction_time": 15,
+                            "x_axis": -0.5,
+                            "z_axis": -0.3
+						},
+                        {
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 1}
+							],
+                            "animation": "wom:biped/combat/torment_auto_4",
+							"convert_time": 0.4,
+							"play_speed": 0.6,
+                            "command_list":[
+								{"time":0.0, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.45, "command":"execute at @s run playsound epicfight:sfx.ground_slam block @a[distance=..20] ~ ~ ~ 0.6", "execute_at_target":false}
+                            ], "damage_modifier":{"damage": 0.8, "impact": 0.8, "armor_negation": 1}
+						}
+					]
+				},
+				{
+					"weight": 2,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 300,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 4.0}, {"predicate":"phase", "min": 1, "max": 1},
+                                {"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 5", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s minecraft:resistance 3 2", "execute_at_target":false},
+                                {"time":0.0, "command":"function goldenflame:charge_wind", "execute_at_target":false}
+                            ]
+						},
+                        {
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 1}
+							],
+							"animation": "epicfight:biped/skill/steel_whirlwind_charging",
+							"convert_time": 0.7,
+							"play_speed": 0.9
+						},
+                        {
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 1}
+							],
+							"wander": 16,
+                            "inaction_time": 10,
+                            "x_axis": 0.5,
+                            "z_axis": -0.3
+						},
+                        {
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 1}
+							],
+							"animation": "star:biped/new/wind_slash",
+							"convert_time": 0.4,
+							"play_speed": 1.2,
+                            "command_list":[
+                                {"time":2.2, "command":"indestructible @s play \"epicfight:biped/living/walk\" 0 1", "execute_at_target":false}
+                            ], "damage_modifier":{"damage": 0.8, "impact": 0.8, "armor_negation": 1}
+						},
+                        {
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 1}
+							],
+                            "animation": "wom:biped/combat/torment_auto_4",
+							"convert_time": 0.3,
+							"play_speed": 0.6,
+                            "command_list":[
+								{"time":0.0, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.45, "command":"execute at @s run playsound epicfight:sfx.ground_slam block @a[distance=..20] ~ ~ ~ 0.6", "execute_at_target":false}
+                            ], "damage_modifier":{"damage": 0.8, "impact": 0.8, "armor_negation": 1}
+						}
+					]
+				},
+				{
+					"weight": 2,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 600,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 4.0}, {"predicate":"phase", "min": 1, "max": 1},
+                                {"predicate":"attack_level", "min": 1, "max": 3}
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 3", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s minecraft:resistance 3 2", "execute_at_target":false},
+                                {"time":0.0, "command":"function goldenflame:charge2", "execute_at_target":false}
+                            ]
+						},
+                        {
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 1}
+							],
+							"animation": "wom:biped/living/torment_charge",
+							"convert_time": 0.3
+						},
+                        {
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 1}
+							],
+							"wander": 15,
+                            "inaction_time": 15,
+                            "x_axis": -0.8,
+                            "z_axis": -0.6
+						},
+                        {
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 1}
+							],
+							"wander": 15,
+                            "inaction_time": 15,
+                            "x_axis": 0.4,
+                            "z_axis": -0.4
+						},
+                        {
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 1}
+							],
+                            "animation": "wom:biped/combat/torment_charged_attack_2",
+							"convert_time": 0.5,
+							"play_speed": 0.6,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 2", "execute_at_target":false}
+                            ],
+							"set_phase": 1,
+                            "hit_command_list":[
+                                {"command":"effect give @s star:really_stun_immunity 3", "execute_at_target":false}
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, 
+                                {"predicate":"phase", "min": 1, "max": 1}
+							],
+							"animation": "wom:biped/combat/torment_auto_4",
+							"convert_time": 0.2,
+							"play_speed": 0.6,
+							"command_list": [
+                                {"time":0.0, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.1, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.2, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+                                {"time":0.45, "command":"execute at @s run playsound epicfight:sfx.ground_slam block @a[distance=..20] ~ ~ ~ 0.6", "execute_at_target":false}
+                            ], "damage_modifier":{"damage": 0.8, "impact": 0.8, "armor_negation": 1}, "set_phase": 1
+						}
+					]
+				},
+
+
+                {
+                    "weight": 1,
+                    "canBeInterrupted": false,
+                    "looping": false, 
+                    "cooldown": 120, 
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 4.0}
+                            ],
+                            "animation": "wom:biped/combat/torment_auto_2",
+							"convert_time": 0.3,
+							"play_speed": 0.65,
+                            "command_list":[
+                            ], "set_phase": 1,
+                            "end_by_hurt_level": 1
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, 
+                                {"predicate":"phase", "min": 1, "max": 2}, {"predicate":"attack_level", "min": 0, "max": 0}
+                            ],
+                            "animation": "wom:biped/combat/torment_auto_3",
+							"convert_time": 0.1,
+							"play_speed": 0.65,
+                            "command_list":[
+                            ], "set_phase": 1,
+                            "end_by_hurt_level": 1,
+                            "hit_command_list":[
+								{"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 0.8 1", "execute_at_target":true}
+							]
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, 
+                                {"predicate":"phase", "min": 1, "max": 2}
+                            ],
+                            "animation": "wom:biped/combat/torment_auto_4",
+							"convert_time": 0.3,
+							"play_speed": 0.6,
+                            "command_list":[
+                                {"time":0.45, "command":"execute at @s run playsound epicfight:sfx.ground_slam block @a[distance=..20] ~ ~ ~ 0.6", "execute_at_target":false}
+                            ], "damage_modifier":{"damage": 0.8, "impact": 0.8, "armor_negation": 1}, "set_phase": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 1,
+                    "canBeInterrupted": false,
+                    "looping": false, 
+                    "cooldown": 240, 
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 4.0}
+                            ],
+                            "animation": "wom:biped/combat/torment_auto_2",
+							"convert_time": 0.3,
+							"play_speed": 0.65,
+                            "command_list":[
+                            ], "set_phase": 1,
+                            "end_by_hurt_level": 1
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, 
+                                {"predicate":"phase", "min": 1, "max": 2}, {"predicate":"attack_level", "min": 0, "max": 0}
+                            ],
+                            "animation": "wom:biped/combat/torment_auto_3",
+							"convert_time": 0.1,
+							"play_speed": 0.65,
+                            "command_list":[
+                            ], "set_phase": 1,
+                            "end_by_hurt_level": 1,
+                            "hit_command_list":[
+								{"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 0.8 1", "execute_at_target":true}
+							]
+                        },
+                        {
+							"conditions": [
+                                {"predicate":"knock_down", "invert": true}, {"predicate":"phase", "min": 1, "max": 2}
+							],
+                            "animation": "wom:biped/combat/torment_charged_attack_3",
+							"convert_time": 0.5,
+							"play_speed": 0.7,
+                            "command_list":[
+                                {"time":0.2, "command":"execute at @s run playsound minecraft:entity.firework_rocket.blast block @a[distance=..20] ~ ~ ~ 2", "execute_at_target":false},
+                                {"time":1.0, "command":"execute at @s run playsound epicfight:sfx.ground_slam block @a[distance=..20] ~ ~ ~ 0.6", "execute_at_target":false},
+
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ],
+                            "damage_modifier":{"damage": 0.6, "impact": 2.0, "armor_negation": 1.0}, "set_phase": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 3.2,
+                    "canBeInterrupted": false,
+                    "looping": false, 
+                    "cooldown": 400, 
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 4.0}, {"predicate": "health", "health": 0.667, "comparator": "less_ratio"}
+                            ],
+                            "animation": "wom:biped/combat/torment_auto_2",
+							"convert_time": 0.3,
+							"play_speed": 0.65,
+                            "command_list":[
+                            ], "set_phase": 1,
+                            "end_by_hurt_level": 1
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, 
+                                {"predicate":"phase", "min": 1, "max": 2}, {"predicate":"attack_level", "min": 0, "max": 0}
+                            ],
+                            "animation": "wom:biped/combat/torment_auto_3",
+							"convert_time": 0.1,
+							"play_speed": 0.65,
+                            "command_list":[
+                            ], "set_phase": 1,
+                            "end_by_hurt_level": 1,
+                            "hit_command_list":[
+								{"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 0.8 1", "execute_at_target":true}
+							]
+                        },
+                        {
+							"conditions": [
+                                {"predicate":"knock_down", "invert": true}, {"predicate":"phase", "min": 1, "max": 2}
+							],
+                            "animation": "wom:biped/combat/torment_charged_attack_3",
+							"convert_time": 0.5,
+							"play_speed": 0.7,
+                            "command_list":[
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 2", "execute_at_target":false},
+                                {"time":0.0, "command":"tag @s add orange", "execute_at_target":false},
+								{"time":0.2, "command":"schedule function danger:danger_orange 2t append", "execute_at_target":false},
+                                {"time":0.2, "command":"execute at @s run playsound minecraft:entity.firework_rocket.blast block @a[distance=..20] ~ ~ ~ 2", "execute_at_target":false},
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+
+                                {"time":0.6, "command":"indestructible @s play \"epicfight:biped/living/walk\" 0 1", "execute_at_target":false}   
+                            ],
+                            "damage_modifier":{"damage": 0.6, "impact": 2.0, "armor_negation": 1.0}
+                        },
+                        {
+							"conditions": [
+                                {"predicate":"knock_down", "invert": true}, {"predicate":"phase", "min": 1, "max": 2}
+							],
+                            "animation": "wom:biped/combat/solar_horno",
+							"convert_time": 0.3,
+							"play_speed": 0.7,
+                            "command_list":[
+                                {"time":0.2, "command":"effect give @s alexsmobs:earthquake 1", "execute_at_target":true},
+                                {"time":0.2, "command":"execute at @s run playsound minecraft:item.totem.use block @a[distance=..20] ~ ~ ~ 1", "execute_at_target":false},
+                                {"time":0.2, "command":"execute at @s run particle minecraft:flame ~ ~ ~ 0 1 0 0.1 200", "execute_at_target":false},
+                                
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ],
+                            "damage_modifier":{"damage": 2.5, "impact": 2.5, "armor_negation": 2.0},
+                            "hit_command_list":[
+								{"command":"indestructible @s play \"epicfight:biped/interact/blade_rush_hit\" 0.5 1", "execute_at_target":true},
+								{"command":"effect give @s champions:wound 12", "execute_at_target":true}
+							]
+                        }
+                    ]
+                },
+
+
+                {
+                    "weight": 1,
+                    "canBeInterrupted": false,
+                    "looping": false, 
+                    "cooldown": 120, 
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 4.0}
+                            ],
+                            "animation": "wom:biped/combat/solar_auto_1",
+							"convert_time": 0.2,
+							"play_speed": 0.8,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ], "set_phase": 1,
+                            "hit_command_list":[
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 0.8 1", "execute_at_target":true}
+                            ]
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, 
+                                {"predicate":"phase", "min": 1, "max": 2}, {"predicate":"within_distance", "min": 0.0, "max": 4.0}
+                            ],
+                            "animation": "wom:biped/combat/solar_auto_2",
+							"convert_time": 0,
+							"play_speed": 0.8,
+                            "command_list":[
+                                {"time":0.6, "command":"execute at @s run playsound epicfight:sfx.ground_slam block @a[distance=..20] ~ ~ ~ 0.6", "execute_at_target":false}
+                            ], "set_phase": 1,
+                            "end_by_hurt_level": 1,
+                            "hit_command_list":[
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 0.8 1", "execute_at_target":true}
+                            ]
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, 
+                                {"predicate":"phase", "min": 1, "max": 2}, {"predicate":"within_distance", "min": 0.0, "max": 4.0}
+                            ],
+                            "animation": "wom:biped/combat/solar_auto_3",
+							"convert_time": 0.1,
+							"play_speed": 0.8,
+                            "command_list":[
+                            ], "set_phase": 1,
+                            "end_by_hurt_level": 1,
+                            "hit_command_list":[
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 0.8 1", "execute_at_target":true}
+                            ]
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, 
+                                {"predicate":"phase", "min": 1, "max": 2}, {"predicate":"within_distance", "min": 0.0, "max": 5.0}
+                            ],
+                            "animation": "wom:biped/combat/solar_auto_4",
+							"convert_time": 0.2,
+							"play_speed": 0.7,
+                            "command_list":[
+                            ], "set_phase": 1,
+                            "end_by_hurt_level": 1
+                        },
+
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, 
+                                {"predicate":"phase", "min": 1, "max": 2}, {"predicate":"within_distance", "min": 0.0, "max": 6.0}
+                            ],
+                            "animation": "wom:biped/skill/solar_auto_4_polvora",
+							"convert_time": 0.05,
+							"play_speed": 0.7,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ],
+                            "damage_modifier":{"damage": 0.6, "impact": 1.0, "armor_negation": 1.0}
+                        }
+                    ]
+                },
+
+                {
+                    "weight": 1.5,
+                    "canBeInterrupted": false,
+                    "looping": false, 
+                    "cooldown": 400, 
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 4.0}
+                            ],
+                            "animation": "wom:biped/combat/solar_auto_1",
+							"convert_time": 0.2,
+							"play_speed": 0.8,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ], "set_phase": 1,
+                            "hit_command_list":[
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 0.8 1", "execute_at_target":true}
+                            ]
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"knock_down", "invert": true}, {"predicate":"phase", "min": 1, "max": 1},
+                                {"predicate":"within_distance", "min": 0.0, "max": 4.0}
+                            ],
+                            "animation": "wom:biped/combat/solar_auto_2",
+							"convert_time": 0,
+							"play_speed": 0.8,
+                            "command_list":[
+                                {"time":0.6, "command":"execute at @s run playsound epicfight:sfx.ground_slam block @a[distance=..20] ~ ~ ~ 0.6", "execute_at_target":false}
+                            ],
+                            "hit_command_list":[
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 0.8 1", "execute_at_target":true}
+                            ]
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"knock_down", "invert": true}, {"predicate":"phase", "min": 1, "max": 1},
+                                {"predicate":"within_distance", "min": 0.0, "max": 4.0}
+                            ],
+                            "animation": "wom:biped/combat/solar_auto_3",
+							"convert_time": 0.1,
+							"play_speed": 0.8,
+                            "command_list":[
+                            ],
+                            "hit_command_list":[
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 0.8 1", "execute_at_target":true}
+                            ]
+                        },
+
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"phase", "min": 1, "max": 1}
+                            ],
+                            "animation": "wom:biped/skill/solar_auto_1_polvora",
+							"convert_time": 0.3,
+							"play_speed": 0.8,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+                                {"time":0.2, "command":"execute at @s run playsound wom:sfx.solar_hit block @a[distance=..20] ~ ~ ~ 1 1", "execute_at_target":false}
+                            ],
+                            "hit_command_list":[
+                                {"command":"effect give @s champions:wound 6", "execute_at_target":true},
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 2 1", "execute_at_target":true},
+                                {"command":"effect give @s stellarisdlc:stamina_regen_enhanced 2 9", "execute_at_target":false}
+                            ],
+                            "damage_modifier":{"damage": 1.0, "impact": 1.0, "armor_negation": 1.0},
+                            "end_by_hurt_level": 1
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"knock_down", "invert": true}, {"predicate":"phase", "min": 1, "max": 1},
+                                {"predicate":"within_distance", "min": 0.0, "max": 6.0},
+								{"predicate": "health", "health": 0.667, "comparator": "less_ratio"}
+                            ],
+                            "animation": "wom:biped/skill/solar_auto_3_polvora",
+							"convert_time": 0.7,
+							"play_speed": 1.0,
+                            "command_list":[
+                            ],
+                            "hit_command_list":[
+                                {"command":"effect give @s champions:wound 6", "execute_at_target":true},
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 1.2 1", "execute_at_target":true},
+                                {"command":"effect give @s stellarisdlc:stamina_regen_enhanced 2 9", "execute_at_target":false}
+                            ],
+                            "damage_modifier":{"damage": 0.6, "impact": 1.0, "armor_negation": 5.0},
+                            "set_phase": 3,
+                            "end_by_hurt_level": 1
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"phase", "min": 1, "max": 3}
+                            ],
+                            "animation": "wom:biped/skill/solar_auto_3_polvora",
+							"convert_time": 0.1,
+							"play_speed": 1.0,
+                            "command_list":[
+                            ],
+                            "hit_command_list":[
+                                {"command":"effect give @s champions:wound 6", "execute_at_target":true},
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 1.2 1", "execute_at_target":true},
+                                {"command":"effect give @s stellarisdlc:stamina_regen_enhanced 2 9", "execute_at_target":false}
+                            ],
+                            "damage_modifier":{"damage": 0.6, "impact": 1.0, "armor_negation": 5.0},
+                            "set_phase": 3,
+                            "end_by_hurt_level": 1
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+                                {"predicate":"phase", "min": 1, "max": 3}
+                            ],
+                            "animation": "wom:biped/skill/solar_auto_3_polvora",
+							"convert_time": 0.1,
+							"play_speed": 1.0,
+                            "command_list":[
+                                {"time":0.8, "command":"indestructible @s play \"epicfight:biped/living/walk\" 0 1", "execute_at_target":false}
+                            ],
+                            "hit_command_list":[
+                                {"command":"effect give @s champions:wound 6", "execute_at_target":true},
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 1.2 1", "execute_at_target":true},
+                                {"command":"effect give @s stellarisdlc:stamina_regen_enhanced 2 9", "execute_at_target":false}
+                            ],
+                            "damage_modifier":{"damage": 0.6, "impact": 1.0, "armor_negation": 5.0},
+                            "set_phase": 3,
+                            "end_by_hurt_level": 1
+                        }
+
+                    ]
+                },
+                {
+                    "weight": 1000,
+                    "canBeInterrupted": false,
+                    "looping": false, 
+                    "cooldown": 60, 
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, 
+                                {"predicate":"phase", "min": 3, "max": 3}
+                            ],
+                            "animation": "wom:biped/combat/torment_auto_4",
+                            "convert_time": 0.3,
+                            "play_speed": 0.6,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.1, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.2, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+
+                                {"time":0.45, "command":"execute at @s run playsound epicfight:sfx.ground_slam block @a[distance=..20] ~ ~ ~ 0.6", "execute_at_target":false}
+                            ], "damage_modifier":{"damage": 0.8, "impact": 0.8, "armor_negation": 1}, "set_phase": 1
+                        }
+                    ]
+                },
+                {
+                    "weight": 2500,
+                    "canBeInterrupted": false,
+                    "looping": false, 
+                    "cooldown": 800, 
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, 
+                                {"predicate":"phase", "min": 3, "max": 3}
+                            ],
+                            "animation": "wom:biped/combat/torment_auto_4",
+                            "convert_time": 0.3,
+                            "play_speed": 0.6,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.1, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.2, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+
+                                {"time":0.0, "command":"effect give @s star:really_stun_immunity 2", "execute_at_target":false},
+                                {"time":0.45, "command":"execute at @s run playsound epicfight:sfx.ground_slam block @a[distance=..20] ~ ~ ~ 0.6", "execute_at_target":false},
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+                                {"time":0.0, "command":"tag @s add purple", "execute_at_target":false},
+								{"time":0.2, "command":"schedule function danger:danger_purple 8t append", "execute_at_target":false},
+								{"time":0.2, "command":"function effect_unstable:unstable_goldenflame_solar", "execute_at_target":false},
+								{"time":0.19, "command":"tag @s add unstable_goldenflame", "execute_at_target":false},
+
+                                {"time":0.6, "command":"execute as @s at @s run particle minecraft:wax_off ^-1.2 ^1 ^-1 0 0 0 1 30", "execute_at_target":false}
+                            ], "damage_modifier":{"damage": 0.8, "impact": 0.8, "armor_negation": 1}, "set_phase": 1
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"knock_down", "invert": true}, {"predicate":"phase", "min": 1, "max": 2}
+                            ],
+                            "animation": "wom:biped/skill/solar_auto_2_polvora",
+							"convert_time": 0.2,
+							"play_speed": 0.7,
+                            "command_list":[
+                                {"time":0.2, "command":"effect give @s alexsmobs:earthquake 1", "execute_at_target":true},
+                                {"time":0.2, "command":"execute at @s run playsound cataclysm:sword_stomp block @a[distance=..20] ~ ~ ~ 1", "execute_at_target":false},
+                                {"time":0.2, "command":"execute at @s run particle minecraft:soul_fire_flame ~ ~ ~ 0 1 0 0.1 200", "execute_at_target":false},
+
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ],
+                            "hit_command_list":[
+                                {"command":"effect give @s star:really_stun_immunity 5", "execute_at_target":false},
+                                {"command":"indestructible @s set_phase 5", "execute_at_target":false},
+                                {"command":"effect give @s champions:wound 6", "execute_at_target":true}
+                            ],
+                            "damage_modifier":{"damage": 1.5, "impact": 2.0, "armor_negation": 2.0}, "set_phase": 1
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"knock_down", "invert": true}, {"predicate":"phase", "min": 5, "max": 5}
+                            ],
+                            "animation": "wom:biped/skill/torment_berserk_convert",
+							"convert_time": 0,
+							"play_speed": 0.7,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.1, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.2, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+
+                                {"time":0.4, "command":"execute at @s run particle minecraft:soul ~ ~ ~ 0 1 0 0.1 200", "execute_at_target":false},
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ],
+                            "hit_command_list":[
+                                {"command":"function fireball_orange:summun", "execute_at_target":false},
+                                {"command":"function fireball_orange:launch_orange", "execute_at_target":false},
+                                {"command":"effect give @s cataclysm:blazing_brand 10 3", "execute_at_target":true},
+                                
+                                {"command":"indestructible @s set_phase 1", "execute_at_target":false},
+                                {"command":"effect give @s star:really_stun_immunity 2", "execute_at_target":false},
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 2 1", "execute_at_target":true}
+                            ],
+                            "damage_modifier":{"damage": 1.0, "impact": 2.0, "armor_negation": 2.0}, "set_phase": 1
+                        }
+                    ]
+                },
+
+
+
+
+
+
+				{
+					"weight": 1.5,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 400,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 4.0, "max": 8.0}, {"predicate":"phase", "min": 1, "max": 1}
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 3", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s minecraft:resistance 3 2", "execute_at_target":false},
+                                {"time":0.0, "command":"function goldenflame:charge2", "execute_at_target":false}
+                            ], "set_phase": 4
+						},
+                        {
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 4}
+							],
+							"animation": "wom:biped/living/torment_charge",
+							"convert_time": 0.3, 
+                            "set_phase": 4
+						},
+                        {
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 4}
+							],
+							"wander": 15,
+                            "inaction_time": 15,
+                            "x_axis": -0.8,
+                            "z_axis": 0.6, 
+                            "set_phase": 4
+						},
+                        {
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 4}
+							],
+							"wander": 15,
+                            "inaction_time": 15,
+                            "x_axis": 0.6,
+                            "z_axis": 0.4, 
+                            "set_phase": 4
+						}
+					]
+				},
+                {
+					"weight": 3000,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 400,
+					"behaviors": [
+                        {
+							"conditions": [
+								{"predicate":"knock_down", "invert": true}, {"predicate":"phase", "min": 4, "max": 4}
+							],
+                            "animation": "wom:biped/combat/torment_charged_attack_2",
+							"convert_time": 0.5,
+							"play_speed": 0.6,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 3", "execute_at_target":false},
+                                {"time":0.85, "command":"indestructible @s play \"epicfight:biped/living/walk\" 0 1", "execute_at_target":false}
+                            ],
+                            "hit_command_list":[
+                                {"command":"effect give @s star:really_stun_immunity 3", "execute_at_target":false},
+                                {"command":"indestructible @s set_phase 7", "execute_at_target":false},
+                                {"command":"effect give @s minecraft:slow_falling 3", "execute_at_target":false}
+                            ],
+                            "damage_modifier":{"damage": 0.6, "impact": 1.0, "armor_negation": 1.0}
+						},
+                        {
+							"conditions": [
+								{"predicate":"phase", "min": 4, "max": 4}
+							],
+							"animation": "wom:biped/combat/torment_auto_4",
+							"convert_time": 0.3,
+							"play_speed": 0.6,
+							"command_list": [
+                                {"time":0.0, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.1, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.2, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+                                {"time":0.45, "command":"execute at @s run playsound epicfight:sfx.ground_slam block @a[distance=..20] ~ ~ ~ 0.6", "execute_at_target":false}
+                            ], "damage_modifier":{"damage": 0.8, "impact": 0.8, "armor_negation": 1}, "set_phase": 1
+						}
+					]
+				},
+                {
+					"weight": 2000,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 100,
+					"behaviors": [
+                        {
+							"conditions": [
+								{"predicate":"knock_down", "invert": true}, {"predicate":"phase", "min": 4, "max": 4}
+							],
+                            "animation": "wom:biped/combat/torment_charged_attack_2",
+							"convert_time": 0.5,
+							"play_speed": 0.6,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 2", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s minecraft:slow_falling 3", "execute_at_target":false},
+                                {"time":0.85, "command":"indestructible @s play \"epicfight:biped/living/walk\" 0 1", "execute_at_target":false}
+                            ],
+                            "hit_command_list":[
+                                {"command":"effect give @s star:really_stun_immunity 3", "execute_at_target":false},
+                                {"command":"indestructible @s set_phase 7", "execute_at_target":false},
+                                {"command":"effect give @s minecraft:slow_falling 3", "execute_at_target":false}
+                            ],
+                            "damage_modifier":{"damage": 0.6, "impact": 1.0, "armor_negation": 1.0}
+						},
+                        {
+							"conditions": [
+								{"predicate":"phase", "min": 4, "max": 4}
+							],
+                            "animation": "wom:biped/combat/torment_charged_attack_3",
+							"convert_time": 0.4,
+							"play_speed": 0.7,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.1, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.2, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+
+                                {"time":0.2, "command":"execute at @s run playsound minecraft:entity.firework_rocket.blast block @a[distance=..20] ~ ~ ~ 2", "execute_at_target":false},
+                                {"time":1.0, "command":"execute at @s run playsound epicfight:sfx.ground_slam block @a[distance=..20] ~ ~ ~ 0.6", "execute_at_target":false},
+
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ],
+                            "damage_modifier":{"damage": 0.6, "impact": 2.0, "armor_negation": 1.0}, "set_phase": 1
+                        }
+					]
+				},
+
+                {
+					"weight": 3000,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 400,
+					"behaviors": [
+                        {
+							"conditions": [
+								{"predicate":"knock_down", "invert": true}, {"predicate":"phase", "min": 7, "max": 7}
+							],
+                            "animation": "wom:biped/combat/torment_charged_attack_3",
+							"convert_time": 0.4,
+							"play_speed": 0.7,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.1, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.2, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+
+                                {"time":0.2, "command":"execute at @s run playsound minecraft:entity.firework_rocket.blast block @a[distance=..20] ~ ~ ~ 2", "execute_at_target":false},
+                                {"time":1.0, "command":"execute at @s run playsound epicfight:sfx.ground_slam block @a[distance=..20] ~ ~ ~ 0.6", "execute_at_target":false},
+
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ],
+                            "damage_modifier":{"damage": 0.6, "impact": 2.0, "armor_negation": 1.0}, "set_phase": 1
+                        }
+					]
+				},
+                {
+					"weight": 3000,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 400,
+					"behaviors": [
+                        {
+							"conditions": [
+								{"predicate":"knock_down", "invert": true}, {"predicate":"phase", "min": 7, "max": 7}
+							],
+                            "animation": "wom:biped/skill/solar_auto_4_polvora",
+							"convert_time": 0,
+							"play_speed": 0.7,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.1, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.2, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ],
+                            "damage_modifier":{"damage": 0.6, "impact": 1.0, "armor_negation": 1.0}, "set_phase": 1
+                        }
+					]
+				},
+
+
+				{
+					"weight": 2,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 500,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 4.0, "max": 16.0}, {"predicate":"phase", "min": 1, "max": 1}
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 7", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s minecraft:resistance 7 2", "execute_at_target":false},
+                                {"time":0.0, "command":"function goldenflame:charge3", "execute_at_target":false}
+                            ]
+						},
+                        {
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 1}
+							],
+							"animation": "wom:biped/living/torment_charge",
+							"convert_time": 0.3
+						},
+                        {
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 1}
+							],
+							"wander": 30,
+                            "inaction_time": 30,
+                            "x_axis": 0.8,
+                            "z_axis": 0.6
+						},
+                        {
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 1}
+							],
+							"wander": 30,
+                            "inaction_time": 30,
+                            "x_axis": -0.4,
+                            "z_axis": -0.4
+						},
+                        {
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 1}
+							],
+							"wander": 30,
+                            "inaction_time": 30,
+                            "x_axis": -0.4,
+                            "z_axis": 0.2
+						},
+                        {
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 1}
+							],
+                            "animation": "wom:biped/combat/torment_dash",
+							"convert_time": 0.2,
+							"play_speed": 0.6,
+                            "command_list":[
+                                {"time":0.2, "command":"execute at @s run playsound epicfight:sfx.ground_slam block @a[distance=..20] ~ ~ ~ 0.6", "execute_at_target":false},
+                                
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ]
+						},
+                        {
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 1}
+							],
+                            "animation": "epicfight:biped/combat/greatsword_auto2",
+							"convert_time": 0.3,
+							"play_speed": 0.7,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+                                {"time":0.8, "command":"indestructible @s play \"epicfight:biped/living/walk\" 0 1", "execute_at_target":false}
+                            ], "damage_modifier":{"damage": 1, "impact": 1.6, "armor_negation": 1}
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, 
+                                {"predicate":"phase", "min": 1, "max": 1}
+							],
+                            "animation": "wom:biped/combat/torment_auto_4",
+							"convert_time": 0.3,
+							"play_speed": 0.6,
+                            "command_list":[
+                                {"time":0.45, "command":"execute at @s run playsound epicfight:sfx.ground_slam block @a[distance=..20] ~ ~ ~ 0.6", "execute_at_target":false}
+                            ], "damage_modifier":{"damage": 0.8, "impact": 0.8, "armor_negation": 1}
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}, 
+                                {"predicate":"phase", "min": 1, "max": 1}, {"predicate": "health", "health": 0.667, "comparator": "less_ratio"}
+							],
+                            "animation": "star:biped/new/lion_claw",
+							"convert_time": 0.2,
+							"play_speed": 0.8,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 2", "execute_at_target":false},
+								{"time":1.6, "command":"execute at @s run playsound epicfight:sfx.ground_slam block @a[distance=..20] ~ ~ ~ 0.7", "execute_at_target":false},
+								{"time":1.6, "command":"execute at @s run particle epicfight:ground_slam ~ ~-1.5 ~ 1 0 1 1 100 force", "execute_at_target":false},
+								{"time":1.6, "command":"execute at @s run particle minecraft:block minecraft:lava ~ ~ ~ 1.5 0 1.5 0.1 300", "execute_at_target":false}
+                            ]
+						}
+					]
+				},
+
+                {
+                    "weight": 1.3,
+                    "canBeInterrupted": false,
+                    "looping": false, 
+                    "cooldown": 1000, 
+                    "behaviors": [
+                        {
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 8.0}, {"predicate":"phase", "min": 1, "max": 1},
+								{"predicate": "health", "health": 0.667, "comparator": "less_ratio"}
+							],
+							"animation": "epicfight:biped/skill/step_forward",
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 16", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s minecraft:resistance 8 2", "execute_at_target":false},
+                                {"time":0.0, "command":"function goldenflame:charge4", "execute_at_target":false}
+                            ]
+						},
+                        {
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 1}
+							],
+							"animation": "wom:biped/living/torment_charge",
+							"convert_time": 0.3
+						},
+                        {
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 1}
+							],
+							"wander": 30,
+                            "inaction_time": 30,
+                            "x_axis": 0.8,
+                            "z_axis": -0.6
+						},
+                        {
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 1}
+							],
+							"wander": 30,
+                            "inaction_time": 30,
+                            "x_axis": -0.8,
+                            "z_axis": -0.4
+						},
+                        {
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 1}
+							],
+							"wander": 30,
+                            "inaction_time": 30,
+                            "x_axis": 0.4,
+                            "z_axis": 0.2
+						},
+                        {
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 1}
+							],
+							"wander": 30,
+                            "inaction_time": 30,
+                            "x_axis": -0.4,
+                            "z_axis": 0.0
+						},
+                        {
+                            "conditions": [
+                                {"predicate":"knock_down", "invert": true}, {"predicate":"phase", "min": 1, "max": 1}
+                            ],
+                            "animation": "wom:biped/combat/torment_dash",
+							"convert_time": 0.3,
+							"play_speed": 0.7,
+                            "command_list":[
+                                {"time":0.2, "command":"execute at @s run playsound epicfight:sfx.ground_slam block @a[distance=..20] ~ ~ ~ 0.6", "execute_at_target":false},
+                                
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ]
+                        },
+                        {
+							"conditions": [
+								{"predicate":"knock_down", "invert": true}, {"predicate":"phase", "min": 1, "max": 1}
+							],
+                            "animation": "epicfight:biped/combat/greatsword_auto2",
+							"convert_time": 0.3,
+							"play_speed": 0.7,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+                                {"time":0.8, "command":"indestructible @s play \"epicfight:biped/living/walk\" 0 1", "execute_at_target":false}
+                            ], "damage_modifier":{"damage": 1, "impact": 1.6, "armor_negation": 1}
+						},
+                        {
+                            "conditions": [
+                                {"predicate":"knock_down", "invert": true}, {"predicate":"phase", "min": 1, "max": 2}
+                            ],
+                            "animation": "wom:biped/skill/torment_berserk_airslam",
+							"convert_time": 0.5,
+							"play_speed": 0.5,
+                            "command_list":[
+                                {"time":0.4, "command":"execute at @s run playsound epicfight:sfx.ground_slam block @a[distance=..20] ~ ~ ~ 0.6", "execute_at_target":false},
+								
+                                {"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ],
+                            "hit_command_list":[
+								{"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 1 1", "execute_at_target":true}
+							]
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"knock_down", "invert": true}, {"predicate":"phase", "min": 1, "max": 2}
+                            ],
+                            "animation": "wom:biped/skill/torment_berserk_auto_1",
+							"convert_time": 0.4,
+							"play_speed": 0.8,
+                            "command_list":[
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ]
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"knock_down", "invert": true}, {"predicate":"phase", "min": 1, "max": 2}
+                            ],
+                            "animation": "wom:biped/skill/torment_berserk_auto_2",
+							"convert_time": 0.1,
+							"play_speed": 0.8,
+                            "command_list":[
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ]
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"knock_down", "invert": true}, {"predicate":"phase", "min": 1, "max": 2}
+                            ],
+                            "animation": "wom:biped/combat/torment_auto_4",
+							"convert_time": 0.3,
+							"play_speed": 0.6,
+                            "command_list":[
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.6, "command":"effect give @s star:really_stun_immunity 3", "execute_at_target":false},
+                                {"time":0.0, "command":"tag @s add orange", "execute_at_target":false},
+								{"time":0.2, "command":"schedule function danger:danger_orange 8t append", "execute_at_target":false},
+                                {"time":0.6, "command":"indestructible @s play \"epicfight:biped/living/walk\" 0 1", "execute_at_target":false}
+                            ],
+                            "hit_command_list":[
+								{"command":"indestructible @s play \"epicfight:biped/combat/hit_long\" 0.2 1", "execute_at_target":true}
+							],
+                            "damage_modifier":{"damage": 0.8, "impact": 0.8, "armor_negation": 1.0}
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"knock_down", "invert": true}, {"predicate":"phase", "min": 1, "max": 2}
+                            ],
+                            "animation": "wom:biped/combat/solar_horno",
+							"convert_time": 0.8,
+							"play_speed": 0.7,
+                            "command_list":[
+                                {"time":0.2, "command":"effect give @s alexsmobs:earthquake 1", "execute_at_target":true},
+                                {"time":0.2, "command":"execute at @s run playsound minecraft:item.totem.use block @a[distance=..20] ~ ~ ~ 1", "execute_at_target":false},
+                                {"time":0.2, "command":"execute at @s run particle minecraft:flame ~ ~ ~ 0 1 0 0.1 200", "execute_at_target":false},
+                                
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+                                {"time":0.0, "command":"tag @s add purple", "execute_at_target":false},
+								{"time":0.1, "command":"schedule function danger:danger_purple 10t append", "execute_at_target":false},
+								{"time":0.15, "command":"function effect_unstable:unstable_goldenflame_solar", "execute_at_target":false},
+								{"time":0.13, "command":"tag @s add unstable_goldenflame", "execute_at_target":false},
+
+                                {"time":0.6, "command":"execute as @s at @s run particle minecraft:wax_off ^-1.2 ^1 ^-1 0 0 0 1 30", "execute_at_target":false}
+                            ],
+                            "damage_modifier":{"damage": 2.5, "impact": 2.0, "armor_negation": 2.0},
+                            "hit_command_list":[
+								{"command":"indestructible @s play \"epicfight:biped/interact/blade_rush_hit\" -0.5 1", "execute_at_target":true},
+								{"command":"effect give @s champions:wound 6", "execute_at_target":true}
+							]
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"knock_down", "invert": true}, {"predicate":"phase", "min": 1, "max": 2}
+                            ],
+                            "animation": "wom:biped/skill/solar_auto_2_polvora",
+							"convert_time": 0.4,
+							"play_speed": 0.7,
+                            "command_list":[
+                                {"time":0.2, "command":"effect give @s alexsmobs:earthquake 1", "execute_at_target":true},
+                                {"time":0.2, "command":"execute at @s run playsound cataclysm:sword_stomp block @a[distance=..20] ~ ~ ~ 1", "execute_at_target":false},
+                                {"time":0.2, "command":"execute at @s run particle minecraft:soul_fire_flame ~ ~ ~ 0 1 0 0.1 200", "execute_at_target":false},
+
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ],
+                            "hit_command_list":[
+                                {"command":"effect give @s star:really_stun_immunity 5", "execute_at_target":false},
+                                {"command":"indestructible @s set_phase 5", "execute_at_target":false},
+                                {"command":"effect give @s champions:wound 6", "execute_at_target":true}
+                            ],
+                            "damage_modifier":{"damage": 1.5, "impact": 2.0, "armor_negation": 2.0}, "set_phase": 1
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"knock_down", "invert": true}, {"predicate":"phase", "min": 5, "max": 5}
+                            ],
+                            "animation": "wom:biped/skill/torment_berserk_convert",
+							"convert_time": 0,
+							"play_speed": 0.7,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.1, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.2, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+
+                                {"time":0.4, "command":"execute at @s run particle minecraft:soul ~ ~ ~ 0 1 0 0.1 200", "execute_at_target":false},
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ],
+                            "hit_command_list":[
+                                {"command":"function fireball_orange:summun", "execute_at_target":false},
+                                {"command":"function fireball_orange:launch_orange", "execute_at_target":false},
+                                {"command":"effect give @s cataclysm:blazing_brand 10 3", "execute_at_target":true},
+
+                                {"command":"indestructible @s set_phase 1", "execute_at_target":false},
+                                {"command":"effect give @s star:really_stun_immunity 2", "execute_at_target":false},
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 2 1", "execute_at_target":true}
+                            ],
+                            "damage_modifier":{"damage": 1.0, "impact": 2.0, "armor_negation": 2.0}, "set_phase": 1
+                        }
+                    ]
+                },
+
+
+
+
+
+
+                {
+					"weight": 10000,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 2400,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}, {"predicate":"guard_break","invert":false}
+							],
+							"animation": "epicfight:enderman/knee",
+                            "convert_time": 0.3,
+                            "play_speed": 0.8
+						}
+                    ]
+                },
+                {
+					"weight": 8000,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 2400,
+					"behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate":"guard_break", "invert": false}
+                            ],
+                            "animation": "wom:biped/skill/torment_berserk_convert",
+							"convert_time": 0,
+							"play_speed": 0.7,
+                            "command_list":[
+                                {"time":0.0, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.1, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+                                {"time":0.2, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+
+                                {"time":0.4, "command":"execute at @s run particle minecraft:soul ~ ~ ~ 0 1 0 0.1 200", "execute_at_target":false},
+
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ],
+                            "hit_command_list":[
+                                {"command":"function fireball_orange:summun", "execute_at_target":false},
+                                {"command":"function fireball_orange:launch_orange", "execute_at_target":false},
+                                {"command":"effect give @s cataclysm:blazing_brand 16 3", "execute_at_target":true},
+
+                                {"command":"indestructible @s set_phase 1", "execute_at_target":false},
+                                {"command":"effect give @s star:really_stun_immunity 2", "execute_at_target":false},
+                                {"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 2 1", "execute_at_target":true}
+                            ],
+                            "damage_modifier":{"damage": 1.0, "impact": 2.0, "armor_negation": 2.0}, "set_phase": 1
+                        }
+                    ]
+                },
+                {
+					"weight": 1000,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 60,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 6.0}, {"predicate":"guard_break","invert":false}
+							],
+							"wander": 60,
+							"inaction_time": 0,
+							"x_axis": 0.0,
+							"z_axis": 0.0, 
+							"set_phase": 1
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/sekiro",
+							"convert_time": 0.3,
+							"play_speed": 0.9,
+							"command_list": [
+								{"time":0.0, "command":"execute at @s run playsound star:sekiro block @a[distance=..20] ~ ~ ~ 1.3", "execute_at_target":true},
+								{"time":0.0, "command":"indestructible @s play \"star:biped/sekiro_executed\" 0 1", "execute_at_target":true},
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 3", "execute_at_target":false}
+                            ],
+							"set_phase": 1,
+							"hit_command_list":[
+								{"command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+								{"command":"effect give @s star:really_stun_immunity 3", "execute_at_target":false}
+							],
+							"damage_modifier":{"damage": 1.3, "impact": 2.0, "armor_negation": 1}
+						},
+						{
+							"conditions": [
+							],
+							"wander": 20,
+							"inaction_time": 10,
+							"x_axis": 0.0,
+							"z_axis": -0.4, 
+							"set_phase": 1
+						}
+					]
+				},
+
+
+				{
+					"weight": 10000,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 2400,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"knock_down", "invert": false}
+							],
+							"animation": "star:biped/new/fire_ball",
+							"convert_time": 0.1,
+							"play_speed": 0.5,
+							"command_list": [
+								{"time":0.05, "command":"execute at @s as @p run playsound minecraft:entity.evoker.prepare_summon block @a[distance=..20] ~ ~ ~ 10 1.5", "execute_at_target":true},
+								{"time":0.45, "command":"execute at @s as @p run playsound minecraft:entity.wither.hurt block @a[distance=..20] ~ ~ ~ 2", "execute_at_target":false},
+								{"time":0.9, "command":"data modify entity @e[type=cataclysm:ignis_abyss_fireball,limit=1] HasBeenShot set value 4", "execute_at_target":false},
+								{"time":1.0, "command":"indestructible @s play \"epicfight:biped/living/walk\" 0 1", "execute_at_target":false},
+
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 2", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s minecraft:resistance 3 4", "execute_at_target":false},
+
+                                {"time":0.0, "command":"function fireball_orange:summun", "execute_at_target":false},
+                                {"time":0.1, "command":"function fireball_orange:launch_orange", "execute_at_target":false}
+                            ], "set_phase": 1
+						},
+						{
+							"conditions": [
+							],
+							"wander": 20,
+							"inaction_time": 10,
+							"x_axis": 0.0,
+							"z_axis": -0.4, 
+							"set_phase": 1
+						}
+                    ]
+                },
+                {
+					"weight": 1000,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 20,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"knock_down", "invert": false}
+							],
+							"animation": "epicfight:biped/combat/greatsword_airslash",
+							"convert_time": 0.2,
+							"play_speed": 0.8,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 2", "execute_at_target":false}
+                            ], "set_phase": 1
+						},
+                        {
+							"conditions": [
+							],
+                            "animation": "wom:biped/combat/torment_charged_attack_3",
+							"convert_time": 0.5,
+							"play_speed": 0.7,
+                            "command_list":[
+                                {"time":0.0, "command":"effect give @s star:really_stun_immunity 2", "execute_at_target":false},
+
+                                {"time":0.2, "command":"execute at @s run playsound minecraft:entity.firework_rocket.blast block @a[distance=..20] ~ ~ ~ 2", "execute_at_target":false},
+                                {"time":1.0, "command":"execute at @s run playsound epicfight:sfx.ground_slam block @a[distance=..20] ~ ~ ~ 0.6", "execute_at_target":false},
+
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ],
+                            "damage_modifier":{"damage": 0.6, "impact": 2.0, "armor_negation": 1.0}, "set_phase": 1
+                        }
+                    ]
+                }
+
+
+            ]
+        }
+
+    ]
+}

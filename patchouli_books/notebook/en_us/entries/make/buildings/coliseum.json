@@ -1,0 +1,19 @@
+{
+    "name": "斗兽场",
+    "icon": "minecraft:netherite_sword",
+    "category": "patchouli:buildings",
+    "sortnum":0,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"斗兽场/coliseum",
+            "text": "在帝国的鼎盛时期，贵族们的一大乐趣就是观赏斗士们在斗兽场与各种凶猛的野兽厮杀，以此来感受感受令人血脉喷张的原始杀戮。在第二帝国时期，人族的光辉逐渐褪去，斗兽场也由于终焉的不断骚扰逐渐废弃。然而战死的斗士灵魂仍然存在于这里。他们的亡灵仍穿着最强的铠甲在这里等待着“野兽”。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/coliseum.png",
+            "text1":"吾将永垂不朽",
+            "text2":""
+        }
+    ]
+}

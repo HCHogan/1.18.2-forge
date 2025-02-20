@@ -1,0 +1,34 @@
+{
+    "name": "杀戮将军",
+    "icon": "stellarisdlc:diedsword",
+    "category": "patchouli:boss_place_1",
+    "sortnum":4,
+    "pages": [
+        {
+           "type": "T1",
+            "title":"杀戮将军",
+            "text": "沉溺于杀戮的快感，来自亚特兰蒂斯险些堕入修罗的太刀武士，是在第二帝国时期独立出去的众多豪杰之一。成为了一方领袖的他也凭借个人意志压制了其无止尽的杀意，强大的力量也让其有了不少的追随者。尽管如此修罗的证据:$(#ff0000)死亡碎片$()已深深嵌入其铠甲"
+        },
+        {"type": "png_teach",
+            "image":"stellarisdlc:textures/png/slaughter.png",
+            "text1":"杀戮将军",
+            "text2":""
+        },
+        {"type": "spotlight",
+        "title":"召唤材料",
+        "item": "minecraft:diamond#4,minecraft:netherrack#4,byg:ametrine_gems,miningmaster:dive_aquamarine",
+        "text": "钻石x4$(br)下界岩x4$(br)深潜蓝宝石x1$(br)紫黄晶x1$(br)最后加入$(1)$(l:boss_place/boss_summon/imessence)往生精华$()$()"
+         },
+         {"type": "spotlight",
+        "title":"特殊掉落物：死亡碎片",
+        "item": "stellariscraft:diedscrap",
+        "link_recipe":true,
+        "text": "死亡、疯狂、鲜血这正是修罗渴求的，据说有能力成为修罗的人盔甲上会凝聚死亡碎片，但是是否成为修罗取决于自身。谨记没有目的的杀戮便会堕入修罗。$(br2)杀戮将军掉落1~2个$(br2)可以通过配置$(t:等级越高提高量越多,书中为无抢夺掉落量)$(5)抢夺$()附魔提高掉落量。"
+         },
+         {"type": "spotlight",
+         "title":"其他掉落物",
+         "item": "miningmaster:unbreaking_iolite,miningmaster:power_pyrite",
+         "text": "击杀掉落$(br)不毁堇青石、力量黄铁矿1~2个$(br2)可以通过配置$(t:等级越高提高量越多,书中为无抢夺掉落量)$(5)抢夺$()附魔提高掉落量。"
+        }
+    ]
+}

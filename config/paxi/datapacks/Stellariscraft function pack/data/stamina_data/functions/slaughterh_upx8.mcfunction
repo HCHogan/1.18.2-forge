@@ -1,0 +1,2 @@
+schedule function stamina_data:stamina_change/slaughterh_upx8 1t append
+schedule function stamina_data:stamina_change/slaughterh_down 30t append

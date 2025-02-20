@@ -1,0 +1,7 @@
+{
+    "name": "交易查询",
+    "description": "本整合包对村民的交易系统做出了大量更改。考虑到村民交易逐步解锁的机制，这里直接列出各职业村民的交易表与一次补货内的各项交易可进行次数。",
+    "icon": "minecraft:textures/mob_effect/hero_of_the_village.png",
+    "parent":"patchouli:teach"
+   
+}

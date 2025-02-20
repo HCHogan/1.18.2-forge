@@ -1,0 +1,35 @@
+{
+    "name": "炽焰小队",
+    "icon": "minecraft:blaze_powder",
+    "category": "patchouli:boss_place_1",
+    "sortnum":0,
+    "anchor":"fire",
+    "pages": [
+        {
+           "type": "T1",
+            "title":"炽焰小队",
+            "text": "从黑曜石的另一侧来到此地的巡逻队，炽焰魔使通常会率领3个烈焰人来主世界破坏与掠夺，当然这只是过去了。据说它们的力量源于体内的一颗神奇宝石——$(#ff0000)腐化烈焰宝石$()"
+        },
+        {"type": "png_teach",
+        "image":"stellarisdlc:textures/png/fire.png",
+        "text1":"炽焰小队",
+        "text2":""
+        },
+        {"type": "spotlight",
+        "title":"召唤材料",
+        "item": "minecraft:lava_bucket,minecraft:diamond#3,minecraft:coal#16",
+        "text": "岩浆块x8$(br)岩浆桶x1$(br)钻石x3$(br)煤炭x16$(br)最后加入$(1)$(l:boss_place/boss_summon/imessence)往生精华$()$()"
+         },
+         {"type": "spotlight",
+        "title":"特殊掉落物：腐化烈焰宝石",
+        "item": "stellariscraft:blazestone",
+        "link_recipe":true,
+        "text": "纯净的烈焰会产生结晶，而贪婪会招致腐败，结局便是火焰不再完美。"
+         },
+         {"type": "spotlight",
+        "title":"其他掉落物",
+        "item": "minecraft:blaze_powder,dotcoinmod:copper_coin,miningmaster:spider_kunzite,cataclysm:burning_ashes",
+        "text":"击杀烈焰人掉落$(br)烈焰粉1~2个$(br)腐化烈焰宝石0~1个$(br2)击杀烈焰魔使掉落$(br)腐化烈焰宝石、蜘蛛紫锂辉石1个。$(br2)可以通过配置$(t:等级越高提高量越多,书中为无抢夺掉落量)$(5)抢夺$()附魔提高掉落量。"
+         }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+  "structures": [
+    {
+      "structure": "dungeons_arise:aviary",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:bandit_towers",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:foundry",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:heavenly_challenger",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:thornborn_towers",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 29188132,
+    "spacing": 54,
+    "separation": 47,
+    "type": "minecraft:random_spread"
+  }
+}

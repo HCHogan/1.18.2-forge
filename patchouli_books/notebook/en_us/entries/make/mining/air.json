@@ -1,0 +1,37 @@
+{
+    "name": "浮空孔雀石",
+    "category": "patchouli:mining",
+    "icon": "miningmaster:air_malachite",
+    "sortnum": 2,
+    "pages": [
+       {"type": "spotlight",
+        "title":"浮空孔雀石",
+        "item": "miningmaster:air_malachite",
+        "text": "后王国时期终末虚无的稀有宝石，如今的环境已经无法自然生成，鉴于其的特殊用途经常用于招揽勇猛的斗士完成任务。",
+        "link_recipe":true
+         },
+        
+      {
+        "type": "patchouli:mining_smith",
+        "head":"浮空孔雀石的简单使用",
+        "item1": "miningmaster:heart_rhodonite",
+        "item2": "miningmaster:air_malachite",
+        "item3": "stellariscraft:superhealth",
+        "item4": "minecraft:diamond_helmet",
+        "item5": "miningmaster:air_malachite",
+        "item6": "minecraft:diamond_helmet{Enchantments:[{id:'minecraft:respiration',lvl:1s}]}",
+        "item7": "minecraft:diamond_boots",
+        "item8": "miningmaster:air_malachite",
+        "item9": "minecraft:diamond_boots{Enchantments:[{id:'feather_falling',lvl:1s}]}"
+      },
+      {
+         "type":"patchouli:smith",
+         "head":"浮空孔雀石的简单使用",
+         "item1": "minecraft:diamond_boots{Enchantments:[{id:'feather_falling',lvl:1s}]}",
+        "item2": "miningmaster:air_malachite",
+        "item3": "minecraft:diamond_boots{Enchantments:[{id:'feather_falling',lvl:2s}]}",
+        "text":"此种宝石十分珍贵建议妥善选择其用法。在$(#ff0000)锻造台$()上可以根据物品的不同分别赋予空属性的力量，可以通过再次锻造反复提升力量但是由于并非专业的魔力注入，$(#ff0000)无法突破这些附魔原有的极限。$()"
+        
+      }
+    ]
+  }

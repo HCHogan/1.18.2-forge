@@ -1,0 +1,46 @@
+{
+    "name": "铲雪者(工具盒)",
+    "icon": "blue_skies:tool_box",
+    "category": "patchouli:trade",
+    "sortnum":1,
+    "pages": [
+{"type":"trade1",
+ "head":"村民等级:新手",
+ "item1":"dotcoinmod:iron_coin",
+ "item2":"minecraft:air",
+ "item3":"blue_skies:blinding_key",
+ "text1":"4次"
+ 
+},
+{"type":"trade1",
+ "head":"村民等级:学徒",
+ "item1":"dotcoinmod:gold_coin",
+ "item2":"minecraft:air",
+ "item3":"blue_skies:poison_key",
+ "text1":"4次"
+},
+{"type":"trade1",
+ "head":"村民等级:老手",
+ "item1":"dotcoinmod:gold_coin",
+ "item2":"minecraft:air",
+ "item3":"blue_skies:nature_key",
+ "text1":"4次"
+},
+{"type":"trade1",
+ "head":"村民等级:专家",
+ "item1":"blue_skies:pink_brewberry#32",
+ "item2":"minecraft:air",
+ "item3":"dotcoinmod:copper_coin#3",
+ "text1":"20次"
+ 
+},
+{"type":"trade1",
+ "head":"村民等级:大师",
+ "item1":"blue_skies:star_flare#8",
+ "item2":"miningmaster:ice_sapphire_block",
+ "item3":"cnb:yeti_hide#16",
+ "text1":"2次"
+}
+
+    ]
+}

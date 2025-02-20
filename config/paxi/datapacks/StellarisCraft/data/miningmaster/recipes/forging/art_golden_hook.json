@@ -1,0 +1,12 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[
+{"item":"minecraft:lapis_block"},
+{"item":"aquaculture:gold_hook"},
+{"item":"ringsofascension:ring_experience"},
+{"item":"aquaculture:gold_hook"},
+{"item":"minecraft:lapis_block"}],
+"catalyst":{"item":"stellariscraft:exchangestone"},
+"result":{"item":"artifacts:golden_hook"},
+"enchantments":[]
+}

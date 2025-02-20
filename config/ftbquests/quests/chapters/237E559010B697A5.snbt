@@ -1,0 +1,631 @@
+{
+	id: "237E559010B697A5"
+	group: "0F5486DFDF7D448B"
+	order_index: 0
+	filename: "237E559010B697A5"
+	title: "&a生物群系"
+	icon: {
+		id: "minecraft:mycelium"
+		Count: 1b
+		tag: {
+			RepairCost: 1
+			"quark:RuneAttached": 1b
+			Enchantments: [{
+				lvl: 3s
+				id: "minecraft:unbreaking"
+			}]
+			"quark:RuneColor": {
+				id: "quark:black_rune"
+				Count: 1b
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "访问群系：不祥森林"
+			icon: "biomesoplenty:umbran_sapling"
+			x: -2.6d
+			y: 2.6d
+			shape: "gear"
+			subtitle: "&4一朵朵散落的凋灵玫瑰，一束束升腾的咒怨之魂"
+			hide_dependency_lines: true
+			dependencies: ["0B64144888793FD7"]
+			size: 1.3d
+			id: "12C40DA04F8E2618"
+			tasks: [{
+				id: "453E73E0A0254E2C"
+				type: "biome"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "biomesoplenty:textures/block/umbran_log_holes.png"
+					}
+				}
+				biome: "biomesoplenty:ominous_woods"
+			}]
+			rewards: [{
+				id: "4CE78E0B309BC539"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "访问群系：天际木山谷"
+			icon: "byg:skyris_sapling"
+			x: 3.2500000000000004d
+			y: -3.2500000000000004d
+			shape: "gear"
+			subtitle: "&a奶奶做的澳洲青苹果派🍏！"
+			hide_dependency_lines: true
+			dependencies: ["0B64144888793FD7"]
+			size: 1.3d
+			id: "41E7BDD562616174"
+			tasks: [{
+				id: "38E6348FCA4B196F"
+				type: "biome"
+				icon: "byg:green_apple_skyris_leaves"
+				biome: "byg:skyris_vale"
+			}]
+			rewards: [{
+				id: "71284A7BC975896D"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "访问群系：沙漠"
+			icon: "minecraft:cactus"
+			x: 4.550000000000001d
+			y: 5.2d
+			shape: "gear"
+			subtitle: "&6危险与机遇并存...小心毒蛇!"
+			hide_dependency_lines: true
+			dependencies: ["0B64144888793FD7"]
+			size: 1.3d
+			id: "192D3ABEEE31BE98"
+			tasks: [{
+				id: "5EF473F5A0200F50"
+				type: "biome"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "atmospheric:textures/block/red_arid_sand.png"
+					}
+				}
+				biome: "minecraft:desert"
+			}]
+			rewards: [{
+				id: "4AE124E974B93851"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "访问群系：黑森林"
+			icon: "minecraft:dark_oak_sapling"
+			x: 0.0d
+			y: -5.8500000000000005d
+			shape: "gear"
+			subtitle: "&a黑森林和蘑菇岛都会有小可爱的哦~"
+			hide_dependency_lines: true
+			dependencies: ["0B64144888793FD7"]
+			size: 1.3d
+			id: "02D37D25A4476B40"
+			tasks: [{
+				id: "18AE018694020F2E"
+				type: "biome"
+				icon: "minecraft:dark_oak_wood"
+				biome: "minecraft:dark_forest"
+			}]
+			rewards: [{
+				id: "79C9439AFAD9C641"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "访问群系：蘑菇岛"
+			icon: {
+				id: "minecraft:mycelium"
+				Count: 1b
+				tag: {
+					RepairCost: 1
+					"quark:RuneAttached": 1b
+					Enchantments: [{
+						lvl: 3s
+						id: "minecraft:unbreaking"
+					}]
+					"quark:RuneColor": {
+						Count: 1b
+						id: "quark:black_rune"
+					}
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "&a似乎生长着珍贵的蘑菇菌落...记得带好骨粉和剪刀"
+			hide_dependency_lines: true
+			dependencies: ["0B64144888793FD7"]
+			size: 2.0d
+			id: "773CD6F1BD7A3EDE"
+			tasks: [{
+				id: "3F08D57CD80CDB66"
+				type: "biome"
+				icon: "minecraft:red_mushroom_block"
+				biome: "minecraft:mushroom_fields"
+			}]
+			rewards: [{
+				id: "39ADEEAE24763010"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "访问群系：热带草原"
+			icon: "minecraft:acacia_sapling"
+			x: -4.550000000000001d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "&6甚至能给袋鼠穿焰魔套拿焰魔的大剑（"
+			hide_dependency_lines: true
+			dependencies: ["0B64144888793FD7"]
+			size: 1.3d
+			id: "63753E83B2A4A757"
+			tasks: [{
+				id: "0A19CA30020D429A"
+				type: "biome"
+				icon: "alexsmobs:acacia_blossom"
+				biome: "minecraft:savanna"
+			}]
+			rewards: [{
+				id: "2B1E07E5271502D0"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "访问群系：森林"
+			icon: "minecraft:oak_sapling"
+			x: 6.500000000000001d
+			y: 2.6d
+			shape: "gear"
+			subtitle: "&a真是片安全的好地方，只要不招惹到灰熊"
+			hide_dependency_lines: true
+			dependencies: ["0B64144888793FD7"]
+			size: 1.3d
+			id: "54D4340B62807F1F"
+			tasks: [{
+				id: "40B3144F3D25E2E5"
+				type: "biome"
+				icon: "minecraft:birch_sapling"
+				biome: "minecraft:forest"
+			}]
+			rewards: [{
+				id: "1E072C4B0F6B80E9"
+				type: "xp"
+				xp: 33
+			}]
+		}
+		{
+			title: "访问群系：恶地"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "atmospheric:textures/block/yucca_flower.png"
+				}
+			}
+			x: -6.500000000000001d
+			y: 2.6d
+			shape: "gear"
+			subtitle: "&6深埋于地底的火焰石，等待着喷发"
+			hide_dependency_lines: true
+			dependencies: ["0B64144888793FD7"]
+			size: 1.3d
+			id: "1CEC97A40FEBDE32"
+			tasks: [{
+				id: "61C3B2184F0ADDC9"
+				type: "biome"
+				icon: "minecraft:terracotta"
+				biome: "minecraft:badlands"
+			}]
+			rewards: [{
+				id: "694386D6C388382F"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "访问群系：积雪的针叶林"
+			icon: "minecraft:spruce_sapling"
+			x: 4.550000000000001d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "&b斗电子驼鹿，成赛博王爷"
+			hide_dependency_lines: true
+			dependencies: ["0B64144888793FD7"]
+			size: 1.3d
+			id: "7BB9978B4B820AE5"
+			tasks: [{
+				id: "537D1313CD4EB2CF"
+				type: "biome"
+				icon: "minecraft:powder_snow_bucket"
+				biome: "minecraft:snowy_taiga"
+			}]
+			rewards: [{
+				id: "6970DA236AA402B8"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "访问群系：针叶林"
+			icon: "minecraft:spruce_sapling"
+			x: -4.550000000000001d
+			y: 5.2d
+			shape: "gear"
+			subtitle: "&a由于berry good模组的引入，要把浆果做成种子才能种"
+			hide_dependency_lines: true
+			dependencies: ["0B64144888793FD7"]
+			size: 1.3d
+			id: "35C63F386C5A7CC0"
+			tasks: [{
+				id: "588EDD02C5B2A1A5"
+				type: "biome"
+				icon: "minecraft:sweet_berries"
+				biome: "minecraft:taiga"
+			}]
+			rewards: [{
+				id: "7A34162C30D358CF"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "访问群系：深海"
+			icon: "minecraft:sea_lantern"
+			x: 2.6d
+			y: 2.6d
+			shape: "gear"
+			subtitle: "&b隐约看见海沟里的钻石和宝石，那是大自然遗留的最珍贵的宝藏"
+			hide_dependency_lines: true
+			dependencies: ["0B64144888793FD7"]
+			size: 1.3d
+			id: "4E06DADEDBBF1BA6"
+			tasks: [{
+				id: "157F88FBA460095D"
+				type: "biome"
+				icon: "miningmaster:dive_aquamarine"
+				biome: "minecraft:deep_ocean"
+			}]
+			rewards: [{
+				id: "3D7ACAF8851B337D"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "访问群系：平原"
+			icon: "byg:orchard_sapling"
+			x: -4.550000000000001d
+			y: -5.8500000000000005d
+			shape: "gear"
+			subtitle: "&2经验+3，经验+3"
+			hide_dependency_lines: true
+			dependencies: ["0B64144888793FD7"]
+			hide: false
+			dependency_requirement: "one_completed"
+			size: 1.3d
+			id: "6AA5540F2F7CD15A"
+			tasks: [{
+				id: "1DCEE3CEAD7D51EF"
+				type: "biome"
+				icon: "minecraft:oak_sapling"
+				biome: "minecraft:plains"
+			}]
+			rewards: [{
+				id: "772917B7552A8A4E"
+				type: "xp"
+				xp: 33
+			}]
+		}
+		{
+			title: "访问群系：丛林"
+			icon: "minecraft:jungle_sapling"
+			x: 4.550000000000001d
+			y: -5.8500000000000005d
+			shape: "gear"
+			subtitle: "&2常有高猿长啸（"
+			hide_dependency_lines: true
+			dependencies: ["0B64144888793FD7"]
+			size: 1.3d
+			id: "02559934D8A003FC"
+			tasks: [{
+				id: "72F9747E4A382859"
+				type: "biome"
+				icon: "minecraft:jungle_sapling"
+				biome: "minecraft:jungle"
+			}]
+			rewards: [{
+				id: "7B8CE20F3C8BE9B8"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "访问群系：炼狱沙丘"
+			icon: {
+				id: "minecraft:soul_torch"
+				Count: 1b
+				tag: {
+					CustomModelData: 1450400
+					incendium: {
+						item: "torch_of_lunacy"
+					}
+					display: {
+						Lore: [
+							"{\"italic\":true,\"color\":\"#AAFFCC\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Emits a strange light which\",{\"translate\":\"incendium.item.lunacy_torch.desc1\"}]}"
+							"{\"italic\":true,\"color\":\"#AAFFCC\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"blinds nearby desert blazes\",{\"translate\":\"incendium.item.lunacy_torch.desc2\"}]}"
+							"{\"italic\":true,\"color\":\"#AAFFCC\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"if kept in your inventory\",{\"translate\":\"incendium.item.lunacy_torch.desc3\"}]}"
+							"{\"text\":\"\"}"
+							"{\"italic\":true,\"color\":\"#FF8000\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Incendium\",{\"translate\":\"incendium\"}]}"
+						]
+						Name: "{\"italic\":false,\"color\":\"#AACCFF\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Torch of Lunacy\",{\"translate\":\"incendium.item.lunacy_torch.name\"}]}"
+					}
+					Enchantments: [ ]
+				}
+			}
+			x: -3.2500000000000004d
+			y: -3.2500000000000004d
+			shape: "gear"
+			subtitle: "&6穿过炼狱之火，寻找&kInferno&r&6祭坛将会是你的使命"
+			hide_dependency_lines: true
+			dependencies: ["0B64144888793FD7"]
+			size: 1.3d
+			id: "660348B59D48CC8D"
+			tasks: [{
+				id: "530362F2B5A81E7C"
+				type: "biome"
+				icon: "minecraft:red_sand"
+				biome: "incendium:infernal_dunes"
+			}]
+			rewards: [{
+				id: "7CEFA4B548E6EDAC"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "访问群系：落日枫林"
+			icon: "blue_skies:maple_vine"
+			x: 0.0d
+			y: -3.2500000000000004d
+			shape: "gear"
+			subtitle: "&6湿热之地传来了巨型节肢生物的嘶吼"
+			hide_dependency_lines: true
+			dependencies: ["0B64144888793FD7"]
+			size: 1.3d
+			id: "253F07012034F2CD"
+			tasks: [{
+				id: "582A10F7C0CE358F"
+				type: "biome"
+				icon: "blue_skies:bluebright_log"
+				biome: "blue_skies:sunset_maple_forest"
+			}]
+			rewards: [{
+				id: "38F16843AA7C75F5"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "访问群系：黑森林+蘑菇岛"
+			icon: "dimdungeons:item_trophy_1"
+			x: 0.0d
+			y: 5.2d
+			shape: "rsquare"
+			subtitle: "&b上天眷顾......在这被诅咒的世界里，没有它必将寸步难行"
+			hide_dependency_lines: true
+			dependencies: [
+				"0B64144888793FD7"
+				"02D37D25A4476B40"
+				"773CD6F1BD7A3EDE"
+			]
+			size: 2.0d
+			id: "54399A039C1D1139"
+			tasks: [{
+				id: "5F0695FC4732E217"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3FA087BA1D43B3F6"
+				type: "item"
+				item: {
+					id: "supplementaries:jar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							MobHolder: {
+								EntityData: {
+									GraceRecharged: 1b
+									Brain: {
+										memories: { }
+									}
+									HurtByTimestamp: 0
+									ForgeData: {
+										"Void TotemLastSaveBlockPos": -28587302031294L
+										"enhancedai:follow_ranges_processed": 1b
+									}
+									Sitting: 0b
+									Attributes: [
+										{
+											Base: 0.0d
+											Name: "forge:step_height_addition"
+										}
+										{
+											Base: 17.0d
+											Name: "enhancedai:generic.xray_follow_range"
+										}
+										{
+											Base: 0.2d
+											Name: "minecraft:generic.movement_speed"
+										}
+										{
+											Base: 1.0d
+											Name: "forge:swim_speed"
+										}
+										{
+											Base: 0.08d
+											Name: "forge:entity_gravity"
+										}
+										{
+											Base: 35.0d
+											Modifiers: [{
+												Operation: 1
+												UUID: [I;
+													2115146542
+													935282300
+													-1930436991
+													767528366
+												]
+												Amount: 0.04568117580834721d
+												Name: "Random spawn bonus"
+											}]
+											Name: "minecraft:generic.follow_range"
+										}
+									]
+									Invulnerable: 0b
+									FallFlying: 0b
+									ForcedAge: 0
+									PortalCooldown: 0
+									AbsorptionAmount: 0.0f
+									FallDistance: 0.0f
+									InLove: 0
+									SporelingType: "cnb:red_overworld"
+									CanUpdate: 1b
+									DeathTime: 0s
+									ForgeCaps: {
+										"mowziesmobs:living_cap": { }
+										"mowziesmobs:frozen_cap": {
+											frozenYaw: 0.0f
+											freezeProgress: 0.0f
+											frozenPitch: 0.0f
+											freezeDecayDelay: 0
+											prevHasAI: 1b
+											frozenYawHead: 0.0f
+											frozen: 0b
+											frozenLimbSwingAmount: 0.0f
+											prevFrozen: 0b
+											frozenRenderYawOffset: 0.0f
+											frozenSwingProgress: 0.0f
+										}
+										"structure_gel:gel_entity": {
+											portal: "structure_gel:empty"
+										}
+										"lodestone:entity_data": { }
+										"mowziesmobs:ability": { }
+										"mowziesmobs:frozen": {
+											frozenYaw: 0.0f
+											freezeProgress: 0.0f
+											frozenPitch: 0.0f
+											freezeDecayDelay: 0
+											prevHasAI: 1b
+											frozenYawHead: 0.0f
+											frozen: 0b
+											frozenLimbSwingAmount: 0.0f
+											prevFrozen: 0b
+											frozenRenderYawOffset: 0.0f
+											frozenSwingProgress: 0.0f
+										}
+										"mowziesmobs:last_damage": { }
+										"minecraft:treechopchop_settings_capability": {
+											isSynced: 0b
+											choppingEnabled: 1b
+											fellingEnabled: 1b
+											sneakBehavior: "INVERT_CHOPPING"
+											treesMustHaveLeaves: 1b
+											chopInCreativeMode: 0b
+										}
+										"pollen:synced_data": { }
+									}
+									HandDropChances: [
+										0.085f
+										0.085f
+									]
+									PersistenceRequired: 1b
+									id: "cnb:sporeling"
+									Age: 0
+									Motion: [
+										0.0d
+										-0.0784000015258789d
+										0.0d
+									]
+									Health: 16.0f
+									KubeJSPersistentData: { }
+									LeftHanded: 0b
+									Air: 300s
+									OnGround: 1b
+									CitadelData: { }
+									Rotation: [
+										0.0f
+										0.0f
+									]
+									HandItems: [
+										{ }
+										{ }
+									]
+									ArmorDropChances: [
+										0.085f
+										0.085f
+										0.085f
+										0.085f
+									]
+									Pos: [
+										0.5d
+										0.0626d
+										0.5d
+									]
+									Fire: 0s
+									ArmorItems: [
+										{ }
+										{ }
+										{ }
+										{ }
+									]
+									CanPickUpLoot: 0b
+									HurtTime: 0s
+								}
+								Scale: 0.625f
+								UUID: [I;
+									-1843672821
+									-1510191902
+									-1190293451
+									-459225986
+								]
+								Name: "蘑孢灵"
+							}
+						}
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

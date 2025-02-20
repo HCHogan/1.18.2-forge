@@ -1,0 +1,30 @@
+{
+  "armorSetName": "golden_dragonclaw",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+    "itemKey": "stellarisdlc:goldendragonclaw"
+  }
+],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "epicfight:armor_negation",
+      "value": 8,
+      "attributeOperation": 0,
+      "modifierUUID": "5f330cfb-eeaa-4f1d-b29a-fb3c775bc187",
+      "description": "golden_dragonclaw"  
+    },
+    {
+      "type": "attribute",
+      "name": "epicfight:offhand_armor_negation",
+      "value": 8,
+      "attributeOperation": 0,
+      "hideBonusDescription": true,
+      "modifierUUID": "5f330cfb-eeaa-4f1d-b29a-fb3c775bc187",
+      "description": "+10% offhand_armor_negation (EpicFight)"  
+    }
+  ],
+
+  "hideGeneratedTooltip": false
+}

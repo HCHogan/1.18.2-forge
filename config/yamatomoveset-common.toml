@@ -1,0 +1,151 @@
+#Yamato's stamina bonus, the default value is 5
+#Range: 0.0 ~ 1000.0
+Max_Stamina = 5.0
+#The charging value of the weapon skill, the smaller the value, the faster the charging, the default value is 15
+#Range: 0.0 ~ 1000.0
+skill_consumption = 15.0
+#Maximum number of stored weapon skill charges , the default value is 5
+#Range: 0 ~ 1000
+skill_stack = 5
+#The cost of stamina required to dodge skills, should be less than max stamina, default: 3.
+#Range: 0.0 ~ 1000.0
+step_consumption = 3.0
+#stun type of the normal attack , when set to true, the stun type of normal attack is hold and must interrupt enemy movement, default: true.
+defaut_stuntype_set_to_hold = true
+#default cost of the skill, included power dash, combo 0, combo 1, combo 2, combo 3. default: 1
+#Range: 0 ~ 1000
+default_skill_cost = 1
+#Combo 0 invincibility start time, should smaller than the end time
+#can adjust the duration of foresight by adjusting the start and end time
+#The actual duration needs to be divided by 1.1
+#default: 0
+#Range: 0.0 ~ 0.64
+combo_0_invincible_start_time = 0.0
+#Combo 0 invincibility end time, should bigger than the start time
+#can adjust the duration of foresight by adjusting the start and end time
+#The actual duration needs to be divided by 1.1
+#default: 0.32
+#Range: 0.0 ~ 0.64
+combo_0_invincible_end_time = 0.32
+#Damage multiplier for combo 0 without foresight success, default: 1.25
+#Range: 0.0 ~ 100.0
+combo_0_damage_multi = 1.25
+#Increased value of armor negation for combo 0 without foresight success, default: 0
+#Range: 0.0 ~ 100.0
+combo_0_armor_negation = 0.0
+#Damage multiplier for combo 0 when foresight success, default: 1.5
+#Range: 0.0 ~ 100.0
+foresight_damage_multi = 1.5
+#Increased value of armor negation for combo 0 when foresight success, default: 10
+#Range: 0.0 ~ 100.0
+foresight_armor_negation = 10.0
+#The percentage of max stamina required for the success of foresight, default: 0.2
+#Range: 0.0 ~ 1.0
+foresight_stamina_cost = 0.2
+#The percentage recovery value of maximum stamina after foresight, default: 0.3
+#Range: 0.0 ~ 1.0
+foresight_stamina_restore = 0.3
+#the amount of skill charge recovery after foresight, shoule less than skill stack, default: 2
+#Range: 0 ~ 1000
+foresight_skill_restore = 2
+#the impact of combo 1, will affect the enemy's knockback distance and stun time hit by combo 1
+#Unaffected by weapon and character impact attributes, should not set the value too high
+#default: 4
+#Range: 0.0 ~ 10.0
+combo_1_impact_setter = 4.0
+#Damage multiplier for combo 1, default: 2
+#Range: 0.0 ~ 100.0
+combo_1_damage_multi = 2.0
+#Increased value of armor negation for combo 1, default: 15
+#Range: 0.0 ~ 100.0
+combo_1_armor_negation = 15.0
+#The percentage recovery value of maximum stamina after combo 1 hits the enemy, default: 0.3
+#Range: 0.0 ~ 1.0
+combo_1_stamina_restore_when_hitting = 0.3
+#The percentage recovery value of maximum stamina after combo 1 finishes sheathing, default: 0.3
+#Range: 0.0 ~ 1.0
+combo_1_stamina_restore_when_sheathing = 0.3
+#the impact of combo 2 phase 1, will affect the enemy's stun time hit by combo 2 phase 1
+#Unaffected by weapon and character impact attributes, should not set the value too high
+#default: 3.5
+#Range: 0.0 ~ 10.0
+combo_2_phase_1_impact_setter = 3.5
+#Damage multiplier for combo 2 phase 1, default: 1.5
+#Range: 0.0 ~ 100.0
+combo_2_phase_1_damage_multi = 1.5
+#the impact of combo 2 phase 2, will affect the enemy's knockback distance and  stun time hit by combo 2 phase 2
+#Unaffected by weapon and character impact attributes, should not set the value too high
+#default: 2
+#Range: 0.0 ~ 10.0
+combo_2_phase_2_impact_setter = 2.0
+#Damage multiplier for combo 2 phase 2, default: 2.5
+#Range: 0.0 ~ 100.0
+combo_2_phase_2_damage_multi = 1.75
+#value of armor negation for combo 2 phase 2, default: 100
+#Unaffected by weapon and character armor negation attributes
+#Range: 0.0 ~ 100.0
+combo_2_phase_2_armor_negation = 100.0
+#The percentage recovery value of maximum stamina after combo 2 finishes sheathing, default: 0.15
+#Range: 0.0 ~ 1.0
+combo_2_stamina_restore = 0.15
+#the impact of combo 3 slash, will affect the enemy's stun time hit by combo 3
+#Unaffected by weapon and character impact attributes, should not set the value too high
+#default: 2.5
+#Range: 0.0 ~ 10.0
+slash_impact_setter = 2.5
+#Damage multiplier for combo 3 slash, default: 0.25
+#Range: 0.0 ~ 100.0
+slash_damage_multi = 0.25
+#The amount of stamina required for combo 3 slash, should less than max stamina, default: 4
+#Range: 0.0 ~ 1000.0
+slash_stamina_cost = 4.0
+#Maximum combo count of slash, will affect the damage calculation of combo 3, default: 15
+#Range: 1 ~ 100
+slash_max_count = 15
+#The damage bonus of slash count, default: 0.33
+#The final damage of combo 3 bonus is (slash count) * (slash bouns)
+#Range: 0.0 ~ 10.0
+slash_bouns = 0.33
+#base Damage multiplier for combo 3 finish/power dash, default: 1.5
+#Range: 0.0 ~ 100.0
+combo_3_finish_damage_multi = 1.5
+#Increased value of armor negation for combo 3 finish/power dash, default: 15
+#Range: 0.0 ~ 100.0
+combo_3_finish_armor_negation = 15.0
+#The percentage of max stamina required for the power_dash, default: 0.25
+#Range: 0.0 ~ 1.0
+power_dash_stamina_cost = 0.25
+#Damage multiplier for counter phase 1, default: 2
+#Range: 0.0 ~ 100.0
+counter_phase_1_damage_multi = 2.0
+#Increased value of armor negation for counter phase 1, default: 10
+#Range: 0.0 ~ 100.0
+counter_phase_1_armor_negation = 10.0
+#skill cost of the counter, should less than skill stack, default: 2
+#Range: 0 ~ 1000
+counter_skill_cost = 2
+#the amount of skill charge recovery after counter, shoule less than skill stack, default: 1
+#Range: 0 ~ 1000
+counter_skill_restore = 1
+#Damage multiplier for counter phase 2, default: 1.5
+#Range: 0.0 ~ 100.0
+counter_phase_2_damage_multi = 1.5
+#Increased value of armor negation for counter phase 2, default: 0
+#Range: 0.0 ~ 100.0
+counter_phase_2_armor_negation = 0.0
+#The percentage recovery value of maximum stamina after counter, default: 0.2
+#Range: 0.0 ~ 1.0
+counter_stamina_restore = 0.2
+#skill cost of strike 1, should less than skill stack, default: 1
+#Range: 0 ~ 1000
+strike_1_skill_cost = 1
+#Damage multiplier for strike 1, default: 1.1
+#Range: 0.0 ~ 100.0
+strike_1_damage_multi = 1.1
+#skill cost of strike 2, should less than skill stack, default: 2
+#Range: 0 ~ 1000
+strike_2_skill_cost = 2
+#Damage multiplier for strike 2, default: 1.2
+#Range: 0.0 ~ 100.0
+strike_2_damage_multi = 1.2
+

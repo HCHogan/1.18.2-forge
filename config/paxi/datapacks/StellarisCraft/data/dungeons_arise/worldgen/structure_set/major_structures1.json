@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "dungeons_arise:keep_kayra",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 29184732,
+    "spacing": 72,
+    "separation": 64,
+    "type": "minecraft:random_spread"
+  }
+}

@@ -1,0 +1,1223 @@
+{
+	id: "0188D2CF381CF997"
+	group: "6AA1C8D202068AB6"
+	order_index: 1
+	filename: "0188D2CF381CF997"
+	title: "基础设定"
+	icon: "stellariscraft:starcore"
+	disable_toast: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "&4bug总结，必看！"
+			icon: {
+				id: "waystones:warp_stone"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: 3.75d
+			shape: "circle"
+			subtitle: "99.9%都进行了修复"
+			description: [
+				"1.如果任务的&6“可重复指令”&r无法领取的话，请退出存档重进"
+				"2.生物预设最好点两次（ftb任务执行的bug，有时候会跳过一些命令）"
+				"3.决斗场更改了刷怪方式，不建议做原版的生电装置。"
+				"4.如果遇到进入&6战斗模式&r后&c无法攻击&r的；无法看到人物模型的，请尝试退出重进。"
+				""
+				"&6已知bug1：&r如果你发现大地傀儡一刀砍你钻钢套20多血(正常一刀6-10血)，请重新下导入包并移植存档；还有问题请重下导入包+重开存档。"
+				"&6已知bug2：&r反复移植存档会导致部分实体血量翻倍(如8000血铁傀儡，4000血精英怪)，精英怪有内置血量检测可以无视，其余生物请直接kill掉，重新召唤即可。"
+				""
+				"&c紧急bug：原因未知，武器和装备只有满耐久才能在铁砧上用两种晶石洗词条，因此放一本经验修补作为补偿。"
+				""
+				"&cPS：使用夸克模组的表情会导致游戏奔溃，请不要使用"
+			]
+			dependencies: ["786B2E5F1B962DC8"]
+			hide: true
+			size: 1.5d
+			id: "2243FCC92D307EF0"
+			tasks: [{
+				id: "517FADD1D84FD5C1"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "033025985182A4C0"
+					type: "item"
+					item: {
+						id: "waystones:warp_stone"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "307B3F2246F5C53E"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:mending"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "将&n&c&l传送石碑&r设置&l&n&6全局&r才能跨纬度传送"
+			icon: "waystones:warp_scroll"
+			x: -3.0d
+			y: 3.0d
+			shape: "rsquare"
+			subtitle: "&b将传送石碑挖掉重新放置即可选择全局传送"
+			description: [
+				"&a别担心，你可以在后面获得大量的冒险碎片"
+				""
+				"&a家中常备传送卷轴"
+			]
+			dependencies: ["786B2E5F1B962DC8"]
+			hide: true
+			size: 1.5d
+			id: "7C85ECAE9CF6A706"
+			tasks: [{
+				id: "49D2C0230BA88DE0"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "6B6553515D8E22BF"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 3
+				}
+				{
+					id: "3D0EC242B1C5FC47"
+					type: "item"
+					item: "waystones:warp_scroll"
+					count: 2
+				}
+			]
+		}
+		{
+			icon: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "gateways:slime_gate"
+				}
+			}
+			x: -5.0d
+			y: 5.0d
+			shape: "circle"
+			subtitle: "&d详情在jei搜索：传送门"
+			description: ["通过传送门模组，可以快速刷经验以及升级附魔的物品&6（原版的刷怪塔效果甚微，建议使用传送门）"]
+			dependencies: ["7C85ECAE9CF6A706"]
+			size: 1.25d
+			id: "597A5AD58C41AB63"
+			tasks: [{
+				id: "149DEAE7D4ABAEF0"
+				type: "checkmark"
+				title: "关于这个整合包如何刷经验"
+			}]
+			rewards: [{
+				id: "575520B6D38FF2D8"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftblibrary:textures/icons/controller.png"
+				}
+			}
+			x: 3.0d
+			y: -3.0d
+			shape: "rsquare"
+			subtitle: "大部分怪物都有对应的阶段来控制它们的属性，完成某些任务后，怪物会被增强。"
+			description: [
+				"整合包&e&n解锁维度&r所需的&a&n三个道具&r："
+				"&c1.下界之证：解锁下界维度"
+				"&b2.蔚蓝之证：解锁蔚蓝维度"
+				"&d3.末地之证：解锁末地维度"
+				""
+				"此外，部分道具的可获取阶段提前：如&6牧师&r可售卖&d&l龙息"
+				""
+				"注：玩家弹刀声音较大，可将音量——玩家调至50%-60%。"
+			]
+			dependencies: ["786B2E5F1B962DC8"]
+			hide: true
+			size: 1.5d
+			id: "70466306185F123F"
+			tasks: [{
+				id: "2E483B8242CEC154"
+				type: "checkmark"
+				title: "关于游戏的&n&5阶段&r（必看）"
+			}]
+			rewards: [{
+				id: "08A985338973A2D0"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+		}
+		{
+			title: "怪奇宝典"
+			icon: {
+				id: "eccentrictome:tome"
+				Count: 1b
+				tag: {
+					"eccentrictome:mods": {
+						exoticbirds: {
+							0: {
+								id: "exoticbirds:bird_book"
+								Count: 1b
+							}
+						}
+						byg: {
+							0: {
+								id: "byg:biomepedia"
+								Count: 1b
+							}
+						}
+						mca: {
+							0: {
+								id: "mca:book_romance"
+								Count: 1b
+							}
+							1: {
+								id: "mca:book_supporters"
+								Count: 1b
+							}
+							2: {
+								id: "mca:book_death"
+								Count: 1b
+							}
+							3: {
+								id: "mca:book_blueprint"
+								Count: 1b
+							}
+							4: {
+								id: "mca:book_infection"
+								Count: 1b
+							}
+							5: {
+								id: "mca:book_rose_gold"
+								Count: 1b
+							}
+							6: {
+								id: "mca:book_family"
+								Count: 1b
+							}
+						}
+						cookingforblockheads: {
+							0: {
+								id: "cookingforblockheads:crafting_book"
+								Count: 1b
+							}
+						}
+					}
+					"eccentrictome:version": 1
+				}
+			}
+			x: -3.0d
+			y: -3.0d
+			shape: "rsquare"
+			subtitle: "&b今天你读书了吗.jpg"
+			description: ["和其他模组指导书在&c工作台&r里合成，以此将指导书合并在一起；&c右键切换&r其他指导书，&c非史诗战斗模式下&6对着空气左键还原&r成怪奇宝典"]
+			hide_dependency_lines: true
+			dependencies: ["786B2E5F1B962DC8"]
+			hide: true
+			size: 1.5d
+			id: "61E7FE1B8D4A7455"
+			tasks: [{
+				id: "0C44343CA273CBCA"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "4B6F5A3BBA7CBC55"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4A1293AC8D23BEBC"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 2
+				}
+				{
+					id: "06EE434F3C51C024"
+					type: "item"
+					item: {
+						id: "eccentrictome:tome"
+						Count: 1b
+						tag: {
+							"eccentrictome:mods": {
+								exoticbirds: {
+									0: {
+										id: "exoticbirds:bird_book"
+										Count: 1b
+									}
+								}
+								byg: {
+									0: {
+										id: "byg:biomepedia"
+										Count: 1b
+									}
+								}
+								mca: {
+									0: {
+										id: "mca:book_romance"
+										Count: 1b
+									}
+									1: {
+										id: "mca:book_supporters"
+										Count: 1b
+									}
+									2: {
+										id: "mca:book_death"
+										Count: 1b
+									}
+									3: {
+										id: "mca:book_blueprint"
+										Count: 1b
+									}
+									4: {
+										id: "mca:book_infection"
+										Count: 1b
+									}
+									5: {
+										id: "mca:book_rose_gold"
+										Count: 1b
+									}
+									6: {
+										id: "mca:book_family"
+										Count: 1b
+									}
+								}
+								cookingforblockheads: {
+									0: {
+										id: "cookingforblockheads:crafting_book"
+										Count: 1b
+									}
+								}
+							}
+							"eccentrictome:version": 1
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&5指令预设（必点）"
+			icon: "quark:warped_bookshelf"
+			x: 0.0d
+			y: -3.75d
+			shape: "circle"
+			description: [
+				"&5指令：物品不掉落以及生物破坏性"
+				"&a此任务将对你的世界进行指令预设，你将无需再次修改你的世界指令"
+			]
+			dependencies: ["786B2E5F1B962DC8"]
+			hide: true
+			size: 1.5d
+			can_repeat: true
+			id: "5C4E48D1C97BC938"
+			tasks: [{
+				id: "7CE233F949D02B86"
+				type: "checkmark"
+				title: "（这是必要的“愉悦”）"
+			}]
+			rewards: [
+				{
+					id: "1CEDCED93FCDE828"
+					type: "command"
+					auto: "no_toast"
+					command: "/gamerule mobGriefing true"
+					player_command: false
+				}
+				{
+					id: "403946C825C336CA"
+					type: "command"
+					auto: "no_toast"
+					command: "/gamerule keepInventory true"
+					player_command: false
+				}
+				{
+					id: "014B6A7864B6048D"
+					type: "command"
+					auto: "no_toast"
+					command: "/gamerule doFireTick false"
+					player_command: false
+				}
+				{
+					id: "17BD1D8D7AE3B847"
+					type: "command"
+					auto: "no_toast"
+					command: "/gamerule commandBlockOutput false"
+					player_command: false
+				}
+				{
+					id: "706F6234568F26BE"
+					type: "command"
+					auto: "no_toast"
+					command: "/team add 1"
+					player_command: false
+				}
+				{
+					id: "2CA10191943AF370"
+					type: "command"
+					auto: "no_toast"
+					command: "/team modify 1 friendlyFire false"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "&6死亡掉落经验"
+			icon: "sophisticatedbackpacks:backpack"
+			disable_toast: true
+			x: 3.75d
+			y: 0.0d
+			subtitle: "如果纯粹的死亡不掉落太简单的话..."
+			description: [
+				"&a掌握对经验的获取与存储是一位合格冒险家必备的技能"
+				""
+				"&a整合包拥有经验存储书和经验储罐，在一定阶段你将获得它们"
+			]
+			dependencies: ["786B2E5F1B962DC8"]
+			hide: true
+			size: 1.5d
+			can_repeat: true
+			id: "3A7536E142122D1B"
+			tasks: [{
+				id: "4CB8889F19532171"
+				type: "checkmark"
+				title: "已阅"
+			}]
+			rewards: [{
+				id: "747A8A302039F9F2"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 3998548989138682835L
+			}]
+		}
+		{
+			title: "&5生物破坏性预设（必点）"
+			icon: "minecraft:tnt"
+			x: -6.75d
+			y: 0.0d
+			subtitle: "&b建议点两次"
+			description: [
+				"&a这个选项包括：禁用苦力怕破坏、禁用末影人拾取方块、禁用博克岛龙破坏方块、禁用高塔傀儡破坏权限"
+				""
+				"&c这个选项是在开启mobGriefing设定上进行的，非必要不要关闭此指令"
+			]
+			hide_dependency_lines: true
+			dependencies: ["786B2E5F1B962DC8"]
+			hide: true
+			size: 1.25d
+			can_repeat: true
+			id: "1B02D756FCA94020"
+			tasks: [{
+				id: "7A692AA326FC1E47"
+				type: "checkmark"
+				title: "生物破坏性预设（必点）"
+			}]
+			rewards: [
+				{
+					id: "0AABA4B061647E6A"
+					type: "command"
+					auto: "no_toast"
+					command: "/gamerule mobGriefingEnderman false"
+					player_command: false
+				}
+				{
+					id: "57084D830006EF8F"
+					type: "command"
+					auto: "no_toast"
+					command: "/gamerule mobGriefingCreeper false"
+					player_command: false
+				}
+				{
+					id: "4C944F314A7D6800"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing creeperoverhaul:badlands_creeper false"
+					player_command: false
+				}
+				{
+					id: "696CE7FDD8276F2A"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing creeperoverhaul:beach_creeper false"
+					player_command: false
+				}
+				{
+					id: "0DFD43A92E84BC31"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing creeperoverhaul:cave_creeper false"
+					player_command: false
+				}
+				{
+					id: "67EC0D62198C8A1F"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing creeperoverhaul:dark_oak_creeper false"
+					player_command: false
+				}
+				{
+					id: "2F0601861A465909"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing creeperoverhaul:desert_creeper false"
+					player_command: false
+				}
+				{
+					id: "4E7F53AC3271B676"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing creeperoverhaul:dripstone_creeper false"
+					player_command: false
+				}
+				{
+					id: "0E22268CEA8B9B24"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing creeperoverhaul:hills_creeper false"
+					player_command: false
+				}
+				{
+					id: "3E5A56B91BC9473B"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing creeperoverhaul:jungle_creeper false"
+					player_command: false
+				}
+				{
+					id: "41596F63121A5F25"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing creeperoverhaul:spruce_creeper false"
+					player_command: false
+				}
+				{
+					id: "53A33A88ED274768"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing creeperoverhaul:swamp_creeper false"
+					player_command: false
+				}
+				{
+					id: "664C9EA9CD0DAFE6"
+					type: "command"
+					auto: "no_toast"
+					command: "/gamerule mobGriefingWither false"
+					player_command: false
+				}
+				{
+					id: "6D601D8B31A3013A"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing isleofberk:deadly_nadder false"
+					player_command: false
+				}
+				{
+					id: "4A92FA58AAF2E42A"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing isleofberk:fire_bolt false"
+					player_command: false
+				}
+				{
+					id: "46CB91589ED9AEB5"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing isleofberk:fire_proj false"
+					player_command: false
+				}
+				{
+					id: "399DFA6AC15A4BD6"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing isleofberk:fire_small_proj false"
+					player_command: false
+				}
+				{
+					id: "7EE2E6C908F7BA29"
+					type: "command"
+					auto: "invisible"
+					command: "/mobgriefing isleofberk:fury_bolt false"
+					player_command: false
+				}
+				{
+					id: "0319CA61BDC5C02F"
+					type: "command"
+					auto: "invisible"
+					command: "/mobgriefing isleofberk:gronckle false"
+					player_command: false
+				}
+				{
+					id: "71BB3B04C4A3F1EA"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing isleofberk:light_fury false"
+					player_command: false
+				}
+				{
+					id: "49D4C5405D7B10A2"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing isleofberk:monstrous_nightmare false"
+					player_command: false
+				}
+				{
+					id: "4A0A1DB10003C5BC"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing isleofberk:nadder_spike false"
+					player_command: false
+				}
+				{
+					id: "3705DD52E17737CF"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing isleofberk:night_fury false"
+					player_command: false
+				}
+				{
+					id: "7EE529249E0ED37D"
+					type: "command"
+					auto: "invisible"
+					command: "/mobgriefing isleofberk:night_light false"
+					player_command: false
+				}
+				{
+					id: "00CCA85C9505141B"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing isleofberk:skrill false"
+					player_command: false
+				}
+				{
+					id: "7C45827E04961E4B"
+					type: "command"
+					auto: "invisible"
+					command: "/mobgriefing isleofberk:skrill_lighting false"
+					player_command: false
+				}
+				{
+					id: "3D22EC6916BC46A5"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing isleofberk:speed_stinger false"
+					player_command: false
+				}
+				{
+					id: "0A21B8FC89915E19"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing isleofberk:speed_stinger_leader false"
+					player_command: false
+				}
+				{
+					id: "601BAA8C24A08956"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing isleofberk:stinger false"
+					player_command: false
+				}
+				{
+					id: "260AEC68DD16552B"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing isleofberk:terrible_terror false"
+					player_command: false
+				}
+				{
+					id: "060C50639F77C90E"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing isleofberk:triple_stryke false"
+					player_command: false
+				}
+				{
+					id: "61B8A0786293AC08"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing isleofberk:zip_cloud false"
+					player_command: false
+				}
+				{
+					id: "4030F4B35D77C7E0"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing isleofberk:zip_poison false"
+					player_command: false
+				}
+				{
+					id: "05BFCA272CA97126"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing isleofberk:zippleback false"
+					player_command: false
+				}
+				{
+					id: "3E1CCE3BE1728467"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing creeperoverhaul:beach_creeper false"
+					player_command: false
+				}
+				{
+					id: "5D41F4D2C800AF97"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing creeperoverhaul:mushroom_creeper false"
+					player_command: false
+				}
+				{
+					id: "2CC53FC1B52EFC64"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing creeperoverhaul:desert_creeper false"
+					player_command: false
+				}
+				{
+					id: "5BEA38EA5DA01045"
+					type: "command"
+					auto: "no_toast"
+					command: "/gamerule skeletonMoreMelee 0"
+					player_command: false
+				}
+				{
+					id: "19265F1EC8ECC818"
+					type: "command"
+					auto: "no_toast"
+					command: "/gamerule doFireTick false"
+					player_command: false
+				}
+				{
+					id: "2F1CEC6C04E0AC5E"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing ba_bt:land_golem false"
+					player_command: false
+				}
+				{
+					id: "559AB33F18A7D828"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing ba_bt:ocean_golem false"
+					player_command: false
+				}
+				{
+					id: "1FEF7E16546B9210"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing ba_bt:core_golem false"
+					player_command: false
+				}
+				{
+					id: "25077C03B2784CB5"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing ba_bt:nether_golem false"
+					player_command: false
+				}
+				{
+					id: "4170A28CE1845211"
+					type: "command"
+					auto: "no_toast"
+					command: "/mobgriefing ba_bt:end_golem false"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "&5凋零破坏方块（真的要点吗？！）"
+			icon: "minecraft:wither_rose"
+			disable_toast: true
+			x: -3.75d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "&f多人档还是考虑下其他小伙伴吧"
+			description: [
+				"&a史诗战斗的凋零拥有极强的战斗欲望，会造成极大的破坏。此选项仅对有丰富经验的冒险家开放。请慎重选择！"
+				"&c注意：凋零破坏权限将会增加与凋零战斗时的难度"
+			]
+			hide_dependency_lines: false
+			dependencies: ["786B2E5F1B962DC8"]
+			hide: true
+			size: 1.5d
+			can_repeat: true
+			id: "1261575872829019"
+			tasks: [{
+				id: "1C3106AEF3A57BF1"
+				type: "checkmark"
+				title: "已阅"
+			}]
+			rewards: [
+				{
+					id: "064E856D8AE8BDA7"
+					type: "command"
+					auto: "no_toast"
+					command: "/execute as @p at @s run playsound minecraft:entity.wither.death voice @a"
+					player_command: false
+				}
+				{
+					id: "16D30943D1AEB2E8"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 3460384371465822304L
+				}
+				{
+					id: "17E31721535329C1"
+					type: "command"
+					auto: "invisible"
+					command: "/title @a title {\"text\":\"有人更改了“凋零破坏”的配置\",\"color\":\"red\"}"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbquests:textures/gui/save.png"
+				}
+			}
+			x: 10.0d
+			y: 0.0d
+			description: [
+				"连锁挖矿需要&5“连锁采集”&r附魔书，并且要去&b“按键设置——连锁采集——激活”&r设置按键"
+				""
+			]
+			hide_dependency_lines: true
+			dependencies: ["786B2E5F1B962DC8"]
+			hide: true
+			size: 1.25d
+			id: "1591684063173AC4"
+			tasks: [{
+				id: "0D1F2153732FA0FD"
+				type: "checkmark"
+				title: "关于&n&5连锁采集"
+			}]
+			rewards: [{
+				id: "696B26CE9D3EA2D7"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "关于视角画面的&n&5改动推荐&r"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/mob_effect/blindness.png"
+				}
+			}
+			x: -1.875d
+			y: -6.25d
+			subtitle: "&e学会战斗模式开启三人称、关闭一人称，是动作游戏的基本素养。"
+			description: [
+				"ESC——选项——视频设置——视场角效果，关掉"
+				""
+				"ESC——选项——视频设置——铷视频设置——粒子效果——下拉找到状态效果，关闭（可以关闭玩家因为药水等buff导致身上产生的粒子效果）"
+				""
+				"进入战斗模式后可以通过键盘↑↓←→“-”\"+\"来调整视角"
+				"{image:sc:textures/rank.png width:180 height:100 align:1}"
+				"如你所见，整合包预设界面尺寸为4，且额外对评分系统做了兼容(招架、娴熟闪避也可以加分)，若挡视野或不想看，在config里搜索damage_number-common.toml可自行调整位置、开关。"
+				""
+				"关于血条ui：可以按下f8调整血条ui位置以及切换为原版ui"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2243FCC92D307EF0"]
+			size: 1.25d
+			id: "4740089D8746AE61"
+			tasks: [{
+				id: "742DB9201911063C"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "5478147371474E73"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+				count: 2
+			}]
+		}
+		{
+			title: "&6按键与设定"
+			icon: "minecraft:stone_button"
+			x: 7.0d
+			y: 3.0d
+			shape: "rsquare"
+			subtitle: "通过：ESC-选项-控制-按键绑定，进行按键自定义设置"
+			description: [
+				"&a这个任务你将会开启凡家物语的初始设定"
+				"&c注：该设定无法改变你的皮肤与外貌，只能选择你的特性与出生点。（屏幕黑白请按F4）"
+				"&a注：启程处选择某处将不进行传送"
+			]
+			hide_dependency_lines: true
+			dependencies: ["786B2E5F1B962DC8"]
+			hide: true
+			size: 2.0d
+			id: "52CDDC08FF5E6B09"
+			tasks: [{
+				id: "0C496245E73845AF"
+				type: "checkmark"
+				title: "我已了解"
+			}]
+			rewards: [
+				{
+					id: "0D954B2D7F9CC6C7"
+					type: "command"
+					title: "我准备好决定自己的命运了"
+					icon: {
+						id: "mca:baby_boy"
+						Count: 1b
+						tag: {
+							baby: {
+								motherName: "Unknown"
+								mother: [I;
+									0
+									0
+									0
+									0
+								]
+								fatherName: "Unknown"
+								age: 0
+								father: [I;
+									0
+									0
+									0
+									0
+								]
+							}
+						}
+					}
+					auto: "disabled"
+					command: "/mca destiny"
+					player_command: true
+				}
+				{
+					id: "68573E3D994FF0FC"
+					type: "item"
+					item: "minecraft:apple"
+				}
+			]
+		}
+		{
+			title: "&6源自群星的笔记"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "patchouli:notebook"
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "&b&n&l这本书非常重要"
+			description: [
+				"&6&n&l这本书非常重要"
+				"&c&n&l这本书非常重要"
+				"&d&n&l这本书非常重要"
+			]
+			hide: true
+			dependency_requirement: "one_completed"
+			size: 3.5d
+			id: "786B2E5F1B962DC8"
+			tasks: [{
+				id: "7CCB37D9E5D968A5"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "479F5A7B15AEEDDA"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "patchouli:notebook"
+						}
+					}
+				}
+				{
+					id: "21694FF24903543A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+			]
+		}
+		{
+			title: "&6源自群星的笔记"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "patchouli:notebook"
+				}
+			}
+			disable_toast: true
+			x: 6.75d
+			y: 0.0d
+			subtitle: "&c&n&l这本书非常重要"
+			description: [
+				"书弄丢了可以补领，可重复"
+				""
+				"&a基础村民交易已加入帕秋莉手册。（哥布林商人除外）"
+			]
+			hide_dependency_lines: true
+			dependencies: ["786B2E5F1B962DC8"]
+			hide: true
+			size: 1.25d
+			can_repeat: true
+			id: "3BAC10F51D693A9E"
+			tasks: [{
+				id: "0537B68CBED7AAD7"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "62424203AF6009AC"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "patchouli:notebook"
+					}
+				}
+			}]
+		}
+		{
+			title: "&a经验之书"
+			icon: {
+				id: "xpbook:xp_tome"
+				Count: 1b
+				tag: {
+					xp: 1395
+				}
+			}
+			x: -5.625d
+			y: -5.0d
+			shape: "circle"
+			subtitle: "&f新版扩充了经验之书的玩法"
+			description: [
+				"每次&a右键经验之书&r将取出其中1级经验，&ashift右键&r将存储所有经验到书里面，便于卡附魔等级。"
+				""
+				"在拿到经验泵之前，尝试着适应吧！"
+			]
+			hide_dependency_lines: true
+			dependencies: ["786B2E5F1B962DC8"]
+			hide: true
+			size: 1.25d
+			id: "52363A6989C49850"
+			tasks: [{
+				id: "15E4A31981033568"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2AA2E88E820ADBFB"
+				type: "item"
+				item: {
+					id: "xpbook:xp_tome"
+					Count: 1b
+					tag: {
+						xp: 586
+					}
+				}
+			}]
+		}
+		{
+			title: "&6关于蔚蓝维度模组"
+			icon: "stellarisdlc:evidencestar"
+			x: 5.0d
+			y: -5.0d
+			shape: "circle"
+			subtitle: "&b蔚蓝之证样子同这个任务图标"
+			description: [
+				"也许你很讨厌蔚蓝模组在整合包里的滥用，但对史诗战斗尤其高版本而言，没什么适合的维度模组；"
+				""
+				"&6本整合包处理方式&r：佩戴&b蔚蓝之证护符&r且&a在蔚蓝两个维度&r，可额外增加&c100%史诗战斗的穿甲属性&r，&c无视其限伤机制和冠军的适应词条&r，且&6遁地尖矛&r用于穿墙穿迷宫。"
+				""
+				"如果作者后续有空，能魔改The Forgotten Dimension模组或更好的维度mod的话，一定会让蔚蓝带着原版的数值，在开局就与玩家见面，而不是放在下界之后。"
+			]
+			dependencies: ["70466306185F123F"]
+			hide: true
+			size: 1.25d
+			id: "3F23E8DA12D9230E"
+			tasks: [{
+				id: "5176E799301F0BAD"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1129929EE8841A20"
+				type: "item"
+				item: {
+					id: "minecraft:iron_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "&6背包必带物品-1：无限海绵"
+			icon: "stellariscraft:infinitysponge"
+			x: -10.0d
+			y: 0.0d
+			subtitle: "&b放主手右键即可清理自身周围水源"
+			description: [
+				"jei搜“无限海绵”；"
+				"用于清除结构中的水方块（含水半砖需先破坏半砖，才能清理水源）"
+			]
+			hide_dependency_lines: true
+			dependencies: ["786B2E5F1B962DC8"]
+			hide: true
+			size: 1.25d
+			id: "45EC1550463B2958"
+			tasks: [{
+				id: "20AA3966C4C1DF9C"
+				type: "checkmark"
+				title: "关于&n&5自动备份"
+			}]
+			rewards: [{
+				id: "2B81B0EAE7D81E04"
+				type: "item"
+				item: "minecraft:sponge"
+			}]
+		}
+		{
+			title: "&6背包必带物品-2：充能海洋之心"
+			icon: "stellariscraft:heartseacharge"
+			x: -6.875d
+			y: 3.125d
+			shape: "circle"
+			subtitle: "&c放主手右键即可清理自身周围火焰（灵魂火焰不行）"
+			description: [
+				"jei搜：充能海洋之心；"
+				"用于清理决斗场中烦人的火焰。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["786B2E5F1B962DC8"]
+			hide: true
+			size: 1.25d
+			id: "321DAC4F5C146F29"
+			tasks: [{
+				id: "012B07E8FB79C82A"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "295E2D67902ED298"
+				type: "item"
+				item: "aquaculture:neptunium_nugget"
+				count: 3
+			}]
+		}
+		{
+			title: "关于铁魔法"
+			icon: "irons_spellbooks:divine_pearl"
+			x: 5.0d
+			y: 5.0d
+			subtitle: "&d铁魔法仅作为加点模组的前置使用"
+			description: [
+				"因为终焉决斗是以ef战斗系统与ai的交互为核心设计的整合包，故而魔法系统不符合该理念，目前仅部分武器的特殊技能进行了联动，更多联动请等待后续更新"
+				""
+				"&6目前在流程中无法获取任意魔法，但是遇到魔法师塔的结构请务必前往探索，其中的&b“奥术源质”&6是主线流程中所需物品"
+			]
+			dependencies: ["6C7C5B647867DB7C"]
+			id: "1010A4921691744A"
+			tasks: [{
+				id: "384419EF0FF844DF"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "18004C115F74C07D"
+				type: "item"
+				item: "irons_spellbooks:arcane_essence"
+				count: 7
+			}]
+		}
+		{
+			icon: {
+				id: "wom:agony"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: 6.25d
+			description: [
+				"由于&6“奇迹武器”&r和&6“史诗战斗ACG附属”&r中的武器机制超模，bug偏多，但是又有代码方面的需求，故将这两模组的武器ban了"
+				"目前技术性修复并解禁了奇迹武器的&a妖刀*樱花&f，但可能依旧有BUG......."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2243FCC92D307EF0"]
+			hide: true
+			size: 1.25d
+			id: "1595C359043ED0E8"
+			tasks: [{
+				id: "7962F3022FD5D91E"
+				type: "checkmark"
+				title: "关于“被诅咒”的物品"
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:iron_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.875d
+			y: -6.25d
+			hide_dependency_lines: true
+			dependencies: ["786B2E5F1B962DC8"]
+			size: 1.25d
+			can_repeat: true
+			id: "3C0F997BFD313B3A"
+			tasks: [{
+				id: "02C5242CB90AEE7B"
+				type: "checkmark"
+				title: "开启/关闭友伤"
+			}]
+			rewards: [{
+				id: "7A9F8688B3FC8A39"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2916418556151578670L
+			}]
+		}
+	]
+	quest_links: [{
+		linked_quest: "6C7C5B647867DB7C"
+		x: 3.0d
+		y: 3.0d
+		shape: "rsquare"
+		size: 1.5d
+		id: "1F7AE8B72CED8AED"
+	}]
+}

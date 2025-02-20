@@ -1,0 +1,43 @@
+{
+    "name": "动能蛋白石",
+    "category": "patchouli:mining",
+    "icon": "miningmaster:kinetic_opal",
+     "sortnum":1,
+    "pages": [
+       {"type": "spotlight",
+        "title":"动能蛋白石",
+        "item": "miningmaster:kinetic_opal",
+        "text": "吸收了熔岩喷薄动能之力产生的珍惜矿物。$(br2)分布极端稀少，玄武岩三角洲生物群系会少量增加数量，流浪商人偶尔也会以2金币的价格售卖。$(br)据说，$(#ff0000)金焰神王$()就是依靠此物来让其身着重甲扔行动迅速",
+        "link_recipe":true
+         },
+        {
+            "type": "patchouli:png_mining",
+            "image": "stellarisdlc:textures/png/move.png",
+            "text1":"动能蛋白石矿",
+            "text2":"生成层数:所有高度$(br)玄武岩三角洲:5个/区块$(br)其他群系:0.5个/区块"
+            
+          },
+      {
+        "type": "patchouli:mining_smith",
+        "head":"动能蛋白石的简单使用",
+        "item1": "minecraft:diamond_sword",
+        "item2": "miningmaster:kinetic_opal",
+        "item3": "minecraft:diamond_sword{Enchantments:[{id:'knockback',lvl:1s}]}",
+        "item4": "minecraft:bow",
+        "item5": "miningmaster:kinetic_opal",
+        "item6": "minecraft:bow{Enchantments:[{id:'minecraft:punch',lvl:1s}]}",
+        "item7": "minecraft:diamond_chestplate",
+        "item8": "miningmaster:kinetic_opal",
+        "item9": "minecraft:diamond_chestplate{Enchantments:[{id:'blast_protection',lvl:1s}]}"
+      },
+      {
+         "type":"patchouli:smith",
+         "head":"动能蛋白石的简单使用",
+         "item1": "minecraft:diamond_sword{Enchantments:[{id:'knockback',lvl:1s}]}",
+        "item2": "miningmaster:kinetic_opal",
+        "item3": "minecraft:diamond_sword{Enchantments:[{id:'knockback',lvl:2s}]}",
+        "text":"在$(#ff0000)锻造台$()上可以根据物品的不同分别赋予动能的力量，可以通过再次锻造反复提升力量但是由于并非专业的魔力注入，$(#ff0000)无法突破这些附魔原有的极限。$()"
+        
+      }
+    ]
+  }

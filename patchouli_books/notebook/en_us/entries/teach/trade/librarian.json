@@ -1,0 +1,53 @@
+{
+    "name": "图书管理员(讲台)",
+    "icon": "minecraft:lectern",
+    "category": "patchouli:trade",
+    "sortnum":0,
+    "pages": [
+{"type":"trade2",
+ "head":"村民等级:新手",
+ "item1":"dotcoinmod:iron_coin#5",
+ "item2":"minecraft:air",
+ "item3":"epicfight:skillbook{skill:\"epicfight:roll\"}",
+ "text1":"1次",
+ "item4":"minecraft:book#16",
+ "item5":"minecraft:air",
+ "item6":"dotcoinmod:copper_coin#8",
+ "text2":"20次"
+},
+{"type":"trade1",
+ "head":"村民等级:学徒",
+ "item1":"dotcoinmod:gold_coin",
+ "item2":"minecraft:air",
+ "item3":"minecraft:enchanting_table",
+ "text1":"1次"
+},
+{"type":"trade1",
+ "head":"村民等级:老手",
+ "item1":"minecraft:writable_book",
+ "item2":"minecraft:air",
+ "item3":"dotcoinmod:iron_coin",
+ "text1":"8次"
+ 
+},
+{"type":"trade2",
+ "head":"村民等级:专家",
+ "item1":"dotcoinmod:copper_coin#6",
+ "item2":"minecraft:air",
+ "item3":"minecraft:experience_bottle#2",
+ "text1":"8次",
+ "item4":"dotcoinmod:iron_coin#4",
+ "item5":"minecraft:air",
+ "item6":"minecraft:enchanted_book{Enchantments:[{id:'minecraft:sharpness',lvl:4s}]}",
+ "text2":"3次"
+},
+{"type":"trade1",
+ "head":"村民等级:大师",
+ "item1":"dotcoinmod:gold_coin#2",
+ "item2":"minecraft:air",
+ "item3":"minecraft:enchanted_book",
+ "text1":"2次                               随机附魔书"
+}
+
+    ]
+}

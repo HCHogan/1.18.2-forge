@@ -1,0 +1,26 @@
+{
+    "name": "下界合金巨兽",
+    "icon": "cataclysm:textures/mob_effect/monstrous.png",
+    "category": "patchouli:beast_strong",
+    "sortnum":8,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"下界合金巨兽/black soul smith",
+            "text": "原本是由猪灵制作，作为发动战争时的最后手段。但是其体型过于庞大，驱动高性能战争本性需要巨量的能源，因此该计划也被搁置。只有受到攻击时才会苏醒，然而没有能源的它只能呢用着最原始的方式战斗，用庞大的身躯锤击，或者喷出体内的翻腾的熔岩。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/nether_monster.png",
+            "text1":"沉睡的杀戮机器",
+            "text2":""
+        },
+    
+        {"type": "spotlight",
+        "title":"掉落物",
+        "item": "cataclysm:monstrous_horn,cataclysm:infernal_forge",
+        "text": "击杀后固定掉落$(br)恶兽犄角1个$(br)炼狱锻锤1个$(br2)配置$(t:等级越高掉落量越高)$(5)抢夺$()附魔可以额外掉落绿心。"
+         }
+        
+    ]
+}

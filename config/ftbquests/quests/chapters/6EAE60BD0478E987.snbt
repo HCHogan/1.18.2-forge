@@ -1,0 +1,1372 @@
+{
+	id: "6EAE60BD0478E987"
+	group: "48B78DC948D03E7E"
+	order_index: 1
+	filename: "6EAE60BD0478E987"
+	title: "支线引导"
+	icon: {
+		id: "blue_skies:crystal_flower"
+		Count: 1b
+		tag: {
+			RepairCost: 1
+			Enchantments: [{
+				lvl: 3s
+				id: "minecraft:unbreaking"
+			}]
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 2.0d
+		y: 7.0d
+		width: 2.0d
+		height: 2.0d
+		rotation: 0.0d
+		image: "minecraft:textures/mob_effect/bad_omen.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+		dependency: "0B64144888793FD7"
+	}]
+	quests: [
+		{
+			title: "&a存储"
+			x: 3.0d
+			y: 2.5d
+			subtitle: "该任务支线讲解了存储的使用方法"
+			description: [
+				"&a1.存储终端必须直接连接在存储整合器上"
+				"&a2.存储连接器需要与存储容器接触"
+				"&a3.背包也被视为容器"
+				"&a4.开关箱子会造成游戏卡顿，多用善用&6桶&r是个好习惯"
+			]
+			dependencies: ["4F8E10047A8C868C"]
+			hide: true
+			id: "7E06B143B527D676"
+			tasks: [
+				{
+					id: "176F3251AFF936C9"
+					type: "item"
+					item: "toms_storage:ts.inventory_connector"
+				}
+				{
+					id: "1449BF8645DC4A49"
+					type: "item"
+					item: "toms_storage:ts.storage_terminal"
+				}
+				{
+					id: "7A3B9666DE26B272"
+					type: "item"
+					item: "metalbarrels:wood_to_copper"
+					only_from_crafting: true
+				}
+			]
+			rewards: [{
+				id: "5FAEE1FF49C12960"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+				count: 4
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.5d
+			description: ["&a由存储终端升级而来，在原有功能上加入了内置合成台。"]
+			dependencies: ["7E06B143B527D676"]
+			hide: true
+			id: "12ED01771B1E5A75"
+			tasks: [{
+				id: "34F510FC377A28B1"
+				type: "item"
+				item: "toms_storage:ts.crafting_terminal"
+			}]
+			rewards: [{
+				id: "3C7423D114936002"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2688748745693820522L
+			}]
+		}
+		{
+			title: "高级无限终端"
+			x: 8.5d
+			y: 2.5d
+			subtitle: "先shift右键绑定终端"
+			description: ["存储/合成终端的区块需强制加载，具体操作：背包左上角ftb区块——左上角认领区块——左键区块认领，shift左键强制加载区块"]
+			dependencies: ["12ED01771B1E5A75"]
+			id: "28DEA3540FC738D2"
+			tasks: [{
+				id: "6AB6615AA148AD48"
+				type: "item"
+				item: {
+					id: "toms_storage:ts.adv_wireless_terminal"
+					Count: 1b
+					tag: {
+						BindX: -1210
+						BindZ: 237
+						BindY: 103
+						BindDim: "minecraft:overworld"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0A66618A00DC1FDB"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2688748745693820522L
+			}]
+		}
+		{
+			title: "带信标回家"
+			icon: "minecraft:beacon"
+			x: 11.5d
+			y: 2.5d
+			subtitle: "&6跨维度传输技术"
+			description: ["将&c&n激活的一级信标&r放在合成终端8格以内，可在&a主世界&r任意位置打开家里的箱子；&6&n若能激活4级的信标&r......"]
+			dependencies: [
+				"28DEA3540FC738D2"
+				"0E76DB62CFF2359D"
+			]
+			hide: true
+			id: "6AA8F2B27E9E09A1"
+			tasks: [{
+				id: "0210A79BDE2C6FC7"
+				type: "item"
+				item: "minecraft:beacon"
+			}]
+			rewards: [{
+				id: "027560A1AAB5E7BE"
+				type: "item"
+				item: "minecraft:diamond_block"
+				count: 2
+			}]
+		}
+		{
+			x: 8.5d
+			y: -4.5d
+			description: [
+				"不管是在战斗中还是路途上都很重要的道具......"
+				""
+				"&cPS：铁砧升级有不明原因可能导致游戏奔溃,故先禁用合成"
+			]
+			dependencies: ["2277DF361789985D"]
+			hide: true
+			id: "410C75C1B183F73E"
+			tasks: [
+				{
+					id: "65FAA13B96F92CD2"
+					type: "item"
+					item: "sophisticatedbackpacks:feeding_upgrade"
+				}
+				{
+					id: "2EE498F0283F30D6"
+					type: "item"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				}
+			]
+			rewards: [{
+				id: "4DCBB952B39E5056"
+				type: "item"
+				item: "dotcoinmod:iron_coin"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -4.5d
+			subtitle: "好像把世界都装进了背包里……"
+			dependencies: ["410C75C1B183F73E"]
+			hide: true
+			id: "6F489111F7FE51BF"
+			tasks: [{
+				id: "1A0E0D0B3401E4CD"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3157B3214BE8C168"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+			}]
+		}
+		{
+			title: "&a背包"
+			x: 5.5d
+			y: -4.5d
+			subtitle: "并不重……奇妙的体验"
+			description: [
+				"&a可以通过合成进行升级，遗迹宝箱也会搜寻出背包"
+				""
+				"&c先清空麻布袋再合成背包，否则麻布袋内物品会被清除"
+				""
+				"注：铁背包现有两种合成方式——麻布袋+大量铜+少量铁；背包+大量铁。"
+				""
+				"或许只有拥有强大&6穿透能力的&c箭矢&r，才能穿透&b石精灵&r那坚硬的防御。"
+			]
+			dependencies: ["4BD471F488D07237"]
+			hide: true
+			id: "2277DF361789985D"
+			tasks: [{
+				id: "3EE5FDE71A520E55"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+			rewards: [
+				{
+					id: "21C19964230F36B9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2688748745693820522L
+				}
+				{
+					id: "32E4434AD975BCA4"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: -4.5d
+			subtitle: "&6如果有储罐与经验升级的话"
+			dependencies: ["6F489111F7FE51BF"]
+			id: "4E89F5CF1B0BC177"
+			tasks: [{
+				id: "60346E887CB74005"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+			rewards: [
+				{
+					id: "56C86498D19FF0AE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2688748745693820522L
+				}
+				{
+					id: "756AC50D6116CDAD"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 7421896030659922250L
+				}
+				{
+					id: "229DF4B06FB4FD6D"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -2.5d
+			subtitle: "&a紫水晶拓展，它可以帮助你升级你的基础装备"
+			description: ["什么，找不到粘液球？说不定皮革匠有?!"]
+			dependencies: ["52A2584F041BD105"]
+			hide: true
+			dependency_requirement: "one_started"
+			id: "75D61DFFE61C62AD"
+			tasks: [{
+				id: "265A364B2ABF1B9D"
+				type: "item"
+				item: "amethysttoolsmod:amethyst_cluster"
+			}]
+			rewards: [{
+				id: "4CF9583E6D1C3D08"
+				type: "xp"
+				xp: 180
+			}]
+		}
+		{
+			x: 11.5d
+			y: -2.5d
+			subtitle: "&a求求你了，帮帮我吧。紫水晶滞销了"
+			dependencies: ["75D61DFFE61C62AD"]
+			hide: true
+			id: "214B07472908251F"
+			tasks: [{
+				id: "69EAA32097714439"
+				type: "item"
+				item: "amethysttoolsmod:amethyst_cluster_lv2"
+			}]
+			rewards: [{
+				id: "2DD63FDF4813448C"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:looting"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "基本的附魔书"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+			x: -3.0d
+			y: 0.0d
+			subtitle: "&b麻雀虽小，五脏俱全"
+			hide_dependency_lines: false
+			dependencies: ["4F8E10047A8C868C"]
+			hide: true
+			hide_text_until_complete: true
+			id: "2786081654E2C0F0"
+			tasks: [{
+				id: "0D5A2F9091F68D00"
+				type: "xp"
+				value: 16L
+				points: false
+			}]
+			rewards: [
+				{
+					id: "138CC1C547478F85"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:sharpness"
+							}]
+						}
+					}
+				}
+				{
+					id: "70168171D74CD331"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "minecraft:sweeping"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "铁匠的叮嘱"
+			icon: "minecraft:smithing_table"
+			x: -1.5d
+			y: -3.5d
+			subtitle: "矿石的价值普遍很高，按住shift可查看具体价值"
+			dependencies: ["4F8E10047A8C868C"]
+			hide: true
+			id: "38536593B07044D4"
+			tasks: [
+				{
+					id: "450C2FE2EA8F5864"
+					type: "item"
+					item: "minecraft:copper_ingot"
+					count: 6L
+					consume_items: true
+				}
+				{
+					id: "2ECE71F6A6FE883E"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 6L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "37CA00D35F9597F0"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 8
+					random_bonus: 2
+				}
+				{
+					id: "639BEE7C817C6291"
+					type: "xp"
+					xp: 188
+				}
+			]
+		}
+		{
+			title: "&5炼钢技术"
+			x: 0.0d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "&c支线引导用于帮玩家熟悉整合包，推荐至少稍微看一下"
+			description: ["&a一种普通钢材，但是以它作为基础打造武器拥有更多的可能性"]
+			dependencies: ["1494E457AD8A8335"]
+			hide: true
+			size: 2.0d
+			id: "4F8E10047A8C868C"
+			tasks: [{
+				id: "210D7301B3756A6A"
+				type: "item"
+				item: "stellariscraft:steelingot"
+			}]
+			rewards: [{
+				id: "1FD3996B96A56002"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+				count: 4
+			}]
+		}
+		{
+			title: "&2高级盾牌？"
+			icon: {
+				id: "shieldexp:iron_shield"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 8.5d
+			y: 0.0d
+			subtitle: "&a盾牌拓展：你将获得盾反机制和举盾革新"
+			description: ["&a在敌人攻击你一瞬间，举起你的盾牌，你将格挡并冷却你的盾牌。"]
+			dependencies: ["52A2584F041BD105"]
+			hide: true
+			dependency_requirement: "one_started"
+			id: "328F7890A1FE33AE"
+			tasks: [{
+				id: "4E9EB794160AB3C6"
+				type: "item"
+				item: {
+					id: "shieldexp:iron_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "65C17967F89A33BB"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+				count: 4
+			}]
+		}
+		{
+			x: 11.875d
+			y: 0.0d
+			subtitle: "&c猜你需要:下界合金盾牌"
+			dependencies: ["328F7890A1FE33AE"]
+			size: 1.25d
+			id: "7F2D025A7CB9C5B1"
+			tasks: [{
+				id: "0950459A5AB504EF"
+				type: "advancement"
+				advancement: "shieldexp:get_netherite_shield"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "22E77E8BF2A760A9"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2240263939124024074L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.0d
+			subtitle: "&c建筑高度&n320&r&c层到地底&n-62&r&c层以下并且不死"
+			description: [
+				"&a从建筑高度下落至地底并存活下来"
+				"（PS：建筑高度处，请径直走到跳落点，不要跳过去）"
+			]
+			dependencies: ["4F8E10047A8C868C"]
+			hide: true
+			id: "3297FF277C983D65"
+			tasks: [{
+				id: "7A3488115AB62921"
+				type: "advancement"
+				advancement: "minecraft:adventure/fall_from_world_height"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7D4986891CA7029C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2240263939124024074L
+			}]
+		}
+		{
+			icon: "toolbelt:belt"
+			x: 5.5d
+			y: 0.0d
+			description: ["&a可以用腰带包在铁砧上对皮带进行升级"]
+			dependencies: ["613EFA633560151B"]
+			hide: true
+			id: "52A2584F041BD105"
+			tasks: [
+				{
+					id: "475C231E33722CF5"
+					type: "item"
+					item: "toolbelt:belt"
+				}
+				{
+					id: "31A95F0DFA5C4523"
+					type: "item"
+					item: "toolbelt:pouch"
+				}
+			]
+			rewards: [{
+				id: "32B351EA04B928CB"
+				type: "item"
+				item: "dotcoinmod:iron_coin"
+			}]
+		}
+		{
+			icon: {
+				id: "quark:forgotten_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 14.375d
+			y: -2.5d
+			shape: "circle"
+			description: ["&a在矿洞中生成的古老意志，上古残留的亡魂凝聚成的骷髅——遗忘者。打败它可以获得遗忘之骨，但不要去随意招惹它"]
+			dependencies: ["214B07472908251F"]
+			hide: true
+			size: 1.5d
+			id: "771E12ABC6BFEDCC"
+			tasks: [
+				{
+					id: "022EE7C8D7011482"
+					type: "kill"
+					title: "&5遗忘者"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "ftbchunks:textures/faces/quark/forgotten.png"
+						}
+					}
+					entity: "quark:forgotten"
+					value: 1L
+				}
+				{
+					id: "52957AF54463AEE2"
+					type: "item"
+					item: "stellariscraft:forget_bone"
+				}
+			]
+			rewards: [
+				{
+					id: "15737FD0BDEC5A24"
+					type: "item"
+					item: "quark:rainbow_rune"
+				}
+				{
+					id: "4BA1D6EA1243DE46"
+					type: "item"
+					item: "stellariscraft:adventurespar"
+					count: 3
+				}
+				{
+					id: "1EAB3AC215172EBA"
+					type: "xp"
+					xp: 320
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			subtitle: "&a偶然得到的奇妙心形物体，能提升生命"
+			description: [
+				"红心❤️：主世界小怪掉落"
+				"黄心💛：大地、海洋傀儡及主世界boss掉落"
+				"绿心💚：炉心傀儡、下界各boss掉落"
+				"蓝心💙：下界傀儡、末地傀儡掉落"
+			]
+			dependencies: [
+				"228E462D74AB0ABE"
+				"4F8E10047A8C868C"
+			]
+			hide: true
+			id: "49827606868A8B7C"
+			tasks: [{
+				id: "083E0834C6DFBFA2"
+				type: "item"
+				item: "bhc:red_heart"
+			}]
+			rewards: [
+				{
+					id: "1CD9C8C43891BF47"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 4
+				}
+				{
+					id: "7DA1850E7032CD46"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			subtitle: "&a刚好可以将心镶嵌其中……"
+			description: ["用于合成各种颜色的心之容器"]
+			dependencies: ["49827606868A8B7C"]
+			hide: true
+			id: "15487C7667455772"
+			tasks: [{
+				id: "7F096C7E43011B6C"
+				type: "item"
+				item: "bhc:red_heart_canister"
+			}]
+			rewards: [
+				{
+					id: "75656ABB2FA25D0A"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 4
+				}
+				{
+					id: "2F044C52493E1879"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			x: -1.6d
+			y: 7.0d
+			subtitle: "&a可以放入复数的心之容器，戴上感觉到生命在涌动……"
+			description: ["心形吊坠可容纳4种心之容器，每种颜色最多5个"]
+			dependencies: ["15487C7667455772"]
+			id: "6700D40043391E1E"
+			tasks: [{
+				id: "66F7610E0B9D6094"
+				type: "item"
+				item: "bhc:heart_amulet"
+			}]
+			rewards: [
+				{
+					id: "64C3AF5CB9115645"
+					type: "item"
+					item: "bhc:red_heart"
+				}
+				{
+					id: "1A9AF29AF961A385"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "miningmaster:heartfelt"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: 0.0d
+			subtitle: "&5\"也许能够应对诅咒呢……\""
+			description: ["&a祛魔台是你变强的一大途径，收集稀有的附魔物品，获得强力的附魔书吧！"]
+			dependencies: [
+				"3F8334639906C763"
+				"228E462D74AB0ABE"
+				"4F8E10047A8C868C"
+			]
+			hide: true
+			id: "634DA5ABB9EA4618"
+			tasks: [{
+				id: "67FBAC43AB1D64EA"
+				type: "item"
+				item: "disenchanting:disenchanter"
+			}]
+			rewards: [
+				{
+					id: "59DE1DB8690D7F3B"
+					type: "item"
+					item: "minecraft:experience_bottle"
+					count: 3
+				}
+				{
+					id: "5AFF3B221B113CA2"
+					type: "item"
+					item: {
+						id: "minecraft:bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+							RepairCost: 1
+							Enchantments: [{
+								lvl: 5s
+								id: "minecraft:power"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 2.5d
+			subtitle: "&a鉴定为，蘑孢灵做不到的功能"
+			description: ["有时候诅咒并不完全是件坏事，至少能&c&l&n去除惩罚机制&r，白板的装备可就没这福气了。记住这点提示，好好利用祛魔台吧~"]
+			dependencies: [
+				"3F8334639906C763"
+				"228E462D74AB0ABE"
+			]
+			hide: true
+			id: "1CF1C396A3C6C615"
+			tasks: [{
+				id: "191F20481E5141F9"
+				type: "item"
+				item: "minecraft:grindstone"
+			}]
+			rewards: [
+				{
+					id: "218950418B94A9DE"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 2
+				}
+				{
+					id: "3B9909C17A25228F"
+					type: "item"
+					item: "minecraft:experience_bottle"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 2.5d
+			subtitle: "&a附魔金苹果，能祛魔很合理（确信）"
+			description: [
+				"不使用快捷键就能完成此任务"
+				"（不能用shift+左键快捷取下祛魔后的苹果）"
+			]
+			dependencies: ["1CF1C396A3C6C615"]
+			hide: true
+			id: "7DFB4477C4AB36A7"
+			tasks: [{
+				id: "6872BBC0EA98DA25"
+				type: "advancement"
+				advancement: "supplementaries:story/unenchanter"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "265D07C3D3AF1B95"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+				count: 4
+			}]
+		}
+		{
+			x: -14.0d
+			y: 0.0d
+			subtitle: "&5“垃圾佬狂喜”"
+			description: [
+				"&a这世间的万物都有它们自己的价值……"
+				""
+				"&af3+h开启高级选项；按住shift以查看物品价值"
+			]
+			dependencies: ["634DA5ABB9EA4618"]
+			hide: true
+			id: "3D478D4AD0EE6B0B"
+			tasks: [{
+				id: "7638E6B426E8E0D5"
+				type: "item"
+				item: "toolleveling:tool_leveling_table"
+			}]
+			rewards: [
+				{
+					id: "0BF0581108BDD965"
+					type: "item"
+					item: "dotcoinmod:iron_coin"
+				}
+				{
+					id: "68E83EE87B2E8612"
+					type: "item"
+					item: "minecraft:experience_bottle"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "&6强化炼药锅"
+			x: -8.5d
+			y: -2.5d
+			subtitle: "神秘的涂层处理……使用龙息为武器涂上药水效果"
+			description: ["听说牧师那里可以售卖珍贵的龙息"]
+			dependencies: ["3F8334639906C763"]
+			secret: true
+			id: "0C48824995B0326E"
+			tasks: [{
+				id: "769CC9BA03454568"
+				type: "item"
+				item: "davespotioneering:reinforced_cauldron"
+			}]
+			rewards: [{
+				id: "2959B1372A90A2E6"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "&6涂层"
+			x: -12.0d
+			y: -2.5d
+			description: [
+				"将要萃的效果放入强化炼药锅，然后加入龙息，并且使用武器右键强化炼药锅即可"
+				""
+			]
+			dependencies: ["0C48824995B0326E"]
+			id: "2826D9BD168BF3A5"
+			tasks: [
+				{
+					id: "7513DBB418128AEB"
+					type: "item"
+					item: "miningmaster:divine_beryl"
+				}
+				{
+					id: "0EA1A86548049802"
+					type: "item"
+					item: "minecraft:dragon_breath"
+				}
+			]
+			rewards: [{
+				id: "78B292CECACC4CF5"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			subtitle: "“附魔台...这个世界还有许多我不知道的事”"
+			description: [
+				"&a附魔的种类多种多样...甚至也包含诅咒，学习如何附魔是十分有必要的（诅咒附魔出现概率：&c2%&r）。"
+				""
+				"新功能：左键附魔台书本图标可花费2青金石刷新附魔"
+				""
+				"原版机制：1-16级每级所需经验相同，从17级开始才逐级增长"
+				""
+				"&6史诗战斗相关附魔：&b锋利提升普攻伤害，&e横扫之刃提高技能伤害，&c每一级击退增加12%冲击(削韧能力)"
+				""
+				"关于连锁采集：&a需持续按键（默认按键~）才能触发，&c每级连锁可采集20个方块，&b上限2级+附魔升级台3级。"
+			]
+			dependencies: [
+				"1494E457AD8A8335"
+				"4F8E10047A8C868C"
+			]
+			hide: true
+			dependency_requirement: "all_started"
+			id: "3F8334639906C763"
+			tasks: [{
+				id: "417D979C61D1699A"
+				type: "item"
+				item: "minecraft:enchanting_table"
+			}]
+			rewards: [
+				{
+					id: "21AC60BD5A49D94F"
+					type: "item"
+					item: "minecraft:experience_bottle"
+					count: 3
+				}
+				{
+					id: "3B751124176A3A4B"
+					type: "item"
+					item: "stellarisdlc:attribute_scrap"
+					count: 7
+				}
+				{
+					id: "2F3FDEF748C46AD9"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "veinmining:vein_mining"
+							}]
+						}
+					}
+				}
+				{
+					id: "678CCA0F6C9FC44A"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:mending"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&5情报搜集"
+			icon: "minecraft:bell"
+			x: 3.0d
+			y: 0.0d
+			subtitle: "“最近好像有人失踪了，而且没有任何痕迹。”"
+			description: ["村民们会出售你需要的基本物资甚至是一些关键道具（&e技能书&r），记得与他们打好关系，详细可见&b“奇珍异兽”&r章节。"]
+			hide_dependency_lines: false
+			dependencies: ["4F8E10047A8C868C"]
+			hide: true
+			id: "613EFA633560151B"
+			tasks: [
+				{
+					id: "339713F483A182FF"
+					type: "advancement"
+					title: "进入凡家物语村庄，开启冒险之旅"
+					icon: "minecraft:bell"
+					advancement: "mca:root"
+					criterion: ""
+				}
+				{
+					id: "396B5906F2818B51"
+					type: "stat"
+					icon: "minecraft:emerald"
+					stat: "minecraft:traded_with_villager"
+					value: 5
+				}
+			]
+			rewards: [
+				{
+					id: "30E85F2922474395"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2944719802946291587L
+				}
+				{
+					id: "5937B3272F5FA251"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 5
+				}
+				{
+					id: "0694500D49C65DF5"
+					type: "command"
+					auto: "invisible"
+					command: "/say 已解锁篇章：奇珍异兽!"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -7.0d
+			subtitle: "&b再一次，走出新手村"
+			description: ["&e王之宝库&f里比原版还要强大的盔甲可不少！记得多看看！"]
+			dependencies: ["4F8E10047A8C868C"]
+			hide: true
+			id: "298FE1E410A5AE44"
+			tasks: [{
+				id: "34F1C535F4330A46"
+				type: "advancement"
+				icon: {
+					id: "minecraft:netherite_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecraft:nether/netherite_armor"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3DF1CC57F7C62171"
+				type: "item"
+				item: "minecraft:totem_of_undying"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			subtitle: "&f9格空间大小，能收纳一定的物资。"
+			dependencies: ["4F8E10047A8C868C"]
+			hide: true
+			id: "4BD471F488D07237"
+			tasks: [{
+				id: "054CC3425B1AE4C5"
+				type: "item"
+				item: "supplementaries:sack"
+			}]
+			rewards: [{
+				id: "217BB4E88320CDB3"
+				type: "item"
+				item: "minecraft:iron_block"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -6.5d
+			subtitle: "能装水、岩浆、甚至是经验？！"
+			description: ["&cPS：铁砧升级有不明原因可能导致游戏奔溃,故先禁用合成"]
+			dependencies: ["2277DF361789985D"]
+			hide: true
+			id: "13AFD67C539EB11B"
+			tasks: [{
+				id: "5A1165D15EA49B12"
+				type: "item"
+				item: "sophisticatedbackpacks:tank_upgrade"
+			}]
+			rewards: [{
+				id: "2CC3A0F8782FEF7C"
+				type: "item"
+				item: "minecraft:glass"
+				count: 32
+			}]
+		}
+		{
+			x: 11.5d
+			y: -6.5d
+			subtitle: "有了这玩意，再也不用担心经验会丢辣！"
+			description: ["&aCTRL+O可以关闭JEI，再按打开，防止卡经验泵按钮。"]
+			dependencies: [
+				"5A1165D15EA49B12"
+				"13AFD67C539EB11B"
+			]
+			hide: true
+			id: "71B777B979FF2B0A"
+			tasks: [{
+				id: "716ADFAA9AAAAAD3"
+				type: "item"
+				item: "sophisticatedbackpacks:xp_pump_upgrade"
+			}]
+			rewards: [{
+				id: "55573E3115B0729A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -5.5d
+			y: -4.5d
+			subtitle: "&6现已加入合成配方+1"
+			description: ["   （任务所需合金碎片需通过合成获得才能完成任务）"]
+			dependencies: ["3925F45658DE8780"]
+			hide: true
+			id: "77A9D9FD0F86B570"
+			tasks: [{
+				id: "6240E6F7BF62F1F2"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "70F701BC9607E3B0"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			subtitle: "&6现已加入合成配方"
+			description: ["        （任务所需钻石需通过合成获得才能完成任务）"]
+			dependencies: ["4F8E10047A8C868C"]
+			hide: true
+			id: "3925F45658DE8780"
+			tasks: [{
+				id: "5D76EE11B4589030"
+				type: "item"
+				item: "minecraft:diamond"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "1F2F86DDA89726B4"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			subtitle: "&a听说双持战斗剑斧可以在大世界横着走（ ? ）"
+			dependencies: ["4F8E10047A8C868C"]
+			hide: true
+			id: "75C37D78C77655E7"
+			tasks: [{
+				id: "6A30CD0C297C9145"
+				type: "item"
+				item: {
+					id: "stellariscraft:fightswordaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "04E089D773158DF4"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -6.5d
+			subtitle: "&e充满神奇力量与魔法的锻造炉，能将淡粉晶簇和其他材料融合成饰品，也可以合成更为强力的武器。"
+			description: ["多看看&aJEI&r吧！黑石的合成配方已经有了。"]
+			dependencies: ["38536593B07044D4"]
+			hide: true
+			id: "4FDC6E9218390F12"
+			tasks: [{
+				id: "11C45775794612F1"
+				type: "item"
+				item: "miningmaster:gem_forge"
+			}]
+			rewards: [{
+				id: "39BCA049C66A424F"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "关于袭击"
+			x: 2.0d
+			y: 7.0d
+			subtitle: "&e斧头帮在世"
+			description: ["&c在史诗战斗的加持下，灾厄村民们有了新的变化，在你有一定的实力之前不要轻易接触他们！！！"]
+			dependencies: ["75C37D78C77655E7"]
+			hide: true
+			id: "2A5B4AA6AFF2F9C0"
+			tasks: [{
+				id: "4160F4EF8AB23464"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2924DD6BD30EDFAA"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			subtitle: "&a《万金油》"
+			description: [
+				"充满神秘力量的晶石，不管是强大的遗迹地牢或是可怕的敌人，甚至是强大的饰品都有它的线索........"
+				""
+				"PS:青金石块以加入合成配方"
+			]
+			dependencies: ["4F8E10047A8C868C"]
+			hide: true
+			id: "4352372F93E97BB9"
+			tasks: [{
+				id: "0570BA559A28862B"
+				type: "item"
+				item: "stellariscraft:adventurespar"
+			}]
+			rewards: [{
+				id: "5005212D5014D065"
+				type: "item"
+				item: "stellariscraft:adventurespar"
+			}]
+		}
+		{
+			title: "晶石"
+			x: 3.0d
+			y: -6.5d
+			subtitle: "&e哇！金色传说！"
+			description: [
+				"充满锻造和强化力量的晶石，能够让装备变得更加强大！"
+				"&c红色&f白色&a词条的装备或武器由锻造晶石在铁砧上敲打进行属性重铸升级"
+				""
+				"&2绿色&a以及以上的装备或武器则需要使用强化晶石在铁砧上敲打来进行属性重铸升级"
+				""
+				"&a锻造晶石与强化晶石可分别用青金石、青金石块修复"
+				""
+				"&a也可以将两个消耗耐久的锻造（强化）晶石在工作台上合成修复"
+				""
+				"&e目前锻造的物品需要满耐久 !!!!"
+				""
+				"&c请不要对晶石附魔！！！"
+				""
+				"PS:青金石块以加入合成配方"
+			]
+			dependencies: ["4352372F93E97BB9"]
+			hide: true
+			id: "2187AB5F616A6FFD"
+			tasks: [
+				{
+					id: "1D0D5CC7D5C67711"
+					type: "item"
+					item: {
+						id: "stellarisdlc:reinforcedspar"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "430D1B53789ECC19"
+					type: "item"
+					item: {
+						id: "stellarisdlc:forgedspar"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "14DC3F3EE9E1B88B"
+					type: "item"
+					item: {
+						id: "stellarisdlc:forgedspar"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5AD0F1D1A81C4751"
+					type: "item"
+					item: {
+						id: "stellarisdlc:reinforcedspar"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			subtitle: "&6现已加入合成配方"
+			dependencies: ["4F8E10047A8C868C"]
+			hide: true
+			id: "585499564C3CF6D7"
+			tasks: [{
+				id: "17091408161200C8"
+				type: "item"
+				item: "minecraft:lapis_block"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "33EB92C9501B444C"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			description: ["TIPS：空灵箭能轻松穿透石精灵"]
+			dependencies: ["4BD471F488D07237"]
+			id: "5180D56320785A1C"
+			tasks: [{
+				id: "1CE47F98F862E5D2"
+				type: "item"
+				item: "quark:diamond_heart"
+			}]
+			rewards: [{
+				id: "0A4BCCD4B5412AFF"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "&6去除诅咒的好帮手——蘑孢灵"
+			icon: "dimdungeons:item_trophy_1"
+			x: -12.0d
+			y: 5.5d
+			subtitle: "&a常见于沼泽，蘑菇岛，黑森林"
+			description: [
+				"&b使用玻璃罐右键带走，可以用骨粉驯服（多人尽量别驯服）。将&c诅咒&b物品丢给蘑孢灵，它会以物品耐久为代价祛除烦人的诅咒"
+				"&2魔孢灵背包装备后shift右击已驯服的蘑孢灵可以把它背在背上，再次shift右击放下。"
+				"&c在蘑孢灵祛除诅咒过程中，请勿将其装回玻璃瓶或者将其击杀，否则装备大概率会丢失!"
+			]
+			dependencies: ["1CF1C396A3C6C615"]
+			progression_mode: "linear"
+			id: "79F72EB0E3E9C5E1"
+			tasks: [{
+				id: "1A867AE680BBCCF5"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "2916BF3511C24FFD"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+					count: 2
+				}
+				{
+					id: "19F57E7612AF6092"
+					type: "item"
+					item: "supplementaries:jar"
+				}
+			]
+		}
+		{
+			title: "&2关于膳食"
+			icon: "farmersdelight:roast_chicken_block"
+			x: 5.5d
+			y: -6.5d
+			subtitle: "&b巨额加成？过去式了！"
+			description: [
+				"均衡饮食吃满的方法就是:一个喂食背包和烤鸡、果酱(前期)，摆放方式如下图所示，要注意喂食背包的设置!"
+				""
+				"提示：膳食需要&c饿了吃食物才有效果&r，不然吃了等于没吃（下图中饺子换烤鸡也是可以的）"
+				""
+				"{image:sc:textures/shanshi.png width:200 height:110 align:1}"
+			]
+			dependencies: ["2277DF361789985D"]
+			id: "196E8142DB243F49"
+			tasks: [{
+				id: "477A1CA86CE1A288"
+				type: "checkmark"
+				title: "&2关于膳食"
+			}]
+			rewards: [{
+				id: "6789EAA0901F76CA"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

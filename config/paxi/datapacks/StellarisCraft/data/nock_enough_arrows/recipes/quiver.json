@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " LI",
+    "LAL",
+    "LL "
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "A": {
+      "item": "supplementaries:quiver"
+    }
+  },
+  "result": {
+    "item": "nock_enough_arrows:quiver"
+  }
+}

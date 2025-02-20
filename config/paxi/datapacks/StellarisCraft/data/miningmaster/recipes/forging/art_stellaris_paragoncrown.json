@@ -1,0 +1,17 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[
+{"item":"quark:diamond_heart"},
+{"item":"miningmaster:divine_beryl_block"},
+{"item":"omnis:ankh_charm"},
+{"item":"artifacts:plastic_drinking_hat"},
+{"item":"artifacts:antidote_vessel"},
+{"item":"artifacts:novelty_drinking_hat"},
+{"item":"omnis:ankh_charm"},
+{"item":"miningmaster:spider_kunzite_block"},
+{"item":"quark:diamond_heart"}
+],
+"catalyst":{"item":"stellarisdlc:exchangestonecore"},
+"result":{"item":"stellarisdlc:paragoncrown"},
+"enchantments":[]
+}

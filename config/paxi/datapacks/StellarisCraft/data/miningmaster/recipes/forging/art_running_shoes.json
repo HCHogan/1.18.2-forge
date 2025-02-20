@@ -1,0 +1,9 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[{"item":"miningmaster:kinetic_opal"},
+{"item":"minecraft:leather_boots"},
+{"item":"miningmaster:kinetic_opal"}],
+"catalyst":{"item":"stellarisdlc:exchangestonecore"},
+"result":{"item":"artifacts:running_shoes"},
+"enchantments":[]
+}

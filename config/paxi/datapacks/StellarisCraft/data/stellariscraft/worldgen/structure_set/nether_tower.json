@@ -1,0 +1,15 @@
+{
+  "structures": [
+      {
+          "structure":"stellariscraft:nether_tower",
+          "weight":1
+      }
+  ],
+  "placement": {
+      "type": "minecraft:random_spread",
+      " frequency_reduction_method":"legacy_type_3",
+      "spacing": 65,
+      "separation": 50,
+      "salt": 1604868711
+  }
+}

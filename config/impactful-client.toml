@@ -1,0 +1,8 @@
+
+["client screen shake setting"]
+	disable_screen_shake = false
+	#Range: 0.0 ~ 10.0
+	global_screen_shake_amplitude = 0.2
+	#Range: 0.0 ~ 10.0
+	amplitude_of_camera_shake_when_player_get_hurt = 0.3
+

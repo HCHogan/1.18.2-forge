@@ -1,0 +1,753 @@
+{
+  "groupOverrides": {
+    "Vanilla Seeds": {
+      "enabled": false
+    },
+    "Farmers Delight Seeds":
+    {"enabled":false},
+    "Vanilla Saplings": {
+      "enable":false
+    },
+    "Supplementaries Seeds":
+    {"enabled":false},
+    "Bone Meal":{"enabled":false}
+  },
+  "entryOverrides": {
+    "minecraft:oak_sapling": {
+      "enabled": false
+    },
+    "minecraft:bone_meal": {
+      "amount": 10 
+    }
+  },
+  "customCategories": {
+    "seed": {
+      "name": "seeds",
+      "icon": {
+        "item": "minecraft:wheat_seeds"
+      }
+    },
+    "food": {
+      "name": "food",
+      "icon": {
+        "item": "farmersdelight:honey_glazed_ham_block"
+      }
+    }
+  },
+  "customEntries": [
+    {
+      "output": {
+        "item": "abnormals_delight:escargot"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "abnormals_delight:duck_noodles"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "abnormals_delight:perch_with_mushrooms"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "abnormals_delight:passionfruit_glazed_duck"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "abnormals_delight:venison_with_bamboo_shoots"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "abnormals_delight:pike_with_beetroot"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "abnormals_delight:slabdish"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "abnormals_delight:seared_venison"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "alexsmobs:shrimp_fried_rice"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "endersdelight:ender_paella"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "endersdelight:pearl_pasta_wood"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "endersdelight:endermite_stew"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "endersdelight:chorus_stew_wood"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "delightful:chunkwich"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "abnormals_delight:maple_cookie"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "abnormals_delight:mulberry_cookie"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "abnormals_delight:cherry_cookie"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "abnormals_delight:cooked_venison_shanks"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 1
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "abnormals_delight:cooked_duck_fillet"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 1
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "abnormals_delight:maple_glazed_bacon"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 1
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "abnormals_delight:cooked_perch_slice"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 1
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "abnormals_delight:cooked_pike_slice"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 1
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "delightful:raw_goat"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "delightful:chunk_nugget"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "alexsdelight:cooked_centipede_leg"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "alexsdelight:raw_bison",
+        "count": 2
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "aquaculture:frog_legs_raw",
+        "count": 2
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "abnormals_delight:duck_fillet",
+        "count": 1
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "quark:frog_leg",
+        "count": 2
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "alexsmobs:moose_ribs",
+        "count": 2
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "alexsdelight:raw_bunfungus",
+        "count": 2
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "quark:crab_leg",
+        "count": 2
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "byg:holly_berries",
+        "count": 2
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "blue_skies:pine_fruit",
+        "count": 1
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "blue_skies:solnut",
+        "count": 1
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "blue_skies:cryo_root",
+        "count": 1
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "neapolitan:white_strawberries",
+        "count": 1
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "byg:blueberries",
+        "count": 2
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "neapolitan:banana_milkshake"
+      },
+      "payment": {
+        "item": "dotcoinmod:diamond_coin",
+        "count": 5
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "neapolitan:mint_milkshake"
+      },
+      "payment": {
+        "item": "dotcoinmod:diamond_coin",
+        "count": 5
+      },
+      "category": "food"
+    },
+    {
+      "output": {
+        "item": "neapolitan:mint_sprout"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 5
+      },
+      "category": "seed"
+    },
+    {
+      "output": {
+        "item": "minecraft:cactus"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 1
+      },
+      "category": "seed"
+    },
+    {
+      "output": {
+        "item": "minecraft:pumpkin_seeds"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 1
+      },
+      "category": "seed"
+    }
+    ,
+    {
+      "output": {
+        "item": "minecraft:beetroot_seeds"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 1
+      },
+      "category": "seed"
+    }
+    ,
+    {
+      "output": {
+        "item": "minecraft:melon_seeds"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 1
+      },
+      "category": "seed"
+    }
+    ,
+    {
+      "output": {
+        "item": "berry_good:glow_berry_pips"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 1
+      },
+      "category": "seed"
+    }
+    ,
+    {
+      "output": {
+        "item": "minecraft:sugar_cane"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 1
+      },
+      "category": "seed"
+    }
+    ,
+    {
+      "output": {
+        "item": "minecraft:bamboo"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 1
+      },
+      "category": "seed"
+    }
+    ,
+    {
+      "output": {
+        "item": "berry_good:sweet_berry_pips"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 1
+      },
+      "category": "seed"
+    }
+    ,
+    {
+      "output": {
+        "item": "delightful:salmonberry_pips"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "seed"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:cabbage_seeds"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 1
+      },
+      "category": "seed"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:onion"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 1
+      },
+      "category": "seed"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:rice"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 1
+      },
+      "category": "seed"
+    },
+    {
+      "output": {
+        "item": "miners_delight:bat_wing"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 1
+      },
+      "category": "other"
+    },
+    {
+      "output": {
+        "item": "byg:aloe_vera"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 1
+      },
+      "category": "other"
+    },
+    {
+      "output": {
+        "item": "alexsmobs:small_catfish_bucket"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 1
+      },
+      "category": "other"
+    },
+
+    {
+      "output": {
+        "item": "minecraft:sheep_spawn_egg"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 1
+      },
+      "category": "other"
+    },
+    {
+      "output": {
+        "item": "minecraft:cow_spawn_egg"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 1
+      },
+      "category": "other"
+    },
+    {
+      "output": {
+        "item": "minecraft:rabbit_spawn_egg"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 1
+      },
+      "category": "other"
+    },
+    {
+      "output": {
+        "item": "minecraft:chicken_spawn_egg"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 1
+      },
+      "category": "other"
+    },
+    {
+      "output": {
+        "item": "minecraft:pig_spawn_egg"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 1
+      },
+      "category": "other"
+    },
+    {
+      "output": {
+        "item": "minecraft:horse_spawn_egg"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 4
+      },
+      "category": "other"
+    },
+    {
+      "output": {
+        "item": "minecraft:bee_spawn_egg"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "other"
+    },
+    {
+      "output": {
+        "item": "minecraft:wolf_spawn_egg"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "other"
+    },
+    {
+      "output": {
+        "item": "minecraft:cat_spawn_egg"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "other"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:brown_mushroom_colony"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 1
+      },
+      "category": "other"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:red_mushroom_colony"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 1
+      },
+      "category": "other"
+    },
+    {
+      "output": {
+        "item": "alexsmobs:banana_peel",
+        "count": 3
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "other"
+    },
+    {
+      "output": {
+        "item": "minecraft:potion",
+        "nbt":"{Potion:'alexsmobs:poison_resistance'}"
+      },
+      "payment": {
+        "item": "dotcoinmod:iron_coin",
+        "count": 2
+      },
+      "category": "other"
+    }
+    
+  ]
+}

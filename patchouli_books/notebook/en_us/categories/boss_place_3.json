@@ -1,0 +1,7 @@
+{
+    "name": "圣堂决斗场",
+    "description": "天堂之门已经开启，向我展示你的可能性吧......",
+    "icon": "stellariscraft:immortalbadge",
+   "sortnum":3,
+    "parent": "patchouli:boss_place"
+}

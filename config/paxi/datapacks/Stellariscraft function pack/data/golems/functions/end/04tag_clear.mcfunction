@@ -1,0 +1,1 @@
+execute as @p[tag=redemption,sort=nearest,limit=1] at @s run tag @s remove redemption

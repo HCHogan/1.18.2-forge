@@ -1,0 +1,53 @@
+{  
+  "armorSetName": "cataclysm_incinerator_vampiric",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "cataclysm:the_incinerator"
+  },
+  "additionalSetPieces": [
+    {
+    "itemKey": "stellarisdlc:ignisheart"
+    }
+],
+"head": {
+  "itemKey": "cataclysm:ignitium_helmet",
+  "mustBeEmpty": false
+},
+"chest": {
+  "itemKey": "cataclysm:ignitium_elytra_chestplate",
+  "mixAndMatch": [
+    "cataclysm:ignitium_chestplate"
+  ],
+  "mustBeEmpty": false
+},
+"legs": {
+  "itemKey": "cataclysm:ignitium_leggings",
+  "mustBeEmpty": false
+},
+"boots": {
+  "itemKey": "cataclysm:ignitium_boots",
+  "mustBeEmpty": false
+},
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "lodestone:magic_proficiency",
+      "value": 0.5,
+      "attributeOperation": 2,
+      "modifierUUID": "dbb1a39f-e14b-453f-8e66-4f13bdce8c94",
+      "description": "ignitium_magic_proficiency"    
+    },
+    {
+      "type": "effect",
+      "name": "alexsmobs:soulsteal",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 80,
+      "hideBonusDescription": false,
+      "description": "alexsmobs:soulsteal" ,
+      "onlyImmuneToNewEffects": false
+    }
+
+  ],
+  "hideGeneratedTooltip": false
+}

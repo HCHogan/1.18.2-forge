@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "H",
+    "V",
+    "S"
+  ],
+  "key": {
+    "S": {
+      "item": "blue_skies:lunar_log"
+    },
+    "V": {
+      "item": "bosses_of_mass_destruction:blazing_eye"
+    },
+    "H": {
+      "item": "cataclysm:witherite_ingot"
+    }
+  },
+  "result": {
+    "item": "bosses_of_mass_destruction:earthdive_spear"
+  }
+}

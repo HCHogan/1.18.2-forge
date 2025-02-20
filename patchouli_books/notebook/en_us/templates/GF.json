@@ -1,0 +1,140 @@
+{
+	"components": [
+                    {
+		"type": "patchouli:header",
+                                "text":"#head",
+                                "y":-1,"x":-1
+	
+	  },
+		{
+			"type": "patchouli:item",
+			"x": 4,
+			"y": 61,
+			"item": "#item1",
+			"framed": true
+		},
+		{
+				"type": "patchouli:item",
+				"x": 4,
+				"y": 38,
+				"item": "#item2",
+				"framed": true
+		},
+	
+	 
+	  {
+		"type": "patchouli:item",
+		"x": 4,
+		"y": 15,
+		"item": "#item3",
+		"framed": true
+	    },
+{
+		"type": "patchouli:item",
+		"x": 27,
+		"y": 15,
+		"item": "#item4",
+		"framed": true
+	    },
+        {
+		"type": "patchouli:item",
+		"x": 50,
+		"y": 15,
+		"item": "#item5",
+		"framed": true
+	  },
+
+        {
+		"type": "patchouli:item",
+		"x": 73,
+		"y": 15,
+		"item": "#item6",
+		"framed": true
+	  },
+                  {
+		"type": "patchouli:item",
+		"x": 96,
+		"y": 15,
+		"item": "#item7",
+		"framed": true
+	  },
+	  {
+		"type": "patchouli:item",
+		"x": 96,
+		"y": 38,
+		"item": "#item8",
+		"framed": true
+	  },
+	  {
+		"type": "patchouli:item",
+		"x": 96,
+		"y": 61,
+		"item": "#item9",
+		"framed": true
+	  },
+	  {
+		"type": "patchouli:item",
+		"x": 50,
+		"y": 49,
+		"item": "#item10",
+		"framed": true
+	  },
+	  {
+		"type": "patchouli:item",
+		"x": 64,
+		"y": 70,
+		"item": "miningmaster:gem_forge",
+		"framed": false
+	  },
+	  {
+		"type": "patchouli:item",
+		"x": 50,
+		"y": 90,
+		"item": "#item",
+		"framed": true
+	  },
+
+                  {
+		"type": "patchouli:image",
+		"image": "patchouli:textures/gui/crafting.png",
+		"x": 30,
+		"y": 50,
+		"width": 11,
+		"height": 11,
+        "u":17,
+        "v":36,
+		"texture_width": "128",
+		"texture_height": "256"
+	
+	  },
+
+                  {
+		"type": "patchouli:image",
+		"image": "patchouli:textures/gui/crafting.png",
+		"x": 75,
+		"y": 50,
+		"width": 11,
+		"height": 11,
+        "u":17,
+        "v":36,
+		"texture_width": "128",
+		"texture_height": "256"
+	
+	  },
+	  {
+		"type": "patchouli:image",
+		"image": "stellarisdlc:textures/png/crafting.png",
+		"x": 51,
+		"y": 70,
+		"width": 16,
+		"height": 16,
+         "u":0,
+         "v":0,
+		"texture_width": "16",
+		"texture_height": "16"
+	  },
+{"type":"patchouli:text","text":"#text","x":2,"y":112
+}
+                 
+	]
+  }

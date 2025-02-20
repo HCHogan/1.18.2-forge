@@ -1,0 +1,7 @@
+{
+    "name": "魔法生物",
+    "description": "魔法在人类历史前便已经存在，这些生物便是诞生于魔法，是外泄的魔力凝聚而成的生命体，因此这些生物都不是原生物种。",
+    "icon": "cnb:lizard_item_mushroom",
+    "parent":"patchouli:beast"
+   
+}

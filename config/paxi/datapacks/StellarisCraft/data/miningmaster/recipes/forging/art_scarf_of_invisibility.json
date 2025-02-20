@@ -1,0 +1,11 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[{"item":"mca:needle_and_thread"},
+{"item":"miningmaster:air_malachite"},
+{"item":"blue_skies:dusk_arc"},
+{"item":"miningmaster:air_malachite"},
+{"item":"mca:needle_and_thread"}],
+"catalyst":{"item":"stellarisdlc:exchangestonecore"},
+"result":{"item":"artifacts:scarf_of_invisibility"},
+"enchantments":[]
+}

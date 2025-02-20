@@ -1,0 +1,49 @@
+{
+  "replace": true,
+  "trades": [
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:potion",
+        "count": 1,
+        "nbt": "{Potion:\"goblintraders:powerful_strength\"}"
+      },
+      "payment_item": {
+        "item": "minecraft:potion",
+        "count": 2,
+        "nbt": "{Potion:\"minecraft:strong_strength\"}"
+      },
+      "secondary_payment_item": {
+        "item": "dotcoinmod:gold_coin",
+        "count": 1
+      },
+      "max_trades": 8,
+      "experience": 400
+    },
+
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:diamond_sword",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:diamond_sword",
+        "count": 1
+      },
+      "secondary_payment_item": {
+        "item": "ba_bt:guardian_eye_end",
+        "count": 1
+      },
+      "max_trades": 1,
+      "experience": 2000,
+      "enchantments": [
+        {
+          "id": "minecraft:sharpness",
+          "level": 10
+        }
+      ]
+    }
+
+ ]
+}

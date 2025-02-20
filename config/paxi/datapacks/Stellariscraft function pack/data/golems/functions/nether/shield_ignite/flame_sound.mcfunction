@@ -1,0 +1,2 @@
+execute as @e[type=ba_bt:core_golem,sort=nearest] at @s run particle minecraft:flame ~ ~1 ~ 0 0.5 0 0.1 50 force
+execute as @e[type=ba_bt:core_golem,sort=nearest] at @s run playsound cataclysm:flame_burst block @p[distance=..16] ~ ~ ~ 2

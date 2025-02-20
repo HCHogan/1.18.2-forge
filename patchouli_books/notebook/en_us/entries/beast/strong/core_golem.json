@@ -1,0 +1,30 @@
+{
+    "name": "炉心傀儡",
+    "icon": "ba_bt:bt_core_resonance_stone",
+    "category": "patchouli:beast_strong",
+    "sortnum":2,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"炉心傀儡/core tower",
+            "text": "寄宿于结界脆弱处的原始傀儡之一，镇守于$(#ff0000)炉心高塔$()之下。据说在帝国鼎盛时期，君主曾有不通过地狱门直接凿通下界与主世界的计划——炉心计划。然而，当在凿开了理论上的屏障之时，最下层的结构旁随着内部的所有员工一起消失了。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/core_golem.png",
+            "text1":"炉心傀儡",
+            "text2":""
+        },
+        {"type": "spotlight",
+        "title":"召唤方法",
+        "item": "ba_bt:monolith_key_core,ba_bt:monolith_core",
+        "text": "在高塔内会找到两把炉心石碑之键，进入炉心高塔的最底层会看到炉心石碑，插入两把炉心石碑之键后，即可召唤炉心的守护者......"
+         },
+        {"type": "spotlight",
+        "title":"掉落物",
+        "item": "ba_bt:guardian_eye_core,miningmaster:fire_ruby,stellariscraft:exchangestone,bhc:green_heart",
+        "text": "击杀后掉落$(br)炉心守护者之眼1个$(br)火焰红宝石2~3个$(br)淡粉晶簇、绿心1~2个。$(br2)可以通过配置$(t:等级越高提高量越多,书中为无抢夺掉落量)$(5)抢夺$()附魔提高掉落量。"
+         }
+        
+    ]
+}

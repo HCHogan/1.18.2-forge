@@ -1,0 +1,49 @@
+{
+  "id": "stellariscraft:shadow",
+  "weight": 1,
+  "reforge_experience_cost": 4,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:dagger"}
+  ],
+  "style": {
+    "color": "#1a40bd"
+  },
+  "attributes": [
+    {
+      "type": "toybox:crit_chance",
+      "modifier": {
+        "name": "stellariscraft:shadow",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.45
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "toybox:burden",
+      "modifier": {
+        "name": "stellariscraft:shadow",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 1.5
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "generic.movement_speed",
+      "modifier": {
+        "name": "stellariscraft:shadow",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.15
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+
+  ]
+}

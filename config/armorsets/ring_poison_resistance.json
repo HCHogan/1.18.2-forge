@@ -1,0 +1,15 @@
+{
+  "armorSetName": "ring_poison_resistance",
+  "performanceMode": false,
+  "offHand": {
+    "itemKey": "ringsofascension:ring_poison_resistance"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:poison",
+      "interactionType": "immunity"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

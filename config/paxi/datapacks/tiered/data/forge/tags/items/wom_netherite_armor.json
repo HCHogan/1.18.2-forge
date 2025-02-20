@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    "wom:netherite_mask",
+    "wom:netherite_manicle",
+    "wom:netherite_belt",
+    "wom:netherite_chains"
+  ]
+}

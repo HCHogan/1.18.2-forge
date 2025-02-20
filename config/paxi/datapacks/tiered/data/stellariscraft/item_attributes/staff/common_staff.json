@@ -1,0 +1,61 @@
+{
+  "id": "stellariscraft:common_staff",
+  "weight": 6.5,
+  "reforge_experience_cost": 1,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:forgedspar",
+  "verifiers": [
+    {"tag": "forge:staff"}
+  ],
+  "style": {
+    "color": "grey"
+  },
+  "attributes": [
+    {
+      "type": "toybox:crit_chance",
+      "modifier": {
+        "name": "stellariscraft:common_staff",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": -0.5
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "minecraft:generic.attack_damage",
+      "modifier": {
+        "name": "stellariscraft:common_staff",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.05
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+{
+      "type": "epicfight:stun_armor",
+      "modifier": {
+        "name": "stellariscraft:common_staff",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.05
+      },
+      "optional_equipment_slots": [
+      "MAINHAND"
+      ]
+    },
+   
+    {
+      "type": "epicfight:weight",
+      "modifier": {
+        "name": "stellariscraft:common_greatsword",
+        "operation": "ADDITION",
+        "amount": 3
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+
+  ]
+}

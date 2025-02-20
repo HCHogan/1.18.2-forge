@@ -1,0 +1,48 @@
+{
+    "name": "流光",
+    "icon": "stellarisdlc:mononchasm",
+    "category": "patchouli:boss_place_2",
+    "sortnum":9,
+    "pages": [
+        {
+           "type": "T1",
+            "title":"凝视深渊的不屈命运之英魂",
+            "text": "早在探索团创立前便进入深渊致力于封印这扭曲疯狂的怪诞力量的传奇，是深渊的扭曲，还是其已成为深渊，我们不得而知，但仅凭如此简陋的材料竟然真的能召唤出这位传奇的幻影，这幻影居然也有着他爱刀的核心———$(#ff0000)流光之核$()"
+        },
+        {"type": "png_teach",
+            "image":"stellarisdlc:textures/png/gazeabysser.png",
+            "text1":"流光",
+            "text2":""
+        },
+        {"type": "spotlight",
+        "title":"召唤材料",
+        "item": "minecraft:dirt",
+        "text": "泥土x1$(br)最后加入$(1)$(l:boss_place/boss_summon/imessence)往生精华$()$()"
+         },
+         {"type": "spotlight",
+        "title":"特殊掉落物：流光之核",
+        "item": "stellariscraft:lightfulcore",
+        "text": "强大的刀剑核心，以流光命名因此核心能制作这位传奇的爱刀———阎魔刀$(br2)流光掉落1个"
+         },
+         {"type": "spotlight",
+         "title":"其他掉落物",
+         "item": "cnb:yeti_hide,stellariscraft:the_hornof_frost",
+"text":"击杀掉落$(br)雪人皮1个$(br)霜冻之角1个$(br2)可以通过配置$(t:等级越高提高量越多,书中为无抢夺掉落量)$(5)抢夺$()附魔提高掉落量。"      
+        },
+        {
+        "type": "text",
+        "title":"凝渊英魂",
+        "text": "用复杂材料尝试复刻其力量的召唤仪式都以失败告终，偶然间的错误配方召唤出了更强大的幻影，和其交手过的人都知道哪怕如此也并非其的全部$(br2)流光的$(#ff0000)困难挑战(非必须)$()"
+        },
+        {"type": "spotlight",
+        "title":"召唤材料",
+        "item": "minecraft:grass_block",
+        "text": "草方块x1$(br)最后加入$(1)$(l:boss_place/boss_summon/imessence)往生精华$()$()"
+         },
+         {"type": "spotlight",
+         "title":"掉落物",
+         "item": "stellariscraft:lightfulcore",
+         "text": "与普通流光相比不变但是数量增加"
+        }
+    ]
+}

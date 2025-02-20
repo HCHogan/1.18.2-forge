@@ -1,0 +1,1016 @@
+{
+	id: "400FD1D97704A941"
+	group: "48B78DC948D03E7E"
+	order_index: 3
+	filename: "400FD1D97704A941"
+	title: "强身健体"
+	icon: {
+		id: "minecraft:enchanted_book"
+		Count: 1b
+		tag: {
+			StoredEnchantments: [{
+				lvl: 1s
+				id: "minecraft:vanishing_curse"
+			}]
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:vanishing_curse"
+					}]
+				}
+			}
+			x: -2.5d
+			y: 0.0d
+			subtitle: "&d标题为红色是必带技能书，橙色为推荐带"
+			description: [
+				"如你所见，新版史诗战斗将技能书分为了若干类别，这里一并介绍全，并指明各自的获取来源"
+				""
+				"且：任务右侧的技能书并非你点了就能学，要自己获取技能书，右侧只做引导"
+			]
+			dependencies: ["786B2E5F1B962DC8"]
+			hide: true
+			id: "5EFDFEF722E0E839"
+			tasks: [{
+				id: "5E95C04C7FA8802F"
+				type: "checkmark"
+				title: "关于技能书的介绍"
+			}]
+			rewards: [{
+				id: "4475BEE8D5F77AF5"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+				count: 3
+			}]
+		}
+		{
+			title: "&b被动技能"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:swordmaster"
+				}
+			}
+			x: 0.5d
+			y: 0.0d
+			subtitle: "&e9本技能书，最多同时使用3种"
+			description: [
+				"分别是：剑圣、狂战士、技巧大师；禁忌之力、超强活力、死亡收割；紧急逃生、耐力掠夺者、耐力。"
+				""
+				"后面支线从左到右排序无关重要性，只起罗列的作用。"
+			]
+			dependencies: ["5EFDFEF722E0E839"]
+			id: "4A97F22DEE0D574C"
+			tasks: [{
+				id: "4CDDE2BC13171D2E"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4BC57B8458424434"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "&6&l剑圣"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:swordmaster"
+				}
+			}
+			x: 6.5d
+			y: -2.0d
+			subtitle: "&a长剑、太刀、单双持剑、打刀"
+			description: [
+				"功能：常驻，增加8%攻速"
+				""
+				"&l&n&a获取方式：武器匠"
+			]
+			dependencies: ["53A27CF9F5515AFE"]
+			id: "0D69E083D9BFA212"
+			tasks: [{
+				id: "2B0CDAED9F1FBE30"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "5163B02514FE9FBE"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "&b禁忌之力"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:swordmaster"
+				}
+			}
+			x: 4.0d
+			y: 0.0d
+			subtitle: "&a不限武器种类"
+			description: [
+				"空耐力时，消耗耐力将变成消耗自身血量。"
+				"&6整合包魔改：&r每触发一次禁忌之力，扣除自身30血量，血量不足时无法使用。"
+				""
+				"&l&n&a获取方式：灵魂之星合成"
+				""
+				"详细合成配方在jei中搜索“技能书”"
+			]
+			dependencies: ["4A97F22DEE0D574C"]
+			id: "30F3AF3357E4A9EC"
+			tasks: [{
+				id: "739435907C3593B3"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0547CC9939FFB098"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "&6&l紧急逃生"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:swordmaster"
+				}
+			}
+			x: 3.0d
+			y: 2.0d
+			subtitle: "&a分两种情况"
+			description: [
+				"&6不限武器种类&r：耐力耗尽也可以免费闪避一次，CD为7~10秒；"
+				"&6仅限匕首、打刀、单双剑：&r无论处于何种攻击状态，皆可被闪避强制打断。"
+				""
+				"&l&n&a获取方式：盔甲匠"
+			]
+			dependencies: ["4A97F22DEE0D574C"]
+			id: "07574CB394F47F88"
+			tasks: [{
+				id: "3775EF3C05377C01"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "75466207781C14AF"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "&6&l狂战士"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:swordmaster"
+				}
+			}
+			x: 10.5d
+			y: -2.0d
+			subtitle: "&a不限武器种类"
+			description: [
+				"功能：每损失 1% 生命值，获得 0.1% 额外攻击力"
+				""
+				"即：在玩家损失99%血量情况下，攻击力提升9.9%"
+				""
+				"&l&n&a获取方式：屠夫"
+			]
+			dependencies: ["53A27CF9F5515AFE"]
+			id: "4FC13C17ED64C52C"
+			tasks: [{
+				id: "7F428463B428AA51"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "628F4B3142E80BEC"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "&b超强活力"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:swordmaster"
+				}
+			}
+			x: 9.0d
+			y: 0.0d
+			subtitle: "&a不限武器种类"
+			description: [
+				"武器充能未满时，消耗耐力可免费释放一次技能"
+				"冷却：60秒（因为bug，仅在重进世界时有60秒冷却，常态7秒冷却）"
+				""
+				"&l&n&a获取方式：农民"
+				""
+				"&6注：超强活力由于bug无法配置冷却导致过于超模，&d若使用将使游戏难度变得极低。"
+			]
+			dependencies: ["4A97F22DEE0D574C"]
+			id: "3EA10378A6C12FEC"
+			tasks: [{
+				id: "6C2504BE5A8A89F5"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "5397CA234F493E23"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "&b耐力掠夺者"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:swordmaster"
+				}
+			}
+			x: 6.5d
+			y: 2.0d
+			subtitle: "&a不限武器种类"
+			description: [
+				"击杀生物获取自身40%最大耐力值"
+				""
+				"&l&n&a获取方式：渔夫"
+			]
+			dependencies: ["07574CB394F47F88"]
+			id: "17138B84C5B31BCE"
+			tasks: [{
+				id: "0E04A1CFBBFB388F"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "44A6B0213D211D0F"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "&6&l耐力"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:swordmaster"
+				}
+			}
+			x: 10.5d
+			y: 2.0d
+			subtitle: "&a不限武器种类"
+			description: [
+				"当你在攻击前摇阶段受到硬直(被打断)，触发功能："
+				"获得等同于自身最大耐力值的硬直护盾；护盾存在期间免疫普通硬直(技能类招式属于强制硬直无法免疫)，且根据受到的冲击扣除护盾。CD：15秒"
+				""
+				"&l&n&a获取方式：制箭师"
+			]
+			dependencies: ["07574CB394F47F88"]
+			id: "5C519E558624F5A7"
+			tasks: [{
+				id: "70FAAA6E7F1C2E16"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "38F3783EBC7717DC"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "&b死亡收割"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:swordmaster"
+				}
+			}
+			x: 11.5d
+			y: 0.0d
+			subtitle: "&a不限武器种类"
+			description: [
+				"用武器技能杀死敌人时，武器会再次获得充能。 充能数值取决于武器伤害和杀死的敌人数量。"
+				""
+				"&l&n&a获取方式：任务第四章——击杀凋零"
+			]
+			dependencies: ["4A97F22DEE0D574C"]
+			id: "0EDBC71EEE3546CC"
+			tasks: [{
+				id: "4AE630B06960DAFA"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "694026823F2ACDD7"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "&c&l技巧大师"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:swordmaster"
+				}
+			}
+			x: 3.0d
+			y: -2.0d
+			subtitle: "&a不限武器种类"
+			description: [
+				"当你在敌人攻击前一瞬间，闪避/翻滚躲过敌人的攻击，将不产生体力消耗，与灵活格挡相对应，俗称娴熟闪避。"
+				"&6整合包魔改：&r触发技巧大师时，额外恢复所消耗体力的10%。"
+				""
+				"&l&n&a获取方式：皮匠"
+			]
+			dependencies: ["4A97F22DEE0D574C"]
+			id: "53A27CF9F5515AFE"
+			tasks: [{
+				id: "56CCCAD55AAE2674"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "7E3880BFC6211530"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "&b闪避技能"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:step"
+				}
+			}
+			x: 1.0d
+			y: -6.0d
+			subtitle: "&e3本技能书，最多同时使用1种"
+			description: [
+				"分别是：跨步、翻滚、瞬闪(旧版阎魔刀移植动作)"
+				""
+				"&6注：关于负重惩罚机制"
+				"盔甲含有重量属性，重量越高，闪避所消耗体力越大，且攻速越高、重量越高，降低的攻速越多(0.8攻速以下武器不受影响)"
+			]
+			dependencies: ["5EFDFEF722E0E839"]
+			id: "1C0B69693B37CA2D"
+			tasks: [{
+				id: "75D9CA3B5DEF4C1C"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "6409184DF67BBC2B"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "&c&l跨步"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:step"
+				}
+			}
+			x: 3.5d
+			y: -6.0d
+			subtitle: "&a不限武器种类"
+			description: [
+				"位移一小段距离，动作持续0.5秒，期间免疫所有攻击，消耗3耐力"
+				""
+				"&l&n&a获取方式：主线热身——任务送"
+			]
+			dependencies: ["1C0B69693B37CA2D"]
+			id: "72D813449A064123"
+			tasks: [{
+				id: "4C0D38B66FD18304"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "48FB183DFB444C91"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "&b翻滚"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:step"
+				}
+			}
+			x: 6.0d
+			y: -6.0d
+			subtitle: "&a不限武器种类"
+			description: [
+				"位移一长段距离，期间免疫所有攻击，无敌帧更长，消耗4耐力"
+				""
+				"&l&n&a获取方式：图书管理员"
+			]
+			dependencies: ["1C0B69693B37CA2D"]
+			id: "3E5C44798819BA95"
+			tasks: [{
+				id: "68FAEDF2DB25256A"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "41EE6D9D4545BD59"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "&b瞬步闪避"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:step"
+				}
+			}
+			x: 8.5d
+			y: -6.0d
+			subtitle: "&a不限武器种类"
+			description: [
+				"类似翻滚，但更帅，消耗7耐力"
+				""
+				"&l&n&a获取方式：制图师"
+			]
+			dependencies: ["1C0B69693B37CA2D"]
+			id: "362B8F852F2DBCEC"
+			tasks: [{
+				id: "5BDFC82784F20BC4"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2A359B46E630C601"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "&b防御技能"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:guard"
+				}
+			}
+			x: 2.0d
+			y: -4.0d
+			subtitle: "&e3本技能书，最多同时使用1种"
+			description: [
+				"右键防御正面攻击；持续的格挡会消耗更多的耐力，攻击对敌人造成伤害将重置该惩罚。"
+				""
+				"空耐力时，防守或冲击防御格挡住伤害，将致使自己破防，期间无法操作。"
+			]
+			dependencies: ["5EFDFEF722E0E839"]
+			id: "2D7830AE006E28D0"
+			tasks: [{
+				id: "15D966FEA7E15B92"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "31DB6ED7EFC5C22E"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "&b防守"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:guard"
+				}
+			}
+			x: 4.5d
+			y: -4.0d
+			subtitle: "&a单双持匕首、三叉戟、拳套，不可用"
+			description: [
+				"进一步减少防守所消耗耐力的50%，但目前疑似有bug，有时无法格挡，暂时不要使用"
+				""
+				"&l&n&a获取方式：主线热身——任务送"
+			]
+			dependencies: ["2D7830AE006E28D0"]
+			id: "2CBAB8FA46A41B88"
+			tasks: [{
+				id: "0F9ECBF85251D53C"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "72346EEA3631731C"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "&b冲击防御(老版本翻译为强力防守)"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:guard"
+				}
+			}
+			x: 6.0d
+			y: -4.0d
+			subtitle: "&a单双持匕首、三叉戟、拳套，不可用"
+			description: [
+				"字面意思，按右键防守(格挡)"
+				""
+				"&l&n&a获取方式：主线热身——剑与盾之歌—任务选；工具匠"
+				""
+				"&d&l前置：防守"
+			]
+			dependencies: ["2D7830AE006E28D0"]
+			id: "08322120579D6FB4"
+			tasks: [{
+				id: "7B2F770410A07B26"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "528886123685AD91"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "&c&l招架(老版本翻译为灵活防守)"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:guard"
+				}
+			}
+			x: 9.5d
+			y: -4.0d
+			subtitle: "&a单双持匕首、三叉戟、拳套，不可用"
+			description: [
+				"按下右键后0.45秒内格挡住伤害，将这次格挡判定为招架；招架可取消格挡后摇，可将格挡耐力减少至10%，且空耐力招架也不会破防。"
+				""
+				"&6整合包魔改：&r为更多武器类型适配了可招架，如斧头、长枪。"
+				""
+				"&l&n&a获取方式：序章—剑与盾之歌—任务选；石匠交易"
+				""
+				"&d&l前置：防守"
+			]
+			dependencies: ["2D7830AE006E28D0"]
+			id: "693BE6714926D349"
+			tasks: [{
+				id: "36BA2E87C741E579"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2B11A8179BA3D81E"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "&b行动技能"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:demolition_leap"
+				}
+			}
+			x: 2.0d
+			y: 4.0d
+			subtitle: "&e3本技能书，最多同时使用1种"
+			description: ["字面意思，增加玩家的机动性"]
+			dependencies: ["5EFDFEF722E0E839"]
+			id: "62703F226447E9A6"
+			tasks: [{
+				id: "64A0795290D6D22B"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3AAC04CE848B14DF"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "&b毁坏跳跃"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:demolition_leap"
+				}
+			}
+			x: 4.5d
+			y: 4.0d
+			subtitle: "&a不限武器种类"
+			description: [
+				"长按空格键，每秒消耗固定耐力蓄力，松开空格实现超级起跳。"
+				""
+				"&l&n&a获取方式：主世界哥布林商人，概率出交易"
+			]
+			dependencies: ["62703F226447E9A6"]
+			id: "15023B1E3B75091F"
+			tasks: [{
+				id: "5202B5A9AAE40610"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "160FB1051CAA04D5"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "&b幻翼腾飞"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:demolition_leap"
+				}
+			}
+			x: 7.0d
+			y: 4.0d
+			subtitle: "&a不限武器种类"
+			description: [
+				"字面意思，可二段跳"
+				""
+				"&l&n&a获取方式：云朵瓶+瓶中云在工作台合成"
+				""
+				"详细合成配方在jei中搜索“技能书”"
+			]
+			dependencies: ["62703F226447E9A6"]
+			id: "0F120A37CDC629ED"
+			tasks: [{
+				id: "12B4D75C52002DF2"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "526B7304E9F5E14D"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "&c&l二段跳——踩踏"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:demolition_leap"
+				}
+			}
+			x: 9.5d
+			y: 4.0d
+			subtitle: "&a不限武器种类"
+			description: [
+				"&c&l&n此为整合包自制技能书，原版史诗战斗不存在。"
+				"使二段跳对范围内怪物造成0.1伤害；若敌人有&6失稳debuff&r，则扣除其5+5%最大耐力并造成大硬直。"
+				"&c（需要踩中目标）"
+				""
+				"&l&n&a获取方式：合金碎片+云朵瓶+瓶中云在工作台合成"
+				""
+				"详细合成配方在jei中搜索“技能书”"
+			]
+			dependencies: ["62703F226447E9A6"]
+			id: "3C26283E43504DFC"
+			tasks: [{
+				id: "12D83C1B02D92E69"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "7B51885F17F74BE3"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "&b属性技能"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:meteor_slam"
+				}
+			}
+			x: 1.0d
+			y: 6.0d
+			subtitle: "&e3本技能书，最多同时使用1种"
+			description: ["一些比较特殊的技能书。"]
+			dependencies: ["5EFDFEF722E0E839"]
+			id: "5BE3ED5C79E66EF9"
+			tasks: [{
+				id: "2EE99ACD8D90FE57"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "23A9880B157FF213"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "&b流星猛击"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:meteor_slam"
+				}
+			}
+			x: 3.5d
+			y: 6.0d
+			subtitle: "&a长枪、盾枪、长剑、带盾长剑、太刀、大剑"
+			description: [
+				"位于高处时，跳起，普攻将飞速下坠并对敌人造成大量伤害与倒地硬直；伤害与武器面板、所处高度正相关。"
+				""
+				"&l&n&a获取方式：下界哥布林商人，概率出交易"
+			]
+			dependencies: ["5BE3ED5C79E66EF9"]
+			id: "05CB77DF2628D458"
+			tasks: [{
+				id: "2EC85FACFF2A7913"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2D294AEB385F4EA2"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "&b天启"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:meteor_slam"
+				}
+			}
+			x: 6.0d
+			y: 6.0d
+			subtitle: "&a不限武器种类"
+			description: [
+				"每个怪物都有其独特的天启点数，玩家招架/娴熟闪避怪物的攻击，将扣除点数；扣至0且玩家锁定敌人时，后续2秒内按技能键可发动强力体术(强制硬直)，击中敌人将造成长时间控制效果。"
+				""
+				"&c因其触发因素不稳定和强制锁敌前提的特性，暂时禁用"
+			]
+			dependencies: ["5BE3ED5C79E66EF9"]
+			id: "6A9C0917EADFD1A2"
+			tasks: [{
+				id: "1CF1AE44C12CEC91"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "54C16E8AEFA972CA"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "&c&l识破"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:meteor_slam"
+				}
+			}
+			x: 8.5d
+			y: 6.0d
+			subtitle: "&a不限武器种类"
+			description: [
+				"&c&l&n此为整合包自制技能书，原版史诗战斗不存在。"
+				"当玩家&6招架橙危&r招式，强化技能将切换为太刀技能的强力斩击；若玩家&c娴熟闪避&6橙危、&c红危招式，&r强化技能替换为天启体术技能。"
+				"且，强化技能&a持续3秒&r，期间&a使用任何平a、技能&r都将打断；3秒内玩家&a受到硬直&r也会打断。"
+				""
+				"&l&n&a获取方式：由大地守卫之眼+4钻石+4书合成&r                                              详细合成配方在jei中搜索“技能书”"
+				""
+				"&b强化技能按键：&r控制-按键绑定，下滑，找到star开头，在&b识破反击右侧&r自定义按键。"
+				""
+				"&d前置：招架、技巧大师"
+			]
+			dependencies: ["5BE3ED5C79E66EF9"]
+			id: "5AAA9F8679C41EEC"
+			tasks: [{
+				id: "47D94F3188E24545"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "5A8AD62A9ACE08B7"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "&b看累了？休息一下眼睛吧"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "majruszsenchantments:enlightenment"
+					}]
+				}
+			}
+			x: 6.5d
+			y: 0.0d
+			subtitle: "&a多加练习"
+			description: ["讲解总是枯燥乏味的，其实技能书的功能不用死记硬背，结合实战多玩玩就记住了。"]
+			dependencies: ["4A97F22DEE0D574C"]
+			id: "5250FDC9655BEAE5"
+			tasks: [{
+				id: "71AB778D5E76A4D8"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "6D9A8436E06D0D57"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2688748745693820522L
+				}
+				{
+					id: "7804AB02A394A7FC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2944719802946291587L
+				}
+			]
+		}
+		{
+			title: "&b村民职业相关"
+			icon: "minecraft:diamond"
+			x: -5.0d
+			y: 0.0d
+			subtitle: "&a任务——众生倾倒——奇珍异兽，左侧"
+			description: ["其前置任务是：支线引导——情报搜集"]
+			dependencies: ["5EFDFEF722E0E839"]
+			id: "40EA93EF4A771755"
+			tasks: [{
+				id: "2192B089B1950FA1"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "271C3EDCCE6FF876"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "&6关于处决"
+			icon: {
+				id: "minecraft:diamond_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -7.5d
+			y: 0.0d
+			subtitle: "&c处决前一定要按锁定，不然很容易歪"
+			description: [
+				"如图所示：怪物耐力条快见底的时候，攻击怪物将使其破防，并给予其4级碎甲、脆弱(每级受伤+3)等诸多debuff，以及发光作为破防阶段提示。"
+				"{image:sc:textures/execution1.png width:160 height:90 align:1}"
+				"怪物破防(发光期间)时，对准怪物(鼠标十字上方出现横剑的符号)，右键进入处决，期间玩家处于无敌状态。"
+				"{image:sc:textures/execution2.png width:160 height:90 align:1}"
+			]
+			dependencies: ["5EFDFEF722E0E839"]
+			id: "53ADE1BE7E1D21C6"
+			tasks: [{
+				id: "2D3B1C816ED76342"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "5A59B5F3612670A5"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "&b无畏防御"
+			icon: {
+				id: "epicfight:skillbook"
+				Count: 1b
+				tag: {
+					skill: "epicfight:guard"
+				}
+			}
+			x: 8.0d
+			y: -4.0d
+			subtitle: "&a大剑专属"
+			description: [
+				"格挡时释放技能或者攻击后摇时使用格挡释放，消耗耐力向前对敌人发动撞击，如果是正确时机则恢复大量耐力同时识破敌人攻击（免疫该次伤害并对敌人耐力造成削减）"
+				""
+				"&l&n&a获取方式：主手持有任意大剑武器，击杀&6大地傀儡&a掉落"
+				""
+				"&d&l前置：防守"
+				""
+				"&c注：大剑学习无畏防御后，需在放技能期间右键才能处决敌人，否则会被无畏防御动作顶掉"
+			]
+			dependencies: ["2D7830AE006E28D0"]
+			id: "6A000BE22E2B20C6"
+			tasks: [{
+				id: "761D4BEA70C3EAA3"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "5345EE14C9DAAEB2"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "&6Buff  普通硬直免疫"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "epicfight:textures/mob_effect/stun_immunity.png"
+				}
+			}
+			x: -5.0d
+			y: -2.5d
+			subtitle: "&a可免疫平a类小、大硬直"
+			description: [
+				"敌我双方均适用规则：硬直类型可分为小、大、强制、倒地、匕首处决、破防硬直，其中小、大硬直可与强制硬直叠加；"
+				""
+				"玩家出招，平a属于小硬直，技能属于强硬直(单手剑技能有bug不属于；大剑不属于)；"
+				""
+				"该buff来源常见与怪物招架玩家攻击后(获得1.5秒)，也可以酿造&c赤目药水&r获得(1级药水附带脆弱2debuff，2级附带脆弱1)"
+				""
+				"如下图，大地傀儡招架玩家后右上角显示免疫buff。"
+				"{image:sc:textures/ef_stun_immune.png width:200 height:80 align:1}"
+				"此外，该buff免疫所有奇迹武器招式的硬直。（是模组作者的设定，也是奇迹武器应得的）"
+			]
+			dependencies: ["5EFDFEF722E0E839"]
+			id: "551A0956AE492B02"
+			tasks: [{
+				id: "233E8BF880A153E7"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0FA77CC4708DD85A"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+		{
+			title: "&dBuff  强制硬直免疫"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "star:textures/mob_effect/really_stun_immunity_1.png"
+				}
+			}
+			x: -5.0d
+			y: 2.5d
+			subtitle: "&a可免疫强制硬直"
+			description: [
+				"buff常见于boss长连招、危招前摇处，玩家无法获取；强制硬直无视玩家的击晕抗性、重量等属性，仅与出招生物(包括玩家)自身冲击属性有关。"
+				""
+				"&c普通硬直免疫+强制硬直免疫＝免疫除破防外的所有硬直。"
+				"{image:sc:textures/star_stun_immune.png width:200 height:100 align:1}"
+			]
+			dependencies: ["5EFDFEF722E0E839"]
+			id: "40B827D06CB5E0AF"
+			tasks: [{
+				id: "462553DB3B1BB950"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1FAB79928FF5BB7F"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

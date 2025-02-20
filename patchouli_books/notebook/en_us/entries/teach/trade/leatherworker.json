@@ -1,0 +1,54 @@
+{
+    "name": "皮革匠(炼药锅)",
+    "icon": "minecraft:cauldron",
+    "category": "patchouli:trade",
+    "sortnum":0,
+    "pages": [
+{"type":"trade1",
+ "head":"村民等级:新手",
+ "item1":"dotcoinmod:copper_coin#3",
+ "item2":"minecraft:air",
+ "item3":"minecraft:leather#2",
+ "text1":"10次"
+ 
+},
+{"type":"trade2",
+ "head":"村民等级:学徒",
+ "item1":"dotcoinmod:copper_coin#2",
+ "item2":"minecraft:air",
+ "item3":"minecraft:slime_ball",
+ "text1":"100次",
+"item4":"alexsmobs:kangaroo_hide#6",
+ "item5":"minecraft:air",
+ "item6":"dotcoinmod:iron_coin",
+ "text2":"10次"
+},
+{"type":"trade1",
+ "head":"村民等级:老手",
+ "item1":"alexsmobs:bison_fur",
+ "item2":"minecraft:air",
+ "item3":"dotcoinmod:iron_coin",
+ "text1":"30次"
+},
+{"type":"trade1",
+ "head":"村民等级:专家",
+ "item1":"dotcoinmod:iron_coin#5",
+ "item2":"minecraft:air",
+ "item3":"epicfight:skillbook{skill:\"epicfight:technician\"}",
+ "text1":"1次"
+ 
+},
+{"type":"trade2",
+ "head":"村民等级:大师",
+ "item1":"alexsmobs:moose_antler#2",
+ "item2":"minecraft:air",
+ "item3":"dotcoinmod:iron_coin#3",
+ "text1":"10次",
+"item4":"dotcoinmod:iron_coin#4",
+ "item5":"miningmaster:ice_sapphire#4",
+ "item6":"cnb:yeti_hide#4",
+ "text2":"3次"
+}
+
+    ]
+}

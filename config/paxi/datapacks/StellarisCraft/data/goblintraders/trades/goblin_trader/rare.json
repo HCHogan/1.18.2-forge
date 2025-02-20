@@ -1,0 +1,133 @@
+{
+    "replace": true,
+    "trades": [
+        {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "minecraft:experience_bottle",
+              "count": 1
+            },
+            "payment_item": {
+              "item": "dotcoinmod:copper_coin",
+              "count": 6
+            },
+            "price_multiplier": 0.0,
+            "max_trades": 8,
+            "experience": 10
+          },
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "minecraft:name_tag",
+              "count": 1
+            },
+            "payment_item": {
+              "item": "dotcoinmod:copper_coin",
+              "count": 8
+            },
+            "secondary_payment_item": {
+              "item": "minecraft:paper",
+              "count": 6
+            },
+            "price_multiplier": 0.0,
+            "max_trades": 5,
+            "experience": 10
+          },
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "miningmaster:ice_sapphire",
+              "count": 1
+            },
+            "payment_item": {
+              "item": "minecraft:packed_ice",
+              "count": 16
+            },
+            "price_multiplier": 0.0,
+            "max_trades": 3,
+            "experience": 10
+          },
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "minecraft:fishing_rod",
+              "count": 1
+            },
+            "payment_item": {
+              "item": "minecraft:fishing_rod",
+              "count": 1
+            },
+            "secondary_payment_item": {
+              "item": "minecraft:enchanted_book",
+              "count": 1,
+              "nbt": "{StoredEnchantments:[{id:\"minecraft:luck_of_the_sea\",lvl:3s}]}"
+            },
+            "max_trades": 2,
+            "experience": 30,
+            "enchantments": [
+              {
+                "id": "minecraft:luck_of_the_sea",
+                "level": 5
+              }
+            ]
+          },
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "minecraft:fishing_rod",
+              "count": 1
+            },
+            "payment_item": {
+              "item": "minecraft:fishing_rod",
+              "count": 1
+            },
+            "secondary_payment_item": {
+              "item": "minecraft:enchanted_book",
+              "count": 1,
+              "nbt": "{StoredEnchantments:[{id:\"minecraft:lure\",lvl:3s}]}"
+            },
+            "max_trades": 2,
+            "experience": 30,
+            "enchantments": [
+              {
+                "id": "minecraft:lure",
+                "level": 5
+              }
+            ]
+          },
+
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "minecraft:blaze_powder",
+              "count": 1
+            },
+            "payment_item": {
+              "item": "dotcoinmod:copper_coin",
+              "count": 6
+            },
+            "price_multiplier": 0.0,
+            "max_trades": 10,
+            "experience": 5
+          },
+          {
+            "type": "goblintraders:basic",
+            "offer_item": {
+              "item": "minecraft:ender_pearl",
+              "count": 1
+            },
+            "payment_item": {
+              "item": "dotcoinmod:copper_coin",
+              "count": 4
+            },
+            "price_multiplier": 0.0,
+            "max_trades": 6,
+            "experience": 5
+          }
+
+          
+        ]
+      }
+
+
+

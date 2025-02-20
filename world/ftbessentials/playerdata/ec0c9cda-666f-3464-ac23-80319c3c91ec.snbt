@@ -1,0 +1,14 @@
+{
+	muted: false
+	fly: false
+	god: false
+	nick: ""
+	name: "SAOKE666"
+	last_seen: { dim: "minecraft:overworld", x: -79, y: 125, z: -37, time: 1739718613278L, xRot: 48.00011f, yRot: 139.65132f }
+	recording: 0
+	teleport_history: [
+		{ dim: "minecraft:overworld", x: 26, y: 123, z: -135, time: 1739718521127L, xRot: 15.900274f, yRot: 29.547852f }
+		{ dim: "minecraft:overworld", x: 28, y: 123, z: -126, time: 1739718585220L, xRot: 22.199549f, yRot: 13.644775f }
+	]
+	homes: { }
+}

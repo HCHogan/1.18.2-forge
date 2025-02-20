@@ -1,0 +1,3 @@
+schedule function gazeabysser:score_change/minus1score 1t append
+schedule function gazeabysser:check_score_phase_part/check_score_phase_part_1 2t append
+schedule function gazeabysser:check_score_phase_part/check_score_phase_part_2 3t append

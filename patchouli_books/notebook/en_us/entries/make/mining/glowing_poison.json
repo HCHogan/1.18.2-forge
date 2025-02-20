@@ -1,0 +1,21 @@
+{
+    "name": "发光的毒石",
+    "category": "patchouli:mining",
+    "icon": "blue_skies:glowing_poison_stone",
+"sortnum":2,
+    "pages": [
+      { "type": "spotlight",
+        "title":"发光的毒石",
+        "item": "blue_skies:glowing_poison_stone",
+        "text": "终日浸泡在猛毒地牢的毒素里，除了让自己受到盔甲毒素的侵染外，别无他用。",
+        "link_recipe":true
+      },
+      {
+         "type":"patchouli:smith",
+         "item1": "minecraft:diamond_helmet",
+        "item2": "blue_skies:glowing_poison_stone",
+        "item3": "minecraft:diamond_helmet{Enchantments:[{id:\"cursery:curse_poison\",lvl:3s}]}",
+        "text":"让自己中毒的盔甲...桀桀桀"
+      }
+    ]
+  }

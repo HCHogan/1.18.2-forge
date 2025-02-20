@@ -1,0 +1,23 @@
+{
+  "biomes": [
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "overworld"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "beach"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "terralith:gravel_beach"
+      }
+    ]
+  ]
+}

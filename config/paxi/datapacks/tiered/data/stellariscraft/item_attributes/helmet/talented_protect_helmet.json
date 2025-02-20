@@ -1,0 +1,27 @@
+{
+  "id": "stellariscraft:talented_protect_helmet",
+  "weight": 3,
+  "reforge_experience_cost": 2,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:helmets"}
+  ],
+  "style": {
+    "color": "green"
+  },
+  "attributes": [
+
+   {
+      "type": "epicfight:weight",
+      "modifier": {
+        "name": "stellariscraft:talented_protect_helmet",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.05
+      },
+      "optional_equipment_slots": [
+        "HEAD"
+      ]
+    }
+  ]
+}

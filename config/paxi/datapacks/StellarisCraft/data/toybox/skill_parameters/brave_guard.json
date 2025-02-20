@@ -1,0 +1,14 @@
+{
+	"xp_requirement": 8,
+	"penalizer": 0.6,
+	"superior_penalizer": 0.1,
+	"collision_damage_reducer": 0.05,
+	"brave_damage_reducer": 0.3,
+	"consumption": 2.0,
+	"recovery_multi": 1.5,
+	"collision_brave": 70,
+	"block_brave": 5,
+	"brave_cost_per_second": 1,
+	"brave_cost_per_hit": 10
+}
+

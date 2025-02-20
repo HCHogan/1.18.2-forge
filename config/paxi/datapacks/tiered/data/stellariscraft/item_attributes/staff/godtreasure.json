@@ -1,0 +1,48 @@
+{
+  "id": "stellariscraft:godtreasure",
+  "weight": 1.5,
+  "reforge_experience_cost": 4,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:staff"}
+  ],
+  "style": {
+    "color": "light_red"
+  },
+  "attributes": [
+    {
+      "type": "minecraft:generic.attack_damage",
+      "modifier": {
+        "name": "stellariscraft:godtreasure",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.25
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "epicfight:stun_armor",
+      "modifier": {
+        "name": "stellariscraft:godtreasure",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.16
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "epicfight:weight",
+      "modifier": {
+        "name": "stellariscraft:godtreasure",
+        "operation": "ADDITION",
+        "amount": 6
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

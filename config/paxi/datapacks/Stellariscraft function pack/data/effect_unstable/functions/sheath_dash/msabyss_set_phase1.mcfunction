@@ -1,0 +1,2 @@
+execute as @e[type=jobinsmobs:msabyss,tag=unstable_msabyss] at @s run indestructible @s set_phase 1
+execute as @e[type=jobinsmobs:msabyss,tag=unstable_msabyss,sort=nearest] at @s run tag @s remove unstable_msabyss

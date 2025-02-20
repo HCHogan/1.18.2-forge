@@ -1,0 +1,17 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[
+{"item":"cataclysm:ignitium_ingot"},
+{"item":"miningmaster:power_pyrite_block"},
+{"item":"artifacts:flame_pendant"},
+{"item":"quark:diamond_heart"},
+{"item":"cataclysm:witherite_ingot"},
+{"item":"quark:diamond_heart"},
+{"item":"artifacts:panic_necklace"},
+{"item":"miningmaster:kinetic_opal_block"},
+{"item":"cataclysm:ignitium_ingot"}
+],
+"catalyst":{"item":"stellarisdlc:exchangestonecore"},
+"result":{"item":"stellarisdlc:ignisheart"},
+"enchantments":[]
+}

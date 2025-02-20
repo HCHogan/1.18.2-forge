@@ -1,0 +1,1 @@
+execute at @e[type=jobinsmobs:goldenflame,sort=nearest,limit=1] run particle irons_spellbooks:fire ~ ~1 ~ 0 0.5 0 0.1 70 force

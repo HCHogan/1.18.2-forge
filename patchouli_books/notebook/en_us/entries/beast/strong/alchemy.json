@@ -1,0 +1,30 @@
+{
+    "name": "炼金术士",
+    "icon": "blue_skies:alchemy_scroll",
+    "category": "patchouli:beast_strong",
+    "sortnum":14,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"炼金术士/everdawn blinding tower",
+            "text": "炼金术士本应是人类探索未知的先驱，然而当第二帝国时期看到了精灵的崛起与帝国自身的衰退，加上得知了召唤师撤往永昼之地，或许投奔精灵一族并不是什么坏主意，毕竟炼金术士的存在只是为了探索，而探索是没有种族的界限的。如今的炼金术士却在恒晓之地阻拦着一切，为什么?而且本应在此地的精灵又在何处。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/alchemy.png",
+            "text1":"曾今的探索先驱",
+            "text2":""
+        },
+     {"type": "spotlight",
+        "title":"召唤方法",
+        "item": "blue_skies:blinding_key,blue_skies:dawn_blinding_keystone",
+        "text": "在永远处于日出时分的惑乱高塔之中可以找到四把钥匙，携带四把钥匙插入塔最上方的钥匙孔，便会取得挑战塔主的资格。"
+         },
+        {"type": "spotlight",
+        "title":"掉落物",
+        "item": "blue_skies:alchemist_trophy,blue_skies:alchemy_scroll,blue_skies:dusk_arc,blue_skies:spike_shield,blue_skies:alchemy_table,minecraft:enchanted_book,blue_skies:moonstone_shard,blue_skies:aquite,blue_skies:ventium_ingot,minecraft:emerald,blue_skies:star_flare",
+        "text": "击杀后必掉落$(br)炼金师奖杯1个$(br)炼金术卷轴1个$(br)尖刺盾牌1个$(br)根据战利品袋品质获得暮色饰品$(br)概率掉落转换桌和附魔书$(br)随机数量月长石碎片、天闪石、镰鼬铁锭、绿宝石、星荧。"
+         }
+        
+    ]
+}

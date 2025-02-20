@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "%1$s%4733088$s","with":["Elixir of Undying",{"translate":"incendium.item.undying_elixer.name"}],
+                "color": "#ffcc00",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:10,Amplifier:2b,Duration:600},{Id:11,Amplifier:1b,Duration:600},{Id:22,Amplifier:2b,Duration:1200}],CustomPotionColor:14679821}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "%1$s%4733088$s","with":["Miner's Ale",{"translate":"incendium.item.miners_ale.name"}],
+                "color": "#ff4e21",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:3,Amplifier:1b,Duration:1800}],CustomPotionColor:16735265}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "Suspicious Brew",
+                "color": "#8957ff",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:2,Amplifier:0b,Duration:4000},{Id:5,Amplifier:1b,Duration:1800},{Id:9,Amplifier:0b,Duration:200},{Id:11,Amplifier:1b,Duration:800}],CustomPotionColor:12162815} "
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

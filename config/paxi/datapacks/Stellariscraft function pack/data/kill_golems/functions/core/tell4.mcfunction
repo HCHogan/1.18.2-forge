@@ -1,0 +1,1 @@
+title @p[tag=kill_core] title [{"text":"罢了   终究是一样的结局...","color":"gold"}]

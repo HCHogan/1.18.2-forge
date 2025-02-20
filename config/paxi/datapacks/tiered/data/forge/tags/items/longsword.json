@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "epicfight:iron_longsword",
+    "epicfight:golden_longsword",
+    "epicfight:diamond_longsword",
+    "epicfight:netherite_longsword",
+    "stellariscraft:liesnow",
+    "stellariscraft:durandal",
+    "stellarisdlc:excalibur",
+    "stellarisdlc:loyalheart",
+    "stellarisdlc:saber"
+  ]
+}

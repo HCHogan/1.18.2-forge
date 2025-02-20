@@ -1,0 +1,27 @@
+{
+    "name": "蘑孢灵",
+    "icon": "farmersdelight:red_mushroom_colony",
+    "category": "patchouli:beast_tool",
+    "sortnum":2,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"蘑孢灵",
+            "text": "早在人类文明出现前就存在的友好可爱小生物，它们很喜欢$(#ff0000)骨粉$()，如果能成功和它们结盟它们便会提供帮助，如果$(#ff0000)将带有诅咒附魔的东西扔在它们旁边$()，它们就会捡起并帮你$(#ff0000)消除诅咒$(),消除诅咒是复杂的工艺，大多数情况下会损耗物品的耐久。值得一提的是它们中的部分在下界迷路了，长久的饥饿让$(#ff0000)下界中的它们充满攻击性$()会啃食遇到的所有生物。"
+        },
+        {
+            "type": "png_mining",
+            "text1":"蘑孢灵",
+             "image":"stellarisdlc:textures/png/mushroom.png"
+        },
+         {"type":"TT",
+           "head":"栖息群系",
+           "text":"蘑菇岛$(br2)黑森林$(br2)繁茂洞穴$(br2)沼泽"
+},
+        {"type": "spotlight",
+        "title":"携带",
+        "item": "supplementaries:jar,cnb:sporeling_backpack",
+        "text": "蘑孢灵非常少见，大多时候需要将蘑孢灵转移位置，罐子可以将蘑孢灵装起来便于携带，如果没有随身携带罐子也没有关系，蘑孢灵背包用5个皮革即可制作，可以将蘑孢灵背在身后。"
+         }
+    ]
+}

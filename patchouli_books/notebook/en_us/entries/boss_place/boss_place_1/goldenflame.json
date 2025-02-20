@@ -1,0 +1,35 @@
+{
+    "name": "金焰神王",
+    "icon": "cataclysm:ignitium_helmet",
+    "category": "patchouli:boss_place_1",
+    "sortnum":5,
+    "pages": [
+        {
+           "type": "T1",
+            "title":"金焰神王",
+            "text": "已故的下界统治者，击垮无数强敌，统一了地狱势力，人类在进军下界并与当时新的下界之主——金焰神王交战以后，双方于人类帝国的首都签订了协议，人类的帝王保留了神王的自治权与“王”的名号，换来的是整个下界庞大的金矿储备与下界环境带来的铸造、冶炼与炼金等多个产业的技术革命。焰魔之铠是他实力的象征，尽管在讨伐凋灵时被$(#ff0000)凋零残片$()所侵蚀，他仍然是至强之灵。"
+        },
+        {"type": "png_teach",
+            "image":"stellarisdlc:textures/png/goldenflame.png",
+            "text1":"金焰神王",
+            "text2":""
+        },
+        {"type": "spotlight",
+        "title":"召唤材料",
+        "item": "minecraft:wither_skeleton_skull,cataclysm:ignitium_ingot,cataclysm:burning_ashes,miningmaster:heart_rhodonite",
+        "text": "凋零骷髅头x1$(br)焰魔锭x1$(br)燃烧的灰烬x1$(br)生命玫瑰石x1$(br)最后加入$(1)$(l:boss_place/boss_summon/imessence)往生精华$()$()"
+         },
+         {"type": "spotlight",
+        "title":"特殊掉落物：凋零残片",
+        "item": "stellariscraft:witherc",
+        "link_recipe":true,
+        "text": "上古生物凋灵死亡偶然产生的侵蚀能力极强的碎片，所染之物必凋零腐朽。常人进入恒晓之地需要封印破除，或许此物可以侵蚀封印留下缺口。$(br2)金焰神王掉落1个$(br2)可以通过配置$(t:等级越高提高量越多,书中为无抢夺掉落量)$(5)抢夺$()附魔提高掉落量。"
+         },
+         {"type": "spotlight",
+         "title":"其他掉落物",
+         "item": "miningmaster:spirit_garnet,miningmaster:kinetic_opal",
+         "text": "击杀掉落$(br)灵魂石榴石、动能蛋白石1~2个$(br2)可以通过配置$(t:等级越高提高量越多,书中为无抢夺掉落量)$(5)抢夺$()附魔提高掉落量。"
+        }
+
+    ]
+}

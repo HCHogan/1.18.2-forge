@@ -1,0 +1,1 @@
+execute as @e[type=jobinsmobs:senbaidevil,tag=sheath_dash_senbai] at @s run effect give @s star:unstable 1

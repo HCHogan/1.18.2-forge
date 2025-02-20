@@ -1,0 +1,10 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[
+{"item":"farmersdelight:melon_juice"},
+{"item":"miningmaster:dive_aquamarine"},
+{"item":"farmersdelight:melon_juice"}],
+"catalyst":{"item":"stellariscraft:exchangestone"},
+"result":{"item":"artifacts:snorkel"},
+"enchantments":[]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "疆盗楼塔",
+    "icon": "minecraft:lantern",
+    "category": "patchouli:buildings",
+    "sortnum":0,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"疆盗楼塔/bandit_tower",
+            "text": "帝国时期恶地强盗的高塔基地，当终焉进攻之后王国的资源也被消耗殆尽。从前对此处睁一只眼闭一只眼的帝国也决定围剿强盗掠夺他们的财富。曾今的掠夺者变成了被掠夺者，猎人变成了猎物。无尽的尸骸堆积于此，如今的这里只是强盗的亡魂在守护着当时未被带走的最后财产，或者说他们最后的战利品。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/bandit_tower.png",
+            "text1":"拉斯维加斯遭遇了什么.......",
+            "text2":""
+        }
+    ]
+}

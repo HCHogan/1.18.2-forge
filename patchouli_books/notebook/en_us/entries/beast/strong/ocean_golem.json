@@ -1,0 +1,30 @@
+{
+    "name": "海洋傀儡",
+    "icon": "ba_bt:bt_ocean_resonance_stone",
+    "category": "patchouli:beast_strong",
+    "sortnum":1,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"海洋傀儡/ocean battle tower",
+            "text": "寄宿于深海之下的原始傀儡之一，镇守于$(#ff0000)海洋高塔$()之下。据说它是虚空中逃串而出的恶兽，它的核心就是所要守护的东西同时也是诅咒的来源。据传，海洋傀儡的核心是进入圣堂决斗场的关键。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/ocean_golem.png",
+            "text1":"海洋傀儡",
+            "text2":""
+        },
+      {"type": "spotlight",
+        "title":"召唤方法",
+        "item": "ba_bt:monolith_key_ocean,ba_bt:monolith_ocean",
+        "text": "在高塔内会找到两把海洋石碑之键，进入海洋高塔的最底层会看到海洋石碑，插入两把炉心海洋之键后，即可召唤深海的守护者......"
+         },
+        {"type": "spotlight",
+        "title":"掉落物",
+        "item": "ba_bt:guardian_eye_ocean,miningmaster:dive_aquamarine,stellariscraft:exchangestone,bhc:red_heart,bhc:yellow_heart",
+        "text": "击杀后掉落$(br)海洋守护者之眼1个$(br)深潜蓝宝石、淡粉晶簇、红心、黄心1个。$(br2)可以通过配置$(t:等级越高提高量越多,书中为无抢夺掉落量)$(5)抢夺$()附魔提高掉落量。"
+         }
+        
+    ]
+}

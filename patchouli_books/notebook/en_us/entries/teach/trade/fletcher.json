@@ -1,0 +1,65 @@
+{
+    "name": "制箭师(制箭台)",
+    "icon": "minecraft:fletching_table",
+    "category": "patchouli:trade",
+    "sortnum":0,
+    "pages": [
+{"type":"trade2",
+ "head":"村民等级:新手",
+ "item1":"dotcoinmod:gold_coin#3",
+ "item2":"minecraft:air",
+ "item3":"epicfight:skillbook{skill:\"epicfight:endurance\"}",
+ "text1":"1次",
+ "item4":"minecraft:arrow#32",
+ "item5":"minecraft:air",
+ "item6":"dotcoinmod:copper_coin#5",
+ "text2":"1次"
+},
+{"type":"trade2",
+ "head":"村民等级:学徒",
+ "item1":"minecraft:flint#32",
+ "item2":"minecraft:air",
+ "item3":"dotcoinmod:copper_coin#4",
+ "text1":"15次",
+"item4":"minecraft:feather#32",
+ "item5":"minecraft:air",
+ "item6":"dotcoinmod:copper_coin#8",
+ "text2":"10次"
+},
+{"type":"trade3",
+ "head":"村民等级:老手",
+ "item1":"dotcoinmod:copper_coin#8",
+ "item2":"minecraft:air",
+ "item3":"nock_enough_arrows:prismarine_arrow#32",
+ "text1":"10次",
+ "item4":"dotcoinmod:copper_coin#8",
+ "item5":"minecraft:air",
+ "item6":"nock_enough_arrows:reinforced_arrow#16",
+ "text2":"2次",
+"item7":"dotcoinmod:iron_coin#4",
+ "item8":"minecraft:air",
+ "item9":"minecraft:enchanted_book{Enchantments:[{id:'nock_enough_arrows:stockpile',lvl:2s}]}",
+ "text3":"1次"
+},
+{"type":"trade2",
+ "head":"村民等级:专家",
+ "item1":"dotcoinmod:iron_coin#3",
+ "item2":"minecraft:air",
+ "item3":"cataclysm:void_scatter_arrow#16",
+ "text1":"10次",
+ "item4":"dotcoinmod:iron_coin#4",
+ "item5":"minecraft:air",
+ "item6":"minecraft:enchanted_book{Enchantments:[{id:'nock_enough_arrows:recovery',lvl:2s}]}",
+ "text2":"1次"
+
+},
+{"type":"trade1",
+ "head":"村民等级:大师",
+ "item1":"dotcoinmod:gold_coin",
+ "item2":"minecraft:air",
+ "item3":"minecraft:enchanted_book{Enchantments:[{id:'minecraft:infinity',lvl:2s}]},minecraft:enchanted_book{Enchantments:[{id:'minecraft:infinity',lvl:1s}]}",
+ "text1":"1次"
+}
+
+    ]
+}

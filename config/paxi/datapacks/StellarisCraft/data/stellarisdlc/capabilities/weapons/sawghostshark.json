@@ -1,0 +1,9 @@
+{"type": "spear", "attributes": {"common": {"impact": 2.0, "armor_negation": 18.0, "max_strikes": 1}
+	},
+	"collider":
+	{
+		"number": 3,
+		"center": [0.0, 0.0, -1.02],
+		"size": [0.4, 0.4, 1.2]
+	}
+}

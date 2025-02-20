@@ -1,0 +1,2127 @@
+{
+    "model": "epicfight:entity/skeleton",
+	"armature": "epicfight:entity/skeleton",
+    "renderer": "minecraft:skeleton",
+    "isHumanoid": true,
+    "faction": "undead",
+	"boss_bar": true,
+	"custom_texture": "indestructible:textures/gui/senbaidevil.png",
+    "attributes": {
+        "impact": 1.1,
+        "armor_negation": 10.0,
+        "max_strikes": 3,
+        "chasing_speed": 0.9,
+		"max_stamina": 80,
+		"scale": 1.15,
+		"stamina_regan_multiply": 0.04,
+		"stamina_regan_delay": 60,
+		"has_stun_reduction": true,
+		"stamina_lose_multiply": 0.3,
+		"attack_radius": 1.5
+    },
+	"default_livingmotions": {
+        "idle": "epicfight:biped/living/idle",
+        "walk": "epicfight:biped/living/walk",
+        "chase": "epicfight:biped/living/walk",
+        "mount": "epicfight:biped/living/mount",
+        "fall": "epicfight:biped/living/fall",
+        "death": "epicfight:biped/living/death"
+	},
+    "stun_animations": {
+        "short": "epicfight:biped/combat/hit_short",
+        "long": "epicfight:biped/combat/hit_long",
+        "knockdown": "epicfight:biped/combat/knockdown",
+        "fall": "epicfight:biped/living/landing",
+		"neutralize": "epicfight:biped/combat/hit_long"
+    },
+    "humanoid_weapon_motions": [
+        {
+            "weapon_categories": ["axe", "pickaxe", "shovel", "sword", "fist"],
+            "style":"common",
+            "livingmotions": {
+				"chase": "epicfight:biped/living/walk",
+                "walk": "epicfight:biped/living/walk"
+            }
+        },
+        {
+            "weapon_categories": ["hoe"],
+            "style":"common",
+            "livingmotions": {
+				"chase": "epicfight:biped/living/walk",
+                "walk": "epicfight:biped/living/run"
+            }
+        },
+        { 
+            "weapon_categories": ["spear", "trident", "tachi"],
+            "style":"common", 
+            "livingmotions": {
+                "chase": "epicfight:biped/living/walk_spear",
+                "walk": "epicfight:biped/living/walk_spear"
+            }
+        },
+        { 
+            "weapon_categories": ["greatsword"],
+            "style":"common", 
+            "livingmotions": {
+                "chase": "epicfight:biped/living/walk_greatsword",
+                "walk": "epicfight:biped/living/run_greatsword"
+            }
+        },
+        { 
+            "weapon_categories": ["longsword"],
+            "style":"common", 
+            "livingmotions": {
+                "chase": "epicfight:biped/living/walk_longsword",
+                "walk": "epicfight:biped/living/run_longsword"
+            }
+        },
+        { 
+            "weapon_categories": ["uchigatana"],
+            "style":"common", 
+            "livingmotions": {
+                "chase": "epicfight:biped/living/walk_uchigatana",
+                "walk": "epicfight:biped/living/walk_uchigatana"
+            }
+        },
+        { 
+            "weapon_categories": ["sword"],
+            "style":"two_hand", 
+            "livingmotions": {
+                "chase": "epicfight:biped/living/walk_twohand",
+                "walk": "epicfight:biped/living/walk_twohand"
+            }
+        }
+
+    ],
+    "custom_guard_motion": [
+	    {
+             "weapon_categories": ["pickaxe", "shovel"],
+			 "style": "common",
+             "guard": "indestructible:guard/guard_sword",
+             "stamina_cost_multiply": 0.4,
+             "can_block_projectile" : true
+        },
+        {
+            "weapon_categories": ["hoe"],
+            "style": "common",
+            "guard": "indestructible:guard/guard_sword",
+            "stamina_cost_multiply": 0.2,
+            "can_block_projectile" : true
+        },
+        {
+            "weapon_categories": ["axe"],
+            "style": "common",
+            "guard": "indestructible:guard/guard_sword",
+            "stamina_cost_multiply": 0.3,
+            "can_block_projectile" : true
+        },
+        {
+            "weapon_categories": ["fist"],
+            "style": "common",
+            "guard": "indestructible:guard/guard_dualsword",
+            "stamina_cost_multiply": 0.1,
+            "can_block_projectile" : true
+        },
+        {
+            "weapon_categories": ["sword"],
+            "style": "two_hand",
+            "guard": "indestructible:guard/guard_dualsword",
+            "stamina_cost_multiply": 0.18,
+            "can_block_projectile" : true
+        },
+		{
+             "weapon_categories": ["sword"],
+			 "style": "common",
+             "guard": "indestructible:guard/guard_sword",
+             "stamina_cost_multiply": 0.3,
+             "can_block_projectile" : true
+        },
+		{
+             "weapon_categories": ["spear"],
+			 "style": "common",
+             "guard": "indestructible:guard/guard_spear",
+             "stamina_cost_multiply": 0.22,
+             "can_block_projectile" : true
+        },
+		{
+             "weapon_categories": ["trident"],
+			 "style": "common",
+             "guard": "indestructible:guard/guard_spear",
+             "stamina_cost_multiply": 0.22,
+             "can_block_projectile" : true
+        },
+        {
+             "weapon_categories": ["greatsword"],
+             "style": "common",
+             "guard": "indestructible:guard/guard_greatsword",
+             "stamina_cost_multiply": 0.25,
+             "can_block_projectile" : true
+        },
+		{
+             "weapon_categories": ["uchigatana"],
+             "style": "common",
+             "guard": "indestructible:guard/guard_uchigatana",
+             "stamina_cost_multiply": 0.12,
+             "can_block_projectile" : true
+        },
+        {
+             "weapon_categories": ["longsword"],
+             "style": "common",
+             "guard": "indestructible:guard/guard_longsword",
+             "stamina_cost_multiply": 0.2,
+             "can_block_projectile" : true
+        },
+        {
+            "weapon_categories": ["tachi"],
+            "style": "common",
+            "guard": "indestructible:guard/guard_longsword",
+            "stamina_cost_multiply": 0.2,
+            "can_block_projectile" : true
+       }
+    ],
+	"stun_command_list":[
+        {"command":"effect give @s minecraft:glowing 4", "stun_type": "neutralize"},
+        {"command":"effect give @s stellarisdlc:fragile 4 2", "stun_type": "neutralize"},
+		{"command":"effect give @s cataclysm:stun 4", "stun_type": "neutralize"},
+		{"command":"effect give @s cofh_core:sundered 4 4", "stun_type": "neutralize"},
+		{"command":"effect give @s epicfight:stun_immunity 4", "stun_type": "neutralize"},
+		{"command":"effect give @s star:really_stun_immunity 4", "stun_type": "neutralize"},
+
+		{"command":"indestructible @s set_phase 0", "stun_type": "neutralize"},
+		{"command":"function global_guard_break:guard_break_senbai", "stun_type": "neutralize"}
+	],
+
+    "combat_behavior": [
+        {
+            "weapon_categories": ["uchigatana"],
+            "style": "common",
+            "behavior_series": [
+				{
+                    "weight": 9999999,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 999999,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                            ],
+                            "animation": "epicfight:biped/skill/step_backward",
+                            "command_list":[
+								{"time":0.01, "command":"stopsound @e[type=minecraft:player,distance=..20] music", "execute_at_target":false},
+								{"time":0.02, "command":"stopsound @e[type=minecraft:player,distance=..20] record", "execute_at_target":false},
+                                {"time":0.05, "command":"execute as @e[type=player,distance=..20] at @s run playsound minecraft:senbaidevil record @p ~ ~ ~ 0.9", "execute_at_target":false},
+
+								{"time":0.01, "command":"data merge entity @s {Attributes:[{Base:0.5d,Name:\"minecraft:generic.knockback_resistance\"}]}", "execute_at_target":false},
+								{"time":0.01, "command":"data merge entity @s {Attributes:[{Base:45d,Name:\"epicfight:weight\"}]}", "execute_at_target":false},
+								{"time":0.01, "command":"data merge entity @s {Attributes:[{Base:10d,Name:\"minecraft:generic.armor\"}]}", "execute_at_target":false},
+								{"time":0.01, "command":"data merge entity @s {Attributes:[{Base:3.0d,Name:\"epicfight:stun_armor\"}]}", "execute_at_target":false},
+								{"time":0.01, "command":"data merge entity @s {Attributes:[{Base:2d,Name:\"forge:step_height_addition\"}]}", "execute_at_target":false},
+								{"time":0.01, "command":"data merge entity @s {ForgeData:{recovery:4.0d}}", "execute_at_target":false},
+								{"time":0.01, "command":"data merge entity @s {ForgeData:{stamina:1.6d}}", "execute_at_target":false},
+
+                                {"time":0.01, "command":"effect give @s minecraft:instant_damage 5 4", "execute_at_target":false},
+								{"time":0.01, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+								{"time":0.02, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+								{"time":0.03, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+
+								{"time":0.0, "command":"tag @s remove fatal_draw_able", "execute_at_target":false},
+
+								{"time":0.07, "command":"effect give @s cataclysm:stun 10", "execute_at_target":false},
+								{"time":0.05, "command":"effect give @s minecraft:resistance 10 9", "execute_at_target":false},
+								{"time":0.05, "command":"effect give @s stellarisdlc:stamina_regen_enhanced 10 9", "execute_at_target":false}
+                            ],
+							"stamina": -120,
+							"set_phase": 1
+                        }
+                    ]
+                },
+				{
+                    "weight": 1000,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 100,
+                    "behaviors": [
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 0, "max": 0}
+							],
+							"guard": 4, 
+							"counter": "epicfight:biped/skill/guard_sword_hit_active1",
+							"counter_cost": 0.01, 
+							"counter_chance": 1.0, 
+							"counter_speed": 0.4,
+							"set_phase": 1
+						},
+						{
+							"conditions": [
+							],
+							"guard": 4, 
+							"counter": "epicfight:biped/skill/guard_sword_hit_active2",
+							"counter_cost": 0.01, 
+							"counter_chance": 1.0, 
+							"counter_speed": 0.4,
+							"set_phase": 1
+						}
+                    ]
+                },
+
+
+
+				{
+					"weight": 300,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 150,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 1, "max": 3},
+								{"predicate":"within_distance", "min": 0.0, "max": 5.0}, {"predicate":"phase", "min": 2, "max": 2},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}
+							],
+							"guard": 4, 
+							"counter": "epicfight:biped/skill/guard_sword_hit_active1",
+							"counter_cost": 0.01, 
+							"counter_chance": 1.0, 
+							"counter_speed": 0.4
+						},
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 5.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 2, "max": 2}
+							],
+							"animation": "wom:biped/skill/roll_backward",
+							"convert_time": 0.2,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 2", "execute_at_target":false},
+								{"time":0.0, "command":"tag @s add orange", "execute_at_target":false},
+								{"time":0.04, "command":"schedule function danger:danger_orange 4t append", "execute_at_target":false}
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"knock_down", "invert": true}, {"predicate":"phase", "min": 2, "max": 2}
+							],
+							"animation": "star:biped/new/blade_rush_finisher",
+							"play_speed": 0.6,
+							"convert_time": 0.4,
+							"command_list":[
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.0, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+
+								{"time":0.0, "command":"effect give @s epicfight:stun_immunity 1", "execute_at_target":false},
+								{"time":0.0, "command":"tag @s remove fatal_draw_able", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellariscraft:bloodkill", "execute_at_target":false}
+							],
+							"set_phase": 1,
+                            "damage_modifier":{
+								"damage": 3.6,
+                                "impact": 1.0,
+                                "armor_negation": 1.5
+							},
+							"hit_command_list":[
+								{"command":"effect give @s alexsmobs:exsanguination 7 2", "execute_at_target":true},
+								{"command":"indestructible @s play \"epicfight:biped/combat/knockdown\" 0.1 1", "execute_at_target":true}
+							]
+						}
+
+                    ]
+                },
+				{
+					"weight": 3,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 150,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 2.5}, {"predicate":"phase", "min": 2, "max": 2},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}
+							],
+							"animation": "epicfight:enderman/kick_twice",
+							"convert_time": 0.4,
+							"play_speed": 0.9
+						},
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 5.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 2, "max": 2}
+							],
+							"animation": "wom:biped/skill/roll_backward",
+							"convert_time": 0.2,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 1", "execute_at_target":false},
+								{"time":0.0, "command":"tag @s add orange", "execute_at_target":false},
+								{"time":0.04, "command":"schedule function danger:danger_orange 4t append", "execute_at_target":false}
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"knock_down", "invert": true}, {"predicate":"phase", "min": 2, "max": 2}
+							],
+							"animation": "star:biped/new/blade_rush_finisher",
+							"play_speed": 0.6,
+							"convert_time": 0.4,
+							"command_list":[
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.0, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+
+								{"time":0.0, "command":"effect give @s epicfight:stun_immunity 1", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 1", "execute_at_target":false},
+								{"time":0.0, "command":"tag @s remove fatal_draw_able", "execute_at_target":false},
+								{"time":0.0, "command":"effect clear @s stellariscraft:bloodkill", "execute_at_target":false}
+							],
+							"set_phase": 1,
+                            "damage_modifier":{
+								"damage": 3.6,
+                                "impact": 1.0,
+                                "armor_negation": 1.5
+							},
+							"hit_command_list":[
+								{"command":"effect give @s alexsmobs:exsanguination 7 2", "execute_at_target":true},
+								{"command":"indestructible @s play \"epicfight:biped/combat/knockdown\" 0.1 1", "execute_at_target":true}
+							]
+						}
+
+                    ]
+                },
+
+
+				
+				
+				{
+					"weight": 80,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 120,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 5.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"guard": 10, 
+							"counter": "epicfight:biped/skill/guard_sword",
+							"counter_cost": 2, 
+							"counter_chance": 1.0, 
+							"counter_speed": 0.4
+						},
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 5.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"guard": 8, 
+							"counter": "epicfight:biped/skill/guard_sword_hit_active1",
+							"counter_cost": 0.5, 
+							"counter_chance": 1.0, 
+							"counter_speed": 0.4
+						},
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 5.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"guard": 4,
+							"parry": true,
+							"parry_times": 1,
+							"counter_chance": 0,
+							"stun_immunity_time": 30,
+							"specific_guard_motion": {
+								"parry_cost_multiply": 0.05,
+								"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active2"]
+							}
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:biped/combat/uchigatana_auto1",
+							"convert_time": 0.2,
+							"play_speed": 0.7,
+							"command_list": [
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:biped/combat/uchigatana_auto2",
+							"convert_time": 0.05,
+							"play_speed": 0.7,
+							"command_list": [
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:biped/combat/uchigatana_auto3",
+							"convert_time": 0.05,
+							"play_speed": 0.7,
+							"command_list": [
+                            ]
+						}
+
+                    ]
+                },
+				{
+					"weight": 60,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 120,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 5.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"guard": 8, 
+							"counter": "epicfight:biped/skill/guard_sword_hit_active1",
+							"counter_cost": 0.5, 
+							"counter_chance": 1.0, 
+							"counter_speed": 0.4
+						},
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 5.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"guard": 4,
+							"parry": true,
+							"parry_times": 1,
+							"counter_chance": 0,
+							"stun_immunity_time": 30,
+							"specific_guard_motion": {
+								"parry_cost_multiply": 0.05,
+								"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active2"]
+							}
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:biped/combat/uchigatana_auto2",
+							"convert_time": 0.15,
+							"play_speed": 0.7,
+							"command_list": [
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:biped/combat/uchigatana_auto3",
+							"convert_time": 0.05,
+							"play_speed": 0.7,
+							"command_list": [
+                            ]
+						}
+
+                    ]
+                },
+				{
+					"weight": 40,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 120,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 5.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"guard": 8, 
+							"counter": "epicfight:biped/skill/guard_sword_hit_active2",
+							"counter_cost": 0.5, 
+							"counter_chance": 1.0, 
+							"counter_speed": 0.4
+						},
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 5.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"guard": 4,
+							"parry": true,
+							"parry_times": 1,
+							"counter_chance": 0,
+							"stun_immunity_time": 30,
+							"specific_guard_motion": {
+								"parry_cost_multiply": 0.05,
+								"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1"]
+							}
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "wom:biped/combat/katana_auto_3",
+							"convert_time": 0.25,
+							"play_speed": 0.7,
+							"command_list": [
+                            ],
+							"damage_modifier":{"damage": 1,"impact": 0.6,"armor_negation": 1}
+						}
+
+                    ]
+                },
+
+				{
+					"weight": 0.8,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 120,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_distance", "min": 0.0, "max": 2.5},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:biped/combat/uchigatana_auto1",
+							"convert_time": 0.3,
+							"play_speed": 0.7,
+							"command_list": [
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}, {"predicate":"within_distance", "min": 0.0, "max": 3}
+							],
+							"animation": "epicfight:biped/combat/uchigatana_auto2",
+							"convert_time": 0.05,
+							"play_speed": 0.7,
+							"command_list": [
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}, {"predicate":"within_distance", "min": 0.0, "max": 3}
+							],
+							"animation": "wom:biped/combat/katana_auto_3",
+							"convert_time": 0.25,
+							"play_speed": 0.7,
+							"command_list": [
+                            ],
+							"damage_modifier":{"damage": 1,"impact": 0.6,"armor_negation": 1}
+						}
+
+                    ]
+                },
+				{
+					"weight": 0.6,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 120,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_distance", "min": 0.0, "max": 2.5},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:biped/combat/uchigatana_auto2",
+							"convert_time": 0.3,
+							"play_speed": 0.7,
+							"command_list": [
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}, {"predicate":"within_distance", "min": 0.0, "max": 3}
+							],
+							"animation": "wom:biped/combat/katana_auto_3",
+							"convert_time": 0.25,
+							"play_speed": 0.7,
+							"command_list": [
+                            ],
+							"damage_modifier":{"damage": 1,"impact": 0.6,"armor_negation": 1}
+						}
+
+                    ]
+                },
+				{
+					"weight": 0.4,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 120,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_distance", "min": 0.0, "max": 2.5},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "wom:biped/combat/katana_auto_3",
+							"convert_time": 0.1,
+							"play_speed": 0.7,
+							"command_list": [
+                            ],
+							"damage_modifier":{"damage": 1,"impact": 0.6,"armor_negation": 1}
+						}
+
+                    ]
+                },
+
+
+
+				{
+					"weight": 160,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 160,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 6.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"guard": 6, 
+							"counter": "epicfight:biped/skill/guard_sword",
+							"counter_cost": 4, 
+							"counter_chance": 1.0, 
+							"counter_speed": 0.4
+						},
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 6.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"guard": 4, 
+							"counter": "epicfight:biped/skill/guard_sword_hit_active1",
+							"counter_cost": 0.01, 
+							"counter_chance": 1.0, 
+							"counter_speed": 0.4
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"command_list": [
+                                {"time":0.0, "command":"indestructible @s set_phase 3", "execute_at_target":false},
+                                {"time":0.05, "command":"indestructible @s set_phase 3", "execute_at_target":false},
+                                {"time":0.1, "command":"indestructible @s set_phase 3", "execute_at_target":false}
+                            ],
+							"set_phase": 3
+						}
+
+                    ]
+                },
+				{
+					"weight": 1.6,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 160,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_distance", "min": 0.0, "max": 2.5},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:enderman/kick_twice",
+							"command_list": [
+                                {"time":0.0, "command":"indestructible @s set_phase 3", "execute_at_target":false},
+                                {"time":0.05, "command":"indestructible @s set_phase 3", "execute_at_target":false},
+                                {"time":0.1, "command":"indestructible @s set_phase 3", "execute_at_target":false}
+                            ],
+							"convert_time": 0.4,
+							"play_speed": 0.9,
+							"set_phase": 3
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"command_list": [
+                                {"time":0.0, "command":"indestructible @s set_phase 3", "execute_at_target":false},
+                                {"time":0.05, "command":"indestructible @s set_phase 3", "execute_at_target":false},
+                                {"time":0.1, "command":"indestructible @s set_phase 3", "execute_at_target":false}
+                            ],
+							"set_phase": 3
+						}
+
+                    ]
+                },
+
+				{
+					"weight": 1000,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 60,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 3, "max": 3}
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"command_list": [
+                                {"time":0.0, "command":"indestructible @s set_phase 4", "execute_at_target":false},
+                                {"time":0.05, "command":"indestructible @s set_phase 4", "execute_at_target":false},
+                                {"time":0.1, "command":"indestructible @s set_phase 4", "execute_at_target":false},
+								{"time":0.1, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false}
+                            ],
+							"convert_time": 0.2,
+							"set_phase": 4
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 4, "max": 4}, {"predicate":"random_chance", "chance": 0.6},
+								{"predicate":"within_distance", "min": 0.0, "max": 8.0}
+							],
+							"animation": "epicfight:biped/skill/step_left",
+							"command_list": [
+                                {"time":0.0, "command":"indestructible @s set_phase 4", "execute_at_target":false},
+                                {"time":0.05, "command":"indestructible @s set_phase 4", "execute_at_target":false},
+                                {"time":0.1, "command":"indestructible @s set_phase 4", "execute_at_target":false},
+								{"time":0.1, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false}
+                            ],
+							"convert_time": 0.2,
+							"set_phase": 4
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 4, "max": 4}, {"predicate":"random_chance", "chance": 0.3},
+								{"predicate":"within_distance", "min": 0.0, "max": 8.0}
+							],
+							"animation": "epicfight:biped/skill/step_right",
+							"command_list": [
+                                {"time":0.0, "command":"indestructible @s set_phase 4", "execute_at_target":false},
+                                {"time":0.05, "command":"indestructible @s set_phase 4", "execute_at_target":false},
+                                {"time":0.1, "command":"indestructible @s set_phase 4", "execute_at_target":false},
+								{"time":0.1, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false}
+                            ],
+							"convert_time": 0.2,
+							"set_phase": 4
+						}
+
+
+                    ]
+                },
+				{
+					"weight": 1000,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 60,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 3, "max": 3}
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"command_list": [
+                                {"time":0.0, "command":"indestructible @s set_phase 4", "execute_at_target":false},
+                                {"time":0.05, "command":"indestructible @s set_phase 4", "execute_at_target":false},
+                                {"time":0.1, "command":"indestructible @s set_phase 4", "execute_at_target":false},
+								{"time":0.1, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false}
+                            ],
+							"convert_time": 0.2,
+							"set_phase": 4
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 4, "max": 4}, {"predicate":"random_chance", "chance": 0.6},
+								{"predicate":"within_distance", "min": 0.0, "max": 8.0}
+							],
+							"animation": "epicfight:biped/skill/step_right",
+							"command_list": [
+                                {"time":0.0, "command":"indestructible @s set_phase 4", "execute_at_target":false},
+                                {"time":0.05, "command":"indestructible @s set_phase 4", "execute_at_target":false},
+                                {"time":0.1, "command":"indestructible @s set_phase 4", "execute_at_target":false},
+								{"time":0.1, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false}
+                            ],
+							"convert_time": 0.2,
+							"set_phase": 4
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 4, "max": 4}, {"predicate":"random_chance", "chance": 0.3},
+								{"predicate":"within_distance", "min": 0.0, "max": 8.0}
+							],
+							"animation": "epicfight:biped/skill/step_left",
+							"command_list": [
+                                {"time":0.0, "command":"indestructible @s set_phase 4", "execute_at_target":false},
+                                {"time":0.05, "command":"indestructible @s set_phase 4", "execute_at_target":false},
+                                {"time":0.1, "command":"indestructible @s set_phase 4", "execute_at_target":false},
+								{"time":0.1, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false}
+                            ],
+							"convert_time": 0.2,
+							"set_phase": 4
+						}
+
+
+                    ]
+                },
+				{
+					"weight": 1000,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 60,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 3, "max": 3}
+							],
+							"animation": "epicfight:biped/skill/step_right",
+							"command_list": [
+                                {"time":0.0, "command":"indestructible @s set_phase 4", "execute_at_target":false},
+                                {"time":0.05, "command":"indestructible @s set_phase 4", "execute_at_target":false},
+                                {"time":0.1, "command":"indestructible @s set_phase 4", "execute_at_target":false},
+								{"time":0.1, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false}
+                            ],
+							"convert_time": 0.2,
+							"set_phase": 4
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 4, "max": 4}, {"predicate":"random_chance", "chance": 0.4},
+								{"predicate":"within_distance", "min": 0.0, "max": 8.0}
+							],
+							"animation": "epicfight:biped/skill/step_left",
+							"command_list": [
+                                {"time":0.0, "command":"indestructible @s set_phase 4", "execute_at_target":false},
+                                {"time":0.05, "command":"indestructible @s set_phase 4", "execute_at_target":false},
+                                {"time":0.1, "command":"indestructible @s set_phase 4", "execute_at_target":false},
+								{"time":0.1, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false}
+                            ],
+							"convert_time": 0.2,
+							"set_phase": 4
+						}
+
+
+                    ]
+                },
+				{
+					"weight": 1000,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 60,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 3, "max": 3}
+							],
+							"animation": "epicfight:biped/skill/step_left",
+							"command_list": [
+                                {"time":0.0, "command":"indestructible @s set_phase 4", "execute_at_target":false},
+                                {"time":0.05, "command":"indestructible @s set_phase 4", "execute_at_target":false},
+                                {"time":0.1, "command":"indestructible @s set_phase 4", "execute_at_target":false},
+								{"time":0.1, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false}
+                            ],
+							"convert_time": 0.2,
+							"set_phase": 4
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 4, "max": 4}, {"predicate":"random_chance", "chance": 0.4},
+								{"predicate":"within_distance", "min": 0.0, "max": 8.0}
+							],
+							"animation": "epicfight:biped/skill/step_right",
+							"command_list": [
+                                {"time":0.0, "command":"indestructible @s set_phase 4", "execute_at_target":false},
+                                {"time":0.05, "command":"indestructible @s set_phase 4", "execute_at_target":false},
+                                {"time":0.1, "command":"indestructible @s set_phase 4", "execute_at_target":false},
+								{"time":0.1, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false}
+                            ],
+							"convert_time": 0.2,
+							"set_phase": 4
+						}
+
+
+                    ]
+                },
+
+				{
+					"weight": 1000,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 60,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 4, "max": 4}, {"predicate":"within_distance", "min": 0.0, "max": 6.0}
+							],
+							"wander": 4,
+							"inaction_time": 2,
+							"x_axis": 0.0,
+							"z_axis": -0.1,
+							"set_phase": 5
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 5, "max": 5}
+							],
+							"animation": "epicfight:biped/living/uchigatana_scrap",
+							"set_phase": 5
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 5, "max": 5}
+							],
+							"animation": "epicfight:biped/living/hold_uchigatana_sheath",
+							"set_phase": 5
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 5, "max": 5}
+							],
+							"wander": 10,
+							"inaction_time": 5,
+							"x_axis": 0.0,
+							"z_axis": -0.1,
+							"set_phase": 5
+						}
+
+                    ]
+                },
+				{
+					"weight": 1000,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 60,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"knock_down", "invert": true}, {"predicate":"phase", "min": 5, "max": 5}
+							],
+							"animation": "star:biped/new/katana_sheath_airslash",
+							"convert_time": 0.4,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.0, "command":"function stamina_data:senbai_upx1.5", "execute_at_target":false},
+
+                                {"time":0.0, "command":"effect give @s epicfight:stun_immunity 1", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 1", "execute_at_target":false},
+								{"time":0.01, "command":"execute if entity @s[tag=fatal_draw_able] run indestructible @s set_phase 2", "execute_at_target":false},
+								{"time":0.0, "command":"execute unless entity @s[tag=fatal_draw_able] run indestructible @s set_phase 1", "execute_at_target":false}
+                            ],
+							"hit_command_list":[
+								{"command":"effect give @s alexsmobs:exsanguination 3 1", "execute_at_target":true},
+								{"command":"indestructible @s set_phase 2", "execute_at_target":false},
+								{"command":"effect give @s stellariscraft:bloodkill 999999", "execute_at_target":false},
+								{"command":"tag @s add fatal_draw_able", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+								{"predicate":"knock_down", "invert": true}, {"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:biped/combat/uchigatana_auto3",
+							"convert_time": 0.05,
+							"command_list": [
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}, 
+								{"predicate":"health", "health": 0.5, "comparator": "less_ratio"}
+							],
+							"animation": "wom:biped/combat/katana_auto_3",
+							"convert_time": 0.25,
+							"play_speed": 0.7,
+							"command_list": [
+                            ],
+							"damage_modifier":{"damage": 1,"impact": 0.6,"armor_negation": 1}
+						}
+
+                    ]
+                },
+
+
+
+
+
+				{
+					"weight": 160,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 160,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 5.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"guard": 8, 
+							"counter": "epicfight:biped/skill/guard_sword_hit_active1",
+							"counter_cost": 0.5, 
+							"counter_chance": 1.0, 
+							"counter_speed": 0.4
+						},
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 5.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"guard": 4,
+							"parry": true,
+							"parry_times": 1,
+							"counter_chance": 0,
+							"stun_immunity_time": 30,
+							"specific_guard_motion": {
+								"parry_cost_multiply": 0.05,
+								"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active2"]
+							}
+						},
+
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 5.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:enderman/kick_twice",
+							"convert_time": 0.2,
+							"play_speed": 0.9,
+							"command_list": [
+                                {"time":0.0, "command":"effect give @s epicfight:stun_immunity 1", "execute_at_target":false}
+                            ]
+						},
+
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 5.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "wom:biped/skill/roll_backward",
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+                                {"time":0.0, "command":"indestructible @s set_phase 6", "execute_at_target":false},
+
+                                {"time":0.0, "command":"function jobinsmobs:senbai_sheath", "execute_at_target":false}
+                            ],
+							"set_phase": 6
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 6, "max": 6}
+							],
+							"animation": "epicfight:biped/living/uchigatana_scrap"
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 6, "max": 6}
+							],
+							"animation": "epicfight:biped/living/hold_uchigatana_sheath"
+						}
+                    ]
+                },
+				{
+					"weight": 1.8,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 180,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_distance", "min": 0.0, "max": 2.5},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:enderman/kick_twice",
+							"convert_time": 0.4,
+							"play_speed": 0.9,
+							"command_list": [
+                                {"time":0.0, "command":"effect give @s epicfight:stun_immunity 1", "execute_at_target":false}
+                            ]
+						},
+
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 5.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "wom:biped/skill/roll_backward",
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+                                {"time":0.0, "command":"indestructible @s set_phase 6", "execute_at_target":false},
+
+                                {"time":0.0, "command":"function jobinsmobs:senbai_sheath", "execute_at_target":false}
+                            ],
+							"set_phase": 6
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 6, "max": 6}
+							],
+							"animation": "epicfight:biped/living/uchigatana_scrap"
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 6, "max": 6}
+							],
+							"animation": "epicfight:biped/living/hold_uchigatana_sheath"
+						}
+                    ]
+                },
+
+				{
+					"weight": 1000,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 60,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"knock_down", "invert": true}, {"predicate":"phase", "min": 6, "max": 6}
+							],
+							"wander": 20,
+							"inaction_time": 10,
+							"x_axis": 0.0,
+							"z_axis": -0.05,
+							"set_phase": 0
+						},
+						{
+							"conditions": [
+							],
+							"animation": "star:biped/new/katana_sheath_airslash",
+							"convert_time": 0.4,
+							"command_list": [
+								{"time":0.0, "command":"function stamina_data:senbai_upx2.5", "execute_at_target":false},
+
+                                {"time":0.0, "command":"effect give @s epicfight:stun_immunity 1", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 1", "execute_at_target":false},
+								{"time":0.01, "command":"execute if entity @s[tag=fatal_draw_able] run indestructible @s set_phase 2", "execute_at_target":false},
+								{"time":0.0, "command":"execute unless entity @s[tag=fatal_draw_able] run indestructible @s set_phase 1", "execute_at_target":false}
+                            ],
+							"hit_command_list":[
+								{"command":"effect give @s alexsmobs:exsanguination 3 1", "execute_at_target":true},
+								{"command":"indestructible @s set_phase 2", "execute_at_target":false},
+								{"command":"effect give @s stellariscraft:bloodkill 999999", "execute_at_target":false},
+								{"command":"tag @s add fatal_draw_able", "execute_at_target":false}
+							]
+						},
+						{
+							"conditions": [
+								{"predicate":"knock_down", "invert": true}
+							],
+							"animation": "epicfight:biped/skill/rushing_tempo3",
+							"convert_time": 0.1,
+							"play_speed": 0.7,
+							"command_list": [
+                            ],
+							"hit_command_list":[
+								{"command":"effect give @s alexsmobs:exsanguination 5 2", "execute_at_target":true},
+								{"command":"indestructible @s set_phase 2", "execute_at_target":false},
+								{"command":"effect give @s stellariscraft:bloodkill 999999", "execute_at_target":false},
+								{"command":"tag @s add fatal_draw_able", "execute_at_target":false}
+							]
+						}
+
+                    ]
+                },
+
+
+
+				{
+					"weight": 120,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 360,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 5.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"guard": 8, 
+							"counter": "epicfight:biped/skill/guard_sword_hit_active1",
+							"counter_cost": 0.5, 
+							"counter_chance": 1.0, 
+							"counter_speed": 0.4
+						},
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 5.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"guard": 4,
+							"parry": true,
+							"parry_times": 1,
+							"counter_chance": 0,
+							"stun_immunity_time": 30,
+							"specific_guard_motion": {
+								"parry_cost_multiply": 0.05,
+								"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active2"]
+							}
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:enderman/kick_twice",
+							"convert_time": 0.2,
+							"play_speed": 0.9,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+								{"time":0.0, "command":"tag @s add purple", "execute_at_target":false},
+								{"time":0.04, "command":"schedule function danger:danger_purple 8t append", "execute_at_target":false},
+
+								{"time":0.0, "command":"function effect_unstable:sheath_dash_senbai", "execute_at_target":false},
+								{"time":0.01, "command":"tag @s add sheath_dash_senbai", "execute_at_target":false}
+                            ],
+							"set_phase": 7
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 7, "max": 7}
+							],
+							"animation": "epicfight:biped/living/uchigatana_scrap"
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 7, "max": 7}
+							],
+							"animation": "epicfight:biped/living/hold_uchigatana_sheath"
+						}
+                    ]
+                },
+				{
+					"weight": 1.2,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 360,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_distance", "min": 0.0, "max": 2.5},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:enderman/kick_twice",
+							"convert_time": 0.4,
+							"play_speed": 0.9,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false}
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+								{"time":0.0, "command":"tag @s add purple", "execute_at_target":false},
+								{"time":0.04, "command":"schedule function danger:danger_purple 8t append", "execute_at_target":false},
+
+								{"time":0.0, "command":"function effect_unstable:sheath_dash_senbai", "execute_at_target":false},
+								{"time":0.01, "command":"tag @s add sheath_dash_senbai", "execute_at_target":false}
+                            ],
+							"set_phase": 7
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 7, "max": 7}
+							],
+							"animation": "epicfight:biped/living/uchigatana_scrap"
+						},
+						{
+							"conditions": [
+								{"predicate":"phase", "min": 7, "max": 7}
+							],
+							"animation": "epicfight:biped/living/hold_uchigatana_sheath"
+						}
+                    ]
+                },
+
+				{
+					"weight": 1000,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 60,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"knock_down", "invert": true}, {"predicate":"phase", "min": 7, "max": 7}
+							],
+							"animation": "star:biped/new/katana_sheath_dash",
+							"convert_time": 1.0,
+							"command_list": [
+                                {"time":0.0, "command":"effect give @s epicfight:stun_immunity 1", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 1", "execute_at_target":false},
+								{"time":0.01, "command":"execute if entity @s[tag=fatal_draw_able] run indestructible @s set_phase 2", "execute_at_target":false},
+								{"time":0.0, "command":"execute unless entity @s[tag=fatal_draw_able] run indestructible @s set_phase 1", "execute_at_target":false}
+                            ],
+							"hit_command_list":[
+								{"command":"effect give @s alexsmobs:exsanguination 3 1", "execute_at_target":true},
+								{"command":"indestructible @s set_phase 2", "execute_at_target":false},
+								{"command":"effect give @s stellariscraft:bloodkill 999999", "execute_at_target":false},
+								{"command":"tag @s add fatal_draw_able", "execute_at_target":false},
+								{"command":"indestructible @s play \"epicfight:biped/combat/hit_long\" 0.1 1", "execute_at_target":true}
+							],
+                            "damage_modifier":{
+								"damage": 1.5,
+                                "impact": 1.0,
+                                "armor_negation": 1.6
+							}
+						}
+                    ]
+                },
+
+
+				{
+					"weight": 240,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 360,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 5.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"guard": 8, 
+							"counter": "epicfight:biped/skill/guard_sword_hit_active1",
+							"counter_cost": 0.5, 
+							"counter_chance": 1.0, 
+							"counter_speed": 0.4
+						},
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 5.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"guard": 4,
+							"parry": true,
+							"parry_times": 1,
+							"counter_chance": 0,
+							"stun_immunity_time": 30,
+							"specific_guard_motion": {
+								"parry_cost_multiply": 0.05,
+								"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active2"]
+							}
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:biped/combat/uchigatana_auto1",
+							"convert_time": 0.2,
+							"play_speed": 0.7,
+							"command_list": [
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:biped/combat/uchigatana_auto2",
+							"convert_time": 0.05,
+							"play_speed": 0.7,
+							"command_list": [
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0},
+								{"predicate":"attack_level", "min": 0, "max": 0},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:biped/combat/uchigatana_auto3",
+							"convert_time": 0.05,
+							"play_speed": 0.7,
+							"command_list": [
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 5.0},
+								{"predicate":"attack_level", "min": 0, "max": 0},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:biped/skill/sweeping_edge",
+							"convert_time": 0.2,
+							"play_speed": 0.8,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s star:really_stun_immunity 1", "execute_at_target":false},
+								{"time":0.0, "command":"tag @s add orange", "execute_at_target":false},
+								{"time":0.04, "command":"schedule function danger:danger_orange 8t append", "execute_at_target":false}
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:biped/combat/longsword_dash",
+							"convert_time": 0.35,
+							"play_speed": 0.7,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+
+								{"time":0.01, "command":"execute if entity @s[tag=fatal_draw_able] run indestructible @s set_phase 2", "execute_at_target":false},
+								{"time":0.0, "command":"execute unless entity @s[tag=fatal_draw_able] run indestructible @s set_phase 1", "execute_at_target":false}
+
+                            ],
+							"damage_modifier":{"damage": 1.5,"impact": 3.0,"armor_negation": 2},
+							"hit_command_list": [
+								{"command":"indestructible @s set_phase 2", "execute_at_target":false},
+								{"command":"effect give @s stellariscraft:bloodkill 999999", "execute_at_target":false},
+								{"command":"tag @s add fatal_draw_able", "execute_at_target":false},
+
+								{"command":"indestructible @s play \"epicfight:biped/combat/hit_long\" 0.1 1", "execute_at_target":true},
+								{"command":"execute as @p at @p run playsound epicfight:entity.hit.blade_rush_last block @s ~ ~ ~ 0.8", "execute_at_target":true},
+								{"command":"execute as @p at @p run particle epicfight:blade_rush ~ ~1 ~ 0 0 0 1 1", "execute_at_target":true},
+
+								{"command":"effect give @s alexsmobs:exsanguination 3 2", "execute_at_target":true},
+								{"command":"effect give @s minecraft:strength 2 1", "execute_at_target":false},
+								{"command":"indestructible @s play \"wom:biped/combat/katana_auto_3\" 0.25 0.7", "execute_at_target":false}
+                            ]
+						}
+                    ]
+                },
+				{
+					"weight": 2.4,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 360,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_distance", "min": 0.0, "max": 2.5},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:biped/combat/uchigatana_auto1",
+							"convert_time": 0.3,
+							"play_speed": 0.7,
+							"command_list": [
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:biped/combat/uchigatana_auto2",
+							"convert_time": 0.05,
+							"play_speed": 0.7,
+							"command_list": [
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0},
+								{"predicate":"attack_level", "min": 0, "max": 0},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:biped/combat/uchigatana_auto3",
+							"convert_time": 0.05,
+							"play_speed": 0.7,
+							"command_list": [
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 5.0},
+								{"predicate":"attack_level", "min": 0, "max": 0},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:biped/skill/sweeping_edge",
+							"convert_time": 0.2,
+							"play_speed": 0.8,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s star:really_stun_immunity 1", "execute_at_target":false},
+								{"time":0.0, "command":"tag @s add orange", "execute_at_target":false},
+								{"time":0.04, "command":"schedule function danger:danger_orange 8t append", "execute_at_target":false}
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:biped/combat/longsword_dash",
+							"convert_time": 0.35,
+							"play_speed": 0.7,
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+
+								{"time":0.01, "command":"execute if entity @s[tag=fatal_draw_able] run indestructible @s set_phase 2", "execute_at_target":false},
+								{"time":0.0, "command":"execute unless entity @s[tag=fatal_draw_able] run indestructible @s set_phase 1", "execute_at_target":false}
+
+                            ],
+							"damage_modifier":{"damage": 1.5,"impact": 3.0,"armor_negation": 2},
+							"hit_command_list": [
+								{"command":"indestructible @s set_phase 2", "execute_at_target":false},
+								{"command":"effect give @s stellariscraft:bloodkill 999999", "execute_at_target":false},
+								{"command":"tag @s add fatal_draw_able", "execute_at_target":false},
+
+								{"command":"indestructible @s play \"epicfight:biped/combat/hit_long\" 0.1 1", "execute_at_target":true},
+								{"command":"execute as @p at @p run playsound epicfight:entity.hit.blade_rush_last block @s ~ ~ ~ 0.8", "execute_at_target":true},
+								{"command":"execute as @p at @p run particle epicfight:blade_rush ~ ~1 ~ 0 0 0 1 1", "execute_at_target":true},
+
+								{"command":"effect give @s alexsmobs:exsanguination 3 2", "execute_at_target":true},
+								{"command":"effect give @s minecraft:strength 2 1", "execute_at_target":false},
+								{"command":"indestructible @s play \"wom:biped/combat/katana_auto_3\" 0.25 0.7", "execute_at_target":false}
+                            ]
+						}
+                    ]
+                },
+
+				{
+					"weight": 200,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 360,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 5.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"health", "health": 0.5, "comparator": "less_ratio"}, {"predicate":"phase", "min": 1, "max": 2}
+							],
+							"guard": 8, 
+							"counter": "epicfight:biped/skill/guard_sword_hit_active1",
+							"counter_cost": 0.5, 
+							"counter_chance": 1.0, 
+							"counter_speed": 0.4
+						},
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 5.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"guard": 4,
+							"parry": true,
+							"parry_times": 1,
+							"counter_chance": 0,
+							"stun_immunity_time": 30,
+							"specific_guard_motion": {
+								"parry_cost_multiply": 0.05,
+								"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active2"]
+							}
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:biped/combat/uchigatana_auto1",
+							"convert_time": 0.2,
+							"play_speed": 0.7,
+							"command_list": [
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:biped/combat/uchigatana_auto2",
+							"convert_time": 0.05,
+							"play_speed": 0.7,
+							"command_list": [
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:biped/combat/tachi_auto1",
+							"convert_time": 0.2,
+							"play_speed": 0.8,
+							"command_list": [
+                                {"time":0.0, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false}
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 5.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:biped/combat/tachi_auto2",
+							"convert_time": 0.05,
+							"play_speed": 0.8,
+							"command_list": [
+                                {"time":0.0, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s star:really_stun_immunity 1", "execute_at_target":false},
+								{"time":0.0, "command":"tag @s add orange", "execute_at_target":false},
+								{"time":0.04, "command":"schedule function danger:danger_orange 8t append", "execute_at_target":false}
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:biped/combat/tachi_dash",
+							"convert_time": 0.3,
+							"play_speed": 0.7,
+							"damage_modifier":{"damage": 3,"impact": 3.6,"armor_negation": 3},
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+
+								{"time":0.01, "command":"execute if entity @s[tag=fatal_draw_able] run indestructible @s set_phase 2", "execute_at_target":false},
+								{"time":0.0, "command":"execute unless entity @s[tag=fatal_draw_able] run indestructible @s set_phase 1", "execute_at_target":false}
+                            ],
+							"hit_command_list": [
+								{"command":"indestructible @s set_phase 2", "execute_at_target":false},
+								{"command":"effect give @s stellariscraft:bloodkill 999999", "execute_at_target":false},
+								{"command":"tag @s add fatal_draw_able", "execute_at_target":false},
+
+								{"command":"effect give @s alexsmobs:exsanguination 3 2", "execute_at_target":true},
+
+								{"command":"indestructible @s play \"epicfight:biped/combat/knockdown\" 0.1 1", "execute_at_target":true},
+								{"command":"execute as @p at @p run playsound epicfight:entity.hit.blade_rush_last block @s ~ ~ ~ 0.8", "execute_at_target":true},
+								{"command":"execute as @p at @p run particle epicfight:blade_rush ~ ~1 ~ 0 0 0 1 1", "execute_at_target":true}
+                            ]
+								
+						}
+                    ]
+                },
+				{
+					"weight": 2,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 360,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 0, "max": 0}, {"predicate":"within_distance", "min": 0.0, "max": 2.5},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"health", "health": 0.5, "comparator": "less_ratio"}, {"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:biped/combat/uchigatana_auto1",
+							"convert_time": 0.3,
+							"play_speed": 0.7,
+							"command_list": [
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:biped/combat/uchigatana_auto2",
+							"convert_time": 0.05,
+							"play_speed": 0.7,
+							"command_list": [
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:biped/combat/tachi_auto1",
+							"convert_time": 0.2,
+							"play_speed": 0.8,
+							"command_list": [
+                                {"time":0.0, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false}
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 5.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:biped/combat/tachi_auto2",
+							"convert_time": 0.05,
+							"play_speed": 0.8,
+							"command_list": [
+                                {"time":0.0, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s star:really_stun_immunity 1", "execute_at_target":false},
+								{"time":0.0, "command":"tag @s add orange", "execute_at_target":false},
+								{"time":0.04, "command":"schedule function danger:danger_orange 8t append", "execute_at_target":false}
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 1, "max": 2}
+							],
+							"animation": "epicfight:biped/combat/tachi_dash",
+							"convert_time": 0.3,
+							"play_speed": 0.7,
+							"damage_modifier":{"damage": 3,"impact": 5.0,"armor_negation": 3},
+							"command_list": [
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+
+								{"time":0.01, "command":"execute if entity @s[tag=fatal_draw_able] run indestructible @s set_phase 2", "execute_at_target":false},
+								{"time":0.0, "command":"execute unless entity @s[tag=fatal_draw_able] run indestructible @s set_phase 1", "execute_at_target":false}
+                            ],
+							"hit_command_list": [
+								{"command":"indestructible @s set_phase 2", "execute_at_target":false},
+								{"command":"effect give @s stellariscraft:bloodkill 999999", "execute_at_target":false},
+								{"command":"tag @s add fatal_draw_able", "execute_at_target":false},
+
+								{"command":"effect give @s alexsmobs:exsanguination 3 2", "execute_at_target":true},
+
+								{"command":"indestructible @s play \"epicfight:biped/combat/knockdown\" 0.1 1", "execute_at_target":true},
+								{"command":"execute as @p at @p run playsound epicfight:entity.hit.blade_rush_last block @s ~ ~ ~ 0.8", "execute_at_target":true},
+								{"command":"execute as @p at @p run particle epicfight:blade_rush ~ ~1 ~ 0 0 0 1 1", "execute_at_target":true}
+                            ]
+								
+						}
+                    ]
+                },
+
+
+
+
+
+
+
+				{
+					"weight": 0.001,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 100,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}
+							],
+							"animation": "epicfight:biped/combat/uchigatana_auto1",
+							"convert_time": 0.3,
+							"play_speed": 0.7,
+							"command_list": [
+                            ],
+							"set_phase": 1
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}
+							],
+							"animation": "epicfight:biped/combat/uchigatana_auto2",
+							"convert_time": 0.05,
+							"play_speed": 0.7,
+							"command_list": [
+                            ],
+							"set_phase": 1
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}
+							],
+							"animation": "epicfight:biped/combat/uchigatana_auto3",
+							"convert_time": 0.05,
+							"play_speed": 0.7,
+							"command_list": [
+                            ],
+							"set_phase": 1
+						}
+                    ]
+                },
+				{
+					"weight": 0.001,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 100,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}
+							],
+							"animation": "epicfight:biped/combat/uchigatana_auto2",
+							"convert_time": 0.3,
+							"play_speed": 0.7,
+							"command_list": [
+                            ],
+							"set_phase": 1
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}
+							],
+							"animation": "epicfight:biped/combat/uchigatana_auto3",
+							"convert_time": 0.05,
+							"play_speed": 0.7,
+							"command_list": [
+                            ],
+							"set_phase": 1
+						}
+                    ]
+                },
+				{
+					"weight": 0.001,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 120,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true}
+							],
+							"animation": "wom:biped/combat/katana_auto_3",
+							"convert_time": 0.1,
+							"play_speed": 0.7,
+							"command_list": [
+                            ],
+							"damage_modifier":{"damage": 1,"impact": 0.6,"armor_negation": 1},
+							"set_phase": 1
+						}
+
+                    ]
+                },
+
+                {
+					"weight": 99999,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 12000,
+					"behaviors": [
+                        {
+							"conditions": [
+								{"predicate": "health", "health": 0.5, "comparator": "less_ratio"}
+							],
+							"animation": "epicfight:biped/skill/step_backward",
+							"set_phase": 1
+						},
+                        {
+							"conditions": [
+							],
+							"animation": "wom:biped/skill/roll_backward",
+							"set_phase": 1
+						},
+                        {
+							"conditions": [
+							],
+							"animation": "epicfight:enderman/convert_rage",
+                            "play_speed": 1.2,
+                            "command_list": [
+                                {"time":0.0, "command":"summon minecraft:lightning_bolt ~ ~ ~", "execute_at_target":false},
+                                {"time":0.2, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+                                {"time":0.2, "command":"effect give @s minecraft:resistance 5 3", "execute_at_target":false},
+                                {"time":0.1, "command":"effect give @s alexsmobs:earthquake 2", "execute_at_target":true}
+                            ],
+							"stamina": -10,
+							"set_phase": 1
+						},
+                        {
+							"conditions": [
+							],
+							"animation": "epicfight:enderman/death",
+							"command_list": [
+								{"time":1.0, "command":"indestructible @s play \"epicfight:biped/living/walk\" 0 1", "execute_at_target":false}
+							],
+							"set_phase": 1
+						}
+					]
+				},
+
+
+				{
+					"weight": 10000,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 1200,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": false}, {"predicate":"within_distance", "min": 0.0, "max": 4.0}
+							],
+							"animation": "epicfight:enderman/knee",
+							"convert_time": 0.3,
+							"set_phase": 1
+						}
+
+                    ]
+                },
+				{
+					"weight": 1000,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 60,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": false}, {"predicate":"within_distance", "min": 0.0, "max": 10.0}
+							],
+							"animation": "wom:biped/skill/katana_fatal_draw_dash",
+							"play_speed": 0.8,
+							"convert_time": 0.5,
+							"command_list":[
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+								{"time":0.0, "command":"indestructible @s set_phase 1", "execute_at_target":false},
+								
+								{"time":0.0, "command":"effect give @s epicfight:stun_immunity 2", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 1", "execute_at_target":false}
+							],
+							"set_phase": 1,
+							"hit_command_list":[
+								{"command":"effect give @s alexsmobs:exsanguination 5 2", "execute_at_target":true},
+								{"command":"indestructible @s play \"epicfight:biped/combat/hit_short\" 0.4 1", "execute_at_target":true},
+								{"command":"effect give @s alexsmobs:knockback_resistance 2 9", "execute_at_target":true}
+							]
+						}
+
+                    ]
+                },
+
+
+				{
+					"weight": 10000,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 1200,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"knock_down", "invert": false}
+							],
+							"animation": "star:biped/new/fire_ball",
+							"convert_time": 0.1,
+							"play_speed": 0.5,
+							"command_list": [
+								{"time":0.05, "command":"execute as @s at @s run playsound minecraft:entity.evoker.prepare_summon block @p ~ ~ ~ 10 1.5", "execute_at_target":true},
+								{"time":0.85, "command":"playsound minecraft:entity.wither.hurt block @p ~ ~ ~ 1.5", "execute_at_target":false},
+
+								{"time":1.0, "command":"indestructible @s play \"epicfight:biped/living/walk\" 0 1", "execute_at_target":false},
+
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+                                {"time":0.0, "command":"effect give @s epicfight:stun_immunity 3", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 2", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s minecraft:resistance 3 2", "execute_at_target":false}
+                            ]
+						},
+						{
+							"conditions": [],
+							"wander": 40,
+                            "inaction_time": 30,
+                            "x_axis": 0.0,
+                            "z_axis": -0.8, "set_phase": 1
+                        }
+                    ]
+                },
+				{
+					"weight": 1000,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 60,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"knock_down","invert":false}
+							],
+							"animation": "epicfight:biped/skill/step_forward",
+                            "command_list":[
+								{"time":0.0, "command":"indestructible @s rotate_to_target", "execute_at_target":false},
+
+								{"time":0.0, "command":"effect give @s minecraft:glowing 4", "execute_at_target":false},
+								{"time":0.1, "command":"effect give @s minecraft:instant_damage 2 4", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s epicfight:stun_immunity 4", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s star:really_stun_immunity 4", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s minecraft:resistance 4 3", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s cofh_core:panacea 4", "execute_at_target":false},
+								{"time":0.0, "command":"effect give @s stellarisdlc:stamina_regen_enhanced 4 4", "execute_at_target":false}
+                            ], "set_phase": 1
+						},
+						{
+							"conditions": [],
+							"wander": 50,
+                            "inaction_time": 0,
+                            "x_axis": 0.0,
+                            "z_axis": 0.0, "set_phase": 1
+                        },
+						{
+							"conditions": [],
+							"animation": "wom:biped/skill/meditation_siting",
+							"convert_time": 0.5, "set_phase": 1
+						},
+						{
+							"conditions": [],
+							"animation": "wom:biped/skill/meditation_breathing",
+							"convert_time": 0.5, "set_phase": 1
+						}
+
+					]
+				}
+
+
+            ]
+        }
+    ]
+}

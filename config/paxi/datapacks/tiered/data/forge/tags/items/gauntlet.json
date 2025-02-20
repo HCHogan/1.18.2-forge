@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "epicfight:glove",
+    "davespotioneering:potioneer_gauntlet",
+    "cataclysm:gauntlet_of_guard",
+
+    "davespotioneering:rudimentary_gauntlet",
+    "davespotioneering:netherite_gauntlet"
+  ]
+}

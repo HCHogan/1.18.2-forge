@@ -1,0 +1,1 @@
+execute as @e[type=ba_bt:end_golem,sort=nearest,limit=1] at @s run indestructible @s play "epicfight:biped/skill/guard_break2" 0.4 1

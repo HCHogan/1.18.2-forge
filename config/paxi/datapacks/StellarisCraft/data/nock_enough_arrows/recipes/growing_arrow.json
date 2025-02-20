@@ -1,0 +1,16 @@
+{
+  "type": "nock_enough_arrows:fletching",
+  "fletching": {
+    "item": "minecraft:arrow"
+  },
+  "shaft": {
+    "item": "minecraft:stick"
+  },
+  "arrowhead": {
+    "item": "minecraft:iron_ingot"
+  },
+  "result": {
+    "item": "nock_enough_arrows:growing_arrow",
+    "count": 2
+  }
+}

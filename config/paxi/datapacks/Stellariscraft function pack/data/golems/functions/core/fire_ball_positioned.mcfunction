@@ -1,0 +1,1 @@
+execute as @e[type=ba_bt:core_golem,sort=nearest,limit=1] at @s run execute anchored eyes positioned 0.0 0.0 0.0 run summon minecraft:armor_stand ^ ^ ^2 {Tags:[summon_boo]}

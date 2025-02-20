@@ -1,0 +1,59 @@
+{
+  "id": "stellariscraft:epic1_warrior_greatsword",
+  "weight": 2.5,
+  "reforge_experience_cost": 2,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:reinforcedspar",
+  "verifiers": [
+    {"tag": "forge:greatsword"}
+  ],
+  "style": {
+    "color": "dark_purple"
+  },
+  "attributes": [
+    {
+      "type": "toybox:crit_chance",
+      "modifier": {
+        "name": "stellariscraft:epic1_warrior_greatsword",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": -0.5
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "minecraft:generic.attack_damage",
+      "modifier": {
+        "name": "stellariscraft:epic1_warrior_greatsword",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.16
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "epicfight:stun_armor",
+      "modifier": {
+        "name": "stellariscraft:epic1_warrior_greatsword",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.18
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "epicfight:weight",
+      "modifier": {
+        "name": "stellariscraft:epic1_warrior_greatsword",
+        "operation": "ADDITION",
+        "amount": 6
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

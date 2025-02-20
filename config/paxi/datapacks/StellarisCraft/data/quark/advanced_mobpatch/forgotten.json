@@ -1,0 +1,661 @@
+{
+    "model": "epicfight:entity/skeleton",
+    "armature": "epicfight:entity/skeleton",
+    "renderer": "minecraft:skeleton",
+    "isHumanoid": true,
+    "faction": "undead",
+    "attributes": {
+        "impact": 1.0,
+        "armor_negation": 10.0,
+        "max_strikes": 4,
+        "chasing_speed": 1.0,
+		"scale": 1.1,
+		"max_stamina": 60,
+		"stamina_regan_multiply": 0.14,
+		"stamina_regan_delay": 20,
+		"has_stun_reduction": true,
+		"stamina_lose_multiply": 2.4,
+		"attack_radius": 1.5
+    },
+	"default_livingmotions": {
+        "idle": "epicfight:biped/living/idle",
+        "walk": "epicfight:biped/living/walk",
+        "chase": "epicfight:biped/living/walk",
+        "mount": "epicfight:biped/living/mount",
+        "fall": "epicfight:biped/living/fall",
+        "death": "epicfight:biped/living/death"
+	},
+    "stun_animations": {
+        "short": "epicfight:biped/combat/hit_short",
+        "long": "epicfight:biped/combat/hit_long",
+        "knockdown": "epicfight:biped/combat/knockdown",
+        "fall": "epicfight:biped/living/landing",
+		"neutralize": "epicfight:biped/skill/guard_break1"
+    },
+    "humanoid_weapon_motions": [
+        {
+            "weapon_categories": ["axe", "pickaxe", "shovel", "sword", "fist"],
+            "style":"common",
+            "livingmotions": {
+				"chase": "epicfight:biped/living/walk",
+                "walk": "epicfight:biped/living/walk"
+            }
+        },
+        {
+            "weapon_categories": ["hoe"],
+            "style":"common",
+            "livingmotions": {
+				"chase": "epicfight:biped/living/walk",
+                "walk": "epicfight:biped/living/walk"
+            }
+        },
+        { 
+            "weapon_categories": ["spear", "trident", "tachi"],
+            "style":"common", 
+            "livingmotions": {
+                "chase": "epicfight:biped/living/walk_spear",
+                "walk": "epicfight:biped/living/walk_spear"
+            }
+        },
+        { 
+            "weapon_categories": ["greatsword"],
+            "style":"common", 
+            "livingmotions": {
+                "chase": "epicfight:biped/living/walk_greatsword",
+                "walk": "epicfight:biped/living/walk_greatsword"
+            }
+        },
+        { 
+            "weapon_categories": ["longsword"],
+            "style":"common", 
+            "livingmotions": {
+                "chase": "epicfight:biped/living/walk_longsword",
+                "walk": "epicfight:biped/living/walk_longsword"
+            }
+        },
+        { 
+            "weapon_categories": ["uchigatana"],
+            "style":"common", 
+            "livingmotions": {
+                "chase": "epicfight:biped/living/walk_uchigatana",
+                "walk": "epicfight:biped/living/walk_uchigatana"
+            }
+        },
+        { 
+            "weapon_categories": ["sword"],
+            "style":"two_hand", 
+            "livingmotions": {
+                "chase": "epicfight:biped/living/walk",
+                "walk": "epicfight:biped/living/walk"
+            }
+        }
+
+    ],
+    "custom_guard_motion": [
+	    {
+             "weapon_categories": ["pickaxe", "shovel"],
+			 "style": "common",
+             "guard": "indestructible:guard/guard_sword",
+             "stamina_cost_multiply": 0.4,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.4,
+			 "parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1", "epicfight:biped/skill/guard_sword_hit_active2"]
+        },
+        {
+            "weapon_categories": ["hoe"],
+            "style": "common",
+            "guard": "indestructible:guard/guard_sword",
+            "stamina_cost_multiply": 0.65,
+            "can_block_projectile" : true,
+			"parry_cost_multiply": 0.65,
+			"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1", "epicfight:biped/skill/guard_sword_hit_active2"]
+        },
+        {
+            "weapon_categories": ["axe"],
+            "style": "common",
+            "guard": "indestructible:guard/guard_sword",
+            "stamina_cost_multiply": 0.8,
+            "can_block_projectile" : true,
+			"parry_cost_multiply": 0.8,
+			"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1", "epicfight:biped/skill/guard_sword_hit_active2"]
+        },
+        {
+            "weapon_categories": ["fist"],
+            "style": "common",
+            "guard": "indestructible:guard/guard_dualsword",
+            "stamina_cost_multiply": 0.1,
+            "can_block_projectile" : true,
+			"parry_cost_multiply": 0.1,
+			"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1", "epicfight:biped/skill/guard_sword_hit_active2"]
+        },
+        {
+            "weapon_categories": ["sword"],
+            "style": "two_hand",
+            "guard": "indestructible:guard/guard_dualsword",
+            "stamina_cost_multiply": 0.5,
+            "can_block_projectile" : true,
+			"parry_cost_multiply": 0.5,
+			"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1", "epicfight:biped/skill/guard_sword_hit_active2"]
+        },
+		{
+             "weapon_categories": ["sword"],
+			 "style": "common",
+             "guard": "indestructible:guard/guard_sword",
+             "stamina_cost_multiply": 0.8,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.8,
+			 "parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1", "epicfight:biped/skill/guard_sword_hit_active2"]
+        },
+		{
+             "weapon_categories": ["spear"],
+			 "style": "common",
+             "guard": "indestructible:guard/guard_spear",
+             "stamina_cost_multiply": 0.22,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.22,
+			 "parry_animation": ["epicfight:biped/skill/guard_longsword_hit_active1", "epicfight:biped/skill/guard_longsword_hit_active2"]
+        },
+		{
+             "weapon_categories": ["trident"],
+			 "style": "common",
+             "guard": "indestructible:guard/guard_spear",
+             "stamina_cost_multiply": 0.22,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.22,
+			 "parry_animation": ["epicfight:biped/skill/guard_longsword_hit_active1", "epicfight:biped/skill/guard_longsword_hit_active2"]
+        },
+        {
+             "weapon_categories": ["greatsword"],
+             "style": "common",
+             "guard": "indestructible:guard/guard_greatsword",
+             "stamina_cost_multiply": 0.25,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.25,
+			 "parry_animation": ["epicfight:biped/skill/guard_longsword_hit_active1", "epicfight:biped/skill/guard_longsword_hit_active2"]
+        },
+		{
+             "weapon_categories": ["uchigatana"],
+             "style": "common",
+             "guard": "indestructible:guard/guard_uchigatana",
+             "stamina_cost_multiply": 0.2,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.2,
+			 "parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1", "epicfight:biped/skill/guard_sword_hit_active2"]
+        },
+        {
+             "weapon_categories": ["longsword"],
+             "style": "common",
+             "guard": "indestructible:guard/guard_longsword",
+             "stamina_cost_multiply": 0.2,
+             "can_block_projectile" : true,
+			 "parry_cost_multiply": 0.2,
+			 "parry_animation": ["epicfight:biped/skill/guard_longsword_hit_active1", "epicfight:biped/skill/guard_longsword_hit_active2"]
+        },
+        {
+            "weapon_categories": ["tachi"],
+            "style": "common",
+            "guard": "indestructible:guard/guard_longsword",
+            "stamina_cost_multiply": 0.2,
+            "can_block_projectile" : true,
+			"parry_cost_multiply": 0.2,
+			"parry_animation": ["epicfight:biped/skill/guard_longsword_hit_active1", "epicfight:biped/skill/guard_longsword_hit_active2"]
+       }
+    ],
+	"stun_command_list":[
+		{"command":"tag @s add guard_break_central", "stun_type": "neutralize"},
+		{"command":"effect give @s minecraft:strength 3 1", "stun_type": "neutralize", "execute_at_target":true},
+
+        {"command":"effect give @s minecraft:glowing 3", "stun_type": "neutralize"},
+        {"command":"effect give @s stellarisdlc:fragile 3 1", "stun_type": "neutralize"},
+		{"command":"effect give @s cataclysm:stun 3", "stun_type": "neutralize"},
+		{"command":"effect give @s cofh_core:sundered 3 4", "stun_type": "neutralize"},
+		
+		{"command":"indestructible @s play \"epicfight:biped/skill/guard_break1\" 0.2 0.8", "stun_type": "neutralize"},
+
+		{"command":"execute at @s as @e[distance=..3] run indestructible @s set_phase 1", "stun_type": "neutralize", "execute_at_target":false},
+		{"command":"execute as @e[distance=..2.5] run function global_guard_break:mob_step_backward", "stun_type": "neutralize", "execute_at_target":false}
+	],
+
+    "combat_behavior": [
+        {
+            "weapon_categories": ["sword"],
+            "style": "common",
+            "behavior_series": [                
+                {
+                    "weight": 9999999,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 999999,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                            ],
+                            "animation": "epicfight:biped/skill/step_backward",
+                            "command_list":[
+                                {"time":0.01, "command":"effect give @s epicfight:stun_immunity 1", "execute_at_target":false},
+								{"time":0.01, "command":"effect give @s star:really_stun_immunity 1", "execute_at_target":false},
+
+								{"time":0.1, "command":"data merge entity @s {Attributes:[{Base:2d,Name:\"forge:step_height_addition\"}]}", "execute_at_target":false},
+								{"time":0.1, "command":"data merge entity @s {Attributes:[{Base:3.5d,Name:\"epicfight:stun_armor\"}]}", "execute_at_target":false},
+								{"time":0.1, "command":"data merge entity @s {Attributes:[{Base:520d,Name:\"minecraft:generic.max_health\"}]}", "execute_at_target":false},
+
+								{"time":0.1, "command":"data merge entity @s {ForgeData:{recovery:4.0d}}", "execute_at_target":false},
+								{"time":0.1, "command":"data merge entity @s {ForgeData:{stamina:2.4d}}", "execute_at_target":false}
+                            ],
+							"stamina": -120,
+							"set_phase": 1
+                        }
+                    ]
+                },    
+                {
+                    "weight": 20000,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 60,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate":"phase", "min": 1, "max": 1}
+                            ],
+                            "animation": "epicfight:biped/skill/step_backward"
+                        }
+                    ]
+                },
+            
+            
+                {
+					"weight": 600,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 60,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 3.0}, {"predicate":"attack_level", "min": 1, "max": 3},
+								{"predicate":"phase", "min": 0, "max": 0}
+							],
+							"wander": 40,
+                            "inaction_time": 2,
+                            "x_axis": 0.0,
+                            "z_axis": -0.2
+					    },
+						{
+							"conditions": [
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+								{"predicate":"phase", "min": 0, "max": 0}
+							],
+							"guard": 8,
+                            "counter": "epicfight:biped/skill/guard_sword",
+                            "counter_cost": 1,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6,
+							"specific_guard_motion": {"guard": "epicfight:biped/skill/guard_sword"}
+						},
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 3.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 0, "max": 0}
+							],
+							"guard": 8, 
+							"counter": "epicfight:biped/skill/guard_sword_hit_active2",
+							"counter_cost": 0.5, 
+							"counter_chance": 1.0, 
+							"counter_speed": 0.4,
+							"specific_guard_motion": {"guard": "epicfight:biped/skill/guard_sword_hit_active2"}
+						},
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 4.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 0, "max": 0}
+							],
+							"guard": 4,
+							"parry": true,
+							"parry_times": 1,
+							"counter_chance": 0,
+							"stun_immunity_time": 20,
+							"specific_guard_motion": {
+								"parry_cost_multiply": 0.05,
+								"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1"]
+							}
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 0, "max": 0}
+							],
+							"animation": "epicfight:biped/combat/longsword_auto1",
+							"play_speed": 0.85,
+							"convert_time": 0.2,
+                            "hit_command_list":[
+                                {"command":"effect give @s minecraft:blindness 10", "execute_at_target":true}
+                            ]
+					    },
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 2.5},
+								{"predicate":"phase", "min": 0, "max": 0}
+							],
+							"animation": "epicfight:biped/combat/longsword_auto2",
+							"play_speed": 0.85,
+							"convert_time": 0,
+                            "hit_command_list":[
+                                {"command":"effect give @s minecraft:blindness 10", "execute_at_target":true}
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0},
+								{"predicate":"phase", "min": 0, "max": 0}
+							],
+							"animation": "epicfight:biped/combat/longsword_auto3",
+							"play_speed": 0.85,
+							"convert_time": 0,
+                            "hit_command_list":[
+                                {"command":"effect give @s minecraft:blindness 10", "execute_at_target":true}
+                            ]
+						}
+					]
+				},
+                {
+					"weight": 600,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 60,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 3.0}, {"predicate":"attack_level", "min": 1, "max": 3},
+								{"predicate":"phase", "min": 0, "max": 0}
+							],
+							"wander": 40,
+                            "inaction_time": 2,
+                            "x_axis": 0.0,
+                            "z_axis": -0.2
+					    },
+						{
+							"conditions": [
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+								{"predicate":"phase", "min": 0, "max": 0}
+							],
+							"guard": 8,
+                            "counter": "epicfight:biped/skill/guard_sword",
+                            "counter_cost": 1,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6,
+							"specific_guard_motion": {"guard": "epicfight:biped/skill/guard_sword"}
+						},
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 3.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 0, "max": 0}
+							],
+							"guard": 8, 
+							"counter": "epicfight:biped/skill/guard_sword_hit_active2",
+							"counter_cost": 0.5, 
+							"counter_chance": 1.0, 
+							"counter_speed": 0.4,
+							"specific_guard_motion": {"guard": "epicfight:biped/skill/guard_sword_hit_active1"}
+						},
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 4.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 0, "max": 0}
+							],
+							"guard": 4,
+							"parry": true,
+							"parry_times": 1,
+							"counter_chance": 0,
+							"stun_immunity_time": 20,
+							"specific_guard_motion": {
+								"parry_cost_multiply": 0.05,
+								"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active2"]
+							}
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 2.5},
+								{"predicate":"phase", "min": 0, "max": 0}
+							],
+							"animation": "epicfight:biped/combat/longsword_auto2",
+							"play_speed": 0.85,
+							"convert_time": 0.2,
+                            "hit_command_list":[
+                                {"command":"effect give @s minecraft:blindness 10", "execute_at_target":true}
+                            ]
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0},
+								{"predicate":"phase", "min": 0, "max": 0}
+							],
+							"animation": "epicfight:biped/combat/longsword_auto3",
+							"play_speed": 0.85,
+							"convert_time": 0,
+                            "hit_command_list":[
+                                {"command":"effect give @s minecraft:blindness 10", "execute_at_target":true}
+                            ]
+						}
+					]
+				},
+                {
+					"weight": 600,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 60,
+					"behaviors": [
+						{
+							"conditions": [
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+                                {"predicate":"within_distance", "min": 0.0, "max": 3.0}, {"predicate":"attack_level", "min": 1, "max": 3},
+								{"predicate":"phase", "min": 0, "max": 0}
+							],
+							"wander": 40,
+                            "inaction_time": 2,
+                            "x_axis": 0.0,
+                            "z_axis": -0.2
+					    },
+						{
+							"conditions": [
+								{"predicate":"guard_break","invert":true}, {"predicate":"knock_down","invert":true},
+								{"predicate":"phase", "min": 0, "max": 0}
+							],
+							"guard": 8,
+                            "counter": "epicfight:biped/skill/guard_sword",
+                            "counter_cost": 1,
+                            "counter_chance": 1.0,
+                            "counter_speed": 0.6,
+							"specific_guard_motion": {"guard": "epicfight:biped/skill/guard_sword"}
+						},
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 3.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 0, "max": 0}
+							],
+							"guard": 8, 
+							"counter": "epicfight:biped/skill/guard_sword_hit_active2",
+							"counter_cost": 0.5, 
+							"counter_chance": 1.0, 
+							"counter_speed": 0.4,
+							"specific_guard_motion": {"guard": "epicfight:biped/skill/guard_sword_hit_active2"}
+						},
+						{
+							"conditions": [
+								{"predicate":"attack_level", "min": 1, "max": 3}, {"predicate":"within_distance", "min": 0.0, "max": 4.0},
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"phase", "min": 0, "max": 0}
+							],
+							"guard": 4,
+							"parry": true,
+							"parry_times": 1,
+							"counter_chance": 0,
+							"stun_immunity_time": 20,
+							"specific_guard_motion": {
+								"parry_cost_multiply": 0.05,
+								"parry_animation": ["epicfight:biped/skill/guard_sword_hit_active1"]
+							}
+						},
+						{
+							"conditions": [
+								{"predicate":"guard_break", "invert": true}, {"predicate":"knock_down", "invert": true},
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0},
+								{"predicate":"phase", "min": 0, "max": 0}
+							],
+							"animation": "epicfight:biped/combat/longsword_auto3",
+							"play_speed": 0.85,
+							"convert_time": 0.2,
+                            "hit_command_list":[
+                                {"command":"effect give @s minecraft:blindness 10", "execute_at_target":true}
+                            ]
+						}
+					]
+				},
+
+                {
+                    "weight": 2,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 120,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate":"within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfight:biped/combat/longsword_auto1",
+                            "play_speed": 0.85,
+							"convert_time": 0.2,
+                            "hit_command_list":[
+                                {"command":"effect give @s minecraft:blindness 10", "execute_at_target":true}
+                            ]
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"within_distance", "min": 0.0, "max": 4.0}
+                            ],
+                            "animation": "epicfight:biped/combat/longsword_auto2",
+                            "play_speed": 0.85,
+							"convert_time": 0,
+                            "hit_command_list":[
+                                {"command":"effect give @s minecraft:blindness 10", "execute_at_target":true}
+                            ]
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"within_distance", "min": 0.0, "max": 5.0}
+                            ],
+                            "animation": "epicfight:biped/combat/longsword_auto3",
+                            "play_speed": 0.85,
+							"convert_time": 0,
+                            "hit_command_list":[
+                                {"command":"effect give @s minecraft:blindness 10", "execute_at_target":true}
+                            ]
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfight:biped/combat/longsword_airslash",
+                            "hit_command_list":[
+                                {"command":"effect give @s minecraft:blindness 10", "execute_at_target":true}
+                            ]
+                        },
+                        {
+                            "conditions": [
+                            ],
+                            "animation": "epicfight:biped/skill/step_left"
+                        }
+                    ]
+                },
+                {
+                    "weight": 2,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 120,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate":"within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfight:biped/combat/longsword_auto2",
+                            "play_speed": 0.85,
+							"convert_time": 0.2,
+                            "hit_command_list":[
+                                {"command":"effect give @s minecraft:blindness 10", "execute_at_target":true}
+                            ]
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"within_distance", "min": 0.0, "max": 5.0}
+                            ],
+                            "animation": "epicfight:biped/combat/longsword_auto3",
+                            "play_speed": 0.85,
+							"convert_time": 0,
+                            "hit_command_list":[
+                                {"command":"effect give @s minecraft:blindness 10", "execute_at_target":true}
+                            ]
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfight:biped/combat/longsword_airslash",
+                            "hit_command_list":[
+                                {"command":"effect give @s minecraft:blindness 10", "execute_at_target":true}
+                            ]
+                        },
+                        {
+                            "conditions": [
+                            ],
+                            "animation": "epicfight:biped/skill/step_right"
+                        }
+                    ]
+                },
+                {
+                    "weight": 2,
+                    "canBeInterrupted": false,
+                    "looping": false,
+                    "cooldown": 120,
+                    "behaviors": [
+                        {
+                            "conditions": [
+                                {"predicate":"within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfight:biped/combat/longsword_auto3",
+                            "play_speed": 0.85,
+							"convert_time": 0.2,
+                            "hit_command_list":[
+                                {"command":"effect give @s minecraft:blindness 10", "execute_at_target":true}
+                            ]
+                        },
+                        {
+                            "conditions": [
+                                {"predicate":"within_distance", "min": 0.0, "max": 3.0}
+                            ],
+                            "animation": "epicfight:biped/combat/longsword_airslash",
+                            "hit_command_list":[
+                                {"command":"effect give @s minecraft:blindness 10", "execute_at_target":true}
+                            ]
+                        },
+                        {
+                            "conditions": [
+                            ],
+                            "animation": "epicfight:biped/skill/step_backward"
+                        }
+                    ]
+                }
+
+
+            ]
+        }
+    ]
+}

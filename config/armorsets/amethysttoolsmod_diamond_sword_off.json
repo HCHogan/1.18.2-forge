@@ -1,0 +1,28 @@
+{
+  "armorSetName": "amethysttoolsmod_diamond_sword_off",
+  "performanceMode": true,
+ "offHand": {
+	"itemKey": "amethysttoolsmod:diamond_sword_amethyst"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 1.0,
+      "attributeOperation": 0,
+      "modifierUUID": "c7428a3c-f77c-43ee-be0e-315f125ddf4f",
+      "hideBonusDescription": true,
+      "description": "+1 attack damage" 
+    },
+    {
+      "type": "attribute",
+      "name": "epicfight:offhand_armor_negation",
+      "value": 16,
+      "attributeOperation": 0,
+      "modifierUUID": "c7428a3c-f77c-43ee-be0e-315f125ddf4f",
+      "hideBonusDescription": true,
+      "description": "+16% offhand_armor_negation (EpicFight)" 
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

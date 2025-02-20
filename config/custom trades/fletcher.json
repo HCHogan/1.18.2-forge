@@ -1,0 +1,193 @@
+{
+  "profession": "minecraft:fletcher",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "epicfight:skillbook",
+        "amount": 1,
+        "advancedNBTData": "{skill:\"epicfight:endurance\"}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 3
+      },
+      "tradeExp": 100,
+      "maxUses": 1,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fletcher_skillbook_for_gold_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 5
+      },
+      "request": {
+        "itemKey": "minecraft:arrow",
+        "amount": 32
+      },
+      "tradeExp": 30,
+      "maxUses": 1,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fletcher_arrow_for_copper_coin_0"
+    },
+
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 4
+      },
+      "request": {
+        "itemKey": "minecraft:flint",
+        "amount": 32
+      },
+      "tradeExp": 10,
+      "maxUses": 15,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fletcher_copper_coin_for_flint_0"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 8
+      },
+      "request": {
+        "itemKey": "minecraft:feather",
+        "amount": 32
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fletcher_copper_coin_for_feather_0"
+    },
+    {
+      "offer": {
+        "itemKey": "nock_enough_arrows:prismarine_arrow",
+        "amount": 32
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 8
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fletcher_prismarine_arrow_for_copper_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "nock_enough_arrows:reinforced_arrow",
+        "amount": 16
+      },
+      "request": {
+        "itemKey": "dotcoinmod:copper_coin",
+        "amount": 8
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fletcher_reinforced_arrow_for_copper_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "enchantments": [
+          {
+            "enchantmentKey": "nock_enough_arrows:stockpile",
+            "enchantmentLevel": 2,
+            "maxEnchantmentLevel": 2
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 4
+      },
+      "tradeExp": 50,
+      "maxUses": 1,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:nock_enough_arrows:stockpile_for_gold_coin_0"
+    },
+
+    {
+      "offer": {
+        "itemKey": "cataclysm:void_scatter_arrow",
+        "amount": 16
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 3
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fletcher_void_scatter_arrow_for_copper_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "enchantments": [
+          {
+            "enchantmentKey": "nock_enough_arrows:recovery",
+            "enchantmentLevel": 2,
+            "maxEnchantmentLevel": 2
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "dotcoinmod:iron_coin",
+        "amount": 4
+      },
+      "tradeExp": 50,
+      "maxUses": 1,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:nock_enough_arrows:recovery_for_gold_coin_0"
+    },
+
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "enchantments": [
+          {
+            "enchantmentKey": "minecraft:infinity",
+            "enchantmentLevel": 1,
+            "maxEnchantmentLevel": 2
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 1
+      },
+      "tradeExp": 50,
+      "maxUses": 1,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:fletcher_enchanted_book_for_gold_coin_0"
+    }
+
+  ]
+}

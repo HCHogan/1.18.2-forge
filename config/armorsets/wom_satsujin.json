@@ -1,0 +1,26 @@
+{
+  "armorSetName": "wom_satsujin",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "wom:satsujin"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "epicfight:stamina_regen",
+      "value": -0.5,
+      "attributeOperation": 2,
+      "modifierUUID": "8a47ecfa-1437-4500-98e2-56b33109d29d",
+      "description": "wom_satsujin"
+    },
+    {
+      "type": "attribute",
+      "name": "epicfight:armor_negation",
+      "value": 10,
+      "attributeOperation": 0,
+      "modifierUUID": "8a47ecfa-1437-4500-98e2-56b33109d29d",
+      "hideBonusDescription": true
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

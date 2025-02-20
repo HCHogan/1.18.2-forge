@@ -1,0 +1,20 @@
+{
+  "structures": [
+      {
+          "structure":"stellariscraft:mushroom",
+          "weight":1
+      }
+  ],
+  "placement": {
+      "type": "minecraft:random_spread",
+      " frequency_reduction_method":"legacy_type_3",
+      "spacing": 7,
+      "separation": 5,
+      "salt": 2141305042,
+      "locate_offset": [
+        6,
+        6,
+        6
+      ]
+  }
+}

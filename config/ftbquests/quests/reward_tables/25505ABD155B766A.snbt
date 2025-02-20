@@ -1,0 +1,19 @@
+{
+	id: "25505ABD155B766A"
+	order_index: 0
+	title: "矿物奖励包"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:iron_ingot", count: 8, random_bonus: 8, weight: 8 }
+		{ item: "minecraft:copper_ingot", count: 22, random_bonus: 8, weight: 5 }
+		{ item: "minecraft:gold_ingot", count: 7, random_bonus: 4, weight: 3 }
+		{ item: "aquaculture:neptunium_ingot", random_bonus: 2 }
+		{ item: "minecraft:diamond", count: 2, random_bonus: 2, weight: 4 }
+		{ item: "minecraft:emerald", count: 3, random_bonus: 4, weight: 7 }
+		{ item: "minecraft:netherite_scrap" }
+		{ item: "minecraft:quartz", count: 18, weight: 6 }
+		{ item: "stellariscraft:steelingot", weight: 2 }
+		{ item: "dotcoinmod:copper_coin", count: 2, random_bonus: 4, weight: 4 }
+		{ item: "minecraft:coal_block", count: 8, weight: 3 }
+	]
+}

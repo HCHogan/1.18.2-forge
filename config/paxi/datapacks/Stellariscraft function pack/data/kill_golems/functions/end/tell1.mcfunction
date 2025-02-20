@@ -1,0 +1,1 @@
+title @p[tag=kill_end] title [{"text":"虚空……远不止眼前所见","color":"light_purple"}]

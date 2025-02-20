@@ -1,0 +1,10 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[
+{"item":"minecraft:beef"},
+{"item":"bhc:relic_apple"},
+{"item":"minecraft:beef"}],
+"catalyst":{"item":"stellariscraft:exchangestone"},
+"result":{"item":"artifacts:everlasting_beef"},
+"enchantments":[]
+}

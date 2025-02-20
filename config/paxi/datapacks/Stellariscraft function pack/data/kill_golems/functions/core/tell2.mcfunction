@@ -1,0 +1,1 @@
+title @p[tag=kill_core] title [{"text":"怎能涌入你的身躯","color":"gold"}]

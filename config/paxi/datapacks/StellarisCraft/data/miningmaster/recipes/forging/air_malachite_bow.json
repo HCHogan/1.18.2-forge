@@ -1,0 +1,18 @@
+{
+    "type":"miningmaster:forging_recipe",
+    "gems":[
+    {"item":"miningmaster:power_pyrite_block"},{"item":"miningmaster:lucky_citrine_block"},{"item":"miningmaster:haste_peridot_block"},{"item":"miningmaster:air_malachite_block"},{"item":"miningmaster:ice_sapphire_block"},{"item":"miningmaster:unbreaking_iolite_block"},{"item":"miningmaster:divine_beryl_block"}
+    ],
+    "catalyst":{"item":"minecraft:bow"},
+    "result":{"item":"miningmaster:air_malachite_bow"},
+    "enchantments":[
+        {"enchantment":"majruszsenchantments:hunter","lvl":5},
+        {"enchantment":"minecraft:power","lvl":6},
+        {"enchantment":"minecraft:looting","lvl":4},
+        {"enchantment":"minecraft:quick_charge","lvl":4},
+        {"enchantment":"miningmaster:freezing","lvl":3},
+        {"enchantment":"minecraft:infinity","lvl":2},
+        {"enchantment":"minecraft:mending","lvl":1},
+        {"enchantment":"minecraft:multishot","lvl":1}
+    ]
+}

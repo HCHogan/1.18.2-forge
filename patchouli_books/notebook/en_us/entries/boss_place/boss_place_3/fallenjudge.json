@@ -1,0 +1,36 @@
+{
+    "name": "喵纸（未完成）",
+    "icon": "cataclysm:final_fractal",
+    "category": "patchouli:boss_place_3",
+    "sortnum":6,
+    "pages": [
+        {
+           "type": "T1",
+            "title":"堕落审判者(未完成)",
+            "text": "凭一己之力击碎了末地与主世界之间屏障的传奇，踏入无尽的终末虚无中，他意外瞥见了那不可能存在的终点与无法斩断的轮回，之后陷入了迷茫退出了王国探索队隐居于世。光耀的骑士由于退出背负了骂名，人们认为他空有审判万物的实力却不具备道德，称其为堕落审判者。人们不知道的是即便退出群星他仍在终焉第三次进攻中挡下了终末之力的渗透。终末之力的侵蚀也使其部分铠甲碎裂为$(#ff0000)骑士锭$()"
+        },
+        {
+            "type": "patchouli:entity",
+            "name":"堕落审判者",
+            "entity": "jobinsmobs:fallenjudge",
+            "scale": 0.9,
+            "offset": 0.2
+        },
+        {"type": "spotlight",
+        "title":"召唤材料",
+        "item": "stellariscraft:forget_bone,miningmaster:power_pyrite,stellariscraft:steelingot#4",
+        "text": "遗忘之骨x1$(br)力量黄水晶x1$(br)钢锭x4$(br)最后加入$(1)$(l:boss_place/boss_summon/imessence)往生精华$()$()"
+         },
+         {"type": "spotlight",
+        "title":"特殊掉落物：骑士锭",
+        "item": "stellariscraft:knightingot",
+        "text": "幻影由于力量的不完整，铠甲更易碎裂，当幻影散去时其的护甲会碎为骑士锭。$(br2)堕落审判者掉落1~2个"
+         },
+         {"type": "spotlight",
+         "title":"其他掉落物",
+         "item": "dotcoinmod:iron_coin",
+         "text": "银币1~4个"        
+        }
+        
+    ]
+}

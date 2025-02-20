@@ -1,0 +1,1 @@
+execute as @e[type=ba_bt:end_golem,tag=unstable_end_golem,sort=nearest] at @s run tag @s remove unstable_end_golem

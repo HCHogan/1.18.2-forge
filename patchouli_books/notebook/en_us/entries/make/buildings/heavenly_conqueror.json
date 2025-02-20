@@ -1,0 +1,19 @@
+{
+    "name": "天堂征服者",
+    "icon": "minecraft:elytra",
+    "category": "patchouli:buildings",
+    "sortnum":0,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"天堂征服者/heavenly conpueror",
+            "text": "第三次终焉战争之后，人类节节败退四散而逃，而终焉力量为了消灭人类的有生力量便组建了空军四处巡视，寻找人类残存的蛛丝马迹，然后将人类从这片土地之上永远驱逐。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/heavenly_conqueror.png",
+            "text1":"空中的幽灵骑士",
+            "text2":""
+        }
+    ]
+}

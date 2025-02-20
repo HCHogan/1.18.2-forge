@@ -1,0 +1,9 @@
+{"type":"miningmaster:forging_recipe",
+"gems":
+[{"item":"miningmaster:kinetic_opal"},
+{"item":"artifacts:power_glove"},
+{"item":"miningmaster:kinetic_opal"}],
+"catalyst":{"item":"stellarisdlc:exchangestonecore"},
+"result":{"item":"artifacts:pocket_piston"},
+"enchantments":[]
+}

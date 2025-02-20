@@ -1,0 +1,75 @@
+{
+    "name": "自动化厨房",
+    "category": "patchouli:craft",
+    "icon": "cookingforblockheads:oven",
+   "sortnum": 9,
+    "pages": [
+       {"type": "spotlight",
+        "title":"自动化厨房配件",
+        "item": "cookingforblockheads:oven,cookingforblockheads:sink,cookingforblockheads:counter,cookingforblockheads:cabinet,cookingforblockheads:cooking_table,cookingforblockheads:fridge,cookingforblockheads:magenta_kitchen_floor",
+        "text": "厨师们的杰出发明，有了这些能够相互连接的厨房配件就能够建造出一个美妙的厨房。将食材存储在这里会是个不错的选择。",
+        "link_recipe":true
+         },
+        {
+            "type": "patchouli:png_mining",
+            "image": "stellarisdlc:textures/png/cook1.png",
+            "text1":"自动化厨房"
+            
+          },
+          {
+            "type": "crafting",
+            "recipe": "cookingforblockheads:cooking_table",
+            "title":"烹饪桌",
+            "text":"这种烹饪桌能够帮助整合厨房食材并帮助制作，可制作的物品显示在右侧，左侧是制作的配方。同时也可以点击最右侧的图案对可制作的食物通过不同方式排序，或者用上方黑色搜索栏搜索食材。"
+        },
+        {
+          "type": "patchouli:png_mining",
+          "image": "stellarisdlc:textures/png/cook_table.png",
+          "text1":"烹饪桌"
+        },
+        {
+          "type": "crafting",
+          "recipe": "cookingforblockheads:oven",
+          "title":"烤箱",
+          "text":"自动化的食物烤箱，能够同时烤制大量食物，上方3格放入袋烤食物，左侧为燃料，右侧为烧烤完成的食物。烤箱最多可同时烧烤9个食物。"
+       },
+       {
+        "type": "patchouli:png_mining",
+        "image": "stellarisdlc:textures/png/cook_fire.png",
+        "text1":"烤箱"
+       },
+       {
+        "type": "crafting",
+        "recipe": "cookingforblockheads:preservation_chamber",
+        "text":"冰箱的保鲜模块，$(t:手持右键冰箱)$(5)装入冰箱$()之后可以避免单种食物被制作用光。"
+       },
+       {
+        "type": "crafting",
+        "recipe": "cookingforblockheads:ice_unit",
+        "text":"冰箱的冰冻模块，$(t:手持右键冰箱)$(5)装入冰箱$()之后可以给食物制作提供必要的雪与冰。"
+       },
+       {
+        "type": "crafting",
+        "recipe": "cookingforblockheads:kitchen_counter",
+        "recipe2":"cookingforblockheads:kitchen_cabinet"
+       },
+       {
+        "type": "crafting",
+        "recipe": "cookingforblockheads:fridge",
+        "title":"食物存储",
+        "text":"这些可以用于存储食物，当放置于烹饪桌旁边或者与其他厨房配件相连时，可以作为烹饪桌的食材储备。"
+       },
+       
+       {
+        "type": "crafting",
+        "recipe": "cookingforblockheads:sink",
+        "text":"水槽可以用于给食物制作提供必要的水也可以$(t:空桶或空瓶右键)$(5)取水$()，当然也可以在这里$(t:手持装有液体的桶右键)$(5)倒下$()大部分的液体。"
+       },
+       {"type": "spotlight",
+        "title":"奶罐",
+        "item": "cookingforblockheads:cow_jar,cookingforblockheads:milk_jar,minecraft:anvil",
+        "text": "将牛至于奶罐正上方，用铁砧的下落可以将牛砸入罐中。罐中牛可以定期产奶并$(t:最多存储32桶奶)$(5)存储$()，可以为烹饪桌提供奶类食材。",
+        "link_recipe":false
+         }
+    ]
+  }

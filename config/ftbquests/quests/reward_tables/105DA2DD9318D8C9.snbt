@@ -1,0 +1,26 @@
+{
+	id: "105DA2DD9318D8C9"
+	order_index: 17
+	title: "难度选择"
+	loot_size: 1
+	rewards: [
+		{
+			title: " 简单难度"
+			command: "/difficulty easy"
+			player_command: false
+			type: "command"
+		}
+		{
+			title: "普通难度"
+			command: "/difficulty normal"
+			player_command: false
+			type: "command"
+		}
+		{
+			title: "困难难度"
+			command: "/difficulty hard"
+			player_command: false
+			type: "command"
+		}
+	]
+}

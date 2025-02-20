@@ -1,0 +1,45 @@
+{
+  "armorSetName": "omnis_haunted",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "omnis:haunted_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "omnis:haunted_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "omnis:haunted_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "omnis:haunted_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "omnis:magic_proficiency",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "omnis:staggered",
+      "interactionType": "immunity",
+      "description": "staggered immunity"
+    },
+    {
+      "type": "effect",
+      "name": "omnis:stunned",
+      "interactionType": "immunity",
+      "hideBonusDescription": true,
+      "description": "stunned immunity"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

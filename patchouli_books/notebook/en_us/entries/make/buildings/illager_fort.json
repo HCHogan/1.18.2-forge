@@ -1,0 +1,19 @@
+{
+    "name": "灾厄城堡",
+    "icon": "omnis:haunted_vindicator_axe",
+    "category": "patchouli:buildings",
+    "sortnum":0,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"灾厄城堡/illager_fort",
+            "text": "蛮荒之地中生存需要抱团取暖，因此灾厄势力汇聚于此形成了他们的总部。在数里开外就有着被弩箭击毙的风险，很多探险者想着围剿灾厄势力，然而当踏入这座城堡之后，他们的头被做成了货币供灾厄势力的通货使用。警告所有的探险者，不要轻易踏足这里，他们应该做的是保留生的火种，而不是白白送死。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/illager_fort.png",
+            "text1":"蛮荒故事",
+            "text2":""
+        }
+    ]
+}

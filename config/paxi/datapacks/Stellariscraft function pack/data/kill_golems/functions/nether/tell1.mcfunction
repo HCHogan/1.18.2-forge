@@ -1,0 +1,1 @@
+title @p[tag=kill_nether] title [{"text":"熔铸血肉   以塑魂灵","color":"red"}]

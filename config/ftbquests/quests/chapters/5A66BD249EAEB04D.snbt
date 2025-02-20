@@ -1,0 +1,1081 @@
+{
+	id: "5A66BD249EAEB04D"
+	group: "48B78DC948D03E7E"
+	order_index: 0
+	filename: "5A66BD249EAEB04D"
+	title: "序章"
+	icon: {
+		id: "minecraft:bell"
+		Count: 1b
+		tag: {
+			RepairCost: 1
+			"quark:RuneAttached": 1b
+			Enchantments: [{
+				lvl: 3s
+				id: "minecraft:unbreaking"
+			}]
+			"quark:RuneColor": {
+				id: "quark:black_rune"
+				Count: 1b
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 6.5d
+			y: -7.0d
+			width: 12.0d
+			height: 6.0d
+			rotation: 0.0d
+			image: "blackaures_paintings:textures/painting/p_2.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "1494E457AD8A8335"
+		}
+		{
+			x: 7.0d
+			y: -2.5d
+			width: 2.0d
+			height: 2.0d
+			rotation: -90.0d
+			image: "mca:textures/item/scythe.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "228E462D74AB0ABE"
+		}
+		{
+			x: -12.0d
+			y: -1.0d
+			width: 4.0d
+			height: 4.0d
+			rotation: 0.0d
+			image: "mcwpaintings:textures/painting/shinto.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "1494E457AD8A8335"
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "ba_bt:textures/gui/advancements/battle_towers_icon.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "228E462D74AB0ABE"
+		}
+	]
+	quests: [
+		{
+			title: "&5被选中的新星"
+			icon: {
+				id: "blue_skies:star_flare"
+				Count: 1b
+				tag: {
+					RepairCost: 1
+					"quark:RuneAttached": 1b
+					Enchantments: [{
+						lvl: 3s
+						id: "minecraft:unbreaking"
+					}]
+					"quark:RuneColor": {
+						Count: 1b
+						id: "quark:light_gray_rune"
+					}
+				}
+			}
+			x: -12.0d
+			y: -0.5d
+			shape: "diamond"
+			subtitle: "&6“人类的赞歌就是勇气的赞歌，人类的伟大就是勇气的伟大”"
+			dependencies: ["1657588A0925B96A"]
+			hide: true
+			size: 1.5d
+			id: "1494E457AD8A8335"
+			tasks: [
+				{
+					id: "785ED3D2C1ECD0F0"
+					type: "checkmark"
+					title: "&5开始我的群星之旅！"
+				}
+				{
+					id: "285E1ACE5229DD29"
+					type: "checkmark"
+					title: "&5任务注释的内容不多，请务必阅读一遍！"
+				}
+			]
+			rewards: [
+				{
+					id: "0103A6099C7588CC"
+					type: "item"
+					item: "minecraft:totem_of_undying"
+				}
+				{
+					id: "6837E773534E3395"
+					type: "item"
+					item: {
+						id: "epicfight:skillbook"
+						Count: 1b
+						tag: {
+							skill: "epicfight:step"
+						}
+					}
+				}
+				{
+					id: "3DDD14C82321A30F"
+					type: "item"
+					item: {
+						id: "epicfight:skillbook"
+						Count: 1b
+						tag: {
+							skill: "epicfight:guard"
+						}
+					}
+				}
+				{
+					id: "20BC6376B9F6327C"
+					type: "item"
+					item: "sophisticatedbackpacks:backpack"
+				}
+				{
+					id: "749E7FF474141436"
+					type: "item"
+					item: {
+						id: "minecraft:iron_sword"
+						Count: 1b
+						tag: {
+							terralith: "spire"
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "07F01FD796D7D034"
+					type: "item"
+					item: {
+						id: "epicfight:skillbook"
+						Count: 1b
+						tag: {
+							skill: "epicfight:parrying"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&5幸存者"
+			icon: "minecraft:oak_log"
+			x: -9.0d
+			y: -2.5d
+			shape: "diamond"
+			subtitle: "&e下矿必备"
+			description: ["“夜间怪物出现的越来越频繁了。连牧师都说感受到了愈发明显的腐烂之气。”"]
+			dependencies: ["1494E457AD8A8335"]
+			hide: false
+			id: "7A5DCEBBA33C25FA"
+			tasks: [
+				{
+					id: "377F939FCD2CC75E"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 12L
+					consume_items: true
+				}
+				{
+					id: "3350A1B06D3A1EFF"
+					type: "item"
+					title: "幸存者"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:logs_that_burn"
+						}
+					}
+					count: 24L
+				}
+			]
+			rewards: [
+				{
+					id: "1C5CCDC3EB940BBD"
+					type: "command"
+					auto: "invisible"
+					command: "/say 已解锁篇章：大千世界！"
+					player_command: false
+				}
+				{
+					id: "25E5D3326C2FFABF"
+					type: "item"
+					item: "nock_enough_arrows:torch_arrow"
+					count: 10
+				}
+			]
+		}
+		{
+			title: "&5猎魔委托"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/zombie.png"
+				}
+			}
+			x: 4.5d
+			y: -0.5d
+			shape: "circle"
+			subtitle: "“最近魔物越来越多了”"
+			description: ["踏上属于你的&a猎魔征途&r！"]
+			dependencies: ["450BFC624BB3DD71"]
+			hide: false
+			dependency_requirement: "one_started"
+			id: "5F218A222D0FF0F5"
+			tasks: [
+				{
+					id: "1297857FB08B4167"
+					type: "kill"
+					entity: "minecraft:zombie"
+					value: 5L
+				}
+				{
+					id: "4B85A087F75B69D5"
+					type: "kill"
+					entity: "minecraft:skeleton"
+					value: 5L
+				}
+				{
+					id: "0F977A112AA38CED"
+					type: "kill"
+					entity: "minecraft:spider"
+					value: 5L
+				}
+			]
+			rewards: [
+				{
+					id: "36E173FEC615C493"
+					type: "item"
+					item: "dotcoinmod:iron_coin"
+				}
+				{
+					id: "030B52BEFD908B23"
+					type: "command"
+					auto: "invisible"
+					command: "/say 已解锁篇章：猎魔征途！"
+					player_command: false
+				}
+				{
+					id: "59DF410659BEB048"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 2240263939124024074L
+				}
+				{
+					id: "59D12F92363D3EA2"
+					type: "item"
+					item: {
+						id: "epicfight:skillbook"
+						Count: 1b
+						tag: {
+							skill: "epicfight:technician"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&a调养"
+			icon: "solcarrot:food_book"
+			x: -9.0d
+			y: 1.5d
+			shape: "diamond"
+			subtitle: "“民以食为天”"
+			description: [
+				"&a均衡饮食：快捷栏中饱食度图标展示着你的营养值，当你营养值足够高时能够提供不俗的属性加成                  "
+				"&c在学习防守之前，无法学习冲击防御和招架"
+				""
+			]
+			dependencies: ["1494E457AD8A8335"]
+			hide: false
+			id: "51560B259892D636"
+			tasks: [
+				{
+					id: "682F97E2097CFE04"
+					type: "item"
+					item: "minecraft:wheat"
+					count: 10L
+				}
+				{
+					id: "20BC61F3283C5E41"
+					type: "checkmark"
+					title: "&4选技能前为什么不看看众生倾倒里的技能介绍呢？"
+				}
+			]
+			rewards: [
+				{
+					id: "3B932FF5E081EB27"
+					type: "item"
+					item: "solcarrot:food_book"
+				}
+				{
+					id: "645CCFC58464D83B"
+					type: "command"
+					auto: "invisible"
+					command: "/say 已解锁篇章：惬意生活！"
+					player_command: false
+				}
+				{
+					id: "3D7E9E056B22EB32"
+					type: "item"
+					item: "minecraft:enchanted_golden_apple"
+				}
+			]
+		}
+		{
+			title: "&5击杀死神"
+			icon: {
+				id: "mca:scythe"
+				Count: 1b
+				tag: {
+					Damage: 0
+					active: 1b
+				}
+			}
+			x: 7.0d
+			y: -2.5d
+			shape: "rsquare"
+			subtitle: "阴影当中有什么呢？"
+			description: [
+				"&a在夜深人静之时，使用绿宝石块与黑曜石搭建而成神秘祭坛，在火焰的映照下生成了一只可怕的怪物——死神"
+				""
+				"&c注：召唤死神的方法在书中"
+			]
+			dependencies: ["5F218A222D0FF0F5"]
+			hide: false
+			id: "6DC8585AD5790968"
+			tasks: [
+				{
+					id: "25D7740B936158F9"
+					type: "item"
+					item: "mca:book_death"
+				}
+				{
+					id: "7BDB5F667392AF0D"
+					type: "advancement"
+					advancement: "mca:adventure/kill_grim_reaper"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "05F7A263A6D50D88"
+					type: "item"
+					item: "stellariscraft:adventurespar"
+					count: 2
+				}
+				{
+					id: "377C037F28C560F0"
+					type: "item"
+					item: {
+						id: "minecraft:elytra"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5E037D81D02FC1C4"
+					type: "item"
+					item: "miningmaster:air_malachite"
+				}
+			]
+		}
+		{
+			title: "&5冠军猎人"
+			icon: "minecraft:wither_rose"
+			x: -3.5d
+			y: -0.5d
+			shape: "diamond"
+			description: [
+				"&a终焉决斗中，所有怪物的冠军词条都被固定，击杀带有特殊词条的怪物来完成此任务。"
+				""
+				"&c刷怪笼将在一定时间后自毁（&b某些遗迹结构除外&c）"
+				""
+			]
+			dependencies: [
+				"60CB75FEDE2FA227"
+				"73271C0FB078382E"
+			]
+			hide: false
+			dependency_requirement: "one_completed"
+			id: "228E462D74AB0ABE"
+			tasks: [{
+				id: "1096D5DABB8092BB"
+				type: "advancement"
+				icon: "minecraft:wither_rose"
+				advancement: "stellariscraft:stellaris"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "350FC11CA305100C"
+					type: "item"
+					item: "stellariscraft:adventurespar"
+				}
+				{
+					id: "7860EE3A12ED1B42"
+					type: "item"
+					item: "ringsofascension:ring_health"
+				}
+				{
+					id: "0897ADD58C812243"
+					type: "gamestage"
+					auto: "invisible"
+					ignore_reward_blocking: true
+					stage: "fight_a"
+				}
+			]
+		}
+		{
+			title: "&a剑之歌"
+			icon: {
+				id: "minecraft:diamond_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -6.0d
+			y: -2.5d
+			shape: "diamond"
+			subtitle: "&b史诗战斗的基础动作模板——单手剑"
+			description: [
+				"&a当你双持[铁剑、钻石剑、下界合金剑]时将获得额外效果"
+				"&6PS:新版的灵活格挡叫\"招架\"，强力格挡叫\"冲击防御\""
+				""
+				"注：请双匕首/大剑/三叉戟为主的跨步/翻滚流玩家，先找某村民交易得技巧大师再探险，否则将极难生存"
+				""
+				"&6关于处决：攻击到敌人的格挡上或者格挡敌人的攻击均会减少敌人的耐力条，当敌人耐力条空了的时候攻击敌人可以使2敌人破防，破防后对着敌人右键可以触发处决（位于敌人正前方使用右键处决命中率更高）"
+			]
+			dependencies: ["7A5DCEBBA33C25FA"]
+			hide: false
+			id: "73271C0FB078382E"
+			tasks: [{
+				id: "468DD6E9804B530B"
+				type: "item"
+				item: {
+					id: "minecraft:iron_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "00558DEC5EB4ADE6"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+				count: 3
+			}]
+		}
+		{
+			title: "&5基础的防护"
+			icon: {
+				id: "stellarisdlc:tiestone_armor_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Tiered: {
+						Tier: "stellariscraft:common_helmet"
+					}
+				}
+			}
+			x: -6.0d
+			y: 1.5d
+			shape: "diamond"
+			subtitle: "现在，盔甲套装都有基础的效果。"
+			dependencies: ["51560B259892D636"]
+			hide: false
+			dependency_requirement: "one_completed"
+			id: "60CB75FEDE2FA227"
+			tasks: [
+				{
+					id: "1364E6A275CC80C7"
+					type: "item"
+					item: {
+						id: "stellarisdlc:tiestone_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Tiered: {
+								Tier: "stellariscraft:common_helmet"
+							}
+						}
+					}
+				}
+				{
+					id: "1200FA4ADBA3AA21"
+					type: "item"
+					item: {
+						id: "stellarisdlc:tiestone_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Tiered: {
+								Tier: "stellariscraft:common_armor"
+							}
+						}
+					}
+				}
+				{
+					id: "04188B7712905FB6"
+					type: "item"
+					item: {
+						id: "stellarisdlc:tiestone_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Tiered: {
+								Tier: "stellariscraft:common_armor"
+							}
+						}
+					}
+				}
+				{
+					id: "2BF362B7896346A2"
+					type: "item"
+					item: {
+						id: "stellarisdlc:tiestone_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Tiered: {
+								Tier: "stellariscraft:common_boots"
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "39C3DFBC583119A1"
+					type: "item"
+					item: "artifacts:feral_claws"
+				}
+				{
+					id: "7C7B0B647115A0D6"
+					type: "command"
+					auto: "invisible"
+					command: "/say 已解锁篇章：王之宝库!"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "更为实用的防护"
+			x: 3.0d
+			y: -2.5d
+			subtitle: "结合了原版铁套和钻套的能力。"
+			description: [
+				"&b整合包对护甲的防护功能进行了修改，试着将雪人皮和盔甲结合在一起吧!"
+				""
+				"雪人皮：需找到雪人(极其稀有)或找特定村民售卖。"
+			]
+			dependencies: ["450BFC624BB3DD71"]
+			hide: true
+			dependency_requirement: "one_started"
+			id: "7E7CA338C1D603B9"
+			tasks: [
+				{
+					id: "475DC7ABF1F25A89"
+					type: "item"
+					item: {
+						id: "stellarisdlc:diasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "372DD5A33AE2D775"
+					type: "item"
+					item: {
+						id: "stellarisdlc:diasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "05167084BBD0977E"
+					type: "item"
+					item: {
+						id: "stellarisdlc:diasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1437CB10BFF618CA"
+					type: "item"
+					item: {
+						id: "stellarisdlc:diasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4F7684281B51A4CE"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "499B3594C63B1709"
+					type: "item"
+					item: "cnb:yeti_hide"
+				}
+				{
+					id: "290C3582D82C20E2"
+					type: "item"
+					item: "dummmmmmy:target_dummy_placer"
+				}
+			]
+		}
+		{
+			title: "更为多样的武器"
+			x: 0.5d
+			y: -0.5d
+			description: ["相比原版更多样的武器，它们不仅有着独特的攻击动作，还有更为强大的战技！选择一把趁手的使用吧！"]
+			dependencies: ["228E462D74AB0ABE"]
+			id: "450BFC624BB3DD71"
+			tasks: [
+				{
+					id: "3E9277BAB51FE294"
+					type: "item"
+					title: "石大剑"
+					item: {
+						id: "epicfight:stone_greatsword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "75309BD8C49A56A3"
+					type: "item"
+					title: "石长矛"
+					item: {
+						id: "epicfight:stone_spear"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "57C33F5858A5EECF"
+					type: "item"
+					title: "铁太刀"
+					item: {
+						id: "epicfight:iron_tachi"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "05FF06B0D9FE122C"
+					type: "item"
+					title: "铁长剑"
+					item: {
+						id: "epicfight:iron_longsword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "759AE94ABDF2A279"
+					type: "item"
+					title: "铁匕首"
+					item: {
+						id: "epicfight:iron_dagger"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "64C90F47812BC469"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "37BC9A7762658F77"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2688748745693820522L
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: -0.5d
+			subtitle: "&f传承自某未收录整合包的神秘物品（）"
+			description: ["&a腐化之石集成了主世界怪物的力量，试试用它来打造更强力的装备吧！"]
+			dependencies: ["5F218A222D0FF0F5"]
+			hide: true
+			id: "62443C33F26AE728"
+			tasks: [{
+				id: "7C5C72485A4698D9"
+				type: "item"
+				item: "stellariscraft:rotstone"
+			}]
+			rewards: [{
+				id: "4E439418307B8662"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8808305787422060780L
+			}]
+		}
+		{
+			title: "&d饰品大融合"
+			x: -2.0d
+			y: 1.5d
+			subtitle: "&b除部分饰品禁用，所有饰品都需要晶簇在宝石锻造炉内合成"
+			description: ["&a对宝石锻造炉点用途按键，可查看所有饰品配方；前期3个晶簇保证合成探险指南针，留2个自用"]
+			dependencies: ["450BFC624BB3DD71"]
+			hide: true
+			dependency_requirement: "one_started"
+			id: "18C7EF21E6930EFC"
+			tasks: [
+				{
+					id: "17B064335E475DB5"
+					type: "item"
+					item: "minecraft:lapis_block"
+				}
+				{
+					id: "19F64BE9E310BA58"
+					type: "item"
+					item: "minecraft:redstone_block"
+				}
+				{
+					id: "611D1B29DC2AFB78"
+					type: "item"
+					item: "minecraft:ink_sac"
+				}
+			]
+			rewards: [{
+				id: "44012162164D0F6A"
+				type: "item"
+				item: "stellariscraft:exchangestone"
+				count: 3
+			}]
+		}
+		{
+			title: "制箭台组装"
+			x: -2.0d
+			y: -2.5d
+			subtitle: "&a鼠标指着箭，查看用途，点击jei上方居中处——制箭台-箭矢组装-查看全部配方"
+			description: [
+				"&b整合包为各种箭添加了制箭台合成配方，详情请查看jei"
+				""
+				"各种箭有着各自的用途，如&6火把箭&r可助你点亮黑暗的矿洞；&c加固箭和&d紫晶箭&r使箭矢伤害更高；&2追踪箭&r有一定的自动追踪效果；&b海晶箭&r能无视水下阻力"
+				""
+				"&c注：爆炸箭、排斥箭、钻头箭禁用"
+				""
+				"为&2追踪箭&r做了套装效果以补偿伤害，其放置于副手时，弓箭伤害翻倍。且：凋零有弹射物免疫，不要用追踪箭射它。"
+				"清除多余的&2追踪箭&r：/kill @e[type=nock_enough_arrows:seeker_arrow]。"
+				""
+			]
+			dependencies: ["450BFC624BB3DD71"]
+			hide: true
+			dependency_requirement: "one_started"
+			id: "527A4E5547538AD9"
+			tasks: [
+				{
+					id: "4856A48227AE537A"
+					type: "item"
+					item: "nock_enough_arrows:torch_arrow"
+				}
+				{
+					id: "7BD531B27CA0551E"
+					type: "item"
+					item: "minecraft:arrow"
+				}
+			]
+			rewards: [
+				{
+					id: "15FC506518C55296"
+					type: "item"
+					item: "nock_enough_arrows:torch_arrow"
+					count: 16
+				}
+				{
+					id: "5E7290FBE710BF82"
+					type: "item"
+					item: "nock_enough_arrows:seeker_arrow"
+					count: 4
+				}
+				{
+					id: "12A874E84A039B21"
+					type: "item"
+					item: "nock_enough_arrows:prismarine_arrow"
+					count: 4
+				}
+				{
+					id: "5E8F448540CEB55F"
+					type: "item"
+					item: "nock_enough_arrows:reinforced_arrow"
+					count: 4
+				}
+				{
+					id: "4623181DD2A373A3"
+					type: "item"
+					item: "amethysttoolsmod:amethyst_arrow"
+					count: 4
+				}
+				{
+					id: "5314655665A42C58"
+					type: "item"
+					item: "nock_enough_arrows:ethereal_arrow"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "地图的妙用"
+			x: 3.0d
+			y: 1.5d
+			subtitle: "&6制图师售卖冒险卷轴，用于探查关键boss遗迹"
+			description: [
+				"&b关于地图的用法："
+				""
+				"冒险卷轴合成内含地图的木桶，切记一定要将木桶放在对应维度，打开会加载地图；"
+				""
+				"地图为指令搜索法，本质与locate指令原理是一样的；若嫌麻烦可以开指令搜索，也可以主手持地图输入/ct hand data，查看结构坐标(x与z值)"
+				""
+				"最后，指令搜索亦有范围上限：指南针范围6000格以内(有时接近6000格也会搜不到)，指令与地图上限约在20000格，超过范围/非本维度是搜不到的"
+				""
+				"&e&n你知道那个十字，每次回来你都有机会看见它，也许它的中心是关键(*)"
+			]
+			dependencies: ["450BFC624BB3DD71"]
+			hide: true
+			dependency_requirement: "one_started"
+			id: "5EA98251A2045EB9"
+			tasks: [{
+				id: "6472D92CC570345D"
+				type: "item"
+				item: "minecraft:map"
+			}]
+			rewards: [
+				{
+					id: "2A09F993C84FB5DD"
+					type: "item"
+					item: "stellarisdlc:adventure_scroll"
+				}
+				{
+					id: "27BE25F55D97D4CD"
+					type: "item"
+					item: "minecraft:cartography_table"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -0.5d
+			subtitle: "&6今天是......超市特价日啊！"
+			description: ["&a市场提供了购买作物、&c稀有种子、&b动物刷怪蛋的机会。"]
+			hide_dependency_lines: false
+			dependencies: ["5F218A222D0FF0F5"]
+			hide: true
+			id: "44987F4E3CBBF9EE"
+			tasks: [{
+				id: "31B1A2ED200FA39B"
+				type: "item"
+				item: "farmingforblockheads:market"
+			}]
+			rewards: [
+				{
+					id: "4D9615E3186727E9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "47916EA9E8882A03"
+					type: "item"
+					item: "dotcoinmod:copper_coin"
+				}
+			]
+		}
+		{
+			title: "&a盾之舞"
+			icon: {
+				id: "minecraft:shield"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -6.0d
+			y: -0.5d
+			shape: "diamond"
+			subtitle: "&b将盾牌分为了圆盾、方盾、塔盾3大类"
+			description: [
+				"&a圆盾&r：较低的举盾冷却、招架窗口；较高的移速、招架反伤；极低的防御耐力(按下格挡最多抵挡的伤害次数)"
+				""
+				"&b方盾&r：均衡"
+				""
+				"&6塔盾&r：较高的举盾冷却、招架窗口、防御耐力；很低的移速、招架反伤"
+			]
+			dependencies: ["73271C0FB078382E"]
+			hide: false
+			id: "1C32DFA5AB87FB74"
+			tasks: [{
+				id: "38FD3D36B7E4A8B6"
+				type: "item"
+				item: {
+					id: "minecraft:shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "28B9D6B7A201AB79"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+				count: 3
+			}]
+		}
+		{
+			title: "&a盾牌套装效果"
+			x: -9.0d
+			y: -0.5d
+			shape: "diamond"
+			subtitle: "&b条件：主手长枪或长剑，副手圆盾或塔盾触发"
+			description: [
+				"&d为防止套装效果过多遮住武器描述栏，&r在此简述："
+				"&c等级：&r木/石/金质为&a1级&r，铁/钻石/合金为&b2级&r，特殊盾为&63级&r；1-2级套装效果隐藏。"
+				""
+				"&a圆盾系列：&r右键敌人造成乏力、恶化debuff；图示1级："
+				"{image:sc:textures/shield_round1.png width:200 height:20 align:1}"
+				"&6塔盾系列：&r右键敌人造成震荡、震动debuff，但自身受到减速；图示1级套装效果："
+				"{image:sc:textures/shield_tower1.png width:200 height:25 align:1}"
+				"其他：尖刺盾、月长石盾为方盾；雨伞饰品为1级圆盾"
+			]
+			dependencies: ["1C32DFA5AB87FB74"]
+			hide: false
+			id: "0753E74787242762"
+			tasks: [
+				{
+					id: "3D97F2A016C2A1BC"
+					type: "item"
+					item: {
+						id: "shieldexp:wooden_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5109B9F672D7428C"
+					type: "item"
+					item: {
+						id: "shieldexex:wooden_tower_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1750CEA0D541D587"
+				type: "item"
+				item: "dotcoinmod:copper_coin"
+				count: 6
+			}]
+		}
+		{
+			title: "重复领取防守/跨步技能书"
+			x: -15.0d
+			y: -0.5d
+			subtitle: "&e如标题所示，可反复领取防守/跨步两个基础技能书"
+			hide_dependency_lines: true
+			dependencies: ["1494E457AD8A8335"]
+			can_repeat: true
+			id: "16EE91A7CC13D579"
+			tasks: [{
+				id: "616CCFE2F3DB7C61"
+				type: "item"
+				item: {
+					id: "minecraft:iron_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0FB009DFCA0A4BDB"
+					type: "item"
+					item: {
+						id: "epicfight:skillbook"
+						Count: 1b
+						tag: {
+							skill: "epicfight:guard"
+						}
+					}
+				}
+				{
+					id: "0F8B5F63B6F31F5F"
+					type: "item"
+					item: {
+						id: "epicfight:skillbook"
+						Count: 1b
+						tag: {
+							skill: "epicfight:step"
+						}
+					}
+				}
+			]
+		}
+	]
+	quest_links: [{
+		linked_quest: "5FEB0BCED60A7D15"
+		x: 7.0d
+		y: 1.5d
+		id: "375952FADB1E97EC"
+	}]
+}

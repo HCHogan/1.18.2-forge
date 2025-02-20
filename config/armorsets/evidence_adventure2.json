@@ -1,0 +1,32 @@
+{
+  "armorSetName": "evidence_adventure2",
+  "performanceMode": true,
+
+  "additionalSetPieces":[
+    {
+    "itemKey": "stellarisdlc:evidenceadventure_2",
+    "mustBeEmpty": false
+  }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.1,
+      "attributeOperation": 2,
+      "modifierUUID": "13caf475-1b47-4172-a458-4deb6cb2ea2d",
+      "description": "evidence_adventure2"    
+    },
+    {
+      "type": "effect",
+      "name": "stellarisdlc:steelized",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 80,
+      "hideBonusDescription": true,
+      "onlyImmuneToNewEffects": false
+    }
+
+  ],
+  "hideGeneratedTooltip": false
+}

@@ -1,0 +1,19 @@
+{
+    "name": "铸造厂/铁处女",
+    "icon": "minecraft:netherite_block",
+    "category": "patchouli:buildings",
+    "sortnum":0,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"铸造厂/foundry",
+            "text": "由于维度壁垒被打破偶然诞生的巨大遗迹，充斥着下界滚烫的熔岩，最初的遗迹是被岩浆包裹的然而由于主世界的温度过低，很多外部的熔岩在诞生的瞬间被冷却形成了大量的黑曜石结构。有传言，这里的财富甚至要远超下界的猪灵堡垒，但是也遍布着危险的下界原生物种。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/foundry.png",
+            "text1":"滚烫的未知熔炉",
+            "text2":""
+        }
+    ]
+}

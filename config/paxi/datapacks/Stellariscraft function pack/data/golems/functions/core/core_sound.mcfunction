@@ -1,0 +1,1 @@
+execute as @p at @s run playsound ba_bt:entity.golem.charge block @p ~ ~ ~ 1

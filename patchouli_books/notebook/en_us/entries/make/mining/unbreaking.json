@@ -1,0 +1,38 @@
+{
+    "name": "不毁堇青石",
+    "category": "patchouli:mining",
+    "icon": "miningmaster:unbreaking_iolite",
+    "pages": [
+       {"type": "spotlight",
+        "title":"不毁堇青石",
+        "item": "miningmaster:unbreaking_iolite",
+        "text": "吸收了不毁力量产生的珍惜矿物，据说其不毁的魔力是附魔的良好基石$(br2)分布极其稀少，蘑菇岛生物群系的地下会少量增加数量，流浪商人有时也会以1金币的价格售卖。$(br)作为水生生物的$(#ff0000)杀戮将军$()本该死去，可能是由于私藏此物才能长久生存于陆地",
+        "link_recipe":true
+         },
+        {
+            "type": "patchouli:png_mining",
+            "image": "stellarisdlc:textures/png/unbreaking.png",
+            "text1":"不毁堇青石矿",
+            "text2":"生成层数y:-40~20$(br)蘑菇岛群系:9个/区块$(br)其他群系:0.5个/区块"
+            
+          },
+      {
+         "type":"patchouli:smith",
+         "head":"不毁堇青石的简单使用",
+         "item1": "minecraft:diamond_sword{Enchantments:[{id:'unbreaking',lvl:1s}]}",
+        "item2": "miningmaster:unbreaking_iolite",
+        "item3": "minecraft:diamond_sword{Enchantments:[{id:'unbreaking',lvl:2s}]}",
+        "text":"在$(#ff0000)锻造台$()上可以给予物品不毁属性的力量，可以通过再次锻造反复提升力量但是由于并非专业的魔力注入，$(#ff0000)无法突破这些附魔原有的极限。$()"
+        
+      },
+     {
+         "type":"patchouli:smith",
+         "head":"不毁堇青石的简单使用",
+         "item1": "minecraft:diamond_sword",
+        "item2": "miningmaster:unbreaking_iolite_block",
+        "item3": "minecraft:diamond_sword{Enchantments:[{id:'mending',lvl:1s}]}",
+        "text":"制作成块的不毁堇青石的属性发生了质变在$(#ff0000)锻造台$()上可以给予物品$(#ff0000)经验修补$()的附魔。"
+        
+      }
+    ]
+  }

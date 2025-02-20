@@ -1,0 +1,32 @@
+{
+  "id": "stellariscraft:3_slowness",
+  "weight": 1.02,
+  "reforge_experience_cost": 1,
+  "reforge_durability_cost": 1,
+  "reforge_item": "stellarisdlc:forgedspar",
+  "verifiers": [
+    {"tag": "forge:helmets"},
+    {"tag": "forge:chestplates"},
+    {"tag": "forge:leggings"},
+    {"tag": "forge:boots"}
+  ],
+    "style": {
+    "color": "dark_red"
+  },
+  "attributes": [
+    {
+      "type": "generic.movement_speed",
+      "modifier": {
+        "name": "stellariscraft:3_slowness",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": -0.2
+      },
+      "optional_equipment_slots": [
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    }
+  ]
+}

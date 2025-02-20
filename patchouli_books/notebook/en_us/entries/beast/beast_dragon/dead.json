@@ -1,0 +1,38 @@
+{
+    "name": "致命纳德",
+    "icon": "isleofberk:deadly_nadder_spawn_egg",
+    "category": "patchouli:beast_dragon",
+    "advancement":"minecraft:husbandry/root",
+    "sortnum":2,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"致命纳德",
+            "text": "生有漂亮绚丽的花纹，吐息会吐出镁粉造成烟花般炙热的火焰很符合它绚丽的外表，拥有敏锐的嗅觉导致它从利刺纲归类为追踪纲，它们速度非常快，尾巴有着82根尖刺隐藏在它的花纹里，遇到危险会竖起再如鞭子般甩动尾巴将尖刺射出。"
+        },
+        {
+            "type": "png_dragon",
+            "image":"stellarisdlc:textures/png/dead.png",
+            "text1":"追踪纲:致命纳德",
+            "text2":"大部分的龙族并不都像唤雷龙和蝎子龙那般好斗，解放获得自由的同时，人类的围剿于自身的反抗让它们极端反感反感。正是这样，即便过去了千百年，它们的后代们仍然会本能的对全副武装的人类感到厌恶。"
+        },
+         {"type":"TT",
+           "head":"栖息群系",
+           "text":"积雪的平原、草甸、风袭丘陵、风袭砂砾丘陵、风袭森林、稀疏的丛林、热带草原、热带高原、雪林、森林、繁花森林、桦木森林、原始桦木森林、风袭热带草原"
+},
+        {"type": "spotlight",
+        "title":"驯服",
+        "item": "minecraft:chicken",
+        "text": "与其他龙种不同的是它们尤其无法拒绝美食特别是鸡肉,因此你可以仅仅需要喂食一定量的鸡肉就可以驯服它。$(br2)上鞍后可以被玩家骑乘,无鞍具可以短暂的骑乘$(br)使用木棍，右键命令该龙:坐下、跟随、游荡。$(br)可以携带箱子。"
+         },
+         {"type": "spotlight",
+        "title":"繁殖",
+        "item": "minecraft:suspicious_stew,isleofberk:nadder_egg",
+        "text": "喂食谜之炖菜可让致命纳德繁殖，2只致命纳德配对后会产生致命纳德蛋。$(br2)蛋的孵化时间为40分钟，需要附近有$(#ff0000)热源(光源)$()"
+         },
+         {"type":"TT",
+           "head":"技能列表",
+           "text":"吐息技能:火焰吐息$(br)按$(k:isleofberk.keyAbility)消耗火焰值进行吐息，停止吐息时火焰值会回复。$(br2)特殊技能:按$(k:isleofberk.keySpecialAbility)将它的尖刺朝前方射出$(br2)被动技能:无"
+           }
+    ]
+}

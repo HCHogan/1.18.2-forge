@@ -1,0 +1,30 @@
+{
+    "name": "幽咽蛛王",
+    "icon": "blue_skies:spider_webbing",
+    "category": "patchouli:beast_strong",
+    "sortnum":16,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"幽咽蛛王/poison dungeon",
+            "text": "恒晓之地的上古凶兽，由召唤师采用精灵一族的禁忌咒术召唤而来。产生的毒液相较于主世界的要更加凶猛能轻松致人于死地，一旦被其捉住就很难脱身。好在其难以忍受坚硬的撞击，如果在其飞扑撕咬时用月长石盾牌或者尖刺盾牌抵挡，能够让其眩晕一段时间。"
+        },
+        {
+            "type": "png_mining",
+            "image":"stellarisdlc:textures/png/spider_king.png",
+            "text1":"凶残的上古猛兽",
+            "text2":""
+        },
+     {"type": "spotlight",
+        "title":"召唤方法",
+        "item": "blue_skies:nature_key,blue_skies:nature_keystone",
+        "text": "在永远处于日出的剧毒地牢之中可以在每一层找到各一把钥匙，携带四把钥匙插入地牢最下方的钥匙孔，便会取得挑战地牢领主的资格。"
+         },
+        {"type": "spotlight",
+        "title":"掉落物",
+        "item": "blue_skies:arachnarch_trophy,blue_skies:poison_arc,blue_skies:different_sword,blue_skies:venom_sac,minecraft:enchanted_book,blue_skies:spider_webbing,blue_skies:aquite,minecraft:spider_eye,minecraft:string,minecraft:splash_potion,blue_skies:horizonite_ingot",
+        "text": "击杀后必掉落$(br)幽咽蛛王奖杯1个$(br)根据战利品袋品质获得毒之饰品$(br)概率掉落奇异之剑、附魔书、毒刺$(br)随机数量蜘蛛眼、天闪石、蜘蛛网纹、剧毒喷溅药水、线、炙铁。"
+         }
+        
+    ]
+}

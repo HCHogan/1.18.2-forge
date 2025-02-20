@@ -1,0 +1,38 @@
+{
+    "name": "疾刺龙",
+    "icon": "isleofberk:speed_stinger_spawn_egg",
+    "category": "patchouli:beast_dragon",
+    "advancement":"minecraft:husbandry/root",
+    "sortnum":2,
+    "pages": [
+        {
+           "type": "T1",
+           "title":"疾刺龙",
+            "text": "疾刺龙体型小巧而敏捷，过着群居生活。首领的体型比其余的疾刺龙大得多。这种龙不会飞，但是他们跑得非常快，疾刺龙是隐藏在黑暗中的食腐动物，它们会寻找任何可以吃的东西。只需要一滴疾刺龙毒液就可以瞬间麻醉一个人或一条龙。这种生物成群行动，有一只领头龙来指挥团队的动向。"
+        },
+        {
+            "type": "png_dragon",
+            "image":"stellarisdlc:textures/png/speed.png",
+            "text1":"利刺纲:疾刺龙",
+            "text2":"掠夺的本性、藏匿于黑暗，让这一种族从最开始就被龙族文明排除在外。正因如此，很少有人类知道这种龙，或者说很少有人类能够活着将这种龙存在的信息带回去。"
+        },
+         {"type":"TT",
+           "head":"栖息群系",
+           "text":"裸岩山峰、尖峭山峰、草甸、冰冻深海、冻洋、冰刺之地、雪原、丛林、竹林、稀疏丛林、针叶林、原始云杉针叶林。$(br2)野生的疾刺龙会在巢穴附近活动，巢穴内则有头领疾刺龙。"
+},
+        {"type": "spotlight",
+        "title":"驯服",
+        "item": "minecraft:iron_sword,minecraft:rabbit",
+        "text": "成年的疾刺龙无法被驯服，只有幼年疾刺龙可以驯服，因此只能等待野生疾刺龙的龙蛋孵化完成喂食生兔肉驯服$(br2)不可被上鞍骑乘$(br)使用木棍，右键命令该龙:坐下、跟随、游荡。$(br)可以携带箱子。"
+         },
+         {"type": "spotlight",
+        "title":"繁殖",
+        "item": "minecraft:suspicious_stew,isleofberk:speed_stinger_egg",
+        "text": "喂食谜之炖菜可让疾刺龙繁殖，2只疾刺龙配对后会产生疾刺龙蛋。$(br2)蛋的孵化时间为10分钟，需要附近有$(#ff0000)热源(光源)$()"
+         },
+         {"type":"TT",
+           "head":"技能列表",
+           "text":"吐息技能:无$(br2)特殊技能:无$(br2)被动技能:水上行走、麻醉伤害"
+           }
+    ]
+}

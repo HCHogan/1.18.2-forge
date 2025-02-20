@@ -1,0 +1,931 @@
+{
+	id: "11BE242BBD7AA9BB"
+	group: "3AE5966EA782F1F6"
+	order_index: 2
+	filename: "11BE242BBD7AA9BB"
+	title: "蔚蓝御风"
+	icon: {
+		id: "blue_skies:everbright_portal"
+		Count: 1b
+		tag: {
+			RepairCost: 1
+			Enchantments: [{
+				lvl: 3s
+				id: "minecraft:unbreaking"
+			}]
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 5.5d
+			y: -6.5d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "mcwpaintings:textures/painting/bonsai.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "12778C631A6323B0"
+		}
+		{
+			x: -4.5d
+			y: -6.5d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "blue_skies:textures/item/tools/drained_arc_sword.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "5E48EE0086C85EEE"
+		}
+		{
+			x: 0.5d
+			y: -6.5d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "blue_skies:textures/gui/journal/icons/arcs.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "7A9E8126545ECAC1"
+		}
+	]
+	quests: [
+		{
+			title: "&5极昼之崖"
+			icon: "blue_skies:everbright_portal"
+			x: -3.0d
+			y: 0.5d
+			shape: "rsquare"
+			subtitle: "&6嘿！你的蔚蓝之证呢！"
+			hide_dependency_lines: true
+			dependencies: ["12AAD2969091AD80"]
+			hide: true
+			size: 1.5d
+			id: "5E48EE0086C85EEE"
+			tasks: [{
+				id: "149E09DFE0840C4A"
+				type: "dimension"
+				dimension: "blue_skies:everbright"
+			}]
+			rewards: [{
+				id: "0324DC047C14AE91"
+				type: "xp"
+				xp: 199
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.5d
+			shape: "diamond"
+			subtitle: "&a获得任意一个恒晓的原木"
+			dependencies: ["12778C631A6323B0"]
+			id: "18D89E05E1018626"
+			tasks: [{
+				id: "67547260983447BE"
+				type: "advancement"
+				advancement: "blue_skies:everdawn/get_wood"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "36940E9D37AFCBB1"
+					type: "xp"
+					xp: 199
+				}
+				{
+					id: "09DC767AE5730F80"
+					type: "item"
+					item: "blue_skies:charoite"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "&2炼金师: Everdawn Blinding Dungeon"
+			icon: "blue_skies:alchemist_spawn_egg"
+			x: 10.0d
+			y: 0.5d
+			shape: "diamond"
+			description: ["PS：蔚蓝模组设定——所有boss均可用饰品右键门锁重新召唤，但是有冷却时间"]
+			dependencies: ["18D89E05E1018626"]
+			id: "4AF41FE510DEA9E0"
+			tasks: [{
+				id: "507C88E151350772"
+				type: "advancement"
+				icon: "blue_skies:alchemist_spawn_egg"
+				advancement: "blue_skies:everdawn/kill_alchemist"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "20E5464E45E0FF46"
+					type: "xp"
+					xp: 199
+				}
+				{
+					id: "6EC225187B662D30"
+					type: "item"
+					item: {
+						id: "blue_skies:summoning_tome"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&4&l幽咽蛛王"
+			icon: "blue_skies:arachnarch_spawn_egg"
+			x: 16.0d
+			y: 0.5d
+			shape: "rsquare"
+			subtitle: "&4“恶意的来源……就是它了吗……”"
+			description: ["&4令人毛骨悚然的爬行声安静了下来……"]
+			dependencies: [
+				"10026263C13C629F"
+				"60FCB994194306C9"
+			]
+			hide_text_until_complete: true
+			id: "3AF9F254A6B82782"
+			tasks: [{
+				id: "4BDAFB731306E376"
+				type: "advancement"
+				icon: "blue_skies:arachnarch_spawn_egg"
+				advancement: "blue_skies:everdawn/kill_arachnarch"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "19C07478664E7261"
+					type: "item"
+					item: "stellariscraft:adventurespar"
+					count: 2
+				}
+				{
+					id: "49E849A51AFA3CDF"
+					type: "xp"
+					xp: 199
+				}
+				{
+					id: "68D5F71ACDC20A5A"
+					type: "item"
+					item: "miningmaster:air_malachite"
+				}
+				{
+					id: "651056D17F0B4A1B"
+					type: "item"
+					item: "stellarisdlc:attribute_scrap"
+				}
+			]
+		}
+		{
+			title: "进度：&6蜘蛛之吻: Poison Dungeon"
+			x: 13.0d
+			y: 0.5d
+			shape: "diamond"
+			subtitle: "&4阴暗潮湿……遍地都是不可名状的节肢动物"
+			description: [
+				"&4地底的深处传来一阵强烈的恶意"
+				""
+				"巢穴在落日枫林群系，若太远搜不到可试着搜索该群系"
+				"建议先在下界找到&c复合弩&r，详见&c炽热光辉&r章节。"
+				""
+				"&c不要在蛛王和大树无敌期间（刚进房间5s）打他俩，会导致崩溃"
+			]
+			dependencies: ["4AF41FE510DEA9E0"]
+			id: "10026263C13C629F"
+			tasks: [{
+				id: "3E33C3DC84D78271"
+				type: "advancement"
+				advancement: "blue_skies:everdawn/enter_poison_dungeon"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "12EFAFB0DF638BF7"
+				type: "xp"
+				xp: 199
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.5d
+			shape: "diamond"
+			subtitle: "&a获得任意一个永昼的原木"
+			dependencies: ["5E48EE0086C85EEE"]
+			id: "6E212FF0182CEEA7"
+			tasks: [{
+				id: "06969B82B1A10F11"
+				type: "advancement"
+				advancement: "blue_skies:everbright/get_wood"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "42BDA86D929EE082"
+					type: "xp"
+					xp: 199
+				}
+				{
+					id: "5344758F725A9684"
+					type: "item"
+					item: "blue_skies:charoite"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "&2召唤师: Everbright Blinding Dungeon"
+			icon: "blue_skies:summoner_spawn_egg"
+			x: -9.0d
+			y: 0.5d
+			dependencies: ["6E212FF0182CEEA7"]
+			id: "41F4D87AB24A0481"
+			tasks: [{
+				id: "0712FA86476706AB"
+				type: "advancement"
+				icon: "blue_skies:summoner_spawn_egg"
+				advancement: "blue_skies:everbright/kill_summoner"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "6FF64ABD217D3568"
+					type: "item"
+					item: "stellariscraft:adventurespar"
+				}
+				{
+					id: "56D8E7ED5D3592CD"
+					type: "xp"
+					xp: 199
+				}
+			]
+		}
+		{
+			title: "&a&l星荧粉碎者"
+			icon: "blue_skies:starlit_crusher_spawn_egg"
+			x: -15.0d
+			y: 0.5d
+			shape: "diamond"
+			subtitle: "&a强烈的生命气息……会行走的树木"
+			description: ["&a终究只是一株植物罢了……"]
+			dependencies: [
+				"535F8DEAA5E91E1F"
+				"60FCB994194306C9"
+			]
+			dependency_requirement: "one_completed"
+			hide_text_until_complete: true
+			id: "7A9E8126545ECAC1"
+			tasks: [{
+				id: "75D88BCA72CBB5C2"
+				type: "advancement"
+				icon: "blue_skies:starlit_crusher_spawn_egg"
+				advancement: "blue_skies:everbright/kill_starlit_crusher"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "5880472E6DCEFF29"
+					type: "item"
+					item: "stellariscraft:adventurespar"
+					count: 2
+				}
+				{
+					id: "0124ED785168A2CC"
+					type: "xp"
+					xp: 199
+				}
+				{
+					id: "37F695E3E32C3741"
+					type: "item"
+					item: "miningmaster:air_malachite"
+				}
+				{
+					id: "11908DE55025F155"
+					type: "item"
+					item: "stellarisdlc:attribute_scrap"
+				}
+				{
+					id: "78CFCFA1EBF02A1F"
+					type: "item"
+					item: "stellarisdlc:strangedirt"
+				}
+			]
+		}
+		{
+			title: "进度：&6自然中枢: Nature Dungeon"
+			x: -12.0d
+			y: 0.5d
+			shape: "diamond"
+			subtitle: "&a宏伟的圣堂……复苏的石人守护这里"
+			description: [
+				"&a               植物繁茂的上层透露着强烈的生命气息"
+				"                         猜猜这个斧头是用来干什么的"
+				""
+				"&c不要在蛛王和大树无敌期间（刚进房间5s）打他俩，会导致崩溃"
+			]
+			dependencies: ["41F4D87AB24A0481"]
+			id: "535F8DEAA5E91E1F"
+			tasks: [{
+				id: "75D274E8B233108E"
+				type: "advancement"
+				advancement: "blue_skies:everbright/enter_nature_dungeon"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "533D6DDBEEDC1CE4"
+					type: "xp"
+					xp: 199
+				}
+				{
+					id: "23A33C5F0275F925"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_axe"
+						Count: 1b
+						tag: {
+							RepairCost: 31
+							Damage: 0
+							Enchantments: [
+								{
+									lvl: 5s
+									id: "minecraft:sharpness"
+								}
+								{
+									lvl: 3s
+									id: "minecraft:sweeping"
+								}
+								{
+									lvl: 5s
+									id: "minecraft:efficiency"
+								}
+								{
+									lvl: 3s
+									id: "minecraft:unbreaking"
+								}
+								{
+									lvl: 2s
+									id: "veinmining:vein_mining"
+								}
+							]
+							Tiered: {
+								Tier: "stellariscraft:epic_axe"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			subtitle: "&a生成在&b永昼之地&a的&c非山地生物群系&a的地下"
+			hide_dependency_lines: true
+			dependencies: ["60FCB994194306C9"]
+			hide: true
+			id: "298552698E4EAF1C"
+			tasks: [{
+				id: "46A644833D676868"
+				type: "item"
+				item: "blue_skies:falsite_ingot"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "40FCA884D1AC3D54"
+					type: "xp"
+					xp: 199
+				}
+				{
+					id: "759ACF8B01D54AB0"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			subtitle: "&a生成在&b永昼之地&a和&c恒晓之地&a的地下"
+			hide_dependency_lines: true
+			dependencies: ["60FCB994194306C9"]
+			hide: true
+			id: "6AA9A1FD3BA74E80"
+			tasks: [{
+				id: "0FFE10283177908B"
+				type: "item"
+				item: "blue_skies:diopside_gem"
+				count: 6L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0CAE9B7BACD2FCA9"
+					type: "xp"
+					xp: 199
+				}
+				{
+					id: "0D534E346FF68F64"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			subtitle: "&a生成在&b永昼之地&a和&c恒晓之地&a的地下"
+			hide_dependency_lines: true
+			dependencies: ["60FCB994194306C9"]
+			hide: true
+			id: "7AD17F61C6450DF4"
+			tasks: [{
+				id: "3222253E2B72C721"
+				type: "item"
+				item: "blue_skies:pyrope_gem"
+				count: 24L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "11C9DCAC70186970"
+					type: "xp"
+					xp: 199
+				}
+				{
+					id: "7EC7459608540332"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 4.5d
+			subtitle: "&a生成在&b永昼之地&a和&c恒晓之地&a的地下"
+			hide_dependency_lines: true
+			dependencies: ["60FCB994194306C9"]
+			hide: true
+			id: "5543E874DA3F420B"
+			tasks: [{
+				id: "1AA3AB69C613C4FF"
+				type: "item"
+				item: "blue_skies:aquite"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "03E68B90A934D2D4"
+					type: "xp"
+					xp: 199
+				}
+				{
+					id: "0A86E360CF2ADB51"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			subtitle: "&a生成在&c恒晓之地&a的&f水晶沙漠生物群系&a的地下"
+			hide_dependency_lines: true
+			dependencies: ["60FCB994194306C9"]
+			hide: true
+			id: "3E3A4A7EB4488869"
+			tasks: [{
+				id: "3769E62506C3C47A"
+				type: "item"
+				item: "blue_skies:horizonite_ingot"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "33D1BE8BF19E277E"
+					type: "xp"
+					xp: 199
+				}
+				{
+					id: "7294E1446300C829"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			subtitle: "&a生成在&b永昼之地&a的&c非山地生物群系&a的地下"
+			description: ["为什么不试试神奇的炼金台和守夜人呢？"]
+			hide_dependency_lines: true
+			dependencies: ["60FCB994194306C9"]
+			hide: true
+			id: "12B2E8810010C4DD"
+			tasks: [{
+				id: "58928332B5DE9D33"
+				type: "item"
+				item: "blue_skies:ventium_ingot"
+				count: 24L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3188542AC309A2C2"
+					type: "xp"
+					xp: 199
+				}
+				{
+					id: "6F34C33396D64D75"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			subtitle: "&a它们是为数不多的获得加强的蔚蓝道具"
+			hide_dependency_lines: true
+			dependencies: ["18D89E05E1018626"]
+			id: "597FC6FDDC0D8ECB"
+			tasks: [
+				{
+					id: "54C3339B548373C4"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "62FC9E565A2D8B22"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5B931C55F51FA0B2"
+					type: "item"
+					item: "minecraft:totem_of_undying"
+				}
+				{
+					id: "6551AF3AE0D0D015"
+					type: "xp"
+					xp: 199
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -5.0d
+			subtitle: "&a它们是为数不多的获得加强的蔚蓝道具"
+			hide_dependency_lines: true
+			dependencies: ["18D89E05E1018626"]
+			id: "351B778DBEBE0E07"
+			tasks: [
+				{
+					id: "43F96624A60BA605"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3C045EF68533E926"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "51BCBDD0652AAA0D"
+					type: "item"
+					item: "minecraft:totem_of_undying"
+				}
+				{
+					id: "2E752F89A77D6D0A"
+					type: "item"
+					item: "stellariscraft:adventurespar"
+				}
+				{
+					id: "1D27580FC6CBDA08"
+					type: "xp"
+					xp: 199
+				}
+			]
+		}
+		{
+			title: "&d末地之证--外壳"
+			icon: "stellarisdlc:evidenceskies_1"
+			x: 0.5d
+			y: 0.5d
+			shape: "rsquare"
+			subtitle: "&a似乎还需要将&d&n核心&r&a镶嵌进去"
+			dependencies: [
+				"3AF9F254A6B82782"
+				"7A9E8126545ECAC1"
+				"60FCB994194306C9"
+			]
+			hide: true
+			size: 2.5d
+			id: "69B3C66D955218FC"
+			tasks: [{
+				id: "0A343EF3181904D9"
+				type: "item"
+				item: "stellarisdlc:evidenceskies_1"
+			}]
+			rewards: [
+				{
+					id: "3FF966B107675CD9"
+					type: "xp"
+					xp: 199
+				}
+				{
+					id: "09E82E3C8ABAA3BE"
+					type: "item"
+					item: "stellariscraft:adventurespar"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -18.0d
+			y: 0.5d
+			subtitle: "&b脚踩蛛王，手撕大树"
+			description: ["tips:要摘掉蔚蓝之证才能完成"]
+			dependencies: ["7A9E8126545ECAC1"]
+			hide: true
+			id: "6FA3C1C5DAD17105"
+			tasks: [{
+				id: "27E01F7E467457E1"
+				type: "advancement"
+				advancement: "blue_skies:everbright/kill_starlit_crusher_special"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "1EF1BCCB3E91FB99"
+					type: "item"
+					item: {
+						id: "blue_skies:crushing_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "15AE3D2EA78087CB"
+					type: "xp"
+					xp: 199
+				}
+			]
+		}
+		{
+			x: 19.0d
+			y: 0.5d
+			subtitle: "&c哼！想逃？"
+			dependencies: ["3AF9F254A6B82782"]
+			hide: true
+			id: "1CC9B571265BCCE3"
+			tasks: [{
+				id: "15F55009004755E7"
+				type: "advancement"
+				advancement: "blue_skies:everdawn/kill_starlit_arachnarch_special"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "5801D675CE631F66"
+					type: "item"
+					item: {
+						id: "blue_skies:venom_sac"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "63B1A017B289AE4A"
+					type: "item"
+					item: {
+						id: "blue_skies:different_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0BF90FB7CBA6EC63"
+					type: "item"
+					item: "mowziesmobs:naga_spawn_egg"
+					count: 2
+				}
+				{
+					id: "149DAB958363F692"
+					type: "xp"
+					xp: 199
+				}
+			]
+		}
+		{
+			title: "&5恒晓之地"
+			icon: "blue_skies:everdawn_portal"
+			x: 4.0d
+			y: 0.5d
+			shape: "rsquare"
+			subtitle: "&6嘿！你的蔚蓝之证呢！"
+			hide_dependency_lines: true
+			dependencies: ["12AAD2969091AD80"]
+			hide: true
+			size: 1.5d
+			id: "12778C631A6323B0"
+			tasks: [{
+				id: "3390180EFDB70A2D"
+				type: "dimension"
+				dimension: "blue_skies:everdawn"
+			}]
+			rewards: [{
+				id: "60EE6EA4AB884E04"
+				type: "xp"
+				xp: 199
+			}]
+		}
+		{
+			title: "注能剑"
+			icon: {
+				id: "blue_skies:infused_arc_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Tiered: {
+						Tier: "stellariscraft:talented3_lightweight_sword"
+					}
+				}
+			}
+			x: 0.5d
+			y: -6.5d
+			subtitle: "集齐蔚蓝隐藏任务获得"
+			hide_dependency_lines: true
+			dependencies: [
+				"60FCB994194306C9"
+				"1CC9B571265BCCE3"
+				"6FA3C1C5DAD17105"
+			]
+			hide: true
+			id: "74A6FB2136574180"
+			tasks: [{
+				id: "279F0E1283DA6AC6"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "111DC303450E9F58"
+					type: "xp"
+					xp: 199
+				}
+				{
+					id: "4BF28842F053003C"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8808305787422060780L
+				}
+				{
+					id: "54037FC0CF1AEB02"
+					type: "item"
+					item: {
+						id: "blue_skies:infused_arc_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Tiered: {
+								Tier: "stellariscraft:talented3_lightweight_sword"
+							}
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			title: "传送门方块兑换"
+			x: 2.0d
+			y: -3.5d
+			dependencies: ["12AAD2969091AD80"]
+			hide: true
+			can_repeat: true
+			id: "1D82F5021FAAE467"
+			tasks: [{
+				id: "7B0762D3394626FB"
+				type: "item"
+				item: "blue_skies:cracked_lunar_stonebrick"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "27A793318CF4B39B"
+				type: "item"
+				item: "blue_skies:lunar_stonebrick"
+			}]
+		}
+		{
+			title: "传送门方块兑换"
+			x: -1.0d
+			y: -3.5d
+			dependencies: ["12AAD2969091AD80"]
+			hide: true
+			can_repeat: true
+			id: "3D3E50E1C01DCD17"
+			tasks: [{
+				id: "2B3C3897D7ABD6A3"
+				type: "item"
+				item: "blue_skies:cracked_turquoise_stonebrick"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "549CFB9143B584CC"
+				type: "item"
+				item: "blue_skies:turquoise_stonebrick"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			dependencies: ["12AAD2969091AD80"]
+			can_repeat: true
+			id: "255F85608F777E4D"
+			tasks: [{
+				id: "22142781F1DC4F43"
+				type: "item"
+				item: "blue_skies:lunar_stonebrick"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "760601397351593F"
+				type: "item"
+				item: "blue_skies:turquoise_stonebrick"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			dependencies: ["12AAD2969091AD80"]
+			can_repeat: true
+			id: "4604A4F33829455B"
+			tasks: [{
+				id: "7E2641E0312769F9"
+				type: "item"
+				item: "blue_skies:turquoise_stonebrick"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "52C5437FA52601CA"
+				type: "item"
+				item: "blue_skies:lunar_stonebrick"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

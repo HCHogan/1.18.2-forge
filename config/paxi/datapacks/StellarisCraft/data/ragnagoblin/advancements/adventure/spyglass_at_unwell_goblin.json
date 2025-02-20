@@ -1,0 +1,59 @@
+{
+  "parent": "ragnagoblin:adventure/spyglass_at_goblin",
+  "display": {
+    "icon": {
+      "item": "minecraft:spyglass",
+      "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\", lvl:1}], 'quark:RuneAttached':1, 'quark:RuneColor':{Count:1, id:\"quark:purple_rune\"}}"
+    },
+    "title": {
+      "translate": "advancements.ragnagoblin.spyglass_at_unwell_goblin.title"
+    },
+    "description": {
+      "translate": "advancements.ragnagoblin.spyglass_at_unwell_goblin.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "spyglass_at_unwell_goblin": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "player": {
+                "looking_at": {
+                  "type": "ragnagoblin:ragna_goblin",
+                  "effects": {
+                    "minecraft:poison": {
+                      "amplifier": 0,
+                      "duration": {
+                        "min": 0,
+                        "max": 100
+                      },
+                      "visible": true
+                    }
+                  }
+                }
+              }
+            },
+            "entity": "this"
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "spyglass_at_unwell_goblin"
+    ]
+  ]
+}
